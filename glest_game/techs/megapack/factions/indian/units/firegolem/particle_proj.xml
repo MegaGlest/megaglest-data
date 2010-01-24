@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" luminance="true" path="images/catapult_particle_proj.bmp"/>
+    	<model value="true" path="models/stone_model.g3d"/>
+	<primitive value="quad"/>
+	<offset x="1.5" y="0" z="0"/>
+	<color red="1.0" green="0.4" blue="0.0" alpha="0.3" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.00" />
+    	<size value="0.5" />
+    	<size-no-energy value="4" />
+    	<speed value="20" />
+	<gravity value="0"/>
+    	<emission-rate value="20" />
+    	<energy-max value="20" />
+    	<energy-var value="20" />
+	
+	<trajectory type="parabolic">
+		<speed value="12.0"/>
+		<scale value="2.5"/>
+	</trajectory>
+</projectile-particle-system>

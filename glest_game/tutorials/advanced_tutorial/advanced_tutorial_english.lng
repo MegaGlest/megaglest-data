@@ -1,0 +1,39 @@
+;message headers
+GlestAdvancedTutorial=Glest Advanced Tutorial
+Promoting=Promoting Units
+WellDone=Well Done!
+Summoning=Summoning
+Energy=Energy
+Ritual=Ritual
+Armies=Armies
+
+;message strings
+Welcome=Welcome to the Glest Advanced Tutorial, here you will learn the some of the more advanced features of the game.
+MagicBrief=You are in command of the Magic faction, which uses mages and summoned creatures to fight.
+InitiateBrief=Initiates are the basic Magic unit, they can harvest resources and build structures.
+InitiatePromotion=Initiates can be promoted to Battlemages, to do so, select an Initiate, and use the "Promote to Battlemage" command. 
+BattlemageBrief=Battlemages are the core Magic warriors, they have powerful ranged attacks and also good speed and resistance.
+EnergyBrief=Magic units usually need Energy to be produced, Energy is not consumed like Food, but it is only requiered when the unit is created. It is produced by Energy Sources.
+EnergyBrief2=Make sure you always have enough Energy to produce new units.
+SummonedUnitsBrief=The other way the Magic faction produces units is by summoning them. You will need a Summoner for this, they are produced at the Summoners Guild.
+SummonerBrief=Summoners can create several types of creatures, the most basic one is the Daemon.
+DaemonBrief=Daemons are really weak but also very cheap, they are useful as basic melee warriors and are also good for scouting.
+OtherSummonedCreatures=Summoners can create more advanced creatures, like Ghost Armors and Dragons, however they require that you research the right upgrades.
+GhostArmorRequirements=Ghost Armors require the Ancient Summoning upgrade, that can be researched at the Summoners Guild.
+GhostArmorBrief=Ghost Armors are a medium melee unit, useful to keep enemy warriors away from your Battlemages.
+RitualBrief=Initiates have a second build command, called Ritual, used to build advanced structures and also powerful creatures like the Golem. You will need a Library to access them.
+GolemBrief=Golems are very powerful defensive units, they have a powerful attack and very good resistance, but they can only move as long as they have enough energy points.
+ArmyManagement=As you produce higher numbers of units, they might become difficult to manage.
+DoubleClickBrief=By double clicking on a unit, you can select all the units of the same type in the surroudings.
+GroupSelectBrief=You can define groups of units by selecting them and then pressing Control and a number key, then you can recall groups by pressing the number key again.
+FinalMission=As a final test, now you will have to build an army and defeat your enemy.
+
+;objective strings
+PromoteInitiate=Objective: Promote an Initiate to Battlemage.
+ProduceSummoner=Objective: Build a Summoners Guild, then produce a Summoner.
+ProduceDaemon=Objective: Summon a Daemon.
+ProduceGhostArmor=Objective: Research Ancient Summoning, then summon a Ghost Armor.
+BuildEnergySource=Objective: Build an Energy Source.
+ProduceGolem=Objective: Build Library and then use an Initiate to perform a ritual to build a Golem.
+DefeatEnemy=Objective: Build an army, locate and defeat your enemy.
+			

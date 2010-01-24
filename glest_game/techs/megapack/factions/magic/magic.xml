@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+        <starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="400"/>	
+		<resource name="stone" amount="400"/>	
+	</starting-resources>
+	<starting-units>
+		<unit name="mage_tower" amount="1"/>
+		<unit name="energy_source" amount="1"/>
+		<unit name="initiate" amount="3"/>
+		<unit name="battlemage" amount="1"/>
+		<unit name="summoner" amount="1"/>
+		<unit name="daemon" amount="1"/>
+                <unit name="archmage" amount="0"/>
+                <unit name="dragon" amount="0"/>
+                <unit name="tower_of_souls" amount="0"/>
+                <unit name="behemoth" amount="0"/>
+                <unit name="wicker_behemoth" amount="0"/>
+                <unit name="drake_rider" amount="0"/>
+                <unit name="golem" amount="1"/>
+                <unit name="library" amount="0"/>
+                <unit name="archmage_tower" amount="0"/>
+                <unit name="summoner_guild" amount="0"/>
+                <unit name="power_golem" amount="0"/>
+	</starting-units>	
+	<music value="true" path="music/music_magic.ogg"/>
+</faction>

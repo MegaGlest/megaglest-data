@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<splash-particle-system>
+    	<texture value="true" path="../catapult/images/catapult_particle_splash.bmp" luminance="true"/>
+    	<model value="false"/>
+	<primitive value="quad"/>
+	<offset x="0" y="0" z="0"/>
+	<color red="1.0" green="0.5" blue="0.0" alpha="0.8" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+    	<size value="2" />
+    	<size-no-energy value="1.5" />
+    	<speed value="10.0" />
+	<gravity value="-0.25"/>
+    	<emission-rate value="20" />
+    	<energy-max value="25" />
+    	<energy-var value="20" />
+
+	<emission-rate-fade value="3"/>
+	<vertical-spread a="1" b="1"/>
+	<horizontal-spread a="0.5" b="0.3"/>
+</splash-particle-system>

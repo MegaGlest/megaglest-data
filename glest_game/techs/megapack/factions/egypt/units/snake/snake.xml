@@ -1,0 +1,182 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="450" regeneration="5"/>
+		<max-ep value="0" regeneration="0"/>
+		<armor value="15"/>	
+		<armor-type value="leather"/>
+		<sight value="12"/>
+		<time value="70"/>
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="expert" kills="5"/>
+			<level name="master" kills="15"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+		</unit-requirements>
+		<upgrade-requirements>
+		</upgrade-requirements>
+		<resource-requirements>
+			<resource name="gold" amount="140"/>
+			<resource name="stone" amount="50"/>
+			<resource name="food" amount="1"/>
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/snake.bmp"/>
+		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/archmage_select1.wav"/>
+			<sound path="sounds/archmage_select2.wav"/>
+			<sound path="sounds/archmage_select3.wav"/>
+			<sound path="sounds/archmage_select4.wav"/>
+			<sound path="sounds/archmage_select5.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/archmage_ack1.wav"/>
+			<sound path="sounds/archmage_ack2.wav"/>
+			<sound path="sounds/archmage_ack3.wav"/>
+			<sound path="sounds/archmage_ack4.wav"/>
+			<sound path="sounds/archmage_ack5.wav"/>
+			<sound path="sounds/archmage_ack6.wav"/>
+			<sound path="sounds/archmage_ack7.wav"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="60"/>
+			<animation path="models/snake_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+				
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>
+			<ep-cost value="0"/>
+			<speed value="140"/>
+			<anim-speed value="90"/>
+			<animation path="models/snake_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="poison_shot_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="75"/>
+			<anim-speed value="75"/>
+			<animation path="models/snake_attacking.g3d"/>
+			<sound enabled="true" start-time="0.4">
+				<sound-file path="sounds/archmage_attack1.wav"/>
+				<sound-file path="sounds/archmage_attack2.wav"/>
+				<sound-file path="sounds/archmage_attack3.wav"/>
+				<sound-file path="sounds/archmage_attack4.wav"/>
+				<sound-file path="sounds/archmage_attack6.wav"/>
+				<sound-file path="sounds/archmage_attack8.wav"/>
+				<sound-file path="sounds/archmage_attack11.wav"/>
+				<sound-file path="sounds/archmage_attack12.wav"/>
+				<sound-file path="sounds/archmage_attack13.wav"/>
+				<sound-file path="sounds/archmage_attack15.wav"/>
+				<sound-file path="sounds/archmage_attack16.wav"/>
+			</sound>
+			<attack-strenght value="140"/>
+			<attack-var value="30"/>
+			<attack-range value="9"/>
+			<attack-type value="energy"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.5"/>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="sounds/archmage_hit1.wav"/>
+					<sound-file path="sounds/archmage_hit2.wav"/>
+					<sound-file path="sounds/archmage_hit3.wav"/>
+					<sound-file path="sounds/archmage_hit4.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="3"/>
+				<damage-all value="false"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+		</skill>
+
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>	
+			<ep-cost value="0"/>
+			<speed value="120"/>
+			<anim-speed value="60"/>
+			<animation path="models/snake_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/archmage_die1.wav"/>
+				<sound-file path="sounds/archmage_die2.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+		
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../spearman/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../spearman/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="poison_shot"/>
+			<image path="images/snake_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="poison_shot_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../spearman/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="poison_shot_skill"/>
+		</command>
+
+	</commands>
+</unit>

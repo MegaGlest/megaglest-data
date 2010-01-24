@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<parameters>
+		<size value="4" />
+		<height value="4" />
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="wood"/>		
+		<sight value="5" />
+		<time value="120" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1011"/>
+			<row value="1011"/>
+			<row value="0000"/>
+			<row value="1011"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="castle" />
+			<unit name="technodrome" />
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="150" />
+			<resource name="wood" amount="200" />
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/aerodrome.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../barracks/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../barracks/sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../barracks/sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<skills>
+
+		<skill>
+			<name value="be_built_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="300"/>
+			<animation path="models/aerodrome_construction.g3d"/>
+			<sound enabled="false"/>
+			<type value="be_built"/>
+		</skill>
+		
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="100"/>
+			<animation path="models/aerodrome.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="produce"/>
+			<name value="produce_ornithopter_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="200"/>
+			<animation path="models/aerodrome_ornithopter.g3d"/>
+			<sound enabled="true" start-time="0.2">
+				<sound-file path="../technician/sounds/technician_build1.wav"/>
+				<sound-file path="../technician/sounds/technician_build2.wav"/>
+				<sound-file path="../technician/sounds/technician_build3.wav"/>	
+				<sound-file path="../technician/sounds/technician_build4.wav"/>									
+				<sound-file path="../technician/sounds/technician_build5.wav"/>	
+				<sound-file path="../technician/sounds/technician_build6.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="produce"/>
+			<name value="produce_airship_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="200"/>
+			<animation path="models/aerodrome_airship.g3d"/>
+			<sound enabled="true" start-time="0.2">
+				<sound-file path="../technician/sounds/technician_build1.wav"/>
+				<sound-file path="../technician/sounds/technician_build2.wav"/>
+				<sound-file path="../technician/sounds/technician_build3.wav"/>	
+				<sound-file path="../technician/sounds/technician_build4.wav"/>									
+				<sound-file path="../technician/sounds/technician_build5.wav"/>	
+				<sound-file path="../technician/sounds/technician_build6.wav"/>
+			</sound>
+		</skill>		
+		
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300"/>
+			<anim-speed value="300" />
+			<animation path="../castle/destruction_models/technodrome_destruction.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../barracks/sounds/tech_building_fall5.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="produce_ornithopter"/>
+			<image path="../ornithopter/images/ornithopter.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_ornithopter_skill"/>
+			<produced-unit name="ornithopter"/>
+			
+		</command>
+
+               <command>
+			<type value="produce"/>
+			<name value="produce_airship"/>
+			<image path="../airship/images/airship.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_airship_skill"/>
+			<produced-unit name="airship"/>
+			
+		</command>
+	</commands>
+</unit>

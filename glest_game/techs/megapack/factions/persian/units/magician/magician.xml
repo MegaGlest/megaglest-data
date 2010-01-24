@@ -1,0 +1,292 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="3"/>
+		<max-hp value="700" regeneration="3"/>
+		<max-ep value="0"/>
+		<armor value="20"/>	
+		<armor-type value="leather"/>				
+		<sight value="15"/>
+		<time value="60"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="elite" kills="5"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+			<field value="air"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<unit name="tent"/>
+		</unit-requirements>
+		<upgrade-requirements>
+			<upgrade name="magic_level_1"/>
+		</upgrade-requirements>
+		<resource-requirements>
+			<resource name="gold" amount="200"/>
+			<resource name="wood" amount="100"/>
+			<resource name="stone" amount="100"/>
+			<resource name="food" amount="1"/>				
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/magician.bmp"/>
+		<image-cancel path="../genie/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/select1.wav"/>
+			<sound path="sounds/select2.wav"/>
+			<sound path="sounds/select3.wav"/>
+			<sound path="sounds/select4.wav"/>
+			<sound path="sounds/select5.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/ack1.wav"/>
+			<sound path="sounds/ack2.wav"/>
+			<sound path="sounds/ack3.wav"/>
+			<sound path="sounds/ack4.wav"/>
+			<sound path="sounds/ack5.wav"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="45"/>
+			<animation path="models/magician_ambient.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="220"/>
+			<anim-speed value="85"/>
+			<animation path="models/magician_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="charge_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="250"/>
+			<anim-speed value="90"/>
+			<animation path="models/magician_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+
+
+		<skill>
+			<type value="repair"/>
+			<name value="heal"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="50"/>
+			<animation path="models/magician_healing.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/shaman_heal1.wav"/>	
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="repair"/>
+			<name value="repair_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="50"/>
+			<animation path="models/magician_building.g3d"/>
+			<sound enabled="false" start-time="0">
+				<sound-file path="sounds/shaman_build1.wav"/>
+				<sound-file path="sounds/shaman_build2.wav"/>
+				<sound-file path="sounds/shaman_build3.wav"/>
+				<sound-file path="sounds/shaman_build4.wav"/>
+				<sound-file path="sounds/shaman_build5.wav"/>
+				<sound-file path="sounds/shaman_build6.wav"/>
+			</sound>
+
+		</skill>
+                
+
+
+
+		<skill>
+			<type value="build"/>
+			<name value="build_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="180"/>
+			<anim-speed value="50"/>
+			<animation path="models/magician_building.g3d"/>
+			<sound enabled="false" start-time="0">
+				<sound-file path="sounds/shaman_build1.wav"/>
+				<sound-file path="sounds/shaman_build2.wav"/>
+				<sound-file path="sounds/shaman_build3.wav"/>
+				<sound-file path="sounds/shaman_build4.wav"/>
+				<sound-file path="sounds/shaman_build5.wav"/>
+				<sound-file path="sounds/shaman_build6.wav"/>
+			</sound>
+		</skill>		
+
+
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
+			<animation path="models/magician_attacking.g3d"/>
+			<sound enabled="true" start-time="0.0">
+				<sound-file path="/sounds/throw2.wav"/>
+			</sound>
+			<attack-strenght value="150"/>
+			<attack-var value="80"/>
+			<attack-range value="10"/>
+			<attack-type value="energy"/>
+			<attack-start-time value="0.67"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="/sounds/hit.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>		
+		</skill>
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/magician_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/die1.wav"/>
+				<sound-file path="sounds/die2.wav"/>
+				<sound-file path="sounds/die3.wav"/>
+				<sound-file path="sounds/die4.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+		
+		<command>
+			<type value= "stop"/>
+			<name value="stop"/>
+			<image path="../genie/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../genie/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/fire.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+			</upgrade-requirements>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="repair"/>
+			<name value="repair"/>
+			<image path="../worker/images/worker_repair.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="repair_skill"/>
+			<repaired-units>	
+				<!--unit name="catapult"/-->	
+				<unit name="snake_basket"/>
+                                <!--unit name="air_ballista"/>	
+                                <unit name="aerodrome"/-->					
+			</repaired-units>		
+		</command>
+
+		<command>
+			<type value= "build"/>
+			<name value="build_snake_basket"/>
+			<image path="../worker/images/worker_build_basic.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<build-skill value="build_skill"/>
+			<buildings>
+				<building name="snake_basket"/>			
+			</buildings>
+			<start-sound enabled="false"/>
+			<built-sound enabled="true">
+				<sound-file path="../worker/sounds/worker_work_end1.wav"/>		    
+                        </built-sound>	
+		</command>
+
+		<command>
+			<type value="repair"/>
+			<name value="heal"/>
+			<image path="images/heal.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="heal"/>
+			<repaired-units>	
+				<unit name="worker"/>	
+				<unit name="magician"/>		
+				<unit name="stickfighter"/>	
+				<unit name="genie"/>		
+				<unit name="princess"/>		
+				<unit name="swordman"/>		
+				<unit name="flying_carpet"/>		
+				<unit name="sheep"/>		
+				<unit name="elephant"/>
+                                <unit name="fakir"/>					
+			</repaired-units>		
+		</command>
+		
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../genie/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+			</upgrade-requirements>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+		
+	</commands>
+</unit>

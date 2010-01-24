@@ -1,0 +1,39 @@
+;message headers
+GlestBasicTutorial=Glest Basic Tutorial
+WellDone=Well Done!
+Resources=Resources
+Combat=Combat
+Buildings=Buildings
+
+;message strings
+Welcome=Welcome to the Glest Basic Tutorial. Here you will learn the basics of the game. 
+WillBeUsingTech=You are in command of the Tech faction, which uses medieval warriors and mechanical devices to fight.
+NeedWorkers=To harvest resources you will need Workers. To produce some first select the Castle then use the "Produce Worker" command.
+SelectAndCommand=Units are selected by left clicking on them, commands are given by either right clicking on a target or at the terrain. 
+HowToMine=To mine Gold, first select a Worker, then right click on a Gold patch.
+WorkersKeepOnHarvesting=Workers will keep on harvesting and taking resources to a building that can store the type of resource they are carrying.
+ResourceInformation=Resource information is displayed at the top of the screen, the number on the left is the current amount, the number on the right is the storage capacity.
+OtherResources=Other resources like Wood or Stone are harvested in the same way as Gold.
+TechResourceNeeds=The Tech faction usually needs a lot of Gold and Wood, and a bit of Stone.
+TechConsumesFood=Every unit in the Tech faction consumes Food. Without Food units will take damage and die. Food can be produced by farm animals. Animals are produced at the Farm.
+HaveEnoughAnimals=Always remember to have enough animals to feed your units.
+BalanceDisplay=The balance between Food consumption and production is displayed in brackets next to the Food storage at the top of the screen.
+TechWarriorsAtBarracks=To defeat your enemy you will need some warriors, most Tech warriors are produced at the Barracks.
+HowToBuildBarracks=To build a Barracks select a Worker, click on "Build Basic" > "Barracks" and then select a spot for the building.
+RememberToBuildBarracks=Remember to always build a Barracks at the beginning, this will allow you to quickly produce warriors.
+SwordmanBrief=The basic Tech warrior is the Swordman, select the Barracks, then click on "Produce Swordman" to produce one. Make sure you have enough resources.
+HaveWarriorsAtBase=You should always have some warriors at your base, they will automatically attack any enemies in range.
+ArcherBrief=Archers are the basic ranged unit of the Tech faction. They are also produced at the Barracks.
+ProduceWarriors=Produce a few more warriors to defend your base from enemy attacks.
+
+;objective strings
+ProduceWorkers=Objective: Produce 3 Workers.
+HarvestWoodAndStone=Objective: Harvest 100 wood and 150 stone units.
+ProduceCow=Objective: Produce a Cow.
+MineGold=Objective: Mine 100 Gold units.
+BuildBarracks=Objective: Build Barracks.
+ProduceSwordman=Objective: Produce a Swordman.
+ProduceArcher=Objective: Produce an Archer.
+ProduceMoreWarriors=Objective: Produce more warriors to deal with the upcoming attack.
+
+			

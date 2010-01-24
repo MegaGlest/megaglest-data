@@ -1,0 +1,307 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="700" regeneration="0"/>
+		<max-ep value="500" regeneration="5"/>
+		<armor value="20"/>	
+		<armor-type value="leather"/>				
+		<sight value="10"/>
+		<time value="120"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="elite" kills="3"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="200"/>
+			<resource name="wood" amount="90"/>
+			<resource name="food" amount="1"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/priest.bmp"/>
+		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/swordman_select1.wav"/>
+			<sound path="sounds/swordman_select2.wav"/>
+			<sound path="sounds/swordman_select3.wav"/>
+			<sound path="sounds/swordman_select4.wav"/>
+			<sound path="sounds/swordman_select5.wav"/>
+			<sound path="sounds/swordman_select6.wav"/>
+			<sound path="sounds/swordman_select7.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/swordman_ack1.wav"/>
+			<sound path="sounds/swordman_ack2.wav"/>
+			<sound path="sounds/swordman_ack3.wav"/>
+			<sound path="sounds/swordman_ack4.wav"/>
+			<sound path="sounds/swordman_ack5.wav"/>
+			<sound path="sounds/swordman_ack6.wav"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="55"/>
+			<animation path="models/pharao_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="produce"/>
+			<name value="produce_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="150"/>
+			<anim-speed value="50"/>
+			<animation path="models/pharao_producing.g3d"/>
+			<sound enabled="true" start-time="0.3">
+				<sound-file path="sounds/summoner_summon1.wav"/>
+				<sound-file path="sounds/summoner_summon2.wav"/>
+				<sound-file path="sounds/summoner_summon3.wav"/>
+				<sound-file path="sounds/summoner_summon4.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="120"/>
+			<animation path="models/pharao_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+                
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="15"/>
+			<speed value="250"/>
+			<anim-speed value="250"/>
+			<animation path="models/pharao_attacking.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/archmage_attack1.wav"/>
+				<sound-file path="sounds/archmage_attack2.wav"/>
+				<sound-file path="sounds/archmage_attack3.wav"/>
+				<sound-file path="sounds/archmage_attack4.wav"/>
+				<sound-file path="sounds/archmage_attack6.wav"/>
+				<sound-file path="sounds/archmage_attack8.wav"/>
+				<sound-file path="sounds/archmage_attack11.wav"/>
+				<sound-file path="sounds/archmage_attack12.wav"/>
+				<sound-file path="sounds/archmage_attack13.wav"/>
+				<sound-file path="sounds/archmage_attack15.wav"/>
+				<sound-file path="sounds/archmage_attack16.wav"/>
+			</sound>
+			<attack-strenght value="85"/>
+			<attack-var value="25"/>
+			<attack-range value="9"/>
+			<attack-type value="energy"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.5"/>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="sounds/archmage_hit1.wav"/>
+					<sound-file path="sounds/archmage_hit2.wav"/>
+					<sound-file path="sounds/archmage_hit3.wav"/>
+					<sound-file path="sounds/archmage_hit4.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="4"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+		</skill>
+
+		<skill>
+			<type value="repair"/>
+			<name value="heal"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="110"/>
+			<animation path="models/pharao_healing.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/shaman_heal1.wav"/>	
+			</sound>
+		</skill>
+
+		<!--skill>
+			<type value="move"/>
+			<name value="charge_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="220"/>
+			<anim-speed value="125"/>
+			<animation path="models/spearman_charging.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="80"/>
+			<animation path="models/spearman_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill-->	
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="90"/>
+			<anim-speed value="50"/>
+			<animation path="models/pharao_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/technician_die1.wav"/>
+				<sound-file path="sounds/technician_die2.wav"/>
+				<sound-file path="sounds/technician_die3.wav"/>	
+				<sound-file path="sounds/technician_die4.wav"/>									
+			</sound>			
+			<fade value="false"/>
+		</skill>						
+
+		<skill>
+			<type value="upgrade"/>	
+			<name value="upgrade_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="40" />
+			<animation path="models/pharao_attacking.g3d"/>
+			<sound enabled="false" />
+		</skill>
+
+	</skills>
+	
+	<commands>
+		
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../spearman/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../spearman/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="speedup_priest_production"/>
+			<image path="../../upgrades/speedup_priest_production/images/stables.bmp" />
+		<unit-requirements>
+			<unit name="temple" />
+		</unit-requirements>
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="speedup_priest_production"/>
+		</command>
+
+		<command>
+			<type value="repair"/>
+			<name value="heal"/>
+			<image path="images/heal.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="heal"/>
+			<repaired-units>	
+				<unit name="mummy"/>	
+				<unit name="anubis_warrior"/>		
+				<unit name="chicken"/>	
+				<unit name="priest"/>		
+				<unit name="slave"/>		
+				<unit name="snake"/>		
+				<unit name="spearman"/>		
+				<unit name="spearthrower"/>		
+                                <unit name="scarab"/>					
+			</repaired-units>		
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_mummy" />
+			<image path="../mummy/images/daemon.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="mummy"/>
+		</command>
+                
+		<command>
+			<type value="produce"/>
+			<name value="produce_anubis_warrior" />
+			<image path="../anubis_warrior/images/anubis.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="anubis_warrior"/>
+		</command>
+                
+		<command>
+			<type value="attack"/>
+			<name value="ice_nova"/>
+			<image path="images/priest_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../spearman/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<!--upgrade name="training_field"/-->
+			</upgrade-requirements>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+
+
+		<!--command>
+			<type value="morph"/>
+			<name value="promote_to_guard"/>
+			<image path="../guard/images/guard.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "guard"/>
+			<discount value="60"/>
+		</command-->	
+
+	</commands>
+</unit>

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" luminance="true" path="../archer/images/archer_particle.bmp"/>
+    	<model value="true" path="models/battle_machine_arrow.g3d"/>
+	<primitive value="line"/>
+	<offset x="-1" y="1" z="1"/>
+	<color red="1.0" green="0.5" blue="0.0" alpha="0.5" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.2" />
+    	<size value="3" />
+    	<size-no-energy value="3" />
+    	<speed value="0" />
+	<gravity value="0"/>
+    	<emission-rate value="1" />
+    	<energy-max value="20" />
+    	<energy-var value="0" />
+	
+	<trajectory type="parabolic">
+		<speed value="15"/>
+		<scale value="2.5"/>
+	</trajectory>
+</projectile-particle-system>

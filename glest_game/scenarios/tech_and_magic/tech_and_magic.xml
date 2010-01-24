@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+<difficulty value="4"/>
+	<players>
+		<player control="cpu-ultra" faction="tech" team="2"/>
+		<player control="closed"/>
+		<player control="human" faction="tech" team="1"/>
+		<player control="cpu-ultra" faction="magic" team="2"/>		
+	</players>
+	<map value="mountains"/>
+	<tileset value="forest"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="true"/>	
+	<default-units value="true"/>
+	<default-victory-conditions value="true"/>
+	<scripts/>
+</scenario>

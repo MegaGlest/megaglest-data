@@ -1,0 +1,208 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="700" regeneration="3"/>
+		<max-ep value="500" regeneration="15"/>
+		<armor value="30"/>	
+		<armor-type value="leather"/>
+		<sight value="12"/>
+		<time value="75"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="expert" kills="3"/>
+			<level name="master" kills="10"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+			<light enabled="false"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="75"/>
+			<resource name="energy" amount="1"/>				
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/battlemage.bmp"/>
+		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/battlemage_select1.wav"/>
+			<sound path="sounds/battlemage_select2.wav"/>
+			<sound path="sounds/battlemage_select3.wav"/>
+			<sound path="sounds/battlemage_select4.wav"/>
+			<sound path="sounds/battlemage_select5.wav"/>
+			<sound path="sounds/battlemage_select6.wav"/>
+			<sound path="sounds/battlemage_select7.wav"/>
+			<sound path="sounds/battlemage_select8.wav"/>
+			<sound path="sounds/battlemage_select9.wav"/>
+			<sound path="sounds/battlemage_select10.wav"/>
+			<sound path="sounds/battlemage_select11.wav"/>
+			<sound path="sounds/battlemage_select12.wav"/>
+			<sound path="sounds/battlemage_select13.wav"/>
+			<sound path="sounds/battlemage_select14.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/battlemage_ack1.wav"/>
+			<sound path="sounds/battlemage_ack2.wav"/>
+			<sound path="sounds/battlemage_ack3.wav"/>
+			<sound path="sounds/battlemage_ack4.wav"/>
+			<sound path="sounds/battlemage_ack5.wav"/>
+			<sound path="sounds/battlemage_ack6.wav"/>
+			<sound path="sounds/battlemage_ack7.wav"/>
+			<sound path="sounds/battlemage_ack8.wav"/>
+			<sound path="sounds/battlemage_ack9.wav"/>
+			<sound path="sounds/battlemage_ack10.wav"/>
+		</command-sounds>
+
+	</parameters>
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="40"/>
+			<animation path="models/battlemage_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="250"/>
+			<anim-speed value="100"/>
+			<animation path="models/battlemage_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="40"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/battlemage_attacking.g3d"/>
+			<sound enabled="true" start-time="0.3">
+				<sound-file path="sounds/battlemage_attack1.wav"/>
+				<sound-file path="sounds/battlemage_attack2.wav"/>
+				<sound-file path="sounds/battlemage_attack3.wav"/>
+				<sound-file path="sounds/battlemage_attack4.wav"/>
+				<sound-file path="sounds/battlemage_attack5.wav"/>
+				<sound-file path="sounds/battlemage_attack6.wav"/>
+				<sound-file path="sounds/battlemage_attack7.wav"/>
+				<sound-file path="sounds/battlemage_attack8.wav"/>
+			</sound>
+			<attack-strenght value="140"/>
+			<attack-var value="40"/>
+			<attack-range value="7"/>
+			<attack-type value="energy"/>
+			<attack-fields>
+				<field value="land"/>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.6"/>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="sounds/battlemage_hit1.wav"/>
+					<sound-file path="sounds/battlemage_hit2.wav"/>
+					<sound-file path="sounds/battlemage_hit3.wav"/>
+					<sound-file path="sounds/battlemage_hit4.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="80"/>
+			<animation path="models/battlemage_morphing.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="120"/>
+			<anim-speed value="50"/>
+			<animation path="models/battlemage_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/battlemage_die1.wav"/>
+				<sound-file path="sounds/battlemage_die2.wav"/>
+				<sound-file path="sounds/battlemage_die3.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../archmage/images/magic_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../archmage/images/magic_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="fire_bolt"/>
+			<image path="images/battlemage_fire_bolt.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archmage/images/magic_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="promote_to_archmage"/>
+			<image path="../archmage/images/archmage.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "archmage"/>
+			<discount value="0"/>
+		</command>
+
+	</commands>
+</unit>

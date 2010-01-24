@@ -1,0 +1,143 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="wood"/>		
+		<sight value="12" />
+		<time value="120" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1011"/>
+			<row value="1011"/>
+			<row value="0000"/>
+			<row value="1110"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="castle" />
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="100" />
+			<resource name="wood" amount="150" />
+		</resource-requirements>
+		<resources-stored>
+			<resource name="wood" amount="200" />
+		</resources-stored>
+		<image path="images/blacksmith.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="../barracks/sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../barracks/sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<skills>
+		<skill>
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/blacksmith_construction.g3d" />
+			<sound enabled="false" />
+			<type value="be_built" />
+		</skill>
+		
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/blacksmith.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="150" />
+			<animation path="models/blacksmith_upgrading.g3d" />
+			<sound enabled="true" start-time="0.3">
+				<sound-file path="sounds/anvil1.wav"/>
+				<sound-file path="sounds/anvil2.wav"/>
+				<sound-file path="sounds/anvil3.wav"/>
+				<sound-file path="sounds/anvil4.wav"/>
+			</sound>
+		</skill>
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="../castle/destruction_models/blacksmith_destruction.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../barracks/sounds/tech_building_fall1.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_blade_weapons" />
+			<image path="../../upgrades/blade_weapons/images/blade.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="blade_weapons"/>
+		</command>
+		
+		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_piercing_weapons" />
+			<image path="../../upgrades/piercing_weapons/images/piercing.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="piercing_weapons"/>
+		</command>
+		
+		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_shield" />
+			<image path="../../upgrades/shield_level_1/images/shield1.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="shield_level_1"/>
+		</command>
+		
+		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_shield" />
+			<image path="../../upgrades/shield_level_2/images/shield2.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="shield_level_2"/>
+		</command>
+		
+	</commands>
+</unit>

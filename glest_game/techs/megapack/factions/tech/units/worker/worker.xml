@@ -1,0 +1,331 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<!-- *** parameters *** -->
+
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="600" regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="0"/>
+		<armor-type value="leather"/>					
+		<sight value="9"/>
+		<time value="40"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="75"/>
+			<resource name="food" amount="1"/>			
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/worker.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/worker_select1.wav"/>
+			<sound path="sounds/worker_select2.wav"/>
+			<sound path="sounds/worker_select3.wav"/>
+			<sound path="sounds/worker_select4.wav"/>					
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/worker_ack1.wav"/>
+			<sound path="sounds/worker_ack2.wav"/>
+			<sound path="sounds/worker_ack3.wav"/>
+			<sound path="sounds/worker_ack4.wav"/>		
+			<sound path="sounds/worker_ack5.wav"/>
+			<sound path="sounds/worker_ack6.wav"/>
+			<sound path="sounds/worker_ack7.wav"/>					
+		</command-sounds>
+	</parameters>
+
+
+	<!-- *** skills *** -->
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="55"/>
+			<animation path="models/worker_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="stop"/>
+			<name value="stop_loaded_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="75"/>
+			<anim-speed value="70"/>
+			<animation path="models/worker_standing_loaded.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="stop"/>
+			<name value="stop_loaded_wood_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="75"/>
+			<anim-speed value="70"/>
+			<animation path="models/worker_standing_loaded_wood.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="190"/>
+			<anim-speed value="130"/>
+			<animation path="models/worker_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_wood_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="130"/>
+			<animation path="models/worker_walking_wood.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_gold_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="130"/>
+			<animation path="models/worker_walking_gold.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_loaded_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="190"/>
+			<anim-speed value="100"/>
+			<animation path="models/worker_walking_loaded.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="move_loaded_wood_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="190"/>
+			<anim-speed value="100"/>
+			<animation path="models/worker_walking_loaded_wood.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="build"/>
+			<name value="build_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="105"/>
+			<anim-speed value="100"/>
+			<animation path="models/worker_building.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/worker_build1.wav"/>
+				<sound-file path="sounds/worker_build2.wav"/>
+				<sound-file path="sounds/worker_build3.wav"/>
+			</sound>
+		</skill>	
+		
+		<skill>
+			<type value="harvest"/>
+			<name value="mine_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="225"/>
+			<anim-speed value="90"/>
+			<animation path="models/worker_mining.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/worker_mine1.wav"/>
+				<sound-file path="sounds/worker_mine2.wav"/>
+				<sound-file path="sounds/worker_mine3.wav"/>
+				<sound-file path="sounds/worker_mine4.wav"/>
+				<sound-file path="sounds/worker_mine5.wav"/>
+				<sound-file path="sounds/worker_mine6.wav"/>
+			</sound>
+		</skill>	
+		
+		<skill>
+			<type value="harvest"/>
+			<name value="harvest_wood_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="150"/>
+			<anim-speed value="90"/>
+			<animation path="models/worker_harversting_wood.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/worker_harvest_wood1.wav"/>
+				<sound-file path="sounds/worker_harvest_wood2.wav"/>
+				<sound-file path="sounds/worker_harvest_wood3.wav"/>
+			</sound>
+		</skill>		
+		
+		<skill>
+			<type value="repair"/>
+			<name value="repair_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="40"/>
+			<anim-speed value="100"/>
+			<animation path="models/worker_building.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/worker_build1.wav"/>
+				<sound-file path="sounds/worker_build2.wav"/>
+				<sound-file path="sounds/worker_build3.wav"/>
+			</sound>
+		</skill>		
+		
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
+			<animation path="models/worker_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/worker_die1.wav"/>
+				<sound-file path="sounds/worker_die2.wav"/>
+				<sound-file path="sounds/worker_die3.wav"/>								
+			</sound>			
+			<fade value="false"/>
+		</skill>						
+
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+		
+		<command>
+			<type value= "stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value= "move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value= "build"/>
+			<name value="build_basic"/>
+			<image path="images/worker_build_basic.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<build-skill value="build_skill"/>
+			<buildings>
+                                <building name="farm"/>
+				<building name="barracks"/>
+				<building name="blacksmith"/>	
+				<building name="castle"/>			
+			</buildings>
+			<start-sound enabled="false"/>
+			<built-sound enabled="true">
+				<sound-file path="sounds/worker_work_end1.wav"/>
+				<sound-file path="sounds/worker_work_end2.wav"/>
+				<sound-file path="sounds/worker_work_end3.wav"/>							
+			</built-sound>	
+		</command>
+
+		<command>
+			<type value= "build"/>
+			<name value="build_advanced"/>
+			<image path="images/worker_build_advanced.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<build-skill value="build_skill"/>
+			<buildings>
+				<building name="technodrome"/>
+				<building name="defense_tower"/>
+                	</buildings>
+			<start-sound enabled="false"/>
+			<built-sound enabled="true">
+				<sound-file path="sounds/worker_work_end1.wav"/>
+				<sound-file path="sounds/worker_work_end2.wav"/>
+				<sound-file path="sounds/worker_work_end3.wav"/>							
+			</built-sound>	
+		</command>
+
+		<command>
+			<type value="harvest"/>
+			<name value="mine"/>
+			<image path="images/worker_mine.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_gold_skill"/>
+			<harvest-skill value="mine_skill"/>
+			<stop-loaded-skill value="stop_loaded_skill"/>
+			<move-loaded-skill value="move_loaded_skill"/>
+			<harvested-resources>
+				<resource name="gold"/>	
+				<resource name="stone"/>									
+			</harvested-resources>
+			<max-load value="25"/>
+			<hits-per-unit value="1"/>				
+		</command>
+
+		<command>
+			<type value="harvest"/>
+			<name value="harvest_wood"/>
+			<image path="images/worker_harvest_wood.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_wood_skill"/>
+			<harvest-skill value="harvest_wood_skill"/>
+			<stop-loaded-skill value="stop_loaded_wood_skill"/>
+			<move-loaded-skill value="move_loaded_wood_skill"/>
+			<harvested-resources>
+				<resource name="wood"/>									
+			</harvested-resources>
+			<max-load value="20"/>
+			<hits-per-unit value="1"/>				
+		</command>
+		
+		<command>
+			<type value="repair"/>
+			<name value="repair"/>
+			<image path="images/worker_repair.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="repair_skill"/>
+			<repaired-units>
+				<unit name="farm"/>		
+				<unit name="barracks"/>						
+				<unit name="blacksmith"/>		
+				<unit name="defense_tower"/>		
+				<unit name="technodrome"/>				
+				<unit name="castle"/>
+                                <unit name="aerodrome"/>							
+			</repaired-units>		
+		</command>	
+
+	</commands>
+</unit>

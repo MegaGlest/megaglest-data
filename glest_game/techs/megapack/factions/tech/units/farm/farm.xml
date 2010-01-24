@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="3000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="wood"/>				
+		<sight value="5" />
+		<time value="50" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1101" /> 
+			<row value="1100" /> 
+			<row value="0001" /> 
+			<row value="1001" />
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="castle" />
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="100"/>
+			<resource name="wood" amount="150"/>
+			<resource name="stone" amount="50"/>
+			<resource name="food" amount="-10"/>
+		</resource-requirements>
+		<resources-stored>
+			<resource name="food" amount="20"/>
+		</resources-stored>
+		<image path="images/farm.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../barracks/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../barracks/sounds/tech_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../barracks/sounds/tech_click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="120"/>
+			<speed value="120"/>
+			<anim-speed value="50" />
+			<animation path="models/farm_construction.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/farm.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/farm.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="../castle/destruction_models/farm_destruction.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../barracks/sounds/tech_building_fall3.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+                <skill>
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="300"/>
+			<animation path="models/farm.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+	
+		<command>
+			<type value="produce"/>
+			<name value="produce_pig" />
+			<image path="../pig/images/pig.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="pig"/>
+		</command>	
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_cow" />
+			<image path="../cow/images/cow.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="cow"/>
+		</command>
+
+                <command>
+			<type value="upgrade"/>
+			<name value="research_stables"/>
+			<image path="../../upgrades/stables/images/stables.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="stables"/>
+		</command>	
+
+	</commands>
+</unit>

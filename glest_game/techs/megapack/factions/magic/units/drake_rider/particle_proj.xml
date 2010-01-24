@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" path="../dragon/images/dragon_particle_proj.bmp" luminance="true"/>
+    	<model value="false"/>
+	<primitive value="quad"/>
+	<offset x="0" y="1" z="1"/>
+	<color red="1.0" green="0.5" blue="0.0" alpha="0.5" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+    	<size value="0.4" />
+    	<size-no-energy value="0.05" />
+    	<speed value="10.0" />
+	<gravity value="0"/>
+    	<emission-rate value="30" />
+    	<energy-max value="20" />
+    	<energy-var value="2" />
+	
+	<trajectory type="parabolic">
+		<speed value="8.0"/>
+		<scale value="1"/>
+	</trajectory>
+</projectile-particle-system>

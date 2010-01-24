@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" path="images/pig_particle_proj.bmp" luminance="true"/>
+    	<model value="false"/>
+	<primitive value="quad"/>
+	<offset x="-0.3" y="0.5" z="1"/>
+	<color red="0.6" green="0.2" blue="0.01" alpha="1" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+    	<size value="0.6" />
+    	<size-no-energy value="0.1" />
+    	<speed value="30.0" />
+	<gravity value="0"/>
+    	<emission-rate value="2" />
+    	<energy-max value="20" />
+    	<energy-var value="2" />
+	
+	<trajectory type="linear">
+		<speed value="15.0"/>
+	</trajectory>
+</projectile-particle-system>

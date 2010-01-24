@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<splash-particle-system>
+    	<texture value="true" path="images/dragon_particle_proj.bmp" luminance="true"/>
+    	<model value="false"/>
+	<primitive value="quad"/>
+	<offset x="0" y="0" z="0"/>
+	<color red="1.0" green="0.5" blue="0.0" alpha="0.5" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+    	<size value="0.9" />
+    	<size-no-energy value="0.5" />
+    	<speed value="5.0" />
+	<gravity value="-0.2"/>
+    	<emission-rate value="35" />
+    	<energy-max value="20" />
+    	<energy-var value="2" />
+
+	<emission-rate-fade value="3"/>
+	<vertical-spread a="1" b="1"/>
+	<horizontal-spread a="1" b="0.5"/>
+</splash-particle-system>

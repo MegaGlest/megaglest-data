@@ -1,0 +1,11 @@
+;message headers
+Storming=Storming
+
+;message strings
+Brief1=Help your Summoner attacking all the enemy villages, she must survive.
+
+;objective strings
+ObjectiveWest=Objective: Destroy the west Magic village, the Summoner must survive.
+ObjectiveNorthEast=Objective: Destroy the Tech north east village, the Summoner must survive.
+ObjectiveSouthEast=Objective: Destroy the south east village, the Summoner must survive.
+			

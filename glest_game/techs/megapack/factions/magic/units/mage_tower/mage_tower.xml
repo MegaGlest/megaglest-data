@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="5"/>
+		<height value="6"/>
+		<max-hp value="8000" regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="0"/>
+		<armor-type value="stone"/>				
+		<sight value="15"/>
+		<time value="250"/>
+		<multi-selection value="false"/>
+		<cellmap value="true">
+			<row value="01010"/> 
+			<row value="11011"/> 
+			<row value="00000"/> 
+			<row value="11011"/> 
+			<row value="01010"/> 
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="true" red="0.6" green="0.6" blue="0.8"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="150"/>
+			<resource name="stone" amount="350"/>
+			<resource name="wood" amount="50"/>
+		</resource-requirements>
+		<resources-stored>
+			<resource name= "gold" amount="1800"/>
+			<resource name= "wood" amount="1200"/>				
+			<resource name= "stone" amount="1400"/>				
+		</resources-stored>
+		<image path="images/mage_tower.bmp" />
+		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
+		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../archmage_tower/sounds/magic_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../archmage_tower/sounds/magic_click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="500" />
+			<anim-speed value="100" />
+			<animation path="models/mage_tower.g3d"/>
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="be_built"/>
+			<name value="be_built_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="300"/>
+			<animation path="models/mage_tower_construction.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+			
+
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/mage_tower.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="destruction_models/mage_tower_destruction.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../archmage_tower/sounds/magic_building_fall2.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+	
+		<command>
+			<type value="produce"/>
+			<name value="produce_initiate"/>
+			<image path="../initiate/images/initiate.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="initiate"/>
+		</command>
+		
+	</commands>
+</unit>

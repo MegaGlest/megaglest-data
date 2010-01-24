@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+<difficulty value="3"/>
+	<players>
+		<player control="cpu-ultra" faction="tech" team="2"/>
+		<player control="cpu" faction="tech" team="1"/>
+		<player control="cpu-ultra" faction="magic" team="2"/>		
+		<player control="human" faction="magic" team="1"/>
+	</players>
+	<map value="swamp_of_sorrow"/>
+	<tileset value="forest"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="true"/>
+	<default-units value="true"/>
+	<default-victory-conditions value="true"/>	
+	<scripts/>
+</scenario>

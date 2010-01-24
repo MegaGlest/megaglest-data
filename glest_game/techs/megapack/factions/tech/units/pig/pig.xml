@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<!-- *** parameters *** -->
+
+	<parameters>
+		<size value="1"/>
+		<height value="1"/>
+		<max-hp value="300" regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="0"/>
+		<armor-type value="organic"/>					
+		<sight value="10"/>
+		<time value="40"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="50"/>
+			<resource name="food" amount="-5"/>			
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/pig.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/pig_select1.wav"/>
+			<sound path="sounds/pig_select2.wav"/>
+			<sound path="sounds/pig_select3.wav"/>
+			<sound path="sounds/pig_select4.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/pig_ack1.wav"/>
+			<sound path="sounds/pig_ack2.wav"/>
+			<sound path="sounds/pig_ack3.wav"/>
+			<sound path="sounds/pig_ack4.wav"/>
+		</command-sounds>
+
+	</parameters>
+
+
+	<!-- *** skills *** -->
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="55"/>
+			<animation path="models/pig_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
+			<animation path="models/pig_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+                
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="90"/>
+			<anim-speed value="90"/>
+			<animation path="models/pig_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/pig_die1.wav"/>
+				<sound-file path="sounds/pig_die2.wav"/>
+				<sound-file path="sounds/pig_die3.wav"/>
+				<sound-file path="sounds/pig_die4.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>						
+
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+		
+		<command>
+			<type value= "stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value= "move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		
+	</commands>
+</unit>

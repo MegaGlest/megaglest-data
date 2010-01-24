@@ -1,0 +1,27 @@
+==============================
+Glest Game 3.2.1 License
+==============================
+
+Except where otherwise noted, all of the documentation, multimedia and software included in the Glest Game setup package is copyrighted by The Glest Team.
+
+Copyright (C) 2001-2009 The Glest Team. All rights reserved.
+
+This software is provided without any express or implied warranty. In no event shall the author be held liable for any damages arising from the use of this software.
+
+This software may be redistributed freely, but all redistributions must retain all occurences of the above copyright notice and web site addresses that are currently in place.
+
+
+email: contact_game@glest.org
+web: http://glest.org/
+
+
+The Glest Team:
+
+Programmer: Martiño Figueroa
+Sound artist: Jose Luis González
+2D and 3D artist: Tucho Fernández
+2D artist and web: José Zanni
+SDL port: Matze Braun
+Animation: Félix Menéndez
+3D artist: Marcos Caruncho
+

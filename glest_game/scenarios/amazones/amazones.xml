@@ -1,0 +1,165 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="3"/>
+	<players>
+		<player control="human" faction="tech" team="1"/>
+		<player control="cpu-ultra" faction="norsemen" team="2"/>
+		<player control="cpu-ultra" faction="tech" team="1"/>
+		<player control="closed"/>
+	</players>
+	<map value="in_the_forest"/>
+	<tileset value="forest"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="false"/>
+	<default-units value="false"/>
+	<default-victory-conditions value="false"/>
+	<scripts>
+		<startup>
+
+			-- global vars
+			isSent=0
+
+			--disable AI
+			  disableAi(1)
+			--disableAi(2)
+			--disableAi(3)
+			
+			function addAttackingEnemy(value)
+				enemyCount=enemyCount+1
+				createUnit(value, 1, startLocation(1))
+				enemies[#enemies+1]=lastCreatedUnit()
+				givePositionCommand(lastCreatedUnit(), 'attack',startLocation(0))
+			end
+
+			
+
+  			function sendFlyingUnits()
+				isSent=1
+                        	for i=1, 5 do
+					addAttackingEnemy('flyingvalkyrie')
+				end
+			end
+
+			--my units
+			createUnit('castle', 0, startLocation(0))	
+			createUnit('cow', 0, startLocation(0))	
+			createUnit('worker', 0, startLocation(0))	
+			createUnit('worker', 0, startLocation(0))	
+			createUnit('worker', 0, startLocation(0))	
+			createUnit('swordman', 0, startLocation(0))	
+			createUnit('swordman', 0, startLocation(0))	
+			createUnit('swordman', 0, startLocation(0))	
+			createUnit('archer', 0, startLocation(0))	
+			createUnit('archer', 0, startLocation(0))	
+			giveResource('gold', 0, 1000); 
+			giveResource('wood', 0, 1300); 
+			giveResource('stone', 0, 350); 
+			giveResource('food', 0, 1000);
+
+
+			--allied units
+			createUnit('castle', 2, startLocation(0))
+			alliedCastle=lastCreatedUnit()
+			
+			-- enemy units	
+			createUnit('castle', 1, startLocation(1))	
+			giveResource('gold', 1, 1000); 
+			giveResource('wood', 1, 1000); 
+			giveResource('food', 1, 1000);
+
+			createUnit('castle', 1, startLocation(1))	
+	
+			for i=1, 20 do
+				createUnit('cow', 1, startLocation(1))
+			end	
+			for i=1, 30 do
+				createUnit('valkyrie', 1, startLocation(1))
+			end	
+
+			enemies={}
+			enemyCount=0;
+                        for i=1, 10 do
+				addAttackingEnemy('cudgel_lady')
+			end	
+			
+			--objectives
+			objective='firstwave'
+			showMessage('Brief1', 'Amazones')
+			setDisplayText('firstwave')
+			
+		</startup>
+		
+		<unitCreated>				
+		</unitCreated>	
+		
+		<unitDied>
+			--check for all enemies dead
+			for i=1, #enemies do
+				if lastDeadUnit()==enemies[i] then
+					enemyCount=enemyCount-1		
+				end
+			end
+			if objective=="lastwave" then
+				if isSent==0 then
+					sendFlyingUnits()
+				end
+			end
+			-- print('living enemies=',enemyCount)
+			if enemyCount==0 then
+				if(objective=="lastwave") then
+					clearDisplayText()
+					setPlayerAsWinner(0)
+					setPlayerAsWinner(2)
+					endGame()
+				end
+				if(objective=="fourthwave") then
+					enemies={}
+                        		for i=1, 40 do
+						addAttackingEnemy('cudgel_lady')
+					end
+                        		for i=1, 10 do
+						addAttackingEnemy('valkyrie')
+					end
+					objective='lastwave';
+					giveResource('food', 1, 1000);
+				end
+				if(objective=="thirdwave") then
+					enemies={}
+                        		for i=1, 30 do
+						addAttackingEnemy('cudgel_lady')
+					end
+                        		for i=1, 5 do
+						addAttackingEnemy('valkyrie')
+					end
+					objective='fourthwave';
+					giveResource('food', 1, 1000);
+				end
+				if(objective=="secondwave") then
+					enemies={}
+                        		for i=1, 50 do
+						addAttackingEnemy('cudgel_lady')
+					end
+					objective='thirdwave';
+					giveResource('food', 1, 1000);
+				end
+				if(objective=="firstwave") then
+					enemies={}
+                        		for i=1, 23 do
+						addAttackingEnemy('cudgel_lady')
+					end
+					objective='secondwave';
+					giveResource('food', 1, 1000);
+				end
+
+				showMessage(objective, 'Amazones')
+				setDisplayText(objective);
+			end
+
+			if lastDeadUnit()==alliedCastle then
+				clearDisplayText()
+				setPlayerAsWinner(1)
+				endGame()
+			end		
+		</unitDied>		
+	</scripts>		
+</scenario>

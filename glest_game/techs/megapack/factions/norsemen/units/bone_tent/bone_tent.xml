@@ -1,0 +1,150 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="1000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="wood"/>				
+		<sight value="5" />
+		<time value="50" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1111" /> 
+			<row value="1001" /> 
+			<row value="1001" /> 
+			<row value="1001" />
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="house" />
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="130"/>
+			<resource name="wood" amount="100"/>
+			<resource name="stone" amount="30"/>
+		</resource-requirements>
+		<resources-stored>
+			<!--resource name="food" amount="20"/-->
+		</resources-stored>
+		<image path="images/bone_tent.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../med_bar/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../med_bar/sounds/tech_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../med_bar/sounds/tech_click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="120"/>
+			<speed value="120"/>
+			<anim-speed value="50" />
+			<animation path="models/whalehouse_construction.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/whalehouse.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/whalehouse.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/whalehouse_destroyed.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../med_bar/sounds/tech_building_fall3.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+                <skill>
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="300"/>
+			<animation path="models/whalehouse.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="produce_swordman" />
+			<image path="../swordman/images/swordman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="swordman"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_archer" />
+			<image path="../archer/images/archer.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="archer"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_battleaxe" />
+			<image path="../battleaxe/images/battleaxe.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="battleaxe"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_axe_thrower" />
+			<image path="../axe_thrower/images/axe_thrower.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="axe_thrower"/>
+		</command>
+
+	</commands>
+</unit>

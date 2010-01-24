@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="0"/>
+	<players>
+		<player control="human" faction="tech" team="1"/>
+		<player control="cpu" faction="magic" team="2"/>
+		<player control="closed"/>
+		<player control="closed"/>		
+	</players>
+	<map value="valley_of_death"/>
+	<tileset value="forest"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="false"/>
+	<default-units value="false"/>
+	<default-victory-conditions value="false"/>
+	<scripts>
+		<startup>
+			disableAi(1)
+			createUnit('castle', 0, startLocation(0))
+			setCameraPosition(unitPosition(lastCreatedUnit()))
+			createUnit('farm', 0, startLocation(0))
+			giveResource('gold', 0, 250)
+			giveResource('food', 0, 50)
+			giveResource('wood', 0, 50)
+			giveResource('stone', 0, 100)
+			showMessage('Welcome', 'GlestBasicTutorial')
+			showMessage('WillBeUsingTech', 'GlestBasicTutorial')
+			showMessage('NeedWorkers', 'Resources')
+			setDisplayText('ProduceWorkers')
+			objective= 'produce_worker'
+		</startup>
+		<resourceHarvested>
+			if objective=='harvest_gold' and resourceAmount('gold', 0)>=100 then
+				showMessage('WorkersKeepOnHarvesting', 'WellDone')
+				showMessage('ResourceInformation', 'Resources')
+				showMessage('OtherResources', 'Resources')
+				setDisplayText('HarvestWoodAndStone')
+				objective= 'harvest_wood_and_stone'			
+			end	
+			if objective=='harvest_wood_and_stone' and resourceAmount('stone', 0)>=150 and resourceAmount('wood', 0)>=100 then
+				showMessage('TechResourceNeeds', 'WellDone')
+				showMessage('TechConsumesFood', 'Resources')	
+				setDisplayText('ProduceCow')
+				objective= 'produce_cow'			
+			end				
+		</resourceHarvested>
+		<unitCreatedOfType type="worker">
+			if objective=='produce_worker' and unitCountOfType(0, 'worker')>=3 then
+				showMessage('SelectAndCommand', 'WellDone')			
+				showMessage('HowToMine', 'Resources')			
+				setDisplayText('MineGold')
+				objective= 'harvest_gold'
+			end		
+		</unitCreatedOfType>			
+		<unitCreatedOfType type="cow">			
+			if objective=='produce_cow' then
+				showMessage('HaveEnoughAnimals', 'WellDone')
+				showMessage('BalanceDisplay', 'Resources')				
+				showMessage('TechWarriorsAtBarracks', 'Combat')
+				showMessage('HowToBuildBarracks', 'Buildings')
+				setDisplayText('BuildBarracks')
+				objective= 'build_barracks'			
+			end	
+		</unitCreatedOfType>			
+		<unitCreatedOfType type="barracks">			
+			if objective=='build_barracks' then
+				showMessage('RememberToBuildBarracks', 'WellDone')
+				showMessage('SwordmanBrief', 'Combat')
+				setDisplayText('ProduceSwordman')
+				objective= 'produce_swordman'			
+			end	
+		</unitCreatedOfType>			
+		<unitCreatedOfType type="swordman">			
+			if objective=='produce_swordman' then
+				showMessage('HaveWarriorsAtBase', 'WellDone')
+				showMessage('ArcherBrief', 'Combat')
+				setDisplayText('ProduceArcher')					
+				objective= 'produce_archer'			
+			end	
+		</unitCreatedOfType>			
+		<unitCreatedOfType type="archer">			
+			if objective=='produce_archer' then
+				showMessage('ProduceWarriors', 'WellDone')
+				setDisplayText('ProduceMoreWarriors')
+				for i=1, 3 do
+					createUnit('daemon', 1, startLocation(1))
+					givePositionCommand(lastCreatedUnit(), 'attack', startLocation(0))	
+				end
+				objective= 'defend_from_attack'			
+			end				
+		</unitCreatedOfType>
+		<unitDied>
+			if objective=='defend_from_attack' and unitCount(1)==0 then
+				clearDisplayText()
+				setPlayerAsWinner(0)
+				endGame()
+			end
+		</unitDied>
+	</scripts>
+</scenario>
