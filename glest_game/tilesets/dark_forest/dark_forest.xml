@@ -30,7 +30,12 @@
 			<texture path="textures/surface4a.bmp" prob="1.0"/>
 		</surface>
 		<surface>
-			<texture path="textures/surface5a.bmp" prob="1.0"/>
+			<texture path="textures/surface5a.bmp" prob="0.1"/>
+			<texture path="textures/surface5b.bmp" prob="0.2"/>
+			<texture path="textures/surface5c.bmp" prob="0.2"/>
+		        <texture path="textures/surface5d.bmp" prob="0.1"/>
+                        <texture path="textures/surface5e.bmp" prob="0.2"/>
+                        <texture path="textures/surface5f.bmp" prob="0.1"/>
 		</surface>
 	</surfaces>
 
