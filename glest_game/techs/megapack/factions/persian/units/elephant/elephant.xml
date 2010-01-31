@@ -7,9 +7,9 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="3000" regeneration="2"/>
+		<max-hp value="3000" regeneration="4"/>
 		<max-ep value="0"/>
-		<armor value="35"/>	
+		<armor value="45"/>	
 		<armor-type value="leather"/>				
 		<sight value="15"/>
 		<time value="120"/>	
@@ -144,10 +144,10 @@
 				<sound-file path="sounds/eleattack3.wav"/>
 				<sound-file path="sounds/eleattack3.wav"/>
 			</sound> 
-			<attack-strenght value="450"/>
+			<attack-strenght value="500"/>
 			<attack-var value="100"/>
 			<attack-range value="2"/>
-			<attack-type value="piercing"/>
+			<attack-type value="slashing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

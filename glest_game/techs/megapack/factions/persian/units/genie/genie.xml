@@ -97,8 +97,8 @@
 				<sound-file path="sounds/genie_attack1.wav"/>
 				<sound-file path="sounds/genie_attack2.wav"/>
 			</sound>
-			<attack-strenght value="90"/>
-			<attack-var value="50"/>
+			<attack-strenght value="100"/>
+			<attack-var value="40"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.5"/>
