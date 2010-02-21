@@ -68,6 +68,10 @@
 			<speed value="300" />
 			<anim-speed value="40" />
 			<animation path="models/campfire.g3d" />
+			<particles value="true">
+				<particle-file path="fire_particles2.xml"/>
+				<particle-file path="smoke_particles.xml"/>
+			</particles>
 			<sound enabled="false" />
 		</skill>	
 		<!-- *** skill 2 *** -->
@@ -90,6 +94,9 @@
 			<speed value="300" />
 			<anim-speed value="40" />
 			<animation path="models/campfire.g3d" />
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+			</particles>
 			<sound enabled="false" />
 		</skill>		
                 <skill>
@@ -99,6 +106,9 @@
 			<speed value="300"/>
 			<anim-speed value="30"/>
 			<animation path="models/campfire.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+			</particles>
 			<sound enabled="false"/>
 		</skill>
 
