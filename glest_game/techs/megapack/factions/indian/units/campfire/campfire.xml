@@ -82,6 +82,9 @@
 			<speed value="300" />
 			<anim-speed value="0" />
 			<animation path="models/campfire_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../mainteepee/sounds/tech_building_fall5.wav"/>
 			</sound>			

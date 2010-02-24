@@ -81,6 +81,10 @@
 			<speed value="300" />
 			<anim-speed value="0" />
 			<animation path="models/tent_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../mainteepee/sounds/tech_building_fall5.wav"/>
 			</sound>			

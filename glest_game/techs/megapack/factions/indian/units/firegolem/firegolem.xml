@@ -78,6 +78,10 @@
 			<speed value="1000"/>
 			<anim-speed value="50"/>
 			<animation path="models/golem_standing.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+			</particles>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -88,6 +92,10 @@
 			<speed value="50"/>
 			<anim-speed value="20"/>
 			<animation path="models/golem_walking.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/golem_walk1.wav"/>
 				<sound-file path="sounds/golem_walk2.wav"/>
@@ -102,6 +110,10 @@
 			<speed value="50"/>
 			<anim-speed value="60"/>
 			<animation path="models/golem_attacking.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="/sounds/golem_attack1.wav"/>
 			</sound>
@@ -133,23 +145,16 @@
 			<speed value="60"/>
 			<anim-speed value="60"/>
 			<animation path="models/golem_dying.g3d"/>
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/golem_die1.wav"/>
 				<sound-file path="sounds/golem_die2.wav"/>
 				<sound-file path="sounds/golem_die3.wav"/>
 			</sound> 
                         <fade value="false"/>
-		</skill>
-		
-		<skill>
-			<type value="be_built" />
-			<name value="be_built_skill"/>		
-			<ep-cost value="0" />
-			<speed value="120"/>
-			<speed value="120"/>
-			<anim-speed value="300" />
-			<animation path="models/golem_construction.g3d" />
-			<sound enabled="false" />
 		</skill>
 		
 	</skills>

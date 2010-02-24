@@ -79,6 +79,10 @@
 			<speed value="480"/>
 			<anim-speed value="120"/>
 			<animation path="models/horseman_walking.g3d"/>
+			<particles value="true">
+				<particle-file path="dirt_particles.xml"/>
+				<particle-file path="dirt_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/horseman_walk1.wav"/>
 				<sound-file path="sounds/horseman_walk2.wav"/>
