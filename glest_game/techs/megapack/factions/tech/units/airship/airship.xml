@@ -90,6 +90,10 @@
 			<speed value="120"/>
 			<anim-speed value="80"/>
 			<animation path="models/airship_walking.g3d"/>
+			<particles value="true">
+				<particle-file path="motor_particles.xml"/>
+				<particle-file path="motor_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/airship_fly.wav"/>
 			</sound> 

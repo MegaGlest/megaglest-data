@@ -93,6 +93,10 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="../castle/destruction_models/barracks_destruction.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../barracks/sounds/tech_building_fall4.wav"/>
 			</sound>			

@@ -1,12 +1,11 @@
 <?xml version="1.0" standalone="yes"?>
 <unit-particle-system>
     	<texture value="true" path="images/particle.bmp" luminance="false"/>
-	<mode value="normal"/>
 	<primitive value="quad"/>
-	<offset x="-0.8" y="-1.1" z="0.2"/>
+	<offset x="0" y="-1.1" z="0.0"/>
 	<direction x="0" y="1" z="0"/>
-	<color red="0.0" green="0.3" blue="0.1" alpha="0.6" />
-	<color-no-energy red="0.1" green="0.1" blue="0.0" alpha="0.1" />
+	<color red="0.9" green="0.3" blue="0.0" alpha="0.3" />
+	<color-no-energy red="0.8" green="0.0" blue="0.0" alpha="0.1" />
     	<radius value="1.0" />
     	<size value="1.0" />
     	<size-no-energy value="0.7" />
