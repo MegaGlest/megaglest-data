@@ -61,6 +61,9 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/tent2_produce.g3d" />
+			<particles value="true">
+				<particle-file path="ghost_particles.xml"/>
+			</particles>
 			<sound enabled="false" />
 		</skill>	
 		<skill>
@@ -99,6 +102,29 @@
 			<speed value="300" />
 			<anim-speed value="150" />
 			<animation path="models/tent2_upgrade.g3d" />
+			<particles value="true">
+				<particle-file path="magic_lvl1_particles.xml"/>
+				<particle-file path="magic_lvl1_particles2.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0.3">
+				<sound-file path="sounds/anvil1.wav"/>
+				<sound-file path="sounds/anvil2.wav"/>
+				<sound-file path="sounds/anvil3.wav"/>
+				<sound-file path="sounds/anvil4.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill2"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="150" />
+			<animation path="models/tent2_upgrade.g3d" />
+			<particles value="true">
+				<particle-file path="magic_lvl2_particles.xml"/>
+				<particle-file path="magic_lvl2_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="sounds/anvil1.wav"/>
 				<sound-file path="sounds/anvil2.wav"/>
@@ -114,6 +140,10 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/tent2_burned.g3d" />
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+				<particle-file path="smoke_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../temple/sounds/tech_building_fall1.wav"/>
 			</sound>			
@@ -170,7 +200,7 @@
 			<image path="../../upgrades/magic_level_2/images/magic2.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<upgrade-skill value="upgrade_skill"/>
+			<upgrade-skill value="upgrade_skill2"/>
 			<produced-upgrade name="magic_level_2"/>
 		</command>
 		
