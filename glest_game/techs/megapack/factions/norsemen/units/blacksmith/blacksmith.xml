@@ -69,6 +69,9 @@
 			<speed value="300" />
 			<anim-speed value="50" />
 			<animation path="models/blacksmith.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+			</particles>
 			<sound enabled="false" />
 		</skill>	
 		
@@ -80,6 +83,11 @@
 			<speed value="300" />
 			<anim-speed value="150" />
 			<animation path="models/blacksmith_upgrading.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="fire_particles1.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="sounds/anvil1.wav"/>
 				<sound-file path="sounds/anvil2.wav"/>
@@ -95,6 +103,10 @@
 			<speed value="300"/>
 			<anim-speed value="150"/>
 			<animation path="models/blacksmith_upgrading.g3d"/>
+			<particles value="true">
+				<particle-file path="smoke_particles_2.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="false"/>
 		</skill>	
 		
@@ -106,6 +118,10 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="../castle/destruction_models/blacksmith_destruction.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles_2.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../med_bar/sounds/tech_building_fall1.wav"/>
 			</sound>			

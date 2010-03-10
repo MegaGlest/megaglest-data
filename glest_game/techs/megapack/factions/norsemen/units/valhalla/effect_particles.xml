@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<unit-particle-system>
+    	<texture value="true" path="images/spark.bmp" luminance="true"/>
+	<primitive value="quad"/>
+	<offset x="0" y="-2" z="0.4"/>
+	<direction x="0" y="1.0" z="0"/>
+	<color red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+	<color-no-energy red="1.0" green="1.0" blue="1.0" alpha="0.2" />
+    	<radius value="0.5" />
+    	<size value="0.4" />
+    	<size-no-energy value="0.5" />
+    	<speed value="3.0" />
+	<gravity value="0"/>
+    	<emission-rate value="5" />
+    	<energy-max value="30" />
+    	<energy-var value="0" />
+    	<fixed value="false" />
+    	<relative value="true" />
+    	<teamcolorNoEnergy value="false" />
+    	<teamcolorEnergy value="false" />
+
+	<!--trajectory type="spiral">
+		<speed value="14.0"/>
+		<scale value="1"/>
+		<frequency value="0.5"/>
+	</trajectory-->
+</unit-particle-system>

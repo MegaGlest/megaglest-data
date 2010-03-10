@@ -79,6 +79,9 @@
 			<speed value="480"/>
 			<anim-speed value="50"/>
 			<animation path="models/flyingvalkyrie_walking.g3d"/>
+			<particles value="true">
+				<particle-file path="fly_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/horseman_walk1.wav"/>
 				<sound-file path="sounds/horseman_walk2.wav"/>

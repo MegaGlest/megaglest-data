@@ -22,9 +22,12 @@
 			<field value="land"/>
 		</fields>	
 		<properties>
-			<property value="burnable"/>
 		</properties>
 		<light enabled="false"/>
+		<damage-particles value="true">
+			<particle-file path="damage_particles.xml"/>
+			<particle-file path="damage2_particles.xml"/>
+		</damage-particles>
 		<unit-requirements>
 			<unit name="obelisk"/>
 		</unit-requirements>

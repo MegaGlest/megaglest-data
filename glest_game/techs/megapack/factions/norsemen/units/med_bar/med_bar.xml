@@ -100,6 +100,10 @@
 			<speed value="300" />
 			<anim-speed value="10" />
 			<animation path="models/med_bar_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../med_bar/sounds/tech_building_fall4.wav"/>
 			</sound>			

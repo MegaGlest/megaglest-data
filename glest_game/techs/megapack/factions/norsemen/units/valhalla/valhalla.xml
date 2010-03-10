@@ -65,6 +65,10 @@
 			<speed value="300" />
 			<anim-speed value="50" />
 			<animation path="models/walhalla.g3d" />
+			<particles value="true">
+				<particle-file path="effect_particles.xml"/>
+				<particle-file path="team_particles.xml"/>
+			</particles>
 			<sound enabled="false" />
 		</skill>	
 		
@@ -85,6 +89,10 @@
 			<speed value="300"/>
 			<anim-speed value="300" />
 			<animation path="models/walhalla_destroyed.g3d"/>
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../med_bar/sounds/tech_building_fall5.wav"/>
 			</sound>			

@@ -3,9 +3,10 @@
 <tileset>
 	<surfaces>
 		<surface>
-			<texture path="textures/sand1.bmp" prob="0.5"/>
+			<texture path="textures/sand1.bmp" prob="0.1"/>
 			<texture path="textures/sand2.bmp" prob="0.2"/>
 			<texture path="textures/sand3.bmp" prob="0.3"/>
+			<texture path="textures/sand2.bmp" prob="0.4"/>
 
                 </surface>
 		<surface>
