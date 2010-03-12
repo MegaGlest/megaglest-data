@@ -18,8 +18,13 @@
 		<fields>
 			<field value="air"/>
 		</fields>	
-		<properties/>
-			<light enabled="false"/>
+		<properties>
+		</properties>
+		<damage-particles value="true">
+			<particle-file path="smoke_particles.xml"/>
+			<particle-file path="glow_particles.xml"/>
+		</damage-particles>
+		<light enabled="false"/>
 		<unit-requirements>
 			<unit name="tent"/>
 		</unit-requirements>
@@ -71,6 +76,10 @@
 			<speed value="250"/>
 			<anim-speed value="75"/>
 			<animation path="models/carpet_flying.g3d"/>
+			<particles value="true">
+				<particle-file path="fly_particles.xml"/>
+				<particle-file path="fly_particles2.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/orni_fly.wav"/>
 			</sound>

@@ -22,8 +22,16 @@
 			<field value="land" />
 		</fields>
 		<properties>
-			<property value="burnable"/>
+			<!--property value="burnable"/-->
 		</properties>
+		<damage-particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+				<particle-file path="smoke_particles2.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+				<particle-file path="smoke_particles3.xml"/>
+				<particle-file path="fire_particles.xml"/>
+		</damage-particles>
 		<light enabled="false" />
 		<unit-requirements>
 			<unit name="castle" />

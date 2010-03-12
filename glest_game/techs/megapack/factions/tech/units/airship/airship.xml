@@ -19,7 +19,11 @@
 			<field value="air"/>
 		</fields>	
 		<properties/>
-			<light enabled="false"/>
+		<damage-particles value="true">
+			<particle-file path="smoke_particles.xml"/>
+		</damage-particles>
+
+		<light enabled="false"/>
 		<unit-requirements>
 			<unit name="blacksmith"/>
 			<unit name="technodrome"/>

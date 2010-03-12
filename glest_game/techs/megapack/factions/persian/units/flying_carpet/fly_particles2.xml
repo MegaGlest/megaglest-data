@@ -3,20 +3,20 @@
     	<texture value="true" path="images/particle.bmp" luminance="true"/>
 	<mode value="normal"/>
 	<primitive value="quad"/>
-	<offset x="-1.55" y="2.2" z="-0.95"/>
-	<direction x="0.1" y="1" z="0"/>
-	<color red="1.0" green="0.0" blue="0.0" alpha="0.2" />
-	<color-no-energy red="0.8" green="0.6" blue="0.0" alpha="0.12" />
-    	<radius value="0.13" />
+	<offset x="0" y="0.0" z="-1.2"/>
+	<direction x="0" y="-0.4" z="-0.3"/>
+	<color red="0.9" green="0.9" blue="0.1" alpha="0.8" />
+	<color-no-energy red="1.0" green="1.0" blue="1.0" alpha="0.1" />
+    	<radius value="0.4" />
     	<size value="0.1" />
-    	<size-no-energy value="0.3" />
+    	<size-no-energy value="0.03" />
     	<speed value="1.5" />
-	<gravity value="0.001"/>
-    	<emission-rate value="2" />
-    	<energy-max value="30" />
+	<gravity value="-0.01"/>
+    	<emission-rate value="1" />
+    	<energy-max value="160" />
     	<energy-var value="0" />
-	<relative value="true" />
     	<fixed value="false" />
+    	<relative value="true" />
     	<teamcolorNoEnergy value="false" />
     	<teamcolorEnergy value="false" />
 

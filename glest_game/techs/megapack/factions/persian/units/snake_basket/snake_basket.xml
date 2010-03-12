@@ -123,6 +123,10 @@
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/snake_basket_dying.g3d"/>
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../temple/sounds/tech_building_fall5.wav"/>
 			</sound>			
