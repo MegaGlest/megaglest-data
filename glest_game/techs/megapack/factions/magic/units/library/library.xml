@@ -84,6 +84,10 @@
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="../mage_tower/destruction_models/library_destruction.g3d"/>
+			<particles value="true">
+				<particle-file path="smoke_particles_2.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="../archmage_tower/sounds/magic_building_fall5.wav"/>
 			</sound>			

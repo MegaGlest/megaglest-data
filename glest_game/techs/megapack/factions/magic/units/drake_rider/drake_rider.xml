@@ -92,6 +92,9 @@
 			<speed value="540"/>
 			<anim-speed value="94"/>
 			<animation path="models/drake_rider_walking.g3d"/>
+			<particles value="true">
+				<particle-file path="fire_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/dr_walk1.wav"/>
 				<sound-file path="sounds/dr_walk2.wav"/>
