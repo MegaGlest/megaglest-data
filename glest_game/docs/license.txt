@@ -1,4 +1,32 @@
 ==============================
+Mega-Glest Game 3.2.x License
+==============================
+
+Except where otherwise noted, all of the documentation, multimedia and software included in the Mega-Glest Game setup package is copyrighted by The Mega-Glest Team.
+
+Copyright (C) 2001-2010 The Mega-Glest Team. All rights reserved.
+
+This software is provided without any express or implied warranty. In no event shall the author be held liable for any damages arising from the use of this software.
+
+This software may be redistributed freely, but all redistributions must retain all occurences of the above copyright notice and web site addresses that are currently in place.
+
+
+Authors:
+========
+Titus Tscharntke (info@titusgames.de) 
+Mark Vejvoda (www.soft-haus.com - mark_vejvoda@hotmail.com ) 
+
+web: http://glest.org/
+
+The Mega-Glest Team:
+====================
+Programmers: Titus Tscharntke (titi)
+             Mark Vejvoda (SoftCoder)
+
+=============================================================
+The contents below are taken from the Original Glest license:
+
+==============================
 Glest Game 3.2.1 License
 ==============================
 
