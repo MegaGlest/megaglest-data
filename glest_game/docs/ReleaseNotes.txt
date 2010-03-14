@@ -1,0 +1,27 @@
+Release notes for MegaGlest:
+
+Version 3.3.0:
+- New multiplayer version of megaglest! It should be much more stable now 
+  and less choppy than original glest !
+- New disconnect messages and chat in connect menu .....
+- Now with several particles for every skill!
+- black particles!
+- Fire with smoke for every "burnable" unit ( even walking/flying ones )
+- 8 player support
+- individual particle systems for damage indication
+- more particles everywhere in the data
+- new snow
+- ingame option to switch off all the new particles ( for slow machines )
+- morphing ground units to flying units
+- damage-all switch in splash definition works now
+- linux editor/g3dviewer/configurator are working and part of the linux 
+  distribution too now
+- new maps
+
+Version 3.2.3:
+- Only needed factions are loaded ( thanks silnarm ). 
+- a weeker CPU player was added for real beginners
+- two new CPU players were added ( CPU-Mega and CPU-Easy )
+- much much more data compared to glest ( factions/maps/tilesets ...)
+
+
