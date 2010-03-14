@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+<difficulty value="1"/>
+<players>
+	<player control="human" faction="magic" team="1"/>
+	<player control="cpu"  faction="magic" team="1"/>
+	<player control="cpu" faction="norsemen" team="3"/>
+	<player control="closed"/>
+</players>
+<map value="conflict"/>
+<tileset value="jungle"/>
+<tech-tree value="megapack"/>
+	<default-resources value="true"/>	
+	<default-units value="true"/>
+	<default-victory-conditions value="true"/>
+	<scripts/>
+</scenario>

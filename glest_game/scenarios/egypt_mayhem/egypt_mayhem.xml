@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="4"/>
+	<players>
+		<player control="cpu-mega" faction="egypt" team="2"/>
+		<player control="cpu-mega" faction="egypt" team="2"/>
+		<player control="human" faction="egypt" team="1"/>
+		<player control="cpu-mega" faction="egypt" team="1"/>
+	</players>
+	<map value="tropical2v2"/>
+	<tileset value="desert2"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="true"/>
+	<default-units value="true"/>
+	<default-victory-conditions value="true"/>	
+	<scripts/>
+</scenario>

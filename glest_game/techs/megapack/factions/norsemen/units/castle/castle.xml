@@ -32,7 +32,6 @@
 			<resource name="gold" amount="200" />
 			<resource name="stone" amount="350" />
 			<resource name="wood" amount="150" />
-			<resource name="food" amount="1" />
 		</resource-requirements>
 		<resources-stored>
 			<resource name= "gold" amount="2000"/>

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+<difficulty value="4"/>
+<players>
+	<player control="human" faction="indian" team="1"/>
+	<player control="cpu-ultra"  faction="norsemen" team="2"/>
+	<player control="cpu-ultra" faction="magic" team="3"/>
+	<player control="cpu-ultra" faction="tech" team="4"/>
+</players>
+<map value="domination_isles"/>
+<tileset value="desert2"/>
+<tech-tree value="megapack"/>
+	<default-resources value="true"/>	
+	<default-units value="true"/>
+	<default-victory-conditions value="true"/>
+	<scripts/>
+</scenario>
