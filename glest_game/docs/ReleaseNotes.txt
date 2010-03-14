@@ -8,15 +8,19 @@ Version 3.3.0:
 - black particles!
 - Fire with smoke for every "burnable" unit ( even walking/flying ones )
 - 8 player support
-- individual particle systems for damage indication
-- more particles everywhere in the data
-- new snow
-- ingame option to switch off all the new particles ( for slow machines )
-- morphing ground units to flying units
-- damage-all switch in splash definition works now
-- linux editor/g3dviewer/configurator are working and part of the linux 
+- Individual particle systems for damage indication
+- More particles everywhere in the data
+- New snow
+- Ingame option to switch off all the new particles ( for slow machines )
+- Morphing ground units to flying units
+- Damage-all switch in splash definition works now
+- Linux editor/g3dviewer/configurator are working and part of the linux 
   distribution too now
-- new maps
+- New maps
+- New tileset scrubland
+- Editor with lots of comfort functions and 8 player (*.mgm) support.
+  The editor includes things like undo/redo, brush copy , mouseover display now
+  
 
 Version 3.2.3:
 - Only needed factions are loaded ( thanks silnarm ). 
