@@ -3,7 +3,7 @@
     	<texture value="true" path="images/particle.bmp" luminance="true"/>
 	<mode value="normal"/>
 	<primitive value="quad"/>
-	<offset x="1.55" y="2.2" z="-1.25"/>
+	<offset x="-1.5" y="2.2" z="-1.33"/>
 	<direction x="0.0" y="1" z="0"/>
 	<color red="1.0" green="0.0" blue="0.0" alpha="0.2" />
 	<color-no-energy red="0.8" green="0.4" blue="0.0" alpha="0.12" />
@@ -15,7 +15,7 @@
     	<emission-rate value="2" />
     	<energy-max value="30" />
     	<energy-var value="0" />
-	<relative value="true" />
+	<relative value="false" />
     	<fixed value="false" />
     	<teamcolorNoEnergy value="false" />
     	<teamcolorEnergy value="false" />

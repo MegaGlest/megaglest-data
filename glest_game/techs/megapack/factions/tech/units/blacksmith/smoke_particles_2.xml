@@ -15,7 +15,7 @@
     	<emission-rate value="3" />
     	<energy-max value="200" />
     	<energy-var value="0" />
-	<relative value="true" />
+	<relative value="false" />
     	<fixed value="false" />
     	<teamcolorNoEnergy value="false" />
     	<teamcolorEnergy value="false" />
