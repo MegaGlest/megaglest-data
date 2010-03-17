@@ -1,4 +1,8 @@
 Release notes for MegaGlest:
+Version 3.3.1:
+- fixed a bug with network consistency checks ( it wasn't completly active any more in 3.3.0 )
+- network consistency checks are reported more user friendly (on server and client )
+- all network related errors should be handled with a dialog and doesn't crash glest any more.
 
 Version 3.3.0:
 - New multiplayer version of megaglest! It should be much more stable now 
@@ -21,7 +25,6 @@ Version 3.3.0:
 - Editor with lots of comfort functions and 8 player (*.mgm) support.
   The editor includes things like undo/redo, brush copy , mouseover display now
   
-
 Version 3.2.3:
 - Only needed factions are loaded ( thanks silnarm ). 
 - a weeker CPU player was added for real beginners
