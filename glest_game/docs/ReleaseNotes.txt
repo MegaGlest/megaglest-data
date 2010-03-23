@@ -1,9 +1,9 @@
 Release notes for MegaGlest:
 
-Version 3.3.1-dev:
-- Added the ability to customize your playername when playing in a network game.
-  Goto the options area (Options button on main screen) and type your custom
-  playername into the Network Player Name edit box.
+Version 3.3.2-dev:
+- Added the ability to use a playername instead of the hostname when playing 
+  in a network game. Goto the options area (Options button on main screen) 
+  and type your custom playername into the Network Player Name edit box.
 - Added the ability to rotate units when creating a unit (before placing it) 
   by pressing the R key (for rotate)
 - Added camera zoom in/ out (like in GAE) by using the scrool wheel on your 
@@ -30,6 +30,13 @@ Version 3.3.1-dev:
   DebugNetwork=true
   This will log all debug information to a file in the glest folder called 
   debug.log
+- fixed a bug with not calling <unitDied> in lua scenario, when died due 
+  to running out of consumable ressources like food
+- fixed the bug which lets you loose the active command if one of your unit dies. 
+  This was the problem that made it very hard to build buildings when you are in 
+  a battle for example.
+- When a AI is disable for a faction in a scenario this faction doesn't consume
+  consumable ressources like food any more. 
 
 Version 3.3.1:
 - fixed a bug with network consistency checks ( it wasn't completly active any more in 3.3.0 )
