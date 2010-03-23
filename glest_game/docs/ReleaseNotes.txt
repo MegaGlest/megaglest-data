@@ -1,4 +1,36 @@
 Release notes for MegaGlest:
+
+Version 3.3.1-dev:
+- Added the ability to customize your playername when playing in a network game.
+  Goto the options area (Options button on main screen) and type your custom
+  playername into the Network Player Name edit box.
+- Added the ability to rotate units when creating a unit (before placing it) 
+  by pressing the R key (for rotate)
+- Added camera zoom in/ out (like in GAE) by using the scrool wheel on your 
+  scroll mouse
+- Added MANY new configurable items in glest.ini (some are optional and may not
+  be in the ini file. Most options are described when you run the configurator
+  application.
+- Added the ability to run Glest full screen on multiple monitors 
+  (currently linux only) via the two settings in glest.ini:
+  AutoMaxFullScreen=true
+  Windowed=false
+- Users may now save all user created context in their own customer folder using
+  the glest.ini setting:
+  UserData_Root=mydata/
+  where mydata is a folder under the current glest folder. You may use ANY path
+  in this setting.
+- Glest allows users to specify a special folder to read / write the ini and log
+  files. To do this set an environment variable with the name:
+  GLESTHOME=/mycustomerpathtoawritablefolder/
+- When experiencing problems, users may enable debugging to a logfile using the 
+  following glest.ini settings:
+  DebugLogFile=debug.log
+  DebugMode=true
+  DebugNetwork=true
+  This will log all debug information to a file in the glest folder called 
+  debug.log
+
 Version 3.3.1:
 - fixed a bug with network consistency checks ( it wasn't completly active any more in 3.3.0 )
 - network consistency checks are reported more user friendly (on server and client )
