@@ -4,6 +4,7 @@
 3dArt=3D art
 3dAnd2dArt=3D and 2D art
 2dArtAndWeb=2D art and web
+Abort=Abort
 About=About
 Address=Address
 AlreadyUpgraded=Already Upgraded
@@ -110,6 +111,7 @@ OrdersOnQueue=Orders on queue
 Play=Play
 PlayNow=Play now!
 Player=Player 
+Playername=Playername
 Port=Port
 Produce=Produce
 Producing=Producing
