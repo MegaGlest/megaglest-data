@@ -11,7 +11,8 @@ w => move camera up (only in free camera more)
 s => move camera down (only in free camera more)
 a => rotate camera left (only in free camera more)
 d => rotate camera right (only in free camera more)
-space => center camera on selection
+g => center camera on selection
+space => reset camera to default position
 up arrow or mouse on top => move camera forward
 down arrow or mouse on bottom => move camera backward
 left arrow or mouse on left => move camera left
@@ -45,7 +46,7 @@ i => select next idle harvester
 b => select next building
 d => select next damaged unit
 t => select next storage unit
-r => select next producer unit
+r => rotate building before placement
 
 
 e) Other Keys

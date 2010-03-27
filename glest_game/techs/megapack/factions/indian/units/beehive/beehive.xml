@@ -23,6 +23,7 @@
 			<property value="burnable"/>
 		</properties>
 		<light enabled="false"/>
+		<rotationAllowed value="false" />
 		<unit-requirements>
 			<unit name="totem"/>
 			<unit name="reed"/>

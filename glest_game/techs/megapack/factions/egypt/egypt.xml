@@ -16,6 +16,7 @@
 		<unit name="spearthrower" amount="1"/>
 		<unit name="chicken" amount="2"/>
 		<unit name="priest" amount="1"/>
+		<unit name="farm" amount="0"/>
 		<unit name="ibis" amount="0"/>
 		<unit name="obelisk" amount="0"/>
 		<unit name="scarab" amount="0"/>

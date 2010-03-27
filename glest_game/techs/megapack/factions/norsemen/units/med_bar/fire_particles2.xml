@@ -15,6 +15,7 @@
     	<energy-max value="40" />
     	<energy-var value="0" />
 	<relative value="true" />
+	<relativeDirection value="false" />
     	<fixed value="false" />
     	<teamcolorNoEnergy value="false" />
     	<teamcolorEnergy value="false" />

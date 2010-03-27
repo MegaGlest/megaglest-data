@@ -22,6 +22,7 @@
 		</fields>
 		<properties />
 		<light enabled="true" red="1.0" green="0.3" blue="0.0"/>
+		<rotationAllowed value="false" />
 		<unit-requirements>
 			<unit name="roundtent"/>
 		</unit-requirements>

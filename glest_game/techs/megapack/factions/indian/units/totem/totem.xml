@@ -24,6 +24,7 @@
 			<property value="burnable"/>
 		</properties>
 		<light enabled="true" red="0.0" green="0.3" blue="1.0"/>
+		<rotationAllowed value="false" />
 		<unit-requirements>
 			<unit name="tent"/>
 			<unit name="campfire"/>
