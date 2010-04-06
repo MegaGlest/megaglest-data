@@ -1,12 +1,35 @@
 Release notes for MegaGlest:
 
-Version 3.3.2-dev:
+Version 3.3.2:
+- Changed windows version to use SDL and also added support for OpenAL sound
+  (DirectSound is still the default)
+- Sound issues for windows users are related to a bad dsound.dll in the 
+  mega-glest folder. Delete this file as it is not required since DirectX should
+  already be installed on your Windows installation.
+- Textures may now be in any of the following formats (tga, bmp, jpg and png)
+- Scenarios, Techs and Factions all allow for a custom 'loading' page when 
+  starting a game. Mega-Glest will look for a file called: loading_screen.*
+  where .* is any supported graphic file type (tga, bmp, jpg and png). The 
+  priority is first in the scenario folder (if loading a scenario) if not found
+  it looks in the faction root folder and if not found it will look in the tech
+  folder.
+- Added a LAN game auto-discovery feature. Clients may click the 'Find LAN Games'
+  button to search on your local network for another Computer hosting a 
+  Mega-Glest game (a server).
+- Mega-Glest now actually uses the ServerPort setting in the glest.ini
+  (the default port for glest is 61357)
+- Added a read-only display ofthe configured Server Port # when joining a network
+  game.
+- Added the ability to configure Fog of War per game session.
+- Fully working Photo Mode where you may take good photos of your mega-glest
+  game / mao scenario by setting the value in glest.ini:
+  PhotoMode=true
 - Added the ability to use a playername instead of the hostname when playing 
   in a network game. Goto the options area (Options button on main screen) 
   and type your custom playername into the Network Player Name edit box.
 - Added the ability to rotate units when creating a unit (before placing it) 
   by pressing the R key (for rotate)
-- Added camera zoom in/ out (like in GAE) by using the scrool wheel on your 
+- Added camera zoom in/ out (like in GAE) by using the scroll wheel on your 
   scroll mouse
 - Added MANY new configurable items in glest.ini (some are optional and may not
   be in the ini file. Most options are described when you run the configurator
