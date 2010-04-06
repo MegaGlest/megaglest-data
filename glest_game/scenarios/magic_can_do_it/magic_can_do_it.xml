@@ -5,7 +5,7 @@
 	<player control="human" faction="magic" team="1"/>
 	<player control="cpu"  faction="magic" team="1"/>
 	<player control="cpu" faction="norsemen" team="3"/>
-	<player control="closed"/>
+	<player control="cpu-easy" faction="tech" team="3"/>
 </players>
 <map value="conflict"/>
 <tileset value="jungle"/>

@@ -1,5 +1,5 @@
 ==============================
-Mega-Glest Game 3.2.x License
+Mega-Glest Game License
 ==============================
 
 Except where otherwise noted, all of the documentation, multimedia and software included in the Mega-Glest Game setup package is copyrighted by The Mega-Glest Team.

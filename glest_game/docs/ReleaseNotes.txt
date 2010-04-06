@@ -13,6 +13,7 @@ Version 3.3.2:
   priority is first in the scenario folder (if loading a scenario) if not found
   it looks in the faction root folder and if not found it will look in the tech
   folder.
+- Screen Resolutions can be changed in the ingame options menu now
 - Added a LAN game auto-discovery feature. Clients may click the 'Find LAN Games'
   button to search on your local network for another Computer hosting a 
   Mega-Glest game (a server).
