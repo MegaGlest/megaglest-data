@@ -104,8 +104,9 @@
 			<anim-speed value="150"/>
 			<animation path="models/blacksmith_upgrading.g3d"/>
 			<particles value="true">
-				<particle-file path="smoke_particles_2.xml"/>
-				<particle-file path="glow_particles.xml"/>
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="fire_particles1.xml"/>
+				<particle-file path="fire_particles2.xml"/>
 			</particles>
 			<sound enabled="false"/>
 		</skill>	
