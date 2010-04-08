@@ -54,6 +54,7 @@ e) Other Keys
 - + => adjust game speed  (disabled in multiplayer)
 p => pause game (disabled in multiplayer)
 e => save screen to TGA file
+c => toggle ingame font color ( and font shadow )
 
 =================
 CONFIGURATION
