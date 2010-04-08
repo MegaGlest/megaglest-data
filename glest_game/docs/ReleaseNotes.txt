@@ -4,7 +4,7 @@ Version 3.3.3:
 - Font size adjustment can be set in the ingame options.
 - Font colors can be toggled while playing using the 'C'-key.
 - Bugfix for windows, ingame options can change resolutions now. 
-- Font Helvestica is used for linux and font Verdana is used for windows
+- Font Helvetica is used for linux and font Verdana is used for windows
 - Fontsizes can be set very detailed in glest.ini
 - Fixed glest.ini
 
