@@ -1,5 +1,13 @@
 Release notes for MegaGlest:
 
+Version 3.3.3:
+- Font size adjustment can be set in the ingame options.
+- Font colors can be toggled while playing using the 'C'-key.
+- Bugfix for windows, ingame options can change resolutions now. 
+- Font Helvestica is used for linux and font Verdana is used for windows
+- Fontsizes can be set very detailed in glest.ini
+- Fixed glest.ini
+
 Version 3.3.2:
 - Changed windows version to use SDL and also added support for OpenAL sound
   (DirectSound is still the default)
