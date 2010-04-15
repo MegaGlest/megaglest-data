@@ -232,7 +232,7 @@ shadows and shadow mapping, bigger sizes result in less pixelized shadows but ar
 				<name value="Sound factory"/>
 				<variable-name value="FactorySound"/>
 				<description value=""/>
-				<default value="DirectSound8"/>
+				<default value="OpenAL"/>
 				<enums>
 					<enum value="DirectSound8"/>
 					<enum value="OpenAL"/>
@@ -265,23 +265,13 @@ shadows and shadow mapping, bigger sizes result in less pixelized shadows but ar
 		</field-group>
 
 		<field-group name="GUI">
-			<field type="String">
-				<name value="Menu font"/>
-				<variable-name value="FontMenu"/>
-				<description value=""/>
-				<default value="Verdana"/>
-			</field>
-			<field type="String">
-				<name value="Console font"/>
-				<variable-name value="FontConsole"/>
-				<description value=""/>
-				<default value="Verdana"/>
-			</field>
-			<field type="String">
-				<name value="Display font"/>
-				<variable-name value="FontDisplay"/>
-				<description value=""/>
-				<default value="Verdana"/>
+			<field type="IntRange">
+				<name value="Font Size Adjustment value"/>
+				<variable-name value="FontSizeAdjustment"/>
+				<description value="This value increases or decreases the size of the fonts in the game"/>
+				<default value="0"/>
+				<min value="0"/>
+				<max value="72"/>
 			</field>
 			<field type="String">
 				<name value="Language"/>
@@ -316,7 +306,15 @@ when they are issued a command"/>
 				<variable-name value="ConsoleMaxLines"/>
 				<description value=""/>
 				<default value="10"/>
-				<min value="0"/>
+				<min value="1"/>
+				<max value="50"/>
+			</field>
+			<field type="IntRange">
+				<name value="Maximum stored console lines"/>
+				<variable-name value="ConsoleMaxLinesStored"/>
+				<description value=""/>
+				<default value="20"/>
+				<min value="1"/>
 				<max value="50"/>
 			</field>
 			<field type="IntRange">
@@ -383,6 +381,16 @@ when they are issued a command"/>
 			<field type="Enum">
 				<name value="Debug mode"/>
 				<variable-name value="DebugMode"/>
+				<description value=""/>
+				<default value="false"/>
+				<enums>
+					<enum value="true"/>
+					<enum value="false"/>
+				</enums>
+			</field>
+			<field type="Enum">
+				<name value="Enable Performance Debugging Output"/>
+				<variable-name value="DebugPerformance"/>
 				<description value=""/>
 				<default value="false"/>
 				<enums>
