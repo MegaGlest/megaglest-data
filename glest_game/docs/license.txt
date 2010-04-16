@@ -45,11 +45,11 @@ web: http://glest.org/
 
 The Glest Team:
 
-Programmer: MartiÒo Figueroa
-Sound artist: Jose Luis Gonz·lez
-2D and 3D artist: Tucho Fern·ndez
-2D artist and web: JosÈ Zanni
+Programmer: Marti√±o Figueroa
+Sound artist: Jose Luis Gonz√°lez
+2D and 3D artist: Tucho Fern√°ndez
+2D artist and web: Jos√© Zanni
 SDL port: Matze Braun
-Animation: FÈlix MenÈndez
+Animation: F√©lix Men√©ndez
 3D artist: Marcos Caruncho
 

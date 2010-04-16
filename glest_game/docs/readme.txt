@@ -604,24 +604,24 @@ irc: irc://irc.freenode.net/glest
 
 The Glest Team:
 
-MARTI—O FIGUEROA. Programmer.
+MARTI√ëO FIGUEROA. Programmer.
 Glest game, engine and tools coder. 
-MS in Computer Science by the University of CoruÒa (Spain).
+MS in Computer Science by the University of Coru√±a (Spain).
  
-JOS… GONZ¡LEZ. Sound.
+JOS√â GONZ√ÅLEZ. Sound.
 Glest music composer and sound designer. Pianist. 
 Currently studies Composition at the Vigo Conservatoire in Spain, in addition to Electroacoustic Music at the CCMIX in Paris.
 
-TUCHO FERN¡NDEZ. 2D and 3D Artist.
+TUCHO FERN√ÅNDEZ. 2D and 3D Artist.
 Design, modeling, texturing, and animation of the 3D models of units, buildings and more.
 
-JOS… ZANNI. 2D Artist and Web design.
+JOS√â ZANNI. 2D Artist and Web design.
 Design of the logo, buttons, icons and other 2D stuff for the game. Design and implementation of the website.
 
 MATZE BRAUN. Linux port. 
 Ported Glest to SDL and OpenAL which enabled it to work under Linux and other operative systems.
 
-F…LIX MENÈNDEZ. Artist and 3D Animator.
+F√âLIX MEN√©NDEZ. Artist and 3D Animator.
 New animations in v2.0.
 
 MARCOS CARUNCHO. 3D Artist.
