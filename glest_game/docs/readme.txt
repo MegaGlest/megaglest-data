@@ -1,4 +1,4 @@
-Glest Game 3.2.1 Readme
+Mega-Glest Readme
 
 =================
 CONTROLS
