@@ -40,7 +40,6 @@ n => show network status
 d) Hotkeys (only in game camera more)
 
 a => activate attack command for selection 
-m => activate move command for selection
 s => issue stop command to selection
 i => select next idle harvester
 b => select next building
@@ -55,6 +54,7 @@ e) Other Keys
 p => pause game (disabled in multiplayer)
 e => save screen to TGA file
 c => toggle ingame font color ( and font shadow )
+m => show faded mesages again
 
 =================
 CONFIGURATION
@@ -125,6 +125,119 @@ The game uses 3D textures for some effects like animated water. Some old video c
 =================
 HISTORY
 =================
+
+Version 3.3.4:
+- Fixed multiplayer related crashes from 3.3.3
+- 'M'-key to redisplay faded messages
+- Some fontwork again
+- Windows is using OpenAL as default
+- Waterbug fixed. Walking in water volume is now releated to the camera position.
+
+Version 3.3.3:
+- Font size adjustment can be set in the ingame options.
+- Font colors can be toggled while playing using the 'C'-key.
+- Bugfix for windows, ingame options can change resolutions now. 
+- Font Helvetica is used for linux and font Verdana is used for windows
+- Fontsizes can be set very detailed in glest.ini
+- Fixed glest.ini
+
+Version 3.3.2:
+- Changed windows version to use SDL and also added support for OpenAL sound
+  (DirectSound is still the default)
+- Sound issues for windows users are related to a bad dsound.dll in the 
+  mega-glest folder. Delete this file as it is not required since DirectX should
+  already be installed on your Windows installation.
+- Textures may now be in any of the following formats (tga, bmp, jpg and png)
+- Scenarios, Techs and Factions all allow for a custom 'loading' page when 
+  starting a game. Mega-Glest will look for a file called: loading_screen.*
+  where .* is any supported graphic file type (tga, bmp, jpg and png). The 
+  priority is first in the scenario folder (if loading a scenario) if not found
+  it looks in the faction root folder and if not found it will look in the tech
+  folder.
+- Screen Resolutions can be changed in the ingame options menu now
+- Added a LAN game auto-discovery feature. Clients may click the 'Find LAN Games'
+  button to search on your local network for another Computer hosting a 
+  Mega-Glest game (a server).
+- Mega-Glest now actually uses the ServerPort setting in the glest.ini
+  (the default port for glest is 61357)
+- Added a read-only display ofthe configured Server Port # when joining a network
+  game.
+- Added the ability to configure Fog of War per game session.
+- Fully working Photo Mode where you may take good photos of your mega-glest
+  game / mao scenario by setting the value in glest.ini:
+  PhotoMode=true
+- Added the ability to use a playername instead of the hostname when playing 
+  in a network game. Goto the options area (Options button on main screen) 
+  and type your custom playername into the Network Player Name edit box.
+- Added the ability to rotate units when creating a unit (before placing it) 
+  by pressing the R key (for rotate)
+- Added camera zoom in/ out (like in GAE) by using the scroll wheel on your 
+  scroll mouse
+- Added MANY new configurable items in glest.ini (some are optional and may not
+  be in the ini file. Most options are described when you run the configurator
+  application.
+- Added the ability to run Glest full screen on multiple monitors 
+  (currently linux only) via the two settings in glest.ini:
+  AutoMaxFullScreen=true
+  Windowed=false
+- Users may now save all user created context in their own customer folder using
+  the glest.ini setting:
+  UserData_Root=mydata/
+  where mydata is a folder under the current glest folder. You may use ANY path
+  in this setting.
+- Glest allows users to specify a special folder to read / write the ini and log
+  files. To do this set an environment variable with the name:
+  GLESTHOME=/mycustomerpathtoawritablefolder/
+- When experiencing problems, users may enable debugging to a logfile using the 
+  following glest.ini settings:
+  DebugLogFile=debug.log
+  DebugMode=true
+  DebugNetwork=true
+  This will log all debug information to a file in the glest folder called 
+  debug.log
+- fixed a bug with not calling <unitDied> in lua scenario, when died due 
+  to running out of consumable ressources like food
+- fixed the bug which lets you loose the active command if one of your unit dies. 
+  This was the problem that made it very hard to build buildings when you are in 
+  a battle for example.
+- When a AI is disable for a faction in a scenario this faction doesn't consume
+  consumable ressources like food any more. 
+
+Version 3.3.1:
+- fixed a bug with network consistency checks ( it wasn't completly active any more in 3.3.0 )
+- network consistency checks are reported more user friendly (on server and client )
+- all network related errors should be handled with a dialog and doesn't crash glest any more.
+
+Version 3.3.0:
+- New multiplayer version of megaglest! It should be much more stable now 
+  and less choppy than original glest !
+- New disconnect messages and chat in connect menu .....
+- Now with several particles for every skill!
+- black particles!
+- Fire with smoke for every "burnable" unit ( even walking/flying ones )
+- 8 player support
+- Individual particle systems for damage indication
+- More particles everywhere in the data
+- New snow
+- Ingame option to switch off all the new particles ( for slow machines )
+- Morphing ground units to flying units
+- Damage-all switch in splash definition works now
+- Linux editor/g3dviewer/configurator are working and part of the linux 
+  distribution too now
+- New maps
+- New tileset scrubland
+- Editor with lots of comfort functions and 8 player (*.mgm) support.
+  The editor includes things like undo/redo, brush copy , mouseover display now
+  
+Version 3.2.3:
+- Only needed factions are loaded ( thanks silnarm ). 
+- a weeker CPU player was added for real beginners
+- two new CPU players were added ( CPU-Mega and CPU-Easy )
+- much much more data compared to glest ( factions/maps/tilesets ...)
+
+======================================================
+All changes since version 3.2.2 are megaglest changes
+======================================================
 
 3.2.1
 - Auto tester
@@ -518,5 +631,5 @@ Creator of the 3D models for buildings in versions prior to 0.7, his work helped
 SPECIAL THANKS TO
 =================
 
-Titust Scharntke - Created the Mod megapack and helped with the Linux builds - see titusgames.de
+Titust Tscharntke - Created the Mod megapack and helped with the Linux builds - see titusgames.de
 Yggdrasil - Provided patch for building with LUA in Linux
