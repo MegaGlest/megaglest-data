@@ -141,6 +141,7 @@ Score=Score
 Server=Server
 ServerPort=Server Port #
 ServerType=Server type
+ServerTypeFound=Found Games
 ServerTypeNew=New
 ServerTypePrevious=Previous
 ShadowMapping=Shadow Mapping
