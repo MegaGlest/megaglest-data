@@ -11,7 +11,9 @@
 		<config-position x="4" y="17" z="0"/>
 		<info-position x="5" y="6" z="-5"/>
 		<new-game-position x="12" y="17" z="5"/>
+		<connected-game-position x="4" y="10" z="-14"/>
 		<join-game-position x="14" y="15" z="5"/>
+		<masterserver-position x="4" y="10" z="-14"/>
 		<scenario-position x="10" y="13" z="2"/>
 		
 		<start-rotation x="0" y="0" z="0"/>
@@ -20,7 +22,9 @@
 		<config-rotation x="0" y="-5" z="0"/>
 		<info-rotation x="0" y="25" z="0"/>
 		<new-game-rotation x="0" y="10" z="0"/>
+		<connected-game-rotation x="0" y="70" z="0"/>
 		<join-game-rotation x="0" y="12" z="0"/>
+		<masterserver-rotation x="0" y="-18" z="0"/>
 		<scenario-rotation x="0" y="-10" z="0"/>		
 	</camera>
 </menu>
