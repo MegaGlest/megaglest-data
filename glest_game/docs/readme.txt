@@ -55,6 +55,7 @@ p => pause game (disabled in multiplayer)
 e => save screen to TGA file
 c => toggle ingame font color ( and font shadow )
 m => show faded mesages again
+? => Toggle display of Debug information when DebugMode=true
 
 =================
 CONFIGURATION
