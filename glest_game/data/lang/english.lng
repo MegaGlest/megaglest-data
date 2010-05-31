@@ -63,6 +63,7 @@ Disable=Disable
 Disconnect=Disconnect
 Discount=Discount
 DisplaySettingsChanged=Display Settings Changed
+EnableObserverMode=View Map at End Game
 Ep=EP
 EpCost=EP cost
 Exit=Exit
