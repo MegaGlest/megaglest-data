@@ -114,6 +114,7 @@ MorphSpeed=Morph Speed
 Move=Move
 MusicVolume=Music Volume:
 Network=Network
+NetworkFramePeriod=Network Command Frame Freq:
 NewGame=New Game
 No=No
 NotConnected=Not connected
