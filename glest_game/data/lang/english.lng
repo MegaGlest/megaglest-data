@@ -119,6 +119,7 @@ Network=Network
 NetworkFramePeriod=Network Send FrameCount
 NewGame=New Game
 No=No
+NoServerVisitChat=No Server? Visit the chat
 NotConnected=Not connected
 None=None
 NonStandardPort=Non Standard Port
