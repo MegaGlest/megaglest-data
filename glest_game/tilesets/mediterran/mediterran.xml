@@ -126,7 +126,7 @@
 		</water>
 		<fog enabled="false"/>
 		<sun-light red="1" green="1" blue="1"/>
-		<moon-light red="0.00" green="0.00" blue="0.1"/>
+		<moon-light red="0.3" green="0.3" blue="0.8"/>
 		<day-night value="0.7"/>
 		<weather sun="0.98" rain="0.02" snow="0.00"/> 
 	</parameters>
