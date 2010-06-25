@@ -2,7 +2,7 @@
 <configuration>
 	<title value="Mega Glest"/>
 	<file-name value="glest.ini"/>
-	<icon value="true" path="glest.ico"/>
+	<icon value="true" path="megaglest.ico"/>
 	<field-groups>
 		<field-group name="General">
 			<field type="Int">
