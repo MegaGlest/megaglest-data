@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="3"/>
-		<max-hp value="700" regeneration="3"/>
+		<max-hp value="900" regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="20"/>	
 		<armor-type value="leather"/>				
@@ -150,7 +150,7 @@
 				<sound-file path="/sounds/throw2.wav"/>
 			</sound>
 			<attack-strenght value="150"/>
-			<attack-var value="80"/>
+			<attack-var value="70"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>
 			<attack-start-time value="0.67"/>
