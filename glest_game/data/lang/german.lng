@@ -1,4 +1,4 @@
-; German lang file for Glest 3.2.1 by Eisi
+; German lang file for Megaglest
 ;Main strings
 3dArt=3D Gestaltung
 3dAnd2dArt=2D/3D Gestaltung
@@ -61,8 +61,11 @@ Disabled=deaktiviert
 Disconnect=Trennen
 Discount=Discount
 DisplaySettingsChanged=Bildschirmeinstellungen geändert
+EnableObserverMode=Am Spielende Kriegsnebel entfernen?
+EnableServerControlledAI=Soll der Server alle Cpu-Spieler steuern?
 Ep=EP
 EpCost=EP Kosten
+ErrorFromMasterserver=Fehler. Du kannst kein Internet Spiel erstellen.
 Exit=Beenden
 ExitGame?=Wollen sie das Spiel beenden?
 Faction=Fraktion
@@ -113,6 +116,7 @@ Network=Netzwerk
 NetworkFramePeriod=Netzwerk Frequenz
 NewGame=Gefecht
 No=Nein
+NoServerVisitChat=Kein Server? Besuche diesen Chat um Mitspieler zu finden
 NotConnected=Nicht verbunden
 None=kein
 NonStandardPort=Nicht Standard Port
@@ -146,6 +150,7 @@ PublishServer=Spiel auf Masterserver anzeigen?
 ReactionSpeed=Reaktionsgeschw.
 RefreshList=Liste Aktualisieren
 Regeneration=Regeneration
+ReloadLastGameSettings=Zuletzt gespieltes Spiel einstellen.
 Repair=Reparieren
 RepairSpeed=Repariergeschw.
 Reqs=Vorraussetzungen
@@ -198,6 +203,7 @@ Video=Video
 WalkSpeed=Bewegungsgeschw.
 WaitingHost=Warte auf Server
 Windowed=Im Fenster
+WrongRouterSetup=Deine Firewall oder dein Router sind nicht richtig konfiguriert.
 Yes=Ja
 YouLose=Verloren
 YouWin=Gewonnen
