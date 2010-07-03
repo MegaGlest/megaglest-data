@@ -139,6 +139,7 @@ ProductionSpeed=Vel de producción
 Programming=Programación
 Projected=Proyectadas
 PublishServer=¿Publique en Masterserver?
+PublishServerExternalPort=Puerto externo #
 ReactionSpeed=Vel. de reacción
 RefreshList=Restaure la lista
 Regeneration=Regeneración

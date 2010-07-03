@@ -139,6 +139,7 @@ ProductionSpeed=Production speed
 Programming=Programming
 Projected=Projected
 PublishServer=Publish on Masterserver?
+PublishServerExternalPort=External Port #
 ReactionSpeed=Reaction speed
 RefreshList=Refresh List
 Regeneration=Regen

@@ -139,6 +139,7 @@ ProductionSpeed=Produktionsgeschw.
 Programming=Programmierung
 Projected=Projiziert
 PublishServer=Spiel auf Masterserver anzeigen?
+PublishServerExternalPort=Externer Hafen #
 ReactionSpeed=Reaktionsgeschw.
 RefreshList=Liste Aktualisieren
 Regeneration=Regeneration
