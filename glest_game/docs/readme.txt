@@ -4,6 +4,9 @@ Mega-Glest Readme
 CONTROLS
 =================
 
+Most (if not all) keyboard controls are
+now defined in glestkeys.ini
+
 a) Camera
 
 f => toggle free camera mode
