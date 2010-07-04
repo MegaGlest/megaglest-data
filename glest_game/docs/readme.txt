@@ -1,5 +1,21 @@
 Mega-Glest Readme
 
+3.3.5 release was a major milestone!
+(see http://freegamer.blogspot.com/2010/06/megaglest-335-pre-release-special.html)
+
+Thank you to:
+=================
+titi
+tomreyn
+silnarm
+rcl
+ultifd
+wciwow
+claymore
+coldfusionstorm
+FG_Julius (and crew)
+softcoder
+
 =================
 CONTROLS
 =================
@@ -59,6 +75,7 @@ e => save screen to TGA file
 c => toggle ingame font color ( and font shadow )
 m => show faded mesages again
 ? => Toggle display of Debug information when DebugMode=true
+/ => Toggle display of mouse pointer from Operating System to Glest Rendered
 
 =================
 CONFIGURATION
@@ -68,6 +85,11 @@ Glest can be configured in three ways:
 - in-game config menu: basic parameters
 - configuration tool: advanced parameters
 - glest.ini: all parameters
+- glestkeys.ini: all hotkeys
+
+DO NOT directly edit the ini files but rather for user
+changes edit glestuser.ini and glestuserkeys.ini and create 
+the over-ride values that you desire.
 
 =================
 NETWORK PLAY
@@ -92,6 +114,7 @@ COMMAND LINE
 =================
 
 glest => start game normally
+glest --version => display the version string
 glest -server => start game in the new game screen with all slots open
 glest -client ServerIp => start game connecting to a server
 
@@ -129,6 +152,22 @@ The game uses 3D textures for some effects like animated water. Some old video c
 =================
 HISTORY
 =================
+Version 3.3.5:
+- Added loads of Network features (See below)
+- Added multi-platform network play support
+- network performance improvements.
+- Added master server support to help the community find online Internet games.
+- Added Internet lobby to display Internet Game Hosts.
+- Added client lobby where clients may chat and configure their player
+  settings before the game begins.
+- Added Network LAG checking for network games.
+- Added Server / Local based AI control for Network games.
+- Added customizable hotkey support
+- Introduced native Linux 64 bit binaries and installer
+- added queued commands (hold shift while continue clicking future unit commands)
+- added new maps, tilesets and improved particle effects
+- fixed many bugs found during the release cycle.
+- added particle viewing support in the G3d Viewer
 
 Version 3.3.4:
 - Fixed multiplayer related crashes from 3.3.3
