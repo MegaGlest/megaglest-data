@@ -1,20 +1,16 @@
 Mega-Glest Readme
 
-3.3.5 release was a major milestone!
-(see http://freegamer.blogspot.com/2010/06/megaglest-335-pre-release-special.html)
+3.3.5.1 alpha release:
 
-Thank you to:
-=================
-titi
-tomreyn
-silnarm
-rcl
-ultifd
-wciwow
-claymore
-coldfusionstorm
-FG_Julius (and crew)
-softcoder
+- Fixed slow rendering by reverting back to vanilla glest rendering
+- Added much more error checking and network finesse
+- Increased HTTP connection timeout from 5 to 10 seconds and made it configurable
+- Added LAN IP Addresses on Custom Game Menu
+- Disabled "Zoom out' on game end for Network Games (Created instability)
+- Added more relaible TCP connection status checking
+- Fixed mouse disappearing issues
+- Made error messagebox persist between menus / screens
+- Added ability to continue loading / playing if sound system cannot initialize
 
 =================
 CONTROLS
@@ -194,6 +190,23 @@ disable 3D textures when needed.
 =================
 HISTORY
 =================
+
+3.3.5 release was a major milestone!
+(see http://freegamer.blogspot.com/2010/06/megaglest-335-pre-release-special.html)
+
+Thank you to:
+=================
+titi
+tomreyn
+silnarm
+rcl
+ultifd
+wciwow
+claymore
+coldfusionstorm
+FG_Julius (and crew)
+softcoder
+
 Version 3.3.5:
 - Added loads of Network features (See below)
 - Added multi-platform network play support
