@@ -98,6 +98,7 @@ Kills=Muertes
 JoinGame=Unirse a partida
 JoinInternetGame=Juego del Internet
 Language=Idioma
+LanIP=IP address del LAN:
 LinuxPort=Port a Linux
 Load=Carga
 LoadedSpeed=Vel. cargado

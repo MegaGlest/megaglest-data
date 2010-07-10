@@ -98,6 +98,7 @@ Kills=Vernichtet
 JoinGame=Mitspielen
 JoinInternetGame=Internet-Spiel
 Language=Sprache:
+LanIP=Lan-IP address:
 LinuxPort=Linuxportierung
 Load=Gesammelt
 LoadedSpeed=Sammelgeschw.
