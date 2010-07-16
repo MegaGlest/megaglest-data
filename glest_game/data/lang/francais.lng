@@ -118,6 +118,7 @@ Move=Déplacement
 MusicVolume=Volume Musique:
 Network=Réseau
 NetworkFramePeriod=Réseau Freq.
+NetworkPauseGameForLaggedClients=Pause pour les clients traînés
 NewGame=Nouvelle Partie
 No=Non
 NoServerVisitChat=Aucun serveur ? Visitez la causerie

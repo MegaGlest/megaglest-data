@@ -118,6 +118,7 @@ Move=Bewegen
 MusicVolume=Musik:
 Network=Netzwerk
 NetworkFramePeriod=Netzwerk Frequenz
+NetworkPauseGameForLaggedClients=Pause für verlangsamte Klienten
 NewGame=Gefecht
 No=Nein
 NoServerVisitChat=Kein Server? Besuche diesen Chat um Mitspieler zu finden

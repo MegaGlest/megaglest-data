@@ -118,6 +118,7 @@ Move=Mover
 MusicVolume=Volumen Música 
 Network=Red
 NetworkFramePeriod=La red envía FrameCount
+NetworkPauseGameForLaggedClients=Pausa para los clientes retardados
 NewGame=Crear partida
 No=No
 NoServerVisitChat=¿Ninguín servidor? Visite la charla

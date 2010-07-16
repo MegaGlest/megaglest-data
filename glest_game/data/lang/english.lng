@@ -118,6 +118,7 @@ Move=Move
 MusicVolume=Music Volume:
 Network=Network
 NetworkFramePeriod=Network Send FrameCount
+NetworkPauseGameForLaggedClients=Pause for Lagged Clients 
 NewGame=New Game
 No=No
 NoServerVisitChat=No Server? Visit the chat
