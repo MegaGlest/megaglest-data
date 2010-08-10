@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<splash-particle-system>
+    	<texture value="true" path="images/battlemage_particle.bmp" luminance="true"/>
+    	<model value="false"/>
+	<primitive value="quad"/>
+	<offset x="0" y="0" z="0"/>
+	<color red="0.0" green="1.0" blue="0.0" alpha="0.5" />
+	<color-no-energy red="1.0" green="1.0" blue="1.0" alpha="0.0" />
+    	<size value="0.6" />
+    	<size-no-energy value="0.1" />
+    	<speed value="5" />
+	<gravity value="0.8"/>
+    	<emission-rate value="30" />
+    	<energy-max value="50" />
+    	<energy-var value="10" />
+	<emission-rate-fade value="30"/>
+	<vertical-spread a="1" b="0"/>
+	<horizontal-spread a="1" b="0"/>
+</splash-particle-system>

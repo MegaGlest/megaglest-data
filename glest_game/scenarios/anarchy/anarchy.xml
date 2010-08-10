@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="2"/>
+	<players>
+		<player control="human" faction="tech" team="1"/>
+		<player control="cpu" faction="magic" team="2"/>
+		<player control="cpu" faction="tech" team="3"/>
+		<player control="cpu" faction="magic" team="4"/>		
+	</players>
+	<map value="four_rivers"/>
+	<tileset value="winter_forest"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="true"/>
+	<default-units value="true"/>
+	<default-victory-conditions value="true"/>
+	<scripts/>
+</scenario>

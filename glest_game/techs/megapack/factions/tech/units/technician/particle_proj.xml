@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" path="../catapult/images/catapult_particle_proj.bmp" luminance="true"/>
+    	<model value="true" path="../ornithopter/models/bottle.g3d"/>
+	<primitive value="quad"/>
+	<offset x="0" y="0" z="0"/>
+	<color red="0.6" green="0.3" blue="0.0" alpha="0.2" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.2" />
+    	<size value="0.3" />
+    	<size-no-energy value="0.4" />
+    	<speed value="5.0" />
+	<gravity value="-0.01"/>
+    	<emission-rate value="14" />
+    	<energy-max value="10" />
+    	<energy-var value="5" />
+	
+	<trajectory type="parabolic">
+		<speed value="8.0"/>
+		<scale value="2.5"/>
+	</trajectory>
+</projectile-particle-system>

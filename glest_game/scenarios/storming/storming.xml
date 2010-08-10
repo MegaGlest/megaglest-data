@@ -1,0 +1,161 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="3"/>
+	<players>
+		<player control="human" faction="magic" team="1"/>
+		<player control="cpu" faction="magic" team="1"/>
+		<player control="cpu" faction="magic" team="2"/>
+		<player control="cpu" faction="tech" team="2"/>		
+	</players>
+	<map value="in_the_forest"/>
+	<tileset value="forest"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="false"/>
+	<default-units value="false"/>
+	<default-victory-conditions value="false"/>
+	<scripts>
+		<startup>
+			--disable AI
+			disableAi(1)
+			disableAi(2)
+			disableAi(3)
+			
+			--allied units
+			createUnit('mage_tower', 1, startLocation(2))	
+			giveResource('gold', 1, 1000); 
+			giveResource('wood', 1, 1000); 
+			createUnit('summoner_guild', 1, startLocation(2))	
+			giveUpgradeCommand(lastCreatedUnit(), 'ancient_summoning')
+			createUnit('energy_source', 1, startLocation(2))
+			createUnit('summoner', 1, startLocation(2))
+			summonerUnit= lastCreatedUnit()
+			setCameraPosition(unitPosition(summonerUnit))
+			givePositionCommand(summonerUnit, 'attack', startLocation(1))
+			
+			--player units
+			for i=1, 3 do
+				createUnit('battlemage', 0, startLocation(2))
+			end		
+			for i=1, 5 do
+				createUnit('daemon', 0, startLocation(2))
+			end				
+			
+			--enemy units village
+			createUnit('library', 2, startLocation(1))	
+			libraryUnit= lastCreatedUnit()
+			createUnit('golem', 2, startLocation(1))	
+			
+			--create enemy attackers
+			for i=1, 2 do
+				createUnit('daemon', 2, startLocation(1))
+				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(2))	
+			end
+			createUnit('ghost_armor', 2, startLocation(1))
+			givePositionCommand(lastCreatedUnit(), 'attack', startLocation(2))	
+			
+			--objectives
+			objective='destroy_west_village'
+			showMessage('Brief1', 'Storming')
+			setDisplayText('ObjectiveWest')
+			
+		</startup>
+		
+		<unitCreated>		
+			--send units attack location 0
+			if objective=='destroy_north_east_village' and unitFaction(lastCreatedUnit())==1 then
+				firstArmorUnit=lastCreatedUnit()
+				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(0))
+				givePositionCommand(summonerUnit, 'attack', startLocation(0))
+				
+				for i=1, 2 do
+					createUnit('guard', 3, startLocation(0))
+					givePositionCommand(lastCreatedUnit(), 'attack', startLocation(1))	
+				end				
+			end	
+			
+			--send units attack location 3
+			if objective=='destroy_south_east_village' and unitFaction(lastCreatedUnit())==1 then
+				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(3))
+				givePositionCommand(firstArmorUnit, 'attack', startLocation(3))
+				givePositionCommand(summonerUnit, 'attack', startLocation(3))
+				
+				--create enemy attackers
+				createUnit('ornithopter', 3, startLocation(3))
+				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(0))	
+				createUnit('archmage', 2, startLocation(3))
+				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(0))	
+				createUnit('battlemage', 2, startLocation(3))
+				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(0))					
+			end				
+		</unitCreated>	
+		
+		<unitDied>
+			--check for summoner dying
+			if lastDeadUnit()==summonerUnit then
+				clearDisplayText()
+				setPlayerAsWinner(2)
+				setPlayerAsWinner(3)				
+				endGame()
+			end
+			
+			--check for first village destroyed
+			if lastDeadUnit()==libraryUnit then
+				--summon ghost armor
+				giveProductionCommand(summonerUnit, 'ghost_armor')
+				
+				--send reinforcements
+				createUnit('daemon', 0, startLocation(2))
+				givePositionCommand(lastCreatedUnit(), 'move', startLocation(1))
+				
+				--send reinforcements
+				createUnit('battlemage', 0, startLocation(2))
+				givePositionCommand(lastCreatedUnit(), 'move', startLocation(1))				
+				
+				--create next village
+				createUnit('guard', 3, startLocation(0))	
+				createUnit('farm', 3, startLocation(0))
+				createUnit('technodrome', 3, startLocation(0))
+				technodromeUnit= lastCreatedUnit()
+
+				--create enemy attackers
+				for i=1, 2 do
+					createUnit('archer', 3, startLocation(0))
+					givePositionCommand(lastCreatedUnit(), 'attack', startLocation(1))	
+				end
+				createUnit('swordman', 3, startLocation(0))
+				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(1))						
+
+				--change objective
+				objective='destroy_north_east_village'
+				setDisplayText('ObjectiveNorthEast')				
+			end	
+
+			--check for second village destroyed
+			if lastDeadUnit()==technodromeUnit then
+				
+				--summon ghost armor
+				giveProductionCommand(summonerUnit, 'ghost_armor')
+				
+				--create next village
+				createUnit('farm', 3, startLocation(3))
+				createUnit('aerodrome', 3, startLocation(3))
+				createUnit('behemoth', 2, startLocation(3))				
+				createUnit('archmage_tower', 2, startLocation(3))
+				archmageTowerUnit= lastCreatedUnit()
+				
+				--change objective
+				objective='destroy_south_east_village'
+				setDisplayText('ObjectiveSouthEast')					
+			end		
+
+			--check for last village destroyed
+			if lastDeadUnit()==archmageTowerUnit then
+				clearDisplayText()
+				setPlayerAsWinner(0)
+				setPlayerAsWinner(1)				
+				endGame()
+			end
+			
+		</unitDied>		
+	</scripts>		
+</scenario>

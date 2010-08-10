@@ -1,0 +1,244 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<!-- *** parameters *** -->
+
+	<parameters>
+		<size value="2"/>
+		<height value="3"/>
+		<max-hp value="2000" regeneration="3"/>
+		<max-ep value="0"/>
+		<armor value="45"/>	
+		<armor-type value="stone"/>
+		<sight value="10"/>
+		<time value="100"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="advanced" kills="10"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+                        <field value="air"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<unit name="blacksmith"/>
+		</unit-requirements>
+		<upgrade-requirements>
+                  	<!--upgrade name="iron"/-->
+		</upgrade-requirements>
+		<resource-requirements>
+			<resource name="wood" amount="50"/>
+			<resource name="gold" amount="250"/>
+			<resource name="food" amount="2"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/thor.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="/sounds/golem_select1.wav"/>
+			<sound path="/sounds/golem_select2.wav"/>
+			<sound path="/sounds/golem_select3.wav"/>
+			<sound path="/sounds/golem_select4.wav"/>
+			<sound path="/sounds/golem_select5.wav"/>
+			<sound path="/sounds/golem_select6.wav"/>
+			<sound path="/sounds/golem_select7.wav"/>
+			<sound path="/sounds/golem_select8.wav"/>
+			<sound path="/sounds/golem_select9.wav"/>
+			<sound path="/sounds/golem_select10.wav"/>
+			<sound path="/sounds/golem_select11.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+		        <sound path="/sounds/golem_ack1.wav"/>
+			<sound path="/sounds/golem_ack2.wav"/>
+			<sound path="/sounds/golem_ack3.wav"/>
+			<sound path="/sounds/golem_ack4.wav"/>
+			<sound path="/sounds/golem_ack5.wav"/>
+			<sound path="/sounds/golem_ack6.wav"/>
+			<sound path="/sounds/golem_ack7.wav"/>
+			<sound path="/sounds/golem_ack8.wav"/>
+			<sound path="/sounds/golem_ack9.wav"/>
+			<sound path="/sounds/golem_ack10.wav"/>
+			<sound path="/sounds/golem_ack11.wav"/>
+		</command-sounds>
+
+	</parameters>
+
+
+	<!-- *** skills *** -->
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="50"/>
+			<animation path="models/thor_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="125"/>
+			<anim-speed value="55"/>
+			<animation path="models/thor_walking.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/golem_walk1.wav"/>
+				<sound-file path="sounds/golem_walk2.wav"/>
+			</sound> 
+
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="50"/>
+			<anim-speed value="40"/>
+			<animation path="models/thor_attacking.g3d"/>
+			<sound enabled="true" start-time="0.3">
+				<sound-file path="/sounds/golem_attack1.wav"/>
+			</sound>
+			<attack-strenght value="350"/>
+			<attack-var value="50"/>
+			<attack-range value="3"/>
+			<attack-type value="magic"/>
+			<attack-start-time value="0.6"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<projectile value="false"/>
+				<!--particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="/sounds/golem_hit1.wav"/>
+				</sound>
+			</projectile-->
+			<splash value="true">
+				<radius value="2"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+		</skill>
+
+              	<skill>
+			<type value="attack"/>
+			<name value="attack_air_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="40"/>
+			<anim-speed value="70"/>
+			<animation path="models/thor_airattacking.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/air_attack1.wav"/>
+				<sound-file path="sounds/air_attack2.wav"/>
+				<sound-file path="sounds/air_attack3.wav"/>
+				<sound-file path="sounds/air_attack4.wav"/>
+			</sound>
+			<attack-strenght value="170"/>
+			<attack-var value="40"/>
+			<attack-range value="8"/>
+			<attack-type value="energy"/>
+			<attack-fields>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.02"/>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="sounds/air_hit1.wav"/>
+					<sound-file path="sounds/air_hit2.wav"/>
+					<sound-file path="sounds/air_hit3.wav"/>
+					<sound-file path="sounds/air_hit4.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">				<radius value="1"/>				<damage-all value="true"/>				<particle value="true" path="air_particle_splash.xml"/>			</splash>		</skill>
+
+		<skill>
+			<type value="die"/>	
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="30"/>
+			<animation path="models/thor_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/golem_die1.wav"/>
+				<sound-file path="sounds/golem_die2.wav"/>
+				<sound-file path="sounds/golem_die3.wav"/>
+			</sound> 
+                        <fade value="false"/>
+		</skill>
+		
+		<!--skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="120"/>
+			<speed value="120"/>
+			<anim-speed value="300" />
+			<animation path="models/golem_construction.g3d" />
+			<sound enabled="false" />
+		</skill-->
+		
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+		
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/thor_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+                <command>
+			<type value="attack"/>
+			<name value="throw"/>
+			<image path="images/air_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_air_skill"/>
+		</command>
+                
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+			<attack-skill value="attack_air_skill"/>
+		</command>
+	</commands>
+</unit>

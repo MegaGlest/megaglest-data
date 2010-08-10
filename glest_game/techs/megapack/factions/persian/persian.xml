@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="500"/>	
+		<resource name="stone" amount="500"/>	
+		<resource name="food" amount="50"/>	
+	</starting-resources>
+	<starting-units>
+		<unit name="palace" amount="1"/>
+		<unit name="minaret" amount="0"/>
+		<unit name="snake_basket" amount="1"/>
+		<unit name="worker" amount="3"/>
+		<unit name="swordman" amount="0"/>
+		<!--unit name="archer" amount="1"/-->
+		<unit name="princess" amount="1"/>
+		<unit name="sheep" amount="1"/>
+		<unit name="flying_carpet" amount="0"/>
+		<unit name="genie" amount="0"/>
+		<unit name="stickfighter" amount="1"/>
+		<unit name="magician" amount="0"/>
+		<!--unit name="horseman" amount="1"/-->
+		<unit name="house" amount="0"/>
+		<unit name="tent" amount="0"/>
+		<unit name="elephant" amount="0"/>
+		<unit name="blacksmith" amount="0"/>
+		<unit name="farm" amount="0"/>
+		<unit name="fakir" amount="2"/>
+	</starting-units>	
+	<music value="true" path="music/aminos-together_together.ogg"/>
+</faction>

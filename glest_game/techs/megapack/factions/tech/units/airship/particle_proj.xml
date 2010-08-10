@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<projectile-particle-system>
+    	<texture value="true" path="../catapult/images/catapult_particle_splash.bmp" luminance="true"/>
+    	<model value="true" path="models/rocket.g3d"/>
+	<primitive value="quad"/>
+	<offset x="0" y="-0.5" z="1.5"/>
+	<color red="1.0" green="0.5" blue="0.0" alpha="0.5" />
+	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+    	<size value="0.2" />
+    	<size-no-energy value="0.03" />
+    	<speed value="10.0" />
+	<gravity value="0"/>
+    	<emission-rate value="30" />
+    	<energy-max value="20" />
+    	<energy-var value="2" />
+	
+	<trajectory type="linear">
+		<speed value="30.0"/>
+	</trajectory>
+</projectile-particle-system>

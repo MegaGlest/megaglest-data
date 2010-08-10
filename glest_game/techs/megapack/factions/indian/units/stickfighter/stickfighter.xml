@@ -1,0 +1,208 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<!-- *** parameters *** -->
+
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="700" regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="7"/>	
+		<armor-type value="leather"/>				
+		<sight value="10"/>
+		<time value="30"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="elite" kills="3"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="wood" amount="25"/>
+			<resource name="gold" amount="35"/>
+			<resource name="housing" amount="1"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/swordman.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/stickfighter_select1.wav"/>
+			<sound path="sounds/stickfighter_select2.wav"/>
+			<sound path="sounds/stickfighter_select3.wav"/>
+			<sound path="sounds/stickfighter_select4.wav"/>
+			<sound path="sounds/stickfighter_select5.wav"/>
+			<sound path="sounds/stickfighter_select6.wav"/>
+			<sound path="sounds/stickfighter_select7.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/stickfighter_ack1.wav"/>
+			<sound path="sounds/stickfighter_ack2.wav"/>
+			<sound path="sounds/stickfighter_ack3.wav"/>
+			<sound path="sounds/stickfighter_ack4.wav"/>
+			<sound path="sounds/stickfighter_ack5.wav"/>
+			<sound path="sounds/stickfighter_ack6.wav"/>
+		</command-sounds>
+	</parameters>
+
+
+	<!-- *** skills *** -->
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="45"/>
+			<animation path="models/swordman_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="220"/>
+			<anim-speed value="90"/>
+			<animation path="models/swordman_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>
+			<name value="charge_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="220"/>
+			<anim-speed value="125"/>
+			<animation path="models/swordman_charging.g3d"/>
+			<sound enabled="true" start-time="0.0">
+				<sound-file path="sounds/indiattack1.wav"/>
+				<sound-file path="sounds/indiattack2.wav"/>
+				<sound-file path="sounds/indiattack3.wav"/>
+				<sound-file path="sounds/indiattack4.wav"/>
+  			</sound> 
+		</skill>
+
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
+			<animation path="models/swordman_attacking.g3d"/>
+			<sound enabled="true" start-time="0.07">
+				<sound-file path="sounds/stickfighter_attack1.wav"/>
+				<sound-file path="sounds/stickfighter_attack2.wav"/>
+				<sound-file path="sounds/stickfighter_attack3.wav"/>
+				<sound-file path="sounds/stickfighter_attack4.wav"/>
+				<sound-file path="sounds/stickfighter_attack5.wav"/>
+				<sound-file path="sounds/stickfighter_attack6.wav"/>
+				<sound-file path="sounds/stickfighter_attack7.wav"/>
+				<sound-file path="sounds/stickfighter_attack8.wav"/>
+				<sound-file path="sounds/stickfighter_attack9.wav"/>
+				<sound-file path="sounds/stickfighter_attack10.wav"/>
+				<sound-file path="sounds/stickfighter_attack11.wav"/>
+				<sound-file path="sounds/stickfighter_attack12.wav"/>
+			</sound> 
+			<attack-strenght value="75"/>
+			<attack-var value="30"/>
+			<attack-range value="1"/>
+			<attack-type value="slashing"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<!-- *** skill 3 *** -->
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="80"/>
+			<animation path="models/swordman_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+
+		<!-- *** skill 4 *** -->
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/swordman_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/stickfighter_die1.wav"/>
+				<sound-file path="sounds/stickfighter_die2.wav"/>
+				<sound-file path="sounds/stickfighter_die3.wav"/>
+				<sound-file path="sounds/stickfighter_die4.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+		
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/swordman_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+		
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<upgrade name="training_field"/>
+			</upgrade-requirements>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+	</commands>
+</unit>

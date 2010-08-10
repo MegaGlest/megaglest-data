@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<parameters>
+		<size value="4" />
+		<height value="4" />
+		<max-hp value="1400" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>		
+		<sight value="5" />
+		<time value="50" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1111"/>
+			<row value="1011"/>
+			<row value="0000"/>
+			<row value="1111"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="palace" />
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="150" />
+			<resource name="wood" amount="200" />
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/house.bmp"/>
+		<image-cancel path="../genie/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../temple/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../temple/sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../temple/sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<skills>
+
+		<skill>
+			<name value="be_built_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="120"/>
+			<anim-speed value="300"/>
+			<animation path="models/house_constructing.g3d"/>
+			<sound enabled="false"/>
+			<type value="be_built"/>
+		</skill>
+		
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="100"/>
+			<animation path="models/house.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+
+		<skill>
+			<type value="produce"/>
+			<name value="produce_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="200"/>
+			<animation path="models/house.g3d"/>
+			<sound enabled="false"/>
+		</skill>		
+		
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300"/>
+			<anim-speed value="300" />
+			<animation path="models/house_destroy.g3d"/>
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../temple/sounds/tech_building_fall5.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<commands>
+               <command>
+			<type value="produce"/>
+			<name value="produce_fakir"/>
+			<image path="../fakir/images/fakir_p.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="fakir"/>		
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_stickfighter" />
+			<image path="../stickfighter/images/stickfighter_p.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="stickfighter"/>
+		</command>		
+
+	</commands>
+</unit>

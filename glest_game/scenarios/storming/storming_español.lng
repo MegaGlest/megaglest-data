@@ -1,0 +1,11 @@
+;message headers
+Storming=Storming
+
+;message strings
+Brief1=Ayuda a tu Summoner a atacar todos los poblados enemigos, ella debe sobrevivir.
+
+;objective strings
+ObjectiveWest=Objetivo: Destruir el poblado Magic del oeste, la Summoner debe sobrevivir.
+ObjectiveNorthEast=Objectivo: Destruir el poblado Tech del nordeste, la Summoner debe sobrevivir.
+ObjectiveSouthEast=Objectivo: Destruir el poblado del sudeste, la Summoner debe sobrevivir.
+			

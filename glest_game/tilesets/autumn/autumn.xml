@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+
+<tileset>
+	<surfaces>
+		<surface>
+			<texture path="textures/surface1a.bmp" prob="0.15"/>
+			<texture path="textures/surface1b.bmp" prob="0.17"/>
+			<texture path="textures/surface1c.bmp" prob="0.3"/>
+		        <texture path="textures/surface1d.bmp" prob="0.21"/>
+                        <texture path="textures/surface1e.bmp" prob="0.10"/>
+                        <texture path="textures/surface1f.bmp" prob="0.02"/>
+                </surface>
+		<surface>
+			<texture path="textures/surface2a.bmp" prob="0.2"/>
+			<texture path="textures/surface2b.bmp" prob="0.2"/>
+			<texture path="textures/surface2c.bmp" prob="0.2"/>
+		        <texture path="textures/surface2d.bmp" prob="0.2"/>
+                        <texture path="textures/surface2e.bmp" prob="0.1"/>
+                        <texture path="textures/surface2f.bmp" prob="0.1"/>
+		</surface>
+		<surface>
+			<texture path="textures/surface3a.bmp" prob="0.65"/>
+			<texture path="textures/surface3b.bmp" prob="0.35"/>
+		</surface>
+		<surface>
+			<texture path="textures/surface4a.bmp" prob="1.0"/>
+		</surface>
+		<surface>
+			<texture path="textures/surface5a.bmp" prob="0.2"/>
+			<texture path="textures/surface5b.bmp" prob="0.2"/>
+			<texture path="textures/surface5c.bmp" prob="0.2"/>
+		        <texture path="textures/surface5d.bmp" prob="0.2"/>
+                        <texture path="textures/surface5e.bmp" prob="0.1"/>
+                        <texture path="textures/surface5f.bmp" prob="0.1"/>
+		</surface>
+	</surfaces>
+
+	<objects>
+		<object walkable="false">
+			<model path="models/tanne.g3d" />
+			<model path="models/tanne_big.g3d" />
+			<model path="models/tanne_small.g3d" />
+			<model path="models/tanne2.g3d" />
+                        <model path="models/birke.g3d" />
+                        <model path="models/palm2.g3d" />
+                        <model path="models/baum2.g3d" />
+                        <model path="models/baum2big.g3d" />
+                        <model path="models/baum2.g3d" />	
+		</object>					
+		<object walkable="false">
+			<model path="models/nettles2.g3d"/>			
+			<model path="models/nettles1.g3d"/>			
+			<model path="models/nettles2.g3d"/>			
+			<model path="models/stump2.g3d"/>
+		</object>					
+		<object walkable="false">
+			
+			<model path="models/stone2.g3d"/>
+			<model path="models/stone3.g3d"/>
+		</object>					
+		<object walkable="true">
+                        <model path="models/farn.g3d"/>
+		</object>					
+                <object walkable="true">
+			<model path="models/reed.g3d"/>
+		</object>										
+		<object walkable="false">
+			<model path="models/deathtree.g3d"/>
+			<model path="models/deathtree_small.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/hanged.g3d"/>
+			<model path="models/impaled.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/obelisk.g3d"/>
+			<model path="models/statue.g3d"/>
+                        <model path="models/broken_statue.g3d"/>
+                        <model path="models/technician_statue.g3d"/>
+                        <model path="models/battlemage_statue.g3d"/>
+			<model path="models/swordman_statue.g3d"/>
+                        <model path="models/broken_statue2.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/big_stone.g3d"/>
+			<model path="models/big_stone2.g3d"/>
+			<model path="models/big_stone3.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/none.g3d"/>
+		</object>					
+	</objects>
+	
+	<ambient-sounds>
+		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
+		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
+		<rain-sound enabled="true" path="sounds/rain.ogg"/>
+		<snow-sound enabled="false"/>		
+		<day-start-sound enabled="true" path="sounds/chicken.wav"/>	
+		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+	</ambient-sounds>
+
+	<parameters>
+		<water effects="true">
+			<texture path="textures/water_001.tga"/>
+			<texture path="textures/water_002.tga"/>
+			<texture path="textures/water_003.tga"/>
+			<texture path="textures/water_004.tga"/>
+			<texture path="textures/water_005.tga"/>
+			<texture path="textures/water_006.tga"/>
+			<texture path="textures/water_007.tga"/>
+			<texture path="textures/water_008.tga"/>
+		</water>
+		<fog enabled="false"/>
+		<sun-light red="1" green="1" blue="1"/>
+		<moon-light red="0.2" green="0.2" blue="0.3"/>
+		<day-night value="0.7"/>
+		<weather sun="0.60" rain="0.30" snow="0.10"/> 
+	</parameters>
+</tileset>
+

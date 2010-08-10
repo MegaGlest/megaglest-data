@@ -1,0 +1,194 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="2"/>
+		<height value="1"/>
+		<max-hp value="1300" regeneration="3"/>
+		<max-ep value="0"/>
+		<armor value="20"/>	
+		<armor-type value="organic"/>
+		<sight value="15"/>
+		<time value="450"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="ancient" kills="4"/>
+			<level name="expert" kills="10"/>
+		</levels>
+		<fields>
+			<field value="air"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<!--<unit name="archmage_tower"/>-->
+		</unit-requirements> 
+		<upgrade-requirements>
+			
+		</upgrade-requirements>
+		<resource-requirements>
+			<resource name="gold" amount="200"/>
+			<resource name="stone" amount="100"/>
+			<resource name="wood" amount="200"/>
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/eagle.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/eagle_select1.wav"/>
+			<sound path="sounds/eagle_select2.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/eagle_ack1.wav"/>
+			<sound path="sounds/eagle_ack2.wav"/>
+		</command-sounds>
+
+	</parameters>
+
+
+	<!-- *** skills *** -->
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="75"/>
+			<animation path="models/dragon_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="350"/>
+			<anim-speed value="75"/>
+			<animation path="models/dragon_walking.g3d"/>
+			<sound enabled="true" start-time="0">
+			<sound-file path="sounds/eagle_fly.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_ground_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="40"/>
+			<anim-speed value="70"/>
+			<animation path="models/dragon_walking.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/ground_attack1.wav"/>
+				<sound-file path="sounds/ground_attack2.wav"/>
+				<sound-file path="sounds/ground_attack3.wav"/>
+				<sound-file path="sounds/ground_attack4.wav"/>
+			</sound>
+			<attack-strenght value="250"/>
+			<attack-var value="40"/>
+			<attack-range value="7"/>
+			<attack-type value="energy"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0.3"/>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="sounds/eagle_hit4.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">				<radius value="1"/>				<damage-all value="true"/>				<particle value="true" path="particle_splash.xml"/>			</splash>		</skill>
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="40"/>
+			<anim-speed value="100"/>
+			<animation path="models/dragon_attacking.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/eagle_attack1.wav"/>
+			</sound>
+			<attack-strenght value="250"/>
+			<attack-var value="40"/>
+			<attack-range value="1"/>
+			<attack-type value="energy"/>
+			<attack-fields>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.3"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+	
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="120"/>
+			<anim-speed value="120"/>
+			<animation path="models/dragon_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/eagle_die1.wav"/>
+				<sound-file path="sounds/eagle_die2.wav"/>
+			</sound>			
+			<fade value="true"/>
+		</skill>
+
+	</skills>
+	
+	<commands>
+		
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+
+                <command>
+			<type value="attack"/>
+			<name value="throw"/>
+			<image path="images/eagle_attack2.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_ground_skill"/>
+		</command>
+                <command>
+			<type value="attack"/>
+			<name value="breath"/>
+			<image path="images/eagle_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_ground_skill"/>
+		</command>
+
+	</commands>
+</unit>

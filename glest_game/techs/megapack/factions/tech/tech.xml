@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="500"/>	
+		<resource name="stone" amount="500"/>	
+		<resource name="food" amount="50"/>	
+	</starting-resources>
+	<starting-units>
+		<unit name="castle" amount="1"/>
+		<unit name="defense_tower" amount="1"/>
+		<unit name="worker" amount="3"/>
+		<unit name="swordman" amount="2"/>
+		<unit name="archer" amount="1"/>
+		<unit name="guard" amount="0"/>
+		<unit name="cow" amount="1"/>
+		<unit name="battle_machine" amount="0"/>
+		<unit name="catapult" amount="0"/>
+		<unit name="ornithopter" amount="0"/>
+		<unit name="airship" amount="0"/>
+		<unit name="horseman" amount="0"/>
+		<unit name="aerodrome" amount="0"/>
+		<unit name="air_ballista" amount="0"/>
+		<unit name="technician" amount="0"/>
+		<unit name="blacksmith" amount="0"/>
+		<unit name="technodrome" amount="0"/>
+	</starting-units>	
+	<music value="true" path="music/music_tech.ogg"/>
+</faction>

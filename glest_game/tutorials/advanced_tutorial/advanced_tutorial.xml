@@ -1,0 +1,102 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="1"/>
+	<players>
+		<player control="cpu" faction="tech" team="1"/>
+		<player control="human" faction="magic" team="2"/>
+		<player control="closed"/>
+		<player control="closed"/>		
+	</players>
+	<map value="valley_of_death"/>
+	<tileset value="winter"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="false"/>
+	<default-units value="false"/>
+	<default-victory-conditions value="false"/>
+	<scripts>
+		<startup>
+			disableAi(0)
+			createUnit('mage_tower', 1, startLocation(1))
+			setCameraPosition(unitPosition(lastCreatedUnit()))
+			createUnit('energy_source', 1, startLocation(1))
+			createUnit('initiate', 1, startLocation(1))
+			createUnit('initiate', 1, startLocation(1))
+			giveResource('gold', 1, 500);
+			giveResource('stone', 1, 500);
+			giveResource('wood', 1, 500);			
+			showMessage('Welcome', 'GlestAdvancedTutorial')
+			showMessage('MagicBrief', 'GlestAdvancedTutorial')
+			showMessage('InitiateBrief', 'GlestAdvancedTutorial')
+			showMessage('InitiatePromotion', 'Promoting')
+			setDisplayText('PromoteInitiate')
+			objective= 'produce_battlemage'
+			combatUnitCount= 0;		
+		</startup>
+		<unitCreated>
+		</unitCreated>
+		<unitCreatedOfType type="battlemage">
+			if objective=='produce_battlemage' then
+				showMessage('BattlemageBrief', 'WellDone')
+				showMessage('EnergyBrief', 'Energy')
+				setDisplayText('BuildEnergySource')	
+				objective= 'build_energy_source'						
+		
+			end
+		</unitCreatedOfType>
+		<unitCreatedOfType type="energy_source">
+			if objective=='build_energy_source' then
+				showMessage('EnergyBrief2', 'WellDone')	
+				showMessage('SummonedUnitsBrief', 'Summoning')
+				setDisplayText('ProduceSummoner')
+				objective= 'produce_summoner'						
+			end
+		</unitCreatedOfType>			
+		<unitCreatedOfType type="summoner">
+			if objective=='produce_summoner' then
+				showMessage('SummonerBrief', 'WellDone')	
+				setDisplayText('ProduceDaemon')
+				objective= 'produce_daemon'					
+			end
+		</unitCreatedOfType>	
+		<unitCreatedOfType type="daemon">
+			if objective=='produce_daemon' then
+				showMessage('DaemonBrief', 'WellDone')	
+				showMessage('OtherSummonedCreatures', 'Summoning')	
+				showMessage('GhostArmorRequirements', 'Summoning')	
+				setDisplayText('ProduceGhostArmor')
+				objective= 'produce_ghost_armor'	
+			end
+		</unitCreatedOfType>	
+		<unitCreatedOfType type="ghost_armor">
+			if objective=='produce_ghost_armor' then
+				showMessage('GhostArmorBrief', 'WellDone')	
+				showMessage('RitualBrief', 'Ritual')
+				setDisplayText('ProduceGolem')
+				objective= 'produce_golem'	
+			end
+		</unitCreatedOfType>			
+		<unitCreatedOfType type="golem">
+			if objective=='produce_golem' then
+				showMessage('GolemBrief', 'WellDone')		
+				showMessage('ArmyManagement', 'Armies')		
+				showMessage('DoubleClickBrief', 'Armies')		
+				showMessage('GroupSelectBrief', 'Armies')	
+				showMessage('FinalMission', 'Armies')	
+				objective= 'defeat_enemy'	
+				setDisplayText('DefeatEnemy')
+				createUnit('farm', 0, startLocation(0))
+				createUnit('barracks', 0, startLocation(0))
+				createUnit('swordman', 0, startLocation(0))	
+				createUnit('swordman', 0, startLocation(0))	
+				createUnit('archer', 0, startLocation(0))					
+			end
+		</unitCreatedOfType>	
+		<unitDied>
+			if objective=='defeat_enemy' and unitCount(0)==0 then
+				clearDisplayText()
+				setPlayerAsWinner(1)
+				endGame()
+			end
+		</unitDied>
+	</scripts>
+</scenario>

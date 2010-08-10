@@ -1,0 +1,166 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="4000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="wood"/>				
+		<sight value="5" />
+		<time value="50" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1110" /> 
+			<row value="1110" /> 
+			<row value="1110" /> 
+			<row value="1110" />
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="roundtent" />
+			<unit name="mainteepee" />
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="250"/>
+			<resource name="wood" amount="150"/>
+			<resource name="stone" amount="100"/>
+		</resource-requirements>
+		<resources-stored>
+			<resource name="food" amount="20"/>
+		</resources-stored>
+		<image path="images/farm.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../mainteepee/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../mainteepee/sounds/tech_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../mainteepee/sounds/tech_click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="120"/>
+			<anim-speed value="0" />
+			<animation path="models/horsefarm_construction.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="30" />
+			<animation path="models/horsefarm.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/horsefarm.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="0" />
+			<animation path="models/horsefarm_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../mainteepee/sounds/tech_building_fall3.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+                <skill>
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="50"/>
+			<animation path="models/horsefarm.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="produce_horseman" />
+			<image path="../horseman/images/horseman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="horseman"/>
+		</command>
+
+		<!--command>
+			<type value="produce"/>
+			<name value="produce_pig" />
+			<image path="../pig/images/pig.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="pig"/>
+		</command>	
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_cow" />
+			<image path="../cow/images/cow.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="cow"/>
+		</command-->
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_bull" />
+			<image path="../bull/images/bull.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="bull"/>
+		</command>
+
+                <command>
+			<type value="upgrade"/>
+			<name value="research_stables"/>
+			<image path="../../upgrades/stables/images/stables.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="stables"/>
+		</command>	
+
+	</commands>
+</unit>

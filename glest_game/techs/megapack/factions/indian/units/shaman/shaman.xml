@@ -1,0 +1,338 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<!-- *** parameters *** -->
+
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="550" regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="0"/>
+		<armor-type value="leather"/>					
+		<sight value="8"/>
+		<time value="80"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="gold" amount="150"/>
+			<resource name="housing" amount="1"/>			
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/shaman.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/shaman_select1.wav"/>
+			<sound path="sounds/shaman_select2.wav"/>
+			<sound path="sounds/shaman_select3.wav"/>
+			<sound path="sounds/shaman_select4.wav"/>
+			<sound path="sounds/shaman_select5.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/shaman_ack1.wav"/>
+			<sound path="sounds/shaman_ack2.wav"/>
+			<sound path="sounds/shaman_ack3.wav"/>
+			<sound path="sounds/shaman_ack4.wav"/>		
+		</command-sounds>
+
+
+	</parameters>
+
+
+	<!-- *** skills *** -->
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="55"/>
+			<animation path="models/shaman_standing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<!--skill>
+			<type value="stop"/>
+			<name value="stop_loaded_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="150"/>
+			<animation path="models/shaman_standing_loaded.g3d"/>
+			<sound enabled="false"/>
+		</skill-->
+
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="210"/>
+			<animation path="models/shaman_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+                
+		<!--skill>
+			<type value="move"/>
+			<name value="move_loaded_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="190"/>
+			<anim-speed value="50"/>
+			<animation path="models/shaman_walking_loaded.g3d"/>
+			<sound enabled="false"/>
+		</skill-->
+
+		<skill>
+			<type value="repair"/>
+			<name value="repair_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="210"/>
+			<animation path="models/shaman_repairing.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/shaman_build1.wav"/>
+				<sound-file path="sounds/shaman_build2.wav"/>
+				<sound-file path="sounds/shaman_build3.wav"/>
+				<sound-file path="sounds/shaman_build4.wav"/>
+				<sound-file path="sounds/shaman_build5.wav"/>
+				<sound-file path="sounds/shaman_build6.wav"/>
+			</sound>
+
+		</skill>
+                
+		<skill>
+			<type value="attack"/>
+			<name value="molotov_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="35"/>
+			<anim-speed value="35"/>
+			<animation path="models/shaman_attacking.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/shaman_attack.wav"/>
+			</sound> 
+			<attack-strenght value="200"/>
+			<attack-var value="175"/>
+			<attack-range value="6"/>
+			<attack-type value="energy"/>
+			<attack-start-time value="0.5"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="/sounds/shaman_hit1.wav"/>
+					<sound-file path="/sounds/shaman_hit2.wav"/>
+				</sound>
+			</projectile>
+			<splash value="true">
+				<radius value="1"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+		</skill>
+
+		<skill>
+			<type value="repair"/>
+			<name value="heal"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="210"/>
+			<animation path="models/shaman_healing.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/shaman_heal1.wav"/>	
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="build"/>
+			<name value="build_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="180"/>
+			<anim-speed value="210"/>
+			<animation path="models/shaman_repairing.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/shaman_build1.wav"/>
+				<sound-file path="sounds/shaman_build2.wav"/>
+				<sound-file path="sounds/shaman_build3.wav"/>
+				<sound-file path="sounds/shaman_build4.wav"/>
+				<sound-file path="sounds/shaman_build5.wav"/>
+				<sound-file path="sounds/shaman_build6.wav"/>
+			</sound>
+		</skill>		
+
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/shaman_healing.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/shaman_prod1.wav"/>
+				<sound-file path="sounds/shaman_prod2.wav"/>
+				<sound-file path="sounds/shaman_prod3.wav"/>	
+			</sound>
+		</skill>	
+
+
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="90"/>
+			<anim-speed value="50"/>
+			<animation path="models/shaman_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/shaman_die1.wav"/>
+				<sound-file path="sounds/shaman_die2.wav"/>
+				<sound-file path="sounds/shaman_die3.wav"/>	
+				<sound-file path="sounds/shaman_die4.wav"/>									
+			</sound>			
+			<fade value="false"/>
+		</skill>						
+
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<!--command>
+			<type value="build"/>
+			<name value="build_ultimate"/>
+			<image path="../worker/images/worker_build_advanced.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<build-skill value="build_skill"/>
+			<buildings>
+                                <building name="aerodrome"/>
+                	</buildings>
+			<start-sound enabled="false"/>
+			<built-sound enabled="true" start-time="0">
+				<sound-file path="sounds/shaman_select1.wav"/>
+				<sound-file path="sounds/shaman_select5.wav"/>
+			</built-sound>
+		</command-->
+
+		<command>
+			<type value="repair"/>
+			<name value="repair"/>
+			<image path="images/shaman_repair.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="repair_skill"/>
+			<repaired-units>	
+				<!--unit name="catapult"/-->	
+				<unit name="beehive"/>
+                                <!--unit name="air_ballista"/>	
+                                <unit name="aerodrome"/-->					
+			</repaired-units>		
+		</command>
+
+		<command>
+			<type value="repair"/>
+			<name value="heal"/>
+			<image path="images/shaman_heal.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="heal"/>
+			<repaired-units>	
+				<unit name="worker"/>	
+				<unit name="shaman"/>		
+				<unit name="stickfighter"/>	
+				<unit name="archer"/>		
+				<unit name="firegolem"/>		
+				<unit name="bull"/>		
+				<unit name="fire_archer"/>		
+				<unit name="thunderbird"/>		
+				<unit name="axe_indian"/>
+				<unit name="axe_thrower"/>
+                                <unit name="horseman"/>					
+			</repaired-units>		
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="molotov"/>
+			<image path="images/molotov.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<attack-skill value="molotov_skill"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_thunderbird"/>
+			<image path="../thunderbird/images/eagle.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name= "thunderbird"/>
+		</command>
+
+		<command>
+			<type value= "build"/>
+			<name value="build_beehive"/>
+			<image path="../worker/images/worker_build_basic.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<build-skill value="build_skill"/>
+			<buildings>
+				<building name="beehive"/>			
+			</buildings>
+			<start-sound enabled="false"/>
+			<built-sound enabled="true">
+				<sound-file path="../worker/sounds/worker_work_end1.wav"/>		    
+                        </built-sound>	
+		</command>
+
+                
+		<!--command>
+			<type value="morph"/>
+			<name value="build_air_ballista"/>
+			<image path="../air_ballista/images/air_ballista.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="build_air_ballista"/>
+			<morph-unit name= "air_ballista"/>
+			<discount value="40"/>
+		</command-->
+
+	</commands>
+</unit>

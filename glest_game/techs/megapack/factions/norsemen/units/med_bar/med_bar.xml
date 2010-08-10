@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>
+		<sight value="6" />
+		<time value="100" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1001"/>
+			<row value="0110"/>
+			<row value="0100"/>
+			<row value="1001"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="house" />
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="100" />
+			<resource name="stone" amount="150" />
+			<resource name="wood" amount="50" />
+		</resource-requirements>
+		<resources-stored />
+		<image path="images/med_bar.bmp" />
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+		<!-- *** skill 0 *** -->
+		<skill>
+			<type value="stop"/>	
+			<name value="stop_skill"/>
+			<ep-cost value="0" />
+			<speed value="50" />
+			<anim-speed value="100" />
+			<animation path="models/med_bar.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<!-- *** skill 1 *** -->
+		<skill>
+			<type value="be_built" />	
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/med_bar_construction.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<!-- *** skill 2 *** -->
+		<skill>
+			<type value="upgrade"/>	
+			<name value="upgrade_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/med_bar.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<!-- *** skill 3 *** -->
+		<skill>
+			<type value="produce"/>
+			<name value="produce_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/med_bar.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<!-- *** skill 4 *** -->
+		<skill>
+			<type value="die" />	
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="10" />
+			<animation path="models/med_bar_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+				<particle-file path="smoke_particles2.xml"/>
+				<particle-file path="fire_particles2.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../med_bar/sounds/tech_building_fall4.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+	
+		<!-- *** command 1 *** -->
+		<command>
+			<type value="produce"/>
+			<name value="produce_cudgel_lady" />
+			<image path="../cudgel_lady/images/cudgel_lady.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="cudgel_lady"/>
+		</command>
+		
+		<command>
+			<type value="produce"/>
+			<name value="produce_spearman" />
+			<image path="../spearman/images/spearman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="spearman"/>
+		</command>
+		
+		<!-- *** command 2 *** -->
+		<command>
+			<type value="upgrade"/>
+			<name value="research_med"/>
+			<image path="../../upgrades/med/images/med.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="med"/>
+		</command>				
+
+	</commands>
+</unit>

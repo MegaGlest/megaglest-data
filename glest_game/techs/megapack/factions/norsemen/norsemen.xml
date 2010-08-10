@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="500"/>	
+		<resource name="stone" amount="500"/>	
+		<resource name="food" amount="50"/>	
+	</starting-resources>
+	<starting-units>
+		<unit name="castle" amount="1"/>
+		<unit name="farm" amount="0"/>
+		<unit name="swordman" amount="1"/>
+		<unit name="swordman_berzerk" amount="0"/>
+		<unit name="archer" amount="1"/>
+		<unit name="spearman" amount="2"/>
+		<unit name="spearman_berzerk" amount="0"/>
+		<unit name="cow" amount="1"/>
+		<unit name="wild_sow" amount="0"/>
+		<unit name="med_bar" amount="0"/>
+		<unit name="bone_tent" amount="0"/>
+		<unit name="cudgel_lady" amount="0"/>
+		<unit name="axe_thrower" amount="1"/>
+		<unit name="battleaxe" amount="0"/>
+		<unit name="battleaxe_berzerk" amount="0"/>
+		<unit name="house" amount="0"/>
+		<unit name="thrull" amount="3"/>
+		<unit name="thortotem" amount="0"/>
+		<unit name="valkyrie" amount="0"/>
+                <unit name="flyingvalkyrie" amount="0"/>
+		<unit name="blacksmith" amount="0"/>
+		<unit name="mistletree" amount="0"/>
+                <unit name="valhalla" amount="0"/>
+                <unit name="thor" amount="0"/>
+                <unit name="crossbow" amount="0"/>
+	</starting-units>	
+	<music value="true" path="music/manolo_camp-medieval.ogg"/>
+</faction>

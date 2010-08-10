@@ -1,0 +1,39 @@
+;message headers
+GlestAdvancedTutorial=Tutorial Avanzado do Glest
+Promoting=Promocionando Unidades
+WellDone=Ben Feito!
+Summoning=Invocación
+Energy=Enerxía
+Ritual=Ritual
+Armies=Exercitos
+
+;message strings
+Welcome=Benvido ao Tutorial Avanzado do Glest, aquí aprenderás algunhas das características mais avanzadas do xogo.
+MagicBrief=Tes o control da facción Máxica (Magic), que usa magos e criaturas invocadas para loitar.
+InitiateBrief=Os Iniciados (Initiate) son a unidade básica da facción Máxica, poden recolectar recursos e construir estructuras.
+InitiatePromotion=Os Iniciados podense promocionar a Magos de Batalla (Battlemage), para facelo, selecciona un Iniciado e usa el comando "Promocionar a Mago de Batalla" ("Promote to Battlemage"). 
+BattlemageBrief=O Magos de Batalla son os guerreiros máxicos principais, teñen un ataque a distancia potente e boa velocidade e resistencia.
+EnergyBrief=As unidades Máxicas precisan Enerxía (Energy) para ser producidas, a Enerxía non se consume coma a comida, so se requere cando se crea a unidade. Producese nas Fontes de Enerxía (Energy Source).
+EnergyBrief2=Asegurate de ter sempre Enerxía suficiente para producir mais unidades.
+SummonedUnitsBrief=A outra forma que ten a facción Máxica de producir unidades é invocandoas. Vas precisar unha Invocadora (Summoner), producense no Gremio dos Invocadores (Summoners Guild).
+SummonerBrief=As Invocadoras poden crear varios tipos de unidades, a mais básica é o Demonio (Daemon).
+DaemonBrief=Os Demonios son moi débiles pero tamén moi baratos, son utiles no combate man a man, e tamén para explorar.
+OtherSummonedCreatures=As Invocadoras poden crear unidades mais avanzadas, como as Armaduras Fantasma (Ghost Armor) e Dragons (Dragon), pero requiren que investigues as melloras pertinentes.
+GhostArmorRequirements=As Armaduras Fantasma requieren a mellora Invocación Arcana (Ancient Summoning), que se pode investigar no Gremio dos Invocadores.
+GhostArmorBrief=As Armaduras Fantasma son unha unidade de combate man a man media, útil para mantener aos enemigos lonxe dos teus Magos de Batalla.
+RitualBrief=Os Iniciados teñen un comando de construcción secundario, chamado Ritual, que se usa para construir estructuras avanzadas e criaturas poderosas coma o Golem. Precisarás unha Biblioteca (Library) para acceder a elas.
+GolemBrief=O Golem é unha unidade defensiva moi poderosa, ten un ataque potente e moita resistencia, pero so se pode mover se ten suficientes puntos de enerxía.
+ArmyManagement=Cando tes moitas unidades poden ser difíciles de controlar.
+DoubleClickBrief=Facendo doble click na unidade seleccionas todas as do mismo tipo que estean preto.
+GroupSelectBrief=Podes definir grupos de unidades seleccionándoas e logo pulsando Control e unha tecla numérica, logo o grupo podese seleccionar en calquera momento so pulsando a tecla numérica.
+FinalMission=Como proba final, construe un exército e derrota ao enemigo.
+
+;objective strings
+PromoteInitiate=Obxetivo: Promociona un Iniciado (Initiate) a Mago de Batalla (Battlemage).
+ProduceSummoner=Obxetivo: Construe un Gremio dos Invocadores (Summoners Guild) e logo unha Invocadora (Summoner).
+ProduceDaemon=Obxetivo: Invoca un Demonio (Daemon).
+ProduceGhostArmor=Obxetivo: Investiga a Invocación Arcana (Ancient Summoning) e logo produce unha Armadura Fantasma (Ghost Armor).
+BuildEnergySource=Obxetivo: Produce unha Fonte de Enerxía (Energy Source).
+ProduceGolem=Obxetivo: Construe unha Biblioteca (Library) e logo usa un Iniciado (Initiate) para construir un Golem.
+DefeatEnemy=Obxetivo: Construe un exército, busca e derrota ao enemigo.
+			

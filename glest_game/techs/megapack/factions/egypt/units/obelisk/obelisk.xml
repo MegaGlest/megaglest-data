@@ -1,0 +1,145 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="5" />
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="wood"/>		
+		<sight value="5" />
+		<time value="150" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="0000"/>
+			<row value="0110"/>
+			<row value="0000"/>
+			<row value="0000"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="pyramid" />
+			<unit name="temple" />
+			<unit name="priest" />
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="200" />
+			<resource name="stone" amount="200" />
+		</resource-requirements>
+		<resources-stored>
+		</resources-stored>
+		<image path="images/obelisk.bmp"/>
+		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../desert_camp/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../desert_camp/sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../desert_camp/sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<name value="be_built_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="10"/>
+			<animation path="models/obelisk_construction.g3d"/>
+			<sound enabled="false"/>
+			<type value="be_built"/>
+		</skill>
+		
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="100"/>
+			<animation path="models/obelisk.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="produce"/>
+			<name value="produce_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="50"/>
+			<animation path="models/obelisk_producing.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+		
+		<skill>
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="60"/>
+			<animation path="models/obelisk_producing.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="die"/>
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300"/>
+			<anim-speed value="20" />
+			<animation path="models/obelisk_dying.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../desert_camp/sounds/tech_building_fall5.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+
+	<!-- *** commands *** -->
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="produce_scarab" />
+			<image path="../scarab/images/scarab.bmp" />
+		<unit-requirements>
+		</unit-requirements>
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="scarab"/>
+		</command>	
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_snake" />
+			<image path="../snake/images/snake.bmp" />
+		<unit-requirements>
+		</unit-requirements>
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="snake"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="produce_ibis" />
+			<image path="../ibis/images/ibis.bmp" />
+		<unit-requirements>
+		</unit-requirements>
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="ibis"/>
+		</command>
+
+	</commands>
+</unit>

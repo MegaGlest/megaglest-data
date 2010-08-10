@@ -1,0 +1,118 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="5" />
+		<height value="2" />
+		<max-hp value="3400" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>				
+		<sight value="5" />
+		<time value="50" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="11011" /> 
+			<row value="10001" /> 
+			<row value="10001" /> 
+			<row value="10001" /> 
+			<row value="11011" /> 
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="mainteepee"/>
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="125"/>
+			<resource name="wood" amount="80"/>
+			<resource name="stone" amount="80"/>
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/reed.bmp"/>
+
+
+
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="../mainteepee/sounds/tech_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../mainteepee/sounds/tech_click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+		<!-- *** skill 0 *** -->
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="120"/>
+			<anim-speed value="0" />
+			<animation path="models/reed_construction.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<!-- *** skill 1 *** -->
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="20" />
+			<animation path="models/reed.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<!-- *** skill 2 *** -->
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="0" />
+			<animation path="models/reed_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../mainteepee/sounds/tech_building_fall5.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+                <skill>
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="30"/>
+			<animation path="models/reed.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+                <command>
+			<type value="upgrade"/>
+			<name value="research_bullfood"/>
+			<image path="../../upgrades/bullfood/images/bullfood.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="bullfood"/>
+		</command>	
+	</commands>
+</unit>

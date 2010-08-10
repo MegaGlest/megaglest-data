@@ -1,0 +1,130 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="3" />
+		<height value="2" />
+		<max-hp value="3000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>				
+		<sight value="5" />
+		<time value="50" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="111" /> 
+			<row value="101" /> 
+			<row value="100" /> 
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="mainteepee"/>
+			<unit name="tent"/>
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="150"/>
+			<resource name="wood" amount="150"/>
+			<resource name="housing" amount="-35"/>
+		</resource-requirements>
+		<resources-stored>
+			<resource name= "wood" amount="200"/>				
+		</resources-stored>
+		<image path="images/bigtent.bmp"/>
+
+
+
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../mainteepee/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../mainteepee/sounds/tech_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../mainteepee/sounds/tech_click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+		<!-- *** skill 0 *** -->
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="70"/>
+			<anim-speed value="300" />
+			<animation path="../tent/models/tent_construction.g3d" />
+			<sound enabled="false"/>
+		</skill>
+		
+		<!-- *** skill 1 *** -->
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/tipi_big.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<!-- *** skill 2 *** -->
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/tent_destroyed.g3d" />
+			<particles value="true">
+				<particle-file path="smoke_particles.xml"/>
+				<particle-file path="glow_particles.xml"/>
+			</particles>
+			<sound enabled="true" start-time="0">
+				<sound-file path="../mainteepee/sounds/tech_building_fall5.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+                <!-- *** skill 3 *** -->
+		<skill>
+			<type value="produce"/>
+			<name value="produce_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/tipi_big.g3d" />
+			<sound enabled="false" />
+		</skill>	
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+		<!-- *** command 0 *** -->
+		<command>
+			<type value="produce"/>
+			<name value="produce_stickfighter" />
+			<image path="../stickfighter/images/swordman.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="stickfighter"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_archer" />
+			<image path="../archer/images/archer.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="archer"/>
+		</command>
+   	</commands>
+</unit>

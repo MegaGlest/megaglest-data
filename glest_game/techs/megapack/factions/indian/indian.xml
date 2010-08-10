@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="500"/>	
+		<resource name="stone" amount="500"/>	
+		<resource name="housing" amount="9"/>	
+	</starting-resources>
+	<starting-units>
+		<unit name="mainteepee" amount="1"/>
+		<unit name="tent" amount="0"/>
+		<unit name="bigtent" amount="0"/>
+		<unit name="worker" amount="3"/>
+		<unit name="axe_thrower" amount="1"/>
+		<unit name="roundtent" amount="0"/>
+		<unit name="axe_indian" amount="0"/>
+		<unit name="shaman" amount="0"/>
+		<unit name="stickfighter" amount="2"/>
+		<unit name="archer" amount="1"/>
+		<unit name="spearman" amount="0"/>
+		<unit name="fire_archer" amount="0"/>
+		<unit name="bull" amount="0"/>
+                <unit name="horseman" amount="0"/>
+		<unit name="thunderbird" amount="0"/>
+                <unit name="firegolem" amount="0"/>
+                <unit name="reed" amount="0"/>
+                <unit name="campfire" amount="0"/>
+                <unit name="beehive" amount="0"/>
+                <unit name="totem" amount="0"/>
+	</starting-units>	
+	<music value="true" path="music/music_indian.ogg"/>
+</faction>
