@@ -1,16 +1,24 @@
 Mega-Glest Readme
 
-3.3.5.1 alpha release:
-
-- Fixed slow rendering by reverting back to vanilla glest rendering
-- Added much more error checking and network finesse
-- Increased HTTP connection timeout from 5 to 10 seconds and made it configurable
-- Added LAN IP Addresses on Custom Game Menu
-- Disabled "Zoom out' on game end for Network Games (Created instability)
-- Added more relaible TCP connection status checking
-- Fixed mouse disappearing issues
-- Made error messagebox persist between menus / screens
-- Added ability to continue loading / playing if sound system cannot initialize
+3.3.6 release:
+==============
+- More performance updates to rendering and game updating
+- Improved network play for slower clients (new game options for lagging players)
+  - Added the ability to toggle Pause or Disconnect for lagged clients per game
+  - Better error detection of network state
+- Updated client and server lobby screens to show more game information
+- Added more per game changable settings for network games
+- Updated support for GAE pathfinder (but should ONLY be used in single player mode as network use is experimental)
+- Added new commandline parameter for modders to validate their techtrees, usage:
+  ./glest --validate-techtrees
+- Added new commandline parameter to display openGL driver information, usage:
+  ./glest --opengl-info
+- Added support for Open Suse
+- Fixed bugs where invalid IP addresses were used for NIC's that are not active
+- Added the ability to turn OFF sounds via the options menu
+- Some bug fixes and changes were made to the AI
+- Fixed issue where command queues and multi-unit selecting was broken
+- Fixed map editor for windows users where tooltips didn't show properly and memory corruption.
 
 =================
 CONTROLS
@@ -190,6 +198,18 @@ disable 3D textures when needed.
 =================
 HISTORY
 =================
+
+3.3.5.1 alpha release:
+
+- Fixed slow rendering by reverting back to vanilla glest rendering
+- Added much more error checking and network finesse
+- Increased HTTP connection timeout from 5 to 10 seconds and made it configurable
+- Added LAN IP Addresses on Custom Game Menu
+- Disabled "Zoom out' on game end for Network Games (Created instability)
+- Added more relaible TCP connection status checking
+- Fixed mouse disappearing issues
+- Made error messagebox persist between menus / screens
+- Added ability to continue loading / playing if sound system cannot initialize
 
 3.3.5 release was a major milestone!
 (see http://freegamer.blogspot.com/2010/06/megaglest-335-pre-release-special.html)
