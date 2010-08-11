@@ -1,0 +1,39 @@
+;message headers
+GlestBasicTutorial=Glest Grundeinfuehrung
+WellDone=Gut gemacht!
+Resources=Ressourcen
+Combat=Gefächt
+Buildings=Gebäude
+
+;message strings
+Welcome=Willkommen in der Glest Grundeinfuehrung. Hier wirst du die Grundlagen des Spiels lernen. 
+WillBeUsingTech=Du kommandierst die Tech-Fraktion, welche mittelalterliche Krieger und Geraete zum Kaempfen nutzt.
+NeedWorkers=Um Ressourcen zu sammeln, benoetigst du Arbeiter(worker). Um einige auszubilden, waehle das Schloss (Castle), dann nutze das Kommando "Produce Worker."
+SelectAndCommand=Einheiten werden durch einen Rechtsklick ausgewaehlt, Kommandos werden durch einen Rechtsklick auf das Ziel oder Gelaende gegeben. 
+HowToMine=Um Gold abzubauen, waehle zuerst einen Arbeiter, dann befehle ihm mit einem Rechtsklick auf das Gold dieses abzubauen.
+WorkersKeepOnHarvesting=Die Arbeiter werden automatisch weitersammeln und die gesammelten Ressourcen zu einem Gebaeude bringen, wo sie gelagert werden koennen.
+ResourceInformation=Die Ressourceninformationen werden am oberen Bildschirmrand angezeigt, Die Zahl links entspricht der aktuellen Menge, die rechte Zahl entspricht der Lagerkapazitaet.
+OtherResources=Andere Ressourcen wie Holz (Wood) oder Stein (Stone) werden auf die gleiche Weise wie Gold gesammelt.
+TechResourceNeeds=Die Tech Fraktion benoetigt fuer gewoehnlich viel Gold und Holz und wenig Stein.
+TechConsumesFood=Jede Einheit in der Tech Fraktion verbraucht Nahrung (Food). Ohne Nahrung werden Einheiten beeintraechtigt und sterben. Nahrung kann durch Nutztiere produziert werden. Nutztiere werden auf der Farm produziert.
+HaveEnoughAnimals=Achte immer darauf ausreichend Nutztiere zur Versorgung aller Einheiten zu haben.
+BalanceDisplay=Das Gleichgewicht zwischen Nahrungsverbrauch und Nahrungsproduktion wird in Klammern neben der Nahrungsanzeige am oberen Bildschirmrand angezeigt.
+TechWarriorsAtBarracks=Um deinen Gegner zu besiegen, brauchst du einige Krieger, die meisten Tech Krieger werden in den Baracken (Barracks) ausgebildet.
+HowToBuildBarracks=Um Baracken zu bauen, waehle einen Arbeiter, klicke auf "Build Basic" > "Barracks" und dann waehle einen Platz fuer das Gebaeude.
+RememberToBuildBarracks=Baue schon am Anfang des Spiels Baracken. Dies ermoehlichtes dir, schnell Krieger auszubilden.
+SwordmanBrief=Der Schwertkaempfer (Swordsman) ist der einfachste Tech Krieger, waehle die Baracken aus, dann klicke auf "Produce Swordman" um einen auszubilden. Stelle zuvor sicher, dass du genuegend Ressourcen hast.
+HaveWarriorsAtBase=Du solltest immer einige Krieger im Lager haben. Sie werden automatisch Gegner in Reichweite angreifen.
+ArcherBrief=Bogenschuetzen sind die einfache Fernkampfeinheit. Sie werden ebenfalls in den Baracken ausgebildet.
+ProduceWarriors=Bilde einige Krieger aus, um dein Lager gegen gegnerische Angriffe zu verteidigen.
+
+;objective strings
+ProduceWorkers=Objective: Bilde 3 Arbeiter(Worker) aus.
+HarvestWoodAndStone=Objective: Sammle 100 Einheiten Holz und 150 Einheiten Stein.
+ProduceCow=Objective: Produziere eine Kuh (Cow)
+MineGold=Objective: Baue 100 Einheiten Gold ab.
+BuildBarracks=Objective: Baue Baracken.
+ProduceSwordman=Objective: Bilde einen Schwertkaempfer (Swordman) aus.
+ProduceArcher=Objective: Bilde einen Bogenschuetzen (Archer) aus.
+ProduceMoreWarriors=Objective: Bilde mehr Krieger fuer den bevorstehenden Angriff aus.
+
+			

@@ -8,7 +8,7 @@
 		<player control="closed"/>		
 	</players>
 	<map value="valley_of_death"/>
-	<tileset value="winter"/>
+	<tileset value="spring"/>
 	<tech-tree value="megapack"/>
 	<default-resources value="false"/>
 	<default-units value="false"/>

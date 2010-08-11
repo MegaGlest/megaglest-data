@@ -1,0 +1,39 @@
+;message headers
+GlestAdvancedTutorial=fortgeschrittene Glest Einfuehrung
+Promoting=Befoerderung von Einheiten
+WellDone=Gut gemacht!
+Summoning=Beschwoerung
+Energy=Energie
+Ritual=Ritual
+Armies=Armeen
+
+;message strings
+Welcome=Willkommen in der fortgeschrittenen Einfuehrung zu Glest. Hier wirst du einige der erweiterten Funktionen des Spiels lernen.
+MagicBrief=Du kommandierst die Magier-Fraktion, welche Magier und beschworene Kreaturen zum Kaempfen nutzt.
+InitiateBrief=Initiate sind die einfachsten Magier, sie koennen Ressourcen sammeln und Gebaeude bauen.
+InitiatePromotion=Initiate koennen zu Kampfmagiern (Battlemage) befoerdert werden. Waehle dazu einen Initiaten und klicke auf "Promote to Battlemage". 
+BattlemageBrief=Battlemage sind die Hauptkaempfer unter den Magiern. Sie koennen aus der Ferne angreifen, sind schnell und widerstandsfaehig.
+EnergyBrief=Fuer Magiereinheiten wird normalerweise Energie benoetigt. Diese Energie wird lediglich fuer die Ausbildung gebraucht und wird nicht verbraucht wie Nahrung. Sie wird durch Energiequellen erzeugt.
+EnergyBrief2=Stelle sicher, dass stets genug Energie zur Ausbildung neuer Einheiten vorhanden ist.
+SummonedUnitsBrief=Eine weitere Moeglichkeit, wie die Magier-Fraktion Einheiten erhaelt, ist das Beschwoeren. Hierzu wird ein Beschwoerer (Summoner) benoetigt. Diese werden in der Beschwoererzunft (Summoners Guild) ausgebildet.
+SummonerBrief=Summoner koennen verschiedene Arten von Kreaturen schaffen. Die einfachste Kreatur ist der Daemon.
+DaemonBrief=Daemonen sind sehr schwach, aber auch sehr guenstig. Sie sind nuetzlich als einfache Nahkaempfer und gut zum Erkunden des Gelaendes.
+OtherSummonedCreatures=Summoner koennen auch weiter entwickelte Kreaturen wie Geisterritter (Ghost Armors) und Drachen (Dragons) erschaffen. Hierzu ist es allerdings noetig, dass die entsprechenden Verbesserungen erforscht werden.
+GhostArmorRequirements=Ghost Armor benoetigen die antike Beschwoerung (Ancient Summoning), welche in der Summonerzunft erforscht werden kann.
+GhostArmorBrief=Ghost Armor stellen die mittlere Nahkampfeinheit dar. Sie sind nuetzlich, um feindliche Kaempfer von deinen Battlemagen fernzuhalten.
+RitualBrief=Initiate kennen noch ein zweites Konstruktionskommando, das Ritual, welches genutzt werden kann, um forgeschrittenere Gebaeude und maechtige Kreaturen wie den Golem zu bauen. Um Zugriff auf diese Kommandos zu erhalten, benoetigst du eine Library (Library).
+GolemBrief=Golems sind leistungsstarke Abwehreinheiten. Sie sind effektiv im Angriff und sehr widerstandsfaehig, aber sie koennen sich nur solange bewegen, wie sie genug Energiepunkte uebrig haben.
+ArmyManagement=Wenn du eine groessere Anzahl an Einheiten ausbildest und erschaffst, kann es schwierig werden, sie alle zu verwalten.
+DoubleClickBrief=Durch einen Doppelklick auf eine Einheit, kannst du alle Einheiten der gleichen Art auswaehlen, die sich in der Gegend befinden.
+GroupSelectBrief=Du kannst Gruppen von Einheiten festlegen, indem du eine Gruppe auswaehlst und dann strg in Kombination mit einer Nummerntaste drueckst. Danach kannst du die Gruppen abrufen, indem du die entsprechende Nummerntaste erneut drueckst.
+FinalMission=Als letzten Test, musst du nun eine Armee zusammenstellen und deinen Feind besiegen.
+
+;objective strings
+PromoteInitiate=Objective: Befoerdere einen Initiaten zum Battlemage.
+ProduceSummoner=Objective: Baue eine Summoners Guild und bilde einen Summoner aus.
+ProduceDaemon=Objective: Beschwoere einen Daemon.
+ProduceGhostArmor=Objective: Erforsche die antike Beschwoerung ( Ancient Summoning ) und beschwoere einen Ghost Armor.
+BuildEnergySource=Objective: Baue eine Energiequelle.
+ProduceGolem=Objective: Baue eine Bibliothek und dann lasse einen Initiaten ein Ritual durchfuehren, um einen Golem zu bauen.
+DefeatEnemy=Objective: Stelle eine Armee zusammen, dann lokalisiere deinen Gegner und besiege ihn.
+			
