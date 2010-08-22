@@ -108,6 +108,7 @@ MaxFilterAnisotropy=Max Filter Anisotropy
 MaxLights=Max lights:
 MaxLoad=Max load
 MaxPlayers=Max players
+MaxUnitCount=Max Unit Count
 MeetingPoint=Meeting Point
 Megaglest3d2dProgramming=Megaglest 3D/2D+Programming
 MegaglestProgramming=Megaglest Programming
