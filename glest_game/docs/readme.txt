@@ -156,7 +156,7 @@ button in the in-game options menu.
 Required card features.
 
 The game requires either OpenGL 1.4 or OpenGL 1.3 plus the GL_ARB_env_crossbar 
-extesion. Most video cards with recent drivers support this features. You can 
+extension. Most video cards with recent drivers support this features. You can 
 bypass the feature check by replacing the "CheckGlCaps=1" line in glest.ini by 
 "CheckGlCaps=0", but the game may crash or have graphics errors.
 
