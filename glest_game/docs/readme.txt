@@ -1,24 +1,30 @@
 Mega-Glest Readme
 
-3.3.6 release:
+3.3.7 release:
 ==============
-- More performance updates to rendering and game updating
-- Improved network play for slower clients (new game options for lagging players)
-  - Added the ability to toggle Pause or Disconnect for lagged clients per game
-  - Better error detection of network state
-- Updated client and server lobby screens to show more game information
-- Added more per game changable settings for network games
-- Updated support for GAE pathfinder (but should ONLY be used in single player mode as network use is experimental)
-- Added new commandline parameter for modders to validate their techtrees, usage:
-  ./glest --validate-techtrees
-- Added new commandline parameter to display openGL driver information, usage:
-  ./glest --opengl-info
-- Added support for Open Suse
-- Fixed bugs where invalid IP addresses were used for NIC's that are not active
-- Added the ability to turn OFF sounds via the options menu
-- Some bug fixes and changes were made to the AI
-- Fixed issue where command queues and multi-unit selecting was broken
-- Fixed map editor for windows users where tooltips didn't show properly and memory corruption.
+- Again more performance updates to rendering and game updating
+- screenshots work again in windows ( bugfix )
+- some new maps especially meant for coop multiplayer
+- map preview in the game setup menus ( can be switched off in options for performance reasons)
+- new features for unit particles ( for example see genies new green glow )
+- observers ( implemented as special faction to choose )
+- multibuild 
+- teamates are shown with yellow cycle now ( instead of red )
+- bugfix for AI not losing HP when food is out
+- added more LUA functions 
+- player number based map filter in cutom game menu
+- toggle of music in custom menu while waiting for players
+- advanced features switch to simplify the game setup
+- faction preview ( a small version of the loading screen is displayed )
+- working transparency textures for units! ( basically like trees in tilesets now )
+- smooth shadow on/off while playing when needed for performance reasons.
+- new unit property max-unit-count to limit the amount of living units of this type
+- harvesting units of size bigger one work better now
+- free BSD support ( thanks to M0llermeister!)
+- first MacOS support ( alpha,  thanks to GeoVah!)
+
+and several other minor changes/bug fixes
+
 
 =================
 CONTROLS
@@ -198,6 +204,25 @@ disable 3D textures when needed.
 =================
 HISTORY
 =================
+3.3.6 release:
+
+- More performance updates to rendering and game updating
+- Improved network play for slower clients (new game options for lagging players)
+  - Added the ability to toggle Pause or Disconnect for lagged clients per game
+  - Better error detection of network state
+- Updated client and server lobby screens to show more game information
+- Added more per game changable settings for network games
+- Updated support for GAE pathfinder (but should ONLY be used in single player mode as network use is experimental)
+- Added new commandline parameter for modders to validate their techtrees, usage:
+  ./glest --validate-techtrees
+- Added new commandline parameter to display openGL driver information, usage:
+  ./glest --opengl-info
+- Added support for Open Suse
+- Fixed bugs where invalid IP addresses were used for NIC's that are not active
+- Added the ability to turn OFF sounds via the options menu
+- Some bug fixes and changes were made to the AI
+- Fixed issue where command queues and multi-unit selecting was broken
+- Fixed map editor for windows users where tooltips didn't show properly and memory corruption.
 
 3.3.5.1 alpha release:
 
