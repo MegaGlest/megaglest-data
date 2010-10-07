@@ -17,8 +17,8 @@
     	<fixed value="true" />
     	<relative value="true" />
 	<static-particle-count value="4" />
-    	<teamcolorNoEnergy value="false" />
-    	<teamcolorEnergy value="false" />
+    	<teamcolorNoEnergy value="true" />
+    	<teamcolorEnergy value="true" />
 
 	<!--trajectory type="spiral">
 		<speed value="14.0"/>
