@@ -1,5 +1,9 @@
 Mega-Glest Readme
 
+3.3.7.2 release:
+==============
+- This is primarily a bugfix release to correct noticable issues from 3.3.7
+
 3.3.7 release:
 ==============
 - Again more performance updates to rendering and game updating
