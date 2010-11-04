@@ -21,13 +21,13 @@
 		<unit name="spearman" amount="0"/>
 		<unit name="fire_archer" amount="0"/>
 		<unit name="bull" amount="0"/>
-                <unit name="horseman" amount="0"/>
+		<unit name="horseman" amount="0"/>
 		<unit name="thunderbird" amount="0"/>
-                <unit name="firegolem" amount="0"/>
-                <unit name="reed" amount="0"/>
-                <unit name="campfire" amount="0"/>
-                <unit name="beehive" amount="0"/>
-                <unit name="totem" amount="0"/>
-	</starting-units>	
+		<unit name="firegolem" amount="0"/>
+		<unit name="reed" amount="0"/>
+		<unit name="campfire" amount="0"/>
+		<unit name="beehive" amount="0"/>
+		<unit name="totem" amount="0"/>
+	</starting-units>
 	<music value="true" path="music/music_indian.ogg"/>
 </faction>

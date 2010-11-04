@@ -3,9 +3,9 @@
 <faction>
 	<starting-resources>
 		<resource name="gold" amount="500"/>
-		<resource name="wood" amount="500"/>	
-		<resource name="stone" amount="500"/>	
-		<resource name="food" amount="500"/>	
+		<resource name="wood" amount="500"/>
+		<resource name="stone" amount="500"/>
+		<resource name="food" amount="500"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="pyramid" amount="1"/>
@@ -24,6 +24,6 @@
 		<unit name="temple" amount="0"/>
 		<unit name="desert_camp" amount="0"/>
 		<unit name="air_pyramid" amount="0"/>
-	</starting-units>	
+	</starting-units>
 	<music value="true" path="music/asak-jadeflange.ogg"/>
 </faction>

@@ -3,9 +3,9 @@
 <faction>
 	<starting-resources>
 		<resource name="gold" amount="500"/>
-		<resource name="wood" amount="500"/>	
-		<resource name="stone" amount="500"/>	
-		<resource name="food" amount="50"/>	
+		<resource name="wood" amount="500"/>
+		<resource name="stone" amount="500"/>
+		<resource name="food" amount="50"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="castle" amount="1"/>
@@ -27,12 +27,12 @@
 		<unit name="thrull" amount="3"/>
 		<unit name="thortotem" amount="0"/>
 		<unit name="valkyrie" amount="0"/>
-                <unit name="flyingvalkyrie" amount="0"/>
+		<unit name="flyingvalkyrie" amount="0"/>
 		<unit name="blacksmith" amount="0"/>
 		<unit name="mistletree" amount="0"/>
-                <unit name="valhalla" amount="0"/>
-                <unit name="thor" amount="0"/>
-                <unit name="crossbow" amount="0"/>
-	</starting-units>	
+		<unit name="valhalla" amount="0"/>
+		<unit name="thor" amount="0"/>
+		<unit name="crossbow" amount="0"/>
+	</starting-units>
 	<music value="true" path="music/manolo_camp-medieval.ogg"/>
 </faction>
