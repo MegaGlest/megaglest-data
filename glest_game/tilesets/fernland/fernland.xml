@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+
+<tileset>
+	<surfaces>
+		<surface>
+			<texture path="textures/forest1.bmp" prob="0.20"/>
+			<texture path="textures/forest2.bmp" prob="0.15"/>
+			<texture path="textures/forest3.bmp" prob="0.25"/>
+			<texture path="textures/forest4.bmp" prob="0.20"/>
+			<texture path="textures/forest5.bmp" prob="0.20"/>
+		</surface>
+		<surface>
+			<texture path="textures/meadow1.bmp" prob="0.20"/>
+			<texture path="textures/meadow2.bmp" prob="0.20"/>
+			<texture path="textures/meadow3.bmp" prob="0.20"/>
+			<texture path="textures/meadow4.bmp" prob="0.20"/>	
+			<texture path="textures/meadow5.bmp" prob="0.20"/>	
+		</surface>
+		<surface>
+			<!--texture path="textures/surface3a.bmp" prob="0.5"/>
+			<texture path="textures/surface3b.bmp" prob="0.5"/-->
+			<texture path="textures/way1.bmp" prob="0.4"/>
+			<texture path="textures/way2.bmp" prob="0.3"/>
+			<texture path="textures/way3.bmp" prob="0.1"/>
+			<texture path="textures/way4.bmp" prob="0.2"/>
+		</surface>
+		<surface>
+			<texture path="textures/cobbles2.bmp" prob="0.1"/>
+			<texture path="textures/cobbles1.bmp" prob="0.4"/>
+			<texture path="textures/cobbles2.bmp" prob="0.2"/>
+			<texture path="textures/cobbles3.bmp" prob="0.3"/>
+			<!--texture path="textures/redroad1.bmp" prob="0.3"/>
+			<texture path="textures/redroad2.bmp" prob="0.3"/>
+			<texture path="textures/redroad3.bmp" prob="0.4"/>
+			<texture path="textures/lava4.bmp" prob="0.1"/>
+			<texture path="textures/lava5.bmp" prob="0.2"/-->
+		</surface>
+		<surface>
+			<texture path="textures/surface5a.bmp" prob="0.1"/>
+			<texture path="textures/surface5b.bmp" prob="0.2"/>
+			<texture path="textures/surface5c.bmp" prob="0.3"/>
+		        <texture path="textures/surface5d.bmp" prob="0.2"/>
+                        <texture path="textures/surface5e.bmp" prob="0.1"/>
+                        <texture path="textures/surface5f.bmp" prob="0.1"/>
+		</surface>
+	</surfaces>
+
+	<objects>
+		<object walkable="false">
+			<model path="models/ferntree1.g3d" />
+			<model path="models/ferntree2.g3d" />
+			<model path="models/ferntree3.g3d" />
+			<model path="models/ferntree1a.g3d" />
+			<model path="models/ferntree4.g3d" />
+			<model path="models/ferntree2a.g3d" />
+			<model path="models/ferntree3.g3d" />
+			<model path="models/ferntree1a.g3d" />
+			<model path="models/ferntree4.g3d" />
+                        <!--model path="models/big_tree1.g3d"/>
+			<model path="models/palm.g3d" />
+			<model path="models/palm2.g3d" />
+			<model path="models/palm2.g3d" />
+			<model path="models/palm2.g3d" />
+                        <model path="models/bushtree.g3d" />
+                        <model path="models/bushtree.g3d" />
+                        <model path="models/bushtree.g3d" />
+			<model path="models/tree4.g3d"/>
+                        <model path="models/tree5.g3d"/>
+			<model path="models/tree6.g3d"/>
+                        <model path="models/tree7.g3d"/>
+			<model path="models/tree8.g3d"/>
+                        <model path="models/tree9.g3d"/>
+			<model path="models/tree10.g3d"/-->			
+		</object>					
+		<object walkable="false">
+			<model path="models/deadfern1.g3d"/>
+			<model path="models/deadfern2.g3d"/>
+			<model path="models/deadfern3.g3d"/>
+			<model path="models/deadfern4.g3d"/>
+			<model path="models/deadfern5.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/stone1.g3d"/>
+			<model path="models/stone2.g3d"/>
+		</object>					
+		<object walkable="true">
+			<model path="models/farn.g3d"/>
+			<!--model path="models/bush.g3d"/>
+                        <model path="models/bush2.g3d"/>
+                        <model path="models/bush3.g3d"/>
+                        <model path="models/bush4.g3d"/>
+                        <model path="models/bush5.g3d"/-->
+		</object>					
+                <object walkable="true">
+			<model path="models/riverside_object.g3d"/>
+                        <model path="models/riverside_object2.g3d"/>
+                        <model path="models/riverside_object3.g3d"/>
+                        <model path="models/riverside_object4.g3d"/>
+                        <model path="models/riverside_object5.g3d"/>
+		</object>										
+		<object walkable="false">
+			<model path="models/bigfern2.g3d"/>
+			<model path="models/bigfern1.g3d"/>
+			<model path="models/bigfern3.g3d"/>
+			<model path="models/bigfern1.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/hanged.g3d"/>
+			<model path="models/impaled.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/calendar.g3d"/>
+			<model path="models/totem1.g3d"/>
+			<model path="models/totem2.g3d"/>
+			<model path="models/totem3.g3d"/>
+			<model path="models/totem1a.g3d"/>
+			<model path="models/totem_broken.g3d"/>
+			<!--model path="models/broken_statue2.g3d"/>
+			<model path="models/totem1.g3d"/>
+			<model path="models/broken_statue.g3d"/>
+			<model path="models/statue.g3d"/>
+                        <model path="models/broken_statue.g3d"/>
+                        <model path="models/technician_statue.g3d"/>
+                        <model path="models/battlemage_statue.g3d"/>
+			<model path="models/swordman_statue.g3d"/>
+                        <model path="models/broken_statue2.g3d"/-->
+		</object>					
+		<object walkable="false">
+			<model path="models/big_stone.g3d"/>
+			<model path="models/br1.g3d"/>
+			<model path="models/big_stone3.g3d"/>
+			<model path="models/br2.g3d"/>
+			<model path="models/big_stone2.g3d"/>
+			<model path="models/br3.g3d"/>
+		</object>					
+		<object walkable="false">
+			<model path="models/none.g3d"/>
+		</object>					
+	</objects>
+	
+	<ambient-sounds>
+		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
+		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
+		<rain-sound enabled="true" path="sounds/rain.ogg"/>
+		<snow-sound enabled="false"/>		
+		<day-start-sound enabled="true" path="sounds/chicken.wav"/>	
+		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+	</ambient-sounds>
+
+	<parameters>
+		<water effects="true">
+			<texture path="textures/water_001.tga"/>
+			<texture path="textures/water_002.tga"/>
+			<texture path="textures/water_003.tga"/>
+			<texture path="textures/water_004.tga"/>
+			<texture path="textures/water_005.tga"/>
+			<texture path="textures/water_006.tga"/>
+			<texture path="textures/water_007.tga"/>
+			<texture path="textures/water_008.tga"/>
+		</water>
+		<fog enabled="false" mode="2" density="0.02" color-red="1" color-green="1" color-blue="1"/>
+		<sun-light red="1" green="1" blue="1"/>
+		<moon-light red="0.2" green="0.2" blue="0.3"/>
+		<day-night value="0.7"/>
+		<weather sun="0.6" rain="0.4" snow="0"/> 
+	</parameters>
+</tileset>
+
