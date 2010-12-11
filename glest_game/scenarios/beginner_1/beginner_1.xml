@@ -3,7 +3,7 @@
 	<difficulty value="1"/>
 	<players>
 		<player control="closed"/>
-		<player control="cpu-easy" faction="magic" team="2"/>
+		<player control="cpu-easy" resource_multiplier="0.5" faction="magic" team="2"/>
 		<player control="closed"/>
 		<player control="human" faction="tech" team="1"/>
 	</players>
