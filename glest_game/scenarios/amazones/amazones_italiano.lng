@@ -1,0 +1,12 @@
+;message headers
+Amazones=Amazzoni
+
+;message strings
+Brief1=Il castello dei tuoi alleati deve sopravvivere!
+
+;objective strings
+firstwave=Objective: Signore in verde.
+secondwave=Objective: Altre signore.
+thirdwave=Objective: Probabilmente troppe signore......
+fourthwave=Objective: Carino ma pericoloso ;-)
+lastwave=Objective: L'ultima ondata!!

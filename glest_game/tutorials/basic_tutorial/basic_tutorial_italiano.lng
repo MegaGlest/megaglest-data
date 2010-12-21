@@ -1,0 +1,39 @@
+;message headers
+GlestBasicTutorial=Tutorial Base su Glest
+WellDone=Ben Fatto!
+Resources=Risorse
+Combat=Combatti
+Buildings=Costruzioni
+
+;message strings
+Welcome=Benvenuto al Tutorial Base su Glest. Qui imparrai le basi del gioco. 
+WillBeUsingTech=Hai al comando la fazione Tech che usa guerrieri medievali e strumenti meccanici per combattre. 
+NeedWorkers=Per raccogliere le risorsore hai bisogno di Lavoratori (Workers). Per produrli per prima cosa seeziona il Castello (Castle) e poi usa il comando "Produce Worker".
+SelectAndCommand=Le Unità vengono selezionate cliccandoci sopra col tasto sinistro del mouse sopra di esse. Puoi controllare le unità puoi cliccare su di esse e farle attaccare bersarli o muovere sul terreno.
+HowToMine=Per estrarre l'oro (Gold) devi selezionare un Lavoratore (Worker), poi clicca col tasto destro  su un giacimento d'oro.
+WorkersKeepOnHarvesting=I Lavoratori (Workers) raccoglieranno le risorse (oro/legno/pietra) e le porteranno alla costruzione capace di raccoglierle più vicina.
+ResourceInformation=Le informazioni sulle risorse sono mostrare nella parte alta dello schermo, il numero sulla sinistra di ogni risorsa indica l'ammontare che hai di quella specifica risorsa. I numero sulla dstra invece indica la capacità massima che puoi raccoglire di quella risorsa.
+OtherResources=Le altre risorse come la legna (Wood) o la pietra (Stone) sono raccolt nella stessa maniera dell'oro (Gold). 
+TechResourceNeeds=La fazione Tech spesso ha bisogno di molto oro (Gold) e legna (Wood), e un po di pietra (Stone).
+TechConsumesFood=Ogni unità nella fazione Tech consuma cibo (Food). Senza cibo le tu unità verranno danneggiate e moriranno. Il cibo può essere prodotto con gli animali da fattoria. Gli animali sono prodotti dalla fattoria (Farm).
+HaveEnoughAnimals=Ricordati sempre di avere abbastanza animali da fattoria per nutrire le tue unità. 
+BalanceDisplay=Il bilanciamento tra il consumo e la produzione di cibo (Food) è mostrato nella parte alta vicino all'icona del cibo. 
+TechWarriorsAtBarracks=Per sconfiggere il tuo nemico avrai bisogno di alcuni guerrieri, la maggior parte dei guerrieri della fazione Tech sono prodotti dalle Barricate (Barracks). 
+HowToBuildBarracks=Per costruire una Caserma (Barracks) seleziona un Lavoratore e poi clicca su "Build Basic" poi su "Barracks" e poi seleziona un punto libero dove costruirla.
+RememberToBuildBarracks=Ricorda di costruire sempre una Caserma (Barracks) per prima cosa, questo ti permetterà di produrre da subito dei guerriri.
+SwordmanBrief=I guerrieri base della fazione Tech sono è il Fante (Swordsman). Pr produrli seleziona la Caserma (Barracks) e poi premi "Produce Swordman" per produrne uno (assicurati di avere abbastanza risorse per produrlo).
+HaveWarriorsAtBase=Dovresti sempre avere alcuni guerrieri nella tua base, sono molto utili, in quanto non appena un nemico entrerà nel loro raggio d'azione essi lo attaccheranno.
+ArcherBrief=Gli Arceri (Archers) sono l'unità a lungo raggio della fazione Tech. Possono essere anche prodotti dalla Caserma (Barracks).
+ProduceWarriors=Produci alcuni guerrieri per difendere la tua base dagli attacchi nemici.
+
+;objective strings
+ProduceWorkers=Objective: Produci 3 Lavoratori (Workers). 
+HarvestWoodAndStone=Objective: Raccogli 100 pezzi di legno e 150 pezzi di pietra. 
+ProduceCow=Objective: Produci 1 mucca. 
+MineGold=Objective: Raccogli 100 pezzi d'oro (Gold). 
+BuildBarracks=Objective: Costruisci una Caserma (Barracks).
+ProduceSwordman=Objective: Produci 1 Fante (Swordman). 
+ProduceArcher=Objective: Produci 1 Arcere (Archer). 
+ProduceMoreWarriors=Objective: Produci più guerrieri per affrontare l'attacco imminente.
+
+			
