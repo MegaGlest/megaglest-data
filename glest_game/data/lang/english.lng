@@ -66,6 +66,7 @@ Disconnect=Disconnect
 Discount=Discount
 DisplaySettingsChanged=Display Settings Changed
 DownloadMissingMapQuestion=Download the map:
+DownloadMissingTilesetQuestion=Download the tileset:
 EnableObserverMode=View Map at End Game
 Enabled=Enabled
 EnableServerControlledAI=Server Controlled AI
