@@ -3,7 +3,7 @@
 <menu>
 	<water value="true" height="3"/>
 	<rain value="true"/>
-	<fog value="true" density="0.025"/>
+	<fog value="true" density="0.015"/>
 	<camera>
 		<start-position x="5" y="10" z="40"/>
 		<root-position x="-9" y="11" z="10"/>
