@@ -1,0 +1,228 @@
+================
+MEGAGLEST README
+================
+
+
+CONTROLS
+=========
+
+Most (if not all) keyboard controls are
+now defined in glestkeys.ini
+
+a) Camera
+
+f => toggle free camera mode
+w => move camera up (only in free camera more)
+s => move camera down (only in free camera more)
+a => rotate camera left (only in free camera more)
+d => rotate camera right (only in free camera more)
+g => center camera on selection
+space => reset camera to default position
+up arrow or mouse on top => move camera forward
+down arrow or mouse on bottom => move camera backward
+left arrow or mouse on left => move camera left
+right arrow or mouse on right => move camera right
+
+b) Orders and Unit selection
+
+left mouse button => select or deselect units
+shift + left mouse button => add unit to selection
+control + left mouse button => remove unit from selection
+left mouse double click => select nearby units of this type
+right mouse button => auto order
+menu click => activate order
+left mouse when order is activated => give order
+right mouse when order is activated => cancel state
+number => recall group
+control + number => assign group
+
+c) Network
+
+enter => start typing/send chat message
+h => toggle between 'All' and 'Team' chat modes
+n => show network status
+
+d) Hotkeys (only in game camera more)
+
+a => activate attack command for selection 
+s => issue stop command to selection
+i => select next idle harvester
+b => select next building
+d => select next damaged unit
+t => select next storage unit
+r => rotate building before placement
+
+
+e) Other Keys
+
+- + => adjust game speed  (disabled in multiplayer)
+p => pause game (disabled in multiplayer)
+e => save screen to TGA file
+c => toggle ingame font color ( and font shadow )
+m => show faded mesages again
+? => Toggle display of Debug information when DebugMode=true
+/ => Toggle display of mouse pointer from Operating System to Glest Rendered
+
+
+CONFIGURATION
+==============
+
+Glest can be configured in three ways:
+- in-game config menu: basic parameters
+- configuration tool: advanced parameters
+- glest.ini: all parameters
+- glestkeys.ini: all hotkeys
+
+DO NOT directly edit the ini files but rather for user
+changes edit glestuser.ini and glestuserkeys.ini and create 
+the over-ride values that you desire.
+
+
+NETWORK PLAY
+=============
+
+To start a network game, one of the players has to create a new game with network slots and the other players have to join.
+
+The best place to find people to play a multiplayer game is a) using the Internet Game menu, 
+b) in the Glest forums or c) irc channel (see "about" section).
+
+To connect to a server you need the server's IP, the IP is shown at the top of the "custom game" menu. 
+This is the right IP for LAN play, however if you are under router and you want to play over the internet, 
+you will need the IP of the router. Once you have connected to a server once, the game will remember it, and 
+you can select it from the server list, in the "join game" menu.
+
+For LAN play, clients may click the 'find LAN games' menu item to find servers with an Open Network slot
+on the local Network. (this uses UDP Broadcast)
+
+For Internet play there is an Internet Game menu item which allows Clients to 
+find published servers and players who wish to host internet games (Servers) 
+may 'publish' their game to the masterserver via the 'Publish To master' option
+in the Custom Game menu.
+
+Glest uses TCP port 61357, if you are behind a router you will have to forward 
+this port to your computer if you want to host games. This port may be changed
+via glestuser.ini.
+
+All players have to be using the same binaries of the game and have exactly 
+the same map, tileset and tech tree. This means that if you have mods installed
+in the tech tree that is being used for the game, every player has to have the 
+same mods. An option if you want to install mods over the magitech tech tree and 
+be able to play people that don't have them, is to copy it and install the mods 
+over the copy.
+
+You can disable binary and checksum checks in glest.ini, by setting 
+NetworkConsistencyChecks to 0, but the game might get out of sync and crash.
+
+
+COMMAND LINE
+=============
+
+glest => start game normally
+glest --version => display the version string
+glest -server => start game in the new game screen with all slots open
+glest -client ServerIp => start game connecting to a server
+
+
+VIDEO CARD HINTS
+=================
+
+Auto config.
+
+The first time you run the game it will try to detect the graphic settings most 
+suitable for your video card. It's highly recommended that you don't change 
+them unless you really know what you are doing. If you change the settings and 
+you want to reset to the recommended ones, you can do it by using the auto config 
+button in the in-game options menu.
+
+
+Required card features.
+
+The game requires either OpenGL 1.4 or OpenGL 1.3 plus the GL_ARB_env_crossbar 
+extension. Most video cards with recent drivers support this features. You can 
+bypass the feature check by replacing the "CheckGlCaps=1" line in glest.ini by 
+"CheckGlCaps=0", but the game may crash or have graphics errors.
+
+ATI card problems.
+
+In some versions of the Catalyst drivers, OpenGL selection mode is implemented 
+by software, making it incredibly slow. Glest uses selection mode to select units 
+using the mouse (and in versions prior to 3.1.2 to place buildings too), so 
+selecting units makes the frame rate drop quite a lot, not to the point of 
+making the game unlayable if you have a fast computer, but it is a very 
+noticeable glitch. To fix this you can revert the video card drivers to 
+Catalyst 7.9 or earlier. There are some more tricky things you can to if you 
+want to keep your current driver version, please see our boards for more information.
+
+Also, there seems to be a bug in some ATI OpenGL drivers that makes the game 
+crash with certain card/driver configurations when using more than 1 light. 
+Auto config  will detect this issue and turn off all secondary lights when it 
+detects an ATI card. If you still want to try running the game using more 
+than 1 light you can change this setting in the in-game options menu.
+
+Shadows.
+
+The game features real-time shadows using different algorithms. 
+1) Projected: Fast shadows but they provide unit over terrain shadows only, 
+and can produce incorrect shadows in some circumstances. 
+
+2) Shadow mapping: Slow shadows but they are always correct and provide 
+everything over everything shadows. In ATI cards they look aliased. Both 
+types of shadows require a video card with 3 texture unit support. Auto config
+ will set the most suitable shadow mode for your video card.
+
+3D textures
+
+The game uses 3D textures for some effects like animated water. Some old video
+cards (ie: GeForceMX) don't support this feature by hardware and the game runs 
+really slow when the camera is near a river.  Auto config will detect this and 
+disable 3D textures when needed.
+
+
+ACKs
+=====
+
+This product includes software developed by the
+Apache Software Foundation (http://www.apache.org/).
+
+This program uses Xiph.org's Vorbis software CODEC implementation.
+
+
+ABOUT
+======
+
+Glest Copyright (C) 2001-2008 The Glest Team. All rights reserved.
+mail: contact_game@glest.org
+web: http://glest.org/
+irc: irc://irc.freenode.net/glest
+
+The Glest Team:
+
+MARTIÑO FIGUEROA. Programmer.
+Glest game, engine and tools coder. 
+MS in Computer Science by the University of Coruña (Spain).
+ 
+JOSÉ GONZÁLEZ. Sound.
+Glest music composer and sound designer. Pianist. 
+Currently studies Composition at the Vigo Conservatoire in Spain, in addition to Electroacoustic Music at the CCMIX in Paris.
+
+TUCHO FERNÁNDEZ. 2D and 3D Artist.
+Design, modeling, texturing, and animation of the 3D models of units, buildings and more.
+
+JOSÉ ZANNI. 2D Artist and Web design.
+Design of the logo, buttons, icons and other 2D stuff for the game. Design and implementation of the website.
+
+MATZE BRAUN. Linux port. 
+Ported Glest to SDL and OpenAL which enabled it to work under Linux and other operative systems.
+
+FÉLIX MENéNDEZ. Artist and 3D Animator.
+New animations in v2.0.
+
+MARCOS CARUNCHO. 3D Artist.
+Creator of the 3D models for buildings in versions prior to 0.7, his work helped in export plugin testing among other things.
+
+
+SPECIAL THANKS TO
+==================
+
+Titus Tscharntke - Created the Mod megapack and helped with the Linux builds - see titusgames.de
+Yggdrasil - Provided patch for building with LUA in Linux
