@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+
+<tileset>
+	<surfaces>
+		<surface>
+			<texture path="textures/surface1a.bmp" prob="0.11"/>
+			<texture path="textures/surface1b.bmp" prob="0.11"/>
+			<texture path="textures/surface1c.bmp" prob="0.11"/>
+		    <texture path="textures/surface1d.bmp" prob="0.11"/>
+            <texture path="textures/surface1e.bmp" prob="0.11"/>
+            <texture path="textures/surface1f.bmp" prob="0.11"/>
+            <texture path="textures/surface1g.bmp" prob="0.11"/>
+            <texture path="textures/surface1h.bmp" prob="0.11"/>
+            <texture path="textures/surface1i.bmp" prob="0.06"/>
+            <texture path="textures/surface1j.bmp" prob="0.06"/>
+          </surface>
+		<surface>
+			<texture path="textures/surface2a.bmp" prob="0.17"/>
+			<texture path="textures/surface2b.bmp" prob="0.15"/>
+			<texture path="textures/surface2c.bmp" prob="0.15"/>
+			<texture path="textures/surface2d.bmp" prob="0.17"/>
+            <texture path="textures/surface2e.bmp" prob="0.16"/>
+            <texture path="textures/surface2f.bmp" prob="0.10"/>
+            <texture path="textures/surface2g.bmp" prob="0.10"/>
+		 </surface>
+		<surface>
+			<texture path="textures/surface3a.bmp" prob="0.3"/>
+			<texture path="textures/surface3b.bmp" prob="0.3"/>
+			<texture path="textures/surface3c.bmp" prob="0.3"/>
+			<texture path="textures/surface3d.bmp" prob="0.05"/>
+			<texture path="textures/surface3e.bmp" prob="0.01"/>
+			<texture path="textures/surface3f.bmp" prob="0.04"/>
+		 </surface>
+		<surface>
+			<texture path="textures/surface4a.bmp" prob="0.25"/>
+			<texture path="textures/surface4b.bmp" prob="0.25"/>
+			<texture path="textures/surface4c.bmp" prob="0.25"/>
+			<texture path="textures/surface4d.bmp" prob="0.25"/>
+		 </surface>
+		<surface>
+			<texture path="textures/surface5a.bmp" prob="0.35"/>
+		</surface>
+	</surfaces>
+
+	<objects>
+		<object walkable="false">
+			<model path="models/tree1.g3d"/>
+			<model path="models/tree2.g3d"/>
+                        <model path="models/tree3.g3d"/>
+			<model path="models/tree4.g3d"/>
+                        <model path="models/tree5.g3d"/>
+			<model path="models/tree6.g3d"/>
+                        <model path="models/tree7.g3d"/>
+			<model path="models/mallorn.g3d"/>
+                        <model path="models/dark_tree.g3d"/>
+			<model path="models/brown_tree.g3d"/>			
+		 </object>					
+		 <object walkable="false">
+			<model path="models/dead_tree.g3d"/>
+		  </object>					
+		 <object walkable="false">
+			<model path="models/stone1.g3d"/>
+			<model path="models/stone2.g3d"/>
+		  </object>					
+		 <object walkable="true">
+			<model path="models/atheleas.g3d"/>
+            <model path="models/fern.g3d"/>
+            <model path="models/flower.g3d"/>
+            <model path="models/bush_flower.g3d"/>
+            <model path="models/bush5.g3d"/>
+		  </object>					
+         <object walkable="true">
+			<model path="models/riverside_object.g3d"/>
+            <model path="models/riverside_object2.g3d"/>
+            <model path="models/riverside_object3.g3d"/>
+            <model path="models/riverside_object4.g3d"/>
+            <model path="models/riverside_object5.g3d"/>
+		  </object>										
+		 <object walkable="false">
+			<model path="models/big_tree1.g3d"/>
+			<model path="models/big_tree2.g3d"/>
+		  </object>					
+		 <object walkable="false">
+			<model path="models/hanging_garden.g3d"/>
+			<model path="models/hanging_garden2.g3d"/>
+		  </object>					
+		 <object walkable="false">
+			<model path="models/birdbath.g3d"/>
+			<model path="models/statue.g3d"/>
+            <model path="models/silver_helm_statue.g3d"/>
+            <model path="models/prince_statue.g3d"/>
+            <model path="models/wise_elf_statue.g3d"/>
+			<model path="models/swordman_statue.g3d"/>
+            <model path="models/sword_holder_statue.g3d"/>
+		  </object>					
+		 <object walkable="false">
+			<model path="models/big_stone.g3d"/>
+			<model path="models/big_stone2.g3d"/>
+			<model path="models/big_stone3.g3d"/>
+		  </object>					
+		 <object walkable="false">
+			<model path="models/none.g3d"/>
+		  </object>					
+	</objects>
+	
+	<ambient-sounds>
+		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
+		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
+		<rain-sound enabled="true" path="sounds/rain.ogg"/>
+		<snow-sound enabled="false"/>		
+		<day-start-sound enabled="true" path="sounds/chicken.wav"/>	
+		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+	</ambient-sounds>
+
+	<parameters>
+		<water effects="true">
+			<texture path="textures/water_001.tga"/>
+			<texture path="textures/water_002.tga"/>
+			<texture path="textures/water_003.tga"/>
+			<texture path="textures/water_004.tga"/>
+			<texture path="textures/water_005.tga"/>
+			<texture path="textures/water_006.tga"/>
+			<texture path="textures/water_007.tga"/>
+			<texture path="textures/water_008.tga"/>
+		</water>
+		<fog enabled="false" mode="2" density="0.022" color-red="0.5" color-green="1.0" color-blue="0.6"/>
+		<sun-light red="1.0" green="1.0" blue="1.0"/>
+		<moon-light red="0.3" green="0.3" blue="0.4"/>
+		<day-night value="0.7"/>
+		<weather sun="0.7" rain="0.3" snow="0"/> 
+	</parameters>
+</tileset>
