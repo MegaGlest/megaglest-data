@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/shield2.bmp"/>
+	<image-cancel path="../advanced_architecture/images/tech_upgrade_cancel.bmp"/>
+	<time value="600"/>
+	<unit-requirements/>
+	<upgrade-requirements>
+		<upgrade name="reinforce_armor"/>	
+	</upgrade-requirements>
+	<resource-requirements>
+		<resource name="gold" amount="250"/>
+		<resource name="wood" amount="250"/>
+	</resource-requirements>
+	<effects>
+		<unit name="cavalry"/>
+		<unit name="swordsman"/>
+		<unit name="turtle_formation"/>
+		<unit name="general"/>
+		<unit name="gladiator"/>
+		<unit name="tribune"/>
+		<unit name="spearman"/>
+	</effects>
+	<max-hp value="30"/>
+	<max-ep value="0"/>
+	<sight value="0"/>
+	<attack-strenght value="0"/>
+	<attack-range value="0"/>
+	<armor value="8"/>
+	<move-speed value="0"/>
+	<production-speed value="0"/>
+</upgrade>

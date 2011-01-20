@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/advanced_architecture.bmp"/>
+	<image-cancel path="images/tech_upgrade_cancel.bmp"/>
+	<time value="200"/>
+	<unit-requirements/>
+	<upgrade-requirements/>
+	<resource-requirements>
+		<resource name="wood" amount="100"/>
+		<resource name="gold" amount="200"/>
+	</resource-requirements>
+	<effects/>
+	<max-hp value="0"/>
+	<max-ep value="0"/>
+	<sight value="0"/>
+	<attack-strenght value="0"/>
+	<attack-range value="0"/>
+	<armor value="0"/>
+	<move-speed value="0"/>
+	<production-speed value="0"/>
+</upgrade>

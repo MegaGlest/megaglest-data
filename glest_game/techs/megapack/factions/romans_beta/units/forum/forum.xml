@@ -1,0 +1,132 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="5" />
+		<height value="2" />
+		<max-hp value="11000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>				
+		<sight value="16" />
+		<time value="250" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="11011"/>
+			<row value="11011"/>
+			<row value="00000"/>
+			<row value="11111"/>
+			<row value="11110"/>
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties/>
+		<light enabled="true" red="0.8" green="0.8" blue="0.5"/>
+		<damage-particles value="true">
+			<particle-file path="fire_particles1.xml"/>
+			<particle-file path="smoke_particles1.xml"/>
+			<particle-file path="fire_particles2.xml"/>
+			<particle-file path="smoke_particles2.xml"/>
+			<particle-file path="fire_particles3.xml"/>
+			<particle-file path="smoke_particles3.xml"/>
+		</damage-particles>
+		<unit-requirements/>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="100" />
+			<resource name="stone" amount="300" />
+			<resource name="wood" amount="150" />
+			<resource name="food" amount="-5" />
+		</resource-requirements>
+		<resources-stored>
+			<resource name= "gold" amount="3000"/>
+			<resource name= "wood" amount="2400"/>				
+			<resource name= "stone" amount="2400"/>				
+			<resource name= "food" amount="300"/>	
+		</resources-stored>
+		<image path="images/castle.bmp" />
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../training_camp/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../training_camp/sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../training_camp/sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/fourm.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/fourm_build.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/fourm.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/fourm_destruction.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../training_camp/sounds/tech_building_fall2.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+	
+		<command>
+			<type value="produce"/>
+			<name value="produce_slave" />
+			<image path="../slave/images/worker.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="slave"/>
+		</command>
+	
+		<command>
+			<type value="produce"/>
+			<name value="produce_cow" />
+			<image path="../cow/images/cow.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="cow"/>
+		</command>	
+
+	</commands>
+</unit>

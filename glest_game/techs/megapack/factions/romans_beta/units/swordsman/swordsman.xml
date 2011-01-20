@@ -1,0 +1,180 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="850"  regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="45"/>	
+		<armor-type value="metal"/>
+		<sight value="11"/>
+		<time value="80"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="elite" kills="4"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<unit name="training_camp"/>
+			<unit name="blacksmith_shop"/>
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="wood" amount="75"/>
+			<resource name="gold" amount="150"/>
+			<resource name="food" amount="2"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/guard.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/guard_select1.wav"/>
+			<sound path="sounds/guard_select2.wav"/>
+			<sound path="sounds/guard_select3.wav"/>
+			<sound path="sounds/guard_select4.wav"/>
+			<sound path="sounds/guard_select5.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/guard_ack1.wav"/>
+			<sound path="sounds/guard_ack2.wav"/>
+			<sound path="sounds/guard_ack3.wav"/>
+			<sound path="sounds/guard_ack4.wav"/>
+			<sound path="sounds/guard_ack5.wav"/>
+			<sound path="sounds/guard_ack6.wav"/>
+			<sound path="sounds/guard_ack7.wav"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="50"/>
+			<animation path="models/sword_man_stand.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="170"/>
+			<anim-speed value="120"/>
+			<animation path="models/sword_man_walk.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="80"/>
+			<anim-speed value="80"/>
+			<animation path="models/sword_man_attack.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/guard_attack1.wav"/>
+				<sound-file path="sounds/guard_attack2.wav"/>
+				<sound-file path="sounds/guard_attack3.wav"/>
+				<sound-file path="sounds/guard_attack4.wav"/>
+				<sound-file path="sounds/guard_attack5.wav"/>
+				<sound-file path="sounds/guard_attack6.wav"/>
+				<sound-file path="sounds/guard_attack7.wav"/>
+				<sound-file path="sounds/guard_attack8.wav"/>
+				<sound-file path="sounds/guard_attack9.wav"/>
+				<sound-file path="sounds/guard_attack10.wav"/>
+				<sound-file path="sounds/guard_attack11.wav"/>
+				<sound-file path="sounds/guard_attack12.wav"/>
+				<sound-file path="sounds/guard_attack13.wav"/>
+				<sound-file path="sounds/guard_attack14.wav"/>
+			</sound> 
+			<attack-strenght value="125"/>
+			<attack-var value="35"/>
+			<attack-range value="1"/>
+			<attack-type value="slashing"/>	
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="die"/>	
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/sword_man_die.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/guard_die1.wav"/>
+				<sound-file path="sounds/guard_die2.wav"/>
+				<sound-file path="sounds/guard_die3.wav"/>
+				<sound-file path="sounds/guard_die4.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>		
+			<name value="charge_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="170"/>
+			<anim-speed value="120"/>
+			<animation path="models/sword_man_walk.g3d"/>
+			<sound enabled="false"/>			
+		</skill>	
+
+	</skills>
+	
+	<commands>
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/guard_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<upgrade name="training_field"/>
+			</upgrade-requirements>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+	</commands>
+</unit>

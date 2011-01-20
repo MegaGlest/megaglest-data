@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="no"?>
+
+<upgrade>
+	<image path="images/marz.bmp"/>
+	<image-cancel path="../advanced_architecture/images/tech_upgrade_cancel.bmp"/>
+	<time value="250"/>
+	<unit-requirements/>
+	<upgrade-requirements/>
+	<resource-requirements>
+		<resource name="gold" amount="200"/>
+		<resource name="wood" amount="200"/>
+	</resource-requirements>
+	<effects>
+		<unit name="tribune"/>
+		<unit name="turtle_formation"/>
+		<unit name="general"/>
+		<unit name="wartime_mechanic"/>
+		<unit name="battering_ram"/>
+	</effects>
+	<max-hp value="0"/>
+	<max-ep value="0"/>
+	<sight value="1"/>
+	<attack-strenght value="10"/>
+	<attack-range value="0"/>
+	<armor value="10"/>
+	<move-speed value="8"/>
+	<production-speed value="0"/>
+</upgrade>

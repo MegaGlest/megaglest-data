@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<unit-particle-system>
+    	<texture value="true" path="images/archer_particle.bmp" luminance="true"/>
+	<mode value="normal"/>
+	<primitive value="quad"/>
+	<offset x="0" y="-1.5" z="0"/>
+	<direction x="0" y="1.0" z="0"/>
+	<color red="1.0" green="0.0" blue="0.0" alpha="1.0" />
+	<color-no-energy red="1.0" green="1.0" blue="0.0" alpha="0.8" />
+    	<radius value="0.6" />
+    	<size value="0.3" />
+    	<size-no-energy value="0.1" />
+    	<speed value="3.0" />
+	<gravity value="0"/>
+    	<emission-rate value="10" />
+    	<energy-max value="30" />
+    	<energy-var value="0" />
+    	<fixed value="false" />
+    	<relative value="true" />
+    	<teamcolorNoEnergy value="false" />
+    	<teamcolorEnergy value="false" />
+
+	<!--trajectory type="spiral">
+		<speed value="14.0"/>
+		<scale value="1"/>
+		<frequency value="0.5"/>
+	</trajectory-->
+</unit-particle-system>

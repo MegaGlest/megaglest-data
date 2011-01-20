@@ -1,0 +1,144 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="9000" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="0" />
+		<armor-type value="stone"/>				
+		<sight value="15" />
+		<time value="300" />
+		<multi-selection value="false" />
+		<cellmap value="true">
+			<row value="1101"/>
+			<row value="0000"/>
+			<row value="1011"/>
+			<row value="1011"/>
+
+		 </cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="true" red="0.8" green="0.8" blue="0.5"/>
+		<unit-requirements/>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="50" />
+			<resource name="stone" amount="200" />
+			<resource name="wood" amount="50" />
+			<resource name="food" amount="-15" />
+		</resource-requirements>
+		<resources-stored>
+			<!--resource name= "gold" amount="400"/-->			
+			<resource name= "food" amount="100"/>	
+		</resources-stored>
+		<image path="images/castle.bmp" />
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="../training_camp/sounds/tech_click.wav" />
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../training_camp/sounds/tech_click.wav" />
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/temple.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/temple_build.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/temple.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="150" />
+			<animation path="models/temple.g3d" />
+			<particles value="true">
+				<particle-file path="upgrade.xml"/>
+			</particles>
+			<sound enabled="false"/>
+		</skill>	
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/temple_die.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../training_camp/sounds/tech_building_fall2.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<commands>		
+		<command>
+			<type value="upgrade"/>
+			<name value="research_sign_of_mars" />
+			<image path="../../upgrades/sign_of_mars/images/marz.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="sign_of_mars"/>
+		</command>
+
+		<command>
+			<type value="upgrade"/>
+			<name value="research_jupiter" />
+			<image path="../../upgrades/jupiter/images/jupiter.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="jupiter"/>
+		</command>
+		
+		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_bless_of_minerva" />
+			<image path="../../upgrades/bless_of_minerva/images/bless.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="bless_of_minerva"/>
+		</command>	
+</commands>
+</unit>

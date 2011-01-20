@@ -1,0 +1,388 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="350"  regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="15"/>	
+		<armor-type value="metal"/>
+		<sight value="13"/>
+		<time value="80"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<unit name="training_camp"/>
+			<unit name="blacksmith_shop"/>
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="wood" amount="20"/>
+			<resource name="gold" amount="80"/>
+			<resource name="food" amount="1"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/guard.bmp"/>
+		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="sounds/guard_select1.wav"/>
+			<sound path="sounds/guard_select2.wav"/>
+			<sound path="sounds/guard_select3.wav"/>
+			<sound path="sounds/guard_select4.wav"/>
+			<sound path="sounds/guard_select5.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="sounds/guard_ack1.wav"/>
+			<sound path="sounds/guard_ack2.wav"/>
+			<sound path="sounds/guard_ack3.wav"/>
+			<sound path="sounds/guard_ack4.wav"/>
+			<sound path="sounds/guard_ack5.wav"/>
+			<sound path="sounds/guard_ack6.wav"/>
+			<sound path="sounds/guard_ack7.wav"/>
+		</command-sounds>
+	</parameters>
+
+	<skills>
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="50"/>
+			<animation path="models/wartime_mechanic_stand.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="upgrade"/>	
+			<name value="upgrade_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/wartime_mechanic_learn.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="170"/>
+			<anim-speed value="120"/>
+			<animation path="models/wartime_mechanic_walk.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="120"/>
+			<anim-speed value="120"/>
+			<animation path="models/wartime_mechanic_attack.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/guard_attack1.wav"/>
+				<sound-file path="sounds/guard_attack2.wav"/>
+				<sound-file path="sounds/guard_attack3.wav"/>
+				<sound-file path="sounds/guard_attack4.wav"/>
+				<sound-file path="sounds/guard_attack5.wav"/>
+				<sound-file path="sounds/guard_attack6.wav"/>
+				<sound-file path="sounds/guard_attack7.wav"/>
+				<sound-file path="sounds/guard_attack8.wav"/>
+				<sound-file path="sounds/guard_attack9.wav"/>
+				<sound-file path="sounds/guard_attack10.wav"/>
+				<sound-file path="sounds/guard_attack11.wav"/>
+				<sound-file path="sounds/guard_attack12.wav"/>
+				<sound-file path="sounds/guard_attack13.wav"/>
+				<sound-file path="sounds/guard_attack14.wav"/>
+			</sound> 
+			<attack-strenght value="80"/>
+			<attack-var value="20"/>
+			<attack-range value="1"/>
+			<attack-type value="slashing"/>	
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="die"/>	
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/wartime_mechanic_die.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/guard_die1.wav"/>
+				<sound-file path="sounds/guard_die2.wav"/>
+				<sound-file path="sounds/guard_die3.wav"/>
+				<sound-file path="sounds/guard_die4.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+		
+		<skill>
+			<type value="build"/>
+			<name value="build_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="250"/>
+			<anim-speed value="100"/>
+			<animation path="models/wartime_mechanic_build.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/worker_build1.wav"/>
+				<sound-file path="sounds/worker_build2.wav"/>
+				<sound-file path="sounds/worker_build3.wav"/>
+			</sound>
+		</skill>
+		
+		<skill>
+			<type value="repair"/>
+			<name value="repair_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="200"/>
+			<anim-speed value="100"/>
+			<animation path="models/wartime_mechanic_build.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/worker_build1.wav"/>
+				<sound-file path="sounds/worker_build2.wav"/>
+				<sound-file path="sounds/worker_build3.wav"/>
+			</sound>
+		</skill>
+		
+		<skill>
+			<type value="repair"/>
+			<name value="heal_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="200"/>
+			<anim-speed value="100"/>
+			<animation path="models/wartime_mechanic_heal.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>		
+			<name value="charge_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="170"/>
+			<anim-speed value="120"/>
+			<animation path="models/wartime_mechanic_walk.g3d"/>
+			<sound enabled="false"/>			
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="build_catapult"/>		
+			<ep-cost value="0"/>
+			<speed value="450"/>
+			<anim-speed value="200"/>
+			<animation path="models/catapult_build.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/technician_build1.wav"/>
+				<sound-file path="sounds/technician_build2.wav"/>
+				<sound-file path="sounds/technician_build3.wav"/>
+				<sound-file path="sounds/technician_build4.wav"/>
+				<sound-file path="sounds/technician_build5.wav"/>
+				<sound-file path="sounds/technician_build6.wav"/>
+			</sound>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="build_ballista"/>		
+			<ep-cost value="0"/>
+			<speed value="450"/>
+			<anim-speed value="200"/>
+			<animation path="models/ballstac_build.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/technician_build1.wav"/>
+				<sound-file path="sounds/technician_build2.wav"/>
+				<sound-file path="sounds/technician_build3.wav"/>	
+				<sound-file path="sounds/technician_build4.wav"/>
+				<sound-file path="sounds/technician_build5.wav"/>	
+				<sound-file path="sounds/technician_build6.wav"/>
+			</sound>
+		</skill>	
+
+		<skill>
+			<type value="morph"/>
+			<name value="build_br"/>		
+			<ep-cost value="0"/>
+			<speed value="450"/>
+			<anim-speed value="200"/>
+			<animation path="models/battering_ram_build.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="sounds/technician_build1.wav"/>
+				<sound-file path="sounds/technician_build2.wav"/>
+				<sound-file path="sounds/technician_build3.wav"/>	
+				<sound-file path="sounds/technician_build4.wav"/>
+				<sound-file path="sounds/technician_build5.wav"/>	
+				<sound-file path="sounds/technician_build6.wav"/>
+			</sound>
+		</skill>
+
+	</skills>
+	
+	<commands>
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../archer/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../archer/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/guard_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../archer/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+				<upgrade name="training_field"/>
+			</upgrade-requirements>
+			<stop-skill value="stop_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+
+		<!--command>
+			<type value= "build"/>
+			<name value="construct_advanced"/>
+			<image path="../slave/images/worker_build_basic.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<build-skill value="build_skill"/>
+			<buildings>
+                                <building name="eagle_statue"/>		
+                                <building name="gate_closed"/>	
+                                <building name="wall"/>	
+                                <building name="gladiator_school"/>		
+			</buildings>
+			<start-sound enabled="false"/>
+			<built-sound enabled="true">
+				<sound-file path="sounds/worker_work_end1.wav"/>
+				<sound-file path="sounds/worker_work_end2.wav"/>
+				<sound-file path="sounds/worker_work_end3.wav"/>							
+			</built-sound>	
+		</command>
+		
+		<command>
+			<type value="repair"/>
+			<name value="repair"/>
+			<image path="../slave/images/worker_repair.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="repair_skill"/>
+			<repaired-units>
+				<unit name="eagle_statue"/>	
+				<unit name="gladiator_school"/>
+				<unit name="gate_closed"/>
+				<unit name="wall"/>
+			</repaired-units>		
+		</command-->
+
+		<command>
+			<type value="repair"/>
+			<name value="heal"/>
+			<image path="../slave/images/worker_repair.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+			<repair-skill value="heal_skill"/>
+			<repaired-units>
+				<unit name="spearman"/>
+				<unit name="archer"/>
+				<unit name="swordsman"/>
+				<unit name="cavalry"/>
+				<unit name="tribune"/>
+				<unit name="turtle_formation"/>
+				<unit name="longbowman"/>
+				<unit name="general"/>
+				<unit name="wartime_mechanic"/>
+				<unit name="fire_archer"/>
+				<unit name="gladiator"/>
+				<unit name="guard"/>
+				<unit name="longbowman"/>
+				<unit name="battering_ram"/>
+				<unit name="axe_man"/>
+			</repaired-units>		
+		</command>
+		
+		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_advanced_architecture"/>
+			<image path="../../upgrades/advanced_architecture/images/advanced_architecture.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="advanced_architecture"/>
+		</command>	
+
+		<command>
+			<type value="morph"/>
+			<name value="build_catapult"/>
+			<image path="../catapult/images/catapult.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="build_catapult"/>
+			<morph-unit name= "catapult"/>
+			<discount value="40"/>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="build_battering_ram"/>
+			<image path="../battering_ram/images/br.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="build_br"/>
+			<morph-unit name= "battering_ram"/>
+			<discount value="20"/>
+		</command>
+
+                
+		<command>
+			<type value="morph"/>
+			<name value="build_ballista"/>
+			<image path="../ballista/images/air_ballista.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="build_ballista"/>
+			<morph-unit name= "ballista"/>
+			<discount value="10"/>
+		</command>
+
+	</commands>
+</unit>

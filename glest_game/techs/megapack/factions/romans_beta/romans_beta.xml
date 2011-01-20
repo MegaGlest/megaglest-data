@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="500"/>
+		<resource name="wood" amount="500"/>	
+		<resource name="stone" amount="500"/>	
+		<resource name="food" amount="50"/>	
+	</starting-resources>
+	<starting-units>
+		<unit name="forum" amount="1"/>
+		<unit name="slave" amount="3"/>
+		<unit name="spearman" amount="2"/>
+		<unit name="guard_tower" amount="1"/>
+		<unit name="cow" amount="1"/>
+		<unit name="archer" amount="1"/>
+		<unit name="tribune" amount="0"/>
+		<unit name="cavalry" amount="0"/>
+		<unit name="longbowman" amount="0"/>
+		<unit name="turtle_formation" amount="0"/>
+		<unit name="wartime_mechanic" amount="0"/>
+		<unit name="catapult" amount="0"/>
+		<unit name="blacksmith_shop" amount="0"/>
+		<unit name="temple" amount="0"/>
+		<unit name="fire_archer" amount="0"/>
+		<unit name="battering_ram" amount="0"/>
+	</starting-units>	
+	<music value="true" path="music/romans.ogg"/>
+</faction>
+
+
