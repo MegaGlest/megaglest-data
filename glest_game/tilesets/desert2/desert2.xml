@@ -7,7 +7,7 @@
 			<texture path="textures/sand2.bmp" prob="0.2"/>
 			<texture path="textures/sand3.bmp" prob="0.3"/>
 			<texture path="textures/sand2.bmp" prob="0.4"/>
-
+
                 </surface>
 		<surface>
 			<texture path="textures/beach0.bmp" prob="0.1"/>

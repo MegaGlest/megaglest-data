@@ -284,7 +284,7 @@
                                 <unit name="horseman"/>					
 			</repaired-units>		
 		</command>
-
+
 		<command>
 			<type value="attack"/>
 			<name value="molotov"/>
