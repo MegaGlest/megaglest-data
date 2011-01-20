@@ -40,6 +40,7 @@ Closed=Closed
 Command=Command
 CommonCommand=Common command
 Connect=Connect
+Connecting=Connecting...
 Connected=Connected
 ConnectedToServer=Connected to server
 Connection failed=Connection failed
