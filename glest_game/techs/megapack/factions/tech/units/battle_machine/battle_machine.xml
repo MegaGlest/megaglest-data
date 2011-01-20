@@ -113,8 +113,8 @@
 			<type value="attack"/>
 			<name value="attack_arrow_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="60"/>
-			<anim-speed value="75"/>
+			<speed value="52"/>
+			<anim-speed value="65"/>
 			<animation path="models/battle_machine_attacking2.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/machine_attack2.wav"/>

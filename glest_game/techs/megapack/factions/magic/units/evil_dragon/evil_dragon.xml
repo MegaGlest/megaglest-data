@@ -19,7 +19,7 @@
 			<field value="air"/>
 		</fields>	
 		<properties/>
-                <light enabled="true" red="1.0" green="0.0" blue="0.0" alpha="1"/>
+                <light enabled="false" red="1.0" green="0.0" blue="0.0" alpha="1"/>
 		<unit-requirements>
 			<!--<unit name="archmage_tower"/>-->
 		</unit-requirements> 
@@ -59,6 +59,9 @@
 			<speed value="1000"/>
 			<anim-speed value="75"/>
 			<animation path="models/dragon_standing.g3d"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -69,6 +72,9 @@
 			<speed value="350"/>
 			<anim-speed value="75"/>
 			<animation path="models/dragon_walking.g3d"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 			<sound-file path="sounds/evil_dragon_fly.wav"/>
 			</sound>
@@ -81,6 +87,9 @@
 			<speed value="40"/>
 			<anim-speed value="40"/>
 			<animation path="models/dragon_attacking.g3d"/>
+			<particles value="true">
+				<particle-file path="glow_particles.xml"/>
+			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/evil_dragon_attack1.wav"/>
 				<sound-file path="sounds/evil_dragon_attack2.wav"/>
