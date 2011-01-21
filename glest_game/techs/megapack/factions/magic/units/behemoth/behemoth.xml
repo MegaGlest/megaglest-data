@@ -5,7 +5,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="3200" regeneration="3"/>
+		<max-hp value="5000" regeneration="5"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="50"/>	
 		<armor-type value="organic"/>
@@ -14,7 +14,7 @@
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="ancient" kills="10"/>
+			<level name="ancient" kills="5"/>
 		</levels>
 		<fields>
 			<field value="land"/>
