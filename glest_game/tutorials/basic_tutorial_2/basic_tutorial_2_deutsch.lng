@@ -1,0 +1,78 @@
+;message headers
+GlestBasicTutorial=MegaGlest Einsteiger-Einfuehrung
+WellDone=Gut gemacht!
+Resources=Ressourcen
+Combat=Gefecht
+Buildings=Gebaeude
+Tricks=Tricks
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Willkommen zur MegaGlest-Einfuehrung!
+
+FirstThing=Ansicht: Du kannst den angezeigten Bereich veraendern indem du die Maus an den Bildschirmrand bewegst oder die Pfeiltasten benutzt. Auch per Linksklick auf die Uebersichtskarte (oben links im Bild) kannst du die Ansicht neu positionieren.
+ 
+WillBeUsingIndian=In dieser Einfuehrung kommandierst den Indianer-Stamm (indian). Die Indianer kaempfen mit Bogenschuetzen und einfachen Waffen.
+
+NeedWorkers=Als erstes benoetigen wir einen Arbeiter (Worker). Hierzu waehle, per linker Maustaste, das Hauptzelt (Mainteepee) an und starte die Ausbildung des Arbeiters mit dem Kommando "Produce Worker" indem du auf sein Bild klickst.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Waehle jetzt den Worker mit der linken Maustaste aus. Oben rechts sieht man nun Details zur angewaehlten Einheit, wie Name und Bild. Danach folgen die Lebenspunkte (LP), die Ruestung und in Klammern dahinter der Typ der Ruestung und die Sichtweite.
+Select2=Falls die Einheit kaempfen kann steht dahinter wie viele Einheiten sie schon vernichtet hat. Konsumiert sie Ressourcen wird dies nachfolgend angezeigt. Darunter steht was die Einheit gerade tut.
+
+;!!!Hier wird noch nicht erklaert was in den klammern hinter vernichtet steht!!!
+
+exampleWorker=Unser Arbeiter (Worker) hat z.B. 600 LP, 0 Ruestung vom Typ Leder (Leather) und hat eine Sichtweite von 9. Unser Arbeiter hat im Moment den Zustand "Stop", d.h. er tut nichts.
+
+Command=Rechts unten steht was die Einheit alles machen kann. Wir werden jetzt alle Kommandos erlernen die der Arbeiter (Worker) ausfuehren kann.
+
+firstCommand=Das erste Kommando ist Stop. Drueckst du auf diesen Knopf hoert die Arbeiter (Worker) sofort auf mit dem was er gerade tut. Dieses Kommando haben alle Einheiten die keine Gebaeude sind.
+
+secondCommand=Das zweite Kommando ist Laufen (Move). Drueckst du diesen Knopf musst du danach auf den Boden oder auf eine andere Einheit klicken. Dieses Kommando kann man abkuerzen indem man mit der rechten Maustaste auf das Ziel klickt.
+secondCommand2=Wenn du die Maus auf das Kommando-Icon haeltst, siehst du die Bewegungsgeschwindigkeit des Arbeiters (Worker). Auch dieses Kommando haben alle Einheiten die keine Gebaeude sind.
+
+testSecondCommand=Jetzt probiere mal das Kommando "Laufen" aus. Bewege den Arbeiter zu dem anderen Arbeiter der auserhalb deines Lagers steht. Diesen siehst du als roten Punkt auf der Kartenuebersicht. Das weisse Dreieck auf der Kartenuebersicht zeigt dabei deine aktuelle Kameraposition.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Jetzt laufe mit beiden Arbeitern (Worker) zurueck zum Haupttipi. Um mehrere Einheiten auszuwaehlen, Kannst du mit gehaltender Maustaste einen Auswahlkasten ziehen ODER ...
+MoveBack2=...Shift gedrueckt halten und alle Einheiten nacheinander (mit der Maus) anwaehlen ODER ...
+MoveBack3=...du machst einen Doppelklick auf eine Einheit. Daraufhin werden alle Einheiten der Sorte auf die du geklickt hast (hier Arbeiter) in der Naehe angewaehlt werden.
+HarvestGoldandStone=Wenn deine Einheiten zu hause sind benutzen wir das vierte Kommando das zum Abbauen von Gold und Stein (Stone) da ist.
+HarvestGoldandStone2=Wenn du deine Maustaste auf das Kommando haeltst siehst du wie schnell der Arbeiter sammeln kann, wie viel er sammeln kann, wie schnell er mit Ressourcen laufen kann und welche Ressourcen er sammeln kann.
+UseHarvestGoldandStone=Um das Kommando zu benutzen druecke auf es und dann auf die Ressource die du abbauen willst. Die Steine mit den gelben Punkten sind Gold die anderen Steine sind ... aeh ... Stein.
+HarvestGoldandStone3=Baue nun solange Gold und Stein (Stone) ab bis du 600 Gold und 550 Stein (Stone) hast. Du kannst dazu auch neue Arbeiter (Worker) bauen. Oben kannst du sehen wie viele Ressourcen du bereits besitzt.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Jetzt brauchst du nur noch ein bisschen Holz (Wood). Um Holz (Wood) zu kriegen benutze das fuenfte Kommando. Es ist auch ein "Sammel"-Kommando d.h. du kannst es genauso benutzen wie das vierte Kommando.
+ResourceInformation=Bei den Indianern (Indian) braucht man groesstenteils Gold und Holz (Wood).
+GetWood=Man kann auch dieses Kommando abkuerzen, indem man mit der rechten Maustaste auf die Ressource klickt. War dies erfolgreich so wird ein gelber Pfeil erscheinen. Jetzt sammel Holz (Wood) bis du 550 hast.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Wenn du ein Gebaeude anwaehlst siehst du einen blauen Pfeil. Da wo dieser Pfeil hinzeigt ist der sogennante 'Sammelpunkt'. Alle in diesem Gebaeude produzierten Einheiten laufen sobald sie erscheinen zum Ende dieses Pfeils.
+UseMeetingPoint=Du kannst den Sammelpunkt versetzen indem du erst auf die Flagge drueckst und dann auf die neue Position klickst. Abkuerzen kann man das ganze wieder mit der rechten Maustaste (wie beim Laufen).
+MeetingPoint2=Setzt man den Sammelpunkt auf eine Ressource beginnen neu produzierte Arbeiter sofort an dort zu sammeln. (Pass auf das du genau die Ressource triffst!)
+thirdcommand=Nun wenden wir uns dem dritten Kommando zu. Es ist das Bau-Kommando.
+thirdcommand2=Durch Anklicken kommst du ins Bau-Menue. Wenn du hier den Mauszeiger ueber ein Gebaeude haeltst siehst du weiter unten, unter dem Punkt 'Vorraussetzungen' , was du dafuer alles brauchst.
+thirdcommand3=Wenn du auf das Zelt (Tent) haelst siehst du dass du dafuer 30 Gold, 50 Holz (Wood), -10 Wohnplaetze (housing) und das Hauptzelt (Mainteepee) brauchst. Die Angabe "-10 housing" ist dabei eine Besonderheit: sie bedeutet, dass du 10 Wohnplaetze (housing) dazu bekommst.
+thirdcommand4=Nun lass uns ein Zelt (Tent) bauen. Klicke dazu auf das Baue-Menue und dann auf das Zelt (Tent).
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=Nun bilde einen Stickfighter in dem neu gebauten Zelt (Tent) aus.
+
+;objective strings
+ProduceWorker=Objective: Bilde 1 Arbeiter (Worker) aus.
+ProduceStickfighter2=Objective: Bilde 1 Stickfighter aus.
+MoveWorker=Objective: Bewege deinen neu produzierten Arbeiter (Worker) zu dem anderen Arbeiter (Worker) ausserhalb deines Lagers.
+HarvestGoldandStoneobjective=Objective: Baue solange Gold und Stein (Stone) ab bis du 600 Gold und 550 Stein (Stone) hast.
+GetWoodob=Objective: Jetzt sammel Holz (Wood) bis du 550 hast.
+usethirdcommand=Tipp: Wenn das Zelt rot ist, ist der Platz derzeit besetzt (z.B. von einer Einheit oder einem Baum). Objective: Baue ein Zelt (Tent).
+
+;end
+
+WellDoneNextTutorial=Gut Gemacht! Jetzt kannst du die naechste Einfuehrung spielen.		

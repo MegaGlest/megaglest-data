@@ -1,0 +1,102 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="0"/>
+	<players>
+		<player control="human" faction="indian" team="1"/>
+		<player control="cpu" faction="magic" team="2"/>
+		<player control="closed"/>
+		<player control="closed"/>		
+	</players>
+	<map value="conflict"/>
+	<tileset value="evergreen"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="true"/>
+	<default-units value="false"/>
+	<default-victory-conditions value="true"/>
+	<scripts>
+		<startup>
+			disableAi(1)
+			createUnit('mainteepee', 0, startLocation(0))			
+			createUnit('mage_tower', 1, startLocation(1))			
+			showMessage('Welcome', 'GlestBasicTutorial')
+			showMessage('FirstThing', 'GlestBasicTutorial')
+			showMessage('WillBeUsingIndian', 'GlestBasicTutorial')
+			showMessage('NeedWorkers', 'Resources')
+			setDisplayText('ProduceWorker')
+			objective= 'produce_worker'
+		</startup>
+		<resourceHarvested>
+			if objective=='Harvest_Gold_And_Stone' and resourceAmount('gold', 0)>=600 and resourceAmount('stone', 0)>=550 then
+				showMessage('HarvestGoldAndStoneDone', 'WellDone')
+				showMessage('ResourceInformation', 'Resources')
+				showMessage('GetWood', 'Resources')
+				setDisplayText('GetWoodob')
+				objective= 'harvest_wood'			
+			end	
+			if objective=='harvest_wood' and resourceAmount('wood', 0)>=550 then
+				showMessage('MeetingPoint', 'WellDone')
+				showMessage('UseMeetingPoint', 'GlestBasicTutorial')	
+				showMessage('MeetingPoint2', 'Tricks')
+				showMessage('thirdcommand', 'Buildings')	
+				showMessage('thirdcommand2', 'Buildings')	
+				showMessage('thirdcommand3', 'Buildings')	
+				showMessage('thirdcommand4', 'Buildings')	
+				setDisplayText('usethirdcommand')
+				objective= 'produce_tent'			
+			end				
+		</resourceHarvested>
+		<unitCreatedOfType type="worker">
+			if objective=='produce_worker' then
+				WorkerUnit=lastCreatedUnit()
+<!--Messages-->
+				showMessage('Select', 'WellDone')			
+				showMessage('Select2', 'GlestBasicTutorial')
+				showMessage('exampleWorker', 'GlestBasicTutorial')			
+				showMessage('Command', 'GlestBasicTutorial')			
+				showMessage('firstCommand', 'GlestBasicTutorial')			
+				showMessage('secondCommand', 'GlestBasicTutorial')			
+				showMessage('secondCommand2', 'GlestBasicTutorial')			
+				showMessage('testSecondCommand', 'GlestBasicTutorial')			
+				setDisplayText('MoveWorker')
+				objective= 'move_worker'
+<!--Set Worker-->
+				createUnit('worker', 0, {80,70})
+				SecondWorkerUnit=lastCreatedUnit()
+				cell_event1 = registerCellTriggerEventForUnitToUnit(WorkerUnit,SecondWorkerUnit)
+
+			end		
+		</unitCreatedOfType>	
+		<unitCreatedOfType type="tent">
+			if objective=='produce_tent' then
+<!--Messages-->
+				showMessage('ProduceStickfighter', 'WellDone')	
+				setDisplayText('ProduceStickfighter2')
+				objective= 'stickfighter'
+			end		
+		</unitCreatedOfType>	
+		<unitCreatedOfType type="stickfighter">
+			if objective=='stickfighter' then
+<!--Messages-->
+				setDisplayText('WellDoneNextTutorial')
+				setPlayerAsWinner(0)
+				endGame()
+			end		
+		</unitCreatedOfType>	
+		<cellTriggerEvent>
+			--print('Cell Event ' .. triggeredCellEventId() )
+			if triggeredCellEventId() == cell_event1 then
+				clearDisplayText()
+				showMessage('MoveBack', 'WellDone')
+				showMessage('MoveBack2', 'GlestBasicTutorial')
+				showMessage('MoveBack3', 'GlestBasicTutorial')
+				showMessage('HarvestGoldandStone', 'GlestBasicTutorial')
+				showMessage('HarvestGoldandStone2', 'GlestBasicTutorial')
+				showMessage('UseHarvestGoldandStone', 'GlestBasicTutorial')
+				showMessage('HarvestGoldandStone3', 'GlestBasicTutorial')
+				setDisplayText('HarvestGoldandStoneobjective')
+				unregisterCellTriggerEvent(cell_event1)
+				objective= 'Harvest_Gold_And_Stone'
+			end
+		</cellTriggerEvent>
+	</scripts>
+</scenario>
