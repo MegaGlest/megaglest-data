@@ -165,15 +165,15 @@
 			<type value="die"/>
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="120"/>
-			<anim-speed value="120"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
 			<animation path="models/ornithopter_dying.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/orni_die1.wav"/>
 				<sound-file path="sounds/orni_die2.wav"/>
 				<sound-file path="sounds/orni_die3.wav"/>
 			</sound>
-			<fade value="true"/>
+			<fade value="false"/>
 		</skill>
 
 	</skills>
