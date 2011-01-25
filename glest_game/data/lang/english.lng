@@ -198,6 +198,7 @@ Player=Player
 Playername=Playername:
 Port=Port
 PressEnterToChat=Press enter to chat
+PrivacyPlease=Enable Privacy (hide country, etc)
 Produce=Produce
 Producing=Producing
 ProductionSpeed=Production speed
