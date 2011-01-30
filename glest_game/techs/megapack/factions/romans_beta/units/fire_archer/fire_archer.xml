@@ -13,8 +13,8 @@
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="accurate" kills="4"/>
-			<level name="elite" kills="8"/>
+			<level name="accurate" kills="6"/>
+			<level name="elite" kills="14"/>
 		</levels>
 		<fields>
 			<field value="land"/>
@@ -104,7 +104,7 @@
 				<sound-file path="/sounds/archer_attack4.wav"/>
 			</sound>
 			<attack-strenght value="200"/>
-			<attack-var value="150"/>
+			<attack-var value="100"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.26"/>

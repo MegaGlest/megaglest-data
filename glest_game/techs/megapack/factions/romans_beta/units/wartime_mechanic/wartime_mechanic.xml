@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="350"  regeneration="0"/>
+		<max-hp value="500"  regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="15"/>	
 		<armor-type value="metal"/>
@@ -24,9 +24,9 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="20"/>
-			<resource name="gold" amount="80"/>
-			<resource name="food" amount="1"/>						
+			<resource name="wood" amount="50"/>
+			<resource name="gold" amount="100"/>
+			<resource name="food" amount="1"/>	
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/guard.bmp"/>
@@ -337,6 +337,8 @@
 				<unit name="longbowman"/>
 				<unit name="battering_ram"/>
 				<unit name="axe_man"/>
+				<unit name="catapult"/>
+				<unit name="ballista"/>
 			</repaired-units>		
 		</command>
 		

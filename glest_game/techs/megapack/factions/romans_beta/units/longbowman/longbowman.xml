@@ -3,18 +3,18 @@
 <unit>
 	<parameters>
 		<size value="1"/>
-		<height value="3"/>
+		<height value="2"/>
 		<max-hp value="1000" regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="30"/>	
-		<armor-type value="metal"/>				
+		<armor-type value="leather"/>				
 		<sight value="15"/>
 		<time value="70"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
-			<level name="expert" kills="5"/>
-			<level name="elite" kills="15"/>
+			<level name="expert" kills="8"/>
+			<level name="elite" kills="18"/>
 		</levels>
 		<fields>
 			<field value="land"/>

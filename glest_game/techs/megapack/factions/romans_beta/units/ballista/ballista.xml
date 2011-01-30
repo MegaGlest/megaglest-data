@@ -97,15 +97,15 @@
 			<type value="attack"/>
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="50"/>
-			<anim-speed value="50"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
 			<animation path="models/ballstac_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/ab_attack1.wav"/>
 				<sound-file path="sounds/ab_attack2.wav"/>
 			</sound> 
-			<attack-strenght value="195"/>
-			<attack-var value="150"/>
+			<attack-strenght value="200"/>
+			<attack-var value="75"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.3"/>
@@ -130,41 +130,6 @@
 			</splash>
 		</skill>
 
-		<skill>
-			<type value="attack"/>
-			<name value="attack_air_skill"/>		
-			<ep-cost value="0"/>
-			<speed value="70"/>
-			<anim-speed value="70"/>
-			<animation path="models/ballstac_attack.g3d"/>
-			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/ab_attack1.wav"/>
-				<sound-file path="sounds/ab_attack2.wav"/>
-			</sound> 
-			<attack-strenght value="200"/>
-			<attack-var value="75"/>
-			<attack-range value="15"/>
-			<attack-type value="piercing"/>
-			<attack-start-time value="0.3"/>
-			<attack-fields>
-				<field value="air"/>
-			</attack-fields>
-			<projectile value="true">
-				<particle value="true" path="particle_proj.xml"/>
-				<sound enabled="true">
-					<sound-file path="../archer/sounds/arrow_hit1.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit2.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit3.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit4.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit5.wav"/>
-				</sound>
-			</projectile>
-			<splash value="true">
-				<radius value="2"/>
-				<damage-all value="true"/>
-				<particle value="true" path="particle_splash.xml"/>
-			</splash>
-		</skill>
 		
 		<skill>
 			<type value="die"/>
@@ -197,17 +162,7 @@
 
 		<command>
 			<type value= "attack_stopped"/>
-			<name value="attack_air_on"/>
-			<image path="images/air_ballista_attack.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<attack-skill value="attack_air_skill"/>
-                        <stop-skill value="stop_skill"/>
-		</command>
-
-		<command>
-			<type value= "attack_stopped"/>
-			<name value="attack_land_on"/>
+			<name value="attack_on"/>
 			<image path="images/air_ballista_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
