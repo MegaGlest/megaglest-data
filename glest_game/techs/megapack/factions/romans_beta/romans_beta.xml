@@ -16,7 +16,7 @@
 		<unit name="archer" amount="1"/>
 		<unit name="tribune" amount="0"/>
 		<unit name="cavalry" amount="0"/>
-		<unit name="longbowman" amount="0"/>
+		<!--unit name="longbowman" amount="100"/> (" Unit has been removed" ) -->
 		<unit name="turtle_formation" amount="0"/>
 		<unit name="wartime_mechanic" amount="0"/>
 		<unit name="catapult" amount="0"/>

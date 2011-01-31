@@ -328,13 +328,12 @@
 				<unit name="cavalry"/>
 				<unit name="tribune"/>
 				<unit name="turtle_formation"/>
-				<unit name="longbowman"/>
 				<unit name="general"/>
 				<unit name="wartime_mechanic"/>
 				<unit name="fire_archer"/>
 				<unit name="gladiator"/>
 				<unit name="guard"/>
-				<unit name="longbowman"/>
+				<!--unit name="longbowman"/-->
 				<unit name="battering_ram"/>
 				<unit name="axe_man"/>
 				<unit name="catapult"/>

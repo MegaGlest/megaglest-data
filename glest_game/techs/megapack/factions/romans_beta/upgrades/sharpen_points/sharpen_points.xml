@@ -12,8 +12,8 @@
 		<resource name="wood" amount="150"/>
 	</resource-requirements>
 	<effects>
+		<unit name="archer"/>
 		<unit name="fire_archer"/>
-		<unit name="longbowman"/>
 		<unit name="cavalry"/>
 		<unit name="spearman"/>
 		<unit name="gladiator"/>
