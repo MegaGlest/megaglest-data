@@ -70,6 +70,12 @@ Maps:
  coop4_ally_resist by Trappin
  fracture          by wciow
  2rivers           by Titus Tscharntke(titi)
+ ally_resists      by Trappin tweaked by ultifd
+ beat_the_enemy    by Philipp Tscharntke
+ center_castle     by Titus Tscharntke(titi)
+ river_raid2	   by James McCulloch(silnarm)
+ highlands         by Titus Tscharntke(titi)
+ team_island       by Titus Tscharntke(titi)
 
 Scenarios:
 ==========
@@ -85,10 +91,16 @@ m4_persian_conflict  by Philipp Tscharntke
 m4_waterworld_light  by Titus Tscharntke(titi)
 m4_waterworld        by Titus Tscharntke(titi)
 
+Tutorials:
+==========
+basic_tutorial2      by Philipp Tscharntke
+
 Translations:
 =============
 Italian              by Marco Gori - badflagello@hotmail.it
 Danish               by Frederick Angelo ( aka Coldfusionstorm )
+French               by cygal based on the work of many others
+German               by Philipp Tscharntke based on the work of many others
 
 Credits go to:
 ==============
