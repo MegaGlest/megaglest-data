@@ -2,14 +2,15 @@
 MEGAGLEST README
 ================
 
-
 CONTROLS
 =========
 
 Most (if not all) keyboard controls are
-now defined in glestkeys.ini
+defined in glestkeys.ini and should be changed
+ONLY in the user defined file called glestuserkeys.ini
+(which overrides the default keyboard values)
 
-a) Camera
+a) Camera keyboard controls
 
 f => toggle free camera mode
 w => move camera up (only in free camera more)
@@ -23,7 +24,7 @@ down arrow or mouse on bottom => move camera backward
 left arrow or mouse on left => move camera left
 right arrow or mouse on right => move camera right
 
-b) Orders and Unit selection
+b) Orders and Unit selection keyboard controls
 
 left mouse button => select or deselect units
 shift + left mouse button => add unit to selection
@@ -36,7 +37,7 @@ right mouse when order is activated => cancel state
 number => recall group
 control + number => assign group
 
-c) Network
+c) Network keyboard controls
 
 enter => start typing/send chat message
 h => toggle between 'All' and 'Team' chat modes
@@ -52,7 +53,6 @@ d => select next damaged unit
 t => select next storage unit
 r => rotate building before placement
 
-
 e) Other Keys
 
 - + => adjust game speed  (disabled in multiplayer)
@@ -63,20 +63,17 @@ m => show faded mesages again
 ? => Toggle display of Debug information when DebugMode=true
 / => Toggle display of mouse pointer from Operating System to Glest Rendered
 
-
 CONFIGURATION
 ==============
 
-Glest can be configured in three ways:
+Glest can be configured in two ways:
 - in-game config menu: basic parameters
-- configuration tool: advanced parameters
-- glest.ini: all parameters
-- glestkeys.ini: all hotkeys
+- glestuser.ini: all parameters
+- glestuserkeys.ini: all hotkeys
 
-DO NOT directly edit the ini files but rather for user
-changes edit glestuser.ini and glestuserkeys.ini and create 
-the over-ride values that you desire.
-
+DO NOT directly edit glest.ini and glestkeys.ini but rather
+edit glestuser.ini and glestuserkeys.ini and create 
+your user over-ride values in these files.
 
 NETWORK PLAY
 =============
@@ -113,7 +110,6 @@ over the copy.
 You can disable binary and checksum checks in glest.ini, by setting 
 NetworkConsistencyChecks to 0, but the game might get out of sync and crash.
 
-
 COMMAND LINE
 =============
 
@@ -121,7 +117,6 @@ glest => start game normally
 glest --version => display the version string
 glest -server => start game in the new game screen with all slots open
 glest -client ServerIp => start game connecting to a server
-
 
 VIDEO CARD HINTS
 =================

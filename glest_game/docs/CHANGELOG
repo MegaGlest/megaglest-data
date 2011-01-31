@@ -2,6 +2,25 @@
 MEGAGLEST CHANGELOG
 ===================
 
+3.4.0
+- new attack alarms use visual and audio cues to indicate when and where you or your team are under attack
+- new auto router configuration for Internet hosted games will auto port forward (for UPNP enabled routers)
+- new network file transfer system current allows servers to send missing maps and tilesets to clients
+- new IRC client built into the Internet lobby (uses freenode's megaglest-lobby channel)
+- improved sound handling for better stability and smoother game play
+- CPU AI players now can have their resource multiplier manually changed
+- new fog of war setting allows showing resources on the map at game start (thanks GAE team)
+- many new commandline options (try --help to see)
+- texture compression for video cards that support it
+- improved AI players are much harder to defeat
+- new Romans_beta faction in megapack
+- new language translations
+- new tilesets, maps, scenarios and tutorials
+- G3D Viewer enhancements including PNG screenshots with alpha transparency option
+- performance improvements for both rendering and network play
+- FreeBSD support has been added in this release
+- bugfixes discovered in 3.3.7.2
+
 3.3.7.2
 - This is primarily a bugfix release to correct noticable issues from 3.3.7
 
