@@ -15,11 +15,13 @@ MEGAGLEST CHANGELOG
 - improved AI players are much harder to defeat
 - new Romans_beta faction in megapack
 - new language translations
-- new tilesets, maps, scenarios and tutorials
+- new tilesets, maps and a tutorials
 - G3D Viewer enhancements including PNG screenshots with alpha transparency option
 - performance improvements for both rendering and network play
 - FreeBSD support has been added in this release
+- no more selection problems!
 - bugfixes discovered in 3.3.7.2
+
 
 3.3.7.2
 - This is primarily a bugfix release to correct noticable issues from 3.3.7
