@@ -40,6 +40,8 @@ Closed=Lukket
 Command=Komando
 CommonCommand=Fælles komando
 Connect=Forbind
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+Connecting=Connecting...
 Connected=Forbundet
 ConnectedToServer=Forbundet til server
 Connection failed=Forbindelse Fejlede
@@ -51,6 +53,30 @@ CpuEasy=CPU (Nem)
 CpuMega=CPU (Mega)
 CpuUltra=CPU (Ultra)
 CustomGame=Brugerdefineret spil
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataNotSynchedTitle=The following game data is different:
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataNotSynchedMap=Map is different between client and server
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataNotSynchedTileset=Tileset is different between client and server
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingMap=Player: %s is missing the map: %s
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingTileset=Player: %s is missing the tileset: %s
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingTechtree=Player: %s is missing the techtree: %s
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingMapNowDownloading=Player: %s is attempting to download the map: %s
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingTilesetNowDownloading=Player: %s is attempting to download the tileset: %s
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingMapSuccessDownload=Player: %s SUCCESSFULLY downloaded the map: %s
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingMapFailDownload=Player: %s FAILED to download the map: [%s] using CURL version [%s]
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingTilesetSuccessDownload=Player: %s SUCCESSFULLY downloaded the tileset: %s
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+DataMissingTilesetFailDownload=Player: %s FAILED to download the tileset: [%s] using CURL version [%s]
 Deaths=Døde
 Defeat=Nederlag
 Deleting=Sletter
@@ -68,6 +94,10 @@ Discount=Discount
 DisplaySettingsChanged=Skærm Indstillinger skiftet
 DownloadMissingMapQuestion=Hent kortet?:
 DownloadMissingTilesetQuestion=Hent kortdekoration?:
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+EnableFTP=Enable FTP file transfers
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+EnableFTPServer=Enable FTP Server
 EnableObserverMode=Aktiver Observatør mode
 Enabled=Aktiveret
 EnableServerControlledAI=Server kontrolleret KI
@@ -87,6 +117,10 @@ FindLANGames=Find LAN Spil
 FogOfWar=Krigståge
 FontSizeAdjustment=Font justering
 FontSizeAdjustmentChanged=Font skiftet
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+FTPServerPort=FTP Server Port
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+FTPServerDataPort=FTP Server Data Ports
 FreeCamera=Friheds Kamera
 FxVolume=Fx Lydstyrke:
 GameCamera=Spil Kamera
@@ -104,6 +138,8 @@ Initializing=Initialiserer
 InvalidOrder=Orderem er ugyldig
 InvalidPosition=Positionen er ugyldig
 IRCPeopleOnline=IRC Folk Online:
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+Keyboardsetup=Keyboard Setup
 Kills=Drab
 JoinGame=LAN Spil
 JoinInternetGame=Internet Spil
@@ -124,10 +160,22 @@ MeetingPoint=Mødested
 Megaglest3d2dProgramming=Megaglest 3D/2D+Programering
 MegaglestProgramming=Megaglest Programering
 MGBuildDateTime=Bygnings Dato/Tid
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+MGGameCountry=Host country
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+MGGameStatus=Game Status
 MGGameTitle=Spil Titel
 MGGameSlots=Pladser
 MGGameSlotsFull=Spil er fuldt
 MGGameIP=Server IP Addresse
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+MGGameStatus0=Accepting players
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+MGGameStatus1=Game full, game start pending
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+MGGameStatus2=Game in progress
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+MGGameStatus3=Game finished
 MGJoinGameSlots=Tilslut spil
 MGPlatform=Platform
 MGVersion=Spil Version
@@ -174,6 +222,8 @@ Player=Spiller
 Playername=Spillernavn:
 Port=Port
 PressEnterToChat=Tryk enter for at chatte
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+PrivacyPlease=Enable Privacy \n(hide country, etc)
 Produce=Producer
 Producing=Producere
 ProductionSpeed=Produktions hastighed
@@ -182,6 +232,8 @@ Projected=Projected
 PublishServer=Udgiv på Mesterserver
 PublishServerExternalPort=Extern(e) Port(e) #
 Question=Spørgsmål
+; Next line needs translation, include by check.pl on Tue Feb 1, 2011
+QuitGame=Chose to leave the game!
 ReactionSpeed=Reaktions Hastighed
 RefreshList=Genopfrisk Liste
 Regeneration=Regeneration
