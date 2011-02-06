@@ -1,0 +1,75 @@
+;message headers
+GlestBasicTutorial=Tutoriel de base
+WellDone=Bravo!
+Resources=Ressources 
+Combat=Combat
+Buildings=Bâtiments 
+Tricks=Astuces
+
+;message strings
+;------------------------------------------ Démarrer ----- -------------------------------------------
+Welcome=Bienvenue dans le tutoriel de MegaGlest.
+
+FirstThing=Voir: Pour régler la zone visible, déplacez le pointeur de votre souris sur les bords de votre écran, ou utilisez les touches curseur. Une autre façon de faire est de cliquer à gauche sur la mini-carte (coin supérieur gauche de votre écran).
+
+WillBeUsingIndian=Dans cette introduction, on commande les Indiens. Les combats faction indienne avec des archers et des simple armes.
+
+NeedWorkers=D'abord, nous avons besoin d'un travailleur. Pour l'obtenir, faites un clic gauche sur le Mainteepee et commencer la formation de votre travailleur. Pour ce faire, utilisez le bouton «Produire des travailleurs» en cliquant sur l'icône des travailleurs.
+
+;------------------------------------------ produire travailleur --- ---------------------------------------------
+
+Select=Sélectionnez maintenant = clic gauche de votre travailleur. Donne des  Détails sur l'unité sélectionnée, à savoir le nom de l'unité et une image sont maintenant affichés dans le coin en haut à droite de votre écran. On vois les points de santé (HP), de l armure, et, entre parenthèses, le type d'armure et le champ de visibilité.
+Select2=S'il s'agit d'une unité de combat, le nombre d'unités ennemies qu'il a déjà détruit est inscrit à côté. Si elle consomme des ressources, cela est affiché dans le champ suivant. En dessous, elle dit ce que cette unité est en train de faire.
+
+exampleWorker=Par exemple, votre travailleur a 600 HP, 0 d'armure de cuir et d'une visibilité de 9. Son état actuel est "stop", alors il ne fait rien.
+
+Command=Les capacités des unités sont inscrites ci-dessous. Nous allons maintenant apprendre toutes les commandes que le travailleur peut exécuter.
+
+firstCommand=La première icône est «stop». Si vous cliquez sur cette icône, le travailleur cesse immédiatement ce qu'il est en train de faire. Toutes les unités (qui ne sont pas des bâtiments) on cette commande.
+
+secondCommand=La seconde icône est «bouger». Si vous cliquez dessus, vous devrez cliquer sur le sol ou une autre unité pour définir la destination. Un raccourci pour cette commande est de clic-droit à la position de la cible.
+secondCommand2=Lorsque vous placez le pointeur de la souris sur l'icône de la commande «bouger», la vitesse de déplacement des travailleurs est affiché. Cette commande, aussi, est disponible à toutes les unités (mais pas les bâtiments).
+
+testSecondCommand=Essayez la commande "bouger"  maintenant. Déplacez votre travailleur à l'autre travailleur qui attend à l'extérieur de votre camp. Cette autre travailleur est affichée sur la carte (en haut à gauche) mini comme un point rouge. Le triangle blanc sur la carte mini indique la position de la caméra. Le gros point rouge est votre Mainteepee.
+
+;------------------------------------------ Reculer travailleurs et donner Harvest commande d'or ------------------------------------------------
+MoveBack=Bien joué. Maintenant, faites le revennir du  travail au Mainteepee. Pour sélectionner plusieurs unités, appuyez sur Maj et dessinez un rectangle de sélection autour de vos unités OU ...
+MoveBack2=... maintenez la touche MAJ, puis utilisez votre souris pour cliquer sur chaque unité que vous souhaitez inclure ou encore ...
+MoveBack3=... double-cliquez sur une unité pour sélectionner toutes les unités à proximité du même type (les travailleurs dans ce cas).
+HarvestGoldandStone=Lorsque vos unités ont atteint la maison, nous allons utiliser le quatrième icône qui est destiné à la récolte d'or et de pierres.
+HarvestGoldandStone2=Cette icône commande avec le pointeur de votre souris pour voir à quelle vitesse vos travailleurs peuvent récolter, combien chaque travailleur peut récolter, à quelle vitesse ils peuvent marcher dans l'exercice de ressources et de quelles ressources on peut récolter à tous.
+UseHarvestGoldandStone=Pour utiliser cette commande, cliquez d'abord sur l'icône de commande, puis sur la ressource que vous souhaitez récolter. Les pierre grise avec des points jaunes sont de couleur or, ceux qui n' en ont pas sont des pierres.
+HarvestGoldandStone3=Maintenant, récolté l or et des pierres jusqu'à ce qu'a un total de 600 pièces d'or et de 550 en pierre. Vous pouvez également créer de nouveaux travailleurs (mais ils vous en coûtera d'or, aussi). Vérifiez en haut de l'écran pour savoir combien de ressources dont vous disposez actuellement.
+
+;------------------------------------------ chercher du bois ---- --------------------------------------
+
+HarvestGoldAndStoneDone=Maintenant vous n'avez besoin que d'un peu de bois. Pour s'en procurer, utilisez la cinquième icône. Il s'agit également d'une commande de récolte que vous pouvez utiliser de la même façon que pour l'or et la pierre.
+ResourceInformation=Soit dit en passant, la faction indienne besoins surtout d'or et de bois.
+GetWood=Pour un autre indice, vous pouvez utilisé n'importe quelle commande de récolte en sélectionnant votre travailleur, puis un clic droit sur un endroit où cette ressource est disponible (donc sur le bois dans ce cas). En cas de succès, une flèche jaune apparaitra. Maintenant récolter du bois jusqu'à en avoir 550.
+
+;------------------------------------------ savoir point de rencontre et de construire un tente ------------------------------------------------- ------
+
+MeetingPoint=Lorsque vous sélectionnez un bâtiment, une flèche bleue est affichée. Cette flèche pointe vers le "point de rassemblement". Toutes les unités que vous produisez dans ce bâtiment se déplace à cet endroit dès qu'ils apparaissent.
+UseMeetingPoint=Vous pouvez déplacer le point de rassemblement, aussi. Cliquez sur l'icône du drapeau, puis sur la position où le nouveau point de rencontre doit être situé. Ici aussi, vous pouvez faire simple clic-droit sur le nouveau lieu (tout comme vous pouvez le faire pour le déplacement).
+MeetingPoint2=Si vous placez le point d'assemblage sur une ressource, les nouveaux travailleurs  vont immédiatement commencer à récolter. Assurez-vous que vous avez cliqué au bon endroit, sinon vos travailleurs seront se baladerons sur la carte sans rien faire.
+thirdcommand=La troisième icône du travailleur est  «construire».
+thirdcommand2=En cliquant dessus vous entrez dans le menu de construction. Si vous placez l'une des icônes de construction avec le pointeur de votre souris, vous pouvez voir, sous la rubrique «exigences», toutes les ressources et les réalisations dont vous avez besoin pour cela.
+thirdcommand3=Si vous survolez la tente, vous verrez que cela prend 30 d'or, 50 bois, -10 logement et un tipi principal. «-10 Logement» signifie que la construction d'une tente vous permet le logement pour dix unités supplémentaires (même si certaines unités peuvent avoir besoin plus d'un tipi).
+thirdcommand4=Bâtissons une tente maintenant. Cliquez sur le menu de construction, puis sur la tente, et le placer sur un endroit vide.
+
+;------------------------------------------------ - stickfighter ----------------------------------------------- -----------------
+
+
+ProduceStickfighter=Vous pouvez maintenant former un combattant dans votre nouvelle tente.
+
+; chaînes objectif
+ProduceWorker=Objectif: Former un travailleur.
+ProduceStickfighter2=Objectif: Former un combattant utilisant le bâton.
+MoveWorker=Objectif: déplacer nouveau votre travailleur à l'autre travailleur qui attend à l'extérieur de votre camp.
+HarvestGoldandStoneobjective=Objectif: Moisson d'or et de pierres jusqu'à avoir un total de 600 pièces d'or et 550 en pierre.
+GetWoodob=Objectif: La récolte de bois jusqu'à en avoir un total de 550.
+usethirdcommand=Objectif: Construire un tente: Si la tente devient rouge, cela signifie que cet emplacement est actuellement (ou en général) pris ou qu'il est sur un objet   (par exemple une autre unité ou un arbre).
+
+;end
+
+WellDoneNextTutorial=Bon travail! Vous pouvez maintenant passer au didacticiel suivant.
