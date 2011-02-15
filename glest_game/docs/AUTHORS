@@ -100,8 +100,10 @@ Translations:
 Italian              by Marco Gori - badflagello@hotmail.it
 Danish               by Frederick Angelo ( aka Coldfusionstorm )
 French               by cygal and TrHiL-KiL based on the work of many others
-German               by Philipp Tscharntke based on the work of many others
+German               by Eduard Dopler based on the work of many others
 Ukrainian            by Dmitry Nikitin
+Spanish              by Miguel Verdú based on the work of many others
+Catalan              by Miguel Verdú
 
 Credits go to:
 ==============
@@ -125,13 +127,5 @@ royal (from http://www.freesound.org) for the  desert day sound
 Cacatoes (from http://forum.freegamedev.net/) for a nice rock texture photo used in autumn tileset.
 dobroide (from http://forum.freegamedev.net/) for spring ambiente daytime background sounds
 
-INFO:
-Some source textures distributed with the tilesets(evergreen/autumn) are copyrighted by CGTextures.com. Permission to release these specific textures has been granted to the creator of these tilesets. 
-!!Textures downloaded from CGTextures.com DO NOT fall under any GPL or Creative Commons License by default.!!
-
-( !!! Texture Hint: Better use textures from www.burningwell.org which are really free to use (public domain)!!!)
-
-
 All files are released under the Terms of the 
 Attribution-ShareAlike 3.0 Unported license ( see data_license.txt )
-
