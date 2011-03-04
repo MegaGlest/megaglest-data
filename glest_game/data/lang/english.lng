@@ -66,6 +66,7 @@ DataMissingMapFailDownload=Player: %s FAILED to download the map: [%s] using CUR
 DataMissingTilesetSuccessDownload=Player: %s SUCCESSFULLY downloaded the tileset: %s
 DataMissingTilesetFailDownload=Player: %s FAILED to download the tileset: [%s] using CURL version [%s]
 Deaths=Deaths
+Defaults=Defaults
 Defeat=Defeat
 Deleting=Deleting
 Difficulty=Difficulty
