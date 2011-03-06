@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
-
+<!-- particles
+               <object walkable="true">
+			<model path="models/reed.g3d">
+				<particles value="true">
+					<particle-file path="smoke_particles.xml"/>
+				</particles>
+			</model>
+		</object>
+-->
 <tileset>
 	<surfaces>
 		<surface>
@@ -83,8 +91,28 @@
                         <model path="models/broken_statue2.g3d"/>
 		</object>					
 		<object walkable="false">
-			<model path="models/vulcano.g3d"/>
-			<model path="models/vulcano1.g3d"/>
+			<model path="models/vulcano.g3d">
+				<particles value="true">
+					<particle-file path="particles/fire_particles2.xml"/>
+				</particles>
+			</model>
+			<model path="models/vulcano2.g3d"/>
+			<model path="models/vulcano1.g3d">
+				<particles value="true">
+					<particle-file path="particles/smoke_particles2.xml"/>
+				</particles>
+			</model>
+			<model path="models/vulcano1.g3d">
+				<particles value="true">
+					<particle-file path="particles/smoke_particles2.xml"/>
+				</particles>
+			</model>
+			<model path="models/vulcano.g3d">
+				<particles value="true">
+					<particle-file path="particles/fire_particles.xml"/>
+					<particle-file path="particles/smoke_particles.xml"/>
+				</particles>
+			</model>
 			<model path="models/vulcano2.g3d"/>
 		</object>					
 		<object walkable="false">
