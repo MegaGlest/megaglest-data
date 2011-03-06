@@ -236,6 +236,7 @@ ShadowMapping=Shadow Mapping
 Shadows=Shadows:
 ShowMapPreview=Map Preview
 ShowUnitParticles=Unit Particles:
+ShowTilesetParticles=Tileset Particles:
 Sight=Sight
 Size=Size
 Slow=slow
