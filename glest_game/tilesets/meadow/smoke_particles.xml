@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<object-particle-system>
+    	<texture value="true" path="images/particle.bmp" luminance="true"/>
+	<mode value="black"/>
+	<primitive value="quad"/>
+	<offset x="-5" y="2.0" z="0"/>
+	<direction x="0.0" y="0" z="0"/>
+	<color red="0.8" green="0.8" blue="0.8" alpha="0.0" />
+	<color-no-energy red="0.9" green="0.9" blue="0.9" alpha="0.4" />
+    	<radius value="8" />
+    	<size value="7" />
+    	<size-no-energy value="7" />
+    	<speed value="0" />
+	<gravity value="0.0"/>
+	<alternations value="1"/>
+	<isVisibleAtNight value="false"/>
+	<radiusBasedStartenergy value="false"/>
+    	<emission-rate value="0.1" />
+	<!--static-particle-count value="30" /-->
+    	<energy-max value="170" />
+    	<energy-var value="2" />
+	<relative value="true" />
+	<relativeDirection value="false" />
+    	<fixed value="true" />
+    	<teamcolorNoEnergy value="false" />
+    	<teamcolorEnergy value="false" />
+
+	<!--trajectory type="spiral">
+		<speed value="14.0"/>
+		<scale value="1"/>
+		<frequency value="0.5"/>
+	</trajectory-->
+</object-particle-system>

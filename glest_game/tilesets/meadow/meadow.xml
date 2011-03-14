@@ -63,11 +63,19 @@
 			<model path="models/grass.g3d"/>
 		</object>
 		<!-- *** Object 5 Water Object ***-->					
-        <object walkable="true">
+		<object walkable="true">
 			<model path="models/riverside_object2.g3d"/>
-            <model path="models/riverside_object3.g3d"/>
-            <model path="models/riverside_object4.g3d"/>
-            <model path="models/riverside_object5.g3d"/>
+			<model path="models/riverside_object3.g3d">
+				<particles value="true">
+					<particle-file path="smoke_particles.xml"/>
+				</particles>
+			</model>
+			<model path="models/riverside_object4.g3d"/>
+			<model path="models/riverside_object5.g3d">
+				<particles value="true">
+					<particle-file path="smoke_particles.xml"/>
+				</particles>
+			</model>
 		</object>
 		<!-- *** Object 6 Big Tree ***-->										
 		<object walkable="false">
