@@ -35,12 +35,19 @@
 
 		</surface>
 		<surface>
-			<texture path="textures/surface5a.bmp" prob="1.0"/>
-			<texture path="textures/surface5b.bmp" prob="1.0"/>
-			<texture path="textures/surface5c.bmp" prob="1.0"/>
-			<texture path="textures/surface5d.bmp" prob="1.0"/>
-			<texture path="textures/surface5e.bmp" prob="1.0"/>
-			<texture path="textures/surface5f.bmp" prob="1.0"/>
+			<texture path="textures/surface5a.bmp" prob="0.2"/>
+			<texture path="textures/surface5b.bmp" prob="0.2"/>
+			<texture path="textures/surface5c.bmp" prob="0.1"/>
+			<texture path="textures/surface5d.bmp" prob="0.25"/>
+			<texture path="textures/surface5e.bmp" prob="0.25"/>
+			<texture path="textures/surface5f.bmp" prob="0.2"/>
+		</surface>
+		<surface>
+			<texture path="textures/yellow1.png" prob="0.3"/>
+			<texture path="textures/yellow2.png" prob="0.1"/>
+			<texture path="textures/yellow3.png" prob="0.2"/>
+			<texture path="textures/yellow4.png" prob="0.125"/>
+			<texture path="textures/yellow5.png" prob="0.275"/>
 		</surface>
 	</surfaces>
 
