@@ -14,6 +14,7 @@
 		<connected-game-position x="4" y="10" z="-14"/>
 		<join-game-position x="14" y="15" z="5"/>
 		<masterserver-position x="4" y="10" z="-14"/>
+                <mods-position x="4" y="10" z="-14"/>
 		<scenario-position x="10" y="13" z="2"/>
 		
 		<start-rotation x="0" y="0" z="0"/>
@@ -25,6 +26,7 @@
 		<connected-game-rotation x="0" y="70" z="0"/>
 		<join-game-rotation x="0" y="12" z="0"/>
 		<masterserver-rotation x="0" y="-18" z="0"/>
+                <mods-rotation x="0" y="-18" z="0"/>
 		<scenario-rotation x="0" y="-10" z="0"/>		
 	</camera>
 </menu>
