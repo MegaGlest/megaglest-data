@@ -327,6 +327,7 @@
 				<unit name="guard_tower"/>
 				<!--unit name="eagle_statue"/-->
 				<unit name="gladiator_school"/>
+				<unit name="eagle_pillar"/>
 			</repaired-units>		
 		</command>	
 

@@ -275,7 +275,7 @@
 		</command>
 
 
-		<!--command>
+		<command>
 			<type value= "build"/>
 			<name value="construct_advanced"/>
 			<image path="../slave/images/worker_build_basic.bmp"/>
@@ -284,10 +284,11 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-                                <building name="eagle_statue"/>		
+                                <!--building name="eagle_statue"/>		
                                 <building name="gate_closed"/>	
                                 <building name="wall"/>	
-                                <building name="gladiator_school"/>		
+                                <building name="gladiator_school"/-->	
+                                <building name="eagle_pillar"/>		
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -306,12 +307,20 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
-				<unit name="eagle_statue"/>	
+				<!--unit name="eagle_statue"/>	
 				<unit name="gladiator_school"/>
 				<unit name="gate_closed"/>
-				<unit name="wall"/>
+				<unit name="wall"/-->
+				<unit name="eagle_pillar"/>
+				<unit name="forum"/>
+				<unit name="training_camp"/>
+				<unit name="blacksmith_shop"/>			
+				<unit name="temple"/>
+				<unit name="military_camp"/>	
+				<unit name="guard_tower"/>
+				<unit name="gladiator_school"/>
 			</repaired-units>		
-		</command-->
+		</command>
 
 		<command>
 			<type value="repair"/>
