@@ -172,6 +172,7 @@ Misc=Misc
 ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
 ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
 ModDownloading=Downloading
+
 ModTechAlreadyInstalled="You already have the tech: %s installed.
 ModSelectTechToInstall=You must first select a tech to install.
 ModRemoveTechConfirm=Are you sure you want to remove the tech: %s ?
@@ -195,6 +196,14 @@ ModCannotRemoveMapNotInstalled=You do not have the map: %s installed, remove can
 ModSelectMapToRemove=You must first select a map to remove.
 ModDownloadMapSuccess=SUCCESSFULLY downloaded the map: %s
 ModDownloadMapFail=FAILED to download the map: [%s] using CURL version [%s] [%s]
+
+ModScenarioAlreadyInstalled="You already have the scenario: %s installed.
+ModSelectScenarioToInstall=You must first select a scenario to install.
+ModRemoveScenarioConfirm=Are you sure you want to remove the scenario: %s ?
+ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
+ModSelectScenarioToRemove=You must first select a scenario to remove.
+ModDownloadScenarioSuccess=SUCCESSFULLY downloaded the scenario: %s
+ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version [%s] [%s]
 
 Mods=Game Mods
 Morph=Morph
@@ -269,6 +278,7 @@ ResourcesHarvested=Resources harvested
 Result=Result
 Return=Return
 Scenario=Scenario
+ScenarioTitle1=Scenarios
 Score=Score
 Server=Server
 ServerPort=Server Port #
