@@ -109,7 +109,7 @@
 				</sound>
 			</projectile>
 			<splash value="true">
-				<radius value="0"/>
+				<radius value="1"/>
 				<damage-all value="true"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
