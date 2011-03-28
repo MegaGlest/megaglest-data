@@ -173,7 +173,7 @@ ModRequires7z=** Warning ** - You need to have the free 7z program installed in\
 ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
 ModDownloading=Downloading
 
-ModTechAlreadyInstalled="You already have the tech: %s installed.
+ModTechAlreadyInstalled=You already have the tech: %s installed.
 ModSelectTechToInstall=You must first select a tech to install.
 ModRemoveTechConfirm=Are you sure you want to remove the tech: %s ?
 ModCannotRemoveTechNotInstalled=You do not have the tech: %s installed, remove cancelled.
@@ -181,7 +181,7 @@ ModSelectTechToRemove=You must first select a tech to remove.
 ModDownloadTechSuccess=SUCCESSFULLY downloaded the tech: %s
 ModDownloadTechFail=FAILED to download the tech: [%s] using CURL version [%s] [%s]
 
-ModTilesetAlreadyInstalled="You already have the tileset: %s installed.
+ModTilesetAlreadyInstalled=You already have the tileset: %s installed.
 ModSelectTilesetToInstall=You must first select a tileset to install.
 ModRemoveTilesetConfirm=Are you sure you want to remove the tileset: %s ?
 ModCannotRemoveTilesetNotInstalled=You do not have the tileset: %s installed, remove cancelled.
@@ -189,7 +189,7 @@ ModSelectTilesetToRemove=You must first select a tileset to remove.
 ModDownloadTilesetSuccess=SUCCESSFULLY downloaded the tileset: %s
 ModDownloadTilesetFail=FAILED to download the tileset: [%s] using CURL version [%s] [%s]
 
-ModMapAlreadyInstalled="You already have the map: %s installed.
+ModMapAlreadyInstalled=You already have the map: %s installed.
 ModSelectMapToInstall=You must first select a map to install.
 ModRemoveMapConfirm=Are you sure you want to remove the map: %s ?
 ModCannotRemoveMapNotInstalled=You do not have the map: %s installed, remove cancelled.
@@ -197,7 +197,7 @@ ModSelectMapToRemove=You must first select a map to remove.
 ModDownloadMapSuccess=SUCCESSFULLY downloaded the map: %s
 ModDownloadMapFail=FAILED to download the map: [%s] using CURL version [%s] [%s]
 
-ModScenarioAlreadyInstalled="You already have the scenario: %s installed.
+ModScenarioAlreadyInstalled=You already have the scenario: %s installed.
 ModSelectScenarioToInstall=You must first select a scenario to install.
 ModRemoveScenarioConfirm=Are you sure you want to remove the scenario: %s ?
 ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
