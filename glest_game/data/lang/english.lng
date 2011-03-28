@@ -280,6 +280,7 @@ Return=Return
 Scenario=Scenario
 ScenarioTitle1=Scenarios
 Score=Score
+ScreenshotSavedTo=Screenshot will be saved to: %s
 Server=Server
 ServerPort=Server Port #
 ServerType=Server type
