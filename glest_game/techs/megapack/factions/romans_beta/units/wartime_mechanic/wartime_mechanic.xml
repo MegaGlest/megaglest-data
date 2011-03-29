@@ -325,7 +325,7 @@
 		<command>
 			<type value="repair"/>
 			<name value="heal"/>
-			<image path="../slave/images/worker_repair.bmp"/>
+			<image path="images/heal.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
