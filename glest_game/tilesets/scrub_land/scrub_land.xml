@@ -23,8 +23,11 @@
                         <texture path="textures/surface2f.bmp" prob="0.1"/>
 		</surface>
 		<surface>
-			<texture path="textures/surface3a.bmp" prob="0.5"/>
-			<texture path="textures/surface3b.bmp" prob="0.5"/>
+			<texture path="textures/ground1.bmp" prob="0.1"/>
+			<texture path="textures/ground2.bmp" prob="0.25"/>
+			<texture path="textures/ground3.bmp" prob="0.15"/>
+		        <texture path="textures/ground4.bmp" prob="0.3"/>
+                        <texture path="textures/ground5.bmp" prob="0.2"/>
 		</surface>
 		<surface>
 			<texture path="textures/surface4a.bmp" prob="1.0"/>
@@ -36,6 +39,10 @@
 		        <texture path="textures/surface5d.bmp" prob="0.2"/>
                         <texture path="textures/surface5e.bmp" prob="0.1"/>
                         <texture path="textures/surface5f.bmp" prob="0.1"/>
+		</surface>
+		<surface>
+			<texture path="textures/surface3a.bmp" prob="0.5"/>
+			<texture path="textures/surface3b.bmp" prob="0.5"/>
 		</surface>
 	</surfaces>
 
