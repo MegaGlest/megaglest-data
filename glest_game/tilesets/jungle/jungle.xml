@@ -37,6 +37,13 @@
                         <texture path="textures/surface5e.bmp" prob="0.1"/>
                         <texture path="textures/surface5f.bmp" prob="0.1"/>
 		</surface>
+		<surface>
+			<texture path="textures/rock1.bmp" prob="0.3"/>
+			<texture path="textures/rock2.bmp" prob="0.2"/>
+			<texture path="textures/rock3.bmp" prob="0.15"/>
+		        <texture path="textures/rock4.bmp" prob="0.25"/>
+                        <texture path="textures/rock5.bmp" prob="0.1"/>
+		</surface>
 	</surfaces>
 
 	<objects>
