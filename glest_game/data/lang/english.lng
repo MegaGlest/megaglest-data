@@ -95,6 +95,7 @@ EnableFTPServerInternetTechtreeXfer=Transfer techtrees over Internet
 EnableObserverMode=View Map at End Game
 Enabled=Enabled
 EnableServerControlledAI=Server Controlled AI
+EnableTextureCompression=Enable Texture Compression
 Ep=EP
 EpCost=EP cost
 ErrorBindingPort=Error, cannot bind to network port
