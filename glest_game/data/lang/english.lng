@@ -147,6 +147,7 @@ Map=Map
 MapFilter=Map Filter
 MapTitle1=Map
 MapTitle2=Players
+MasterServerMissing=Your configuration is missing a masterserver entry.
 MaxFilterAnisotropy=Max Filter Anisotropy
 MaxLights=Max lights:
 MaxLoad=Max load
@@ -171,6 +172,7 @@ MGPlatform=Platform
 MGVersion=Game Version
 Misc=Misc
 
+ModErrorGettingServerData=Error retrieving data from the master server: %s
 ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
 ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
 ModDownloading=Downloading
