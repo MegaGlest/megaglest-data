@@ -37,6 +37,13 @@ Cancel=Cancel
 Canceled=Canceled
 Chat=Chat
 ChatMode=Chat mode
+CheckSumGameLoadError=Checksum error, you don't have the same data as the server
+CheckSumGameLoadPlayer=Player with error is:
+CheckSumGameLoadClient=Client Checksum:
+CheckSumGameLoadServer=Server Checksum:
+ClientLagDropping=DROPPING %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], disconnecting client.
+ClientLagPausing=PAUSING GAME TEMPORARILY for %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], waiting for client to catch up...
+ClientLagWarning=LAG WARNING for %s, may exceed max allowed LAG count of %f [time = %f], clientLag = %f [%f], WARNING...
 Closed=Closed
 Command=Command
 CommonCommand=Common command
@@ -109,6 +116,7 @@ Explored=Explored
 Faction=Faction
 Fast=fast
 Fields=Fields
+FileDownloadProgress=Player: %s download progress for [%s] is %d %%
 Filter=Filter:
 FindLANGames=Find LAN Games
 FogOfWar=Fog of War
@@ -178,6 +186,10 @@ MGJoinGameSlots=Join Game
 MGPlatform=Platform
 MGVersion=Game Version
 Misc=Misc
+
+MismatchedFactions=The following factions are mismatched:
+MismatchedFactionsMissing=(missing)
+MismatchedFactionsExtra=(extra)
 
 ModErrorGettingServerData=Error retrieving data from the master server: %s
 ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
@@ -260,6 +272,8 @@ PathFinderTypeRoutePlanner=RP-beta
 Play=Play
 PlayNow=Play now!
 Player=Player 
+PlayerDisconnected=Player %s, disconnected from the game.
+PlayerLeftGame=has chosen to leave the game!
 Playername=Playername:
 PlayerStatusSetup=Not Ready
 PlayerStatusBeRightBack=Be Right Back
@@ -324,6 +338,9 @@ TechTitle2=Factions
 Textures3D=3D Textures:
 Tileset=Tileset
 TilesetTitle1=Tilesets
+TimeoutWaitingForClients=Timeout waiting for clients.
+TimeoutWaitingForServer=Timeout waiting for server.
+TimeoutWaitingForMessage=Timeout waiting for message.
 Tip=Tip
 To switch off music press=To switch off music while waiting for players press
 Tutorial=Tutorial
