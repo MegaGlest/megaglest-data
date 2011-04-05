@@ -230,6 +230,8 @@ ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version
 
 Mods=Game Mods
 Morph=Morph
+MorphNoReqs=requirements to morph are not satisfied
+MorphNoRes=Not enough resources to morph unit
 MorphSpeed=Morph Speed
 Move=Move
 MusicVolume=Music Volume:
