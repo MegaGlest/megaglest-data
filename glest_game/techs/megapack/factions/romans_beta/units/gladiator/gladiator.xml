@@ -9,7 +9,7 @@
 		<armor value="20"/>	
 		<armor-type value="metal"/>
 		<sight value="11"/>
-		<time value="60"/>	
+		<time value="80"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels>
@@ -25,8 +25,8 @@
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="wood" amount="50"/>
-			<resource name="gold" amount="100"/>
+			<resource name="wood" amount="100"/>
+			<resource name="gold" amount="180"/>
 			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
@@ -98,13 +98,51 @@
 			<attack-strenght value="100"/>
 			<attack-var value="10"/>
 			<attack-range value="2"/>
-			<attack-type value="slashing"/>	
+			<attack-type value="piercing"/>	
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
 			<attack-start-time value="0"/>
 			<projectile value="false"/>
 			<splash value="false"/>
+		</skill>
+
+              	<skill>
+			<type value="attack"/>
+			<name value="attack_air_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="50"/>
+			<anim-speed value="50"/>
+			<animation path="models/g_attack_air.g3d"/>
+			<sound enabled="true" start-time="0.2">
+				<sound-file path="/sounds/archer_attack1.wav"/>
+				<sound-file path="/sounds/archer_attack2.wav"/>
+				<sound-file path="/sounds/archer_attack3.wav"/>
+				<sound-file path="/sounds/archer_attack4.wav"/>
+			</sound>
+			<attack-strenght value="180"/>
+			<attack-var value="40"/>
+			<attack-range value="8"/>
+			<attack-type value="piercing"/>
+			<attack-fields>
+				<field value="air"/>
+			</attack-fields>
+			<attack-start-time value="0.2"/>
+			<projectile value="true">
+				<particle value="true" path="particle_proj.xml"/>
+				<sound enabled="true">
+					<sound-file path="/sounds/arrow_hit1.wav"/>
+					<sound-file path="/sounds/arrow_hit2.wav"/>
+					<sound-file path="/sounds/arrow_hit3.wav"/>
+					<sound-file path="/sounds/arrow_hit4.wav"/>
+					<sound-file path="/sounds/arrow_hit5.wav"/>
+				</sound>
+			</projectile>
+			<splash value="false">
+				<radius value="1"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
 		</skill>
 
 		<skill>
@@ -156,12 +194,22 @@
 
 		<command>
 			<type value="attack"/>
-			<name value="attack"/>
+			<name value="attack_land"/>
 			<image path="images/guard_attack.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="charge_skill"/>
 			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack_air"/>
+			<image path="images/guard_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_air_skill"/>
 		</command>
 
 		<command>

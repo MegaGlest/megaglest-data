@@ -30,8 +30,8 @@
 			<upgrade name="bless_of_minerva"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="wood" amount="250"/>
-			<resource name="gold" amount="200"/>
+			<resource name="wood" amount="240"/>
+			<resource name="gold" amount="180"/>
 			<resource name="food" amount="1"/>				
 		</resource-requirements>
 		<resources-stored/>
@@ -104,13 +104,13 @@
 				<sound-file path="sounds/ab_attack1.wav"/>
 				<sound-file path="sounds/ab_attack2.wav"/>
 			</sound> 
-			<attack-strenght value="200"/>
-			<attack-var value="75"/>
+			<attack-strenght value="150"/>
+			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.3"/>
 			<attack-fields>
-				<field value="air"/>
+				<!--field value="air"/-->
 				<field value="land"/>
 			</attack-fields>
 			<projectile value="true">

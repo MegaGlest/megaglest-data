@@ -241,10 +241,10 @@
 			<build-skill value="build_skill"/>
 			<buildings>
                         <building name="forum"/>
-	
 				<building name="training_camp"/>
 				<building name="blacksmith_shop"/>
 				<building name="temple"/>	
+				<building name="gladiator_school"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -265,7 +265,7 @@
 			<buildings>
 				<building name="military_camp"/>
 				<building name="guard_tower"/>
-				<building name="gladiator_school"/>
+                                <building name="eagle_pillar"/>	
                 	</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">

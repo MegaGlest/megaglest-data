@@ -133,20 +133,6 @@
 		</skill>
 		
 		<skill>
-			<type value="build"/>
-			<name value="build_skill"/>		
-			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="100"/>
-			<animation path="models/wartime_mechanic_build.g3d"/>
-			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/worker_build1.wav"/>
-				<sound-file path="sounds/worker_build2.wav"/>
-				<sound-file path="sounds/worker_build3.wav"/>
-			</sound>
-		</skill>
-		
-		<skill>
 			<type value="repair"/>
 			<name value="repair_skill"/>		
 			<ep-cost value="0"/>
@@ -273,30 +259,6 @@
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-
-
-		<command>
-			<type value= "build"/>
-			<name value="construct_advanced"/>
-			<image path="../slave/images/worker_build_basic.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-                                <!--building name="eagle_statue"/>		
-                                <building name="gate_closed"/>	
-                                <building name="wall"/>	
-                                <building name="gladiator_school"/-->	
-                                <building name="eagle_pillar"/>		
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="sounds/worker_work_end1.wav"/>
-				<sound-file path="sounds/worker_work_end2.wav"/>
-				<sound-file path="sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
 		
 		<command>
 			<type value="repair"/>
@@ -391,7 +353,7 @@
 			<upgrade-requirements/>
 			<morph-skill value="build_ballista"/>
 			<morph-unit name= "ballista"/>
-			<discount value="10"/>
+			<discount value="20"/>
 		</command>
 
 	</commands>

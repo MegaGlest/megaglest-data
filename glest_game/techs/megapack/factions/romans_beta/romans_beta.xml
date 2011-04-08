@@ -17,7 +17,7 @@
 		<unit name="tribune" amount="0"/>
 		<unit name="cavalry" amount="0"/>
 		<unit name="eagle_pillar" amount="0"/>
-		<!--unit name="longbowman" amount="100"/> (" Unit has been removed" ) -->
+		<unit name="gladiator" amount="0"/>
 		<unit name="turtle_formation" amount="0"/>
 		<unit name="wartime_mechanic" amount="0"/>
 		<unit name="catapult" amount="0"/>
