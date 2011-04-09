@@ -191,6 +191,7 @@ MismatchedFactions=The following factions are mismatched:
 MismatchedFactionsMissing=(missing)
 MismatchedFactionsExtra=(extra)
 
+ModLocalRemoteMismatch=The local mod [%s] is not the same as the\nversion on the server, replace local mod with server version?
 ModErrorGettingServerData=Error retrieving data from the master server: %s
 ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
 ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
