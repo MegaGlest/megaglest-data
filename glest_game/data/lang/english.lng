@@ -149,6 +149,7 @@ InvalidOrder=Order is Invalid
 InvalidPosition=Position is Invalid
 IRCPeopleOnline=IRC People Online:
 Keyboardsetup=Keyboard Setup
+KeyboardsetupTest=Keyboard test display
 Kills=Kills
 JoinGame=LAN Game
 JoinInternetGame=Internet Game
