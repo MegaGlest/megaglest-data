@@ -110,8 +110,8 @@
 			<attack-type value="piercing"/>
 			<attack-start-time value="0.3"/>
 			<attack-fields>
-				<!--field value="air"/-->
-				<field value="land"/>
+				<field value="air"/>
+				<!-- field value="land"/ -->
 			</attack-fields>
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
