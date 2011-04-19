@@ -25,6 +25,9 @@ AutoConfig=Autokonfiguration
 AutoRefreshRate=Automatische Aktualisierung
 AvailableServers=Verfügbare Server
 BattleOver=Spielende
+BlockPlayer=Ignoriere Spieler
+BlockPlayerClear=Block-Liste zurücksetzen
+BlockPlayerServerMsg=Der Server ignoriert zur Zeit die IP Adresse [%s] für dieses Spiel.
 Build=Bauen
 BuildSpeed=Baugeschw.
 BuildingNoPlace=Gebäude kann hier nicht gebaut werden
@@ -34,16 +37,18 @@ Built=gebaut
 CameraModeSet=Kamera Modus geändert in
 CanRepair=Kann reparieren
 Cancel=abbrechen
+CancelDownloads=Download(s) abbrechen
+CancelDownloadsMsg=Spieler %s unterbrach alle Downloads
 Canceled=abgebrochen
 Chat=Chat
 ChatMode=Chat-Modus
-CheckSumGameLoadError=Checksum fehler, du hast nicht dieselben Daten wie der Server
+CheckSumGameLoadError=Checksum-Fehler. Du hast nicht dieselben Daten wie der Server.
 CheckSumGameLoadPlayer=Spieler mit dem Fehler ist:
 CheckSumGameLoadClient=Client Checksum:
 CheckSumGameLoadServer=Server Checksum:
-ClientLagDropping=TRENNE %s, Maximale LAG-Zeit von %f [time = %f] überschritten: clientLag = %f [%f], trenne client.
-ClientLagPausing=PAUSIERE SPIEL ZEITWEISE %s, Maximale LAG-Zeit von %f [time = %f] überschritten: clientLag = %f [%f], warte darauf das der Client aufholt...
-ClientLagWarning=LAG WARNUNG für %s, vielleicht wurde die Maximale LAG-Zeit von %f [time = %f] überschritten: clientLag = %f [%f]
+ClientLagDropping=TRENNE %s. Maximale LAG-Zeit von %f [time = %f] überschritten: clientLag = %f [%f], trenne client.
+ClientLagPausing=PAUSIERE SPIEL ZEITWEISE %s. Maximale LAG-Zeit von %f [time = %f] überschritten: clientLag = %f [%f], warte auf den Client...
+ClientLagWarning=LAG WARNUNG für %s. Vielleicht wurde die Maximale LAG-Zeit von %f [time = %f] überschritten: clientLag = %f [%f]
 Closed=- deaktiviert -
 Command=Befehl
 CommonCommand=Allgemeiner Befehl
@@ -75,8 +80,8 @@ DataMissingMapSuccessDownload=Spieler %s lud erfolgreich die Map %s herunter
 DataMissingMapFailDownload=Spieler %s konnte die Karte [%s] NICHT herunterladen (CURL version [%s])
 DataMissingTilesetSuccessDownload=Spieler %s lud erfolgreich die Umgebungsgrafiken %s herunter
 DataMissingTilesetFailDownload=Spieler %s konnte die Umgebungsgrafiken [%s] NICHT herunterladen (CURL version [%s])
-DataMissingTechtreeSuccessDownload=Spieler: %s lud erfolgreich den Techtree: %s herunter
-DataMissingTechtreeFailDownload=Spieler: %s's Versuch den Techtree: [%s] herunter zu laden ist FEHLGESCHLAGEN.Er benutzt CURL version [%s]
+DataMissingTechtreeSuccessDownload=Spieler %s lud erfolgreich den Techtree %s herunter
+DataMissingTechtreeFailDownload=Spieler %s konnte den Techtree [%s] NICHT herunterladen (CURL version [%s])
 Deaths=Tote
 Defaults=Standardsetup
 Defeat=Verloren
@@ -98,9 +103,7 @@ DownloadMissingTilesetQuestion=Lade Umgebung herunter:
 DownloadMissingTechtreeQuestion=Lade Techtree herunter:
 EnableFTP=FTP-Übertragungen:
 EnableFTPServer=FTP-Server aktivieren:
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
 EnableFTPServerInternetTilesetXfer=Übertrage Umgebungsgrafik
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
 EnableFTPServerInternetTechtreeXfer=Übertrage Techtree
 EnableObserverMode=Nach Spielende Karte aufdecken?
 Enabled=Aktiviert
@@ -110,7 +113,7 @@ EnemyKills=Feinde getötet
 Ep=Energie
 EpCost=Energie-Kosten
 ErrorBindingPort=Bereitstellung des Serverports schlug fehl (in Benutzung?)
-ErrorFromMasterserver=Bekanntmachung des Servers beim Masterserver schlug fehl.
+ErrorFromMaster-Server=Bekannt machen des Servers beim Master-Server schlug fehl
 Exit=Beenden
 ExitGame?=Willst Du das Spiel beenden?
 ExitGameServer?=Willst Du (Der Server)?\ndas Spiel für alle\nSpieler beenden?
@@ -118,8 +121,7 @@ Explored=Erforscht
 Faction=Stamm
 Fast=schnell
 Fields=Felder
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-FileDownloadProgress=Player: %s download progress for [%s] is %d %%
+FileDownloadProgress=Spieler %s : Downloadstatus für [%s]: %d %%
 Filter=Filter:
 FindLANGames=Suche LAN-Server
 FogOfWar=Kartenverschleierung
@@ -130,8 +132,7 @@ FTPServerDataPort=FTP-Datenports:
 FreeCamera=Freie Kamera
 FxVolume=Effekte:
 GameCamera=Spielkamera
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-GameCancelledByUser=Game cancelled by server user.
+GameCancelledByUser=Spiel unterbrochen vom Server
 GameDuration=Spieldauer in Minuten
 GameMaxConcurrentUnitCount=Maximale Einheitenzahl
 GameTotalEndGameConcurrentUnitCount=Einheitenanzahl am Ende des Spiels
@@ -141,19 +142,19 @@ GamePaused=Spiel pausiert
 GameResumed=Spieler fortgesetzt
 GameSpeedSet=Geschwindigkeit geändert in
 GameSwitchPlayerToAI=Spieler #%d [%s] hat die Verbindung getrennt, ersetzte Spieler durch AI!
-GameSwitchPlayerObserverToAI=Spieler #%d [%s] hat die Verbindung getrennt.Spieler war Zuschauer (Observer).
+GameSwitchPlayerObserverToAI=Spieler #%d [%s] hat die Verbindung getrennt. Spieler war Zuschauer (Observer)
 Harvest=Sammeln
 HarvestSpeed=Sammelgeschw.
 Hp=LP
 Human=Mensch
 IncompatibleVersion=Falsche Version!
 Initializing=Initialisiere
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-Install=Install
+Install=Installiere
 InvalidOrder=Ungültiger Befehl
 InvalidPosition=Ungültige Position
 IRCPeopleOnline=Im Chat:
 Keyboardsetup=Tastatur
+KeyboardsetupTest=Teste Tastatur-Konfiguration
 Kills=Getötet
 JoinGame=LAN-Spiel
 JoinInternetGame=Onlinespiel
@@ -167,9 +168,8 @@ Map=Karte
 MapFilter=Map Filter
 MapTitle1=Karte
 MapTitle2=Spieler
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-MasterServerMissing=Your configuration is missing a masterserver entry.
-MaxFilterAnisotropy=Max. Anisotroper Filter
+Master-ServerMissing=In deiner Konfiguration fehlt der Eintrag für den Master-Server
+MaxFilterAnisotropy=Max. Anisotrope Filterung
 MaxLights=Max. Lichtquellen:
 MaxLoad=Max. Ladung
 MaxPlayers=Max. Spieler
@@ -196,55 +196,40 @@ Misc=Verschiedenes
 MismatchedFactions=The following factions are mismatched:
 MismatchedFactionsMissing=(fehlt)
 MismatchedFactionsExtra=(extra)
-ModLocalRemoteMismatch=Die Version des lokale mods [%s] ist nicht\ndie selbe des Servers, ersetzte Mod mit der Version des Servers?
-ModErrorGettingServerData=Fehler beim Empfangen der Daten vom Masterserver: %s
-ModRequires7z=** Warnung ** - Du musst das freie Programm 7z installiert haben\um mods zu installieren.
+ModLocalRemoteMismatch=Lokale Mod-Version von [%s] unterscheided sich\nzur Server-Version. Ersetzte Mod mit der Version des Servers?
+ModErrorGettingServerData=Fehler beim Empfangen der Daten vom Master-Server: %s
+ModRequires7z=** Warnung ** - Installiere das freie Programm 7z,\um Mods zu benutzen.
 ModDownloadInProgressCancelQuestion=Du hast im Moment %d Datei(en) heruntergeladen.\nVerlassen und den/die Download(s) Abbrechen?
 ModDownloading=Herunterladen von
-ModTechAlreadyInstalled=Du hast den Techtree %s schon installiert.
-ModSelectTechToInstall=Du musst erst ein TechTree auswählen.
-ModRemoveTechConfirm=Bist du sicher das du den Techtree %s löschen willst ?
-ModCannotRemoveTechNotInstalled=Du hast den Techtree %s nicht installiert, löschen abgebrochen.
-ModSelectTechToRemove=Du musst erst ein TechTree auswählen.
-ModDownloadTechSuccess=Erfolgreich den Techtree %s heruntergeladen.
-ModDownloadTechFail=Download des Techtrees [%s] fehlgeschlagen (using CURL version [%s] [%s])
-ModTilesetAlreadyInstalled=Du hast das Tileset %s schon installiert.
-ModSelectTilesetToInstall=Du musst erst ein Tileset auswählen.
-ModRemoveTilesetConfirm=Bist du sicher das du das Tileset %s löschen willst ?
-ModCannotRemoveTilesetNotInstalled=Du hast das Tileset %s nicht installiert, löschen abgebrochen.
-ModSelectTilesetToRemove=Du musst erst ein Tileset auswählen.
-ModDownloadTilesetSuccess=Erfolgreich das Tileset %s heruntergeladen.
-ModDownloadTilesetFail=Download des Tilesets [%s] fehlgeschlagen (using CURL version [%s] [%s])
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModMapAlreadyInstalled=You already have the map: %s installed.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModSelectMapToInstall=You must first select a map to install.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModRemoveMapConfirm=Are you sure you want to remove the map: %s ?
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModCannotRemoveMapNotInstalled=You do not have the map: %s installed, remove cancelled.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModSelectMapToRemove=You must first select a map to remove.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModDownloadMapSuccess=SUCCESSFULLY downloaded the map: %s
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModDownloadMapFail=FAILED to download the map: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModScenarioAlreadyInstalled=You already have the scenario: %s installed.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModSelectScenarioToInstall=You must first select a scenario to install.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModRemoveScenarioConfirm=Are you sure you want to remove the scenario: %s ?
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModSelectScenarioToRemove=You must first select a scenario to remove.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModDownloadScenarioSuccess=SUCCESSFULLY downloaded the scenario: %s
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-Mods=Game Mods
+ModTechAlreadyInstalled=Du hast Techtree %s schon installiert
+ModSelectTechToInstall=Wähle erst einen TechTree
+ModRemoveTechConfirm=Techtree %s wirklich löschen?
+ModCannotRemoveTechNotInstalled=Du hast Techtree %s nicht installiert. Entfernen abgebrochen.
+ModSelectTechToRemove=Wähle erst einen TechTree
+ModDownloadTechSuccess=Techtree %s erfolgreich heruntergeladen
+ModDownloadTechFail=Download des Techtrees [%s] fehlgeschlagen (CURL version [%s] [%s])
+ModTilesetAlreadyInstalled=Das Tileset %s ist schon installiert
+ModSelectTilesetToInstall=Wähle erst ein Tileset
+ModRemoveTilesetConfirm=Tileset %s wirklich löschen?
+ModCannotRemoveTilesetNotInstalled=Tileset %s nicht installiert. Entfernen abgebrochen.
+ModSelectTilesetToRemove=Wähle erst ein Tileset
+ModDownloadTilesetSuccess=Download des Tilesets %s ERFOLGREICH
+ModDownloadTilesetFail=Download des Tilesets [%s] FEHLGESCHLAGEN (CURL version [%s] [%s])
+ModMapAlreadyInstalled=Die Map %s ist bereits installiert
+ModSelectMapToInstall=Wähle erst eine Karte
+ModRemoveMapConfirm=Die Karte %s wirklich entfernen?
+ModCannotRemoveMapNotInstalled=Karte %s ist nicht installiert. Entfernen abgebrochen.
+ModSelectMapToRemove=Wähle erst eine Karte
+ModDownloadMapSuccess=Download der Karte %s ERFOLGREICH
+ModDownloadMapFail=Download der Karte [%s] FEHLGESCHLAGEN (CURL version [%s] [%s])
+ModScenarioAlreadyInstalled=Das Szenario %s ist bereits installiert
+ModSelectScenarioToInstall=Wähle erst ein Szenario
+ModRemoveScenarioConfirm=Das Szenario %s wirklich entfernen?
+ModCannotRemoveScenarioNotInstalled=Szenario %s ist nicht installiert. Entfernen abgebrochen.
+ModSelectScenarioToRemove=Wähle erst ein Szenario
+ModDownloadScenarioSuccess=Download des Szenarios %s ERFOLGREICH
+ModDownloadScenarioFail=Download des Szenarios [%s] FEHLGESCHLAGEN (CURL version [%s] [%s])
+Mods=Spiele-Mods
 Morph=Verwandlung
 MorphNoReqs=Vorraussetzungen zum Verwandeln nicht erfüllt
 MorphNoRes=Nicht genug Ressourcen zum Verwandeln vorhanden
@@ -256,20 +241,16 @@ NetworkCpuEasy=Netzwerk-CPU Leicht
 NetworkCpu=Netzwerk-CPU
 NetworkCpuUltra=Netzwerk-CPU Ultra
 NetworkCpuMega=Netzwerk-CPU Mega
-NetworkFramePeriod=Versandfrequenz
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-NetworkGameClientLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-NetworkGameServerLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-NetworkGameStatusWaiting=Waiting for players: %s
+NetworkFramePeriod=Sendefrequenz
+NetworkGameClientLoadStatus=Warte aufs Netzwerk: %lld Sekunden vergangen (max. Wartezeit: %d Sekunden)
+NetworkGameServerLoadStatus=Warte aufs Netzwerk: %lld Sekunden vergangen (max. Wartezeit: %d Sekunden)
+NetworkGameStatusWaiting=Warte auf Spieler: %s
 NetworkPauseGameForLaggedClients=Auf Clients warten?
 NewGame=Einzelspieler
 No=Nein
 NoServerVisitChat=Keine Server? Besuche unseren Chat, um Mitspieler zu finden
 NotConnected=Nicht verbunden
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-Notice=Notice
+Notice=Meldung
 None=kein
 NonStandardPort=Nicht-Standard Port
 Normal=normal
@@ -282,8 +263,8 @@ OpenGlVendor=Hersteller
 OpenGlMaxLights=Maximale Lichtquellenmenge
 OpenGlMaxTextureSize=Maximale Texturengröße
 OpenGlMaxTextureUnits=Maximale Texturenmenge
-OpenGlModelviewStack=Maximaler Modellstapel
-OpenGlProjectionStack=Maximaler Prjektionsstapel
+OpenGlModelviewStack=Maximaler Modellumfang
+OpenGlProjectionStack=Maximaler Projektionsumfang
 OpenGlExtensions=OpenGL-Erweiterungen
 OpenGlPlatformExtensions=OpenGL-Plattform-Erweiterungen
 Options=Optionen
@@ -294,17 +275,12 @@ PathFinderTypeRoutePlanner=RP-beta
 Play=Spielen
 PlayNow=Spiel starten!
 Player=Spieler
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-PlayerDisconnected=Player %s, disconnected from the game.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-PlayerLeftGame=has chosen to leave the game!
+PlayerDisconnected=Spieler %s getrennt
+PlayerLeftGame=trennte sich vom Spiel
 Playername=Spielername:
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-PlayerStatusSetup=Not Ready
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-PlayerStatusBeRightBack=Be Right Back
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-PlayerStatusReady=Ready
+PlayerStatusSetup=Moment noch!
+PlayerStatusBeRightBack=Gleich zurück!
+PlayerStatusReady=Fertig!
 Port=Port
 PressEnterToChat=Drücke Enter zum Chatten
 PrivacyPlease=Privatsphäre schützen\n(verstecke Land etc.):
@@ -313,7 +289,7 @@ Producing=produzieren
 ProductionSpeed=Produktionsgeschw.
 Programming=Programmierung
 Projected=Projiziert
-PublishServer=Masterserver publizieren?
+PublishServer=Master-Server publizieren?
 PublishServerExternalPort=Externer Serverport:
 Question=Frage
 QuitGame=Willst du das Spiel wirklich beenden?
@@ -321,12 +297,11 @@ ReactionSpeed=Reaktionsgeschw.
 RefreshList=Liste Aktualisieren
 Regeneration=Regeneration
 ReloadLastGameSettings=Letzte Einstellungen laden
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-Remove=Remove
+Remove=Entferne
 Repair=Reparieren
 RepairSpeed=Repariergeschw.
 Reqs=Vorraussetzungen
-RestartNeeded=Änderung wird erst nach Neustart aktiv.
+RestartNeeded=Änderung wird erst nach Neustart aktiv
 Resolution=Auflösung:
 ResolutionChanged=Änderung der Bildschirmauflösung
 Resources=Ressourcen
@@ -334,13 +309,10 @@ ResourcesHarvested=Gesammelte Ressourcen
 Result=Ergebnis
 Return=Zurück
 Scenario=Szenario
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ScenarioTitle1=Scenarios
+ScenarioTitle1=Szenarien
 Score=Punkte
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ScreenShotFileType=Screenshot file format
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ScreenshotSavedTo=Screenshot will be saved to: %s
+ScreenShotFileType=Bildschirmfoto-Dateityp
+ScreenshotSavedTo=Bildschirmfoto wird gespeichert in %s
 Server=Server
 ServerPort=Serverport:
 ServerType=Servertyp
@@ -351,8 +323,7 @@ ShadowMapping=Shadow Mapping
 Shadows=Schatten:
 ShowMapPreview=Kartenvorschau:
 ShowUnitParticles=Einheitenpartikel:
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-ShowTilesetParticles=Tileset Particles:
+ShowTilesetParticles=Umgebungspartikel:
 Sight=Sicht
 Size=Größe
 Slow=langsam
@@ -365,22 +336,17 @@ Stop=Stopp
 Store=Lager
 Team=Team
 TechTree=Technologiebaum
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-TechTitle1=Tech Tree
+TechTitle1=Techtree
 ; Next line needs translation, include by check.pl on Sat Apr 9, 2011
 TechTitle2=Factions
 Textures3D=3D-Texturen:
 Tileset=Umgebung
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-TilesetTitle1=Tilesets
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-TimeoutWaitingForClients=Timeout waiting for clients.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-TimeoutWaitingForServer=Timeout waiting for server.
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-TimeoutWaitingForMessage=Timeout waiting for message.
+TilesetTitle1=Umgebungen
+TimeoutWaitingForClients=Timeout erreicht beim Warten auf Clients
+TimeoutWaitingForServer=Timeout erreicht beim Warten auf den Server
+TimeoutWaitingForMessage=Timeout erreicht beim Warten auf Nachricht
 Tip=Tipp
-To switch off music press=Um während des Wartens auf Spieler die Musik auszuschalten, drücken Sie
+To switch off music press=Um während des Wartens auf Spieler die Musik auszuschalten, drücke
 Tutorial=Einführung
 UnitAddedToProductionQueue=Einheit in Warteschlange eingereiht
 UnitNoPlace=Einheit kann nicht platziert werden
@@ -400,7 +366,7 @@ VideoInfo=Grafikkarte
 WalkSpeed=Bewegungsgeschw.
 WaitingHost=Warte auf Server
 Windowed=Im Fenster:
-WrongRouterSetup=Deine Firewall oder dein Router\nsind nicht richtig konfiguriert.
+WrongRouterSetup=Deine Firewall oder dein Router\nsind nicht richtig konfiguriert
 Yes=Ja
 YouLose=Verloren
 YouWin=Du hast gewonnen
