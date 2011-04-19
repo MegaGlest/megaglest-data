@@ -2,7 +2,7 @@
 <configuration>
 	<title value="Mega Glest"/>
     <file-name-main value="glest.ini"/>
-	<file-name value="$HOME/.megaglest/glestuser.ini"/>
+	<file-name value="$APPDATA\megaglest\.megaglest\glestuser.ini"/>
 	<icon value="true" path="megaglest.ico"/>
 	<field-groups>
 		<field-group name="General">
