@@ -3,7 +3,7 @@
 <upgrade>
 	<image path="images/advanced_architecture.bmp"/>
 	<image-cancel path="images/tech_upgrade_cancel.bmp"/>
-	<time value="200"/>
+	<time value="100"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>

@@ -9,7 +9,7 @@
 		<armor value="15"/>	
 		<armor-type value="stone"/>			
 		<sight value="16"/>
-		<time value="150"/>	
+		<time value="100"/>	
 		<multi-selection value="false"/>
 		<cellmap value="false"/>
 		<levels/>	
@@ -27,7 +27,7 @@
 			<upgrade name="advanced_architecture"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="200"/>
+			<resource name="gold" amount="180"/>
 			<resource name="stone" amount="150"/>	
 			<resource name="wood" amount="100"/>			
 		</resource-requirements>

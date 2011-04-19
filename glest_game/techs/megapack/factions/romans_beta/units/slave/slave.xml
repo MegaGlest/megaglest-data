@@ -233,40 +233,22 @@
 
 		<command>
 			<type value= "build"/>
-			<name value="build_basic"/>
+			<name value="build_"/>
 			<image path="images/worker_build_basic.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-                        <building name="forum"/>
 				<building name="training_camp"/>
 				<building name="blacksmith_shop"/>
+				<building name="military_camp"/>
+                                <building name="eagle_pillar"/>	
 				<building name="temple"/>	
 				<building name="gladiator_school"/>
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="sounds/worker_work_end1.wav"/>
-				<sound-file path="sounds/worker_work_end2.wav"/>
-				<sound-file path="sounds/worker_work_end3.wav"/>							
-			</built-sound>	
-		</command>
-
-		<command>
-			<type value= "build"/>
-			<name value="build_advanced"/>
-			<image path="images/worker_build_advanced.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
-				<building name="military_camp"/>
 				<building name="guard_tower"/>
-                                <building name="eagle_pillar"/>	
-                	</buildings>
+                  	        <building name="forum"/>
+			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
 				<sound-file path="sounds/worker_work_end1.wav"/>

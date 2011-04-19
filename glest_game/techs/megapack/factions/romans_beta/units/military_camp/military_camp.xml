@@ -9,7 +9,7 @@
 		<armor value="0" />
 		<armor-type value="stone"/>				
 		<sight value="15" />
-		<time value="200" />
+		<time value="150" />
 		<multi-selection value="false" />
 		<cellmap value="true">
 			<row value="1100"/>
@@ -117,7 +117,7 @@
 	
 	<!-- *** commands *** -->
 	<commands>
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_cavalry" />
@@ -167,6 +167,16 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="wartime_mechanic"/>
 		</command>
+	
+		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_advanced_architecture"/>
+			<image path="../../upgrades/advanced_architecture/images/advanced_architecture.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="advanced_architecture"/>
+		</command>
 		
 		<command>
 			<type value="upgrade"/>
@@ -177,6 +187,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="formations"/>
 		</command>
+	
 
 	</commands>
 </unit>

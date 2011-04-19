@@ -61,7 +61,7 @@
 			<sound enabled="false"/>
 		</skill>
 		
-		<skill>
+		<!--skill>
 			<type value="upgrade"/>	
 			<name value="upgrade_skill"/>	
 			<ep-cost value="0" />
@@ -69,7 +69,7 @@
 			<anim-speed value="300" />
 			<animation path="models/wartime_mechanic_learn.g3d" />
 			<sound enabled="false" />
-		</skill>
+		</skill-->
 		
 		<skill>
 			<type value="move"/>
@@ -269,10 +269,6 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
-				<!--unit name="eagle_statue"/>	
-				<unit name="gladiator_school"/>
-				<unit name="gate_closed"/>
-				<unit name="wall"/-->
 				<unit name="eagle_pillar"/>
 				<unit name="forum"/>
 				<unit name="training_camp"/>
@@ -304,22 +300,11 @@
 				<unit name="fire_archer"/>
 				<unit name="gladiator"/>
 				<unit name="guard"/>
-				<!--unit name="longbowman"/-->
 				<unit name="battering_ram"/>
 				<unit name="axe_man"/>
 				<unit name="catapult"/>
 				<unit name="ballista"/>
 			</repaired-units>		
-		</command>
-		
-		<command>
-			<type value="upgrade"/>
-			<name value="upgrade_advanced_architecture"/>
-			<image path="../../upgrades/advanced_architecture/images/advanced_architecture.bmp" />
-			<unit-requirements />
-			<upgrade-requirements />
-			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="advanced_architecture"/>
 		</command>	
 
 		<command>
