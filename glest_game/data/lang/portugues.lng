@@ -312,6 +312,8 @@ ScenarioTitle1=Cenários
 Score=Pontuação
 ScreenShotFileType=Formato das Screenshots
 ScreenshotSavedTo=A screenshot será salva em: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ScreenShotConsoleText=Show Screenshot saved text
 Server=Servidor
 ServerPort=Porta #
 ServerType=Tipo de Servidor

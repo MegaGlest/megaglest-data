@@ -12,6 +12,8 @@ AlreadyUpgraded=Déjà mis à jour
 All=Tous
 AllowObservers=Autoriser Observateurs
 AmbientVolume=Ambience Sonore:
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+Amount=Amount
 Animation=Animation
 Armor=Armure
 Attack=Attaque
@@ -24,6 +26,12 @@ AutoConfig=Configuration Auto.
 AutoRefreshRate=Vitesse de rafraîchissement
 AvailableServers=Serveurs Disponibles
 BattleOver=La bataille est finie
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+BlockPlayer=Block Player
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+BlockPlayerClear=Clear Blocked Players
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+BlockPlayerServerMsg=The server has temporarily blocked IP Address [%s] from this game.
 Build=Construction
 BuildSpeed=Vitesse de construction
 BuildingNoPlace=Le bâtiment ne peut être placé ici
@@ -33,9 +41,27 @@ Built=Construit
 CameraModeSet=Mode caméra mis sur
 CanRepair=Peut réparer
 Cancel=Annuler
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+CancelDownloads=Cancel download(s)
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+CancelDownloadsMsg=Player: %s cancelled all file downloads.
 Canceled=Annulé
 Chat=Chat
 ChatMode=Mode Chat
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+CheckSumGameLoadError=Checksum error, you don't have the same data as the server
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+CheckSumGameLoadPlayer=Player with error is:
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+CheckSumGameLoadClient=Client Checksum:
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+CheckSumGameLoadServer=Server Checksum:
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ClientLagDropping=DROPPING %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], disconnecting client.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ClientLagPausing=PAUSING GAME TEMPORARILY for %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], waiting for client to catch up...
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ClientLagWarning=LAG WARNING for %s, may exceed max allowed LAG count of %f [time = %f], clientLag = %f [%f], WARNING...
 Closed=Fermé
 Command=Commande
 CommonCommand=Commande commune
@@ -44,6 +70,8 @@ Connecting=Connexion...
 Connected=Connecté
 ConnectedToServer=Connecté au serveur
 Connection failed=Echec de connexion
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ConnectionTimedOut=Connection timed out communicating with server.
 Consume=Consommer
 Control=Contrôle
 Couldnt connect=Echec de connexion. Choisissez un autre serveur.
@@ -55,16 +83,26 @@ CustomGame=Partie Personnalisée
 DataNotSynchedTitle=La donnée suivante est différente :
 DataNotSynchedMap=La carte diffère entre le client et le serveur
 DataNotSynchedTileset=Le thème diffère entre le client et le serveur
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+DataNotSynchedTechtree=Techtree is different between client and server
 DataMissingMap=Le joueur %s n'a pas la carte %s
 DataMissingTileset=Le joueur %s n'a pas le thème %s
 DataMissingTechtree=Le joueur %s n'a pas l'arbre des technologies %s
 DataMissingMapNowDownloading=Le joueur %s essaie de télécharger la map %s
 DataMissingTilesetNowDownloading=Le joueur %s essaie de télécharger le thème %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+DataMissingTechtreeNowDownloading=Player: %s is attempting to download the techtree: %s
 DataMissingMapSuccessDownload=Le joueur %s a RÉUSSI à télécharger la carte %s
 DataMissingMapFailDownload=Le joueur %s a ÉCHOUÉ à télécharger la carte : [%s] version de CURL [%s]
 DataMissingTilesetSuccessDownload=Le joueur %s a RÉUSSI à télécharger le thème %s
 DataMissingTilesetFailDownload=Le joueur %s a ÉCHOUÉ à télécharger le thème : [%s] version de CURL [%s]
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+DataMissingTechtreeSuccessDownload=Player: %s SUCCESSFULLY downloaded the techtree: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+DataMissingTechtreeFailDownload=Player: %s FAILED to download the techtree: [%s] using CURL version [%s]
 Deaths=Décès
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+Defaults=Defaults
 Defeat=Défaite
 Deleting=Suppression
 Difficulty=Difficulté
@@ -81,11 +119,21 @@ Discount=Remise
 DisplaySettingsChanged=Paramètres d'affichage modifiés
 DownloadMissingMapQuestion=Télécharger la carte :
 DownloadMissingTilesetQuestion=Télécharger le thème :
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+DownloadMissingTechtreeQuestion=Download the techtree:
 EnableFTP=Activer les transferts FTP
 EnableFTPServer=Activer le serveur FTP
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+EnableFTPServerInternetTilesetXfer=Transfer tilesets over Internet
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+EnableFTPServerInternetTechtreeXfer=Transfer techtrees over Internet
 EnableObserverMode=Voir la carte à la fin
 Enabled=Activé
 EnableServerControlledAI=Serveur controllé par l'IA
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+EnableTextureCompression=Texture Compression
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+EnemyKills=Enemies Killed
 Ep=PE
 EpCost=Cout PE
 ErrorBindingPort=Port réseau inacessible
@@ -97,6 +145,8 @@ Explored=Exploré
 Faction=Race
 Fast=rapide
 Fields=Champs
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+FileDownloadProgress=Player: %s download progress for [%s] is %d %%
 Filter=Filtre :
 FindLANGames=Parties locales (LAN)
 FogOfWar=Nuage de guerre
@@ -107,21 +157,37 @@ FTPServerDataPort=Port du serveur FTP de\ndonnées
 FreeCamera=Caméra libre
 FxVolume=Volume Bruitage :
 GameCamera=Caméra de jeu
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+GameCancelledByUser=Game cancelled by server user.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+GameDuration=Game duration in minutes
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+GameMaxConcurrentUnitCount=Maximum Concurrent Units
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+GameTotalEndGameConcurrentUnitCount=Total Units at Game End
 GameMusic=Musique du jeu
 GameOver=Jeu terminé
 GamePaused=Jeu en pause
 GameResumed=Reprise du jeu
 GameSpeedSet=Vitesse de jeu positionnée sur
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+GameSwitchPlayerToAI=Player #%d [%s] has disconnected, switching player to AI mode!
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
 Harvest=Récolter
 HarvestSpeed=Vitesse de récolte
 Hp=HP
 Human=Humain
 IncompatibleVersion=Version incompatible
 Initializing=Initialisation
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+Install=Install
 InvalidOrder=Ordre Invalide
 InvalidPosition=Position Invalide
 IRCPeopleOnline=IRC : personnes en ligne :
 Keyboardsetup=Configuration Clavier
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+KeyboardsetupTest=Keyboard test display
 Kills=Tués
 JoinGame=Partie locale (LAN)
 JoinInternetGame=Partie Internet
@@ -133,6 +199,12 @@ LoadedSpeed=Vitesse (chargé)
 Loading=Chargement
 Map=Carte
 MapFilter=Filtre de carte
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MapTitle1=Map
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MapTitle2=Players
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MasterServerMissing=Your configuration is missing a masterserver entry.
 MaxFilterAnisotropy=Filtre Anisotropique Max
 MaxLights=Lumières Max :
 MaxLoad=Charge Max
@@ -156,7 +228,85 @@ MGJoinGameSlots=Rejoindre la partie
 MGPlatform=Platforme
 MGVersion=Version du jeu
 Misc=Divers
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MismatchedFactions=The following factions are mismatched:
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MismatchedFactionsMissing=(missing)
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MismatchedFactionsExtra=(extra)
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModLocalRemoteMismatch=The local mod [%s] is not the same as the\nversion on the server, replace local mod with server version?
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModErrorGettingServerData=Error retrieving data from the master server: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloading=Downloading
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModTechAlreadyInstalled=You already have the tech: %s installed.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectTechToInstall=You must first select a tech to install.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModRemoveTechConfirm=Are you sure you want to remove the tech: %s ?
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModCannotRemoveTechNotInstalled=You do not have the tech: %s installed, remove cancelled.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectTechToRemove=You must first select a tech to remove.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadTechSuccess=SUCCESSFULLY downloaded the tech: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadTechFail=FAILED to download the tech: [%s] using CURL version [%s] [%s]
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModTilesetAlreadyInstalled=You already have the tileset: %s installed.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectTilesetToInstall=You must first select a tileset to install.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModRemoveTilesetConfirm=Are you sure you want to remove the tileset: %s ?
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModCannotRemoveTilesetNotInstalled=You do not have the tileset: %s installed, remove cancelled.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectTilesetToRemove=You must first select a tileset to remove.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadTilesetSuccess=SUCCESSFULLY downloaded the tileset: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadTilesetFail=FAILED to download the tileset: [%s] using CURL version [%s] [%s]
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModMapAlreadyInstalled=You already have the map: %s installed.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectMapToInstall=You must first select a map to install.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModRemoveMapConfirm=Are you sure you want to remove the map: %s ?
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModCannotRemoveMapNotInstalled=You do not have the map: %s installed, remove cancelled.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectMapToRemove=You must first select a map to remove.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadMapSuccess=SUCCESSFULLY downloaded the map: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadMapFail=FAILED to download the map: [%s] using CURL version [%s] [%s]
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModScenarioAlreadyInstalled=You already have the scenario: %s installed.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectScenarioToInstall=You must first select a scenario to install.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModRemoveScenarioConfirm=Are you sure you want to remove the scenario: %s ?
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModSelectScenarioToRemove=You must first select a scenario to remove.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadScenarioSuccess=SUCCESSFULLY downloaded the scenario: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version [%s] [%s]
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+Mods=Game Mods
 Morph=Morph
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MorphNoReqs=requirements to morph are not satisfied
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+MorphNoRes=Not enough resources to morph unit
 MorphSpeed=Vitesse de morph
 Move=Déplacement
 MusicVolume=Volume Musique :
@@ -166,11 +316,19 @@ NetworkCpu=CPU Réseau
 NetworkCpuUltra=CPU Réseau (Psycho)
 NetworkCpuMega=CPU Réseau (Dur)
 NetworkFramePeriod=Réseau Envoi FPS
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+NetworkGameClientLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+NetworkGameServerLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+NetworkGameStatusWaiting=Waiting for players: %s
 NetworkPauseGameForLaggedClients=Pause pour les clients en retard
 NewGame=Nouvelle Partie
 No=Non
 NoServerVisitChat=Aucun serveur ? Visitez le chat
 NotConnected=Non Connecté
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+Notice=Notice
 None=Aucun
 NonStandardPort=Port non standard
 Normal=normal
@@ -195,7 +353,17 @@ PathFinderTypeRoutePlanner=RP-beta
 Play=Jouer
 PlayNow=Jouer maintenant !
 Player=Joueur
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+PlayerDisconnected=Player %s, disconnected from the game.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+PlayerLeftGame=has chosen to leave the game!
 Playername=Pseudo :
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+PlayerStatusSetup=Not Ready
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+PlayerStatusBeRightBack=Be Right Back
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+PlayerStatusReady=Ready
 Port=Port
 PressEnterToChat=Entrée pour discuter
 PrivacyPlease=Protéger la vie privée \n(cacher le pays)
@@ -212,6 +380,8 @@ ReactionSpeed=Vitesse de réaction
 RefreshList=Rafraîchir la liste
 Regeneration=Regénération
 ReloadLastGameSettings=Derniers paramètres de jeu
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+Remove=Remove
 Repair=Réparer
 RepairSpeed=Vitesse de Réparation
 Reqs=Requêtes
@@ -223,7 +393,15 @@ ResourcesHarvested=Ressources récoltées
 Result=Résultat
 Return=Retour
 Scenario=Scénario
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ScenarioTitle1=Scenarios
 Score=Score
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ScreenShotFileType=Screenshot file format
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ScreenshotSavedTo=Screenshot will be saved to: %s
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ScreenShotConsoleText=Show Screenshot saved text
 Server=Serveur
 ServerPort=Port du Serveur
 ServerType=Type de serveur
@@ -234,6 +412,8 @@ ShadowMapping=Afficher les ombres
 Shadows=Ombres :
 ShowMapPreview=Minimap
 ShowUnitParticles=Particules d'unité :
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+ShowTilesetParticles=Tileset Particles:
 Sight=Visibilité
 Size=Taille
 Slow=lent
@@ -246,8 +426,20 @@ Stop=Stop
 Store=Magasin
 Team=Equipe
 TechTree=Arbre technique
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+TechTitle1=Tech Tree
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+TechTitle2=Factions
 Textures3D=Textures 3D:
 Tileset=Type de sol
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+TilesetTitle1=Tilesets
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+TimeoutWaitingForClients=Timeout waiting for clients.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+TimeoutWaitingForServer=Timeout waiting for server.
+; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
+TimeoutWaitingForMessage=Timeout waiting for message.
 Tip=Truc
 To switch off music press=Pour couper la musique en attendant, appuyer sur 
 Tutorial=Tutoriel
