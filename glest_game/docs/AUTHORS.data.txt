@@ -5,27 +5,45 @@
 Factions:
 =========
 
-The Romans:
-Copyright 2010-2011 (C) Jacob Vejvoda(ElimNator) ( http://www.soft-haus.com/jacob/blog ) 
-(music used from Chronicles III - Mattias Westlund - http://mattiaswestlund.jamendo.net/)
+Magic:
+Copyright 2001-2011 (c) The Glest Team (<http://glest.org>)
+Partial Copyright 2010-2011 (c) The MegaGlest Team (<http://megaglest.org>)
+The MegaGlest team has made minor modifications to the original data.
+
+Tech: 
+Copyright 2001-2011 (c) The Glest Team (<http://glest.org>) 
+Partial Copyright 2010-2011 (c) The MegaGlest Team (<http://megaglest.org>)
+The MegaGlest team has made minor modifications to the original data.
 
 Indians:
-Copyright 2007-2010 (C) Titus Tscharntke(titi) & Philipp Tscharntke ( http://www.titusgames.de )
+Copyright 2007-2011 (c) Titus Tscharntke and Philipp Tscharntke 
+(<http://www.titusgames.de>)
+Titus Tscharntke is AKA titi.
+This faction uses some models contained in Glest as created by the Glest Team.
 
-The Norsemen:
-Copyright 2008-2010 (C) Titus Tscharntke(titi) & Raphael Schröder(weedkiller) & Philipp Tscharntke ( http://www.titusgames.de ) 
+Norsemen:
+Copyright 2008-2011 (c) Titus Tscharntke, Raphael Schröder and Philipp 
+Tscharntke (<http://www.titusgames.de>)
+Titus Tscharntke is AKA titi.
+Raphael Schröder is AKA weedkiller.
+This faction uses some models contained in Glest as created by the Glest Team.
 
-The Persian:
-Copyright 2010 (C) Titus Tscharntke(titi) & Philipp Tscharntke ( http://www.titusgames.de )
+Egyptians:
+Copyright 2010-2011 (c) Titus Tscharntke (<http://www.titusgames.de>)      
+Titus Tscharntke is AKA titi.
 
-The Egyptians:
-Copyright 2010-2010 (C) Titus Tscharntke(titi) ( http://www.titusgames.de ) 
+Persians:
+Copyright 2010-2011 (c) Titus Tscharntke and Philipp Tscharntke
+(<http://www.titusgames.de>)
+Titus Tscharntke is AKA titi.
+This faction uses some models contained in Glest as created by the Glest Team.
 
-Tech and Magic:
-The factions tech and magic are from the original game glest ( a bit modified now ).  
-( copyrighted by the glest team www.glest.org )
+Romans:
+Copyright 2010-2011 (c) Jacob Vejvoda (<http://www.soft-haus.com/jacob/blog>)
+Jacob Vejvoda is AKA ElimNator. 
+The Romans faction uses music tracks from Mattias Westlund's album 
+"Chronicles III" - http://mattiaswestlund.jamendo.net/
 
-The new factions Indians/Norsemen/Persian use some models from original glest!
 
 Tilesets:
 =========
@@ -128,5 +146,6 @@ royal (from http://www.freesound.org) for the  desert day sound
 Cacatoes (from http://forum.freegamedev.net/) for a nice rock texture photo used in autumn tileset.
 dobroide (from http://forum.freegamedev.net/) for spring ambiente daytime background sounds
 
-All files are released under the Terms of the 
-Attribution-ShareAlike 3.0 Unported license ( see data_license.txt )
+All files are released under the Terms of the Creative Commons 
+Attribution-ShareAlike 3.0 Unported license which is included in this distribution in the following file:
+  cc-by-sa-3.0-unported.txt
