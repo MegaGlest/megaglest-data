@@ -200,7 +200,7 @@ MismatchedFactionsExtra=(extra)
 ModLocalRemoteMismatch=The local mod [%s] is not the same as the\nversion on the server, replace local mod with server version?
 ModErrorGettingServerData=Error retrieving data from the master server: %s
 ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
-ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
+ModDownloadInProgressCancelQuestion=You currently have: %d files downloading,\nexit and abort these download(s)?
 ModDownloading=Downloading
 
 ModTechAlreadyInstalled=You already have the tech: %s installed.
