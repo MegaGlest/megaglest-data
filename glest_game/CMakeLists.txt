@@ -16,7 +16,7 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		  "${PROJECT_SOURCE_DIR}/../../mk/linux/glest.ini"
 		  "${PROJECT_SOURCE_DIR}/../../mk/linux/glestkeys.ini"
 		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.bmp"
-          	  "${PROJECT_SOURCE_DIR}/mk/linux/configuration.xml"
+          	  "${PROJECT_SOURCE_DIR}/../../mk/linux/configuration.xml"
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH})
 
 		# Installation of the program desktop file
