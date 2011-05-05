@@ -99,12 +99,12 @@
 	</objects>
 	
 	<ambient-sounds>
-		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
-		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
+		<day-sound enabled="true" path="sounds/sunny_day.ogg" play-always="false"/>
+		<night-sound enabled="true" path="sounds/nightime.ogg" play-always="false"/>
 		<rain-sound enabled="true" path="sounds/rain.ogg"/>
 		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="sounds/chicken.wav"/>	
-		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+		<day-start-sound enabled="true" path="sounds/rooster.ogg"/>	
+		<night-start-sound enabled="true" path="sounds/owl.ogg"/>						
 	</ambient-sounds>
 
 	<parameters>
