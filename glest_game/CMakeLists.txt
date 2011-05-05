@@ -28,8 +28,8 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		INSTALL(FILES 
 		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.png"
                   "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.bmp"
-                  "${PROJECT_SOURCE_DIR}/../../mk/linux/editor.ico"
                   "${PROJECT_SOURCE_DIR}/../../mk/linux/glest.ico"
+                  "${PROJECT_SOURCE_DIR}/editor.ico"
                   "${PROJECT_SOURCE_DIR}/g3dviewer.ico"
 		  DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
 
