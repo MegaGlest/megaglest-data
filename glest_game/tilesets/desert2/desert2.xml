@@ -119,9 +119,9 @@
 	<ambient-sounds>
 		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
 		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
-		<rain-sound enabled="true" path="sounds/rain.ogg"/>
+		<rain-sound enabled="true" path="sounds/rain.wav"/>
 		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="sounds/chicken.wav"/>	
+		<day-start-sound enabled="true" path="sounds/hawk.ogg"/>	
 		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
 	</ambient-sounds>
 
