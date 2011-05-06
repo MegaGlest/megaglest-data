@@ -40,8 +40,7 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 
 		# Installation of the data
 		install(
-		  DIRECTORY "${PROJECT_SOURCE_DIR}/commondata" 
-			    "${PROJECT_SOURCE_DIR}/data" 
+		  DIRECTORY "${PROJECT_SOURCE_DIR}/data" 
 			    "${PROJECT_SOURCE_DIR}/docs" 
 			    "${PROJECT_SOURCE_DIR}/maps"
 			    "${PROJECT_SOURCE_DIR}/scenarios"
@@ -87,8 +86,7 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 
 		# Installation of the data
 		install(
-		  DIRECTORY "${PROJECT_SOURCE_DIR}/commondata" 
-			    "${PROJECT_SOURCE_DIR}/data" 
+		  DIRECTORY "${PROJECT_SOURCE_DIR}/data" 
 			    "${PROJECT_SOURCE_DIR}/docs" 
 			    "${PROJECT_SOURCE_DIR}/maps"
 			    "${PROJECT_SOURCE_DIR}/scenarios"
