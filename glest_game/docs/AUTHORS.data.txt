@@ -140,9 +140,9 @@ Weedkiller who created the spearman model of the indians, and the princess and s
 My family, some friends and neighbors for the unit voices.
 ZaggyDad for some help with textures/models (norsemen) and for the persian elephant model.
 Baida for the axe_thrower model (norsemen)
-erdie (from http://www.freesound.org) for the autumn day sound
-patchen (from http://www.freesound.org) for the autumn night sound
-royal (from http://www.freesound.org) for the  desert day sound
+Elimnator (from http://www.soundbible.com) for the autumn day sound
+Elimnator (from http://www.soundbible.com) for the autumn night sound
+Elimnator (from http://www.soundbible.com) for the  desert day sound
 Cacatoes (from http://forum.freegamedev.net/) for a nice rock texture photo used in autumn tileset.
 dobroide (from http://forum.freegamedev.net/) for spring ambiente daytime background sounds
 
