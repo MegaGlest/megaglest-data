@@ -32,19 +32,19 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/worker_select1.wav"/>
-			<sound path="sounds/worker_select2.wav"/>
-			<sound path="sounds/worker_select3.wav"/>
-			<sound path="sounds/worker_select4.wav"/>					
+			<sound path="$COMMONDATAPATH/sounds/worker_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_select4.wav"/>					
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/worker_ack1.wav"/>
-			<sound path="sounds/worker_ack2.wav"/>
-			<sound path="sounds/worker_ack3.wav"/>
-			<sound path="sounds/worker_ack4.wav"/>		
-			<sound path="sounds/worker_ack5.wav"/>
-			<sound path="sounds/worker_ack6.wav"/>
-			<sound path="sounds/worker_ack7.wav"/>					
+			<sound path="$COMMONDATAPATH/sounds/worker_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack4.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/worker_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/worker_ack7.wav"/>					
 		</command-sounds>
 	</parameters>
 
@@ -141,9 +141,9 @@
 			<anim-speed value="100"/>
 			<animation path="models/worker_building.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/worker_build1.wav"/>
-				<sound-file path="sounds/worker_build2.wav"/>
-				<sound-file path="sounds/worker_build3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_build3.wav"/>
 			</sound>
 		</skill>	
 		
@@ -155,12 +155,12 @@
 			<anim-speed value="90"/>
 			<animation path="models/worker_mining.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/worker_mine1.wav"/>
-				<sound-file path="sounds/worker_mine2.wav"/>
-				<sound-file path="sounds/worker_mine3.wav"/>
-				<sound-file path="sounds/worker_mine4.wav"/>
-				<sound-file path="sounds/worker_mine5.wav"/>
-				<sound-file path="sounds/worker_mine6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_mine1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_mine2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_mine3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_mine4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_mine5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_mine6.wav"/>
 			</sound>
 		</skill>	
 		
@@ -172,9 +172,9 @@
 			<anim-speed value="90"/>
 			<animation path="models/worker_harversting_wood.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/worker_harvest_wood1.wav"/>
-				<sound-file path="sounds/worker_harvest_wood2.wav"/>
-				<sound-file path="sounds/worker_harvest_wood3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_harvest_wood1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_harvest_wood2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_harvest_wood3.wav"/>
 			</sound>
 		</skill>		
 		
@@ -186,9 +186,9 @@
 			<anim-speed value="100"/>
 			<animation path="models/worker_building.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/worker_build1.wav"/>
-				<sound-file path="sounds/worker_build2.wav"/>
-				<sound-file path="sounds/worker_build3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_build3.wav"/>
 			</sound>
 		</skill>		
 		
@@ -200,9 +200,9 @@
 			<anim-speed value="90"/>
 			<animation path="models/worker_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/worker_die1.wav"/>
-				<sound-file path="sounds/worker_die2.wav"/>
-				<sound-file path="sounds/worker_die3.wav"/>								
+				<sound-file path="$COMMONDATAPATH/sounds/worker_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_die3.wav"/>								
 			</sound>			
 			<fade value="false"/>
 		</skill>						
@@ -251,9 +251,9 @@
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
-				<sound-file path="sounds/worker_work_end1.wav"/>
-				<sound-file path="sounds/worker_work_end2.wav"/>
-				<sound-file path="sounds/worker_work_end3.wav"/>							
+				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>							
 			</built-sound>	
 		</command>
 

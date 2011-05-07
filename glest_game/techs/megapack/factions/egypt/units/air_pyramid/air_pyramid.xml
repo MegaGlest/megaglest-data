@@ -99,8 +99,8 @@
 			<anim-speed value="125"/>
 			<animation path="models/air_pyramid_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/ab_attack1.wav"/>
-				<sound-file path="sounds/ab_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
 			</sound> 
 			<attack-strenght value="200"/>
 			<attack-var value="75"/>
@@ -113,11 +113,11 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="../spearthrower/sounds/arrow_hit1.wav"/>
-					<sound-file path="../spearthrower/sounds/arrow_hit2.wav"/>
-					<sound-file path="../spearthrower/sounds/arrow_hit3.wav"/>
-					<sound-file path="../spearthrower/sounds/arrow_hit4.wav"/>
-					<sound-file path="../spearthrower/sounds/arrow_hit5.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit5.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -135,9 +135,9 @@
 			<anim-speed value="60"/>
 			<animation path="models/air_pyramid_destroyed.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/ab_die1.wav"/>
-				<sound-file path="sounds/ab_die2.wav"/>
-				<sound-file path="sounds/ab_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_die3.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

@@ -109,11 +109,11 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="/sounds/arrow_hit1.wav"/>
-					<sound-file path="/sounds/arrow_hit2.wav"/>
-					<sound-file path="/sounds/arrow_hit3.wav"/>
-					<sound-file path="/sounds/arrow_hit4.wav"/>
-					<sound-file path="/sounds/arrow_hit5.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit5.wav"/>
 				</sound>
 			</projectile>
 			<splash value="false"/>

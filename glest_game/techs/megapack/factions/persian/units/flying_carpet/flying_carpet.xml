@@ -65,7 +65,7 @@
 			<anim-speed value="35"/>
 			<animation path="models/carpet_standing.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/orni_standing.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/orni_standing.wav"/>
 			</sound>
 		</skill>
 		
@@ -81,7 +81,7 @@
 				<particle-file path="fly_particles2.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/orni_fly.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/orni_fly.wav"/>
 			</sound>
 		</skill>
 		

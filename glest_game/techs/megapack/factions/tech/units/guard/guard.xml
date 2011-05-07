@@ -35,20 +35,20 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/guard_select1.wav"/>
-			<sound path="sounds/guard_select2.wav"/>
-			<sound path="sounds/guard_select3.wav"/>
-			<sound path="sounds/guard_select4.wav"/>
-			<sound path="sounds/guard_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_select5.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/guard_ack1.wav"/>
-			<sound path="sounds/guard_ack2.wav"/>
-			<sound path="sounds/guard_ack3.wav"/>
-			<sound path="sounds/guard_ack4.wav"/>
-			<sound path="sounds/guard_ack5.wav"/>
-			<sound path="sounds/guard_ack6.wav"/>
-			<sound path="sounds/guard_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/guard_ack7.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -81,20 +81,20 @@
 			<anim-speed value="120"/>
 			<animation path="models/guard_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/guard_attack1.wav"/>
-				<sound-file path="sounds/guard_attack2.wav"/>
-				<sound-file path="sounds/guard_attack3.wav"/>
-				<sound-file path="sounds/guard_attack4.wav"/>
-				<sound-file path="sounds/guard_attack5.wav"/>
-				<sound-file path="sounds/guard_attack6.wav"/>
-				<sound-file path="sounds/guard_attack7.wav"/>
-				<sound-file path="sounds/guard_attack8.wav"/>
-				<sound-file path="sounds/guard_attack9.wav"/>
-				<sound-file path="sounds/guard_attack10.wav"/>
-				<sound-file path="sounds/guard_attack11.wav"/>
-				<sound-file path="sounds/guard_attack12.wav"/>
-				<sound-file path="sounds/guard_attack13.wav"/>
-				<sound-file path="sounds/guard_attack14.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack9.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack10.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound> 
 			<attack-strenght value="110"/>
 			<attack-var value="30"/>
@@ -116,10 +116,10 @@
 			<anim-speed value="60"/>
 			<animation path="models/guard_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/guard_die1.wav"/>
-				<sound-file path="sounds/guard_die2.wav"/>
-				<sound-file path="sounds/guard_die3.wav"/>
-				<sound-file path="sounds/guard_die4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/guard_die4.wav"/>
 			</sound>
 			<fade value="false"/>
 		</skill>

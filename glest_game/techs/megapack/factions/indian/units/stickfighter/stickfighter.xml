@@ -104,18 +104,18 @@
 			<anim-speed value="100"/>
 			<animation path="models/swordman_attacking.g3d"/>
 			<sound enabled="true" start-time="0.07">
-				<sound-file path="sounds/stickfighter_attack1.wav"/>
-				<sound-file path="sounds/stickfighter_attack2.wav"/>
-				<sound-file path="sounds/stickfighter_attack3.wav"/>
-				<sound-file path="sounds/stickfighter_attack4.wav"/>
-				<sound-file path="sounds/stickfighter_attack5.wav"/>
-				<sound-file path="sounds/stickfighter_attack6.wav"/>
-				<sound-file path="sounds/stickfighter_attack7.wav"/>
-				<sound-file path="sounds/stickfighter_attack8.wav"/>
-				<sound-file path="sounds/stickfighter_attack9.wav"/>
-				<sound-file path="sounds/stickfighter_attack10.wav"/>
-				<sound-file path="sounds/stickfighter_attack11.wav"/>
-				<sound-file path="sounds/stickfighter_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack9.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack10.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack12.wav"/>
 			</sound> 
 			<attack-strenght value="75"/>
 			<attack-var value="30"/>

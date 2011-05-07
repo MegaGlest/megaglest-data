@@ -95,7 +95,7 @@
 			<anim-speed value="50"/>
 			<animation path="models/magician_healing.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/shaman_heal1.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/shaman_heal1.wav"/>	
 			</sound>
 		</skill>
 
@@ -251,7 +251,7 @@
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
-				<sound-file path="../worker/sounds/worker_work_end1.wav"/>		    
+				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>		    
                         </built-sound>	
 		</command>
 

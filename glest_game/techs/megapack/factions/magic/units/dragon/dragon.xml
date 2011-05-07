@@ -105,10 +105,10 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-				<sound-file path="sounds/dragon_hit1.wav"/>
-				<sound-file path="sounds/dragon_hit2.wav"/>
-				<sound-file path="sounds/dragon_hit3.wav"/>
-				<sound-file path="sounds/dragon_hit4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/dragon_hit4.wav"/>
 			</sound>
 			</projectile>
 			<splash value="true">

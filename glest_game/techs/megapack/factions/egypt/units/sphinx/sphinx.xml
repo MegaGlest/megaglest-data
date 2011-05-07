@@ -43,10 +43,10 @@
 		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../desert_camp/sounds/tech_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../desert_camp/sounds/tech_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -80,8 +80,8 @@
 			<anim-speed value="90"/>
 			<animation path="models/sphinx.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/defense_tower_attack1.wav"/>
-				<sound-file path="sounds/defense_tower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
 			</sound>
 			<attack-strenght value="120"/>
 			<attack-var value="50"/>
@@ -95,11 +95,11 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="../snake/sounds/archmage_hit1.wav"/>
-					<sound-file path="../snake/sounds/archmage_hit2.wav"/>
-					<sound-file path="../snake/sounds/archmage_hit3.wav"/>
-					<sound-file path="../snake/sounds/archmage_hit4.wav"/>
-					<!--sound-file path="../snake/sounds/archmage_hit1.wav"/-->
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
+					<!--sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/-->
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -117,7 +117,7 @@
 			<anim-speed value="300"/>
 			<animation path="models/sphinx_destroyed.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="../desert_camp/sounds/tech_building_fall5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

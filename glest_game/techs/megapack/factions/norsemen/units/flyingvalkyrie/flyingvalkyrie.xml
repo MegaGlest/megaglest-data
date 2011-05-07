@@ -84,9 +84,9 @@
 				<particle-file path="fly_particles2.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/horseman_walk1.wav"/>
-				<sound-file path="sounds/horseman_walk2.wav"/>
-				<sound-file path="sounds/horseman_walk3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk3.wav"/>
 			</sound> 
 
 		</skill>
@@ -100,19 +100,19 @@
 			<anim-speed value="50"/>
 			<animation path="models/flyingvalkyrie_attacking.g3d"/>
 			<sound enabled="true" start-time="0.4">
-				<sound-file path="sounds/horseman_attack2.wav"/>
-				<sound-file path="sounds/horseman_attack3.wav"/>
-				<sound-file path="sounds/horseman_attack4.wav"/>		
-				<sound-file path="sounds/horseman_attack5.wav"/>
-				<sound-file path="sounds/horseman_attack6.wav"/>
-				<sound-file path="sounds/horseman_attack7.wav"/>
-				<sound-file path="sounds/horseman_attack8.wav"/>
-				<sound-file path="sounds/horseman_attack9.wav"/>
-				<sound-file path="sounds/horseman_attack10.wav"/>
-				<sound-file path="sounds/horseman_attack11.wav"/>		
-				<sound-file path="sounds/horseman_attack12.wav"/>
-				<sound-file path="sounds/horseman_attack13.wav"/>
-				<sound-file path="sounds/horseman_attack14.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack4.wav"/>		
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack9.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack10.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack11.wav"/>		
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack14.wav"/>
 			</sound> 
 			<attack-strenght value="270"/>
 			<attack-var value="50"/>
@@ -126,10 +126,10 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="sounds/summoner_hit1.wav"/>
-					<sound-file path="sounds/summoner_hit2.wav"/>
-					<sound-file path="sounds/summoner_hit3.wav"/>
-					<sound-file path="sounds/summoner_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/summoner_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/summoner_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/summoner_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/summoner_hit4.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -149,10 +149,10 @@
 			<anim-speed value="50"/>
 			<animation path="models/flyingvalkyrie_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/horseman_die1.wav"/>
-				<sound-file path="sounds/horseman_die2.wav"/>
-				<sound-file path="sounds/horseman_die3.wav"/>
-				<sound-file path="sounds/horseman_die4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_die4.wav"/>
 			</sound> 
                         <fade value="false"/>
 		</skill>

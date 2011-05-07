@@ -38,20 +38,20 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/daemon_select1.wav"/>
-			<sound path="sounds/daemon_select2.wav"/>
-			<sound path="sounds/daemon_select3.wav"/>
-			<sound path="sounds/daemon_select4.wav"/>
-			<sound path="sounds/daemon_select5.wav"/>
-			<sound path="sounds/daemon_select6.wav"/>
-			<sound path="sounds/daemon_select7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_select7.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/daemon_ack1.wav"/>
-			<sound path="sounds/daemon_ack2.wav"/>
-			<sound path="sounds/daemon_ack3.wav"/>
-			<sound path="sounds/daemon_ack4.wav"/>
-			<sound path="sounds/daemon_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/daemon_ack5.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -89,22 +89,22 @@
 			<anim-speed value="100"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/daemon_attack1.wav"/>
-				<sound-file path="sounds/daemon_attack2.wav"/>
-				<sound-file path="sounds/daemon_attack3.wav"/>
-				<sound-file path="sounds/daemon_attack4.wav"/>
-				<sound-file path="sounds/daemon_attack5.wav"/>
-				<sound-file path="sounds/daemon_attack6.wav"/>
-				<sound-file path="sounds/daemon_attack7.wav"/>
-				<sound-file path="sounds/daemon_attack8.wav"/>
-				<sound-file path="sounds/daemon_attack9.wav"/>
-				<sound-file path="sounds/daemon_attack10.wav"/>
-				<sound-file path="sounds/daemon_attack11.wav"/>
-				<sound-file path="sounds/daemon_attack12.wav"/>
-				<sound-file path="sounds/daemon_attack13.wav"/>
-				<sound-file path="sounds/daemon_attack14.wav"/>
-				<sound-file path="sounds/daemon_attack15.wav"/>
-				<sound-file path="sounds/daemon_attack16.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack9.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack10.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack14.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack15.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/daemon_attack16.wav"/>	
 			</sound> 
 			<attack-strenght value="180"/>
 			<attack-var value="40"/>

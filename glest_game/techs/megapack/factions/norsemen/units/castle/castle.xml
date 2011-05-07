@@ -44,10 +44,10 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="../med_bar/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="../med_bar/sounds/tech_click.wav" />
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../med_bar/sounds/tech_click.wav" />
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
 	
@@ -96,7 +96,7 @@
 				<particle-file path="glow_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
-				<sound-file path="../med_bar/sounds/tech_building_fall2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

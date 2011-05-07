@@ -42,30 +42,30 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="/sounds/golem_select1.wav"/>
-			<sound path="/sounds/golem_select2.wav"/>
-			<sound path="/sounds/golem_select3.wav"/>
-			<sound path="/sounds/golem_select4.wav"/>
-			<sound path="/sounds/golem_select5.wav"/>
-			<sound path="/sounds/golem_select6.wav"/>
-			<sound path="/sounds/golem_select7.wav"/>
-			<sound path="/sounds/golem_select8.wav"/>
-			<sound path="/sounds/golem_select9.wav"/>
-			<sound path="/sounds/golem_select10.wav"/>
-			<sound path="/sounds/golem_select11.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select11.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-		        <sound path="/sounds/golem_ack1.wav"/>
-			<sound path="/sounds/golem_ack2.wav"/>
-			<sound path="/sounds/golem_ack3.wav"/>
-			<sound path="/sounds/golem_ack4.wav"/>
-			<sound path="/sounds/golem_ack5.wav"/>
-			<sound path="/sounds/golem_ack6.wav"/>
-			<sound path="/sounds/golem_ack7.wav"/>
-			<sound path="/sounds/golem_ack8.wav"/>
-			<sound path="/sounds/golem_ack9.wav"/>
-			<sound path="/sounds/golem_ack10.wav"/>
-			<sound path="/sounds/golem_ack11.wav"/>
+		        <sound path="$COMMONDATAPATH/sounds/golem_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack11.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -93,8 +93,8 @@
 			<anim-speed value="120"/>
 			<animation path="models/battering_ram_walk.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/golem_walk1.wav"/>
-				<sound-file path="sounds/golem_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_walk2.wav"/>
 			</sound> 
 
 		</skill>
@@ -107,7 +107,7 @@
 			<anim-speed value="40"/>
 			<animation path="models/battering_ram_attack.g3d"/>
 			<sound enabled="true" start-time="0.3">
-				<sound-file path="/sounds/golem_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
 			</sound>
 			<attack-strenght value="500"/>
 			<attack-var value="100"/>
@@ -129,10 +129,10 @@
 			<anim-speed value="70"/>
 			<animation path="models/battering_ram_attack_air.g3d"/>
 			<sound enabled="true" start-time="0.25">
-				<sound-file path="sounds/air_attack1.wav"/>
-				<sound-file path="sounds/air_attack2.wav"/>
-				<sound-file path="sounds/air_attack3.wav"/>
-				<sound-file path="sounds/air_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/air_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/air_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/air_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/air_attack4.wav"/>
 			</sound>
 			<attack-strenght value="445"/>
 			<attack-var value="20"/>
@@ -145,10 +145,10 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="sounds/air_hit1.wav"/>
-					<sound-file path="sounds/air_hit2.wav"/>
-					<sound-file path="sounds/air_hit3.wav"/>
-					<sound-file path="sounds/air_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/air_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/air_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/air_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/air_hit4.wav"/>
 				</sound>
 			</projectile>
 			<splash value="false"/>
@@ -162,9 +162,9 @@
 			<anim-speed value="30"/>
 			<animation path="models/battering_ram_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/golem_die1.wav"/>
-				<sound-file path="sounds/golem_die2.wav"/>
-				<sound-file path="sounds/golem_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die3.wav"/>
 			</sound> 
                         <fade value="false"/>
 		</skill>

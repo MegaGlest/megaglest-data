@@ -40,10 +40,10 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="../training_camp/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="../training_camp/sounds/tech_click.wav" />
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../training_camp/sounds/tech_click.wav" />
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
 	
@@ -108,7 +108,7 @@
 			<anim-speed value="300" />
 			<animation path="models/recruiting_camp_die.g3d" />
 			<sound enabled="true" start-time="0">
-				<sound-file path="../training_camp/sounds/tech_building_fall2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

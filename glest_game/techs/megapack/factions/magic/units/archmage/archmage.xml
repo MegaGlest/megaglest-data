@@ -36,20 +36,20 @@
 		<image-cancel path="images/magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/archmage_select1.wav"/>
-			<sound path="sounds/archmage_select2.wav"/>
-			<sound path="sounds/archmage_select3.wav"/>
-			<sound path="sounds/archmage_select4.wav"/>
-			<sound path="sounds/archmage_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_select5.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/archmage_ack1.wav"/>
-			<sound path="sounds/archmage_ack2.wav"/>
-			<sound path="sounds/archmage_ack3.wav"/>
-			<sound path="sounds/archmage_ack4.wav"/>
-			<sound path="sounds/archmage_ack5.wav"/>
-			<sound path="sounds/archmage_ack6.wav"/>
-			<sound path="sounds/archmage_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archmage_ack7.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -83,17 +83,17 @@
 			<anim-speed value="75"/>
 			<animation path="models/archmage_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/archmage_attack1.wav"/>
-				<sound-file path="sounds/archmage_attack2.wav"/>
-				<sound-file path="sounds/archmage_attack3.wav"/>
-				<sound-file path="sounds/archmage_attack4.wav"/>
-				<sound-file path="sounds/archmage_attack6.wav"/>
-				<sound-file path="sounds/archmage_attack8.wav"/>
-				<sound-file path="sounds/archmage_attack11.wav"/>
-				<sound-file path="sounds/archmage_attack12.wav"/>
-				<sound-file path="sounds/archmage_attack13.wav"/>
-				<sound-file path="sounds/archmage_attack15.wav"/>
-				<sound-file path="sounds/archmage_attack16.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack13.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack15.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_attack16.wav"/>
 			</sound>
 			<attack-strenght value="280"/>
 			<attack-var value="90"/>
@@ -106,10 +106,10 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="sounds/archmage_hit1.wav"/>
-					<sound-file path="sounds/archmage_hit2.wav"/>
-					<sound-file path="sounds/archmage_hit3.wav"/>
-					<sound-file path="sounds/archmage_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -148,10 +148,10 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj2.xml"/>
 				<sound enabled="true">
-					<sound-file path="sounds/archmage_hit1.wav"/>
-					<sound-file path="sounds/archmage_hit2.wav"/>
-					<sound-file path="sounds/archmage_hit3.wav"/>
-					<sound-file path="sounds/archmage_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/archmage_hit4.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -169,8 +169,8 @@
 			<anim-speed value="120"/>
 			<animation path="models/archmage_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/archmage_die1.wav"/>
-				<sound-file path="sounds/archmage_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archmage_die2.wav"/>
 			</sound>
 			<fade value="true"/>
 		</skill>

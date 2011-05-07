@@ -84,9 +84,9 @@
 				<particle-file path="dirt_particles2.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/horseman_walk1.wav"/>
-				<sound-file path="sounds/horseman_walk2.wav"/>
-				<sound-file path="sounds/horseman_walk3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk3.wav"/>
 			</sound> 
 
 		</skill>

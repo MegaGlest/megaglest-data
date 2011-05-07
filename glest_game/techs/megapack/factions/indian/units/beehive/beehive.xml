@@ -39,10 +39,10 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../roundtent/sounds/tech_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../roundtent/sounds/tech_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -95,11 +95,11 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="../archer/sounds/arrow_hit1.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit2.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit3.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit4.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit5.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit5.wav"/>
 				</sound>
 			</projectile>
 			<splash value="false"/>
@@ -117,7 +117,7 @@
 				<particle-file path="glow_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
-				<sound-file path="../roundtent/sounds/tech_building_fall5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

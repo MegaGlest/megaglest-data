@@ -33,30 +33,30 @@
 		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="/sounds/golem_select1.wav"/>
-			<sound path="/sounds/golem_select2.wav"/>
-			<sound path="/sounds/golem_select3.wav"/>
-			<sound path="/sounds/golem_select4.wav"/>
-			<sound path="/sounds/golem_select5.wav"/>
-			<sound path="/sounds/golem_select6.wav"/>
-			<sound path="/sounds/golem_select7.wav"/>
-			<sound path="/sounds/golem_select8.wav"/>
-			<sound path="/sounds/golem_select9.wav"/>
-			<sound path="/sounds/golem_select10.wav"/>
-			<sound path="/sounds/golem_select11.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_select11.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-		        <sound path="/sounds/golem_ack1.wav"/>
-			<sound path="/sounds/golem_ack2.wav"/>
-			<sound path="/sounds/golem_ack3.wav"/>
-			<sound path="/sounds/golem_ack4.wav"/>
-			<sound path="/sounds/golem_ack5.wav"/>
-			<sound path="/sounds/golem_ack6.wav"/>
-			<sound path="/sounds/golem_ack7.wav"/>
-			<sound path="/sounds/golem_ack8.wav"/>
-			<sound path="/sounds/golem_ack9.wav"/>
-			<sound path="/sounds/golem_ack10.wav"/>
-			<sound path="/sounds/golem_ack11.wav"/>
+		        <sound path="$COMMONDATAPATH/sounds/golem_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/golem_ack11.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -81,8 +81,8 @@
 			<anim-speed value="20"/>
 			<animation path="models/golem_walking.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/golem_walk1.wav"/>
-				<sound-file path="sounds/golem_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_walk2.wav"/>
 			</sound> 
 
 		</skill>
@@ -95,7 +95,7 @@
 			<anim-speed value="60"/>
 			<animation path="models/golem_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="/sounds/golem_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
 			</sound>
 			<attack-strenght value="200"/>
 			<attack-var value="150"/>
@@ -108,7 +108,7 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="/sounds/golem_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/golem_hit1.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -126,9 +126,9 @@
 			<anim-speed value="60"/>
 			<animation path="models/golem_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/golem_die1.wav"/>
-				<sound-file path="sounds/golem_die2.wav"/>
-				<sound-file path="sounds/golem_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/golem_die3.wav"/>
 			</sound> 
                         <fade value="false"/>
 		</skill>

@@ -39,35 +39,35 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../technician/sounds/technician_select1.wav"/>
-			<sound path="../technician/sounds/technician_select2.wav"/>
-			<sound path="../technician/sounds/technician_select3.wav"/>
-			<sound path="../technician/sounds/technician_select4.wav"/>
-			<sound path="../technician/sounds/technician_select5.wav"/>
-			<sound path="../technician/sounds/technician_select6.wav"/>
-			<sound path="../technician/sounds/technician_select7.wav"/>
-			<sound path="../technician/sounds/technician_select8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select8.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../technician/sounds/technician_ack1.wav"/>
-			<sound path="../technician/sounds/technician_ack2.wav"/>
-			<sound path="../technician/sounds/technician_ack3.wav"/>
-			<sound path="../technician/sounds/technician_ack4.wav"/>		
-			<sound path="../technician/sounds/technician_ack5.wav"/>
-			<sound path="../technician/sounds/technician_ack6.wav"/>
-			<sound path="../technician/sounds/technician_ack7.wav"/>
-			<sound path="../technician/sounds/technician_ack8.wav"/>
-			<sound path="../technician/sounds/technician_ack9.wav"/>
-			<sound path="../technician/sounds/technician_ack10.wav"/>
-			<sound path="../technician/sounds/technician_ack11.wav"/>		
-			<sound path="../technician/sounds/technician_ack12.wav"/>
-			<sound path="../technician/sounds/technician_ack13.wav"/>
-			<sound path="../technician/sounds/technician_ack14.wav"/>
-			<sound path="../technician/sounds/technician_ack15.wav"/>
-			<sound path="../technician/sounds/technician_ack16.wav"/>		
-			<sound path="../technician/sounds/technician_ack17.wav"/>
-			<sound path="../technician/sounds/technician_ack18.wav"/>
-			<sound path="../technician/sounds/technician_ack19.wav"/>						
+			<sound path="$COMMONDATAPATH/sounds/technician_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack4.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/technician_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack11.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/technician_ack12.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack13.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack14.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack15.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack16.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/technician_ack17.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack18.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack19.wav"/>						
 		</command-sounds>
 	</parameters>
 
@@ -101,8 +101,8 @@
 			<anim-speed value="70"/>
 			<animation path="models/air_ballista_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/ab_attack1.wav"/>
-				<sound-file path="sounds/ab_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
 			</sound> 
 			<attack-strenght value="200"/>
 			<attack-var value="75"/>
@@ -115,11 +115,11 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="../archer/sounds/arrow_hit1.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit2.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit3.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit4.wav"/>
-					<sound-file path="../archer/sounds/arrow_hit5.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit3.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit4.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/arrow_hit5.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -137,9 +137,9 @@
 			<anim-speed value="60"/>
 			<animation path="models/air_ballista_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/ab_die1.wav"/>
-				<sound-file path="sounds/ab_die2.wav"/>
-				<sound-file path="sounds/ab_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/ab_die3.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

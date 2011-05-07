@@ -93,8 +93,8 @@
 			<animation path="models/archer_attacking.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="/sounds/archer_attack2.wav"/>
-				<sound-file path="/sounds/archer_attack3.wav"/>
-				<sound-file path="/sounds/archer_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
 			<attack-strenght value="110"/>
 			<attack-var value="50"/>

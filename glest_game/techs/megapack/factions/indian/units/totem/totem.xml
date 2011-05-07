@@ -44,10 +44,10 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="../mainteepee/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
-			<sound path="../mainteepee/sounds/tech_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../mainteepee/sounds/tech_click.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
 	
@@ -89,7 +89,7 @@
 				<particle-file path="glow_particles.xml"/>
 			</particles>
 			<sound enabled="true" start-time="0">
-				<sound-file path="../mainteepee/sounds/tech_building_fall5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>
@@ -102,12 +102,12 @@
 			<anim-speed value="80"/>
 			<animation path="models/totem.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="/sounds/tower_attack1.wav"/>
-				<sound-file path="/sounds/tower_attack2.wav"/>
-				<sound-file path="/sounds/tower_attack3.wav"/>
-				<sound-file path="/sounds/tower_attack4.wav"/>
-                        	<sound-file path="/sounds/tower_attack5.wav"/>
-				<sound-file path="/sounds/tower_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack4.wav"/>
+                        	<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
 			<attack-strenght value="300"/>
 			<attack-var value="50"/>
@@ -120,9 +120,9 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true" start-time="0">
-				<sound-file path="/sounds/tower_hit1.wav"/>
-				<sound-file path="/sounds/tower_hit2.wav"/>
-				<sound-file path="/sounds/tower_hit3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
                                 </sound>
 			</projectile>
 			<splash value="true">
@@ -140,12 +140,12 @@
 			<anim-speed value="80"/>
 			<animation path="models/totem.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="/sounds/tower_attack1.wav"/>
-				<sound-file path="/sounds/tower_attack2.wav"/>
-				<sound-file path="/sounds/tower_attack3.wav"/>
-				<sound-file path="/sounds/tower_attack4.wav"/>
-                        	<sound-file path="/sounds/tower_attack5.wav"/>
-				<sound-file path="/sounds/tower_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack4.wav"/>
+                        	<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
 			<attack-strenght value="150"/>
 			<attack-var value="50"/>
@@ -158,9 +158,9 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true" start-time="0">
-				<sound-file path="/sounds/tower_hit1.wav"/>
-				<sound-file path="/sounds/tower_hit2.wav"/>
-				<sound-file path="/sounds/tower_hit3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
                                 </sound>
 			</projectile>
 			<splash value="true">

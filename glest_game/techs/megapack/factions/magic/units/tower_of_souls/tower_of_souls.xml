@@ -75,12 +75,12 @@
 			<anim-speed value="80"/>
 			<animation path="models/tower_of_souls.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="/sounds/tower_attack1.wav"/>
-				<sound-file path="/sounds/tower_attack2.wav"/>
-				<sound-file path="/sounds/tower_attack3.wav"/>
-				<sound-file path="/sounds/tower_attack4.wav"/>
-				<sound-file path="/sounds/tower_attack5.wav"/>
-				<sound-file path="/sounds/tower_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_attack6.wav"/>
 			</sound>
 			<attack-strenght value="200"/>
 			<attack-var value="50"/>
@@ -93,9 +93,9 @@
 			<projectile value="true">
 			<particle value="true" path="particle_proj.xml"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="/sounds/tower_hit1.wav"/>
-				<sound-file path="/sounds/tower_hit2.wav"/>
-				<sound-file path="/sounds/tower_hit3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/tower_hit3.wav"/>
 			</sound>
 			</projectile>
 			<splash value="true">

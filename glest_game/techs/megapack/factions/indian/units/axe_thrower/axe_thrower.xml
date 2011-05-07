@@ -38,19 +38,19 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/axe_thrower_select1.wav"/>
-			<sound path="sounds/axe_thrower_select2.wav"/>
-			<sound path="sounds/axe_thrower_select3.wav"/>
-			<sound path="sounds/axe_thrower_select4.wav"/>
-			<sound path="sounds/axe_thrower_select5.wav"/>
-			<sound path="sounds/axe_thrower_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_select6.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/axe_thrower_ack1.wav"/>
-			<sound path="sounds/axe_thrower_ack2.wav"/>
-			<sound path="sounds/axe_thrower_ack3.wav"/>
-			<sound path="sounds/axe_thrower_ack4.wav"/>
-			<sound path="sounds/axe_thrower_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/axe_thrower_ack5.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -88,12 +88,12 @@
 			<anim-speed value="100"/>
 			<animation path="models/worker_attacking.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/axe_thrower_attack1.wav"/>
-				<sound-file path="sounds/axe_thrower_attack2.wav"/>
-				<sound-file path="sounds/axe_thrower_attack3.wav"/>
-				<sound-file path="sounds/axe_thrower_attack4.wav"/>
-				<sound-file path="sounds/axe_thrower_attack5.wav"/>
-				<sound-file path="sounds/axe_thrower_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack6.wav"/>
 			</sound> 
 			<attack-strenght value="140"/>
 			<attack-var value="40"/>
@@ -130,10 +130,10 @@
 			<anim-speed value="80"/>
 			<animation path="models/worker_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/axe_thrower_die1.wav"/>
-				<sound-file path="sounds/axe_thrower_die2.wav"/>
-				<sound-file path="sounds/axe_thrower_die3.wav"/>
-				<sound-file path="sounds/axe_thrower_die4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_die4.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

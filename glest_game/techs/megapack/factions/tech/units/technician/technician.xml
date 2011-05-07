@@ -30,35 +30,35 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/technician_select1.wav"/>
-			<sound path="sounds/technician_select2.wav"/>
-			<sound path="sounds/technician_select3.wav"/>
-			<sound path="sounds/technician_select4.wav"/>
-			<sound path="sounds/technician_select5.wav"/>
-			<sound path="sounds/technician_select6.wav"/>
-			<sound path="sounds/technician_select7.wav"/>
-			<sound path="sounds/technician_select8.wav"/>					
+			<sound path="$COMMONDATAPATH/sounds/technician_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select8.wav"/>					
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/technician_ack1.wav"/>
-			<sound path="sounds/technician_ack2.wav"/>
-			<sound path="sounds/technician_ack3.wav"/>
-			<sound path="sounds/technician_ack4.wav"/>		
-			<sound path="sounds/technician_ack5.wav"/>
-			<sound path="sounds/technician_ack6.wav"/>
-			<sound path="sounds/technician_ack7.wav"/>
-			<sound path="sounds/technician_ack8.wav"/>
-			<sound path="sounds/technician_ack9.wav"/>
-			<sound path="sounds/technician_ack10.wav"/>
-			<sound path="sounds/technician_ack11.wav"/>		
-			<sound path="sounds/technician_ack12.wav"/>
-			<sound path="sounds/technician_ack13.wav"/>
-			<sound path="sounds/technician_ack14.wav"/>
-			<sound path="sounds/technician_ack15.wav"/>
-			<sound path="sounds/technician_ack16.wav"/>		
-			<sound path="sounds/technician_ack17.wav"/>
-			<sound path="sounds/technician_ack18.wav"/>
-			<sound path="sounds/technician_ack19.wav"/>					
+			<sound path="$COMMONDATAPATH/sounds/technician_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack4.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/technician_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack8.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack9.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack10.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack11.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/technician_ack12.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack13.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack14.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack15.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack16.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/technician_ack17.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack18.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack19.wav"/>					
 		</command-sounds>
 
 
@@ -115,12 +115,12 @@
 			<anim-speed value="210"/>
 			<animation path="models/technician_repairing.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/technician_build1.wav"/>
-				<sound-file path="sounds/technician_build2.wav"/>
-				<sound-file path="sounds/technician_build3.wav"/>	
-				<sound-file path="sounds/technician_build4.wav"/>									
-				<sound-file path="sounds/technician_build5.wav"/>	
-				<sound-file path="sounds/technician_build6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>									
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 
 		</skill>
@@ -175,12 +175,12 @@
 			<anim-speed value="210"/>
 			<animation path="models/technician_repairing.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/technician_build1.wav"/>
-				<sound-file path="sounds/technician_build2.wav"/>
-				<sound-file path="sounds/technician_build3.wav"/>	
-				<sound-file path="sounds/technician_build4.wav"/>									
-				<sound-file path="sounds/technician_build5.wav"/>	
-				<sound-file path="sounds/technician_build6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>									
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 		</skill>		
 
@@ -207,12 +207,12 @@
 			<anim-speed value="200"/>
 			<animation path="models/technician_morphing_catapult.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/technician_build1.wav"/>
-				<sound-file path="sounds/technician_build2.wav"/>
-				<sound-file path="sounds/technician_build3.wav"/>	
-				<sound-file path="sounds/technician_build4.wav"/>									
-				<sound-file path="sounds/technician_build5.wav"/>	
-				<sound-file path="sounds/technician_build6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>									
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 		</skill>
 		
@@ -224,12 +224,12 @@
 			<anim-speed value="200"/>
 			<animation path="models/technician_morphing_battle_machine.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/technician_build1.wav"/>
-				<sound-file path="sounds/technician_build2.wav"/>
-				<sound-file path="sounds/technician_build3.wav"/>	
-				<sound-file path="sounds/technician_build4.wav"/>									
-				<sound-file path="sounds/technician_build5.wav"/>	
-				<sound-file path="sounds/technician_build6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>									
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 		</skill>
 
@@ -241,12 +241,12 @@
 			<anim-speed value="200"/>
 			<animation path="../air_ballista/models/air_ballista_morphing.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/technician_build1.wav"/>
-				<sound-file path="sounds/technician_build2.wav"/>
-				<sound-file path="sounds/technician_build3.wav"/>	
-				<sound-file path="sounds/technician_build4.wav"/>									
-				<sound-file path="sounds/technician_build5.wav"/>	
-				<sound-file path="sounds/technician_build6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>									
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 		</skill>			
 
@@ -258,10 +258,10 @@
 			<anim-speed value="50"/>
 			<animation path="models/technician_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/technician_die1.wav"/>
-				<sound-file path="sounds/technician_die2.wav"/>
-				<sound-file path="sounds/technician_die3.wav"/>	
-				<sound-file path="sounds/technician_die4.wav"/>									
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die3.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_die4.wav"/>									
 			</sound>			
 			<fade value="false"/>
 		</skill>						
@@ -302,8 +302,8 @@
                 	</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true" start-time="0">
-				<sound-file path="sounds/technician_select1.wav"/>
-				<sound-file path="sounds/technician_select5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_select1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_select5.wav"/>
 			</built-sound>
 		</command>
 

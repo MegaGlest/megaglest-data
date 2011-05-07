@@ -34,21 +34,21 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/swordman_select1.wav"/>
-			<sound path="sounds/swordman_select2.wav"/>
-			<sound path="sounds/swordman_select3.wav"/>
-			<sound path="sounds/swordman_select4.wav"/>
-			<sound path="sounds/swordman_select5.wav"/>
-			<sound path="sounds/swordman_select6.wav"/>
-			<sound path="sounds/swordman_select7.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_select7.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/swordman_ack1.wav"/>
-			<sound path="sounds/swordman_ack2.wav"/>
-			<sound path="sounds/swordman_ack3.wav"/>
-			<sound path="sounds/swordman_ack4.wav"/>
-			<sound path="sounds/swordman_ack5.wav"/>
-			<sound path="sounds/swordman_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/swordman_ack6.wav"/>
 		</command-sounds>
 	</parameters>
 
@@ -93,18 +93,18 @@
 			<animation path="models/s_speer_man_attack_land.g3d"/>
 			<animation path="models/s_speer_man_attack_air.g3d"/>
 			<sound enabled="true" start-time="0.47">
-				<sound-file path="sounds/swordman_attack1.wav"/>
-				<sound-file path="sounds/swordman_attack2.wav"/>
-				<sound-file path="sounds/swordman_attack3.wav"/>
-				<sound-file path="sounds/swordman_attack4.wav"/>
-				<sound-file path="sounds/swordman_attack5.wav"/>
-				<sound-file path="sounds/swordman_attack6.wav"/>
-				<sound-file path="sounds/swordman_attack7.wav"/>
-				<sound-file path="sounds/swordman_attack8.wav"/>
-				<sound-file path="sounds/swordman_attack9.wav"/>
-				<sound-file path="sounds/swordman_attack10.wav"/>
-				<sound-file path="sounds/swordman_attack11.wav"/>
-				<sound-file path="sounds/swordman_attack12.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack7.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack8.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack9.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack10.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack11.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack12.wav"/>
 			</sound> 
 			<attack-strenght value="60"/>
 			<attack-var value="30"/>
@@ -126,8 +126,8 @@
 			<anim-speed value="60"/>
 			<animation path="models/s_speer_man_die.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/swordman_die1.wav"/>
-				<sound-file path="sounds/swordman_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/swordman_die2.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>

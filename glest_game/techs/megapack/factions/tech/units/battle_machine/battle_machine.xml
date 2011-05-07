@@ -39,19 +39,19 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../technician/sounds/technician_select1.wav"/>
-			<sound path="../technician/sounds/technician_select2.wav"/>
-			<sound path="../technician/sounds/technician_select3.wav"/>
-			<sound path="../technician/sounds/technician_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../technician/sounds/technician_ack1.wav"/>
-			<sound path="../technician/sounds/technician_ack2.wav"/>
-			<sound path="../technician/sounds/technician_ack3.wav"/>
-			<sound path="../technician/sounds/technician_ack4.wav"/>		
-			<sound path="../technician/sounds/technician_ack5.wav"/>
-			<sound path="../technician/sounds/technician_ack6.wav"/>
-			<sound path="../technician/sounds/technician_ack7.wav"/>					
+			<sound path="$COMMONDATAPATH/sounds/technician_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack4.wav"/>		
+			<sound path="$COMMONDATAPATH/sounds/technician_ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/technician_ack7.wav"/>					
 		</command-sounds>
 
 	</parameters>

@@ -36,15 +36,15 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="../archer/sounds/archer_select1.wav"/>
-			<sound path="../archer/sounds/archer_select2.wav"/>
-			<sound path="../archer/sounds/archer_select3.wav"/>
-			<sound path="../archer/sounds/archer_select4.wav"/>					
+			<sound path="$COMMONDATAPATH/sounds/archer_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archer_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archer_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archer_select4.wav"/>					
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="../archer/sounds/archer_ack1.wav"/>
-			<sound path="../archer/sounds/archer_ack2.wav"/>
-			<sound path="../archer/sounds/archer_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archer_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archer_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/archer_ack3.wav"/>
 				
 		</command-sounds>
 
@@ -70,12 +70,12 @@
 			<anim-speed value="60"/>
 			<animation path="models/crossbow_walking.g3d"/>
 			<sound enabled="true" start-time="0.1">
-				<sound-file path="sounds/catapult_walk1.wav"/>
-				<sound-file path="sounds/catapult_walk2.wav"/>
-				<sound-file path="sounds/catapult_walk3.wav"/>
-				<sound-file path="sounds/catapult_walk4.wav"/>
-				<sound-file path="sounds/catapult_walk5.wav"/>
-				<sound-file path="sounds/catapult_walk6.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk5.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk6.wav"/>
 			</sound> 
 		</skill>
 
@@ -87,8 +87,8 @@
 			<anim-speed value="50"/>
 			<animation path="models/crossbow_attacking.g3d"/>
 			<sound enabled="true" start-time="0.1">
-				<sound-file path="sounds/catapult_attack1.wav"/>
-				<sound-file path="sounds/catapult_attack2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
 			</sound> 
 			<attack-strenght value="250"/>
 			<attack-var value="90"/>
@@ -101,8 +101,8 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="true">
-					<sound-file path="/sounds/catapult_hit1.wav"/>
-					<sound-file path="/sounds/catapult_hit2.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit1.wav"/>
+					<sound-file path="$COMMONDATAPATH/sounds/catapult_hit2.wav"/>
 				</sound>
 			</projectile>
 			<splash value="true">
@@ -120,9 +120,9 @@
 			<anim-speed value="120"/>
 			<animation path="models/crossbow_destroyed.g3d"/>
 			<sound enabled="true" start-time="0.1">
-				<sound-file path="sounds/catapult_die1.wav"/>
-				<sound-file path="sounds/catapult_die2.wav"/>
-				<sound-file path="sounds/catapult_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/catapult_die3.wav"/>
 			</sound> 			
 			<fade value="false"/>
 		</skill>

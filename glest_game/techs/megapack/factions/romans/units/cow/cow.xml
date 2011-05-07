@@ -32,14 +32,14 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/cow_select1.wav"/>
-			<sound path="sounds/cow_select2.wav"/>
-			<sound path="sounds/cow_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/cow_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/cow_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/cow_select3.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/cow_ack1.wav"/>
-			<sound path="sounds/cow_ack2.wav"/>
-			<sound path="sounds/cow_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/cow_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/cow_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/cow_ack3.wav"/>
 		</command-sounds>
 
 	</parameters>
@@ -78,9 +78,9 @@
 			<anim-speed value="90"/>
 			<animation path="models/cow_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/cow_die1.wav"/>
-				<sound-file path="sounds/cow_die2.wav"/>
-				<sound-file path="sounds/cow_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/cow_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/cow_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/cow_die3.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>						

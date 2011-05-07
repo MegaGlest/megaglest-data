@@ -34,16 +34,16 @@
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
-			<sound path="sounds/pig_select1.wav"/>
-			<sound path="sounds/pig_select2.wav"/>
-			<sound path="sounds/pig_select3.wav"/>
-			<sound path="sounds/pig_select4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
-			<sound path="sounds/pig_ack1.wav"/>
-			<sound path="sounds/pig_ack2.wav"/>
-			<sound path="sounds/pig_ack3.wav"/>
-			<sound path="sounds/pig_ack4.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack1.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack3.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/pig_ack4.wav"/>
 			<sound path="sounds/pig_ack5.wav"/>
 		</command-sounds>
 
@@ -114,10 +114,10 @@
 			<anim-speed value="80"/>
 			<animation path="models/pig_dying.g3d"/>
 			<sound enabled="true" start-time="0">
-				<sound-file path="sounds/pig_die1.wav"/>
-				<sound-file path="sounds/pig_die2.wav"/>
-				<sound-file path="sounds/pig_die3.wav"/>
-				<sound-file path="sounds/pig_die4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die2.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/pig_die4.wav"/>
 			</sound>			
 			<fade value="false"/>
 		</skill>
