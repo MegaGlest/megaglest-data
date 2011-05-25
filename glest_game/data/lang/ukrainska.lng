@@ -7,13 +7,12 @@
 Abort=Перервати
 About=Про гру
 Address=Адреса
-AdvancedGameOptions=Додатков╕ налаштування гри
+AdvancedGameOptions=Додатков╕ налаштування
 AlreadyUpgraded=Вже оновлено
 All=Вс╕
 AllowObservers=Дозволити глядач╕в
 AmbientVolume=Навколишн╕ звуки:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Amount=Amount
+Amount=К╕льк╕сть
 Animation=Ан╕мац╕я
 Armor=Броня
 Attack=Напад
@@ -26,14 +25,11 @@ AutoConfig=Автоконф╕гурац╕я
 AutoRefreshRate=Автоматичне оновлення частоти
 AvailableServers=Доступн╕ сервери
 BattleOver=Битву завершено
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-BlockPlayer=Block Player
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-BlockPlayerClear=Clear Blocked Players
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-BlockPlayerServerMsg=The server has temporarily blocked IP Address [%s] from this game.
+BlockPlayer=Блокувати гравця
+BlockPlayerClear=Скинути блокування гравц╕в
+BlockPlayerServerMsg=Сервер тимчасово блоку╓ IP-адресу [%s] ╕з ц╕╓╖ гри.
 Build=Буд╕вництво
-BuildSpeed=Швидк╕сть будування
+BuildSpeed=Швидк╕сть буд╕вництва
 BuildingNoPlace=Не вибрано м╕сце для буд╕вництва
 BuildingNoReqs=Не в╕дпов╕да╓ умовам буд╕вл╕
 BuildingNoRes=Нема╓ ресурс╕в для буд╕вництва
@@ -41,27 +37,18 @@ Built=Вбудований
 CameraModeSet=Встановити режим камери
 CanRepair=Можливий ремонт
 Cancel=В╕дм╕нити
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-CancelDownloads=Cancel download(s)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-CancelDownloadsMsg=Player: %s cancelled all file downloads.
+CancelDownloads=В╕дм╕на завантаження (нь)
+CancelDownloadsMsg=Гравець: %s в╕дм╕нив вс╕ завантаження файл╕в.
 Canceled=В╕дм╕нено
 Chat=Сп╕лкування
 ChatMode=Режим сп╕лкування
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-CheckSumGameLoadError=Checksum error, you don't have the same data as the server
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-CheckSumGameLoadPlayer=Player with error is:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-CheckSumGameLoadClient=Client Checksum:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-CheckSumGameLoadServer=Server Checksum:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ClientLagDropping=DROPPING %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], disconnecting client.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ClientLagPausing=PAUSING GAME TEMPORARILY for %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], waiting for client to catch up...
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ClientLagWarning=LAG WARNING for %s, may exceed max allowed LAG count of %f [time = %f], clientLag = %f [%f], WARNING...
+CheckSumGameLoadError=Помилка контрольно╖ суми, Ви не ма╓те з сервером однакових данних
+CheckSumGameLoadPlayer=Гравець з помилкою:
+CheckSumGameLoadClient=Контрольна сума кл╕╓нта:
+CheckSumGameLoadServer=Контрольна сума сервера:
+ClientLagDropping=ПРОПУСКАННЯ %s, перевищило максимально допустиме значення LAG з %f [час = %f], кл╕╓нтLag = %f [%f], в╕дключено кл╕╓нта.
+ClientLagPausing=ТИМЧАСОВЕ ПРИЗУПИНЕННЯ ГРИ для %s, перевищило максимально допустиме значення LAG з %f [час = %f], кл╕╓нтLag = %f [%f], оч╕кування для кл╕╓нта щоб наздогнати...
+ClientLagWarning=ПОПЕРЕДЖЕННЯ LAG для %s, може перевищувати максимально допустиме значення LAG з %f [час = %f], кл╕╓нтLag = %f [%f], ПОПЕРЕДЖЕННЯ...
 Closed=Закрито
 Command=Команда
 CommonCommand=Загальн╕ команди
@@ -70,11 +57,10 @@ Connecting=З'╓дну╓мось...
 Connected=З'╓днано
 ConnectedToServer=П╕д'╓днано до сервера
 Connection failed=Невдале з'╓днання
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ConnectionTimedOut=Connection timed out communicating with server.
+ConnectionTimedOut=Пер╕од оч╕кування з'╓днання з сервером завершився.
 Consume=Споживання
-Control=Гравц╕
-Couldnt connect=П╕дключення не вдалося.Вибрати ╕нший сервер.
+Control=Контроль
+Couldnt connect=П╕дключення не вдалося. Вибрати ╕нший сервер.
 Cpu=Процесор
 CpuEasy=Процесор (пом╕рно)
 CpuMega=Процесор (сильно)
@@ -82,27 +68,22 @@ CpuUltra=Процесор (супер)
 CustomGame=Гра користувача
 DataNotSynchedTitle=Наступн╕ дан╕ гри в╕др╕зняються:
 DataNotSynchedMap=Мапа в╕др╕зня╓ться м╕ж кл╕╓нтом ╕ сервером
-DataNotSynchedTileset=Tileset в╕др╕зня╓ться м╕ж кл╕╓нтом ╕ сервером
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DataNotSynchedTechtree=Techtree is different between client and server
+DataNotSynchedTileset=Плитка в╕др╕зня╓ться м╕ж кл╕╓нтом ╕ сервером
+DataNotSynchedTechtree=Дерево технолог╕й в╕др╕зня╓ться м╕ж кл╕╓нтом ╕ сервером
 DataMissingMap=Гравець: %s нема╓ карти: %s
-DataMissingTileset=Гравець: %s нема╓ tileset: %s
-DataMissingTechtree=Гравець: %s нема╓ techtree: %s
+DataMissingTileset=Гравець: %s нема╓ плитки: %s
+DataMissingTechtree=Гравець: %s нема╓ дерева технолог╕й: %s
 DataMissingMapNowDownloading=Гравець: %s пробу╓ завантажити мапу: %s
-DataMissingTilesetNowDownloading=Гравець: %s пробу╓ завантажити tileset: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DataMissingTechtreeNowDownloading=Player: %s is attempting to download the techtree: %s
+DataMissingTilesetNowDownloading=Гравець: %s пробу╓ завантажити плитку: %s
+DataMissingTechtreeNowDownloading=Гравець: %s робить спроби завантажити дерево технолог╕й: %s
 DataMissingMapSuccessDownload=Гравець: %s ВДАЛОСЬ завантажити мапу: %s
 DataMissingMapFailDownload=Гравець: %s НЕ ВДАЛОСЬ завантажити мапу: [%s] використовуючи CURL верс╕╖ [%s]
-DataMissingTilesetSuccessDownload=Гравець: %s ВДАЛОСЬ завантажити tileset: %s
-DataMissingTilesetFailDownload=Гравець: %s НЕ ВДАЛОСЬ завантажити tileset: [%s] використовуючи CURL верс╕╖ [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DataMissingTechtreeSuccessDownload=Player: %s SUCCESSFULLY downloaded the techtree: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DataMissingTechtreeFailDownload=Player: %s FAILED to download the techtree: [%s] using CURL version [%s]
+DataMissingTilesetSuccessDownload=Гравець: %s ВДАЛОСЬ завантажити плитку: %s
+DataMissingTilesetFailDownload=Гравець: %s НЕ ВДАЛОСЬ завантажити плитку: [%s] використовуючи CURL верс╕╖ [%s]
+DataMissingTechtreeSuccessDownload=Гравець: %s ВДАЛОСЬ завантажити дерево технолог╕й: %s
+DataMissingTechtreeFailDownload=Гравець: %s НЕ ВДАЛОСЬ завантажити дерево технолог╕й: [%s] викоистовуючи CURL верс╕╖ [%s]
 Deaths=Мертвих
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Defaults=Defaults
+Defaults=Типово
 Defeat=Поразка
 Deleting=Видалення
 Difficulty=Складн╕сть
@@ -118,22 +99,17 @@ Disconnect=В╕д'╓днатись
 Discount=Знижка
 DisplaySettingsChanged=Налаштування зм╕нено
 DownloadMissingMapQuestion=Завантажити мапу:
-DownloadMissingTilesetQuestion=Завантажити tileset:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DownloadMissingTechtreeQuestion=Download the techtree:
+DownloadMissingTilesetQuestion=Завантажити плитку:
+DownloadMissingTechtreeQuestion=Завантажити дерево технолог╕й:
 EnableFTP=Дозволити передачу файл╕в по FTP
 EnableFTPServer=Дозволити сервер FTP
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnableFTPServerInternetTilesetXfer=Transfer tilesets over Internet
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnableFTPServerInternetTechtreeXfer=Transfer techtrees over Internet
+EnableFTPServerInternetTilesetXfer=Передавати плитку через ╤нтернет
+EnableFTPServerInternetTechtreeXfer=Передавати дерева технолог╕й через ╤нтернет
 EnableObserverMode=Показувати мапу по завершенню гри?
 Enabled=Ув╕мкнуто
 EnableServerControlledAI=Дозволити серверу контроль AI?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnableTextureCompression=Texture Compression
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnemyKills=Enemies Killed
+EnableTextureCompression=Стиснення текстур
+EnemyKills=Знищено ворог╕в
 Ep=Енерг╕я
 EpCost=Витрати енерг╕╖
 ErrorBindingPort=Помилка не дозволя╓ з'╓днання з мережевим портом (перев╕рте чи працю╓?)
@@ -141,12 +117,11 @@ ErrorFromMasterserver=Помилка основного сервера
 Exit=Вих╕д
 ExitGame?=Вийти з гри?
 ExitGameServer?=Вийти з гри? (це\nдозволя╓ зупинити гру\n для ╕нших гравц╕в)
-Explored=Досл╕дити
+Explored=Досл╕джено
 Faction=Фракц╕я
 Fast=Швидше
 Fields=Поля
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-FileDownloadProgress=Player: %s download progress for [%s] is %d %%
+FileDownloadProgress=Гравець: %s прогрес завантаження для [%s] ╓ %d %%
 Filter=Ф╕льтр:
 FindLANGames=Знайти ╕гри в мереж╕
 FogOfWar=Туман в╕йни
@@ -157,40 +132,32 @@ FTPServerDataPort=Порт сервера FTP з даними
 FreeCamera=В╕льна камера
 FxVolume=Ефекти звуку:
 GameCamera=Камера гри
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameCancelledByUser=Game cancelled by server user.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameDuration=Game duration in minutes
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameMaxConcurrentUnitCount=Maximum Concurrent Units
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameTotalEndGameConcurrentUnitCount=Total Units at Game End
+GameCancelledByUser=Гру припинено користувачем серверу.
+GameDuration=Тривал╕сть гри у хвилинах
+GameMaxConcurrentUnitCount=Максимальне число конкуруючих юн╕т╕в
+GameTotalEndGameConcurrentUnitCount=Всього юн╕т╕в на к╕нець гри
 GameMusic=Музика
 GameOver=Гру завершено
 GamePaused=Гру призупинено
 GameResumed=Гру поновлено
 GameSpeedSet=Швидк╕сть гри встановлено
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameSwitchPlayerToAI=Player #%d [%s] has disconnected, switching player to AI mode!
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
+GameSwitchPlayerToAI=Гравця #%d [%s] було в╕д'╓днано, залишки гравця переведено п╕д контроль штучного ╕нтелекту (AI)!
+GameSwitchPlayerObserverToAI=Гравця #%d [%s] було в╕д'╓днано, але гравець буде т╕льки як споглядач!
 Harvest=Збирати
 HarvestSpeed=Швидк╕сть збору
 Hp=ЗД
 Human=Людина
 IncompatibleVersion=Несум╕сна верс╕я!
 Initializing=╤н╕ц╕ал╕зац╕я
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Install=Install
+Install=Встановлення
 InvalidOrder=Неправильний запит
 InvalidPosition=Неправильна позиц╕я
 IRCPeopleOnline=Люди в балачц╕:
 Keyboardsetup=Налаштування клав╕атури
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-KeyboardsetupTest=Keyboard test display
-Kills=Зруйнований
-JoinGame=При╓днатись до гри
-JoinInternetGame=Грати через ╤нтернет
+KeyboardsetupTest=Показати тест клав╕атури
+Kills=Знищено
+JoinGame=Грати в мереж╕
+JoinInternetGame=Грати в ╤нтернет
 Language=Мова:
 LanIP=IP адреса мереж╕:
 LinuxPort=Порт в Linux
@@ -199,14 +166,11 @@ LoadedSpeed=Швидк╕сть завантаження
 Loading=Завантаження
 Map=Мапа
 MapFilter=Ф╕льтр мап
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MapTitle1=Map
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MapTitle2=Players
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MasterServerMissing=Your configuration is missing a masterserver entry.
+MapTitle1=Мапа
+MapTitle2=Гравц╕
+MasterServerMissing=Ваша конф╕гурац╕я в╕дсутня для можливостей основного сервера.
 MaxFilterAnisotropy=Максимальна ан╕зотропна ф╕льтрац╕я
-MaxLights=Джерела св╕тла:
+MaxLights=Джерел св╕тла:
 MaxLoad=Максимальне наватаження
 MaxPlayers=К╕льк╕сть гравц╕в
 MaxUnitCount=Максимальна к╕льк╕сть юн╕т╕в
@@ -219,7 +183,7 @@ MGGameStatus=Статус гри
 MGGameTitle=Назва гри
 MGGameSlots=Слот╕в
 MGGameSlotsFull=Гравц╕в набрано
-MGGameIP=IP ддреса сервера
+MGGameIP=IP сервера
 MGGameStatus0=Наб╕р гравц╕в
 MGGameStatus1=Гравц╕в набрано, оч╕ку╓ться початок гри
 MGGameStatus2=Гра продовжу╓ться
@@ -228,107 +192,64 @@ MGJoinGameSlots=При╓днатись до гри
 MGPlatform=Платформа
 MGVersion=Верс╕я гри
 Misc=Р╕зне
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MismatchedFactions=The following factions are mismatched:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MismatchedFactionsMissing=(missing)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MismatchedFactionsExtra=(extra)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModLocalRemoteMismatch=The local mod [%s] is not the same as the\nversion on the server, replace local mod with server version?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModErrorGettingServerData=Error retrieving data from the master server: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloading=Downloading
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModTechAlreadyInstalled=You already have the tech: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTechToInstall=You must first select a tech to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveTechConfirm=Are you sure you want to remove the tech: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveTechNotInstalled=You do not have the tech: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTechToRemove=You must first select a tech to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTechSuccess=SUCCESSFULLY downloaded the tech: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTechFail=FAILED to download the tech: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModTilesetAlreadyInstalled=You already have the tileset: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTilesetToInstall=You must first select a tileset to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveTilesetConfirm=Are you sure you want to remove the tileset: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveTilesetNotInstalled=You do not have the tileset: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTilesetToRemove=You must first select a tileset to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTilesetSuccess=SUCCESSFULLY downloaded the tileset: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTilesetFail=FAILED to download the tileset: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModMapAlreadyInstalled=You already have the map: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectMapToInstall=You must first select a map to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveMapConfirm=Are you sure you want to remove the map: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveMapNotInstalled=You do not have the map: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectMapToRemove=You must first select a map to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadMapSuccess=SUCCESSFULLY downloaded the map: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadMapFail=FAILED to download the map: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModScenarioAlreadyInstalled=You already have the scenario: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectScenarioToInstall=You must first select a scenario to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveScenarioConfirm=Are you sure you want to remove the scenario: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectScenarioToRemove=You must first select a scenario to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadScenarioSuccess=SUCCESSFULLY downloaded the scenario: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Mods=Game Mods
+MismatchedFactions=Наступн╕ фрац╕╖ в╕дсутн╕:
+MismatchedFactionsMissing=(в╕дсутн╕)
+MismatchedFactionsExtra=(додатков╕)
+ModLocalRemoteMismatch=Локальна модиф╕кац╕я [%s] не ╓ такою ж як\nверс╕я на сервер╕, зам╕нити локальну модиф╕кац╕ю серверною верс╕╓ю?
+ModErrorGettingServerData=Помилка при спроб╕ отримати дан╕ з майстер-сервера: %s
+ModRequires7z=** Попередження ** - Вам необх╕дно мати встановленою в систем╕ \n в╕льну програму 7z, щоб встановлювати модиф╕кац╕╖ ╕ доповнення.
+ModDownloadInProgressCancelQuestion=Ви зараз ма╓те: %d файл╕в, що завантажуються, вийти ╕ об╕рвати ц╕ завантаження?
+ModDownloading=Завантаження
+ModTechAlreadyInstalled=Ви вже ма╓те технолог╕╖: %s встановленими.
+ModSelectTechToInstall=Вам потр╕бно спочатку вибрати технолог╕╖ для встановлення.
+ModRemoveTechConfirm=Ви впевнен╕ у бажанн╕ видалити технолог╕╖: %s ?
+ModCannotRemoveTechNotInstalled=Ви не ма╓те технолог╕╖: %s встановлено, видалення в╕дм╕нено.
+ModSelectTechToRemove=Ви ма╓те спочатку вибрати технолог╕ю для видалення.
+ModDownloadTechSuccess=УСП╤ШНО завантажено технолог╕ю: %s
+ModDownloadTechFail=НЕ ВДАЛОСЬ завантажити технолог╕ю: [%s] використовуючи CURL верс╕╖ [%s] [%s]
+ModTilesetAlreadyInstalled=Ви вже ма╓те плитку: %s встановленою.
+ModSelectTilesetToInstall=Ви ма╓те спочатку вибрати плитку для встановлення.
+ModRemoveTilesetConfirm=Ви впевнен╕, що бажа╓те видалити плитку: %s ?
+ModCannotRemoveTilesetNotInstalled=Ви не ма╓те плитку: %s встановленою, видалення в╕дм╕нено.
+ModSelectTilesetToRemove=Ви ма╓те спочатку вибрати плитку для видалення.
+ModDownloadTilesetSuccess=УСП╤ШНО завантажено плитку: %s
+ModDownloadTilesetFail=НЕ ВДАЛОСЬ завантажити плитку: [%s] використовуючи CURL верс╕╖ [%s] [%s]
+ModMapAlreadyInstalled=Ви вже ма╓те мапу: %s встановленою.
+ModSelectMapToInstall=Ви ма╓те спочатку вибрати мапу для встановлення.
+ModRemoveMapConfirm=Ви впевнен╕, що бажа╓те видалити мапу: %s ?
+ModCannotRemoveMapNotInstalled=Ви не ма╓те мапу: %s встановленою, видалення в╕дм╕нено.
+ModSelectMapToRemove=Ви ма╓те спочатку вибрати мапу для видалення.
+ModDownloadMapSuccess=УСП╤ШНО завантажено мапу: %s
+ModDownloadMapFail=НЕ ВДАЛОСЬ завантажити мапу: [%s] using CURL version [%s] [%s]
+ModScenarioAlreadyInstalled=Ви вже ма╓те сценар╕й: %s встановлений.
+ModSelectScenarioToInstall=Ви ма╓те спочатку вибрати сценар╕й для встановлення.
+ModRemoveScenarioConfirm=Ви впевнен╕, що бажа╓те видалити сценар╕й: %s ?
+ModCannotRemoveScenarioNotInstalled=Ви не ма╓те спенар╕ю: %s встановлений, видалення в╕дм╕нено.
+ModSelectScenarioToRemove=Ви ма╓те спочатку вибрати сценар╕й для видалення.
+ModDownloadScenarioSuccess=УСП╤ШНО завантажено сценар╕й: %s
+ModDownloadScenarioFail=НЕ ВДАЛОСЬ завантажити сценар╕й: [%s] використовуючи CURL верс╕╖ [%s] [%s]
+Mods=Модиф╕кац╕╖ гри
 Morph=Перетворення
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MorphNoReqs=requirements to morph are not satisfied
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MorphNoRes=Not enough resources to morph unit
+MorphNoReqs=залежност╕ для перетворення не задоволен╕
+MorphNoRes=Нема╓ ресурс╕в для перетворення юн╕та
 MorphSpeed=Швидк╕сть перетворення
 Move=Рухатися
 MusicVolume=Гучн╕сть музики
 Network=Мережа
-NetworkCpuEasy=Мережа використову╓ процесор пом╕рно
+NetworkCpuEasy=Мережа процесор пом╕рно
 NetworkCpu=Викоритання процесора мережею
-NetworkCpuUltra=Мережа використову╓ процесор надм╕рно
-NetworkCpuMega=Мережа використову╓ процесор сильно
+NetworkCpuUltra=Мережа процесор надм╕рно
+NetworkCpuMega=Мережа процесор сильно
 NetworkFramePeriod=Частота оновлення мереж╕
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-NetworkGameClientLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-NetworkGameServerLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-NetworkGameStatusWaiting=Waiting for players: %s
+NetworkGameClientLoadStatus=Оч╕кування для мереж╕: %lld секунд минуло (максимальний час оч╕кування: %d секунд)
+NetworkGameServerLoadStatus=Оч╕кування для мереж╕: %lld секунд минуло (максимальний час оч╕кування: %d секунд)
+NetworkGameStatusWaiting=Оч╕кування для гравц╕в: %s
 NetworkPauseGameForLaggedClients=Призупинити гру для заре╓строваних кл╕╓нт╕в?
 NewGame=Створити гру
 No=Н╕
 NoServerVisitChat=Жодного сервера? В╕дв╕дайте балачку
 NotConnected=Нема╓ з'╓днання
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Notice=Notice
+Notice=Пов╕домлення
 None=Жодного
 NonStandardPort=Нестандартний порт
 Normal=звичайний
@@ -353,17 +274,12 @@ PathFinderTypeRoutePlanner=Планувальник маршрут╕в
 Play=Грати
 PlayNow=Грати зараз!
 Player=Гравець
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerDisconnected=Player %s, disconnected from the game.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerLeftGame=has chosen to leave the game!
+PlayerDisconnected=Гравець %s, в╕д'╓днаний в╕д гри.
+PlayerLeftGame=вир╕шив вийти з гри!
 Playername=Назва гравця:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerStatusSetup=Not Ready
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerStatusBeRightBack=Be Right Back
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerStatusReady=Ready
+PlayerStatusSetup=Не готовий
+PlayerStatusBeRightBack=Зараз повернеться
+PlayerStatusReady=Готовий
 Port=Порт
 PressEnterToChat=Нажм╕ть вх╕д до балачки
 PrivacyPlease=Ув╕мкнути приватн╕сть (приховати кра╖ну, тощо)
@@ -380,8 +296,7 @@ ReactionSpeed=Швидк╕сть реакц╕╖
 RefreshList=Оновити список
 Regeneration=В╕дновлення
 ReloadLastGameSettings=В╕дновити останн╕ налаштування
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Remove=Remove
+Remove=Видалити
 Repair=В╕дновити
 RepairSpeed=Швидк╕сть в╕дновлення
 Reqs=Вимоги
@@ -393,15 +308,11 @@ ResourcesHarvested=З╕брано ресурс╕в
 Result=Результат
 Return=Повернутись
 Scenario=Сценар╕й
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScenarioTitle1=Scenarios
+ScenarioTitle1=Сценар╕╖
 Score=Оц╕нка
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScreenShotFileType=Screenshot file format
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScreenshotSavedTo=Screenshot will be saved to: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScreenShotConsoleText=Show Screenshot saved text
+ScreenShotFileType=Формат файлу зн╕мку екрану
+ScreenshotSavedTo=Зн╕мок екрану буде збережено в: %s
+ScreenShotConsoleText=Показати текст збереження зн╕мку
 Server=Сервер
 ServerPort=Порт сервера:
 ServerType=Тип сервера
@@ -412,8 +323,7 @@ ShadowMapping=Т╕нь карти
 Shadows=Т╕н╕
 ShowMapPreview=Попередн╕й перегляд мапи
 ShowUnitParticles=Розм╕щення юн╕т╕в:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ShowTilesetParticles=Tileset Particles:
+ShowTilesetParticles=Часточки плитки:
 Sight=Погляд
 Size=Розм╕р
 Slow=Пов╕льно
@@ -426,20 +336,14 @@ Stop=Зупинити
 Store=Комора
 Team=Команда
 TechTree=Дерево технолог╕╖
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TechTitle1=Tech Tree
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TechTitle2=Factions
+TechTitle1=Дерево технолог╕й
+TechTitle2=Фракц╕╖
 Textures3D=Текстури 3D:
-Tileset=Tileset
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TilesetTitle1=Tilesets
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TimeoutWaitingForClients=Timeout waiting for clients.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TimeoutWaitingForServer=Timeout waiting for server.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TimeoutWaitingForMessage=Timeout waiting for message.
+Tileset=Плитки
+TilesetTitle1=Плитки
+TimeoutWaitingForClients=Тайм-аут оч╕кування для кл╕╓нт╕в.
+TimeoutWaitingForServer=Тайм-аут оч╕кування для червера.
+TimeoutWaitingForMessage=Тайм-аут оч╕кування для пов╕домлення.
 Tip=Значення
 To switch off music press=Щоб вимкнути музику п╕д час оч╕кування гравц╕в натисн╕ть
 Tutorial=П╕дручник
