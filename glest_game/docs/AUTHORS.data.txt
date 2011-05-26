@@ -123,6 +123,7 @@ German               by Eduard Dopler (kontakt at eduard-dopler d0t de) based on
 Ukrainian            by Dmitry Nikitin
 Spanish              by Miguel Verdú based on the work of many others
 Catalan              by Miguel Verdú
+Russian              by Strannik
 
 Credits go to:
 ==============

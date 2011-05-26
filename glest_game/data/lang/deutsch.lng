@@ -192,11 +192,10 @@ MGJoinGameSlots=Spiel beitreten
 MGPlatform=Plattform
 MGVersion=Version
 Misc=Verschiedenes
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-MismatchedFactions=The following factions are mismatched:
+MismatchedFactions=Folgende Stämme stimmen nicht überein:
 MismatchedFactionsMissing=(fehlt)
 MismatchedFactionsExtra=(extra)
-ModLocalRemoteMismatch=Lokale Mod-Version von [%s] unterscheided sich\nzur Server-Version. Ersetzte Mod mit der Version des Servers?
+ModLocalRemoteMismatch=Lokale Mod-Version von [%s] unterscheidet sich\nvon der Server-Version. Ersetze Mod mit der Version des Servers?
 ModErrorGettingServerData=Fehler beim Empfangen der Daten vom Master-Server: %s
 ModRequires7z=** Warnung ** - Installiere das freie Programm 7z,\um Mods zu benutzen.
 ModDownloadInProgressCancelQuestion=Du hast im Moment %d Datei(en) heruntergeladen.\nVerlassen und den/die Download(s) Abbrechen?
@@ -313,8 +312,7 @@ ScenarioTitle1=Szenarien
 Score=Punkte
 ScreenShotFileType=Bildschirmfoto-Dateityp
 ScreenshotSavedTo=Bildschirmfoto wird gespeichert in %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScreenShotConsoleText=Show Screenshot saved text
+ScreenShotConsoleText=Hinweis bei Screenshot
 Server=Server
 ServerPort=Serverport:
 ServerType=Servertyp
@@ -338,9 +336,8 @@ Stop=Stopp
 Store=Lager
 Team=Team
 TechTree=Technologiebaum
-TechTitle1=Techtree
-; Next line needs translation, include by check.pl on Sat Apr 9, 2011
-TechTitle2=Factions
+TechTitle1=Technologiebaum
+TechTitle2=Stämme
 Textures3D=3D-Texturen:
 Tileset=Umgebung
 TilesetTitle1=Umgebungen
