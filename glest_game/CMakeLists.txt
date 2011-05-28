@@ -30,18 +30,18 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH})
 
 		# Installation of the program desktop file
-		INSTALL(FILES 
-		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.desktop"
-		  DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
+#		INSTALL(FILES 
+#		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.desktop"
+#		  DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
 
 		# Installation of the program desktop icon file
-		INSTALL(FILES 
-		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.png"
-                  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.bmp"
-                  "${PROJECT_SOURCE_DIR}/../../mk/linux/glest.ico"
-                  "${PROJECT_SOURCE_DIR}/editor.ico"
-                  "${PROJECT_SOURCE_DIR}/g3dviewer.ico"
-		  DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
+#		INSTALL(FILES 
+#		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.png"
+#                  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.bmp"
+#                  "${PROJECT_SOURCE_DIR}/../../mk/linux/glest.ico"
+#                  "${PROJECT_SOURCE_DIR}/editor.ico"
+#                  "${PROJECT_SOURCE_DIR}/g3dviewer.ico"
+#		  DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
 
 		# Installation of data files from outside normal data folder
 		INSTALL(DIRECTORY "${PROJECT_SOURCE_DIR}/../../source/masterserver/flags" 
@@ -68,9 +68,9 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		IF(NOT MEGAGLEST_DATA_INSTALL_PATH)
 			SET(MEGAGLEST_DATA_INSTALL_PATH "share/megaglest/" CACHE STRING "The installation path for data files (this is appended to the CMAKE_INSTALL_PREFIX)")
 		ENDIF()
-		IF(NOT MEGAGLEST_DESKTOP_INSTALL_PATH)
-                	SET(MEGAGLEST_DESKTOP_INSTALL_PATH "share/applications/" CACHE STRING "The installation path for desktop files (this is appended to the CMAKE_INSTALL_PREFIX)")
-		ENDIF()
+#		IF(NOT MEGAGLEST_DESKTOP_INSTALL_PATH)
+#                	SET(MEGAGLEST_DESKTOP_INSTALL_PATH "share/applications/" CACHE STRING "The installation path for desktop files (this is appended to the CMAKE_INSTALL_PREFIX)")
+		#ENDIF()
 		IF(NOT MEGAGLEST_ICON_INSTALL_PATH)
                 	SET(MEGAGLEST_ICON_INSTALL_PATH "share/pixmaps/" CACHE STRING "The installation path for icon files (this is appended to the CMAKE_INSTALL_PREFIX)")
 		ENDIF()
@@ -102,18 +102,18 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH})
 
 		# Installation of the program desktop file
-		INSTALL(FILES 
-		  "${PROJECT_SOURCE_DIR}/megaglest.desktop"
-		  DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
+#		INSTALL(FILES 
+#		  "${PROJECT_SOURCE_DIR}/megaglest.desktop"
+#		  DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
 
 		# Installation of the program desktop icon file
-		INSTALL(FILES 
-		  "${PROJECT_SOURCE_DIR}/megaglest.png"
-                  "${PROJECT_SOURCE_DIR}/megaglest.bmp"
-                  "${PROJECT_SOURCE_DIR}/editor.ico"
-                  "${PROJECT_SOURCE_DIR}/glest.ico"
-                  "${PROJECT_SOURCE_DIR}/g3dviewer.ico"
-		  DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
+#		INSTALL(FILES 
+#		  "${PROJECT_SOURCE_DIR}/megaglest.png"
+#                  "${PROJECT_SOURCE_DIR}/megaglest.bmp"
+#                  "${PROJECT_SOURCE_DIR}/editor.ico"
+#                  "${PROJECT_SOURCE_DIR}/glest.ico"
+#                  "${PROJECT_SOURCE_DIR}/g3dviewer.ico"
+#		  DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
 
 		# Installation of the data
 		install(
