@@ -376,3 +376,6 @@ WrongRouterSetup=Your firewall or router is not properly\nconfigured to host gam
 Yes=Yes
 YouLose=You lose!
 YouWin=You win
+
+;MEGAGLEST_FONT=/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Vera.ttf

@@ -1,0 +1,843 @@
+The following Fonts use this license:
+
+DoulosSILR.ttf
+ScheherazadeRegOT.ttf
+
+---------------------------
+
+http://scripts.sil.org/OFL <-- full license is here
+
+<excert> from License URL
+
+Overview
+
+
+The SIL Open Font License (OFL) is a free and open source license specifically designed for fonts and related software based on our experience in font design and linguistic software engineering.
+
+The main purpose is to enable a true open typographic community to spring up and grow. The OFL provides a legal framework and infrastructure for worldwide development, sharing and improvement of fonts and related software in a collaborative manner. It enables font authors to release their work under a common license that allows bundling, modification and redistribution. It encourages shared value, is not limited to any specific computing platform or environment, and can be used by other organisations or individuals.
+
+The OFL meets the specific needs of typographic design and engineering as well as the gold standards of the FLOSS (Free/Libre and Open Source Software) community, namely the cultural values and guidelines from the FSF 1, the Debian Free Software Guidelines2, as well as the Open Source Definition3. It draws inspiration from some concepts and elements found in other free and open licenses, but we believe our improvements in the specific area of fonts will make the licensing model work better than other models currently in use.
+
+ SIL International is a worldwide development and educational organisation. By facilitating language-based development, we serve the peoples of the world through research, translation, and literacy. We have been thinking about more open and participative models for a while, especially with recent partnerships with UNESCO (Initiative B@bel) and our work on the Gentium typeface.
+
+We want to:
+
+enable others to participate in our projects
+enable others to cater to needs for which we don't have the resources
+share our wealth of knowledge and experience in the area of writing systems and pass on our tools
+equip the community to meet its font needs
+We serve the peoples of the world without regard to their material wealth, so we are grateful to those that do fund our work. Visit  this page for information on supporting our efforts.
+
+==============================================================
+
+The following Fonts use this license:
+
+LinLibertine_Re.ttf
+
+---------------------------
+
+http://alioth.debian.org/projects/pkg-fonts <-- full license is here
+
+<excert> from License URL
+
+Name: Linux Libertine
+Maintainer: Christoph Egger
+
+See the Alioth project for co-maintainership of open fonts:
+http://alioth.debian.org/projects/pkg-fonts
+
+Source: http://linuxlibertine.sourceforge.net/
+Upstream Author: Philipp H. Poll <philthelion@users.sourceforge.net>
+
+Files: *
+Copyright: (C) 2003-2009 Philipp H. Poll <philthelion@users.sourceforge.net>
+License: GPL2+with-font-exception and OFL
+
+ The linux-libertine fonts are dual-licensed
+ under the GNU General Public License (GPL) with font exception,
+ and the SIL Open Font License (OFL).
+
+
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version 2
+ of the License, or (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+ 
+ As a special exception, if you create a document which uses this font, and
+ embed this font or unaltered portions of this font into the document, this font
+ does not by itself cause the resulting document to be covered by the GNU
+ General Public License. This exception does not however invalidate any other
+ reasons why the document might be covered by the GNU General Public License. If
+ you modify this font, you may extend this exception to your version of the
+ font, but you are not obligated to do so. If you do not wish to do so, delete
+ this exception statement from your version.
+ 
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in /usr/share/common-licenses/GPL-2 file.
+
+===================================================================
+
+The following Fonts use this license:
+
+unifont.ttf
+
+---------------------------
+
+This package was debianized by Paul Hardy <unifoundry@unifoundry.com> on
+Mon,  7 Jul 2008 00:28:10 -0700.
+
+It was downloaded from http://unifoundry.com
+
+Upstream Author: Paul Hardy <unifoundry@unifoundry.com>
+
+Copyright: Original unifont.hex and Perl scripts:
+              (c) 1998-2003 Roman Czyborra;
+           Unibit and Wen Quan Yi glyphs:
+              (c) 2004-2008 Qianqian Fang and the Wen Quan Yi Board
+                  of Trustees;
+           Shell, Perl, & FontForge scripts for converting unifont.hex
+              into TrueType:
+              (c) 2005-2008 Luis Gonzalez Miranda;
+           Additions to complete Unicode 5.1 Plane 0, C programs,
+              modifications to original programs, & GNU/Linux packaging:
+              (c) 2007-2008 Paul Hardy
+           Mods to debian/ directory and Makefiles for Debian packaging:
+              (c) 2008 Anthony Fok & Paul Hardy
+           Hangul Syllables glyphs (U+AC00..U+D7A3):
+              (c) 1986-2002 Jeong-Hwan Kim
+
+
+License for this package (all software by Paul Hardy, including GNU/Linux
+packaging, all software by Luis Gonzalez Miranda, and Debian modifications
+by Anthony Fok):
+
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General Public License
+version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+The Debian packaging is (C) 2008, Paul Hardy <unifoundry@unifoundry.com>
+and is licensed under the GPL.  See above.
+
+
+License for Roman Czyborra's work (including all Perl scripts in this
+package except "hex2sfd",  and all .hex font files except "wqy-cjk.hex"
+and "blanks.hex"):
+
+     The following is taken from http://czyborra.com/
+
+     All of my works you find here are freeware. You may freely copy,
+     use, quote, modify or redistribute them as long as you properly
+     attribute my contribution and have given a quick thought about
+     whether Roman might perhaps be interested to read what you did
+     with his stuff. Horizontal rules don't apply.
+
+
+License for the Wen Quan Yi fonts (used in file "wqy-cjk.hex",
+which is merged with other .hex files to build the default BDF,
+PCF, and TrueType fonts):
+
+   The Unibit and other Wen Quan Yi fonts are released under the
+   terms of the GNU General Public License (GPL) version 2, with
+   the exception that embedding the font in a document does not
+   by itself bind that document to the terms of the GNU GPL.  The
+   following paragraphs are taken from the Wen Quan Yi distribution:
+
+        ** GPL v2.0 license with font embedding exception:
+
+        As a special exception, if you create a document which
+        uses this font, and embed this font or unaltered portions
+        of this font into the document, this font does not by
+        itself cause the resulting document to be covered by
+        the GNU General Public License. This exception does not
+        however invalidate any other reasons why the document
+        might be covered by the GNU General Public License.
+        If you modify this font, you may extend this exception
+        to your version of the font, but you are not obligated
+        to do so. If you do not wish to do so, delete this
+        exception statement from your version.
+
+   See http://wqy.sourceforge.net/cgi-bin/enindex.cgi (English)
+   or http://wenq.org (Chinese) for more information on Wen Quan Yi.
+
+
+License for "blanks.hex":
+
+   Paul Hardy has previously released "blanks.hex" into the public domain.
+
+
+License for the Hangul Syllables (U+AC00..U+D7A3) portion of the font:
+
+   Changwoo Ryu obtained the Hangul Syllables glyphs from the fonts
+   in the xfonts-baekmuk Debian package, which he maintains.  An
+   identical set of Hangul Syllables glyphs appears in the file
+   unifont.bdf in the bf-utf-source Debian package, also maintained
+   by Changwoo Ryu.  The xfonts-baekmuk package is licensed as follows:
+
+   Copyright (c) 1986-2002 Kim Jeong-Hwan [Jeong-Hwan Kim]
+   All rights reserved.
+
+   Permission to use, copy, modify and distribute this font is
+   hereby granted, provided that both the copyright notice and
+   this permission notice appear in all copies of the font,
+   derivative works or modified versions, and that the following
+   acknowledgement appear in supporting documentation:
+       Baekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and
+       Baekmuk Headline are registered trademarks owned by
+       Kim Jeong-Hwan.
+
+   [The xfonts-baekmuk package also contains a verison of the
+   above notice in Korean.]
+
+===================================================================
+
+The following Fonts use this license:
+
+LiberationSans-Regular.ttf
+
+---------------------------
+
+This package was debianized by Alan Baghumian <alan@technotux.org> on
+Sat, 12 May 2007 16:13:31 +0330.
+
+It was downloaded from https://fedorahosted.org/liberation-fonts/
+
+Upstream Author: Red Hat Inc.
+
+Copyright: (C) 2007 Red Hat, Inc. All rights reserved. 
+	       LIBERATION is a trademark of Red Hat, Inc.
+
+License:
+
+ This agreement governs the use of the Software and any updates to the Software,
+ regardless of the delivery mechanism. Subject to the following terms, Red Hat, Inc.
+ ("Red Hat") grants to the user ("Client") a license to this work pursuant to 
+ the GNU General Public License v.2 with the exceptions set forth below and such 
+ other terms as our set forth in this End User License Agreement.
+
+ 1. The Software and License Exception. LIBERATION font software  (the "Software")
+ consists of TrueType-OpenType formatted font software for rendering LIBERATION
+ typefaces in sans serif, serif, and monospaced character styles. You are licensed 
+ to  use, modify, copy, and distribute the Software pursuant to the GNU General
+ Public License v.2 with the following exceptions:  
+
+ (a) As a special exception, if you create a document which uses this font, and 
+     embed this font or unaltered portions of this font into the document, this
+     font does not by itself cause the resulting document to be covered by the 
+     GNU General Public License.  This exception does not however invalidate any
+     other reasons why the document might be covered by the GNU General Public 
+     License.  If you modify this font, you may extend this exception to your 
+     version of the font, but you are not obligated to do so. If you do not 
+     wish to do so, delete this exception statement from your version.
+
+ (b) As a further exception, any distribution of the object code of the Software 
+     in a physical product must provide you the right to access and modify the
+     source code for the Software and to reinstall that modified version of the 
+     Software in object code form on the same physical product on which you 
+     received it.
+
+ 2. Intellectual Property Rights. The Software and each of its components, including 
+    the source code, documentation, appearance, structure and organization are owned 
+    by Red Hat and others and are protected under copyright and other laws. Title to 
+    the Software and any component, or to any copy, modification, or merged portion
+    shall remain with the aforementioned, subject to the applicable license. 
+    The "LIBERATION" trademark is a trademark of Red Hat, Inc. in the U.S. and other
+    countries. This agreement does not permit Client to distribute modified versions 
+    of the Software using Red Hat's trademarks. If Client makes a redistribution of 
+    a modified version of the Software, then Client must modify the files names to 
+    remove any reference to the Red Hat trademarks and must not use the Red Hat 
+    trademarks in any way to reference or promote the modified Software. 
+
+ 3. Limited Warranty. To the maximum extent permitted under applicable law, the 
+    Software is provided and licensed "as is" without warranty of any kind, 
+    expressed or implied, including the implied warranties of merchantability, 
+    non-infringement or fitness for a particular purpose. Red Hat does not warrant
+    that the functions contained in the Software will meet Client's requirements or
+    that the operation of the Software will be entirely error free or appear precisely
+    as described in the accompanying documentation. 
+
+ 4. Limitation of Remedies and Liability.  To the maximum extent permitted by applicable
+    law, Red Hat or any Red Hat authorized dealer will not be liable to Client for any
+    incidental or consequential damages, including lost profits or lost savings arising 
+    out of the use or inability to use the Software, even if Red Hat or such dealer has
+    been advised of the possibility of such damages. 
+
+ 5. General. If any provision of this agreement is held to be unenforceable, that shall
+    not affect the enforceability of the remaining provisions. This agreement shall be
+    governed by the laws of the State of North Carolina and of the United States, without
+    regard to any conflict of laws provisions, except that the United Nations Convention 
+    on the International Sale of Goods shall not apply.
+
+On Debian systems, the complete text of the GNU General
+Public License version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+=================================================
+
+The following Fonts use this license:
+
+Vera*.ttf
+
+---------------------------
+
+
+Bitstream Vera Fonts Copyright
+
+The fonts have a generous copyright, allowing derivative works (as
+long as "Bitstream" or "Vera" are not in the names), and full
+redistribution (so long as they are not *sold* by themselves). They
+can be be bundled, redistributed and sold with any software.
+
+The fonts are distributed under the following copyright:
+
+Copyright
+=========
+
+Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream
+Vera is a trademark of Bitstream, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the fonts accompanying this license ("Fonts") and associated
+documentation files (the "Font Software"), to reproduce and distribute
+the Font Software, including without limitation the rights to use,
+copy, merge, publish, distribute, and/or sell copies of the Font
+Software, and to permit persons to whom the Font Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright and trademark notices and this permission notice
+shall be included in all copies of one or more of the Font Software
+typefaces.
+
+The Font Software may be modified, altered, or added to, and in
+particular the designs of glyphs or characters in the Fonts may be
+modified and additional glyphs or characters may be added to the
+Fonts, only if the fonts are renamed to names not containing either
+the words "Bitstream" or the word "Vera".
+
+This License becomes null and void to the extent applicable to Fonts
+or Font Software that has been modified and is distributed under the
+"Bitstream Vera" names.
+
+The Font Software may be sold as part of a larger software package but
+no copy of one or more of the Font Software typefaces may be sold by
+itself.
+
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL
+BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL,
+OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT
+SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.
+
+Except as contained in this notice, the names of Gnome, the Gnome
+Foundation, and Bitstream Inc., shall not be used in advertising or
+otherwise to promote the sale, use or other dealings in this Font
+Software without prior written authorization from the Gnome Foundation
+or Bitstream Inc., respectively. For further information, contact:
+fonts at gnome dot org.
+
+Copyright FAQ
+=============
+
+   1. I don't understand the resale restriction... What gives?
+
+      Bitstream is giving away these fonts, but wishes to ensure its
+      competitors can't just drop the fonts as is into a font sale system
+      and sell them as is. It seems fair that if Bitstream can't make money
+      from the Bitstream Vera fonts, their competitors should not be able to
+      do so either. You can sell the fonts as part of any software package,
+      however.
+
+   2. I want to package these fonts separately for distribution and
+      sale as part of a larger software package or system.  Can I do so?
+
+      Yes. A RPM or Debian package is a "larger software package" to begin 
+      with, and you aren't selling them independently by themselves. 
+      See 1. above.
+
+   3. Are derivative works allowed?
+      Yes!
+
+   4. Can I change or add to the font(s)?
+      Yes, but you must change the name(s) of the font(s).
+
+   5. Under what terms are derivative works allowed?
+
+      You must change the name(s) of the fonts. This is to ensure the
+      quality of the fonts, both to protect Bitstream and Gnome. We want to
+      ensure that if an application has opened a font specifically of these
+      names, it gets what it expects (though of course, using fontconfig,
+      substitutions could still could have occurred during font
+      opening). You must include the Bitstream copyright. Additional
+      copyrights can be added, as per copyright law. Happy Font Hacking!
+
+   6. If I have improvements for Bitstream Vera, is it possible they might get 
+       adopted in future versions?
+
+      Yes. The contract between the Gnome Foundation and Bitstream has
+      provisions for working with Bitstream to ensure quality additions to
+      the Bitstream Vera font family. Please contact us if you have such
+      additions. Note, that in general, we will want such additions for the
+      entire family, not just a single font, and that you'll have to keep
+      both Gnome and Jim Lyles, Vera's designer, happy! To make sense to add
+      glyphs to the font, they must be stylistically in keeping with Vera's
+      design. Vera cannot become a "ransom note" font. Jim Lyles will be
+      providing a document describing the design elements used in Vera, as a
+      guide and aid for people interested in contributing to Vera.
+
+   7. I want to sell a software package that uses these fonts: Can I do so?
+
+      Sure. Bundle the fonts with your software and sell your software
+      with the fonts. That is the intent of the copyright.
+
+   8. If applications have built the names "Bitstream Vera" into them, 
+      can I override this somehow to use fonts of my choosing?
+
+      This depends on exact details of the software. Most open source
+      systems and software (e.g., Gnome, KDE, etc.) are now converting to
+      use fontconfig (see www.fontconfig.org) to handle font configuration,
+      selection and substitution; it has provisions for overriding font
+      names and subsituting alternatives. An example is provided by the
+      supplied local.conf file, which chooses the family Bitstream Vera for
+      "sans", "serif" and "monospace".  Other software (e.g., the XFree86
+      core server) has other mechanisms for font substitution.
+
+===========================================================
+
+The following Fonts use this license:
+
+TakaoPGothic.ttf
+
+---------------------------
+
+This package was debianized by Jun Kobayashi <jkbys@ubuntu.com> on
+Sat, 03 Apr 2010 01:56:19 +0900
+
+It was downloaded from https://launchpad.net/takao-fonts
+
+This package based on the otf-ipafont package debianized by 
+Hideki Yamane (Debian-JP) <henrich@debian.or.jp> on
+Sun, 10 May 2009 02:24:46 +0900.
+
+Upstream Author:
+
+    Takao Fonts Maintainers Team
+    (https://launchpad.net/~takao-fonts-team)
+
+Copyright:
+
+    Copyright (C) 2007-2009 Information-technology Promotion Agency, Japan.
+    Copyright (C) 2010 Takao Fonts Maintainers Team
+
+
+License:
+
+--------------------------------------------------
+IPA Font License Agreement v1.0 <Japanese/English>
+--------------------------------------------------
+
+IPAフォントライセンスv1.0
+
+    許諾者は、この使用許諾（以下「本契約」といいます。）に定める条件の
+    下で、許諾プログラム（1条に定義するところによります。）を提供します。
+    受領者（1条に定義するところによります。）が、許諾プログラムを使用し、
+    複製し、または頒布する行為、その他、本契約に定める権利の利用を行っ
+    た場合、受領者は本契約に同意したものと見なします。
+
+
+    第1条　用語の定義
+
+    本契約において、次の各号に掲げる用語は、当該各号に定めるところによ
+    ります。
+
+    1.「デジタル･フォント･プログラム」とは、フォントを含み、レンダリン
+       グしまたは表示するために用いられるコンピュータ・プログラムをいい
+       ます。
+    2.「許諾プログラム」とは、許諾者が本契約の下で許諾するデジタル･フォ
+       ント･プログラムをいいます。
+    3.「派生プログラム」とは、許諾プログラムの一部または全部を、改変し、
+       加除修正等し、入れ替え、その他翻案したデジタル･フォント･プログラ
+       ムをいい、許諾プログラムの一部もしくは全部から文字情報を取り出し、
+       またはデジタル･ドキュメント･ファイルからエンベッドされたフォント
+       を取り出し、取り出された文字情報をそのまま、または改変をなして新
+       たなデジタル・フォント・プログラムとして製作されたものを含みます。
+    4.「デジタル・コンテンツ」とは、デジタル・データ形式によってエンド・
+       ユーザに提供される制作物のことをいい、動画・静止画等の映像コンテ
+       ンツおよびテレビ番組等の放送コンテンツ、ならびに文字テキスト、画
+       像、図形等を含んで構成された制作物を含みます。
+    5.「デジタル・ドキュメント・ファイル」とは、PDFファイルその他、各種
+       ソフトウェア･プログラムによって製作されたデジタル・コンテンツで
+       あって、その中にフォントを表示するために許諾プログラムの全部また
+       は一部が埋め込まれた（エンベッドされた）ものをいいます。フォント
+       が「エンベッドされた」とは、当該フォントが埋め込まれた特定の「デ
+       ジタル・ドキュメント・ファイル」においてのみ表示されるために使用
+       されている状態を指し、その特定の「デジタル・ドキュメント・ファイ
+       ル」以外でフォントを表示するために使用できるデジタル・フォント・
+       プログラムに含まれている場合と区別されます。
+    6.「コンピュータ｣とは、本契約においては、サーバを含みます。
+    7.「複製その他の利用」とは、複製、譲渡、頒布、貸与、公衆送信、上映、
+       展示、翻案その他の利用をいいます。 
+    8.「受領者」とは、許諾プログラムを本契約の下で受領した人をいい、受
+       領者から許諾プログラムを受領した人を含みます。
+
+
+    第２条 使用許諾の付与
+
+    許諾者は受領者に対し、本契約の条項に従い、すべての国で、許諾プログ
+    ラムを使用することを許諾します。ただし、許諾プログラムに存在する一
+    切の権利はすべて許諾者が保有しています。本契約は、本契約で明示的に
+    定められている場合を除き、いかなる意味においても、許諾者が保有する
+    許諾プログラムに関する一切の権利および、いかなる商標、商号、もしく
+    はサービス・マークに関する権利をも受領者に移転するものではありませ
+    ん。
+
+     1.受領者は本契約に定める条件に従い、許諾プログラムを任意の数のコン
+       ピュータにインストールし、当該コンピュータで使用することができま
+       す。
+     2.受領者はコンピュータにインストールされた許諾プログラムをそのまま、
+       または改変を行ったうえで、印刷物およびデジタル・コンテンツにおい
+       て、文字テキスト表現等として使用することができます。
+     3.受領者は前項の定めに従い作成した印刷物およびデジタル・コンテンツ
+       につき、その商用・非商用の別、および放送、通信、各種記録メディア
+       などの媒体の形式を問わず、複製その他の利用をすることができます。
+     4.受領者がデジタル・ドキュメント・ファイルからエンベッドされたフォ
+       ントを取り出して派生プログラムを作成した場合には、かかる派生プロ
+       グラムは本契約に定める条件に従う必要があります。
+     5.許諾プログラムのエンベッドされたフォントがデジタル・ドキュメント・
+       ファイル内のデジタル・コンテンツをレンダリングするためにのみ使用
+       される場合において、受領者が当該デジタル・ドキュメント・ファイル
+       を複製その他の利用をする場合には、受領者はかかる行為に関しては本
+       契約の下ではいかなる義務をも負いません。
+     6.受領者は、3条2項の定めに従い、商用・非商用を問わず、許諾プログラ
+       ムをそのままの状態で改変することなく複製して第三者への譲渡し、公
+       衆送信し、その他の方法で再配布することができます(以下、「再配布」
+       といいます。)。
+     7.受領者は、上記の許諾プログラムについて定められた条件と同様の条件
+       に従って、派生プログラムを作成し、使用し、複製し、再配布すること
+       ができます。ただし、受領者が派生プログラムを再配布する場合には、
+       3条1項の定めに従うものとします。
+
+    第３条　制限
+
+    前条により付与された使用許諾は、以下の制限に服します。
+
+     1.派生プログラムが前条4項及び7項に基づき再配布される場合には、以下
+       の全ての条件を満たさなければなりません。
+    　(1)派生プログラムを再配布する際には、下記もまた、当該派生プログラ
+        ムと一緒に再配布され、オンラインで提供され、または、郵送費・媒
+        体及び取扱手数料の合計を超えない実費と引き換えに媒体を郵送する
+        方法により提供されなければなりません。
+    　　(a)派生プログラムの写し; および
+    　　(b)派生プログラムを作成する過程でフォント開発プログラムによって
+          作成された追加のファイルであって派生プログラムをさらに加工す
+          るにあたって利用できるファイルが存在すれば、当該ファイル
+    　(2)派生プログラムの受領者が、派生プログラムを、このライセンスの下
+         で最初にリリースされた許諾プログラム（以下、「オリジナル・プロ
+         グラム」といいます。）に置き換えることができる方法を再配布する
+         ものとします。かかる方法は、オリジナル・ファイルからの差分ファ
+         イルの提供、または、派生プログラムをオリジナル・プログラムに置
+         き換える方法を示す指示の提供などが考えられます。
+    　(3)派生プログラムを、本契約書に定められた条件の下でライセンスしな
+         ければなりません。
+    　(4)派生プログラムのプログラム名、フォント名またはファイル名として、
+         許諾プログラムが用いているのと同一の名称、またはこれを含む名称
+         を使用してはなりません。
+    　(5)本項の要件を満たすためにオンラインで提供し、または媒体を郵送す
+         る方法で提供されるものは、その提供を希望するいかなる者によって
+         も提供が可能です。
+    2.受領者が前条6項に基づき許諾プログラムを再配布する場合には、以下の
+      全ての条件を満たさなければなりません。
+    　(1)許諾プログラムの名称を変更してはなりません。
+    　(2)許諾プログラムに加工その他の改変を加えてはなりません。
+    　(3)本契約の写しを許諾プログラムに添付しなければなりません。
+    3.許諾プログラムは、現状有姿で提供されており、許諾プログラムまたは
+      派生プログラムについて、許諾者は一切の明示または黙示の保証（権利
+      の所在、非侵害、商品性、特定目的への適合性を含むがこれに限られま
+      せん）を行いません。いかなる場合にも、その原因を問わず、契約上の
+      責任か厳格責任か過失その他の不法行為責任かにかかわらず、また事前
+      に通知されたか否かにかかわらず、許諾者は、許諾プログラムまたは派
+      生プログラムのインストール、使用、複製その他の利用または本契約上
+      の権利の行使によって生じた一切の損害（直接・間接・付随的・特別・
+      拡大・懲罰的または結果的損害）（商品またはサービスの代替品の調達、
+      システム障害から生じた損害、現存するデータまたはプログラムの紛失
+      または破損、逸失利益を含むがこれに限られません）について責任を負
+      いません。4.許諾プログラムまたは派生プログラムのインストール、使
+      用、複製その他の利用に関して、許諾者は技術的な質問や問い合わせ等
+      に対する対応その他、いかなるユーザ・サポートをも行う義務を負いま
+      せん。
+
+    第４条　契約の終了
+
+    1.本契約の有効期間は、受領者が許諾プログラムを受領した時に開始し、
+      受領者が許諾プログラムを何らかの方法で保持する限り続くものとしま
+      す。
+    2.前項の定めにかかわらず、受領者が本契約に定める各条項に違反したと
+      きは、本契約は、何らの催告を要することなく、自動的に終了し、当該
+      受領者はそれ以後、許諾プログラムおよび派生プログラムを一切使用し
+      または複製その他の利用をすることができないものとします。ただし、
+      かかる契約の終了は、当該違反した受領者から許諾プログラムまたは派
+      生プログラムの配布を受けた受領者の権利に影響を及ぼすものではあり
+      ません。
+
+    第５条　準拠法
+
+    1.IPAは、本契約の変更バージョンまたは新しいバージョンを公表すること
+      ができます。その場合には、受領者は、許諾プログラムまたは派生プロ
+      グラムの使用、複製その他の利用または再配布にあたり、本契約または
+      変更後の契約のいずれかを選択することができます。その他、上記に記
+      載されていない条項に関しては日本の著作権法および関連法規に従うも
+      のとします。
+    2.本契約は、日本法に基づき解釈されます。
+
+
+----------
+
+    IPA Font License Agreement v1.0
+
+    The Licensor provides the Licensed Program (as defined in Article
+    1 below) under the terms of this license agreement (“Agreement”).
+    Any use, reproduction or distribution of the Licensed Program, or
+    any exercise of rights under this Agreement by a Recipient (as
+    defined in Article 1 below) constitutes the Recipient's acceptance
+    of this Agreement.
+
+    Article 1 (Definitions) 
+    1.“Digital Font Program” shall mean a computer program containing,
+      or used to render or display fonts.
+    2.“Licensed Program” shall mean a Digital Font Program licensed by
+      the Licensor under this Agreement.
+    3.“Derived Program” shall mean a Digital Font Program created as a
+      result of a modification, addition, deletion, replacement or any
+      other adaptation to or of a part or all of the Licensed Program,
+      and includes a case where a Digital Font Program newly created
+      by retrieving font information from a part or all of the
+      Licensed Program or Embedded Fonts from a Digital Document File
+      with or without modification of the retrieved font information.
+    4.“Digital Content” shall mean products provided to end users in
+      the form of digital data, including video content, motion and/or
+      still pictures, TV programs or other broadcasting content and
+      products consisting of character text, pictures, photographic
+      images, graphic symbols and/or the like.
+    5.“Digital Document File” shall mean a PDF file or other Digital
+      Content created by various software programs in which a part or
+      all of the Licensed Program becomes embedded or contained in the
+      file for the display of the font (“Embedded Fonts”).  Embedded
+      Fonts are used only in the display of characters in the
+      particular Digital Document File within which they are embedded,
+      and shall be distinguished from those in any Digital Font
+      Program, which may be used for display of characters outside
+      that particular Digital Document File.
+    6.“Computer” shall include a server in this Agreement.
+    7.“Reproduction and Other Exploitation” shall mean reproduction,
+      transfer, distribution, lease, public transmission,
+      presentation, exhibition, adaptation and any other exploitation.
+    8.“Recipient” shall mean anyone who receives the Licensed Program
+      under this Agreement, including one that receives the Licensed
+      Program from a Recipient.
+
+    Article 2 (Grant of License) 
+     The Licensor grants to the Recipient a license to use the
+     Licensed Program in any and all countries in accordance with each
+     of the provisions set forth in this Agreement. However, any and
+     all rights underlying in the Licensed Program shall be held by
+     the Licensor. In no sense is this Agreement intended to transfer
+     any right relating to the Licensed Program held by the Licensor
+     except as specifically set forth herein or any right relating to
+     any trademark, trade name, or service mark to the Recipient.
+
+    1.The Recipient may install the Licensed Program on any number of
+      Computers and use the same in accordance with the provisions set
+      forth in this Agreement.
+    2.The Recipient may use the Licensed Program, with or without
+      modification in printed materials or in Digital Content as an
+      expression of character texts or the like.
+    3.The Recipient may conduct Reproduction and Other Exploitation of
+      the printed materials and Digital Content created in accordance
+      with the preceding Paragraph, for commercial or non-commercial
+      purposes and in any form of media including but not limited to
+      broadcasting, communication and various recording media.
+    4.If any Recipient extracts Embedded Fonts from a Digital Document
+      File to create a Derived Program, such Derived Program shall be
+      subject to the terms of this agreement.
+    5.If any Recipient performs Reproduction or Other Exploitation of
+      a Digital Document File in which Embedded Fonts of the Licensed
+      Program are used only for rendering the Digital Content within
+      such Digital Document File then such Recipient shall have no
+      further obligations under this Agreement in relation to such
+      actions.
+    6.The Recipient may reproduce the Licensed Program as is without
+      modification and transfer such copies, publicly transmit or
+      otherwise redistribute the Licensed Program to a third party for
+      commercial or non-commercial purposes (“Redistribute”), in
+      accordance with the provisions set forth in Article 3 Paragraph
+      2.
+    7.The Recipient may create, use, reproduce and/or Redistribute a
+      Derived Program under the terms stated above for the Licensed
+      Program: provided, that the Recipient shall follow the
+      provisions set forth in Article 3 Paragraph 1 when
+      Redistributing the Derived Program.
+
+    Article 3 (Restriction) 
+     
+     The license granted in the preceding Article shall be subject to
+     the following restrictions:
+
+    1.If a Derived Program is Redistributed pursuant to Paragraph 4
+      and 7 of the preceding Article, the following conditions must be
+      met :
+      (1)The following must be also Redistributed together with the
+         Derived Program, or be made available online or by means of 
+         mailing mechanisms in exchange for a cost which does not exceed
+         the total costs of postage, storage medium and handling fees:
+	 (a)a copy of the Derived Program; and
+	 (b)any additional file created by the font developing program
+ 	   in the course of creating the Derived Program that can be
+ 	   used for further modification of the Derived Program, if
+ 	   any.
+      (2)It is required to also Redistribute means to enable
+         recipients of the Derived Program to replace the Derived
+         Program with the Licensed Program first released under this
+         License (the “Original Program”).  Such means may be to
+         provide a difference file from the Original Program, or
+         instructions setting out a method to replace the Derived
+         Program with the Original Program.
+      (3)The Recipient must license the Derived Program under the
+         terms and conditions of this Agreement.
+      (4)No one may use or include the name of the Licensed Program as
+         a program name, font name or file name of the Derived Program.
+      (5)Any material to be made available online or by means of
+         mailing a medium to satisfy the requirements of this
+         paragraph may be provided, verbatim, by any party wishing to
+         do so.
+    2.If the Recipient Redistributes the Licensed Program
+      pursuant to Paragraph 6 of the preceding Article, the
+      Recipient shall meet all of the following conditions: 　
+      (1)The Recipient may not change the name of the Licensed Program. 
+      (2)The Recipient may not alter or otherwise modify the Licensed 
+         Program.  　
+      (3)The Recipient must attach a copy of this Agreement to the Licensed 
+         Program.
+    3.THIS LICENSED PROGRAM IS PROVIDED BY THE LICENSOR "AS IS" AND
+      ANY EXPRESSED OR IMPLIED WARRANTY AS TO THE LICENSED PROGRAM OR
+      ANY DERIVED PROGRAM, INCLUDING, BUT NOT LIMITED TO, WARRANTIES
+      OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A
+      PARTICULAR PURPOSE, ARE DISCLAIMED. IN NO EVENT SHALL THE
+      LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+      SPECIAL, EXTENDED, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+      (INCLUDING, BUT NOT LIMITED TO; PROCUREMENT OF SUBSTITUTED GOODS
+      OR SERVICE; DAMAGES ARISING FROM SYSTEM FAILURE; LOSS OR
+      CORRUPTION OF EXISTING DATA OR PROGRAM; LOST PROFITS), HOWEVER
+      CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+      STRICT LIABILITY OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+      ARISING IN ANY WAY OUT OF THE INSTALLATION, USE, THE
+      REPRODUCTION OR OTHER EXPLOITATION OF THE LICENSED PROGRAM OR
+      ANY DERIVED PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED
+      HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+    4.The Licensor is under no obligation to respond to any technical
+      questions or inquiries, or provide any other user support in
+      connection with the installation, use or the Reproduction and
+      Other Exploitation of the Licensed Program or Derived Programs
+      thereof.
+
+
+    Article 4 (Termination of Agreement) 
+    1.The term of this Agreement shall begin from the time of receipt
+      of the Licensed Program by the Recipient and shall continue as
+      long as the Recipient retains any such Licensed Program in any
+      way.
+    2.Notwithstanding the provision set forth in the preceding
+      Paragraph, in the event of the breach of any of the provisions
+      set forth in this Agreement by the Recipient, this Agreement
+      shall automatically terminate without any notice. In the case of
+      such termination, the Recipient may not use or conduct
+      Reproduction and Other Exploitation of the Licensed Program or a
+      Derived Program: provided that such termination shall not affect
+      any rights of any other Recipient receiving the Licensed Program
+      or the Derived Program from such Recipient who breached this
+      Agreement.
+
+    Article 5 (Governing Law)
+    1.IPA may publish revised and/or new versions of this License.  In
+      such an event, the Recipient may select either this Agreement or
+      any subsequent version of the Agreement in using, conducting the
+      Reproduction and Other Exploitation of, or Redistributing the
+      Licensed Program or a Derived Program. Other matters not
+      specified above shall be subject to the Copyright Law of Japan
+      and other related laws and regulations of Japan.
+    2.This Agreement shall be construed under the laws of Japan.
+
+
+
+The Debian packaging is:
+
+    Copyright (C) 2009 Hideki Yamane (Debian-JP) <henrich@debian.or.jp>
+    Copyright (C) 2010 Jun Kobayashi <jkbys@ubuntu.com>
+
+and is licensed under the GPL version 3, see `/usr/share/common-licenses/GPL-3'.
+
+======================================================
+
+The following Fonts use this license:
+
+gothub__.ttf
+
+---------------------------
+
+This package was debianized by Vladimir Shahov <mendoza@avb.bas-net.by> on
+Sun, 29 Aug 2004 14:12:13 +0300.
+
+It was downloaded from http://peoples.org.ru/eng_uralic.html
+
+Upstream Authors: URW++ Design & Development GmbH
+	Valek Filippov <frob@df.ru>,
+	Esa Anttikoski <Esa.Anttikoski@joensuu.fi>
+
+The original fonts were created by URW++, the Cyrillic part by Valek Filippov,
+and were modified by Esa Anttikoski. 
+
+Copyright:
+Uralic is a collection of free TrueType fonts for Uralic languages.
+
+Copyright (C) 2000-2004 URW++ Design & Development GmbH, Valek Filippov, 
+Esa Anttikoski
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2, or (at your option)
+any later version.
+
+This program is distributed in the hope that it will be useful,   
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License 
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+02111-1307, USA.
+
+On Debian systems, the complete text of the GNU General Public License 
+can be found in /usr/share/common-licenses/GPL file.
