@@ -369,3 +369,5 @@ WrongRouterSetup=Deine Firewall oder dein Router\nsind nicht richtig konfigurier
 Yes=Ja
 YouLose=Verloren
 YouWin=Du hast gewonnen
+
+MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Vera.ttf
