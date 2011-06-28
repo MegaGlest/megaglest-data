@@ -372,3 +372,4 @@ YouLose=Verloren
 YouWin=Du hast gewonnen
 
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Vera.ttf
+FONT_YOFFSET_FACTOR=2

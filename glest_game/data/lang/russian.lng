@@ -379,7 +379,7 @@ YouLose=Bы потерпели поражение
 YouWin=Bы одержали победу
 
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/DoulosSILR.ttf
-FONT_YOFFSET_FACTOR=4
+FONT_YOFFSET_FACTOR=0
 FontConsoleBaseSize=18
 FontConsolePostfix=-*-*-*-*-*-*-r
 FontConsolePrefix=-*-*-*-*-*-*-

@@ -378,5 +378,7 @@ Yes=Yes
 YouLose=You lose!
 YouWin=You win
 
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSans.ttf
 ;MEGAGLEST_FONT=/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
 ;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Vera.ttf
+FONT_YOFFSET_FACTOR=2
