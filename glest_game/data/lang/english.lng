@@ -299,6 +299,7 @@ PublishServer=Publish on Masterserver?
 PublishServerExternalPort=External Port #
 Question=Question
 QuitGame=Chose to leave the game!
+RainEffect=Rain Effect
 ReactionSpeed=Reaction speed
 RefreshList=Refresh List
 Regeneration=Regen
@@ -379,6 +380,4 @@ YouLose=You lose!
 YouWin=You win
 
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSans.ttf
-;MEGAGLEST_FONT=/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Vera.ttf
 FONT_YOFFSET_FACTOR=2
