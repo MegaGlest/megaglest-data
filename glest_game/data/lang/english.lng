@@ -380,4 +380,4 @@ YouLose=You lose!
 YouWin=You win
 
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSans.ttf
-FONT_YOFFSET_FACTOR=2
+FONT_YOFFSET_FACTOR=0
