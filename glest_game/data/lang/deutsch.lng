@@ -371,5 +371,5 @@ Yes=Ja
 YouLose=Verloren
 YouWin=Du hast gewonnen
 
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Vera.ttf
-MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSans.ttf
+MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/TakaoPGothic.ttf
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSans.ttf
