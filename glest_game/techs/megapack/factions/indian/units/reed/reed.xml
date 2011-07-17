@@ -59,6 +59,7 @@
 			<ep-cost value="0" />
 			<speed value="120"/>
 			<anim-speed value="0" />
+			<anim-progress-bound value="true"/>
 			<animation path="models/reed_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
