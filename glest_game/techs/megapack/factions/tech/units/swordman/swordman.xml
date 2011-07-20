@@ -91,7 +91,6 @@
 			<speed value="100"/>
 			<anim-speed value="100"/>
 			<animation path="models/swordman_attacking.g3d"/>
-			<animation path="models/guard_attacking.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack2.wav"/>
@@ -174,7 +173,8 @@
 			<move-skill value="charge_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-		
+
+		
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>

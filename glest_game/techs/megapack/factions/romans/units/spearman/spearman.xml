@@ -91,7 +91,6 @@
 			<speed value="35"/>
 			<anim-speed value="90"/>
 			<animation path="models/s_speer_man_attack_land.g3d"/>
-			<animation path="models/s_speer_man_attack_air.g3d"/>
 			<sound enabled="true" start-time="0.47">
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/swordman_attack2.wav"/>

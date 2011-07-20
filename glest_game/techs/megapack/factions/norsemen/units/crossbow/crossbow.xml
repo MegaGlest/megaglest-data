@@ -17,6 +17,7 @@
 			<field value="land"/>
 		</fields>	
 		<properties>
+			<property value="rotated_climb"/>
 		</properties>
 		<light enabled="false"/>
 		<unit-requirements>
