@@ -235,11 +235,17 @@ ModSelectScenarioToRemove=You must first select a scenario to remove.
 ModDownloadScenarioSuccess=SUCCESSFULLY downloaded the scenario: %s
 ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version [%s] [%s]
 
+ModInstalled=Installed
+ModAvailable=Available
+ModOnlyLocal=Not on server
+ModHasConflict=Different on server
+
 Mods=Game Mods
 Morph=Morph
 MorphNoReqs=requirements to morph are not satisfied
 MorphNoRes=Not enough resources to morph unit
 MorphSpeed=Morph Speed
+MouseScrollsWorld=Mouse moves camera
 Move=Move
 MusicVolume=Music Volume:
 Network=Network
@@ -252,6 +258,7 @@ NetworkGameClientLoadStatus=Waiting for network: %lld seconds elapsed (maximum w
 NetworkGameServerLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
 NetworkGameStatusWaiting=Waiting for players: %s
 NetworkPauseGameForLaggedClients=Pause for Lagged Clients 
+NetworkUnassigned=Player lacks open slot
 NewGame=New Game
 No=No
 NoServerVisitChat=No Server? Visit the chat
