@@ -125,6 +125,7 @@ Ukrainian            by Dmitry Nikitin
 Spanish              by Miguel Verdú based on the work of many others
 Catalan              by Miguel Verdú
 Russian              by Strannik
+Portuguese           by felipeludo2011
 
 Credits go to:
 ==============
