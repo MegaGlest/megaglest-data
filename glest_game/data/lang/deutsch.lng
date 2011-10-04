@@ -375,5 +375,10 @@ Yes=Ja
 YouLose=Verloren
 YouWin=Du hast gewonnen
 
-MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LiberationSans-Regular.ttf
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Bienetresocial.ttf
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LiberationSans-Regular.ttf
 ;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSans.ttf
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinLibertine_Re.ttf
+;FONT_SCALE_SIZE=0.95
+;FONT_BASE_SIZE=3
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_Re-0.6.4.ttf
