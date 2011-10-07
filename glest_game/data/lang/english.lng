@@ -292,6 +292,7 @@ OrdersOnQueue=Orders on queue
 PathFinderType=Path Finder Type
 PathFinderTypeRegular=Regular
 PathFinderTypeRoutePlanner=RP-beta
+PauseResumeGame=Pause/Resume Game
 Play=Play
 PlayNow=Play now!
 Player=Player 
