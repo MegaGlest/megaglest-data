@@ -31,7 +31,6 @@
 	</camera>
 	<intro>
 
-
 		<intro-time value="50000"/>
 		<appear-time value="2000"/>
 		<show-time value="1500"/>
@@ -40,17 +39,15 @@
 		<menu-intro-music value="intro_music1.ogg"/>
 		<menu-music value="menu_music1.ogg"/>
 		<show-intro-pictures value="8" random="true" time="2500"/>
-
 <!--
 		<intro-time value="24000"/>
-		<appear-time value="2500"/>
-		<show-time value="2500"/>
-		<disappear-time value="2500"/>
+		<appear-time value="2000"/>
+		<show-time value="1500"/>
+		<disappear-time value="2000"/>
 		<menu-music-path value="/menu/music/"/>
 		<menu-intro-music value="intro_music.ogg"/>
 		<menu-music value="menu_music.ogg"/>
 		<show-intro-pictures value="0" random="false" time="0"/>
 -->
-
 	</intro>
 </menu>
