@@ -8,6 +8,7 @@
 		<max-ep value="0"/>
 		<armor value="30"/>	
 		<armor-type value="metal"/>
+		<max-unit-count value="5"/>
 		<sight value="15"/>
 		<time value="80"/>	
 		<multi-selection value="true"/>	
@@ -63,6 +64,23 @@
 			<speed value="1000"/>
 			<anim-speed value="50"/>
 			<animation path="models/roman_soldier_stand.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="10"/>
+                        	<target value="faction"></target>
+				<max-hp value="0"/>
+				<max-ep value="0"/>
+				<sight value="1"/>
+				<attack-strenght value="30" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="20" value-percent-multiplier="true"/>
+				<production-speed value="0"/>
+				<particles value="true">
+				<!--originator-particle-file path="glow_particles.xml"/-->
+					<affected-particle-file path="glow_particles.xml"/>
+				</particles>
+                        </attack-boost>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -73,6 +91,23 @@
 			<speed value="170"/>
 			<anim-speed value="120"/>
 			<animation path="models/roman_soldier_walk.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="10"/>
+                        	<target value="faction"></target>
+				<max-hp value="0"/>
+				<max-ep value="0"/>
+				<sight value="1"/>
+				<attack-strenght value="30" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="20" value-percent-multiplier="true"/>
+				<production-speed value="0"/>
+				<particles value="true">
+				<!--originator-particle-file path="glow_particles.xml"/-->
+					<affected-particle-file path="glow_particles.xml"/>
+				</particles>
+                        </attack-boost>
 			<sound enabled="false"/>
 		</skill>
 
@@ -99,6 +134,23 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound> 
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="10"/>
+                        	<target value="faction"></target>
+				<max-hp value="0"/>
+				<max-ep value="0"/>
+				<sight value="1"/>
+				<attack-strenght value="30" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="20" value-percent-multiplier="true"/>
+				<production-speed value="0"/>
+				<particles value="true">
+				<!--originator-particle-file path="glow_particles.xml"/-->
+					<affected-particle-file path="glow_particles.xml"/>
+				</particles>
+                        </attack-boost>
 			<attack-strenght value="170"/>
 			<attack-var value="75"/>
 			<attack-range value="1"/>
@@ -134,6 +186,23 @@
 			<speed value="170"/>
 			<anim-speed value="120"/>
 			<animation path="models/roman_soldier_walk.g3d"/>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="10"/>
+                        	<target value="faction"></target>
+				<max-hp value="0"/>
+				<max-ep value="0"/>
+				<sight value="1"/>
+				<attack-strenght value="30" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="0"/>
+				<move-speed value="20" value-percent-multiplier="true"/>
+				<production-speed value="0"/>
+				<particles value="true">
+				<!--originator-particle-file path="glow_particles.xml"/-->
+					<affected-particle-file path="glow_particles.xml"/>
+				</particles>
+                        </attack-boost>
 			<sound enabled="false"/>			
 		</skill>	
 

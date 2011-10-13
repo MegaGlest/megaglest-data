@@ -61,6 +61,9 @@
 			<speed value="1000"/>
 			<anim-speed value="45"/>
 			<animation path="models/s_speer_man_stand.g3d"/>
+			<animation path="models/s_speer_man_stand2.g3d"/>
+			<animation path="models/s_speer_man_stand4.g3d"/>
+			<animation path="models/s_speer_man_stand3.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 

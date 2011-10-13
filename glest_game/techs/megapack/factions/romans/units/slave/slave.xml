@@ -60,6 +60,12 @@
 			<speed value="1000"/>
 			<anim-speed value="55"/>
 			<animation path="models/worker_standing.g3d"/>
+			<animation path="models/worker_head.g3d"/>
+			<animation path="models/worker_standing.g3d"/>
+			<animation path="models/worker_look.g3d"/>
+			<animation path="models/worker_standing.g3d"/>
+			<animation path="models/worker_look.g3d"/>
+			<animation path="models/worker_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -198,7 +204,10 @@
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="90"/>
+			<animation-random-cycle-maxcount value="1" />
 			<animation path="models/worker_dying.g3d"/>
+			<animation path="models/worker_die2.g3d"/>
+			<animation path="models/worker_die3.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/worker_die2.wav"/>

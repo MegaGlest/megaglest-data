@@ -62,6 +62,7 @@
 			<speed value="1000"/>
 			<anim-speed value="50"/>
 			<animation path="models/guard_stand.g3d"/>
+			<animation path="models/guard_stand2.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		

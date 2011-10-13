@@ -79,6 +79,7 @@
 			<speed value="1000"/>
 			<anim-speed value="50"/>
 			<animation path="models/calvary_stand.g3d"/>
+			<animation path="models/calvary_stand2.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		

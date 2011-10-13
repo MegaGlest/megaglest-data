@@ -60,6 +60,8 @@
 			<speed value="1000"/>
 			<anim-speed value="50"/>
 			<animation path="models/axe_man_idle.g3d"/>
+			<animation path="models/axe_man_idle2.g3d"/>
+			<animation path="models/axe_man_idle3.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
