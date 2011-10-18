@@ -1,0 +1,85 @@
+!!ARBvp1.0
+# bump.vp -- David HENRY
+# Bump mapping
+
+# result.position will be computed by fixed pipeline
+# > gl_Position = ftransform ();
+OPTION ARB_position_invariant;
+
+TEMP n, t, b;
+TEMP tmp, eyeVec;
+
+PARAM mat[4] = { state.matrix.modelview };
+PARAM mvinv[4] = { state.matrix.modelview.invtrans };
+PARAM texmat[4] = { state.matrix.texture[0] };
+PARAM lightPos = state.light[0].position;
+PARAM lightHalf = state.light[0].half;
+
+ATTRIB iPos = vertex.position;
+ATTRIB iNormal = vertex.normal;
+ATTRIB iTangent = vertex.attrib[6];
+ATTRIB iTexCoords = vertex.texcoord[0];
+
+OUTPUT oTexCoords = result.texcoord[0];
+OUTPUT oHalfVec = result.texcoord[2];
+OUTPUT oLightVec = result.texcoord[3];
+
+# Transform the normal into eye space and normalize it.
+# > vec3 n = normalize (gl_NormalMatrix * gl_Normal);
+DP3  n.x, mvinv[0], iNormal;
+DP3  n.y, mvinv[1], iNormal;
+DP3  n.z, mvinv[2], iNormal;
+
+DP3  n.w, n, n;      # n.w = nx^2+ny^2+nz^2
+RSQ  n.w, n.w;       # n.w = 1/sqrt(nx^2+ny^2+nz^2)
+MUL  n.xyz, n.w, n;  # n.xyz /= sqrt(nx^2+ny^2+nz^2)
+
+# Transform the tangent into eye space, and normalize it.
+# > vec3 t = normalize (gl_NormalMatrix * tangent);
+DP3  t.x, mvinv[0], iTangent;
+DP3  t.y, mvinv[1], iTangent;
+DP3  t.z, mvinv[2], iTangent;
+
+DP3  t.w, t, t;
+RSQ  t.w, t.w;
+MUL  t.xyz, t.w, t;
+
+# Compute the bi-tangent
+# > vec3 b = cross (n, t);
+XPD  b, n, t;
+
+# Transform the texture coords by texture matrix.
+# > gl_TexCoord[0] = gl_TextureMatrix[0] * gl_MultiTexCoord0;
+DP4  oTexCoords.x, texmat[0], iTexCoords;
+DP4  oTexCoords.y, texmat[1], iTexCoords;
+DP4  oTexCoords.z, texmat[2], iTexCoords;
+DP4  oTexCoords.w, texmat[3], iTexCoords;
+
+# Transform light vector by tangent basis
+# > vec3 v;
+# > v.x = dot (vec3 (gl_LightSource[0].position), t);
+# > v.y = dot (vec3 (gl_LightSource[0].position), b);
+# > v.z = dot (vec3 (gl_LightSource[0].position), n);
+# > lightVec = normalize (v);
+DP3  tmp.x, lightPos, t;
+DP3  tmp.y, lightPos, b;
+DP3  tmp.z, lightPos, n;
+
+DP3  tmp.w, tmp, tmp;
+RSQ  tmp.w, tmp.w;
+MUL  oLightVec.xyz, tmp.w, tmp;
+
+# Transform half angle vector by tangent basis
+# > v.x = dot (vec3 (gl_LightSource[0].halfVector), t);
+# > v.y = dot (vec3 (gl_LightSource[0].halfVector), b);
+# > v.z = dot (vec3 (gl_LightSource[0].halfVector), n);
+# > halfVec = normalize (v);
+DP3  tmp.x, lightHalf, t;
+DP3  tmp.y, lightHalf, b;
+DP3  tmp.z, lightHalf, n;
+
+DP3  tmp.w, tmp, tmp;
+RSQ  tmp.w, tmp.w;
+MUL  oHalfVec.xyz, tmp.w, tmp;
+
+END
