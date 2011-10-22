@@ -75,19 +75,11 @@ DataMissingTileset=El jugador: %s ha perdut el terreny: %s
 DataMissingTechtree=El jugador: %s ha perdut l'àrbre tec.: %s
 DataMissingMapNowDownloading=El jugador: %s està intentant descarregar el mapa: %s
 DataMissingTilesetNowDownloading=El jugador: %s està intentant descarregar el terreny: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DataMissingTechtreeNowDownloading=Player: %s is attempting to download the techtree: %s
 DataMissingMapSuccessDownload=El jugador: %s ha descarregat SATISFACTORIAMENT el mapa: %s
 DataMissingMapFailDownload=El jugador: %s ha FALLAT descarregant el mapa: [%s] utilitzant la versió CURL [%s]
 DataMissingTilesetSuccessDownload=El jugador: %s ha descarregat SATISFACTORIAMENT el terreny: %s
 DataMissingTilesetFailDownload=El jugador: %s ha FALLAT descarregant el terreny: [%s] utilitzant la versió CURL [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DataMissingTechtreeSuccessDownload=Player: %s SUCCESSFULLY downloaded the techtree: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DataMissingTechtreeFailDownload=Player: %s FAILED to download the techtree: [%s] using CURL version [%s]
 Deaths=Morts
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Defaults=Defaults
 Defeat=Derrota
 Deleting=Esborrant
 Difficulty=Dificultat
@@ -104,21 +96,11 @@ Discount=Descompte
 DisplaySettingsChanged=Configuració de pantalla canviats
 DownloadMissingMapQuestion=Descarregar el mapa:
 DownloadMissingTilesetQuestion=Descarregar el terreny:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-DownloadMissingTechtreeQuestion=Download the techtree:
 EnableFTP=Permesa la transferència d'arxius FTP
 EnableFTPServer=Servidor FTP permès
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnableFTPServerInternetTilesetXfer=Transfer tilesets over Internet
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnableFTPServerInternetTechtreeXfer=Transfer techtrees over Internet
 EnableObserverMode=Mode d'observació permès
 Enabled=Permès
 EnableServerControlledAI=Servidor AI controlat
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnableTextureCompression=Texture Compression
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-EnemyKills=Enemies Killed
 Ep=EP
 EpCost=Cost de EP
 ErrorBindingPort=El error, no es pot lligar al port de la xarxa
@@ -130,8 +112,6 @@ Explored=Explorat
 Faction=Facció
 Fast=ràpid
 Fields=Camps
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-FileDownloadProgress=Player: %s download progress for [%s] is %d %%
 Filter=Filtre
 FindLANGames=Trobar Jocs a la xarxa local
 FogOfWar=boira de guerra
@@ -143,37 +123,21 @@ FTPServerDataPort=Ports del servidor de dades FTP
 FreeCamera=Càmera lliure
 FxVolume=Volum d'efectes
 GameCamera=Càmera de joc
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameCancelledByUser=Game cancelled by server user.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameDuration=Game duration in minutes
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameMaxConcurrentUnitCount=Maximum Concurrent Units
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameTotalEndGameConcurrentUnitCount=Total Units at Game End
 GameMusic=Música
 GameOver=Joc finalitzat
 GamePaused=Joc pausat
 GameResumed=Joc reanudat
 GameSpeedSet=Velocitat
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameSwitchPlayerToAI=Player #%d [%s] has disconnected, switching player to AI mode!
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
 Harvest=Collit
 HarvestSpeed=Vel. collita
 Hp=HP
 Human=Humà
 IncompatibleVersion=Versió incompatible
 Initializing=Inicialitzat
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Install=Install
 InvalidOrder=Orden invàlida
 InvalidPosition=Posició invàlida
 IRCPeopleOnline=Usuaris IRC en línia:
 Keyboardsetup=Configuració del teclat
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-KeyboardsetupTest=Keyboard test display
 Kills=Morts
 JoinGame=Unirse a partida
 JoinInternetGame=Joc per Internet
@@ -185,12 +149,6 @@ LoadedSpeed=Vel. càrrega
 Loading=Carregant
 Map=Mapa
 MapFilter=Filtre de Mapa
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MapTitle1=Map
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MapTitle2=Players
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MasterServerMissing=Your configuration is missing a masterserver entry.
 MaxFilterAnisotropy=Màxima Anisotropia del Filtre
 MaxLights=Llum
 MaxLoad=Màxima càrrega
@@ -214,85 +172,7 @@ MGJoinGameSlots=Unirse al joc
 MGPlatform=Plataforma
 MGVersion=Versió del Joc
 Misc=Miscelànea
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MismatchedFactions=The following factions are mismatched:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MismatchedFactionsMissing=(missing)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MismatchedFactionsExtra=(extra)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModLocalRemoteMismatch=The local mod [%s] is not the same as the\nversion on the server, replace local mod with server version?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModErrorGettingServerData=Error retrieving data from the master server: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadInProgressCancelQuestion=You currently have: %d files downloading, exit and abort these download(s)?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloading=Downloading
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModTechAlreadyInstalled=You already have the tech: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTechToInstall=You must first select a tech to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveTechConfirm=Are you sure you want to remove the tech: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveTechNotInstalled=You do not have the tech: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTechToRemove=You must first select a tech to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTechSuccess=SUCCESSFULLY downloaded the tech: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTechFail=FAILED to download the tech: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModTilesetAlreadyInstalled=You already have the tileset: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTilesetToInstall=You must first select a tileset to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveTilesetConfirm=Are you sure you want to remove the tileset: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveTilesetNotInstalled=You do not have the tileset: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectTilesetToRemove=You must first select a tileset to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTilesetSuccess=SUCCESSFULLY downloaded the tileset: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadTilesetFail=FAILED to download the tileset: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModMapAlreadyInstalled=You already have the map: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectMapToInstall=You must first select a map to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveMapConfirm=Are you sure you want to remove the map: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveMapNotInstalled=You do not have the map: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectMapToRemove=You must first select a map to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadMapSuccess=SUCCESSFULLY downloaded the map: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadMapFail=FAILED to download the map: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModScenarioAlreadyInstalled=You already have the scenario: %s installed.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectScenarioToInstall=You must first select a scenario to install.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModRemoveScenarioConfirm=Are you sure you want to remove the scenario: %s ?
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModSelectScenarioToRemove=You must first select a scenario to remove.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadScenarioSuccess=SUCCESSFULLY downloaded the scenario: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version [%s] [%s]
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Mods=Game Mods
 Morph=Transformar
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MorphNoReqs=requirements to morph are not satisfied
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-MorphNoRes=Not enough resources to morph unit
 MorphSpeed=Velocitat de transformació
 Move=Moure
 MusicVolume=Volumen Música 
@@ -302,19 +182,11 @@ NetworkCpu=CPU en xarxa
 NetworkCpuUltra=Cpu en xarxa Ultra
 NetworkCpuMega=Cpu en xarxa Mega
 NetworkFramePeriod=La xarxa envia FrameCount
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-NetworkGameClientLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-NetworkGameServerLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-NetworkGameStatusWaiting=Waiting for players: %s
 NetworkPauseGameForLaggedClients=Pausar els clients retardats
 NewGame=Crear partida
 No=No
 NoServerVisitChat=¿Cap servidor? Vaja al chat IRC
 NotConnected=No conectat
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Notice=Notice
 None=Cap
 NonStandardPort=Port no estàndar
 Normal=normal
@@ -339,17 +211,7 @@ PathFinderTypeRoutePlanner=RoutePlanner
 Play=Jugar
 PlayNow=Jugar ara!
 Player=Jugador
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerDisconnected=Player %s, disconnected from the game.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerLeftGame=has chosen to leave the game!
 Playername=Nom del Jugador
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerStatusSetup=Not Ready
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerStatusBeRightBack=Be Right Back
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-PlayerStatusReady=Ready
 Port=Port
 PressEnterToChat=Pulsar intro per al chat
 PrivacyPlease=Activar privacitat (amagar el pais, etc)
@@ -366,8 +228,6 @@ ReactionSpeed=Vel. de reacció
 RefreshList=Restarar la llista
 Regeneration=Regeneració
 ReloadLastGameSettings=Recàrrega de configuració anterior
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-Remove=Remove
 Repair=Reparar
 RepairSpeed=Vel. de reparació
 Reqs=Reqs 
@@ -379,15 +239,7 @@ ResourcesHarvested=Recursos recolectats
 Result=Resultat
 Return=Tornar
 Scenario=Escenari
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScenarioTitle1=Scenarios
 Score=Puntuació
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScreenShotFileType=Screenshot file format
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScreenshotSavedTo=Screenshot will be saved to: %s
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ScreenShotConsoleText=Show Screenshot saved text
 Server=Servidor
 ServerPort=Port de servidor #
 ServerType=Tipus de servidor
@@ -398,8 +250,6 @@ ShadowMapping=Shadow Mapping
 Shadows=Ombres
 ShowMapPreview=Mapa de previsualització
 ShowUnitParticles=Partícules de la unitat:
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-ShowTilesetParticles=Tileset Particles:
 Sight=Visió
 Size=Mida
 Slow=Espai
@@ -412,20 +262,8 @@ Stop=Aturar
 Store=Enmagatzema
 Team=Equip
 TechTree=Àrbre tecnològic
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TechTitle1=Tech Tree
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TechTitle2=Factions
 Textures3D=Textures 3D
 Tileset=Terreny
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TilesetTitle1=Tilesets
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TimeoutWaitingForClients=Timeout waiting for clients.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TimeoutWaitingForServer=Timeout waiting for server.
-; Next line needs translation, include by ../../../../mk/linux/language_files_synch.pl on Mon Apr 18, 2011
-TimeoutWaitingForMessage=Timeout waiting for message.
 Tip=Extremitat
 To switch off music press=Per apagar la música mentres espera als altres jugadors polse
 Tutorial=Tutorial
