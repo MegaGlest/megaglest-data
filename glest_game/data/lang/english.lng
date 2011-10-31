@@ -150,6 +150,7 @@ GameSwitchPlayerToAI=Player #%d [%s] has disconnected, switching player to AI mo
 GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
 Harvest=Harvest
 HarvestSpeed=Harvest speed
+HostGame=Host Game
 Hp=HP
 Human=Human
 IncompatibleVersion=Incompatible Version
