@@ -1,5 +1,5 @@
 ;message headers
-GlestAdvancedTutorial=Tutoriel Avancé Glest
+GlestAdvancedTutorial=Tutoriel Avancé MegaGlest
 Promoting=Evolution des Unités
 WellDone=Bien Joué!
 Summoning=Invocation
@@ -8,7 +8,7 @@ Ritual=Rituel
 Armies=Armées
 
 ;message strings
-Welcome=Bienvenue dans le tutoriel avancé de Glest, ici vous allez apprendre une partie des fonctionnalités les plus avancées du jeu.
+Welcome=Bienvenue dans le tutoriel avancé de MegaGlest, ici vous allez apprendre une partie des fonctionnalités les plus avancées du jeu.
 MagicBrief=Vous commandez la faction des Magiciens, qui utilise des mages et des créatures pour combattre.
 InitiateBrief=Les Initiés sont les unités de base des Magiciens, ils peuvent récolter des ressources et construire des batiments.
 InitiatePromotion=Les Initiés peuvent se transformer en Mages de combat. Pour cela, sélectionnez un Initié, et utilisez la commande "Promote to Battlemage". 
@@ -36,4 +36,3 @@ ProduceGhostArmor=Objectif: Rechercher "Ancient Summoning", puis invoquez un Fan
 BuildEnergySource=Objectif: Construisez une source d'énergie.
 ProduceGolem=Objectif: Construisez une bibliothèque puis utilisez un Initié et effectuez un rituel opur créer un Golem.
 DefeatEnemy=Objectif: Construisez une armée, trouvez et détruisez votre ennemi.
-			

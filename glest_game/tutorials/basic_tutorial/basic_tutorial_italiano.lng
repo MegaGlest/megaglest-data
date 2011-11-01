@@ -1,12 +1,12 @@
 ;message headers
-GlestBasicTutorial=Tutorial Base di Glest
+GlestBasicTutorial=Tutorial Base di MegaGlest
 WellDone=Ben Fatto!
 Resources=Risorse
 Combat=Combatti
 Buildings=Costruzioni
 
 ;message strings
-Welcome=Benvenuto al Tutorial Base di Glest. Qui imparerai le basi del gioco. 
+Welcome=Benvenuto al Tutorial Base di MegaGlest. Qui imparerai le basi del gioco. 
 WillBeUsingTech=Hai al comando la fazione Tech che usa guerrieri medievali e strumenti meccanici per combattere.
 NeedWorkers=Per raccogliere le risorsore hai bisogno di Lavoratori (Workers). Per produrli per prima cosa seeziona il Castello (Castle) e poi usa il comando "Produce Worker".
 SelectAndCommand=Le Unità vengono selezionate cliccandoci sopra col tasto sinistro del mouse sopra di esse. Puoi controllare le unità puoi cliccare su di esse e farle attaccare bersarli o muovere sul terreno.

@@ -1,5 +1,5 @@
 ; Polish lang file (Polski plik jezykowy, ze znakami diakrytycznymi)
-; Wersja dla: Megaglest v.3.5.3
+; Wersja dla: MegaGlest v.3.5.3
 
 3dArt=Grafika 3D
 3dAnd2dArt=Grafika 3D i 2D
@@ -181,8 +181,8 @@ MaxLoad=Max obciążenie
 MaxPlayers=Max liczba graczy
 MaxUnitCount=Max liczba jednostek
 MeetingPoint=Punkt spotkania
-Megaglest3d2dProgramming=Programowanie 2D/3D megaglest
-MegaglestProgramming=Programowanie megaglest
+Megaglest3d2dProgramming=Programowanie 2D/3D MegaGlest
+MegaglestProgramming=Programowanie MegaGlest
 MGBuildDateTime=Data/Czas kompilacji
 MGGameCountry=Kraj
 MGGameStatus=Stan gry

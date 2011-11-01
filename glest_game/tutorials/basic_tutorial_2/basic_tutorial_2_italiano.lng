@@ -1,5 +1,5 @@
 ;message headers
-GlestBasicTutorial=Tutorial Base di Megaglest
+GlestBasicTutorial=Tutorial Base di MegaGlest
 WellDone=Ben fatto!
 Resources=Risorse
 Combat=Combattimento
@@ -8,7 +8,7 @@ Tricks=Trucchi
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-Welcome=Benvenuto al tutorial base di Megaglest.
+Welcome=Benvenuto al tutorial base di MegaGlest.
 
 FirstThing=View:Per aggiustare la visibilità della camera muovi il puntatore del tuo mouse fino ai bordi del tuo schermo, oppure usa la tastiera. Un'altro modo per fare ciò è fare click con il tasto sinistro del mouse sulla mini mappa (in alto a sinistra del tuo schermo). 
  

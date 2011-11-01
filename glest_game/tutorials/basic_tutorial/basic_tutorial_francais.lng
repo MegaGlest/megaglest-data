@@ -1,12 +1,12 @@
 ;message headers
-GlestBasicTutorial=Tutoriel Standard Megaglest
+GlestBasicTutorial=Tutoriel Standard MegaGlest
 WellDone=Bien joué!
 Resources=Ressources
 Combat=Combat
 Buildings=Constructions
 
 ;message strings
-Welcome=Bienvenue sur le tutoriel standard de Glest. Ici vous apprendrez les bases du jeu. 
+Welcome=Bienvenue sur le tutoriel standard de MegaGlest. Ici vous apprendrez les bases du jeu. 
 WillBeUsingTech=Vous commandez la faction des Tech, qui utilise des chevaliers du moyen âge et des engins mécaniques pour le combat.
 NeedWorkers=Pour récolter des ressources, vous aurez besoin de travailleurs. Pour en produire sélectionnez le chateau puis utilisez la commande "Produce Worker".
 SelectAndCommand=Les unités sont selectionnées en faisant un clic gauche dessus, les ordres sont donnés en par un clic droit sur une cible ou sur le sol. 
@@ -36,5 +36,3 @@ BuildBarracks=Objectif: Construire une caserne.
 ProduceSwordman=Objectif: Produire un Gendarme.
 ProduceArcher=Objectif: Produire un Archer.
 ProduceMoreWarriors=Objectif: Produire plus de guerriers pour vous préparer à la prochaine attaque.
-
-			

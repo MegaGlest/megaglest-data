@@ -1,12 +1,12 @@
 ;message headers
-GlestBasicTutorial=Glest Basic Tutorial
+GlestBasicTutorial=MegaGlest Basic Tutorial
 WellDone=Well Done!
 Resources=Resources
 Combat=Combat
 Buildings=Buildings
 
 ;message strings
-Welcome=Welcome to the Glest Basic Tutorial. Here you will learn the basics of the game. 
+Welcome=Welcome to the MegaGlest Basic Tutorial. Here you will learn the basics of the game. 
 WillBeUsingTech=You are in command of the Tech faction, which uses medieval warriors and mechanical devices to fight.
 NeedWorkers=To harvest resources you will need Workers. To produce some first select the Castle then use the "Produce Worker" command.
 SelectAndCommand=Units are selected by left clicking on them, commands are given by either right clicking on a target or at the terrain. 
@@ -35,5 +35,3 @@ BuildBarracks=Objective: Build Barracks.
 ProduceSwordman=Objective: Produce a Swordman.
 ProduceArcher=Objective: Produce an Archer.
 ProduceMoreWarriors=Objective: Produce more warriors to deal with the upcoming attack.
-
-			

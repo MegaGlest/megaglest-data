@@ -1,5 +1,5 @@
 ;message headers
-GlestAdvancedTutorial=Tutorial Avanzato di Glest
+GlestAdvancedTutorial=Tutorial Avanzato di MegaGlest
 Promoting=Promozione delle Unità
 WellDone=Ben fatto!
 Summoning=Evocazione
@@ -8,7 +8,7 @@ Ritual=Rituale
 Armies=Eserciti
 
 ;message strings
-Welcome=Benvenuto al Tutorial Avanzato di Glest, qui imparerai alcune delle opzioni più avanzate del gioco. 
+Welcome=Benvenuto al Tutorial Avanzato di MegaGlest, qui imparerai alcune delle opzioni più avanzate del gioco. 
 MagicBrief=Hai a disposizione la fazione Magic, che usa la magia per evocare creature per la battaglia. 
 InitiateBrief=I Novizi (Initiate) sono le unità base della fazione Magic, possono raccogliere risorse e costruire costruzioni.
 InitiatePromotion=I Novizi (Initiate) possono essere promossi a Maghi da Battaglia (Battlemage), per fare ciò seleziona un Novizio (Initiate) e premi il pulsante "Promote to Battlemage". 

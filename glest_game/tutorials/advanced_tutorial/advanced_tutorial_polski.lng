@@ -1,5 +1,5 @@
 ﻿;message headers
-GlestAdvancedTutorial=Zaawansowany Tutorial Glesta
+GlestAdvancedTutorial=Zaawansowany Tutorial MegaGlesta
 Promoting=Ulepszanie jednostek
 WellDone=Doskonale!
 Summoning=Wzywanie
@@ -8,7 +8,7 @@ Ritual=Rytuał
 Armies=Armie
 
 ;message strings
-Welcome=Witaj w zaawansowanym tutorialu do Glesta. Nauczysz się tutaj kilku bardziej zaawansowanych elementów gry.
+Welcome=Witaj w zaawansowanym tutorialu do MegaGlesta. Nauczysz się tutaj kilku bardziej zaawansowanych elementów gry.
 MagicBrief=Prowadzisz frakcję Magów, która używa magów i wezwane stworzenia do walki.
 InitiateBrief=Adepci (Initiate) są podstawową jednostką Magów, mogą oni zbierać surowce i budować struktury.
 InitiatePromotion=Adepci mogą być ulepszeni do Magów Bitewnych (Battlemage). Aby to zrobić zaznacz Adepta i użyj komendy "Ulepsz do Maga Bitewnego" (Promote to Battlemage).
@@ -36,4 +36,3 @@ ProduceGhostArmor=Twój Cel: Odkryj Starodawne Wzywania (Ancient Summoning), a n
 BuildEnergySource=Twój Cel: Wybuduj Źródło Energii (Energy Source).
 ProduceGolem=Twój Cel: Wybuduj Bibliotekę (Library) a następnie wykorzystaj Adepta (Initiate) by przeprowadził rytuał by zbudować Golema.
 DefeatEnemy=Twój Cel: Stwórz armię, zlokalizuj i pokonaj wroga.
-			

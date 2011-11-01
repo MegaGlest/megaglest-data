@@ -1,12 +1,12 @@
 ;message headers
-GlestBasicTutorial=Tutorial Básico do Glest
+GlestBasicTutorial=Tutorial Básico do MegaGlest
 WellDone=Ben feito!
 Resources=Resources
 Combat=Combate
 Buildings=Edificios
 
 ;message strings
-Welcome=Benvido ó Tutorial Básico do Glest. Aquí poderás aprender os conceptos básicos do xogo. 
+Welcome=Benvido ó Tutorial Básico do MegaGlest. Aquí poderás aprender os conceptos básicos do xogo. 
 WillBeUsingTech=Tes o control da facción Tecnolóxica (Tech), que emprega guerreiros medievais e enxeños mecánicos para loitar.
 NeedWorkers=Para recolectar recursos precisas Traballadores (Worker). Para producir algún selecciona o Castelo (Castle) e emprega a orde "Producir Traballador" ("Produce Worker").
 SelectAndCommand=Para seleccionar unidades fai click co botón esquerdo sobre elas, para dar ordes fai click co botón dereito sobre un obxetivo ou sobre o terreo. 
@@ -35,5 +35,3 @@ BuildBarracks=Objective: Construe un Cuartel (Barracks).
 ProduceSwordman=Objective: Produce un Espadachín (Swordman).
 ProduceArcher=Objective: Produce un Arqueiro (Archer).
 ProduceMoreWarriors=Objective: Produce máis guerreiros para rexeitar o ataque inminente.
-
-			

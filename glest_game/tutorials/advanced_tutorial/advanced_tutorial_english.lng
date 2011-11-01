@@ -1,5 +1,5 @@
 ;message headers
-GlestAdvancedTutorial=Glest Advanced Tutorial
+GlestAdvancedTutorial=Advanced MegaGlest Tutorial
 Promoting=Promoting Units
 WellDone=Well Done!
 Summoning=Summoning
@@ -8,7 +8,7 @@ Ritual=Ritual
 Armies=Armies
 
 ;message strings
-Welcome=Welcome to the Glest Advanced Tutorial, here you will learn the some of the more advanced features of the game.
+Welcome=Welcome to the Advanced MegaGlest Tutorial, here you will learn the some of the more advanced features of the game.
 MagicBrief=You are in command of the Magic faction, which uses mages and summoned creatures to fight.
 InitiateBrief=Initiates are the basic Magic unit, they can harvest resources and build structures.
 InitiatePromotion=Initiates can be promoted to Battlemages, to do so, select an Initiate, and use the "Promote to Battlemage" command. 
@@ -36,4 +36,3 @@ ProduceGhostArmor=Objective: Research Ancient Summoning, then summon a Ghost Arm
 BuildEnergySource=Objective: Build an Energy Source.
 ProduceGolem=Objective: Build Library and then use an Initiate to perform a ritual to build a Golem.
 DefeatEnemy=Objective: Build an army, locate and defeat your enemy.
-			

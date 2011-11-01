@@ -1,12 +1,12 @@
 ﻿;message headers
-GlestBasicTutorial=Tutorial do Glesta. Podstawy.
+GlestBasicTutorial=Tutorial do MegaGlesta. Podstawy.
 WellDone=Doskonale!
 Resources=Surowce
 Combat=Bitwa
 Buildings=Budynki
 
 ;message strings
-Welcome=Witaj w tutorialu do Glesta. Nauczysz się tutaj podstaw gry.
+Welcome=Witaj w tutorialu do MegaGlesta. Nauczysz się tutaj podstaw gry.
 WillBeUsingTech=Kierujesz frakcją Techników, w szeregach której są średniowieczni wojownicy i maszyny.
 NeedWorkers=By zbierać surowce potrzebujesz Robotników (Workers). By stworzyć kilku zaznacz Zamek (Castle) i użyj polecenia "Produce Worker".
 SelectAndCommand=Jednostki zaznacza się przez kliknięcie lewym przyciskiem na nich, polecenia są wydawane prawym kliknięciem na celu lub na terenie.

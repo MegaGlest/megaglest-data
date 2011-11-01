@@ -1,5 +1,5 @@
 ;message headers
-GlestAdvancedTutorial=Tutorial Avanzado del Glest
+GlestAdvancedTutorial=Tutorial Avanzado del MegaGlest
 Promoting=Promocionando Unidades
 WellDone=Bien Hecho!
 Summoning=Invocación
@@ -8,7 +8,7 @@ Ritual=Ritual
 Armies=Ejércitos
 
 ;message strings
-Welcome=Bienvenido al Tutorial Avanzado del Glest, aquí aprenderás algunas de las características mas avanzadas del juego.
+Welcome=Bienvenido al Tutorial Avanzado del MegaGlest, aquí aprenderás algunas de las características mas avanzadas del juego.
 MagicBrief=Tienes el control de la facción Mágica (Magic), que usa magos y criaturas invocadas para luchar.
 InitiateBrief=Los Iniciados (Initiate) son la unidad básica de la facción Mágica, pueden recolectar recursos y construir estructuras.
 InitiatePromotion=Los Iniciados se pueden promocionar a Magos de Batalla (Battlemage), para hacerlo, selecciona un Iniciado y usa el comando "Promocionar a Mago de Batalla" ("Promote to Battlemage"). 
@@ -36,4 +36,3 @@ ProduceGhostArmor=Objetivo: Investiga la Invocación Arcana (Ancient Summoning) 
 BuildEnergySource=Objetivo: Produce una Fuente de Energía (Energy Source).
 ProduceGolem=Objetivo: Construye una Biblioteca (Library) y luego usa un Iniciado (Initiate) para construir un Golem.
 DefeatEnemy=Objetivo: Construye un ejército, busca y derrota al enemigo.
-			

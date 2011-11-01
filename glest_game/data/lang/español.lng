@@ -1,5 +1,4 @@
 ; Archivo lang para español
-; Translated by José Gómez - Venezuela
 
 ;Main strings
 3dArt=Arte 3D
@@ -184,8 +183,8 @@ MaxLoad=Máxima carga
 MaxPlayers=Máximo jugadores 
 MaxUnitCount=Contador máximo de unidades 
 MeetingPoint=Punto de reunión
-Megaglest3d2dProgramming=Megaglest 3D/2D+Programación
-MegaglestProgramming=Megaglest Programación
+Megaglest3d2dProgramming=MegaGlest 3D/2D+Programación
+MegaglestProgramming=MegaGlest Programación
 MGBuildDateTime=Construcción Fecha/Hora
 MGGameCountry=País del Host
 MGGameStatus=Estado del juego
