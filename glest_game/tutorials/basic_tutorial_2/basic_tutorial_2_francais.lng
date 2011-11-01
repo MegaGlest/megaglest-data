@@ -3,72 +3,72 @@ GlestBasicTutorial=Tutoriel de base
 WellDone=Bravo!
 Resources=Ressources 
 Combat=Combat
-Buildings=Bâtiments 
+Buildings=BÃ¢timents 
 Tricks=Astuces
 
 ;message strings
-;------------------------------------------ Démarrer ----- -------------------------------------------
+;------------------------------------------ DÃ©marrer ----- -------------------------------------------
 Welcome=Bienvenue dans le tutoriel de MegaGlest.
 
-FirstThing=Voir: Pour régler la zone visible, déplacez le pointeur de votre souris sur les bords de votre écran, ou utilisez les touches curseur. Une autre façon de faire est de cliquer à gauche sur la mini-carte (coin supérieur gauche de votre écran).
+FirstThing=Voir: Pour rÃ©gler la zone visible, dÃ©placez le pointeur de votre souris sur les bords de votre Ã©cran, ou utilisez les touches curseur. Une autre faÃ§on de faire est de cliquer Ã  gauche sur la mini-carte (coin supÃ©rieur gauche de votre Ã©cran).
 
 WillBeUsingIndian=Dans cette introduction, on commande les Indiens. Les combats faction indienne avec des archers et des simple armes.
 
-NeedWorkers=D'abord, nous avons besoin d'un travailleur. Pour l'obtenir, faites un clic gauche sur le Mainteepee et commencer la formation de votre travailleur. Pour ce faire, utilisez le bouton «Produire des travailleurs» en cliquant sur l'icône des travailleurs.
+NeedWorkers=D'abord, nous avons besoin d'un travailleur. Pour l'obtenir, faites un clic gauche sur le Mainteepee et commencer la formation de votre travailleur. Pour ce faire, utilisez le bouton Â«Produire des travailleursÂ» en cliquant sur l'icÃ´ne des travailleurs.
 
 ;------------------------------------------ produire travailleur --- ---------------------------------------------
 
-Select=Sélectionnez maintenant = clic gauche de votre travailleur. Donne des  Détails sur l'unité sélectionnée, à savoir le nom de l'unité et une image sont maintenant affichés dans le coin en haut à droite de votre écran. On vois les points de santé (HP), de l armure, et, entre parenthèses, le type d'armure et le champ de visibilité.
-Select2=S'il s'agit d'une unité de combat, le nombre d'unités ennemies qu'il a déjà détruit est inscrit à côté. Si elle consomme des ressources, cela est affiché dans le champ suivant. En dessous, elle dit ce que cette unité est en train de faire.
+Select=SÃ©lectionnez maintenant = clic gauche de votre travailleur. Donne des  DÃ©tails sur l'unitÃ© sÃ©lectionnÃ©e, Ã  savoir le nom de l'unitÃ© et une image sont maintenant affichÃ©s dans le coin en haut Ã  droite de votre Ã©cran. On vois les points de santÃ© (HP), de l armure, et, entre parenthÃ¨ses, le type d'armure et le champ de visibilitÃ©.
+Select2=S'il s'agit d'une unitÃ© de combat, le nombre d'unitÃ©s ennemies qu'il a dÃ©jÃ  dÃ©truit est inscrit Ã  cÃ´tÃ©. Si elle consomme des ressources, cela est affichÃ© dans le champ suivant. En dessous, elle dit ce que cette unitÃ© est en train de faire.
 
-exampleWorker=Par exemple, votre travailleur a 600 HP, 0 d'armure de cuir et d'une visibilité de 9. Son état actuel est "stop", alors il ne fait rien.
+exampleWorker=Par exemple, votre travailleur a 600 HP, 0 d'armure de cuir et d'une visibilitÃ© de 9. Son Ã©tat actuel est "stop", alors il ne fait rien.
 
-Command=Les capacités des unités sont inscrites ci-dessous. Nous allons maintenant apprendre toutes les commandes que le travailleur peut exécuter.
+Command=Les capacitÃ©s des unitÃ©s sont inscrites ci-dessous. Nous allons maintenant apprendre toutes les commandes que le travailleur peut exÃ©cuter.
 
-firstCommand=La première icône est «stop». Si vous cliquez sur cette icône, le travailleur cesse immédiatement ce qu'il est en train de faire. Toutes les unités (qui ne sont pas des bâtiments) on cette commande.
+firstCommand=La premiÃ¨re icÃ´ne est Â«stopÂ». Si vous cliquez sur cette icÃ´ne, le travailleur cesse immÃ©diatement ce qu'il est en train de faire. Toutes les unitÃ©s (qui ne sont pas des bÃ¢timents) on cette commande.
 
-secondCommand=La seconde icône est «bouger». Si vous cliquez dessus, vous devrez cliquer sur le sol ou une autre unité pour définir la destination. Un raccourci pour cette commande est de clic-droit à la position de la cible.
-secondCommand2=Lorsque vous placez le pointeur de la souris sur l'icône de la commande «bouger», la vitesse de déplacement des travailleurs est affiché. Cette commande, aussi, est disponible à toutes les unités (mais pas les bâtiments).
+secondCommand=La seconde icÃ´ne est Â«bougerÂ». Si vous cliquez dessus, vous devrez cliquer sur le sol ou une autre unitÃ© pour dÃ©finir la destination. Un raccourci pour cette commande est de clic-droit Ã  la position de la cible.
+secondCommand2=Lorsque vous placez le pointeur de la souris sur l'icÃ´ne de la commande Â«bougerÂ», la vitesse de dÃ©placement des travailleurs est affichÃ©. Cette commande, aussi, est disponible Ã  toutes les unitÃ©s (mais pas les bÃ¢timents).
 
-testSecondCommand=Essayez la commande "bouger"  maintenant. Déplacez votre travailleur à l'autre travailleur qui attend à l'extérieur de votre camp. Cette autre travailleur est affichée sur la carte (en haut à gauche) mini comme un point rouge. Le triangle blanc sur la carte mini indique la position de la caméra. Le gros point rouge est votre Mainteepee.
+testSecondCommand=Essayez la commande "bouger"  maintenant. DÃ©placez votre travailleur Ã  l'autre travailleur qui attend Ã  l'extÃ©rieur de votre camp. Cette autre travailleur est affichÃ©e sur la carte (en haut Ã  gauche) mini comme un point rouge. Le triangle blanc sur la carte mini indique la position de la camÃ©ra. Le gros point rouge est votre Mainteepee.
 
 ;------------------------------------------ Reculer travailleurs et donner Harvest commande d'or ------------------------------------------------
-MoveBack=Bien joué. Maintenant, faites le revennir du  travail au Mainteepee. Pour sélectionner plusieurs unités, appuyez sur Maj et dessinez un rectangle de sélection autour de vos unités OU ...
-MoveBack2=... maintenez la touche MAJ, puis utilisez votre souris pour cliquer sur chaque unité que vous souhaitez inclure ou encore ...
-MoveBack3=... double-cliquez sur une unité pour sélectionner toutes les unités à proximité du même type (les travailleurs dans ce cas).
-HarvestGoldandStone=Lorsque vos unités ont atteint la maison, nous allons utiliser le quatrième icône qui est destiné à la récolte d'or et de pierres.
-HarvestGoldandStone2=Cette icône commande avec le pointeur de votre souris pour voir à quelle vitesse vos travailleurs peuvent récolter, combien chaque travailleur peut récolter, à quelle vitesse ils peuvent marcher dans l'exercice de ressources et de quelles ressources on peut récolter à tous.
-UseHarvestGoldandStone=Pour utiliser cette commande, cliquez d'abord sur l'icône de commande, puis sur la ressource que vous souhaitez récolter. Les pierre grise avec des points jaunes sont de couleur or, ceux qui n' en ont pas sont des pierres.
-HarvestGoldandStone3=Maintenant, récolté l or et des pierres jusqu'à ce qu'a un total de 600 pièces d'or et de 550 en pierre. Vous pouvez également créer de nouveaux travailleurs (mais ils vous en coûtera d'or, aussi). Vérifiez en haut de l'écran pour savoir combien de ressources dont vous disposez actuellement.
+MoveBack=Bien jouÃ©. Maintenant, faites le revennir du  travail au Mainteepee. Pour sÃ©lectionner plusieurs unitÃ©s, appuyez sur Maj et dessinez un rectangle de sÃ©lection autour de vos unitÃ©s OU ...
+MoveBack2=... maintenez la touche MAJ, puis utilisez votre souris pour cliquer sur chaque unitÃ© que vous souhaitez inclure ou encore ...
+MoveBack3=... double-cliquez sur une unitÃ© pour sÃ©lectionner toutes les unitÃ©s Ã  proximitÃ© du mÃªme type (les travailleurs dans ce cas).
+HarvestGoldandStone=Lorsque vos unitÃ©s ont atteint la maison, nous allons utiliser le quatriÃ¨me icÃ´ne qui est destinÃ© Ã  la rÃ©colte d'or et de pierres.
+HarvestGoldandStone2=Cette icÃ´ne commande avec le pointeur de votre souris pour voir Ã  quelle vitesse vos travailleurs peuvent rÃ©colter, combien chaque travailleur peut rÃ©colter, Ã  quelle vitesse ils peuvent marcher dans l'exercice de ressources et de quelles ressources on peut rÃ©colter Ã  tous.
+UseHarvestGoldandStone=Pour utiliser cette commande, cliquez d'abord sur l'icÃ´ne de commande, puis sur la ressource que vous souhaitez rÃ©colter. Les pierre grise avec des points jaunes sont de couleur or, ceux qui n' en ont pas sont des pierres.
+HarvestGoldandStone3=Maintenant, rÃ©coltÃ© l or et des pierres jusqu'Ã  ce qu'a un total de 600 piÃ¨ces d'or et de 550 en pierre. Vous pouvez Ã©galement crÃ©er de nouveaux travailleurs (mais ils vous en coÃ»tera d'or, aussi). VÃ©rifiez en haut de l'Ã©cran pour savoir combien de ressources dont vous disposez actuellement.
 
 ;------------------------------------------ chercher du bois ---- --------------------------------------
 
-HarvestGoldAndStoneDone=Maintenant vous n'avez besoin que d'un peu de bois. Pour s'en procurer, utilisez la cinquième icône. Il s'agit également d'une commande de récolte que vous pouvez utiliser de la même façon que pour l'or et la pierre.
+HarvestGoldAndStoneDone=Maintenant vous n'avez besoin que d'un peu de bois. Pour s'en procurer, utilisez la cinquiÃ¨me icÃ´ne. Il s'agit Ã©galement d'une commande de rÃ©colte que vous pouvez utiliser de la mÃªme faÃ§on que pour l'or et la pierre.
 ResourceInformation=Soit dit en passant, la faction indienne besoins surtout d'or et de bois.
-GetWood=Pour un autre indice, vous pouvez utilisé n'importe quelle commande de récolte en sélectionnant votre travailleur, puis un clic droit sur un endroit où cette ressource est disponible (donc sur le bois dans ce cas). En cas de succès, une flèche jaune apparaitra. Maintenant récolter du bois jusqu'à en avoir 550.
+GetWood=Pour un autre indice, vous pouvez utilisÃ© n'importe quelle commande de rÃ©colte en sÃ©lectionnant votre travailleur, puis un clic droit sur un endroit oÃ¹ cette ressource est disponible (donc sur le bois dans ce cas). En cas de succÃ¨s, une flÃ¨che jaune apparaitra. Maintenant rÃ©colter du bois jusqu'Ã  en avoir 550.
 
 ;------------------------------------------ savoir point de rencontre et de construire un tente ------------------------------------------------- ------
 
-MeetingPoint=Lorsque vous sélectionnez un bâtiment, une flèche bleue est affichée. Cette flèche pointe vers le "point de rassemblement". Toutes les unités que vous produisez dans ce bâtiment se déplace à cet endroit dès qu'ils apparaissent.
-UseMeetingPoint=Vous pouvez déplacer le point de rassemblement, aussi. Cliquez sur l'icône du drapeau, puis sur la position où le nouveau point de rencontre doit être situé. Ici aussi, vous pouvez faire simple clic-droit sur le nouveau lieu (tout comme vous pouvez le faire pour le déplacement).
-MeetingPoint2=Si vous placez le point d'assemblage sur une ressource, les nouveaux travailleurs  vont immédiatement commencer à récolter. Assurez-vous que vous avez cliqué au bon endroit, sinon vos travailleurs seront se baladerons sur la carte sans rien faire.
-thirdcommand=La troisième icône du travailleur est  «construire».
-thirdcommand2=En cliquant dessus vous entrez dans le menu de construction. Si vous placez l'une des icônes de construction avec le pointeur de votre souris, vous pouvez voir, sous la rubrique «exigences», toutes les ressources et les réalisations dont vous avez besoin pour cela.
-thirdcommand3=Si vous survolez la tente, vous verrez que cela prend 30 d'or, 50 bois, -10 logement et un tipi principal. «-10 Logement» signifie que la construction d'une tente vous permet le logement pour dix unités supplémentaires (même si certaines unités peuvent avoir besoin plus d'un tipi).
-thirdcommand4=Bâtissons une tente maintenant. Cliquez sur le menu de construction, puis sur la tente, et le placer sur un endroit vide.
+MeetingPoint=Lorsque vous sÃ©lectionnez un bÃ¢timent, une flÃ¨che bleue est affichÃ©e. Cette flÃ¨che pointe vers le "point de rassemblement". Toutes les unitÃ©s que vous produisez dans ce bÃ¢timent se dÃ©place Ã  cet endroit dÃ¨s qu'ils apparaissent.
+UseMeetingPoint=Vous pouvez dÃ©placer le point de rassemblement, aussi. Cliquez sur l'icÃ´ne du drapeau, puis sur la position oÃ¹ le nouveau point de rencontre doit Ãªtre situÃ©. Ici aussi, vous pouvez faire simple clic-droit sur le nouveau lieu (tout comme vous pouvez le faire pour le dÃ©placement).
+MeetingPoint2=Si vous placez le point d'assemblage sur une ressource, les nouveaux travailleurs  vont immÃ©diatement commencer Ã  rÃ©colter. Assurez-vous que vous avez cliquÃ© au bon endroit, sinon vos travailleurs seront se baladerons sur la carte sans rien faire.
+thirdcommand=La troisiÃ¨me icÃ´ne du travailleur est  Â«construireÂ».
+thirdcommand2=En cliquant dessus vous entrez dans le menu de construction. Si vous placez l'une des icÃ´nes de construction avec le pointeur de votre souris, vous pouvez voir, sous la rubrique Â«exigencesÂ», toutes les ressources et les rÃ©alisations dont vous avez besoin pour cela.
+thirdcommand3=Si vous survolez la tente, vous verrez que cela prend 30 d'or, 50 bois, -10 logement et un tipi principal. Â«-10 LogementÂ» signifie que la construction d'une tente vous permet le logement pour dix unitÃ©s supplÃ©mentaires (mÃªme si certaines unitÃ©s peuvent avoir besoin plus d'un tipi).
+thirdcommand4=BÃ¢tissons une tente maintenant. Cliquez sur le menu de construction, puis sur la tente, et le placer sur un endroit vide.
 
 ;------------------------------------------------ - stickfighter ----------------------------------------------- -----------------
 
 
 ProduceStickfighter=Vous pouvez maintenant former un combattant dans votre nouvelle tente.
 
-; chaînes objectif
+; chaÃ®nes objectif
 ProduceWorker=Objectif: Former un travailleur.
-ProduceStickfighter2=Objectif: Former un combattant utilisant le bâton.
-MoveWorker=Objectif: déplacer nouveau votre travailleur à l'autre travailleur qui attend à l'extérieur de votre camp.
-HarvestGoldandStoneobjective=Objectif: Moisson d'or et de pierres jusqu'à avoir un total de 600 pièces d'or et 550 en pierre.
-GetWoodob=Objectif: La récolte de bois jusqu'à en avoir un total de 550.
-usethirdcommand=Objectif: Construire un tente: Si la tente devient rouge, cela signifie que cet emplacement est actuellement (ou en général) pris ou qu'il est sur un objet   (par exemple une autre unité ou un arbre).
+ProduceStickfighter2=Objectif: Former un combattant utilisant le bÃ¢ton.
+MoveWorker=Objectif: dÃ©placer nouveau votre travailleur Ã  l'autre travailleur qui attend Ã  l'extÃ©rieur de votre camp.
+HarvestGoldandStoneobjective=Objectif: Moisson d'or et de pierres jusqu'Ã  avoir un total de 600 piÃ¨ces d'or et 550 en pierre.
+GetWoodob=Objectif: La rÃ©colte de bois jusqu'Ã  en avoir un total de 550.
+usethirdcommand=Objectif: Construire un tente: Si la tente devient rouge, cela signifie que cet emplacement est actuellement (ou en gÃ©nÃ©ral) pris ou qu'il est sur un objet   (par exemple une autre unitÃ© ou un arbre).
 
 ;end
 

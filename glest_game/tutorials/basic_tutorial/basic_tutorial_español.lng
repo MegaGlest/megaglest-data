@@ -1,30 +1,30 @@
 ;message headers
-GlestBasicTutorial=Tutorial B·sico del Glest
+GlestBasicTutorial=Tutorial B√°sico del Glest
 WellDone=Bien Hecho
 Resources=Recursos
 Combat=Combate
 Buildings=Edificios
 
 ;message strings
-Welcome=Bienvenido al Tutorial B·sico del Glest. AquÌ aprender·s los conceptos b·sicos del juego. 
-WillBeUsingTech=Est·s en control de la facciÛn TecnolÛgica (Tech), que usa guerreros medievales y aparatos mecanicos para luchar.
+Welcome=Bienvenido al Tutorial B√°sico del Glest. Aqu√≠ aprender√°s los conceptos b√°sicos del juego. 
+WillBeUsingTech=Est√°s en control de la facci√≥n Tecnol√≥gica (Tech), que usa guerreros medievales y aparatos mecanicos para luchar.
 NeedWorkers=Para recolectar recursos necesitas Trabajadores (Worker). Para producir algunos primero selecciona el Castillo (Castle) y luego usa el comando Producir Trabajador (Produce Worker)
-SelectAndCommand=Las unidades se seleccionan pinchando con el botÛn izquierdo, los comandos se dan pinchando con el botÛn derecho en el objetivo o en el terreno.
-HowToMine=Para recolectar Oro (Gold) primero selecciona un Trabajador, luego pincha con el botÛn derecho en el Oro.
-WorkersKeepOnHarvesting=Los Trabajadores seguir·n recolectando recursos y llevandolos al edificio mas cercano que pueda almacenar el recurso que llevan.
-ResourceInformation=En la parte superior de la pantalla se muestra informaciÛn acerca de los recursos, en n˙mero a la izquierda es la cantidad actual, a la derecha esta la capacidad de almacenamiento.
+SelectAndCommand=Las unidades se seleccionan pinchando con el bot√≥n izquierdo, los comandos se dan pinchando con el bot√≥n derecho en el objetivo o en el terreno.
+HowToMine=Para recolectar Oro (Gold) primero selecciona un Trabajador, luego pincha con el bot√≥n derecho en el Oro.
+WorkersKeepOnHarvesting=Los Trabajadores seguir√°n recolectando recursos y llevandolos al edificio mas cercano que pueda almacenar el recurso que llevan.
+ResourceInformation=En la parte superior de la pantalla se muestra informaci√≥n acerca de los recursos, en n√∫mero a la izquierda es la cantidad actual, a la derecha esta la capacidad de almacenamiento.
 OtherResources=Otros recursos como Madera (Wood) o Piedra (Stone) se recolectan de la misma forma que el Oro.
-TechResourceNeeds=La facciÛn TecnolÛgica suele necesitar mucho Oro y Madera, y un poco de Piedra.
-TechConsumesFood=Las unidades de la facciÛn TecnolÛgica consumen comida. Sin comida las unidades se daÒan y mueren. La comida la producen los animales, que se producen en la Granja (Farm).
-HaveEnoughAnimals=AcuÈrdate de tener suficientes animales para alimentar a tus unidades.
-BalanceDisplay=El balance entre el consumo y la producciÛn de comida se muestra al lado de la capacidad de almacenamiento de comida, en la parte superior de la pantalla.
-TechWarriorsAtBarracks=Para derrotar al enemigo vas a necesitar guerreros, la mayorÌa de los de la facciÛn TecnolÛgica se producen en el Cuartel (Barracks).
-HowToBuildBarracks=Para construir el Cuartel, primero selecciona un Trabajador, luego pincha en "ConstrucciÛn B·sica" > "Cuartel" ("Build Basic" > "Barracks") y selecciona un lugar para el edificio.
-RememberToBuildBarracks=AcuÈrdate de construir siempre un Cuartel al principio, para poder producir guerreros r·pidamente.
-SwordmanBrief=El guerrero b·sico de la facciÛn TecnolÛgica es el EspadachÌn (Swordman), selecciona el Cuartel y luego pincha en Producir EspadachÌn ("Produce Swordman") para producir la undad. Asegurate de que tienes recursos suficientes.
-HaveWarriorsAtBase=Siempre deberÌas tener guerreros en la base, atacar·n autom·ticamente a cualqier enemigo que vean.
-ArcherBrief=Los Arqueros (Archer) son la unidad b·sica de ataque a distancia de la facciÛn TecnolÛgica. Tambien se producen en el Cuartel.
-ProduceWarriors=Produce alg˙n guerrero mas para defenderte de los ataques del enemigo.
+TechResourceNeeds=La facci√≥n Tecnol√≥gica suele necesitar mucho Oro y Madera, y un poco de Piedra.
+TechConsumesFood=Las unidades de la facci√≥n Tecnol√≥gica consumen comida. Sin comida las unidades se da√±an y mueren. La comida la producen los animales, que se producen en la Granja (Farm).
+HaveEnoughAnimals=Acu√©rdate de tener suficientes animales para alimentar a tus unidades.
+BalanceDisplay=El balance entre el consumo y la producci√≥n de comida se muestra al lado de la capacidad de almacenamiento de comida, en la parte superior de la pantalla.
+TechWarriorsAtBarracks=Para derrotar al enemigo vas a necesitar guerreros, la mayor√≠a de los de la facci√≥n Tecnol√≥gica se producen en el Cuartel (Barracks).
+HowToBuildBarracks=Para construir el Cuartel, primero selecciona un Trabajador, luego pincha en "Construcci√≥n B√°sica" > "Cuartel" ("Build Basic" > "Barracks") y selecciona un lugar para el edificio.
+RememberToBuildBarracks=Acu√©rdate de construir siempre un Cuartel al principio, para poder producir guerreros r√°pidamente.
+SwordmanBrief=El guerrero b√°sico de la facci√≥n Tecnol√≥gica es el Espadach√≠n (Swordman), selecciona el Cuartel y luego pincha en Producir Espadach√≠n ("Produce Swordman") para producir la undad. Asegurate de que tienes recursos suficientes.
+HaveWarriorsAtBase=Siempre deber√≠as tener guerreros en la base, atacar√°n autom√°ticamente a cualqier enemigo que vean.
+ArcherBrief=Los Arqueros (Archer) son la unidad b√°sica de ataque a distancia de la facci√≥n Tecnol√≥gica. Tambien se producen en el Cuartel.
+ProduceWarriors=Produce alg√∫n guerrero mas para defenderte de los ataques del enemigo.
 
 ;objective strings
 ProduceWorkers=Objetivo: Produce 3 Trabajadores (Worker).

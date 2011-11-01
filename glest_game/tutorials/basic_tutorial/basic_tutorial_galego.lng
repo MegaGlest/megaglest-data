@@ -1,29 +1,29 @@
 ;message headers
-GlestBasicTutorial=Tutorial B·sico do Glest
+GlestBasicTutorial=Tutorial B√°sico do Glest
 WellDone=Ben feito!
 Resources=Resources
 Combat=Combate
 Buildings=Edificios
 
 ;message strings
-Welcome=Benvido Û Tutorial B·sico do Glest. AquÌ poder·s aprender os conceptos b·sicos do xogo. 
-WillBeUsingTech=Tes o control da facciÛn TecnolÛxica (Tech), que emprega guerreiros medievais e enxeÒos mec·nicos para loitar.
-NeedWorkers=Para recolectar recursos precisas Traballadores (Worker). Para producir alg˙n selecciona o Castelo (Castle) e emprega a orde "Producir Traballador" ("Produce Worker").
-SelectAndCommand=Para seleccionar unidades fai click co botÛn esquerdo sobre elas, para dar ordes fai click co botÛn dereito sobre un obxetivo ou sobre o terreo. 
-HowToMine=Para recolectar Ouro (Gold), primeiro selecciona un Traballador, logo fai click co botÛn dereito sobre o Ouro.
-WorkersKeepOnHarvesting=Os Traballadores quedaran recolectando e levando os recursos a un edificio que poida almacenar o tipo de recurso que est·n explotando.
-ResourceInformation=Podes ver a informaciÛn dos recursos na parte superior da pantalla, o numero da esquerda È a cantidade actual, o numero da dereita È a capacidade de almacenamento.
-OtherResources=Outros recursos como a Madeira (Wood) e a Pedra (Stone) pÛdense explotar da mesma forma que o Ouro.
-TechResourceNeeds=A faccion TecnolÛxica normalmente precisa moito Ouro e Madeira e un pouco de Pedra.
-TechConsumesFood=TÛdalas unidades na facciÛn TecnolÛxica consomen comida. Sen comida as unidades reciben dano e morren. A comida pÛdese producir con animais da Granxa (Farm).
-HaveEnoughAnimals=Lembra sempre que tes que ter animais dabondo para alimentar a tÛdalas tuas unidades.
-BalanceDisplay=O equilibrio entre comida producida e consumida mÛstrase entre parentesis na parte superior da pantalla, preto do valor da comida almacenada.
-TechWarriorsAtBarracks=Para vencer Û teu inimigo precisas alg˙ns guerreiros, a maiorÌa dos guerreiros da facciÛn TecnolÛxica son producidos no Cuartel (Barracks).
-HowToBuildBarracks=Para construir o Cuartel selecciona un Traballador, fai click sobre "ConstrucciÛn Basica" > "Cuartel" ("Build Basic" > "Barracks") e logo selecciona o emplazamento do edificio.
-RememberToBuildBarracks=Lembra sempre construi-las barracas Û principio, esto permitirache producir guerreiros r·pidamente.
-SwordmanBrief=O guerreiro b·sico dos tech È o EspadachÌn (Swordman), selecciona o Cuartel e fai click en "Producir EspadachÌn" ("Produce Swordman") para producir un. Asegurate de que tes suficientes recursos.
-HaveWarriorsAtBase=Sempre debes ter alg˙ns guerreiros na tua base, eles autom·ticamente atacaran a calquera inimigo dentro do seu rango de visiÛn.
-ArcherBrief=Os Arqueiros (Archer) son a unidade de ataque a distancia b·sica da facciÛn TecnolÛxica. Son igualmente producidos no Cuartel.
+Welcome=Benvido √≥ Tutorial B√°sico do Glest. Aqu√≠ poder√°s aprender os conceptos b√°sicos do xogo. 
+WillBeUsingTech=Tes o control da facci√≥n Tecnol√≥xica (Tech), que emprega guerreiros medievais e enxe√±os mec√°nicos para loitar.
+NeedWorkers=Para recolectar recursos precisas Traballadores (Worker). Para producir alg√∫n selecciona o Castelo (Castle) e emprega a orde "Producir Traballador" ("Produce Worker").
+SelectAndCommand=Para seleccionar unidades fai click co bot√≥n esquerdo sobre elas, para dar ordes fai click co bot√≥n dereito sobre un obxetivo ou sobre o terreo. 
+HowToMine=Para recolectar Ouro (Gold), primeiro selecciona un Traballador, logo fai click co bot√≥n dereito sobre o Ouro.
+WorkersKeepOnHarvesting=Os Traballadores quedaran recolectando e levando os recursos a un edificio que poida almacenar o tipo de recurso que est√°n explotando.
+ResourceInformation=Podes ver a informaci√≥n dos recursos na parte superior da pantalla, o numero da esquerda √© a cantidade actual, o numero da dereita √© a capacidade de almacenamento.
+OtherResources=Outros recursos como a Madeira (Wood) e a Pedra (Stone) p√≥dense explotar da mesma forma que o Ouro.
+TechResourceNeeds=A faccion Tecnol√≥xica normalmente precisa moito Ouro e Madeira e un pouco de Pedra.
+TechConsumesFood=T√≥dalas unidades na facci√≥n Tecnol√≥xica consomen comida. Sen comida as unidades reciben dano e morren. A comida p√≥dese producir con animais da Granxa (Farm).
+HaveEnoughAnimals=Lembra sempre que tes que ter animais dabondo para alimentar a t√≥dalas tuas unidades.
+BalanceDisplay=O equilibrio entre comida producida e consumida m√≥strase entre parentesis na parte superior da pantalla, preto do valor da comida almacenada.
+TechWarriorsAtBarracks=Para vencer √≥ teu inimigo precisas alg√∫ns guerreiros, a maior√≠a dos guerreiros da facci√≥n Tecnol√≥xica son producidos no Cuartel (Barracks).
+HowToBuildBarracks=Para construir o Cuartel selecciona un Traballador, fai click sobre "Construcci√≥n Basica" > "Cuartel" ("Build Basic" > "Barracks") e logo selecciona o emplazamento do edificio.
+RememberToBuildBarracks=Lembra sempre construi-las barracas √≥ principio, esto permitirache producir guerreiros r√°pidamente.
+SwordmanBrief=O guerreiro b√°sico dos tech √© o Espadach√≠n (Swordman), selecciona o Cuartel e fai click en "Producir Espadach√≠n" ("Produce Swordman") para producir un. Asegurate de que tes suficientes recursos.
+HaveWarriorsAtBase=Sempre debes ter alg√∫ns guerreiros na tua base, eles autom√°ticamente atacaran a calquera inimigo dentro do seu rango de visi√≥n.
+ArcherBrief=Os Arqueiros (Archer) son a unidade de ataque a distancia b√°sica da facci√≥n Tecnol√≥xica. Son igualmente producidos no Cuartel.
 ProduceWarriors=Produce uns cantos guerreiros para defende-la tua base dos ataques inimigos.
 
 ;objective strings
@@ -32,8 +32,8 @@ HarvestWoodAndStone=Objective: Recolecta 100 unidades de Madeira (Wood) e 150 de
 ProduceCow=Objective: Produce unha Vaca (Cow).
 MineGold=Objective: Recolecta 100 unidades de Ouro (Gold).
 BuildBarracks=Objective: Construe un Cuartel (Barracks).
-ProduceSwordman=Objective: Produce un EspadachÌn (Swordman).
+ProduceSwordman=Objective: Produce un Espadach√≠n (Swordman).
 ProduceArcher=Objective: Produce un Arqueiro (Archer).
-ProduceMoreWarriors=Objective: Produce m·is guerreiros para rexeitar o ataque inminente.
+ProduceMoreWarriors=Objective: Produce m√°is guerreiros para rexeitar o ataque inminente.
 
 			

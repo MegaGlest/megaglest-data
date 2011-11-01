@@ -1,0 +1,39 @@
+;message headers
+GlestAdvancedTutorial=Zaawansowany Tutorial Glesta
+Promoting=Ulepszanie jednostek
+WellDone=Doskonale!
+Summoning=Wzywanie
+Energy=Energia
+Ritual=Rytua³
+Armies=Armie
+
+;message strings
+Welcome=Witaj w zaawansowanym tutorialu do Glesta. Nauczysz siê tutaj kilku bardziej zaawansowanych elementów gry.
+MagicBrief=Prowadzisz frakcjê Magów, która u¿ywa magów i wezwane stworzenia do walki.
+InitiateBrief=Adepci (Initiate) s¹ podstawow¹ jednostk¹ Magów, mog¹ oni zbieraæ surowce i budowaæ struktury.
+InitiatePromotion=Adepci mog¹ byæ ulepszeni do Magów Bitewnych (Battlemage). Aby to zrobiæ zaznacz Adepta i u¿yj komendy "Ulepsz do Maga Bitewnego" (Promote to Battlemage).
+BattlemageBrief=Magowie Bitewni s¹ g³ównymi wojownikami Magów, maj¹ silny atak z dystansu oraz dobr¹ szybkoœæ i odpornoœæ.
+EnergyBrief=Jednostki Magów zazwyczaj potrzebuj¹ Energi by byæ stworzonymi. Energia nie jest zjadana tak jak Jedzenie, ale jest wymagana gdy jednostka jest tworzona. Jest wytwarzana przez ród³a Energii (Energy Source).
+EnergyBrief2=B¹dŸ pewien, ¿e zawsze masz wystarczaj¹co du¿o Energii by produkowaæ nowe jednostki.
+SummonedUnitsBrief=Inny sposób tworzenia jednostek przez Magów to wzywanie. Musisz mieæ Zaklinaczkê by to uczyniæ, mo¿na je stworzyæ w Gildii Zaklinaczy (Summoners Guild).
+SummonerBrief=Zaklinaczki mog¹ tworzyæ kilka typów stworzeñ, najbardziej podstawowym jest Demon (Daemon).
+DaemonBrief=Demony s¹ bardzo s³abe ale te¿ bardzo tanie, u¿yteczne jako podstawowa jednostka walki wrêcz oraz jako zwiadowcy.
+OtherSummonedCreatures=Zaklinaczki mog¹ te¿ wezwaæ bardziej zaawansowane stwory, jak Zbrojny Duch (Ghost Armors) i Smok (Dragon), potrzebne s¹ jednak do tego odpowiednie ulepszenia.
+GhostArmorRequirements=Zbrojny Duch wymaga ulepszenia Starodawnego Wzywania (Ancient Summoning), mo¿na je uzyskaæ w Gildii Zaklinaczy (Summoners Guild).
+GhostArmorBrief=Zbrojny Duch to œrednia jednostka walki wrêcz, przydatna by trzymaæ wrogich wojowników z dala od Twoich Magów Bitewnych.
+RitualBrief=Adepci posiadaj¹ drug¹ komendê budowy, zwan¹ Rytua³em (Ritual), u¿ywan¹ do budowania zaawansowanych struktur I potê¿nych stworów takich jak Golem. Wymagana jest jednak Biblioteka (Library).
+GolemBrief=Golemy to potê¿ne jednostki obronne, posiadaj¹ potê¿ny atak i bardzo dobr¹ odpornoœæ, ale mog¹ siê poruszaæ tylko tak d³ugo jak maj¹ wystarczaj¹co Punktów Energii.
+ArmyManagement=Gdy posiadasz du¿¹ liczbê jednostek, staj¹ siê one trudne do zarz¹dzania.
+DoubleClickBrief=Klikaj¹c dwukrotnie na jednostce zaznaczysz wszystkie jednostki tego samego typu w okolicy.
+GroupSelectBrief=Mo¿esz zdefiniowaæ grupy jednostek zaznacz¹c je a nastêpnie naciskaj¹c klawisz Control (Ctrl) i liczbê. Potem mo¿esz grupê wezwaæ naciskaj¹c jej numer ponownie.
+FinalMission=Jako ostateczny test bêdziesz musia³ stworzyæ armiê i pokonaæ wroga.
+
+;objective strings
+PromoteInitiate=Twój Cel: Ulepsz Adepta (Initiate) do Maga Bitewnego (Battlemage).
+ProduceSummoner=Twój Cel: Wybuduj Gildiê Zaklinaczy (Summoners Guild) i stwórz Zaklinaczkê (Summoner).
+ProduceDaemon=Twój Cel: Wezwij Demona.
+ProduceGhostArmor=Twój Cel: Odkryj Starodawne Wzywania (Ancient Summoning), a nastêpnie wezwij Zbrojnego Ducha (Ghost Armor).
+BuildEnergySource=Twój Cel: Wybuduj ród³o Energii (Energy Source).
+ProduceGolem=Twój Cel: Wybuduj Bibliotekê (Library) a nastêpnie wykorzystaj Adepta (Initiate) by przeprowadzi³ rytua³ by zbudowaæ Golema.
+DefeatEnemy=Twój Cel: Stwórz armiê, zlokalizuj i pokonaj wroga.
+			

@@ -2,38 +2,38 @@
 GlestAdvancedTutorial=Tutorial Avanzado do Glest
 Promoting=Promocionando Unidades
 WellDone=Ben Feito!
-Summoning=InvocaciÛn
-Energy=EnerxÌa
+Summoning=Invocaci√≥n
+Energy=Enerx√≠a
 Ritual=Ritual
 Armies=Exercitos
 
 ;message strings
-Welcome=Benvido ao Tutorial Avanzado do Glest, aquÌ aprender·s algunhas das caracterÌsticas mais avanzadas do xogo.
-MagicBrief=Tes o control da facciÛn M·xica (Magic), que usa magos e criaturas invocadas para loitar.
-InitiateBrief=Os Iniciados (Initiate) son a unidade b·sica da facciÛn M·xica, poden recolectar recursos e construir estructuras.
+Welcome=Benvido ao Tutorial Avanzado do Glest, aqu√≠ aprender√°s algunhas das caracter√≠sticas mais avanzadas do xogo.
+MagicBrief=Tes o control da facci√≥n M√°xica (Magic), que usa magos e criaturas invocadas para loitar.
+InitiateBrief=Os Iniciados (Initiate) son a unidade b√°sica da facci√≥n M√°xica, poden recolectar recursos e construir estructuras.
 InitiatePromotion=Os Iniciados podense promocionar a Magos de Batalla (Battlemage), para facelo, selecciona un Iniciado e usa el comando "Promocionar a Mago de Batalla" ("Promote to Battlemage"). 
-BattlemageBrief=O Magos de Batalla son os guerreiros m·xicos principais, teÒen un ataque a distancia potente e boa velocidade e resistencia.
-EnergyBrief=As unidades M·xicas precisan EnerxÌa (Energy) para ser producidas, a EnerxÌa non se consume coma a comida, so se requere cando se crea a unidade. Producese nas Fontes de EnerxÌa (Energy Source).
-EnergyBrief2=Asegurate de ter sempre EnerxÌa suficiente para producir mais unidades.
-SummonedUnitsBrief=A outra forma que ten a facciÛn M·xica de producir unidades È invocandoas. Vas precisar unha Invocadora (Summoner), producense no Gremio dos Invocadores (Summoners Guild).
-SummonerBrief=As Invocadoras poden crear varios tipos de unidades, a mais b·sica È o Demonio (Daemon).
-DaemonBrief=Os Demonios son moi dÈbiles pero tamÈn moi baratos, son utiles no combate man a man, e tamÈn para explorar.
+BattlemageBrief=O Magos de Batalla son os guerreiros m√°xicos principais, te√±en un ataque a distancia potente e boa velocidade e resistencia.
+EnergyBrief=As unidades M√°xicas precisan Enerx√≠a (Energy) para ser producidas, a Enerx√≠a non se consume coma a comida, so se requere cando se crea a unidade. Producese nas Fontes de Enerx√≠a (Energy Source).
+EnergyBrief2=Asegurate de ter sempre Enerx√≠a suficiente para producir mais unidades.
+SummonedUnitsBrief=A outra forma que ten a facci√≥n M√°xica de producir unidades √© invocandoas. Vas precisar unha Invocadora (Summoner), producense no Gremio dos Invocadores (Summoners Guild).
+SummonerBrief=As Invocadoras poden crear varios tipos de unidades, a mais b√°sica √© o Demonio (Daemon).
+DaemonBrief=Os Demonios son moi d√©biles pero tam√©n moi baratos, son utiles no combate man a man, e tam√©n para explorar.
 OtherSummonedCreatures=As Invocadoras poden crear unidades mais avanzadas, como as Armaduras Fantasma (Ghost Armor) e Dragons (Dragon), pero requiren que investigues as melloras pertinentes.
-GhostArmorRequirements=As Armaduras Fantasma requieren a mellora InvocaciÛn Arcana (Ancient Summoning), que se pode investigar no Gremio dos Invocadores.
-GhostArmorBrief=As Armaduras Fantasma son unha unidade de combate man a man media, ˙til para mantener aos enemigos lonxe dos teus Magos de Batalla.
-RitualBrief=Os Iniciados teÒen un comando de construcciÛn secundario, chamado Ritual, que se usa para construir estructuras avanzadas e criaturas poderosas coma o Golem. Precisar·s unha Biblioteca (Library) para acceder a elas.
-GolemBrief=O Golem È unha unidade defensiva moi poderosa, ten un ataque potente e moita resistencia, pero so se pode mover se ten suficientes puntos de enerxÌa.
-ArmyManagement=Cando tes moitas unidades poden ser difÌciles de controlar.
+GhostArmorRequirements=As Armaduras Fantasma requieren a mellora Invocaci√≥n Arcana (Ancient Summoning), que se pode investigar no Gremio dos Invocadores.
+GhostArmorBrief=As Armaduras Fantasma son unha unidade de combate man a man media, √∫til para mantener aos enemigos lonxe dos teus Magos de Batalla.
+RitualBrief=Os Iniciados te√±en un comando de construcci√≥n secundario, chamado Ritual, que se usa para construir estructuras avanzadas e criaturas poderosas coma o Golem. Precisar√°s unha Biblioteca (Library) para acceder a elas.
+GolemBrief=O Golem √© unha unidade defensiva moi poderosa, ten un ataque potente e moita resistencia, pero so se pode mover se ten suficientes puntos de enerx√≠a.
+ArmyManagement=Cando tes moitas unidades poden ser dif√≠ciles de controlar.
 DoubleClickBrief=Facendo doble click na unidade seleccionas todas as do mismo tipo que estean preto.
-GroupSelectBrief=Podes definir grupos de unidades seleccion·ndoas e logo pulsando Control e unha tecla numÈrica, logo o grupo podese seleccionar en calquera momento so pulsando a tecla numÈrica.
-FinalMission=Como proba final, construe un exÈrcito e derrota ao enemigo.
+GroupSelectBrief=Podes definir grupos de unidades seleccion√°ndoas e logo pulsando Control e unha tecla num√©rica, logo o grupo podese seleccionar en calquera momento so pulsando a tecla num√©rica.
+FinalMission=Como proba final, construe un ex√©rcito e derrota ao enemigo.
 
 ;objective strings
 PromoteInitiate=Obxetivo: Promociona un Iniciado (Initiate) a Mago de Batalla (Battlemage).
 ProduceSummoner=Obxetivo: Construe un Gremio dos Invocadores (Summoners Guild) e logo unha Invocadora (Summoner).
 ProduceDaemon=Obxetivo: Invoca un Demonio (Daemon).
-ProduceGhostArmor=Obxetivo: Investiga a InvocaciÛn Arcana (Ancient Summoning) e logo produce unha Armadura Fantasma (Ghost Armor).
-BuildEnergySource=Obxetivo: Produce unha Fonte de EnerxÌa (Energy Source).
+ProduceGhostArmor=Obxetivo: Investiga a Invocaci√≥n Arcana (Ancient Summoning) e logo produce unha Armadura Fantasma (Ghost Armor).
+BuildEnergySource=Obxetivo: Produce unha Fonte de Enerx√≠a (Energy Source).
 ProduceGolem=Obxetivo: Construe unha Biblioteca (Library) e logo usa un Iniciado (Initiate) para construir un Golem.
-DefeatEnemy=Obxetivo: Construe un exÈrcito, busca e derrota ao enemigo.
+DefeatEnemy=Obxetivo: Construe un ex√©rcito, busca e derrota ao enemigo.
 			

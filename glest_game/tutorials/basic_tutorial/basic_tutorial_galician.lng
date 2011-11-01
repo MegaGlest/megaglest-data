@@ -1,39 +1,39 @@
 ;message headers
-GlestBasicTutorial=Aprendizaxe b·sica de MegaGlest
+GlestBasicTutorial=Aprendizaxe b√°sica de MegaGlest
 WellDone=Moi ben!
 Resources=Recursos
 Combat=Combate
-Buildings=ConstruciÛns
+Buildings=Construci√≥ns
 
 ;message strings
-Welcome=Benvido · aprendizaxe b·sica do MegaGlest. AquÌ aprender·s os conceptos b·sicos do xogo.
-WillBeUsingTech=Liderar·s a facciÛn tecnolÛxica, que emprega guerreiros medievais e m·quinas para loitar.
-NeedWorkers=Para recoller recursos necesitar·s traballadores. Para recrutalos selecciona o castelo e a continuaciÛn preme na orde ´Recrutar un traballadorª.
-SelectAndCommand=As unidades selecciÛnanse premendo d˙as veces seguidas co botÛn esquerdo do rato nelas, e d·nselles ordes premendo co botÛn dereito do rato nun obxectivo ou unha zona.
-HowToMine=Para picar ouro selecciona un traballador e a continuaciÛn preme co botÛn dereito do rato nunha mina de ouro.
-WorkersKeepOnHarvesting=Os traballadores recoller·n os recursos e levaranos a un edificio onde poidan almacenalos (depender· do recurso que recollan).
-ResourceInformation=A informaciÛn sobre os recursos amÛsase na parte superior da pantalla, sendo o n˙mero da esquerda a cantidade actual e o da dereita a capacidade de almacenamento total.
-OtherResources=Os outros recursos, como poden ser a pedra ou a madeira, recÛllense do mesmo xeito que o ouro.
-TechResourceNeeds=A facciÛn tecnolÛxica adoita necesitar unha morea de ouro e madeira, e algo de pedra.
-TechConsumesFood=Todas as unidades da facciÛn tecnolÛxica consumen alimentos. Sen eles, as unidades perder·n vida ata morrer. Os alimentos poden obterse dos animais, que a s˙a vez se obteÒen das granxas.
+Welcome=Benvido √° aprendizaxe b√°sica do MegaGlest. Aqu√≠ aprender√°s os conceptos b√°sicos do xogo.
+WillBeUsingTech=Liderar√°s a facci√≥n tecnol√≥xica, que emprega guerreiros medievais e m√°quinas para loitar.
+NeedWorkers=Para recoller recursos necesitar√°s traballadores. Para recrutalos selecciona o castelo e a continuaci√≥n preme na orde ¬´Recrutar un traballador¬ª.
+SelectAndCommand=As unidades selecci√≥nanse premendo d√∫as veces seguidas co bot√≥n esquerdo do rato nelas, e d√°nselles ordes premendo co bot√≥n dereito do rato nun obxectivo ou unha zona.
+HowToMine=Para picar ouro selecciona un traballador e a continuaci√≥n preme co bot√≥n dereito do rato nunha mina de ouro.
+WorkersKeepOnHarvesting=Os traballadores recoller√°n os recursos e levaranos a un edificio onde poidan almacenalos (depender√° do recurso que recollan).
+ResourceInformation=A informaci√≥n sobre os recursos am√≥sase na parte superior da pantalla, sendo o n√∫mero da esquerda a cantidade actual e o da dereita a capacidade de almacenamento total.
+OtherResources=Os outros recursos, como poden ser a pedra ou a madeira, rec√≥llense do mesmo xeito que o ouro.
+TechResourceNeeds=A facci√≥n tecnol√≥xica adoita necesitar unha morea de ouro e madeira, e algo de pedra.
+TechConsumesFood=Todas as unidades da facci√≥n tecnol√≥xica consumen alimentos. Sen eles, as unidades perder√°n vida ata morrer. Os alimentos poden obterse dos animais, que a s√∫a vez se obte√±en das granxas.
 HaveEnoughAnimals=Non esquezas nunca que debes ter animais abondo para alimentar as unidades.
-BalanceDisplay=O equilibrio entre consumo de alimentos e produciÛn dos mesmo amÛsase entre parÈnteses ao carÛn do almacenamento de alimentos na parte superior da pantalla.
-TechWarriorsAtBarracks=Para derrotar o inimigo necesitar·s alg˙ns guerreiros, que no caso da facciÛn tecnolÛxica se recrutan case sempre no cuartel.
-HowToBuildBarracks=Para construÌr un cuartel selecciona un traballador, preme en ´ConstruciÛn b·sica -> Cuartelª e escolle unha zona onde construÌlo.
-RememberToBuildBarracks=Non esquezas empezar as partidas construÌndo un cuartel, pois asÌ poder·s recrutar guerreiros enseguida.
-SwordmanBrief=O guerreiro b·sico da facciÛn tecnolÛxica È o espadachÌn. Selecciona un cuartel e preme ´Recrutar un espadachÌnª para recrutar un. Aseg˙rate antes de que dispÛs dos recursos necesarios.
-HaveWarriorsAtBase=DeberÌas deixar sempre alg˙ns guerreiros na t˙a base. Estes atacar·n automaticamente calquera unidade que teÒan ao seu alcance.
-ArcherBrief=Os arqueiros son a unidade b·sica de ataque a distancia da facciÛn tecnolÛxica. TamÈn se recrutan nos cuarteis.
-ProduceWarriors=Recruta alg˙ns guerreiros para defender a base dos ataques inimigos.
+BalanceDisplay=O equilibrio entre consumo de alimentos e produci√≥n dos mesmo am√≥sase entre par√©nteses ao car√≥n do almacenamento de alimentos na parte superior da pantalla.
+TechWarriorsAtBarracks=Para derrotar o inimigo necesitar√°s alg√∫ns guerreiros, que no caso da facci√≥n tecnol√≥xica se recrutan case sempre no cuartel.
+HowToBuildBarracks=Para constru√≠r un cuartel selecciona un traballador, preme en ¬´Construci√≥n b√°sica -> Cuartel¬ª e escolle unha zona onde constru√≠lo.
+RememberToBuildBarracks=Non esquezas empezar as partidas constru√≠ndo un cuartel, pois as√≠ poder√°s recrutar guerreiros enseguida.
+SwordmanBrief=O guerreiro b√°sico da facci√≥n tecnol√≥xica √© o espadach√≠n. Selecciona un cuartel e preme ¬´Recrutar un espadach√≠n¬ª para recrutar un. Aseg√∫rate antes de que disp√≥s dos recursos necesarios.
+HaveWarriorsAtBase=Deber√≠as deixar sempre alg√∫ns guerreiros na t√∫a base. Estes atacar√°n automaticamente calquera unidade que te√±an ao seu alcance.
+ArcherBrief=Os arqueiros son a unidade b√°sica de ataque a distancia da facci√≥n tecnol√≥xica. Tam√©n se recrutan nos cuarteis.
+ProduceWarriors=Recruta alg√∫ns guerreiros para defender a base dos ataques inimigos.
 
 ;objective strings
 ProduceWorkers=Obxectivo: recruta tres traballadores.
 HarvestWoodAndStone=Obxectivo: recolle cen unidades de madeira e 150 de pedra.
-ProduceCow=Obxectivo: crÌa unha vaca.
+ProduceCow=Obxectivo: cr√≠a unha vaca.
 MineGold=Obxectivo: pica 100 unidades de ouro.
-BuildBarracks=Obxectivo: constr˙e un cuartel.
-ProduceSwordman=Obxectivo: recruta un espadachÌn.
+BuildBarracks=Obxectivo: constr√∫e un cuartel.
+ProduceSwordman=Obxectivo: recruta un espadach√≠n.
 ProduceArcher=Obxectivo: recruta un arqueiro.
-ProduceMoreWarriors=Obxectivo: recruta m·is guerreiros para defenderte dun ataque inminente.
+ProduceMoreWarriors=Obxectivo: recruta m√°is guerreiros para defenderte dun ataque inminente.
 
 			

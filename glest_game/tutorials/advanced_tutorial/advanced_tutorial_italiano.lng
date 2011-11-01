@@ -1,6 +1,6 @@
 ;message headers
 GlestAdvancedTutorial=Tutorial Avanzato di Glest
-Promoting=Promozione delle Unit‡
+Promoting=Promozione delle Unit√†
 WellDone=Ben fatto!
 Summoning=Evocazione
 Energy=Energia
@@ -8,24 +8,24 @@ Ritual=Rituale
 Armies=Eserciti
 
 ;message strings
-Welcome=Benvenuto al Tutorial Avanzato di Glest, qui imparerai alcune delle opzioni pi˘ avanzate del gioco. 
+Welcome=Benvenuto al Tutorial Avanzato di Glest, qui imparerai alcune delle opzioni pi√π avanzate del gioco. 
 MagicBrief=Hai a disposizione la fazione Magic, che usa la magia per evocare creature per la battaglia. 
-InitiateBrief=I Novizi (Initiate) sono le unit‡ base della fazione Magic, possono raccogliere risorse e costruire costruzioni.
-InitiatePromotion=I Novizi (Initiate) possono essere promossi a Maghi da Battaglia (Battlemage), per fare ciÚ seleziona un Novizio (Initiate)  e premi il pulsante "Promote to Battlemage". 
-BattlemageBrief=I Maghi da Battaglia (Battlemage) sono potenti maghi guerrieri, hanno potenti attacchi, buona velocit‡ e resistenza.
-EnergyBrief=Generalmente le unit‡ della fazione Magic hanno bisogno di Energia (Energy) per essere prodotte. L'Energia non Ë consumata come il Cibo, ma Ë richiesta solo quando l'unit‡ Ë creata. L'Energia Ë prodotta dalla risorse energtiche.
-EnergyBrief2=Assicurati di avere sempre abbastana Energia (Energy) per produrre nuove unit‡. 
-SummonedUnitsBrief=L'altra maniera per la fazione Magic per produrre unit‡ Ë evocandole. Avrai bisogno di un evocatore per fare ciÚ devi aver gi‡ costruito un Tempio degli Evocatori (Summoners Guild). 
-SummonerBrief=Gli Evocatori (Summoners) possono creare vari tipi di crature, la pi˘ basilare Ë il demone (daemon). 
+InitiateBrief=I Novizi (Initiate) sono le unit√† base della fazione Magic, possono raccogliere risorse e costruire costruzioni.
+InitiatePromotion=I Novizi (Initiate) possono essere promossi a Maghi da Battaglia (Battlemage), per fare ci√≤ seleziona un Novizio (Initiate)  e premi il pulsante "Promote to Battlemage". 
+BattlemageBrief=I Maghi da Battaglia (Battlemage) sono potenti maghi guerrieri, hanno potenti attacchi, buona velocit√† e resistenza.
+EnergyBrief=Generalmente le unit√† della fazione Magic hanno bisogno di Energia (Energy) per essere prodotte. L'Energia non √® consumata come il Cibo, ma √® richiesta solo quando l'unit√† √® creata. L'Energia √® prodotta dalla risorse energtiche.
+EnergyBrief2=Assicurati di avere sempre abbastana Energia (Energy) per produrre nuove unit√†. 
+SummonedUnitsBrief=L'altra maniera per la fazione Magic per produrre unit√† √® evocandole. Avrai bisogno di un evocatore per fare ci√≤ devi aver gi√† costruito un Tempio degli Evocatori (Summoners Guild). 
+SummonerBrief=Gli Evocatori (Summoners) possono creare vari tipi di crature, la pi√π basilare √® il demone (daemon). 
 DaemonBrief=Daemons are really weak but also very cheap, they are useful as basic melee warriors and are also good for scouting.
 OtherSummonedCreatures=Summoners can create more advanced creatures, like Ghost Armors and Dragons, however they require that you research the right upgrades.
-GhostArmorRequirements=Le Armature Fantasma (Ghost Armor) richiedono l'aggiornamento Antich Evocazioni (Ancient Summoning) che puÚ essere fatto tramite il Tempio degli Evocatori (Summoners Guild)
+GhostArmorRequirements=Le Armature Fantasma (Ghost Armor) richiedono l'aggiornamento Antich Evocazioni (Ancient Summoning) che pu√≤ essere fatto tramite il Tempio degli Evocatori (Summoners Guild)
 GhostArmorBrief=Le armature fantasma (Ghost Armors) sono armi da mischia, molto potnti se usate per tnere i nemici lontani dai Maghi da Battaglia (battlemage).
-RitualBrief=I Novizi (Initiates) hanno un secondo comando per costruire unit‡, chiamato rituale (ritual). Puoi usare questo comando per costruire potnti unit‡ come i Golem. Per fare ciÚ dovrai avere una Biblioteca (Library) gi‡ costruita.
-GolemBrief=I Golem sono potenti unit‡ difensive, hanno potenti attacchi e una buona resistenza, ma possono muoversi per una distanza limitata dal numero di punti energia che hanno. 
-ArmyManagement=Attenzione a produrre troppe unit‡, potrebbro essere difficili da gestire!
-DoubleClickBrief=Cliccando due volte su una unit‡ puoi selezionare tutte le unit‡ dello stesso tipo che si trovano nelle vicinanze.
-GroupSelectBrief=Puoi definire gruppi di unit‡ selezionando le unit‡ e poi premendo "Control" e un numero dalla tastiera. Puoi richiamare i gruppi ripremendo il numero che hai prmuto prima.
+RitualBrief=I Novizi (Initiates) hanno un secondo comando per costruire unit√†, chiamato rituale (ritual). Puoi usare questo comando per costruire potnti unit√† come i Golem. Per fare ci√≤ dovrai avere una Biblioteca (Library) gi√† costruita.
+GolemBrief=I Golem sono potenti unit√† difensive, hanno potenti attacchi e una buona resistenza, ma possono muoversi per una distanza limitata dal numero di punti energia che hanno. 
+ArmyManagement=Attenzione a produrre troppe unit√†, potrebbro essere difficili da gestire!
+DoubleClickBrief=Cliccando due volte su una unit√† puoi selezionare tutte le unit√† dello stesso tipo che si trovano nelle vicinanze.
+GroupSelectBrief=Puoi definire gruppi di unit√† selezionando le unit√† e poi premendo "Control" e un numero dalla tastiera. Puoi richiamare i gruppi ripremendo il numero che hai prmuto prima.
 FinalMission=Come esame finale adesso devi costruire un esercito e sconfiggere il tuo nemico. 
 
 ;objective strings

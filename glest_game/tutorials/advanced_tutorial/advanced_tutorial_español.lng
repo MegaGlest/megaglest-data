@@ -2,38 +2,38 @@
 GlestAdvancedTutorial=Tutorial Avanzado del Glest
 Promoting=Promocionando Unidades
 WellDone=Bien Hecho!
-Summoning=InvocaciÛn
+Summoning=Invocaci√≥n
 Energy=Energia
 Ritual=Ritual
-Armies=EjÈrcitos
+Armies=Ej√©rcitos
 
 ;message strings
-Welcome=Bienvenido al Tutorial Avanzado del Glest, aquÌ aprender·s algunas de las caracterÌsticas mas avanzadas del juego.
-MagicBrief=Tienes el control de la facciÛn M·gica (Magic), que usa magos y criaturas invocadas para luchar.
-InitiateBrief=Los Iniciados (Initiate) son la unidad b·sica de la facciÛn M·gica, pueden recolectar recursos y construir estructuras.
+Welcome=Bienvenido al Tutorial Avanzado del Glest, aqu√≠ aprender√°s algunas de las caracter√≠sticas mas avanzadas del juego.
+MagicBrief=Tienes el control de la facci√≥n M√°gica (Magic), que usa magos y criaturas invocadas para luchar.
+InitiateBrief=Los Iniciados (Initiate) son la unidad b√°sica de la facci√≥n M√°gica, pueden recolectar recursos y construir estructuras.
 InitiatePromotion=Los Iniciados se pueden promocionar a Magos de Batalla (Battlemage), para hacerlo, selecciona un Iniciado y usa el comando "Promocionar a Mago de Batalla" ("Promote to Battlemage"). 
-BattlemageBrief=Los Magos de Batalla son los guerreros m·gicos principales, tienen un ataque a distancia potente y buena velocidad y resistencia.
-EnergyBrief=Las unidades m·gicas suelen necesitar EnergÌa (Energy) para ser producidas, la EnergÌa no se consume como la comida, solo se requiere cuando se crea la unidad. Se produce en las Fuentes de EnergÌa (Energy Source).
-EnergyBrief2=Asegurate de que siempre tienes EnergÌa suficiente para producir nuevas unidades.
-SummonedUnitsBrief=La otra forma que tiene la facciÛn m·gica de producir unidades es invocandolas. Vas a necesitar una Invocadora (Summoner), se producen en el Gremio de los Invocadores (Summoners Guild).
-SummonerBrief=Las Invocadoras pueden crear varios tipos de unidades, la mas b·sica es el Demonio (Daemon).
-DaemonBrief=Los Demonios son muy dÈbiles pero tambiÈn muy baratos, son utiles en combate mano a mano, y tambiÈn para explorar.
+BattlemageBrief=Los Magos de Batalla son los guerreros m√°gicos principales, tienen un ataque a distancia potente y buena velocidad y resistencia.
+EnergyBrief=Las unidades m√°gicas suelen necesitar Energ√≠a (Energy) para ser producidas, la Energ√≠a no se consume como la comida, solo se requiere cuando se crea la unidad. Se produce en las Fuentes de Energ√≠a (Energy Source).
+EnergyBrief2=Asegurate de que siempre tienes Energ√≠a suficiente para producir nuevas unidades.
+SummonedUnitsBrief=La otra forma que tiene la facci√≥n m√°gica de producir unidades es invocandolas. Vas a necesitar una Invocadora (Summoner), se producen en el Gremio de los Invocadores (Summoners Guild).
+SummonerBrief=Las Invocadoras pueden crear varios tipos de unidades, la mas b√°sica es el Demonio (Daemon).
+DaemonBrief=Los Demonios son muy d√©biles pero tambi√©n muy baratos, son utiles en combate mano a mano, y tambi√©n para explorar.
 OtherSummonedCreatures=Las Invocadoras pueden crear unidades mas avanzadas, como las Armaduras Fantasma (Ghost Armor) y Dragones (Dragon), pero requieren que investigues las mejoras pertinentes.
-GhostArmorRequirements=Las Armaduras Fantasma requieren la mejora InvocaciÛn Arcana (Ancient Summoning), que se puede investigar en el Gremio de los Invocadores.
-GhostArmorBrief=Las Armaduras Fantasma son una unidad de combate mano a mano media, ˙til para mantener a los enemigos lejos de tus Magos de Batalla.
-RitualBrief=Los Iniciados tienen un comando de construcciÛn secundario, llamado Ritual, que se usa para construir estructuras avanzadas y criaturas poderosas como el Golem. Necesitar·s una Biblioteca (Library) para acceder a ellas.
-GolemBrief=El Golem es una unidad defensiva muy poderosa, tiene un ataque potente y mucha resistencia, pero solo se puede mover si tiene suficientes puntos de energÌa.
-ArmyManagement=Cuando tienes muchas unidades pueden ser difÌciles de controlar.
+GhostArmorRequirements=Las Armaduras Fantasma requieren la mejora Invocaci√≥n Arcana (Ancient Summoning), que se puede investigar en el Gremio de los Invocadores.
+GhostArmorBrief=Las Armaduras Fantasma son una unidad de combate mano a mano media, √∫til para mantener a los enemigos lejos de tus Magos de Batalla.
+RitualBrief=Los Iniciados tienen un comando de construcci√≥n secundario, llamado Ritual, que se usa para construir estructuras avanzadas y criaturas poderosas como el Golem. Necesitar√°s una Biblioteca (Library) para acceder a ellas.
+GolemBrief=El Golem es una unidad defensiva muy poderosa, tiene un ataque potente y mucha resistencia, pero solo se puede mover si tiene suficientes puntos de energ√≠a.
+ArmyManagement=Cuando tienes muchas unidades pueden ser dif√≠ciles de controlar.
 DoubleClickBrief=Haciendo doble click en na unidad seleccionas todas las del mismo tipo cercanas.
-GroupSelectBrief=Puedes definir grupos de unidades seleccion·ndolas y luego pulsando Control y una tecla numÈrica, luego el grupo se puede seleccionar en cualquier momento solo pulsando la tecla numÈrica.
-FinalMission=Como prueba final, construye un ejÈrcito y derrota al enemigo.
+GroupSelectBrief=Puedes definir grupos de unidades seleccion√°ndolas y luego pulsando Control y una tecla num√©rica, luego el grupo se puede seleccionar en cualquier momento solo pulsando la tecla num√©rica.
+FinalMission=Como prueba final, construye un ej√©rcito y derrota al enemigo.
 
 ;objective strings
 PromoteInitiate=Objetivo: Promociona un Iniciado (Initiate) a Mago de Batalla (Battlemage).
 ProduceSummoner=Objetivo: Construye un Gremio de los Invocadores (Summoners Guild) y una Invocadora (Summoner).
 ProduceDaemon=Objetivo: Invoca un Demonio (Daemon).
-ProduceGhostArmor=Objetivo: Investiga la InvocaciÛn Arcana (Ancient Summoning) y luego produce una Armadura Fantasma (Ghost Armor).
-BuildEnergySource=Objetivo: Produce una Fuente de EnergÌa (Energy Source).
+ProduceGhostArmor=Objetivo: Investiga la Invocaci√≥n Arcana (Ancient Summoning) y luego produce una Armadura Fantasma (Ghost Armor).
+BuildEnergySource=Objetivo: Produce una Fuente de Energ√≠a (Energy Source).
 ProduceGolem=Objetivo: Construye una Biblioteca (Library) y luego usa un Iniciado (Initiate) para construir un Golem.
-DefeatEnemy=Objetivo: Construye un ejÈrcito, busca y derrota al enemigo.
+DefeatEnemy=Objetivo: Construye un ej√©rcito, busca y derrota al enemigo.
 			

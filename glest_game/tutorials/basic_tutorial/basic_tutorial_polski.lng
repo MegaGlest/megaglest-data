@@ -1,0 +1,37 @@
+;message headers
+GlestBasicTutorial=Tutorial do Glesta. Podstawy.
+WellDone=Doskonale!
+Resources=Surowce
+Combat=Bitwa
+Buildings=Budynki
+
+;message strings
+Welcome=Witaj w tutorialu do Glesta. Nauczysz siê tutaj podstaw gry.
+WillBeUsingTech=Kierujesz frakcj¹ Techników, w szeregach której s¹ œredniowieczni wojownicy i maszyny.
+NeedWorkers=By zbieraæ surowce potrzebujesz Robotników (Workers). By stworzyæ kilku zaznacz Zamek (Castle) i u¿yj polecenia "Produce Worker".
+SelectAndCommand=Jednostki zaznacza siê przez klikniêcie lewym przyciskiem na nich, polecenia s¹ wydawane prawym klikniêciem na celu lub na terenie.
+HowToMine=By zbieraæ Z³oto (Gold) zaznacz Robotnika (Worker), nastêpnie kliknij prawym na rudzie z³ota na mapie.
+WorkersKeepOnHarvesting=Robotnicy bêd¹ zbieraæ i przenosiæ surowce do budynku, który mo¿e je przechowywaæ.
+ResourceInformation=Informacja o surowcach jest wyœwietlona na górze ekranu. Liczba po lewej to posiadana iloœæ, liczba po prawej to pojemnoœæ magazynów.
+OtherResources=Inne surowce jak Drewno (Wood) czy Kamieñ (Stone) s¹ zbierane w taki sam sposób jak Z³oto.
+TechResourceNeeds=Technicy zazwyczaj potrzebuj¹ du¿o Z³ota i Drewna oraz trochê Kamienia.
+TechConsumesFood=Ka¿da jednostka Techników konsumuje Jedzenie. Bez Jedzenia jednostki bêd¹ traciæ zdrowie i umieraæ. Jedzenie produkowane jest przez zwierzêta, które mo¿na stworzyæ w Farmie.
+HaveEnoughAnimals=Pamiêtaj by zawsze mieæ wystarczaj¹c¹ iloœæ zwierz¹t by wykarmiæ jednostki.
+BalanceDisplay=Balans pomiêdzy spo¿yciem i produkcj¹ Jedzenia jest pokazany w nawiasach obok ikonki Jedzenia u góry ekranu.
+TechWarriorsAtBarracks=By pokonaæ wroga bêdziesz potrzebowa³ wojowników, Technicy wiêkszoœæ z nich tworz¹ w Koszarach (Barracks).
+HowToBuildBarracks=By wybudowaæ Koszary zaznacz Robotnika (Worker), kliknij na "Build Basic" > "Barracks" i zaznacz miejsce do budowy.
+RememberToBuildBarracks=Pamiêtaj by zawsze budowaæ Koszary na pocz¹tku gry by szybko zbudowaæ wojowników.
+SwordmanBrief=Podstawowy wojownik Techników to Miecznik (Swordman). Zaznacz Koszary (Barracks), potem kliknij "Produce Swordman" by stworzyæ jednego. Upewnij siê ¿e masz wystarczaj¹c¹ iloœæ surowców.
+HaveWarriorsAtBase=Zawsze powinieneœ mieæ kilku wojowników w swojej bazie. Zaatakuj¹ oni automatycznie wroga bêd¹cego w zasiêgu.
+ArcherBrief=£ucznicy to podstawowa jednostka strzelaj¹ca u Techników. Ich te¿ mo¿esz stworzyc w Koszarach.
+ProduceWarriors=Stwórz jeszcze kilku wojowników by obroniæ swoj¹ bazê przed wrogiem.
+
+;objective strings
+ProduceWorkers=Twój Cel: Stwórz 3 Robotników (Workers).
+HarvestWoodAndStone=Twój Cel: Zbierz 100 sztuk Drewna (Wood) oraz 150 sztuk Kamienia (Stone).
+ProduceCow=Twój Cel: Stwórz Krowê.
+MineGold=Twój Cel: Zbierz 100 sztuk Z³ota (Gold).
+BuildBarracks=Twój Cel: Wybuduj Koszary.
+ProduceSwordman=Twój Cel: Stwórz Miecznika (Swordman).
+ProduceArcher=Twój Cel: Stwórz £ucznika (Archer).
+ProduceMoreWarriors=Twój Cel: Stwórz wiêcej wojowników by poradziæ sobie z nadchodz¹cym atakiem.

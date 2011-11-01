@@ -1,43 +1,43 @@
 ; Galician (gl) lang file
-; 	Ficheiro de traduciÛn ao galego.
+; 	Ficheiro de traduci√≥n ao galego.
 
 ; Main strings
 ; 	Cadeas principais
-; Cadra no contexto (informaciÛn):
-3dArt=DeseÒo (tres dimensiÛns):
-; Cadra no contexto (informaciÛn):
-3dAnd2dArt=DeseÒo (d˙as e tres dimensiÛns):
-; Cadra no contexto (informaciÛn):
-2dArtAndWeb=DeseÒo (d˙as dimensiÛns) e web:
+; Cadra no contexto (informaci√≥n):
+3dArt=Dese√±o (tres dimensi√≥ns):
+; Cadra no contexto (informaci√≥n):
+3dAnd2dArt=Dese√±o (d√∫as e tres dimensi√≥ns):
+; Cadra no contexto (informaci√≥n):
+2dArtAndWeb=Dese√±o (d√∫as dimensi√≥ns) e web:
 Abort=Cancelar
-About=InformaciÛn
+About=Informaci√≥n
 Address=Enderezo
-AdvancedGameOptions=OpciÛns avanzadas
+AdvancedGameOptions=Opci√≥ns avanzadas
 AlreadyUpgraded=Xa se actualizou
 All=Todos
 AllowObservers=Permitir observadores
 AmbientVolume=Volume do ambiente:
-; Cadra no contexto (informaciÛn):
-Animation=AnimaciÛn:
+; Cadra no contexto (informaci√≥n):
+Animation=Animaci√≥n:
 Armor=Armadura
 Attack=Atacar
 AttackDistance=Alcance
 AttackSpeed=Velocidade de ataque
-AttackStopped=DetÌvose o ataque
+AttackStopped=Det√≠vose o ataque
 AttackStrenght=Dano
 Audio=Son
-; Cadra no contexto (configuraciÛn), onde o de configuraciÛn vai implÌcito e hai un tamaÒo lÌmite:
-AutoConfig=Autom·tica
-AutoRefreshRate=Frecuencia de actualizaciÛn
-AvailableServers=Servidores dispoÒÌbeis
+; Cadra no contexto (configuraci√≥n), onde o de configuraci√≥n vai impl√≠cito e hai un tama√±o l√≠mite:
+AutoConfig=Autom√°tica
+AutoRefreshRate=Frecuencia de actualizaci√≥n
+AvailableServers=Servidores dispo√±√≠beis
 BattleOver=A batalla rematou
-Build=ConstruÌr
-BuildSpeed=Velocidade de construciÛn
-BuildingNoPlace=Non se pode construÌr aÌ o edificio
-BuildingNoReqs=Non se dispÛn dos requisitos necesarios para a construciÛn do edificio
-BuildingNoRes=Non hai recursos abondo para construÌr o edificio
-Built=ConstruÌdo
-CameraModeSet=Pasouse a utilizar a c·mara
+Build=Constru√≠r
+BuildSpeed=Velocidade de construci√≥n
+BuildingNoPlace=Non se pode constru√≠r a√≠ o edificio
+BuildingNoReqs=Non se disp√≥n dos requisitos necesarios para a construci√≥n do edificio
+BuildingNoRes=Non hai recursos abondo para constru√≠r o edificio
+Built=Constru√≠do
+CameraModeSet=Pasouse a utilizar a c√°mara
 CanRepair=Pode reparar
 Cancel=Cancelar
 Canceled=Cancelado
@@ -47,56 +47,56 @@ Command=Orde
 CommonCommand=Orde habitual
 Connect=Conectarse
 Connected=Conectado
-ConnectedToServer=Est· conectado ao servidor
+ConnectedToServer=Est√° conectado ao servidor
 Connection failed=Non se puido conectar ao servidor
 Consume=Consume
 Control=Control
 Couldnt connect=Non se puido conectar ao servidor, escolla outro.
 Cpu=Intelixencia art.
-CpuEasy=Intelixencia artificial (f·cil)
+CpuEasy=Intelixencia artificial (f√°cil)
 CpuMega=Intelixencia artificial (normal)
-CpuUltra=Intelixencia artificial (difÌcil)
+CpuUltra=Intelixencia artificial (dif√≠cil)
 CustomGame=Partida personalizada
 Deaths=Mortes
 Defeat=Derrota
 Deleting=Borrando
 Difficulty=Dificultade
-; Van en min˙scula porque aparecen despois de dous puntos (´:ª).
-Difficulty0=moi f·cil
+; Van en min√∫scula porque aparecen despois de dous puntos (¬´:¬ª).
+Difficulty0=moi f√°cil
 Difficulty1=doado
 Difficulty2=normal
 Difficulty3=complicado
-Difficulty4=difÌcil
+Difficulty4=dif√≠cil
 Difficulty5=imposible
 Disabled=Desactivado
 Disable=Desactivar
 Disconnect=Desconectar
 Discount=Descontar
-DisplaySettingsChanged=Cambiouse a configuraciÛn gr·fica
+DisplaySettingsChanged=Cambiouse a configuraci√≥n gr√°fica
 EnableObserverMode=Ver o mapa ao rematar a partida
 EnableServerControlledAI=Intelixencia artificial controlada polo servidor
 Ep=EP
 EpCost=Custo de EP
 ErrorBindingPort=Houbo un erro: non se puido ligar co porto da rede
 ErrorFromMasterserver=Houbo un erro no servidor mestre
-Exit=SaÌr
-ExitGame?=Quere saÌr da partida?
-ExitGameServer?=Quere saÌr da partida?\n(os outros xogadores\nnon poder·n seguir xogando)
-Faction=FacciÛn
-Fast=r·pido
+Exit=Sa√≠r
+ExitGame?=Quere sa√≠r da partida?
+ExitGameServer?=Quere sa√≠r da partida?\n(os outros xogadores\nnon poder√°n seguir xogando)
+Faction=Facci√≥n
+Fast=r√°pido
 Fields=Campos
 Filter=Filtro:
 FindLANGames=Buscar na rede local
-FogOfWar=NÈboa de guerra
-; Cadra no contexto (configuraciÛn):
-FontSizeAdjustment=TamaÒo da letra:
+FogOfWar=N√©boa de guerra
+; Cadra no contexto (configuraci√≥n):
+FontSizeAdjustment=Tama√±o da letra:
 FontSizeAdjustmentChanged=Cambiou o axuste do tipo de letra
-FreeCamera=C·mara libre
+FreeCamera=C√°mara libre
 FxVolume=Volume dos efectos:
-GameCamera=C·mara do xogo
-GameMusic=M˙sica do xogo
+GameCamera=C√°mara do xogo
+GameMusic=M√∫sica do xogo
 GameOver=Rematou a partida
-GamePaused=A partida est· detida
+GamePaused=A partida est√° detida
 GameResumed=Retomouse a partida
 GameSpeedSet=Cambiouse a velocidade do xogo a
 Harvest=Recoller
@@ -104,8 +104,8 @@ HarvestSpeed=Velocidade da recolleita
 Hp=Vida
 Human=Humano
 Initializing=Inicializando
-InvalidOrder=A orde non È correcta
-InvalidPosition=A posiciÛn non È correcta
+InvalidOrder=A orde non √© correcta
+InvalidPosition=A posici√≥n non √© correcta
 Kills=Mortes
 JoinGame=Partida na rede local
 JoinInternetGame=Partida por Internet
@@ -113,56 +113,56 @@ Language=Lingua:
 ; Ends in a white space:
 ; Remata nun espazo en branco:
 LanIP=Enderezos locais: 
-LinuxPort=VersiÛn para GNU/Linux:
+LinuxPort=Versi√≥n para GNU/Linux:
 Load=Cargar
 LoadedSpeed=Velocidade de carga
 Loading=Cargando
 Map=Mapa
 MapFilter=Filtro do mapa
-MaxFilterAnisotropy=AnisotropÌa m·xima do filtro
-MaxLights=IluminaciÛn m·xima:
-MaxLoad=Carga m·xima
-MaxPlayers=LÌmite de xogadores
-MaxUnitCount=Cantidade m·xima de unidades
+MaxFilterAnisotropy=Anisotrop√≠a m√°xima do filtro
+MaxLights=Iluminaci√≥n m√°xima:
+MaxLoad=Carga m√°xima
+MaxPlayers=L√≠mite de xogadores
+MaxUnitCount=Cantidade m√°xima de unidades
 MeetingPoint=Punto de encontro
-; Cadra no contexto (informaciÛn):
-Megaglest3d2dProgramming=ProgramaciÛn (MegaGlest):
-; Cadra no contexto (informaciÛn):
-MegaglestProgramming=ProgramaciÛn (MegaGlest):
+; Cadra no contexto (informaci√≥n):
+Megaglest3d2dProgramming=Programaci√≥n (MegaGlest):
+; Cadra no contexto (informaci√≥n):
+MegaglestProgramming=Programaci√≥n (MegaGlest):
 Misc=Varios
 Morph=Transformar
-MorphSpeed=Velocidade de transformaciÛn
+MorphSpeed=Velocidade de transformaci√≥n
 Move=Mover
-MusicVolume=Volume da m˙sica:
+MusicVolume=Volume da m√∫sica:
 Network=Rede
 NetworkFramePeriod=Enviar a cantidade de fotogramas pola rede
 ; Ends in a white space:
 ; Remata nun espazo en branco:
-NetworkPauseGameForLaggedClients=Deter a partida para os xogadores con problemas de conexiÛn 
+NetworkPauseGameForLaggedClients=Deter a partida para os xogadores con problemas de conexi√≥n 
 NewGame=Comezar unha partida
 No=Non
-NoServerVisitChat=Non sabe de ning˙n servidor? Vaia · sala de conversa do xogo
-NotConnected=Non est· conectado
+NoServerVisitChat=Non sabe de ning√∫n servidor? Vaia √° sala de conversa do xogo
+NotConnected=Non est√° conectado
 None=Ningunha
-NonStandardPort=Porto non est·ndar
+NonStandardPort=Porto non est√°ndar
 Normal=normal
 Off=Apagado
 Ok=Aceptar
-; As seguintes cadeas est·n adaptadas ao contexto, no que para a maiorÌa delas (todas salvo a primeira)
-; o de ´OpenGLª vai implÌcito.
-OpenGlInfo=InformaciÛn sobre OpenGL
-OpenGlVersion=VersiÛn
-OpenGlRenderer=´Renderizadorª
+; As seguintes cadeas est√°n adaptadas ao contexto, no que para a maior√≠a delas (todas salvo a primeira)
+; o de ¬´OpenGL¬ª vai impl√≠cito.
+OpenGlInfo=Informaci√≥n sobre OpenGL
+OpenGlVersion=Versi√≥n
+OpenGlRenderer=¬´Renderizador¬ª
 OpenGlVendor=Fabricante
-OpenGlMaxLights=IluminaciÛn m·xima
-OpenGlMaxTextureSize=TamaÒo m·ximo das texturas
-OpenGlMaxTextureUnits=Cantidade m·xima de texturas nas unidades
+OpenGlMaxLights=Iluminaci√≥n m√°xima
+OpenGlMaxTextureSize=Tama√±o m√°ximo das texturas
+OpenGlMaxTextureUnits=Cantidade m√°xima de texturas nas unidades
 OpenGlModelviewStack=Pila de vistas de modelos
-OpenGlProjectionStack=Pila de proxecciÛns
-OpenGlExtensions=ExtensiÛns
-OpenGlPlatformExtensions=ExtensiÛns da plataforma
-; Cadra no contexto (configuraciÛn):
-Options=ConfiguraciÛn
+OpenGlProjectionStack=Pila de proxecci√≥ns
+OpenGlExtensions=Extensi√≥ns
+OpenGlPlatformExtensions=Extensi√≥ns da plataforma
+; Cadra no contexto (configuraci√≥n):
+Options=Configuraci√≥n
 OrdersOnQueue=Ordes na cola
 ; Cadra no contexto:
 PathFinderType=Calculador de rutas
@@ -177,29 +177,29 @@ Playername=Nome do xogador:
 Port=Porto
 Produce=Produce
 Producing=Producindo
-ProductionSpeed=Velocidade de produciÛn
-; Cadra no contexto (informaciÛn):
-Programming=ProgramaciÛn:
+ProductionSpeed=Velocidade de produci√≥n
+; Cadra no contexto (informaci√≥n):
+Programming=Programaci√≥n:
 Projected=Proxectadas
 PublishServer=Publicalo no servidor mestre?
-; Cadra no contexto (configuraciÛn):
+; Cadra no contexto (configuraci√≥n):
 PublishServerExternalPort=Porto externo:
-ReactionSpeed=Velocidade de reacciÛn
+ReactionSpeed=Velocidade de reacci√≥n
 RefreshList=Actualizar a lista
 Regeneration=Rexenerar
-ReloadLastGameSettings=Volver cargar a ˙ltima configuraciÛn
+ReloadLastGameSettings=Volver cargar a √∫ltima configuraci√≥n
 Repair=Reparar
-RepairSpeed=Velocidade de reparaciÛn
+RepairSpeed=Velocidade de reparaci√≥n
 Reqs=Requisitos
 RestartNeeded=Fai falla reiniciar para que os cambios se fagan efectivos
-Resolution=ResoluciÛn:
-ResolutionChanged=Cambiou a resoluciÛn
+Resolution=Resoluci√≥n:
+ResolutionChanged=Cambiou a resoluci√≥n
 Resources=Recursos
 ResourcesHarvested=Recursos recollidos
 Result=Resultado
 Return=Volver
 Scenario=Escenario
-Score=PuntuaciÛn
+Score=Puntuaci√≥n
 Server=Servidor
 ; Cadra no contexto:
 ServerPort=Porto do servidor:
@@ -208,34 +208,34 @@ ServerType=Tipo de servidor
 ServerTypeFound=Partidas atopadas
 ServerTypeNew=Novo
 ServerTypePrevious=Anterior
-ShadowMapping=´Mapeadasª
+ShadowMapping=¬´Mapeadas¬ª
 Shadows=Sombras:
-; Cadra no contexto (configuraciÛn):
-ShowMapPreview=PrevisualizaciÛn do mapa:
-ShowUnitParticles=PartÌculas das unidades:
-Sight=VisiÛn
-Size=TamaÒo
+; Cadra no contexto (configuraci√≥n):
+ShowMapPreview=Previsualizaci√≥n do mapa:
+ShowUnitParticles=Part√≠culas das unidades:
+Sight=Visi√≥n
+Size=Tama√±o
 Slow=lentamente
 SomeOrdersFailed=Parte das ordes non chegaron aos seus destinatarios
-; Cadra no contexto (configuraciÛn):
-SoundAndMusic=Sons e m˙sica:
+; Cadra no contexto (configuraci√≥n):
+SoundAndMusic=Sons e m√∫sica:
 SplashRadius=Raio de efecto
-; Cadra no contexto (vai entre parÈnteses coma esta mensaxe):
+; Cadra no contexto (vai entre par√©nteses coma esta mensaxe):
 StandardPort=porto predeterminado
 StartingToUpgrade=Iniciando a mellora
 Stop=Deter
 Store=Gardar
 Team=Equipo
-TechTree=¡rbore tecnolÛxica
-Textures3D=Texturas en tres dimensiÛns:
+TechTree=√Årbore tecnol√≥xica
+Textures3D=Texturas en tres dimensi√≥ns:
 ; Encaixa co contexto:
 Tileset=Ambiente
 Tip=Consello
-To switch off music press=Para apagar a m˙sica mentres espera polo resto de xogadores prema
+To switch off music press=Para apagar a m√∫sica mentres espera polo resto de xogadores prema
 Tutorial=Aprendizaxe
-UnitAddedToProductionQueue=Engadiuse unha unidade · cola de produciÛn
+UnitAddedToProductionQueue=Engadiuse unha unidade √° cola de produci√≥n
 UnitNoPlace=Non se puido colocar a unidade
-UnitNoReqs=A unidade non dispÛn dos requisitos necesarios
+UnitNoReqs=A unidade non disp√≥n dos requisitos necesarios
 UnitNoRes=Non hai recursos abondo para recrutar a unidade
 UnitReady=Hai unha nova unidade preparada
 UnitsProduced=Unidades recrutadas
@@ -246,13 +246,13 @@ UpgradeSpeed=Velocidade da mellora
 Upgrades=Melloras
 Upgrading=Mellorando
 Victory=Vitoria
-Video=VÌdeo
-VideoInfo=InformaciÛn gr·fica
+Video=V√≠deo
+VideoInfo=Informaci√≥n gr√°fica
 WalkSpeed=Velocidade
 WaitingHost=Esperando a que o servidor inicie a partida
-; Cadra no contexto (configuraciÛn) e ´xanelaª È o termo acordado en Trasno:
+; Cadra no contexto (configuraci√≥n) e ¬´xanela¬ª √© o termo acordado en Trasno:
 Windowed=Xogar nunha xanela:
-WrongRouterSetup=A s˙a devasa ou router non est· correctamente configurado para aloxar partidas.
+WrongRouterSetup=A s√∫a devasa ou router non est√° correctamente configurado para aloxar partidas.
 Yes=Si
 YouLose=Perdiches
-YouWin=GaÒaches!
+YouWin=Ga√±aches!

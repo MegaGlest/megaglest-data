@@ -126,6 +126,7 @@ Spanish              by Davidou based on the work of many others
 Catalan              by Miguel Verdú
 Russian              by Strannik
 Portuguese           by felipeludo2011
+Polish               by TotalNoob
 
 Credits go to:
 ==============

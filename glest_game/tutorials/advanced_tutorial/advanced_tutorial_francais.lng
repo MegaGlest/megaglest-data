@@ -1,39 +1,39 @@
 ;message headers
-GlestAdvancedTutorial=Tutoriel Avancé Glest
-Promoting=Evolution des Unités
-WellDone=Bien Joué!
+GlestAdvancedTutorial=Tutoriel AvancÃ© Glest
+Promoting=Evolution des UnitÃ©s
+WellDone=Bien JouÃ©!
 Summoning=Invocation
 Energy=Energie
 Ritual=Rituel
-Armies=Armées
+Armies=ArmÃ©es
 
 ;message strings
-Welcome=Bienvenue dans le tutoriel avancé de Glest, ici vous allez apprendre une partie des fonctionnalités les plus avancées du jeu.
-MagicBrief=Vous commandez la faction des Magiciens, qui utilise des mages et des créatures pour combattre.
-InitiateBrief=Les Initiés sont les unités de base des Magiciens, ils peuvent récolter des ressources et construire des batiments.
-InitiatePromotion=Les Initiés peuvent se transformer en Mages de combat. Pour cela, sélectionnez un Initié, et utilisez la commande "Promote to Battlemage". 
-BattlemageBrief=Les Mages de combat sont le coeur des guerriers Magiciens, Ils possèdent de puissantes attaques à distance ainsi qu'une bonne vitesse et résistance.
-EnergyBrief=La production de  Magiciens nécessite de l'énergie. L'énergie n'est pas consommée comme la nourriture, mais est uniquement requise à la création de l'unité. Elle est produite par les Sources d'Energie.
-EnergyBrief2=Assurez-vous de toujours avoir suffisament d'énergie pour produire de nouvelles unités.
-SummonedUnitsBrief=L'autre façon de produire des unités est de les invoquer. Pour cela vous avez besoin d'un Invocateur. Ils sont produits par la Guilde des Invocateurs.
-SummonerBrief=Les Invocateurs sont capables de créer differents types de créatures, la plus basique étant le Démon.
-DaemonBrief=Les Démons sont faibles, mais trés bon marché. Ils sont utiles comme des guerriers de mêlée ainsi que le "scouting".
-OtherSummonedCreatures=Les Ivocateurs peuvent créer des créatures plus avancées, comme des Fantômes et des Dragons, cependant il vous faudra rechercher les mises à niveau correspondantes.
-GhostArmorRequirements=Les fantômes nessitent la mise à niveau "Ancient Summonig", qui peut être faite à la "Guilde des Invocateurs".
-GhostArmorBrief=Les Fantômes sont des unités de mêlée moyenne, utiles pour tenir les guerriers ennemis à distance de vos Mages.
-RitualBrief=Les Initiés ont une autre possibilité, le Rituel, utilisée pour créer des batiments avancés et des créatuers trés puissantes comme le Golem. Vous aurez besoin d'une bibliothèque pour pouvoir l'utiliser.
-GolemBrief=Les Golems sont d'excellentes unités de défense. Ils ont des attaques trés puissantes et une excellente résistance, mais ne peuvent se déplacer que s'ils ont suffisament de points d'énergie.
-ArmyManagement=Plus vous produisez d'unités, plus elles deviennent difficile à gérer.
-DoubleClickBrief=En double cliquant sur une unité, Cela sélectionne toutes les unités du même type aux alentours.
-GroupSelectBrief=Vous pouvez définir des groupes d'unités en les sélectionnant et en pressant Control et une touche numérique, puis vous pouvez sélectionner le groupe en pressant à nouveau la touche numérique.
-FinalMission=Comme test final, construisez une armée et battez votre adversaire.
+Welcome=Bienvenue dans le tutoriel avancÃ© de Glest, ici vous allez apprendre une partie des fonctionnalitÃ©s les plus avancÃ©es du jeu.
+MagicBrief=Vous commandez la faction des Magiciens, qui utilise des mages et des crÃ©atures pour combattre.
+InitiateBrief=Les InitiÃ©s sont les unitÃ©s de base des Magiciens, ils peuvent rÃ©colter des ressources et construire des batiments.
+InitiatePromotion=Les InitiÃ©s peuvent se transformer en Mages de combat. Pour cela, sÃ©lectionnez un InitiÃ©, et utilisez la commande "Promote to Battlemage". 
+BattlemageBrief=Les Mages de combat sont le coeur des guerriers Magiciens, Ils possÃ¨dent de puissantes attaques Ã  distance ainsi qu'une bonne vitesse et rÃ©sistance.
+EnergyBrief=La production de  Magiciens nÃ©cessite de l'Ã©nergie. L'Ã©nergie n'est pas consommÃ©e comme la nourriture, mais est uniquement requise Ã  la crÃ©ation de l'unitÃ©. Elle est produite par les Sources d'Energie.
+EnergyBrief2=Assurez-vous de toujours avoir suffisament d'Ã©nergie pour produire de nouvelles unitÃ©s.
+SummonedUnitsBrief=L'autre faÃ§on de produire des unitÃ©s est de les invoquer. Pour cela vous avez besoin d'un Invocateur. Ils sont produits par la Guilde des Invocateurs.
+SummonerBrief=Les Invocateurs sont capables de crÃ©er differents types de crÃ©atures, la plus basique Ã©tant le DÃ©mon.
+DaemonBrief=Les DÃ©mons sont faibles, mais trÃ©s bon marchÃ©. Ils sont utiles comme des guerriers de mÃªlÃ©e ainsi que le "scouting".
+OtherSummonedCreatures=Les Ivocateurs peuvent crÃ©er des crÃ©atures plus avancÃ©es, comme des FantÃ´mes et des Dragons, cependant il vous faudra rechercher les mises Ã  niveau correspondantes.
+GhostArmorRequirements=Les fantÃ´mes nessitent la mise Ã  niveau "Ancient Summonig", qui peut Ãªtre faite Ã  la "Guilde des Invocateurs".
+GhostArmorBrief=Les FantÃ´mes sont des unitÃ©s de mÃªlÃ©e moyenne, utiles pour tenir les guerriers ennemis Ã  distance de vos Mages.
+RitualBrief=Les InitiÃ©s ont une autre possibilitÃ©, le Rituel, utilisÃ©e pour crÃ©er des batiments avancÃ©s et des crÃ©atuers trÃ©s puissantes comme le Golem. Vous aurez besoin d'une bibliothÃ¨que pour pouvoir l'utiliser.
+GolemBrief=Les Golems sont d'excellentes unitÃ©s de dÃ©fense. Ils ont des attaques trÃ©s puissantes et une excellente rÃ©sistance, mais ne peuvent se dÃ©placer que s'ils ont suffisament de points d'Ã©nergie.
+ArmyManagement=Plus vous produisez d'unitÃ©s, plus elles deviennent difficile Ã  gÃ©rer.
+DoubleClickBrief=En double cliquant sur une unitÃ©, Cela sÃ©lectionne toutes les unitÃ©s du mÃªme type aux alentours.
+GroupSelectBrief=Vous pouvez dÃ©finir des groupes d'unitÃ©s en les sÃ©lectionnant et en pressant Control et une touche numÃ©rique, puis vous pouvez sÃ©lectionner le groupe en pressant Ã  nouveau la touche numÃ©rique.
+FinalMission=Comme test final, construisez une armÃ©e et battez votre adversaire.
 
 ;objective strings
-PromoteInitiate=Objectif: Faites évoluer un Initié en Mage.
+PromoteInitiate=Objectif: Faites Ã©voluer un InitiÃ© en Mage.
 ProduceSummoner=Objectif: Construisez  une Guilde des Invocateurs, puis produisez un Invocateur.
-ProduceDaemon=Objectif: Invoquez un Démon.
-ProduceGhostArmor=Objectif: Rechercher "Ancient Summoning", puis invoquez un Fantôme.
-BuildEnergySource=Objectif: Construisez une source d'énergie.
-ProduceGolem=Objectif: Construisez une bibliothèque puis utilisez un Initié et effectuez un rituel opur créer un Golem.
-DefeatEnemy=Objectif: Construisez une armée, trouvez et détruisez votre ennemi.
+ProduceDaemon=Objectif: Invoquez un DÃ©mon.
+ProduceGhostArmor=Objectif: Rechercher "Ancient Summoning", puis invoquez un FantÃ´me.
+BuildEnergySource=Objectif: Construisez une source d'Ã©nergie.
+ProduceGolem=Objectif: Construisez une bibliothÃ¨que puis utilisez un InitiÃ© et effectuez un rituel opur crÃ©er un Golem.
+DefeatEnemy=Objectif: Construisez une armÃ©e, trouvez et dÃ©truisez votre ennemi.
 			

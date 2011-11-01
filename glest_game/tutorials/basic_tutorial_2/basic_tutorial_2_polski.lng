@@ -1,0 +1,76 @@
+;message headers
+GlestBasicTutorial=Tutorial do MegaGlesta. Podstawy 2.
+WellDone=Doskonale!
+Resources=Surowce
+Combat=Bitwa
+Buildings=Budynki
+Tricks=Sztuczki
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Witaj w tutorialu do MegaGlesta.
+
+FirstThing=Widok: By ustawiæ widoczny obszar przesuñ wskaŸnik myszy do krawêdzi ekranu lub u¿yj kursorów klawiatury. Mo¿esz te¿ klikn¹æ lewym na minimapie (lewy górny róg ekranu).
+ 
+WillBeUsingIndian=W tym wprowadzeniu kierujesz Indianami. Ta frakcja walczy ³ucznikami i prostymi broniami.
+
+NeedWorkers=Potrzebujemy Robotnika. Kliknij lewym na G³ównym Tipi (Mainteepee) i rozpocznij budowê Robotnika (Worker). Kliknij komendê 'Produce Worker' poprzez klikniêcie na ikonê Robotnika (Worker).
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Teraz kliknij lewym na Robotniku. Szczegó³y dotycz¹ce zaznaczonej jednostki (nazwa jednostki i jej ikona) s¹ teraz wyœwietlone w prawym górnym rogu ekranu. Poni¿ej s¹ punkty ¿ycia (HP), zbroja oraz, w nawiasach, typ zbroi i zasiêg widoku.
+Select2=Jeœli jest to jednostka bojowa, liczba zabitych przez ni¹ jednostek wroga bêdzie tu¿ pod spodem. Jeœli konsumuje surowce, bêdzie to napisane jako nastêpne. Ni¿ej napisane jest co aktualnie jednostka robi.
+
+exampleWorker=Na przyk³ad, Twój Robotnik ma 600 HP, skórzan¹ (leather) zbrojê daj¹c¹ 0 obrony oraz zasiêg widocznoœci 9. Jego aktualny stan to "stop", czyli nic nie robi.
+
+Command=Mo¿liwoœci jednostki s¹ wymienione ni¿ej. Zobaczmy co Robotnik potrafi.
+
+firstCommand=Pierwsza ikona to 'stop'. Jeœli na ni¹ klikniesz Robotnik zaprzestanie tego co aktualnie robi³. Wszystkie jednostki (niebudynki) maj¹ tak¹ komendê.
+
+secondCommand=Nastêpna ikona to 'move'. Jeœli na ni¹ klikniesz, klikniêcie na ziemi lub na innej jednostce sprawi i¿ zacznie on pod¹¿aæ w tym kierunku. Mo¿na te¿ zamiast tego klikn¹æ prawym na celu.
+secondCommand2=Gdy najedziesz na ikonê 'move' wyœwietli siê szybkoœæ ruchu Robotnika. Ta komenda te¿ jest dostêpna dla ka¿dej jednostki (oprócz budynków).
+
+testSecondCommand=Wypróbuj teraz komendê 'move'. Przemieœæ Twojego Robotnika do nastêpnego Robotnika, który czeka poza obozem. Ten Robotnik jest wyœwietlony na minimapie (lewy górny róg) jako czerwona kropka. Bia³y trójk¹t przedstawia Twój aktualny widok/pozycjê kamery. Du¿a czerwona kropka to G³ówne Tipi.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Dobrze. Wyœlij teraz Robotników spowrotem do Tipi. By zaznaczyæ kilka jednostek naraz naciœnij Shift i narysuj prostok¹t wokó³ jednostek ALBO ...
+MoveBack2=... przytrzymaj Shift i u¿yj myszy by klikn¹æ na ka¿dej jednostce, któr¹ chcesz dodaæ ALBO ...
+MoveBack3=... naciœnij dwukrotnie na jednostce by zaznaczyæ wszystkie jednostki o tym samym typie przebywaj¹ce w pobli¿u (w tym przypadku Robotników).
+HarvestGoldandStone=Gdy Twoi Robotnicy dotr¹ do domu, u¿yjemy komendy pod czwart¹ ikon¹, która s³u¿y do polecenia wydobycia z³ota i kamienia.
+HarvestGoldandStone2=NajedŸ na t¹ ikonê swoj¹ mysza by zobaczyæ jak szybko Twoi Robotnicy potrafi¹ wydobywaæ, ile ka¿dy z nich mo¿e wydobyæ naraz, jak szybko chodz¹ gdy nios¹ surowce i jakie surowce mog¹ wydobywaæ.
+UseHarvestGoldandStone=By u¿yæ tej komendy kliknij na ikonie a potem na surowcu, który chcesz wydobywaæ. Szare pryzmy z ¿ó³tymi kropkami to Z³oto, a te bez to Kamieñ.
+HarvestGoldandStone3=Zbieraj Z³oto i Kamieñ a¿ bêdziesz mia³ 600 Z³ota i 550 Kamienia. Mo¿esz stworzyæ nowych Robotników by to zrobiæ (ale oni te¿ bêd¹ kosztowaæ Z³oto). Sprawdzaj na górze ekranu ile surowców masz ju¿ zebranych w magazynach.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Teraz potrzeba nieco Drewna. By go zdobyæ u¿yj pi¹tej ikony. Mo¿esz tego polecenia u¿ywaæ w podobny sposób jak poprzedniego.
+ResourceInformation=Indianie g³ównie potrzebuj¹ Z³ota i Drewna.
+GetWood=Zamiast u¿ywaæ ikony mo¿esz te¿ zaznaczyc Robotnika i klikn¹æ prawym na miejscu gdzie ma on zbieraæ surowiec (w tym przypadku drzewa). Jeœli zaznaczysz poprawnie, pojawi siê ¿ó³ta strza³ka. Zbierz 550 Drewna do magazynów.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Gdy zaznaczysz budynek, niebieska strza³ka siê pojawia. Wskazuje ona do tzw. "punktu zbiórki". Wszystkie jednostki, które tworzysz w tym budynku zbieraj¹ siê w jego okolicy jak tylko siê pojawi¹.
+UseMeetingPoint=Mo¿esz ustawiæ punkt zbiórki poprzez klikniêcie ikony flagi a potem na miejscu, gdzie chcesz by nowe jednostki siê zbiera³y. Mo¿esz te¿ klikn¹æ prawym zamiast wybieraæ ikonê.
+MeetingPoint2=Jeœli ustawisz punkt zbiórki na surowcu, wtedy nowi Robotnicy bêd¹ natychmiast wydobywaæ. Zwróæ uwagê aby poprawnie zaznaczyæ miejsce wydobycia, w przeciwnym razie Robotnicy bêd¹ siê ustawiaæ tu¿ obok zamiast pracowaæ.
+thirdcommand=Trzecia ikona Robotnika to 'budowa' ('build').
+thirdcommand2=Klikaj¹c na ni¹ przechodzisz do menu budowy. Naje¿d¿aj¹c wskaŸnikiem myszy na jedn¹ z ikon zobaczysz, patrz¹c ni¿ej, pod has³em "wymagania ("requirements"), wszystkie surowce i osi¹gniêcia potrzebne do wybudowania tego budynku.
+thirdcommand3=Jeœli najedziesz na Namiot ("tent"), zobaczysz ¿e wymaga on 30 Z³ota i 50 Drewna daj¹c 10 miejsc zamieszkania ("-10 housing") oraz ¿e wymaga on posiadania G³ównego Tipi ("main teepee"). "-10 housing" oznacza, ¿e poprzez zbudowanie Namiotu otrzymujesz miejsce do zamieszkania dla 10 dodatkowych jednostek (niektóre jednostki potrzebuj¹ wiêcej miejsca ni¿ tylko jedno).
+thirdcommand4=Zbudujmy Namiot teraz. Kliknij na menu budowy, potem na namiot ("tent"), potem umieœæ go gdzieœ na pustym miejscu na planszy.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=Mo¿esz teraz stworzyæ Kijkarza ("stick fighter") w Twoim nowym namiocie.
+
+;objective strings
+ProduceWorker=Twój Cel: Stwórz jednego Robotnika (Worker).
+ProduceStickfighter2=Twój Cel: Stwórz jednego Kijkarza (stick fighter).
+MoveWorker=Twój Cel: Przemieœæ Twojego nowego Robotnika do innego Robotnika czekaj¹cego poza obozem.
+HarvestGoldandStoneobjective=Twój Cel: Zbieraj Z³oto i Kamieñ a¿ uzyskasz 600 Z³ota oraz 550 Kamienia.
+GetWoodob=Twój Cel: Zbieraj Drewno a¿ uzyskasz 550 Drewna.
+usethirdcommand=Twój Cel: Zbuduj Namiot ("tent"). Uwaga: Jeœli namiot podczas stawiania robi siê czerwony to oznacza, ¿e to miejsce jest aktualnie (lub zawsze) zajête (np przez jednostkê lub drzewo).
+
+;end
+
+WellDoneNextTutorial=Œwietna robota! Mo¿esz teraz przejœæ do nastêpnego samouczka.
