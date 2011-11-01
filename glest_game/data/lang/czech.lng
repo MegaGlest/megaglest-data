@@ -8,8 +8,6 @@ Abort=Zrušit
 About=O hře
 Address=Adresa
 AdvancedGameOptions=Pokročilé nastavení
-; Next line needs translation, include by merge_new_language_vars.pl on Sat Oct 22, 2011
-AISwitchTeamAcceptPercent=AI accept percent
 AlreadyUpgraded=Již vylepšeno
 All=Všechno
 AllowObservers=Povolit pozorovatele

@@ -120,9 +120,9 @@ Italian              by Marco "Pizza90" Gori
 Danish               by Frederick "Coldfusionstorm" Angelo
 Dutch                by joepie91
 French               by Cygal + Davidou based on the work of many others
-German               by Eduard Dopler (kontakt at eduard-dopler d0t de) based on the work of many others
+German               by Eduard Dopler based on the work of many others
 Ukrainian            by Dmitry Nikitin
-Spanish              by Miguel Verdú based on the work of many others
+Spanish              by Davidou based on the work of many others
 Catalan              by Miguel Verdú
 Russian              by Strannik
 Portuguese           by felipeludo2011
