@@ -18,7 +18,7 @@ NeedWorkers=Per prima cosa abbiamo bisogno di un lavoratore (worker). Per crearn
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Adesso clicca col tasto sinistro del tuo mouse sul lavoratore (worker). Adesso potrai vedere varie informazioni sull'unità: nome, punti vita (HP), armatura, tipo di armatura etc.
+Select=Adesso clicca col tasto sinistro del tuo mouse sul Lavoratore (Worker). Adesso potrai vedere varie informazioni sull'unità: nome, punti vita (HP), armatura, tipo di armatura etc.
 Select2=Se è un unità in grado di lottare sotto ad essa troverai il numero di unità che essa ha distrutto precedentemente. Se l'unità consuma risorse lo trovi scritto accanto nel riquadro apposito. Sotto potrai vedere ciò che sta facendo l'unità in questo momento.
 
 exampleWorker=Per esempio, il tuo lavoratore ha 600 punti vita (HP), 0 armatura e 9 di raggio d'azione. Il suo stato corrente è fermo, quindi non sta facendo niente.
