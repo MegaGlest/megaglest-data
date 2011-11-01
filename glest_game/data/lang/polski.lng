@@ -8,8 +8,6 @@ Abort=Zaniechaj
 About=O grze
 Address=Adres
 AdvancedGameOptions=Zaawansowane opcje
-; Next line needs translation, include by merge_new_language_vars.pl on Sat Oct 22, 2011
-AISwitchTeamAcceptPercent=AI accept percent
 AlreadyUpgraded=Ulepszone
 All=Do wszystkich
 AllowObservers=Pozwól obserwować
