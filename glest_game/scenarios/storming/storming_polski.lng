@@ -1,11 +1,11 @@
-;message headers
+ï»¿;message headers
 Storming=Szturm
 
 ;message strings
-Brief1=Pomó¿ Zaklinaczce (Summoner) w ataku na obce wioski, ona nie mo¿e zgin¹æ!
+Brief1=PomÃ³Å¼ Zaklinaczce (Summoner) w ataku na obce wioski, ona nie moÅ¼e zginÄ…Ä‡!
 
 ;objective strings
-ObjectiveWest=Twój Cel: Zniszcz zachodni¹ wioskê Magów. Zaklinaczka musi przetrwaæ!
-ObjectiveNorthEast=Twój Cel: Zniszcz pó³nocno-wschodni¹ wioskê Techników. Zaklinaczka musi przetrwaæ!
-ObjectiveSouthEast=Twój Cel: Zniszcz po³udniowo-wschodni¹ wioskê. Zaklinaczka musi przetrwaæ!
+ObjectiveWest=TwÃ³j Cel: Zniszcz zachodniÄ… wioskÄ™ MagÃ³w. Zaklinaczka musi przetrwaÄ‡!
+ObjectiveNorthEast=TwÃ³j Cel: Zniszcz pÃ³Å‚nocno-wschodniÄ… wioskÄ™ TechnikÃ³w. Zaklinaczka musi przetrwaÄ‡!
+ObjectiveSouthEast=TwÃ³j Cel: Zniszcz poÅ‚udniowo-wschodniÄ… wioskÄ™. Zaklinaczka musi przetrwaÄ‡!
 			
