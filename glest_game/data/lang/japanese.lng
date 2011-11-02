@@ -404,7 +404,7 @@ Yes=はい
 YouLose=敗北!
 YouWin=勝利
 
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_Re-0.6.4.ttf
+MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
 ;FONT_SCALE_SIZE=1.0
 ;FONT_BASE_SIZE=3
 ;FONT_CHARCOUNT=256
