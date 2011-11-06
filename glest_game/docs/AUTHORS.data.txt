@@ -151,6 +151,13 @@ Elimnator (from http://www.soundbible.com) for the  desert day sound
 Cacatoes (from http://forum.freegamedev.net/) for a nice rock texture photo used in autumn tileset.
 dobroide (from http://forum.freegamedev.net/) for spring ambiente daytime background sounds
 
-All files are released under the Terms of the Creative Commons 
+Important:
+==========
+!! For all stuff which was found on suspicious websites like freesounds ( suspicious regarding licenses ) and so on, 
+ a special permission was granted by the orginial authors to publish all stuff used with the cc-by-sa unported license !!!
+
+License:
+========
+All files are released under the Terms of the Creative Commons
 Attribution-ShareAlike 3.0 Unported license which is included in this distribution in the following file:
   cc-by-sa-3.0-unported.txt
