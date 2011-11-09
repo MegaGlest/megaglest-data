@@ -1,0 +1,10 @@
+;message headers
+Storming=Штурм
+
+;message strings
+Brief1=Помогите Summoner атаковать все поселения врагов, она должна выжить.
+
+;objective strings
+ObjectiveWest=Цель: Уничтожить поселение Магов на западе, Summoner должна выжить.
+ObjectiveNorthEast=Цель: Уничтожить поселение Техов на северо-востоке, Summoner должна выжить.
+ObjectiveSouthEast=Цель: Уничтожить поселение на юго-востоке, Summoner должна выжить.
