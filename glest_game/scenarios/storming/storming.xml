@@ -65,7 +65,9 @@
 			if objective=='destroy_north_east_village' and unitFaction(lastCreatedUnit())==1 then
 				firstArmorUnit=lastCreatedUnit()
 				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(0))
-				givePositionCommand(summonerUnit, 'attack', startLocation(0))
+				if summonerUnit ~= nil then
+					givePositionCommand(summonerUnit, 'attack', startLocation(0))
+				end
 				
 				for i=1, 2 do
 					createUnit('guard', 3, startLocation(0))
@@ -76,8 +78,13 @@
 			--send units attack location 3
 			if objective=='destroy_south_east_village' and unitFaction(lastCreatedUnit())==1 then
 				givePositionCommand(lastCreatedUnit(), 'attack', startLocation(3))
-				givePositionCommand(firstArmorUnit, 'attack', startLocation(3))
-				givePositionCommand(summonerUnit, 'attack', startLocation(3))
+
+				if firstArmorUnit ~= nil then
+					givePositionCommand(firstArmorUnit, 'attack', startLocation(3))
+				end
+				if summonerUnit ~= nil then
+					givePositionCommand(summonerUnit, 'attack', startLocation(3))
+				end
 				
 				--create enemy attackers
 				createUnit('ornithopter', 3, startLocation(3))
@@ -90,8 +97,13 @@
 		</unitCreated>	
 		
 		<unitDied>
+			if lastDeadUnit()==firstArmorUnit then
+				firstArmorUnit = nil
+			end
+
 			--check for summoner dying
 			if lastDeadUnit()==summonerUnit then
+				summonerUnit = nil
 				clearDisplayText()
 				setPlayerAsWinner(2)
 				setPlayerAsWinner(3)				
@@ -100,8 +112,11 @@
 			
 			--check for first village destroyed
 			if lastDeadUnit()==libraryUnit then
+				libraryUnit = nil
 				--summon ghost armor
-				giveProductionCommand(summonerUnit, 'ghost_armor')
+				if summonerUnit ~= nil then
+					giveProductionCommand(summonerUnit, 'ghost_armor')
+				end
 				
 				--send reinforcements
 				createUnit('daemon', 0, startLocation(2))
@@ -133,8 +148,11 @@
 			--check for second village destroyed
 			if lastDeadUnit()==technodromeUnit then
 				
+				technodromeUnit = nil
 				--summon ghost armor
-				giveProductionCommand(summonerUnit, 'ghost_armor')
+				if summonerUnit ~= nil then
+					giveProductionCommand(summonerUnit, 'ghost_armor')
+				end
 				
 				--create next village
 				createUnit('farm', 3, startLocation(3))
@@ -150,6 +168,8 @@
 
 			--check for last village destroyed
 			if lastDeadUnit()==archmageTowerUnit then
+				archmageTowerUnit = nil
+
 				clearDisplayText()
 				setPlayerAsWinner(0)
 				setPlayerAsWinner(1)				
