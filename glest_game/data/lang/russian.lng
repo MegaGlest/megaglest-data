@@ -457,19 +457,11 @@ IntroModelStartMilliseconds=36000
 IntroTextureStartMilliseconds=38000
 ;-------------------------------- Intro Text End
 
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/DoulosSILR.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/cmunrb.ttf
-;FontConsoleBaseSize=16
 FontConsolePostfix=-*-*-*-*-*-*-r
 FontConsolePrefix=-*-*-*-*-*-*-
-;FontDisplayBaseSize=16
 FontDisplayPostfix=-*-*-*-*-*-*-r
 FontDisplayPrefix=-*-*-*-*-*-*-
-;FontDisplaySmallBaseSize=14
-;FontMenuBigBaseSize=18
 FontMenuBigPostfix=-*-*-*-*-*-*-r
 FontMenuBigPrefix=-*-*-*-*-*-*-
-:FontMenuNormalBaseSize=16
 FontMenuNormalPostfix=-*-*-*-*-*-*-r
 FontMenuNormalPrefix=-*-*-*-*-*-*-
-;FontMenuVeryBigBaseSize=26

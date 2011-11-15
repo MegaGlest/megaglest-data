@@ -1,6 +1,6 @@
 ; English lang file
 
-;Main strings
+; Main strings
 3dArt=3D art
 3dAnd2dArt=3D and 2D art
 2dArtAndWeb=2D art and web
@@ -454,10 +454,8 @@ IntroModelStartMilliseconds=36000
 IntroTextureStartMilliseconds=38000
 ;-------------------------------- Intro Text End
 
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSerif.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/DoulosSILR.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/gothub__.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Bienetresocial.ttf
+; Font configuration for FTGL
+; Before using an alternative font, please verify license compatibility
 ;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_Re-0.6.4.ttf
 ;FONT_SCALE_SIZE=1.0
 ;FONT_BASE_SIZE=3

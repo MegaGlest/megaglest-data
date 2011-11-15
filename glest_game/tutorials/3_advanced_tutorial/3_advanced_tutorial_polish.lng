@@ -1,4 +1,4 @@
-;message headers
+﻿;message headers
 GlestAdvancedTutorial=Zaawansowany Tutorial MegaGlesta
 Promoting=Ulepszanie jednostek
 WellDone=Doskonale!
@@ -13,7 +13,7 @@ MagicBrief=Prowadzisz frakcję Magów, która używa magów i wezwane stworzenia
 InitiateBrief=Adepci (Initiate) są podstawową jednostką Magów, mogą oni zbierać surowce i budować struktury.
 InitiatePromotion=Adepci mogą być ulepszeni do Magów Bitewnych (Battlemage). Aby to zrobić zaznacz Adepta i użyj komendy "Ulepsz do Maga Bitewnego" (Promote to Battlemage).
 BattlemageBrief=Magowie Bitewni są głównymi wojownikami Magów, mają silny atak z dystansu oraz dobrą szybkość i odporność.
-EnergyBrief=Jednostki Magów zazwyczaj potrzebują Energi by być stworzonymi. Energia nie jest zjadana tak jak Jedzenie, ale jest wymagana gdy jednostka jest tworzona. Jest wytwarzana przez Źródła Energii (Energy Source).
+EnergyBrief=Jednostki Magów zazwyczaj potrzebują Energii by być stworzonymi. Energia nie jest zjadana tak jak Jedzenie, ale jest wymagana gdy jednostka jest tworzona. Jest wytwarzana przez Źródła Energii (Energy Source).
 EnergyBrief2=Bądź pewien, że zawsze masz wystarczająco dużo Energii by produkować nowe jednostki.
 SummonedUnitsBrief=Inny sposób tworzenia jednostek przez Magów to wzywanie. Musisz mieć Zaklinaczkę by to uczynić, można je stworzyć w Gildii Zaklinaczy (Summoners Guild).
 SummonerBrief=Zaklinaczki mogą tworzyć kilka typów stworzeń, najbardziej podstawowym jest Demon (Daemon).

@@ -412,7 +412,3 @@ WrongRouterSetup=Deine Firewall oder dein Router\nsind nicht richtig konfigurier
 Yes=Ja
 YouLose=Verloren
 YouWin=Du hast gewonnen
-
-;FONT_SCALE_SIZE=0.95
-;FONT_BASE_SIZE=3
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_Re-0.6.4.ttf

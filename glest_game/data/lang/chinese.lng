@@ -382,9 +382,7 @@ WrongRouterSetup=你的防火墙或路由器不适合发起游戏
 Yes=是
 YouLose=你输了!
 YouWin=你赢了!
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/uming.ttc
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/ukai.ttc
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/BabelStoneHan.ttf
+
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
 FONT_SCALE_SIZE=0.8
 FONT_SCALE_CENTERH_FACTOR=3.0
