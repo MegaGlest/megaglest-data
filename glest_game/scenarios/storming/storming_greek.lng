@@ -1,0 +1,10 @@
+;message headers
+Storming=Καταιγίζοντας
+
+;message strings
+Brief1=Βοήθα την Σάμονερ να επιτεθεί σε όλα τα εχθρικά χωριά. Η Σάμονερ θα πρέπει να επιβιώσει.
+
+;objective strings
+ObjectiveWest=Objective: Κατέστρεψε το δυτικό χωριό των Μάγων. Η Σάμονερ θα πρέπει να επιβιώσει.
+ObjectiveNorthEast=Objective: Κατέστρεψε το χωριό των Tech στα βορειοανατολικά. Η Σάμονερ θα πρέπει να επιβιώσει.
+ObjectiveSouthEast=Objective: Κατέστρεψε το χωριό στα νοτιοανατολικά. Η Σάμονες θα πρέπει να επιβιώσει.
