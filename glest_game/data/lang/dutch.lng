@@ -376,3 +376,6 @@ WrongRouterSetup=Je firewall of router is niet juist ingesteld\nom een spel te h
 Yes=Ja
 YouLose=Je hebt verloren.
 YouWin=Je hebt gewonnen!
+
+;http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+ISO639-1=nl

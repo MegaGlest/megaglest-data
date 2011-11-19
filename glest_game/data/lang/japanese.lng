@@ -458,3 +458,5 @@ IntroTextureStartMilliseconds=38000
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
 FONT_SCALE_SIZE=1.0
 FONT_BASE_SIZE=-1
+;http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+ISO639-1=ja

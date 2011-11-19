@@ -403,3 +403,6 @@ FontMenuNormalBaseSize=14
 FontMenuNormalPostfix=-*-*-*-*-160-gb2312.1980-0
 FontMenuNormalPrefix=-*-*-*-*-*-*-
 FontMenuVeryBigBaseSize=25
+;http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+ISO639-1=zh
+

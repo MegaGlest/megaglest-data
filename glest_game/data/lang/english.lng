@@ -456,6 +456,7 @@ IntroTextureStartMilliseconds=38000
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
+ISO639-1=en
 ;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_Re-0.6.4.ttf
 ;FONT_SCALE_SIZE=1.0
 ;FONT_BASE_SIZE=3

@@ -289,3 +289,6 @@ WrongRouterSetup=El seu tallafocs no està configurat\n per rebre jocs.
 Yes=Si
 YouLose=Has perdut
 YouWin=Has guanyat
+
+;http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+ISO639-1=ca
