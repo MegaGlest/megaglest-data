@@ -454,14 +454,5 @@ IntroModelStartMilliseconds=36000
 IntroTextureStartMilliseconds=38000
 ;-------------------------------- Intro Text End
 
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/FreeSerif.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/DoulosSILR.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/gothub__.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/Bienetresocial.ttf
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_Re-0.6.4.ttf
 FONT_SCALE_SIZE=1.0
 FONT_BASE_SIZE=-3
-;FONT_CHARCOUNT=256
-;FONT_MULTIBYTE=0
-;FONT_RIGHTTOLEFT=0
-;FONT_TYPENAME=0

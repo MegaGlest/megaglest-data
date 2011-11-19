@@ -403,4 +403,5 @@ Yes=Tak
 YouLose=Przegrywasz!
 YouWin=Wygrywasz!
 
-FONT_BASE_SIZE=-1
+FONT_SCALE_SIZE=1.0
+FONT_BASE_SIZE=-2

@@ -456,3 +456,5 @@ IntroTextureStartMilliseconds=38000
 ;-------------------------------- Intro Text End
 
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
+FONT_SCALE_SIZE=1.0
+FONT_BASE_SIZE=-1
