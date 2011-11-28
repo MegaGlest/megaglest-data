@@ -1,0 +1,37 @@
+;message headers
+GlestBasicTutorial=MegaGlest　基本的チュートリアル
+WellDone=よくできました！
+Resources=資源
+Combat=戦闘
+Buildings=建築
+
+;message strings
+Welcome=Megaglestの基本的チュートリアルへようこそ。 ここではゲームの基本を学びます。 
+WillBeUsingTech=あなたは中世風の戦士と機械戦闘装置を 使用するTech勢力を指揮しています。
+NeedWorkers=資源を収集するには労働者が必要です。 労働者を生産するには城を選択し、 "Produce Worker" コマンドを選択して下さい。
+SelectAndCommand=ユニットは左クリックで選択できます。 ユニットに命令を与えるには目標 或いは目的地を右クリックします。 
+HowToMine=金を採掘するには、 労働者を選択し、 次に金鉱を右クリックします。
+WorkersKeepOnHarvesting=労働者は資源を採集し、採集した資源を保管できる建物に持って行きます。
+ResourceInformation=資源の情報は画面上部に表示されます。 左側の数字は現在の資源量、 右側の数字は保管可能な最大数です。
+OtherResources=木や石の様な他の資源も、 金と同様の方法で採集できます。
+TechResourceNeeds=Tech勢力は大抵の場合多くの金と木材、 そして少量の石を必要とします。
+TechConsumesFood=Tech勢力の全てのユニットは食料を消費します。 食料が尽きればユニットはダメージを受け、 やがて死にます。食料は農場の家畜によって生産されます。 家畜は農場から生産できます。
+HaveEnoughAnimals=ユニットを維持するために、 常に充分な家畜を維持することを心がけてください。
+BalanceDisplay=食料の消費量と生産量のバランスは、 画面上部の食料保管量の、 右側の括弧内に表示されています。
+TechWarriorsAtBarracks=敵を打ち負かす為には戦士が必要です。 Tech勢力の戦士の多くは兵舎から生産されます。
+HowToBuildBarracks=兵舎を建設するには労働者を選択し、 "Build Basic"コマンドをクリックし、 "Barracks"を選択、 そして建設する場所を選択します。
+RememberToBuildBarracks=常に早めに兵舎を建設するよう心がけて下さい。 それによって早期に戦士を生産することが可能になります。
+SwordmanBrief=Tech勢力の基本的な戦士は剣士です。 兵舎を選択し"Produce Swordman"ボタンをクリックして、 剣士を一人生産して下さい。 生産に必要な資源を確保しておく事を忘れずに。
+HaveWarriorsAtBase=基地には常に数人の戦士を滞在させておくべきです。 彼らは視界内の敵を自動的に攻撃します。
+ArcherBrief=弓兵はTech勢力の基本的な射程攻撃ユニットです。 彼らも又兵舎から生産できます。
+ProduceWarriors=基地を守る為に、さらに数人の戦士を生産して下さい。
+
+;objective strings
+ProduceWorkers=目標: 労働者を3人生産する。
+HarvestWoodAndStone=目標: 100の木材と150の石材を採集する。
+ProduceCow=目標: 牛を生産する。
+MineGold=目標: 金を100掘る。
+BuildBarracks=目標: 兵舎を建てる。
+ProduceSwordman=目標: 剣士を生産する。
+ProduceArcher=目標: 弓兵を生産する。
+ProduceMoreWarriors=目標: 敵の攻撃に備える為に、 さらに多くの戦士を生産する。
