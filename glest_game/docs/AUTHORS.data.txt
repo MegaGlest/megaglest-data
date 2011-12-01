@@ -64,37 +64,42 @@ Tileset Karningul:  by Trappin( with help from Omega) based on original imladris
 
 Maps:
 =====
- conflict          by ttsmj
- domination_isles  by mapmaker(from the glest forum)
- one_on_one        by original glest team ( but no longer in the game yet )
- overgrown_city    by mapmaker and Titus Tscharntke(titi)
- tropical_arena    by mapmaker(from the glest forum)
- tt_goldrush_v2    by Titus Tscharntke(titi)
- waterworld        by Titus Tscharntke(titi)
- tropical4v4       by Titus Tscharntke(titi)
- pot_hole          original by glest team, improved by Trappin
- 4kingdoms8kings   by Eliminator ( little changes by titi )
- land_of_plenty2   by Eliminator ( little changes by titi )
- end_times         original by omega modified by Trappin
- eight_gradient    by Trappin
- wadi_nefud2       by Trappin
- lau_lagoon        by Trappin
- redoubt           by Trappin
- megakill3vs1      by Enno Tscharntke
- cauldron          by Wciow
- 6isle.mgm         by Titus Tscharntke(titi)
- eight_rivers      by Eliminator
- 4hills8kings      by Titus Tscharntke(titi)
- coop4_ally_resist by Trappin
- fracture          by wciow
- 2rivers           by Titus Tscharntke(titi)
- ally_resists      by Trappin tweaked by ultifd
- beat_the_enemy    by Philipp Tscharntke
- center_castle     by Titus Tscharntke(titi)
- river_raid2	   by James McCulloch(silnarm)
- highlands         by Titus Tscharntke(titi)
- team_island       by Titus Tscharntke(titi)
- five_on_three     by Tiger
+ conflict          	by ttsmj
+ domination_isles  	by mapmaker(from the glest forum)
+ one_on_one        	by original glest team ( but no longer in the game yet )
+ overgrown_city    	by mapmaker and Titus Tscharntke(titi)
+ tropical_arena    	by mapmaker(from the glest forum)
+ tt_goldrush_v2    	by Titus Tscharntke(titi)
+ waterworld       	by Titus Tscharntke(titi)
+ tropical4v4       	by Titus Tscharntke(titi)
+ pot_hole          	original by glest team, improved by Trappin
+ 4kingdoms8kings   	by Eliminator ( little changes by titi )
+ land_of_plenty2   	by Eliminator ( little changes by titi )
+ end_times         	original by omega modified by Trappin
+ eight_gradient    	by Trappin
+ wadi_nefud2       	by Trappin
+ lau_lagoon        	by Trappin
+ redoubt           	by Trappin
+ megakill3vs1      	by Enno Tscharntke
+ cauldron          	by Wciow
+ 6isle.mgm         	by Titus Tscharntke(titi)
+ eight_rivers      	by Eliminator
+ 4hills8kings      	by Titus Tscharntke(titi)
+ coop4_ally_resist 	by Trappin
+ fracture          	by wciow
+ 2rivers           	by Titus Tscharntke(titi)
+ ally_resists      	by Trappin tweaked by ultifd
+ beat_the_enemy    	by Philipp Tscharntke
+ center_castle     	by Titus Tscharntke(titi)
+ river_raid2	   	by James McCulloch(silnarm)
+ highlands         	by Titus Tscharntke(titi)
+ team_island       	by Titus Tscharntke(titi)
+ five_on_three     	by Tiger
+ lakesway          	by atze
+ showdown_3way     	by atze
+ one_king_rules_them_all by Uncle
+ team_island4      	by Titus Tscharntke(titi)
+ conflict6xtreed        by Eliminator ( based on conflict map )
 
 Scenarios:
 ==========
