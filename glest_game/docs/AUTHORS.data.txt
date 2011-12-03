@@ -99,7 +99,12 @@ Maps:
  showdown_3way     	by atze
  one_king_rules_them_all by Uncle
  team_island4      	by Titus Tscharntke(titi)
- conflict6xtreed        by Eliminator ( based on conflict map )
+ conflict6xtreed  	by Eliminator (based on 'conflict')
+ confrontation    	by Atze (based on 'conflict')
+ simple_river_8_player	by Atze
+ base_it          	by Atze
+ fight_4_your_golden_right by Atze
+
 
 Scenarios:
 ==========
