@@ -434,24 +434,24 @@ YouWin=勝利
 
 ;-------------------------------- Intro Text Start
 IntroText1=SonyPlayStationArtFutura賞、MundosDigitales賞、Ytanium賞等、多数を受賞したGlestに基づきます。
-IntroStartMilliseconds1=2000
+IntroStartMilliseconds1=$USE_DEFAULT_LANGUAGE_VALUE
 IntroText2=MegaGlestチームが提供する
-IntroStartMilliseconds2=8000
+IntroStartMilliseconds2=$USE_DEFAULT_LANGUAGE_VALUE
 IntroText3=フリーソフトウェアのリアルタイム戦略ゲーム
-IntroStartMilliseconds3=16000
-IntroTexture4=$APPLICATIONDATAPATH/data/core/menu/textures/logo.tga
-IntroTextureWidth4=256
-IntroTextureHeight4=128
-IntroStartMilliseconds4=24000
-IntroText5=$GAMEVERSION
-IntroTextX5=+5
-IntroTextY5=-45
-IntroTextFontType5=menunormal
-IntroStartMilliseconds5=24000
+IntroStartMilliseconds3=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTexture4=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextureWidth4=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextureHeight4=$USE_DEFAULT_LANGUAGE_VALUE
+IntroStartMilliseconds4=$USE_DEFAULT_LANGUAGE_VALUE
+IntroText5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextX5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextY5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextFontType5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroStartMilliseconds5=$USE_DEFAULT_LANGUAGE_VALUE
 IntroText6=www.megaglest.org
-IntroStartMilliseconds6=30000
-IntroModelStartMilliseconds=36000
-IntroTextureStartMilliseconds=38000
+IntroStartMilliseconds6=$USE_DEFAULT_LANGUAGE_VALUE
+IntroModelStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 ;-------------------------------- Intro Text End
 
 ;http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
