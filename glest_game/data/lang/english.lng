@@ -434,24 +434,24 @@ YouWin=You win
 
 ;-------------------------------- Intro Text Start
 IntroText1=Based on award-winning classic Glest
-IntroStartMilliseconds1=2000
+IntroStartMilliseconds1=1000
 IntroText2=the MegaGlest Team presents
-IntroStartMilliseconds2=8000
+IntroStartMilliseconds2=4400
 IntroText3=a libre software real-time strategy game
-IntroStartMilliseconds3=16000
+IntroStartMilliseconds3=8400
 IntroTexture4=$APPLICATIONDATAPATH/data/core/menu/textures/logo.tga
 IntroTextureWidth4=256
 IntroTextureHeight4=128
-IntroStartMilliseconds4=24000
+IntroStartMilliseconds4=12000
 IntroText5=$GAMEVERSION
 IntroTextX5=+5
 IntroTextY5=-45
 IntroTextFontType5=menunormal
-IntroStartMilliseconds5=24000
+IntroStartMilliseconds5=12000
 IntroText6=http://megaglest.org
-IntroStartMilliseconds6=30000
-IntroModelStartMilliseconds=36000
-IntroTextureStartMilliseconds=38000
+IntroStartMilliseconds6=16000
+IntroModelStartMilliseconds=24000
+IntroTextureStartMilliseconds=26000
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL

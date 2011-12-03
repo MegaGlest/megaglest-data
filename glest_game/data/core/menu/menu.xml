@@ -32,14 +32,14 @@
 	</camera>
 	<intro>
 
-		<intro-time value="71300"/>
-		<appear-time value="2000"/>
-		<show-time value="2000"/>
-		<disappear-time value="2000"/>
+		<intro-time value="36000"/>
+		<appear-time value="1000"/>
+		<show-time value="1500"/>
+		<disappear-time value="1000"/>
 		<menu-music-path value="/menu/music/"/>
 		<menu-intro-music value="intro_music.ogg"/>
 		<menu-music value="menu_music.ogg"/>
-		<show-intro-pictures value="8" random="true" time="2500"/>
+		<show-intro-pictures value="8" random="true" time="1500"/>
 		<show-intro-models value="true" random="true" min-anim-speed="0.010" max-anim-speed="0.6"/>
 <!--
 		<intro-time value="24000"/>
