@@ -1,5 +1,4 @@
 ; Polish lang file (Polski plik jezykowy, ze znakami diakrytycznymi)
-; Wersja dla: MegaGlest v.3.5.3 beta1
 
 3dArt=Grafika 3D
 3dAnd2dArt=Grafika 3D i 2D
@@ -319,7 +318,7 @@ PublishServer=Opublikuj na metaserwerze?
 PublishServerExternalPort=Zewnętrzny port #
 PublishDisabled= (publikowanie wyłączone)
 Question=Pytanie
-QuitGame=Opuść grę!
+QuitGame=Opuszcza grę!
 RainEffect=Efekt deszczu:
 ReactionSpeed=Szybkość reakcji
 RefreshList=Odśwież listę
@@ -383,7 +382,7 @@ UnitNoPlace=Jednostka nie może być umiejscowiona
 UnitNoReqs=Jednostka nie spełnia wymagań
 UnitNoRes=Nie wystarczająca ilość surowców na jednostkę
 UnitReady=Jednostka gotowa
-UnitsProduced=Jednostek wyprodukowanych
+UnitsProduced=Jednostek stworzonych
 UnitType=Typ jednostki:
 Upgrade=Ulepsz
 UpgradeNoReqs=Ulepszenie nie spełnia wymogów
@@ -403,8 +402,8 @@ Yes=Tak
 YouLose=Przegrywasz!
 YouWin=Wygrywasz!
 
-FONT_SCALE_SIZE=1.0
-FONT_BASE_SIZE=-2
+FONT_SCALE_SIZE=0.8
+FONT_BASE_SIZE=-3
 ;http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
 ISO639-1=pl
 NativeLanguageName=język polski, polszczyzna
