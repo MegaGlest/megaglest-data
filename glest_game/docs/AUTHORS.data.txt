@@ -42,7 +42,7 @@ Romans:
 Copyright 2010-2011 (c) Jacob Vejvoda (<http://www.soft-haus.com/jacob/blog>)
 Jacob Vejvoda is AKA ElimNator. 
 The Romans faction uses music tracks from Mattias Westlund's album 
-"Chronicles III" - http://mattiaswestlund.jamendo.net/
+"Chronicles III" - http://www.jamendo.com/en/artist/Mattias_Westlund
 
 
 Tilesets:
@@ -139,6 +139,8 @@ Portuguese           by felipeludo2011
 Polish               by Krzysztof Gurbała
 Japanese             by Hagekura
 Greek                by Billy Toulas
+Chinese              by James
+Czech                by Uncle
 
 Credits go to:
 ==============

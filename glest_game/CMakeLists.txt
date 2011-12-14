@@ -29,20 +29,6 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
           	  "${PROJECT_SOURCE_DIR}/../../mk/linux/configuration.xml"
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH})
 
-		# Installation of the program desktop file
-#		INSTALL(FILES 
-#		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.desktop"
-#		  DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
-
-		# Installation of the program desktop icon file
-#		INSTALL(FILES 
-#		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.png"
-#                  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.bmp"
-#                  "${PROJECT_SOURCE_DIR}/../../mk/linux/glest.ico"
-#                  "${PROJECT_SOURCE_DIR}/editor.ico"
-#                  "${PROJECT_SOURCE_DIR}/g3dviewer.ico"
-#		  DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
-
 		# Installation of data files from outside normal data folder
 		INSTALL(DIRECTORY "${PROJECT_SOURCE_DIR}/../../source/masterserver/flags" 
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH}data/core/misc_textures
@@ -100,20 +86,6 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		  "${PROJECT_SOURCE_DIR}/megaglest.bmp"
                   "${PROJECT_SOURCE_DIR}/configuration.xml"
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH})
-
-		# Installation of the program desktop file
-#		INSTALL(FILES 
-#		  "${PROJECT_SOURCE_DIR}/megaglest.desktop"
-#		  DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
-
-		# Installation of the program desktop icon file
-#		INSTALL(FILES 
-#		  "${PROJECT_SOURCE_DIR}/megaglest.png"
-#                  "${PROJECT_SOURCE_DIR}/megaglest.bmp"
-#                  "${PROJECT_SOURCE_DIR}/editor.ico"
-#                  "${PROJECT_SOURCE_DIR}/glest.ico"
-#                  "${PROJECT_SOURCE_DIR}/g3dviewer.ico"
-#		  DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
 
 		# Installation of the data
 		install(
