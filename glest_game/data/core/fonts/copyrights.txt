@@ -1,5 +1,6 @@
 The following Fonts use this license:
 
+On debian systems please find license information in: /usr/share/common-licenses
 ======================================================
 File: DejaVuSansMono.ttf
 Used for languages: Arabic
