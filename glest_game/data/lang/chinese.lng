@@ -384,6 +384,7 @@ YouLose=你输了!
 YouWin=你赢了!
 
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
+MEGAGLEST_FONT_FAMILY=WenQuanYi Zen Hei:style=Regular
 FONT_SCALE_SIZE=0.9
 FONT_SCALE_CENTERH_FACTOR=3.0
 FONT_MULTIBYTE=true

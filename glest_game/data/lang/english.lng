@@ -458,7 +458,10 @@ IntroTextureStartMilliseconds=26000
 ; Before using an alternative font, please verify license compatibility
 ISO639-1=en
 NativeLanguageName=English
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_Re-0.6.4.ttf
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
+;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
+;MEGAGLEST_FONT=
+;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
 ;FONT_SCALE_SIZE=1.0
 ;FONT_BASE_SIZE=3
 ;FONT_CHARCOUNT=256
