@@ -13,7 +13,7 @@
     	<speed value="0" />
 	<gravity value="0.0"/>
 	<alternations value="1"/>
-	<isVisibleAtNight value="false"/>
+	<isVisibleAtNight value="true"/>
 	<radiusBasedStartenergy value="false"/>
     	<emission-rate value="0.1" />
 	<!--static-particle-count value="30" /-->
