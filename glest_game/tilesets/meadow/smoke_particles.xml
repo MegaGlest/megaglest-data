@@ -24,6 +24,7 @@
     	<fixed value="true" />
     	<teamcolorNoEnergy value="false" />
     	<teamcolorEnergy value="false" />
+	<isDaylightAffected value="true"/>
 
 	<!--trajectory type="spiral">
 		<speed value="14.0"/>
