@@ -156,6 +156,7 @@ GameResumed=Game resumed
 GameSpeedSet=Game speed set to
 GameSwitchPlayerToAI=Player #%d [%s] has disconnected, switching player to AI mode!
 GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
+GammaCorrection=Brightness
 Harvest=Harvest
 HarvestSpeed=Harvest speed
 HostGame=Host Game

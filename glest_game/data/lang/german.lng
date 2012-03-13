@@ -155,6 +155,7 @@ GameResumed=Spieler fortgesetzt
 GameSpeedSet=Geschwindigkeit geändert in
 GameSwitchPlayerToAI=Spieler %d [%s] hat die Verbindung getrennt, ersetze Spieler durch AI!
 GameSwitchPlayerObserverToAI=Spieler %d [%s] (Zuschauer) hat die Verbindung getrennt.
+GammaCorrection=Helligkeit
 Harvest=Sammeln
 HarvestSpeed=Sammelgeschw.
 HostGame=Spiel hosten
