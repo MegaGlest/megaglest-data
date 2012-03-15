@@ -148,6 +148,7 @@ GameCancelledByUser=Game cancelled by server user.
 GameDuration=Game duration in minutes
 GameMaxConcurrentUnitCount=Maximum Concurrent Units
 GameMenuTitle=Game Menu
+GameSaved=Game saved to file: %s
 GameTotalEndGameConcurrentUnitCount=Total Units at Game End
 GameMusic=Game music
 GameOver=Game finished
