@@ -14,16 +14,10 @@
 	<default-units value="false"/>
 	<default-victory-conditions value="false"/>
 	<scripts>
-		<startup>
+                <global>
+		        -- global vars
+		        isSent=0
 
-			-- global vars
-			isSent=0
-
-			--disable AI
-			  disableAi(1)
-			--disableAi(2)
-			--disableAi(3)
-			
 			function addAttackingEnemy(value)
 				enemyCount=enemyCount+1
 				createUnit(value, 1, startLocation(1))
@@ -39,6 +33,14 @@
 					addAttackingEnemy('flyingvalkyrie')
 				end
 			end
+
+                </global>
+		<startup>
+
+			--disable AI
+			  disableAi(1)
+			--disableAi(2)
+			--disableAi(3)
 
 			--my units
 			createUnit('castle', 0, startLocation(0))	
