@@ -111,6 +111,7 @@
 			if enemyCount==0 then
 				if(objective=="lastwave") then
 					clearDisplayText()
+					objective="endgame"
 					setPlayerAsWinner(0)
 					setPlayerAsWinner(2)
 					endGame()
@@ -153,9 +154,10 @@
 					objective='secondwave';
 					giveResource('food', 1, 1000);
 				end
-
-				showMessage(objective, 'Amazones')
-				setDisplayText(objective);
+				if(objective~="endgame") then
+					showMessage(objective, 'Amazones');
+					setDisplayText(objective);
+				end
 			end
 
 			if lastDeadUnit()==alliedCastle then
