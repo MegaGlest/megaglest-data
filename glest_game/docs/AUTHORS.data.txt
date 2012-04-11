@@ -135,7 +135,7 @@ Ukrainian            by Dmitry Nikitin
 Spanish              by Davidou based on the work of many others
 Catalan              by Miguel Verdú
 Russian              by Strannik
-Portuguese           by felipeludo2011
+Portuguese           by VictorJ based on the work of many others
 Polish               by Krzysztof Gurbała
 Japanese             by Hagekura
 Greek                by Billy Toulas
