@@ -186,6 +186,7 @@ LoadGame=Load Saved Game
 LoadGameMenu=Load Saved Games
 NoSavedGames=No saved games found.
 SavedGames=Saved Games
+SaveGame=Save Current Game
 SavegameInfo=Information about selected game
 Delete=Delete
 NothingSelected=Nothing has been selected.
