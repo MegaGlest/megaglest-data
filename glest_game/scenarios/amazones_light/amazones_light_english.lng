@@ -2,11 +2,11 @@
 Amazones=Amazones
 
 ;message strings
-Brief1=Your allies castle must survive!
+Brief1=Your allies' castle must survive!
 
 ;objective strings
-firstwave=Objective: Ladys in green.
-secondwave=Objective: More Ladys.
-thirdwave=Objective: Probably too many ladys......
+firstwave=Objective: Ladies in green.
+secondwave=Objective: More Ladies.
+thirdwave=Objective: Probably too many ladies...
 fourthwave=Objective: Nice but dangerous ;-)
-lastwave=Objective: The last wave!!
+lastwave=Objective: The final wave!!
