@@ -1,0 +1,12 @@
+;message headers
+Amazones=Amazones
+
+;message strings
+Brief1=Castelo do seu aliado deve sobreviver!
+
+;objective strings
+firstwave=Objective: Senhor de verde.
+secondwave=Objective: Mais Senhores.
+thirdwave=Objective: Provavelmente muitos senhores...
+fourthwave=Objective: Bom, mas perigoso ;-)
+lastwave=Objective: A onda final!!

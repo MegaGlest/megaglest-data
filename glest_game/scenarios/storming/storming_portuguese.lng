@@ -1,0 +1,10 @@
+;message headers
+Storming=Storming
+
+;message strings
+Brief1=Ajude a sua Summoner atacar todas as aldeias inimigas, ela deve sobreviver.
+
+;objective strings
+ObjectiveWest=Objective: Destruir a aldeia Magic oeste, a Summoner deve sobreviver.
+ObjectiveNorthEast=Objective: Destruir a aldeia Tech nordeste, a Summoner deve sobreviver.
+ObjectiveSouthEast=Objective: Destruir a aldeia sudeste, a Summoner deve sobreviver.
