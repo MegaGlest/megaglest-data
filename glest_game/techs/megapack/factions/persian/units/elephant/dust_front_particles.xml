@@ -19,4 +19,5 @@
     	<fixed value="false" />
     	<teamcolorNoEnergy value="false" />
     	<teamcolorEnergy value="false" />
+	<isDaylightAffected value="true"/>
 </unit-particle-system>
