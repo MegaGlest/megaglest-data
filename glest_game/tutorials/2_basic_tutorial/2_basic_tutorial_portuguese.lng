@@ -1,0 +1,37 @@
+;message headers
+GlestBasicTutorial=MegaGlest Tutorial Básico
+WellDone=Bem Concluído!
+Resources=Recursos
+Combat=Combater
+Buildings=Construções
+
+;message strings
+Welcome=Bem-vindo ao MegaGlest Tutorial Básico. Aqui você vai aprender o básico do jogo. 
+WillBeUsingTech=Você está no comando da facção Tech, que utiliza guerreiros medievais e dispositivos mecânicos para lutar.
+NeedWorkers=Para colher os recursos você vai precisar de Trabalhadores. Para produzir um primeiro selecione o Castelo, em seguida, usar o comando "Produzir Trabalhador".
+SelectAndCommand=As unidades são selecionados pelo botão esquerdo do mouse sobre eles, os comandos são dados por um outro, botão direito do mouse sobre um alvo ou no terreno.
+HowToMine=Para buscar Ouro, primeiro selecione um trabalhador, em seguida, clique com botão direito do mouse sobre uma mina de Ouro.
+WorkersKeepOnHarvesting=Trabalhadores continuará a colher e tendo um Castelo que pode armazenar o tipo de recurso que estão carregando.
+ResourceInformation=Informações sobre o recurso é exibido no topo da tela, o número à esquerda é a quantidade atual, o número da direita é a capacidade de armazenamento.
+OtherResources=Outros recursos, como madeira ou pedra são colhidas da mesma forma como o ouro.
+TechResourceNeeds=A facção Tech precisa geralmente de muito ouro e madeira, e um pouco de pedra.
+TechConsumesFood=Cada unidade da facção Tech precisa de Alimento. Unidades de alimentos quando passam fome acabam morrerendo(atenção quando piscar de vermelho o icone de alimento acima). Os alimentos podem ser produzidos por animais de criação. Animais são produzidos na Fazenda.
+HaveEnoughAnimals=Lembre-se sempre a ter animais suficiente para alimentar as suas unidades.
+BalanceDisplay=O equilíbrio entre o consumo de alimentos e de produção é apresentado entre parêntesis ao lado do armazenamento de alimentos, na parte superior da tela.
+TechWarriorsAtBarracks=Para derrotar o inimigo você vai precisar de alguns guerreiros, guerreiros do Tech são produzidos nas Barracks.
+HowToBuildBarracks=Para construir um Quartel selecionar um trabalhador, clique em "Build Básico"> "Barracks" e selecione um local para o edifício.
+RememberToBuildBarracks=Lembre-se sempre construir um Barracks no início, isso permitirá que você possa produzir rapidamente guerreiros.
+SwordmanBrief=O guerreiro básico do Tech é o Espadachim, selecione a Barracks, em seguida, clique em "Produzir Swordman" para produzir um. Verifique se você tem recursos suficientes.
+HaveWarriorsAtBase=Você deve sempre ter alguns guerreiros em sua base, eles irão automaticamente atacar todos os inimigos dentro do alcance.
+ArcherBrief=Arqueiros também é a unidade básica Tech, isso vale para cada facção. Eles também são produzidos na Barracks.
+ProduceWarriors=Produzir alguns guerreiros mais para defender sua base dos ataques inimigos.
+
+;objective strings
+ProduceWorkers=Objetivo: Produzir 3 Trabalhadores.
+HarvestWoodAndStone=Objetivo: Colher de madeira 100 e 150 unidades de pedra.
+ProduceCow=Objetivo: Produzir uma vaca.
+MineGold=Objetivo:Na Mina busque 100 unidades de ouro.
+BuildBarracks=Objetivo: Construir Barracks.
+ProduceSwordman=Objetivo: Produzir um Espadachim.
+ProduceArcher=Objetivo: Produzir um Arqueiro.
+ProduceMoreWarriors=Objective: Produzir mais guerreiros para lidar com o próximo ataque.

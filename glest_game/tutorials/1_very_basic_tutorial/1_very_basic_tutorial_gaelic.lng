@@ -1,0 +1,76 @@
+;message headers
+GlestBasicTutorial=Oideachadh Fìor-bunasach MegaGlest
+WellDone=Glè mhath!
+Resources=Stòrasan
+Combat=Cath
+Buildings=Togalaichean
+Tricks=Cleasan
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Fàilte dhan oideachadh fìor-bhunasach aig MegaGlest.
+
+FirstThing=Sealladh: Gus an roinn a chì thu air an sgìn atharrachadh, gluais an luchag gu oir na sgrìn, no cleachd na h-iuchraichean saighde. Is urrainn dhut briogadh leis a' phutan chlì air a' mheanbh-mhapa cuideachd (ceann iar-thuath na sgrìn).
+ 
+WillBeUsingIndian=San oideachadh seo, bidh thu os cionn nan tùsanach (indians). Nì na tùsanaich sabaid le boghadairean agus airm shimplidh.
+
+NeedWorkers=Tha obraiche (worker) a dhìth oirnn an toiseach. Gus fear a thrèanadh, briog leis a' phutan chlì air a' Phrìomh Thipidh (Mainteepee). An uair sin, briog air ìomhaigh obraiche gus an t-òrdugh 'Dèan Obraiche' ('Produce Worker') a chleachdadh.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Nise, briog leis a' phutan chlì air an obraiche (worker) agad. Ceann ear-thuath na sgrìn, chì thu fiosrachadh mun aonad a thagh thu, 's e seo ainm an aonaid agus dealbh. Taobh shìos dheth, chì thu na puingean slàinte (HP), an armachd, an seòrsa de dh'armachd eadar cromagan, agus an lèirsinn.
+Select2=Mas e aonad catha a th' ann, chì thu an àireamh de dh'aonadan nàmhad a mhill e. Ma chaitheas e stòrasan, seo an ath rud a chì thu. Taobh shìos dheth, innsidh e dhut na tha an t-aonad a' dèanamh an-dràsta.
+
+exampleWorker=Mar eisimpleir, tha 600 HP aig an obraiche agad, 0 armachd leathair (leather) agus 9 dhe dh'astar lèirsinne. Tha e na 'stad' ('stop'), mar sin chan eil e a' dèanamh dad an-dràsta.
+
+Command=Chì thu na comasan aig an aonad nas fhaide shìos. Ionnsaichidh tu a-nis mun a h-uile òrdugh as urrainn do dh'obraiche a choileanadh.
+
+firstCommand=Is 'stad' ('stop') a' chiad ìomhaigh òrduighe. Ma bhriogas tu air an ìomhaigh seo, sguiridh an obraiche dhe na tha e a' dèanamh sa bhad. Tha an t-òrdugh seo aig a h-uile aonad seach togalaichean.
+
+secondCommand='S e 'gluasad' ('move') a th' anns an dàrna ìomhaigh òrduighe. Briog air agus an uair sin briog air an talamh no air aonad eile gus ceann-uidhe a thaghadh. Tha dòigh aithghearr ann gus seo a dhèanamh cuideachd: briog leis a' phutan dheas air a' cheann-uidhe.
+secondCommand2=Ma dh'fhuiricheas tu leis an luchag agad air an ìomhaigh 'gluasad' ('move'), chì thu astar gluasaid an obraiche. A-rithist, tha an t-òrdugh seo aig a h-uile aonad seach togalaichean.
+
+testSecondCommand=Feuch ris an òrdugh 'gluasad' ('move') a-nis. Thoir air an obraiche agad dol gu far a bheil obraiche eile a' feitheamh taobh a-muigh a' campa agad. Tha an t-obraiche seo ri fhaicinn na chomharra dearg air a' mhapa ceann iar-thuath na sgrìn. Riochdachaidh an triantan geal air a' mhapa seo do shealladh làithreach. 'S e a' Phrìomh Thipidh (Mainteepee) agad a th' anns a' chomharra mhòr dhearg.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Taghta. A-nis, thoir air an dà obraiche tilleadh dhan Phrìomh Thipidh (Mainteepee). Gus barrachd air aon aonad a thaghadh, put is fuirich air sioft agus tarraing bogsa taghaidh timcheall nan aonadan NO ...
+MoveBack2=... fuirich air sioft agus cleachd an luchag gus briogadh air gach aonad a tha thu airson cur ris NO ...
+MoveBack3=... dèan briog dubailte air aonad ach an tagh thu gach aonad dhen aon seòrsa faisg air ('s e obraichean a th' agad an-dràsta).
+HarvestGoldandStone=Nuair a bhios na h-aonadan agad air tighinn dhachaigh, cleachdaidh sinn an ceathramh ìomhaigh òrduighe gus òr no clach a thochladh.
+HarvestGoldandStone2=Fuirich leis an luchag agad air an ìomhaigh ach am faic thu dè cho luath 's a nì iad tochladh, dè am meud a thochlas iad, dè cho luath as urrainn dhaibh gluasad fo eallach agus dè an seòrsa de stòras as urrainn dhaibh buain.
+UseHarvestGoldandStone=Gus an t-òrdugh seo a chleachdadh, briog air an ìomhaigh òrduighe an toiseach agus air an stòras am bu toil leat buain an uair sin. 'S e òr a th' anns na torran breaca glasa òr-bhuidhe agus clach an fheadhainn dhubh-ghlas.
+HarvestGoldandStone3=Nise, tochail òr agus clach gus am bi 600 aonad òir (gold) agus 550 aonad cloiche (stone) agad gu lèir. Faodaidh tu obraichean ùra a chruthachadh cuideachd gus seo a dhèanamh (ach bidh iad a' cosg òr). Seall air ceann na sgrìn gus faighinn a-mach cò mheud stòras a th' agad.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Chan eil a dhìth ort a-nis ach beagan maide. Cleachd an còigeamh ìomhaigh òrduighe gus gin fhaighinn. 'S e òrdugh buain a th' ann mar an ceudna agus cleachdaidh tu san aon dòigh e 's a chleachd thu an t-òrdugh gus òr is clach a thochladh.
+ResourceInformation=Eadar dà sgeul, 's e òr is maide a bhios a dhìth air na tùsanaich (indian faction) gu h-àraidh.
+GetWood=Gliocas eile: is urrainn dhut toirt air na h-obraichean buain no tochladh gu aithghearr ma thaghas tu an obraiche an toiseach agus ma bhriogas tu air àite far a bheil an stòras ri fhaighinn leis a' phutan dheas an uair sin (sa choille an-dràsta). Ma bhios seo soirbheachail, nochdaidh saighead buidhe. Buain a-nis gus am bi stòras de 550 aonad maide agad.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Nuair a thaghas tu togalach, chì thu saighead gorm. Seallaidh an t-saighead seo dhut far a bheil an 'ceann cruinneachaidh'. Gluaisidh a h-uile aonad a nì thu san togalach seo dhan àite ud sa bhad nuair a nochdas iad.
+UseMeetingPoint=Faodaidh tu an ceann cruinneachaidh a ghluasad cuideachd. Briog air an ìomhaigh brataich agus an uair sin air an àite far am bu chòir do na h-aonadan ùra cruinneachadh. A-rithist, tha dòigh aithghearr ann gus seo a dhèanamh agus cha leig thu leas ach briogadh air an àite ùr leis a' phutan dheas (mar a rinn thu gus coiseachd).
+MeetingPoint2=Ma chuireas tu an ceann cruinneachaidh air stòras, tòisichidh obraichean ùra air buain air an àite ud sa bhad. Dèan cinnteach gum briog thu air an àite cheart co-dhiù air neo cha dèan iad ach a bhith nan seasamh san rathaid.
+thirdcommand=Nise, bheir sinn sùil air an treas òrdugh a tha aig obraichean - 'togail' ('build').
+thirdcommand2=Thèid thu a-steach dhan chlàr thogail ma bhriogas tu air an òrdugh 'togail'. Ma dh'fhuiricheas tu leis an luchag air aon de na h-ìomhaighean thogail, chì thu a h-uile stòras agus àrdachadh a tha a dhìth ort san roinn 'Riatanasan' gu h-ìosal.
+thirdcommand3=Ma dh'fhuiricheas tu air an teanta (tent), chì thu gu bheil 30 aonadan òr (gold), 50 aonad maide (wood), -10 aonadan taigheadais (housing) agus prìomh thipidh (mainteepee) a dhìth ort. Tha '-10 taigheadas (housing)' a' ciallachadh gum faigh thu àite-fuirich do dheich aonadan a bharrachd ma thogas tu teanta (tent) (ged a bhiodh barrachd air aon aonad taigheadais a dhìth air cuid de na h-aonadan).
+thirdcommand4=Togaidh sinn teanta a-nis. Briog air a' chlàr thogail agus an uair sin air an teanta (tent) agus cuir air àite falamh e.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=Is urrainn dhut cathaiche bata (stick fighter) a thrèanadh san teanta ùr agad a-nis.
+
+;objective strings
+ProduceWorker=Ceann-uidhe: Dèan Obraiche (Worker).
+ProduceStickfighter2=Ceann-uidhe:  Dèan trèanadh air Cathaiche Bata (Stick Fighter).
+MoveWorker=Ceann-uidhe: Gluais an t-obraiche ùr agad gu far a bheil an t-obraiche eile agad a' feitheam taobh a-muigh an campa agad.
+HarvestGoldandStoneobjective=Ceann-uidhe: Tochail òr is clach gus am bi 600 aonad òir is 550 aonad cloiche agad.
+GetWoodob=Ceann-uidhe: Buain maide gus am bi 550 aonad maide agad.
+usethirdcommand=Ceann-uidhe: Tog teanta (tent). Gliocas: Ma thèid an teanta dearg, tha seo a' ciallachadh gu bheil rudeigin eile (a leithid aonad eile no craobh) air an àite seo an-dràsta (no san fharsaingeachd).
+
+;end
+
+WellDoneNextTutorial='S ann math a rinn thu! 'S urrainn dhut leantainn ort dhan ath oideachadh a-nis.

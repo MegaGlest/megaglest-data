@@ -1,0 +1,75 @@
+;message headers
+GlestBasicTutorial=MegaGlest Tutorial Básico
+WellDone=Bom trabalho!
+Resources=Recursos
+Combat=Combater
+Buildings=Construções
+Tricks=Truques
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Bem-vindo ao tutorial básico MegaGlest.
+
+FirstThing=Visualizar: Para ajustar a área visível, mova o ponteiro do mouse para as bordas da tela ou usar as teclas de cursor. Outra maneira de fazer isso é clicando no botão esquerdo do mouse no mini mapa (canto superior esquerdo da tela).
+ 
+WillBeUsingIndian=Nesta introdução, você controla os índios. A facção índio briga com arqueiros e armas simples.
+
+NeedWorkers=Primeiro precisamos de um trabalhador. Para obter um, clique sobre a Mainteepee (tenda) e começar a treinar seu funcionário. Para fazer isso, use o comando "Produzir Trabalhador", clicando no ícone trabalhador.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Agora clique com o botão esquerdo do mouse no seu trabalhador. Detalhes sobre a unidade selecionada, ou seja, o nome da unidade e uma imagem, agora são exibidos no canto superior direito da tela. Abaixo desta pontos de saúde (HP), armaduras, e, entre parênteses, tipo de armadura e visão ampla (à vista) estão listados.
+Select2=Clicando nas unidades de batalha, o número de unidades inimigas já destruído está listado em seguida. Quais recursos ele consome, este é exibido no campo seguinte. Abaixo disso, ele diz que esta unidade está fazendo atualmente.
+
+exampleWorker=Por exemplo, o trabalhador tem 600 HP, 0 armaduras de couro e uma ampla visão de 9. Seu estado atual é "stop", assim ele não está fazendo nada.
+
+Command=Capacidades das unidades estão listados adiante. Vamos agora aprender todos os comandos que o trabalhador pode executar.
+
+firstCommand=O ícone do primeiro comando é "pare". Se você clicar neste ícone, o trabalhador vai parar imediatamente o que ele está fazendo atualmente. Todas as unidades (que não são edifícios) fornecer este comando.
+
+secondCommand=O ícone do segundo comando é "mover-se". Se você clicar nele, você terá que clicar no chão ou outra unidade próxima para definir o destino. Um atalho para este comando é só clicar no botão direito do mouse na posição de destino.
+secondCommand2=Quando você passar o ponteiro do mouse sobre o ícone do comando 'move', a velocidade do movimento dos trabalhadores é exibida. Este comando também está disponível para todas as unidades.
+
+testSecondCommand=Experimente o comando  "move" agora. Mova o trabalhador para o outro trabalhador que está esperando fora do seu campo. Esse outro trabalhador é exibido no mini mapa (canto superior esquerdo) como um ponto vermelho. O triângulo branco no mini mapa indica sua localização/posição da câmera. O grande ponto vermelho é o seu Mainteepee.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Boa. Agora faça os trabalhadores retornar ao Mainteepee. Para selecionar várias unidades, pressione Shift e desenhe uma caixa de seleção em torno de suas unidades ou...
+MoveBack2=...segure shift, em seguida, usar o mouse para clicar em cada unidade que você deseja incluir ou...
+MoveBack3=...clique duas vezes em uma unidade para selecionar todas as unidades próximas do mesmo tipo (trabalhadores, neste caso).
+HarvestGoldandStone=Quando as suas unidades chegaram a sua casa, vamos usar o quarto ícone (uma picareta) comando que serve para colher ouro e pedra.
+HarvestGoldandStone2=Passe com o ponteiro do mouse neste ícone de comando para ver o quão rápido seus trabalhadores pode colher, o quanto cada trabalhador pode colher, o quão rápido eles podem andar ao transportar recursos e quais os recursos que pode colher ao todo.
+UseHarvestGoldandStone=Para usar este comando, primeiro clique sobre o ícone do comando, em seguida, no recurso que você gostaria de colher. As rochas de cinza com pontos amarelos são de ouro, aqueles que não são de pedra.
+HarvestGoldandStone3=Agora ache ouro e pedra até que você tenha um total de 600 de ouro e 550 de pedra. Você também pode criar novos trabalhadores para fazer isso (mas vai custar-lhe ouro, também). Verifique a parte superior da tela para saber quantos recursos você tem atualmente em loja.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Agora tudo que você precisa é de um pouco de madeira. Para obter algum, use o quinto ícone (machado) para comandar. Este também é um comando de colheita para que você possa usá-lo da mesma forma que os de ouro e pedra.
+ResourceInformation=A propósito, a facção índio precisa principalmente de ouro e madeira.
+GetWood=Uma outra sugestão, você pode usar o comando de atalho para a colheita, selecionando o seu trabalhador, em seguida, botão direito do mouse em um local onde este recurso está disponível (bem, na floresta, neste caso). Em caso de sucesso, uma seta amarela irá aparecer.Continue colhendo madeira até que você tenha 550 na loja.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Quando você seleciona um edifício, uma seta azul é exibida. Esta seta aponta para o "ponto de encontro" chamado. Todas as unidades que você produz neste edifício irá se mover para este lugar assim que elas aparecerem.
+UseMeetingPoint=Você pode mover o ponto de encontro, também. Clique no ícone da bandeira, em seguida, na posição em que o novo ponto de encontro deve ser localizado. Aqui, também, você pode usar atalho, simplesmente clique no botão direito do mouse no novo local (assim como você pode fazer para andar).
+MeetingPoint2=Se você colocar o ponto de encontro em um recurso, os trabalhadores recém-produzidos vão começar imediatamente a colher lá. Certifique-se de acertar o ponto certo, porém, ou os seus trabalhadores vão apenas ficar ao redor e ficar no caminho.
+thirdcommand=Agora vá para o ícone do trabalhador use o terceiro comando - este é o 'build' comando.
+thirdcommand2=Clicando nele você entrar no menu de construção. Se você passar por um dos ícones de construção com o ponteiro do mouse você começa a ver, mais abaixo, listadas em "requisitos", todos os recursos e as realizações que você precisa para isso.
+thirdcommand3=Se você verificar sua loja acima, você vai ver que ela tem 30 de ouro, 50 madeira, -10 de Moradia (ao lado da tenda na sua loja). "-10 de Moradia" significa que a construção de uma tenda, você tem boa acomodação para dez unidades adicionais (embora algumas unidades podem precisar de mais do que apenas uma).
+thirdcommand4=Vamos construir uma tenda agora. Clique no menu build, em seguida, na tenda, e colocá-lo em um local vazio.
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=You can now train a stick fighter in your new tent.
+
+;objective strings
+ProduceWorker=Objetivo: treinar um trabalhador.
+ProduceStickfighter2=Objetivo: treinar um para a batalha.
+MoveWorker=Objetivo: Mova o trabalhador recém-produzido com o outro trabalhador que está esperando fora do seu campo.
+HarvestGoldandStoneobjective=Objetivo: Colha ouro e pedra até que você tenha um total de 600 de ouro e 550 de pedra.
+GetWoodob=Objetivo: Colha madeira até que você tenha 550.
+usethirdcommand=Objetivo: Construa uma tenda. Dica: Se a tenda fica vermelha, isso significa que este local é atualmente (em geral), ocupado (como por outra unidade ou uma árvore).
+
+;end
+
+WellDoneNextTutorial=Bom trabalho! Você pode agora avançar para o próximo tutorial.

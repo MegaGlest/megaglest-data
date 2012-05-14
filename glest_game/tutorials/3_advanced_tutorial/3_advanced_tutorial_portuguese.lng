@@ -1,0 +1,38 @@
+;message headers
+GlestAdvancedTutorial=Tutorial Avançado MegaGlest
+Promoting=Promover Unidades
+WellDone=Bem Concluído!
+Summoning=Invocação
+Energy=Energia
+Ritual=Ritual
+Armies=Exércitos
+
+;message strings
+Welcome=Bem-vindo ao Tutorial Avançado MegaGlest, aqui você vai aprender a alguns dos recursos mais avançados do jogo.
+MagicBrief=Você está no comando da facção Magic, que usa magos e convoca criaturas para lutar.
+InitiateBrief=Initiates são as unidades básica dos mágicos, eles podem colher os recursos e construir estruturas.
+InitiatePromotion=Initiates podem ser promovidos para magos de batalha, para fazer isso, selecione um Initiate, e usar o comando "Promover a Battle Mage".
+BattlemageBrief=Battlemages são os guerreiros mágicos principais, eles têm poderosos ataques à distância e de velocidade também são bons em resistência.
+EnergyBrief=Unidades de magia geralmente precisam de energia para ser produzido, energia não é consumida como alimento, mas é só requerido quando a unidade é criada. Ela é produzida por fontes de energia.
+EnergyBrief2=Certifique-se de sempre ter energia suficiente para produzir novas unidades.
+SummonedUnitsBrief=A outra maneira da facção Magia produzir unidades é com a convocação deles. Você vai precisar de uma Summoner para isso, elas são produzidas no Summoners Guild.
+SummonerBrief=Summoners podem criar vários tipos de criaturas, a mais básica é o Daemon.
+DaemonBrief=Daemons são realmente fraco, mas também muito barato, eles são úteis como guerreiros corpo a corpo básicos e também são bons para aferição.
+OtherSummonedCreatures=Summoners podem criar criaturas mais avançadas, como Ghost Armors e Dragões, porém eles exigem que você pesquise as atualizações corretas.
+GhostArmorRequirements=Ghost Armors exigem a atualização Antiga Invocação, que pode ser pesquisado no Summoners Guild.
+GhostArmorBrief=Ghost Armors são uma unidade de corpo a corpo médio, útil para manter guerreiros inimigos longe de seus Battlemages.
+RitualBrief=Initiates têm um segundo comando Construir, chamado Ritual, usado para construir estruturas avançadas e criaturas poderosas também, como o Golem. Você vai precisar de uma Biblioteca para acessá-los.
+GolemBrief=Golems são muito potentes unidades defensivas, eles têm um ataque poderoso e muito boa resistência, mas só podem se mover contanto que eles têm pontos de energia suficiente.
+ArmyManagement=À medida que você produz um maior número de unidades, pode se tornar difícil de gerenciar.
+DoubleClickBrief=Ao clicar duas vezes em uma unidade, você pode selecionar todas as unidades do mesmo tipo nas redondezas.
+GroupSelectBrief=Você pode definir grupos de unidades, selecionando-os e pressionando Control e uma tecla de número, então você pode recordar grupos pressionando a tecla do número novamente.
+FinalMission=Como um teste final, agora você terá que construir um exército e derrotar seu inimigo.
+
+;objective strings
+PromoteInitiate=Objetivo: Promover um Initiate para Mago de Batalha.
+ProduceSummoner=Objetivo: Construir uma Summoners Guild, em seguida, produzir uma Summoner.
+ProduceDaemon=Objetivo: Convocar um Daemon.
+ProduceGhostArmor=Objetivo: Pesquise Ancient Summoning, em seguida, convocar um Ghost Armor.
+BuildEnergySource=Objetivo: Construir uma fonte de energia.
+ProduceGolem=Objetivo: Construir Library, em seguida, usar um Initiate para realizar um ritual para construir um Golem.
+DefeatEnemy=Objetivo: Construir um exército, localizar e derrotar seu inimigo.

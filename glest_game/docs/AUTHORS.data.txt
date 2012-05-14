@@ -141,6 +141,7 @@ Japanese             by Hagekura
 Greek                by Billy Toulas
 Chinese              by James
 Czech                by Uncle
+Gaelic               by GunChleoc
 
 Credits go to:
 ==============
