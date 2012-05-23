@@ -363,6 +363,7 @@ PlayerStatusReady=Ready
 PlayerSwitchedTeam=Player %s switched from team# %d to team# %d.
 PlayerSwitchedTeamDenied=Player %s was denied the request to switch from team# %d to team# %d.
 PleaseWaitCalculatingCRC=Please wait while Calculating CRCs!
+PleaseWait=Please wait...
 Port=Port
 PressEnterToChat=Press enter to chat
 PrivacyPlease=Enable Privacy \n(hide country, etc)
