@@ -120,6 +120,7 @@ EnableObserverMode=View Map at End Game
 Enabled=Enabled
 EnableServerControlledAI=Server Controlled AI
 EnableSwitchTeamMode=Switch teams
+EnableVideos=Enable Video Playback
 EnableTextureCompression=Texture Compression
 EnemyKills=Enemies Killed
 Ep=EP
