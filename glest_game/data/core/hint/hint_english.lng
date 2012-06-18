@@ -1,3 +1,10 @@
-hint1=Press 'i' key to find/select idle workers!
-hint2=Press 'h' key to toggle teamchat on/off
-hint3=You can make groups by Pressing ctrl+numberkeys 0..9 .\nRecall your selected group by pressing just the number of the goup.\nDouble click the number to position the camera above this group. 
+hint1=To select and focus on idle workers, press 'i', then 'g'.
+hint2=To toggle team chat on/off, press 'h'.
+hint3=To see a longer chat history, hold down the 'm' key.
+hint4=You can group units by selecting them and pressing Ctrl + 0..9.\nRecall a group by pressing just the number of the group.\nDouble-tap the number to position the camera above this group. 
+hint5=When CPU attacks your village, fight behind your buildings and use your workers to repair them.
+hint6=To make a screenshot, press 'e'.
+hint7=You can set/edit your player name in the 'options' menu (top right corner), accessible from main menu.
+hint8=To change your player name just for one game, click on it in the player list while the game is being setup.
+hint9=Ranged units are usually weak on defense, so accompany them by melee units which should fight in front.
+hint10=There is an attack type called 'splash', which does not only hit the target of an attack but also nearby units\n- including friendly units -.
