@@ -1,4 +1,4 @@
-hint1=To select and focus on idle workers, press 'i', then 'g'.
+hint1=To select and focus on idle workers, press '#HotKeySelectIdleHarvesterUnit#', then '#HotKeyCenterCameraOnSelection#'.
 hint2=To toggle team chat on/off, press 'h'.
 hint3=To see a longer chat history, hold down the 'm' key.
 hint4=You can group units by selecting them and pressing Ctrl + 0..9.\nRecall a group by pressing just the number of the group.\nDouble-tap the number to position the camera above this group. 
