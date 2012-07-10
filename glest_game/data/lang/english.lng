@@ -165,6 +165,7 @@ GammaCorrection=Brightness
 GettingModlistFromMasterserver=Getting mod list from masterserver
 Harvest=Harvest
 HarvestSpeed=Harvest speed
+HeadlessAdminRequiresMorePlayers=You must have at least %d player(s) connected to start this game!
 HostGame=Host Game
 Hp=HP
 Human=Human
