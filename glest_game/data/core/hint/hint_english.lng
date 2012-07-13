@@ -7,3 +7,5 @@ hint6=To take a screenshot, press '#Screenshot#'.\nPressing the '#TogglePhotoMod
 hint7=You can set/edit your player name in the 'options' menu.
 hint8=Ranged units are usually weak on defense.\n Accompany them with melee units which should fight in front.
 hint9=Some buildings can be placed rotated using '#HotKeyRotateUnitDuringPlacement#'.
+hint10=you can change the way teamcolor is shown\nby pressing '#ExtraTeamColorMarker#'
+
