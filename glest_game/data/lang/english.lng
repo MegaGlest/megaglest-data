@@ -166,6 +166,7 @@ GettingModlistFromMasterserver=Getting mod list from masterserver
 Harvest=Harvest
 HarvestSpeed=Harvest speed
 HeadlessAdminRequiresMorePlayers=You must have at least %d player(s) connected to start this game!
+Hint=Hint:\n%s
 HostGame=Host Game
 Hp=HP
 Human=Human
