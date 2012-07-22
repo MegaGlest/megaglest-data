@@ -487,6 +487,22 @@ IntroText6=http://megaglest.org
 IntroStartMilliseconds6=16000
 IntroModelStartMilliseconds=24000
 IntroTextureStartMilliseconds=26000
+
+IntroTextX1=
+IntroTextY1=
+IntroTextFontType1=
+IntroTextX2=
+IntroTextY2=
+IntroTextFontType2=
+IntroTextX3=
+IntroTextY3=
+IntroTextFontType3=
+IntroText4=
+IntroTextX6=
+IntroTextY6=
+IntroTextFontType6=
+IntroText7=
+IntroTexture7=
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL
@@ -495,11 +511,28 @@ ISO639-1=en
 NativeLanguageName=English
 ;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
 ;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
-;MEGAGLEST_FONT=
-;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
 ;FONT_SCALE_SIZE=1.0
+;FONT_SCALE_CENTERH_FACTOR=
 ;FONT_BASE_SIZE=3
 ;FONT_CHARCOUNT=256
+;FONT_CHARSET=
+;FONT_HEIGHT_TEXT=
 ;FONT_MULTIBYTE=0
 ;FONT_RIGHTTOLEFT=0
 ;FONT_TYPENAME=0
+
+;FontDisplayPrefix=
+;FontDisplayPostfix=
+;FontDisplayBaseSize=
+;FontDisplaySmallBaseSize=
+;FontMenuNormalPrefix=
+;FontMenuNormalPostfix=
+;FontMenuNormalBaseSize=
+;FontMenuBigPrefix=
+;FontMenuBigPostfix=
+;FontMenuBigBaseSize=
+;FontMenuVeryBigBaseSize=
+;FontConsolePrefix=
+;FontConsolePostfix=
+;FontConsoleBaseSize=
+
