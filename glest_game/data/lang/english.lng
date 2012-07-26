@@ -330,6 +330,8 @@ NetworkPauseGameForLaggedClients=Pause for Lagged Clients
 NetworkSlotUnassignedErrorUI=Cannot start game.\nSome player(s) are not in a network game slot!
 NetworkSlotUnassignedError=Cannot start game, some player(s) are not in a network game slot!
 NetworkUnassigned=Player lacks open slot
+NetworkSlotNoHumanErrorUI=Cannot start game.\nThe host player is not in a human or admin game slot!
+NetworkSlotNoHumanError=Cannot start game, The host player is not in a human or admin game slot!
 NewGame=New Game
 No=No
 NoServerVisitChat=No Server? Visit the chat
@@ -488,21 +490,21 @@ IntroStartMilliseconds6=16000
 IntroModelStartMilliseconds=24000
 IntroTextureStartMilliseconds=26000
 
-IntroTextX1=
-IntroTextY1=
-IntroTextFontType1=
-IntroTextX2=
-IntroTextY2=
-IntroTextFontType2=
-IntroTextX3=
-IntroTextY3=
-IntroTextFontType3=
-IntroText4=
-IntroTextX6=
-IntroTextY6=
-IntroTextFontType6=
-IntroText7=
-IntroTexture7=
+;IntroTextX1=
+;IntroTextY1=
+;IntroTextFontType1=
+;IntroTextX2=
+;IntroTextY2=
+;IntroTextFontType2=
+;IntroTextX3=
+;IntroTextY3=
+;IntroTextFontType3=
+;IntroText4=
+;IntroTextX6=
+;IntroTextY6=
+;IntroTextFontType6=
+;IntroText7=
+;IntroTexture7=
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL
