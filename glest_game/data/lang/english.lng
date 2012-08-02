@@ -195,6 +195,7 @@ SaveGame=Save Current Game
 SavegameInfo=Information about selected game
 Delete=Delete
 NothingSelected=Nothing has been selected.
+left at (min)=Player left at minute:
 LoadGameDeletingFile=Trying to delete file: '%s'
 LoadGameLoadingFile=Trying to load file: '%s'
 SavedGameBadVersion=saved game version does match your application version: [%s] --> [%s]
