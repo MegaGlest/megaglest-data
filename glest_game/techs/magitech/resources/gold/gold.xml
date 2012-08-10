@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+
+<resource>
+	<image path="images/gold.bmp"/>
+	<type value="tech">
+		<model path="models/gold.g3d"/>
+		<default-amount value="2000"/>
+		<resource-number value="1"/>
+	</type>
+</resource>
