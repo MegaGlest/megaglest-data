@@ -161,6 +161,7 @@ GameResumed=Game resumed
 GameSpeedSet=Game speed set to
 GameSwitchPlayerToAI=Player #%d [%s] has disconnected, switching player to AI mode!
 GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
+GameTime=Game:
 GammaCorrection=Brightness
 GettingModlistFromMasterserver=Getting mod list from masterserver
 Harvest=Harvest
@@ -203,6 +204,7 @@ LoadSavedGameInfo=Map: %s\nTileset: %s\nTech: %s\nScenario: %s\n# players: %d\nF
 
 LoadedSpeed=Loaded speed
 Loading=Loading
+LocalTime=Local:
 LogScreenCoreDataLoading=Core data
 LogScreenGameLoading=Game
 LogScreenGameLoadingCreatingAIFaction=Creating AI for faction %d
