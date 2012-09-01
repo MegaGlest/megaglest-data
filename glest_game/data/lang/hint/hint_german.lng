@@ -1,0 +1,16 @@
+hint1=Um einen arbeitslosen Worker zu finden drücke '#HotKeySelectIdleHarvesterUnit#', dann '#HotKeyCenterCameraOnSelection#' um in zu fokussieren.
+hint2=Um TeamChat an und aus zuschalten drücke '#ChatTeamMode#'.
+hint3=Um einen längeren Chat-Verlauf zu sehen halte '#ShowFullConsole#'.
+hint4=Du kannst Einheiten gruppieren indem du sie markierst und Strg + #GroupUnitsKey1#..#GroupUnitsKey10#.\nUm eine Gruppe wiederaufzurufen drücke die jeweilige Nummer.\nDrücke die Nummer zweimal um die Kamera über der Gruppe zu platzieren.
+hint5=Benutze Fernkampfeinheiten um dich hinter Gebäuden zu verteidigen,\ndie du mit deinem Workern reparierst.
+hint6=Um einen Screenshot zu machen drücke '#Screenshot#'.\nDrücke '#TogglePhotoMode#' um das HUD an/auszuschalten.
+hint7=Du kannst deinen Spielernamen in den Einstellungen setzten/ändern.
+hint8=Fernkampfeinheiten haben häufig eine schwache Abwehr.\n Kombiniere sie mit Nahkampfeinheiten die an der Front kämpfen.
+hint9=Ein paar Gebäude können vor dem Bau mit '#HotKeyRotateUnitDuringPlacement#' gedreht werden.
+hint10=Du kannst den Weg wie die Teamfarbe gezeigt wird mit '#ExtraTeamColorMarker#' ändern.
+hint11=Du kannst die Kamera bewegen indem du auf die Map drückst.\nund du kannst Move und Attack-Kommandos über die Map erteilen.
+hint12=Bevor du Multiplayer spielst, solltest du im Einzelspielermodus trainieren,\nbis du alleine eine Cpu besiegen kannst.
+hint13=Du kannst neue TechTrees, Tilesets, Scenarios und Karten\nim Haubtmenü->Spiel-Mods herunterladen.\n LinuxBenutzer müssen 7-zip-full installieren.
+hint14=Du kannst die Tastenbelegung in den Einstellungen ändern.
+hint15=Du kannst ein Kommando mit dem Abbrechen-Icon abbrechen.
+hint16=Verbesserungen sind wichtig! Benutze sie!
