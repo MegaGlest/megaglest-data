@@ -1,5 +1,6 @@
 ;Main strings
 
+Wuckel=Muckel
 3dArt=3D-Gestaltung
 3dAnd2dArt=2D/3D-Gestaltung
 2dArtAndWeb=2D-Gestaltung/Web
@@ -144,7 +145,7 @@ FreeCamera=Freie Kamera
 FxVolume=Effekte:
 GameCamera=Spielkamera
 GameCancelledByUser=Spiel unterbrochen vom Server
-GameDuration=Spieldauer in Minuten
+GameDurationTime=Spieldauer
 GameMaxConcurrentUnitCount=Maximale Einheitenzahl
 GameMenuTitle=Spielmenü
 GameTotalEndGameConcurrentUnitCount=Einheitenanzahl am Ende des Spiels
