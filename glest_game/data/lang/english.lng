@@ -191,6 +191,7 @@ LinuxPort=Linux port
 Load=Load
 LoadGame=Load Saved Game
 LoadGameMenu=Load Saved Games
+MaxMarkerCount=You cannot add more markers, the maxmimum allowed is:
 NoSavedGames=No saved games found.
 SavedGames=Saved Games
 SaveGame=Save Current Game
