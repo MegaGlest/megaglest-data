@@ -139,6 +139,7 @@ ExitGame?=Exit game?
 ExitGameServer?=Exit game?\n(this will stop the game\nfor other connected players)
 Explored=Explored
 Faction=Faction
+FallbackCpuMultiplier=AI replacement multiplier
 Fast=fast
 FieldAir=Air
 FieldLand=Land
