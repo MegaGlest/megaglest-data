@@ -226,6 +226,7 @@ LogScreenGameLoadingStartingAmbient=Starting weather ambient music
 LogScreenGameLoadingLaunchGame=Launching game
 LogScreenGameLoadingFactionType=Faction type: %s
 LogScreenGameLoadingUnitType=Unit type: %s
+LogScreenGameLoadingUnitTypeSkills=Unit type: %s - skills: %d
 LogScreenGameLoadingResourceType=Resource type: %s
 LogScreenGameLoadingTechtree=TechTree: %s
 LogScreenGameUnLoadingTechtree=Unloading Tech tree
