@@ -31,6 +31,11 @@
 
                         player2_has_flag_unit = 0
                         player3_has_flag_unit = 0
+
+                        flag_bearer_selection_radius = 1.3 -- can be -1 to default to system default
+                        flag_bearer_selection_thickness = 0.2 -- can be -1 to default to system default
+                        flag_bearer_selection_color = {-1,-1,-1,-1} -- can be -1 to default to system default, last value is alpha value
+
                 </global>
 
 		<startup>
@@ -44,7 +49,8 @@
                         createUnit('swordman', 1, startLocation(1))
                         createUnit('archer', 1, startLocation(1))
                         createUnit('battle_machine', 1, startLocation(1))
-			--player2Unit= lastCreatedUnit()		
+                        --highlightUnit(lastCreatedUnit(),flag_bearer_selection_radius,flag_bearer_selection_thickness,flag_bearer_selection_color)
+			--player2Unit= lastCreatedUnit()
 
 			giveResource('gold', 1, 250); 
 			giveResource('wood', 1, 150);
@@ -188,6 +194,7 @@
 
                                 player2_enemy_has_flag = 1
                                 player3_has_flag_unit = triggeredCellEventUnitId()
+                                highlightUnit(player3_has_flag_unit,flag_bearer_selection_radius,flag_bearer_selection_thickness,flag_bearer_selection_color)
                                 player3_touch_home_event = registerCellTriggerEventForUnitToUnit(triggeredCellEventUnitId(),player3_home)
 
                                 if debug_print ~= 0 then
@@ -205,6 +212,7 @@
 
                                 player3_enemy_has_flag = 1
                                 player2_has_flag_unit = triggeredCellEventUnitId()
+                                highlightUnit(player2_has_flag_unit,flag_bearer_selection_radius,flag_bearer_selection_thickness,flag_bearer_selection_color)
                                 player2_touch_home_event = registerCellTriggerEventForUnitToUnit(triggeredCellEventUnitId(),player2_home)
                                 
                                 if debug_print ~= 0 then
