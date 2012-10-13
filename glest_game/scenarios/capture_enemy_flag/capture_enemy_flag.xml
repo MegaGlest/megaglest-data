@@ -1,0 +1,253 @@
+<?xml version="1.0" standalone="yes" ?> 
+<scenario>
+	<difficulty value="3"/>
+	<players>
+		<player control="cpu-ultra" faction="romans" team="9"/>
+		<player control="human" faction="tech" team="1"/>
+		<player control="network" faction="indian" team="2"/>
+	</players>
+	<map value="island_siege"/>
+	<tileset value="forest"/>
+	<tech-tree value="megapack"/>
+	<default-resources value="false"/>
+	<default-units value="false"/>
+	<default-victory-conditions value="false"/>
+	<fog-of-war value="explored"/>
+	<scripts>
+                <global>
+		        -- global vars
+                        debug_print = 0
+                        player3_flag_location = {225,188}
+                        player2_flag_location = {36,208}
+
+                        player3_flag_zone_quad = {155,112,250,250}
+                        player2_flag_zone_quad = {0,150,80,250}
+
+                        player2_enemy_in_flag_zone = 0
+                        player3_enemy_in_flag_zone = 0
+
+                        player2_enemy_has_flag = 0
+                        player3_enemy_has_flag = 0
+
+                        player2_has_flag_unit = 0
+                        player3_has_flag_unit = 0
+                </global>
+
+		<startup>
+                        -- disable food consuming
+			disableConsume(1)
+                        disableConsume(2)
+
+                        -- create player2 units
+			createUnit('castle', 1, startLocation(1))	
+                        player2_home= lastCreatedUnit()		
+                        createUnit('swordman', 1, startLocation(1))
+                        createUnit('archer', 1, startLocation(1))
+                        createUnit('battle_machine', 1, startLocation(1))
+			--player2Unit= lastCreatedUnit()		
+
+			giveResource('gold', 1, 250); 
+			giveResource('wood', 1, 150);
+			giveResource('food', 1, 100);  
+
+                        -- create player3 units
+			createUnit('bigtent', 2, startLocation(2))	
+                        player3_home= lastCreatedUnit()		
+                        createUnit('stickfighter', 2, startLocation(2))
+                        createUnit('fire_archer', 2, startLocation(2))
+                        createUnit('firegolem', 2, startLocation(2))
+			--player3Unit= lastCreatedUnit()		
+
+			giveResource('gold', 2, 250); 
+			giveResource('wood', 2, 150);
+			giveResource('food', 2, 100);  
+
+                        -- create player1 units
+			createUnit('forum', 0, startLocation(0))	
+                        for i=1, 5 do
+                                createUnit('slave', 0, startLocation(0))
+                                createUnit('spearman', 0, startLocation(0))
+                        end
+                        createUnit('battering_ram', 0, startLocation(0))
+                        createUnit('cow', 0, startLocation(0))
+                        createUnit('guard_tower', 0, startLocation(0))
+                
+			giveResource('gold', 0, 250); 
+			giveResource('wood', 0, 150);
+			giveResource('food', 0, 100);  
+
+                        -- setup the flags
+                        addCellMarker(2,'The flag for player 2!','',player2_flag_location)
+                        addCellMarker(1,'The flag for player 3!','',player3_flag_location)
+
+                        player3_enemy_in_flag_zone_event = registerCellAreaTriggerEventForFactionToLocation(1, player3_flag_zone_quad)
+                        player2_enemy_in_flag_zone_event = registerCellAreaTriggerEventForFactionToLocation(2, player2_flag_zone_quad)
+
+                        player3_enemy_has_flag_event = registerCellTriggerEventForFactionToLocation(1, player3_flag_location)
+                        player2_has_flag_event = registerCellTriggerEventForFactionToLocation(1, player3_flag_location)
+
+                        player2_enemy_has_flag_event = registerCellTriggerEventForFactionToLocation(2, player2_flag_location)
+                        player3_has_flag_event = registerCellTriggerEventForFactionToLocation(2, player2_flag_location)
+
+                        showMessage('Brief1', 'CaptureFlag')
+
+                        if humanFaction() == 1 then
+                                showMarker(1000, 1,'The flag for player 2!','',player2_flag_location)
+                                showMarker(1000, -1,'The flag for player 3!','',player3_flag_location)
+                        else
+                                showMarker(1000, -1,'The flag for player 2!','',player2_flag_location)
+                                showMarker(1000, 2,'The flag for player 3!','',player3_flag_location)
+                        end
+		</startup>
+		
+		<unitCreated>		
+		</unitCreated>	
+		
+		<unitDied>
+
+                        if lastDeadUnit() == player3_has_flag_unit and player3_has_flag_unit > 0 then
+                                if debug_print ~= 0 then
+                                        print('Player 3 lost because his flag catcher died!')
+                                end
+                                if humanFaction() == 2 then
+                                        setDisplayText('PlayerLoses')
+                                else
+                                        setDisplayText('PlayerWins')
+                                end
+
+                                setPlayerAsWinner(1)
+                                endGame()
+                        elseif lastDeadUnit() == player2_has_flag_unit and player2_has_flag_unit > 0 then
+                                if debug_print ~= 0 then
+                                        print('Player 2 lost because his flag catcher died!')
+                                end
+                                if humanFaction() == 1 then
+                                        setDisplayText('PlayerLoses')
+                                else
+                                        setDisplayText('PlayerWins')
+                                end
+
+                                setPlayerAsWinner(2)
+                                endGame()
+                        end
+		</unitDied>		
+
+		<cellTriggerEvent>
+                        if debug_print ~= 0 then
+                               print('triggeredCellEventId() =' .. triggeredCellEventId() .. ' triggeredCellEventUnitId() = ' .. triggeredCellEventUnitId())
+                        end
+
+                        if triggeredCellEventId() == player3_enemy_in_flag_zone_event and player3_enemy_in_flag_zone == 0 then
+
+                                player3_enemy_in_flag_zone = 1
+                                if debug_print ~= 0 then
+                                        print('triggeredCellEventId() == player3_enemy_in_flag_zone_event')
+                                end
+                                networkShowMessageForFaction('Player2InFlagZoneWarning','Warning',2)
+
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+
+                        elseif triggeredCellEventId() == player2_enemy_in_flag_zone_event and player2_enemy_in_flag_zone == 0 then
+
+                                player2_enemy_in_flag_zone = 1
+                                if debug_print ~= 0 then
+                                        print('triggeredCellEventId() == player2_enemy_in_flag_zone_event')
+                                end
+                                networkShowMessageForFaction('Player3InFlagZoneWarning','Warning',1)
+
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+
+
+                        elseif triggeredCellEventId() == player3_enemy_has_flag_event then
+
+                                if debug_print ~= 0 then
+                                        print('triggeredCellEventId() == player3_enemy_has_flag_event')
+                                end
+                                player3_attackers=getUnitsForFaction(2,'attack',getUnitCurrentField(triggeredCellEventUnitId()))
+                                for i=1, #player3_attackers do
+                                        giveAttackCommand(player3_attackers[i],triggeredCellEventUnitId())
+                                        --print('Unit id: ' .. player3_attackers[i] .. ' is attacking unit id: ' .. triggeredCellEventUnitId())
+                                end
+
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+
+                        elseif triggeredCellEventId() == player2_enemy_has_flag_event then
+
+                                if debug_print ~= 0 then
+                                        print('triggeredCellEventId() == player2_enemy_has_flag_event')
+                                end
+                                player2_attackers=getUnitsForFaction(1,'attack',getUnitCurrentField(triggeredCellEventUnitId()))
+                                for i=1, #player2_attackers do
+                                        giveAttackCommand(player2_attackers[i],triggeredCellEventUnitId())
+                                        --print('Unit id: ' .. player2_attackers[i] .. ' is attacking unit id: ' .. triggeredCellEventUnitId())
+                                end
+
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+
+                        elseif triggeredCellEventId() == player3_has_flag_event then
+
+                                player2_enemy_has_flag = 1
+                                player2_has_flag_unit = triggeredCellEventUnitId()
+                                player3_touch_home_event = registerCellTriggerEventForUnitToUnit(triggeredCellEventUnitId(),player3_home)
+
+                                if debug_print ~= 0 then
+                                        print('triggeredCellEventId() == player3_has_flag_event: ' .. player3_touch_home_event)
+                                end
+                                networkShowMessageForFaction('Player3HasFlagWarning','Crisis',1)
+
+                                if humanFaction() == 2 then
+                                        setDisplayText('Player3HeadHome')
+                                end
+
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+
+                        elseif triggeredCellEventId() == player2_has_flag_event then
+
+                                player3_enemy_has_flag = 1
+                                player3_has_flag_unit = triggeredCellEventUnitId()
+                                player2_touch_home_event = registerCellTriggerEventForUnitToUnit(triggeredCellEventUnitId(),player2_home)
+                                
+                                if debug_print ~= 0 then
+                                        print('triggeredCellEventId() == player2_has_flag_event: ' .. player2_touch_home_event)
+                                end
+                                networkShowMessageForFaction('Player2HasFlagWarning','Crisis',2)
+
+                                if humanFaction() == 1 then
+                                        setDisplayText('Player2HeadHome')
+                                end
+
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+
+                        elseif triggeredCellEventId() == player2_touch_home_event and player3_enemy_has_flag == 1 then
+                                if debug_print ~= 0 then
+                                        print('Player 2 wins!')
+                                end
+
+                                if humanFaction() == 1 then
+                                        setDisplayText('PlayerWins')
+                                else
+                                        setDisplayText('PlayerLoses')
+                                end
+                                setPlayerAsWinner(1)
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+                                endGame()
+                        elseif triggeredCellEventId() == player3_touch_home_event and player2_enemy_has_flag == 1 then
+                                if debug_print ~= 0 then
+                                        print('Player 3 wins!')
+                                end
+                                if humanFaction() == 2 then
+                                        setDisplayText('PlayerWins')
+                                else
+                                        setDisplayText('PlayerLoses')
+                                end
+                                setPlayerAsWinner(2)
+                                unregisterCellTriggerEvent(triggeredCellEventId())
+                                endGame()
+                        end
+
+		</cellTriggerEvent>
+
+		<timerTriggerEvent>
+		</timerTriggerEvent>
+	</scripts>		
+</scenario>
