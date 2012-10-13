@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="700"  regeneration="1"/>
+		<max-ep value="0"/>
+		<armor value="10"/>	
+		<armor-type value="leather"/>
+		<sight value="10"/>
+		<time value="20"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+			<level name="elite" kills="3"/>
+			<level name="killer" kills="6"/>
+		</levels>
+		<fields>
+			<field value="land"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<!--unit name="farm"/-->
+		</unit-requirements>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="wood" amount="50"/>
+			<resource name="gold" amount="125"/>
+			<resource name="food" amount="1"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/guard.bmp"/>
+		<image-cancel path="../servant/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/select1.wav"/>
+			<sound path="../swordman/sounds/select1b.wav"/>
+			<sound path="../swordman/sounds/select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/select3.wav"/>
+			<sound path="../swordman/sounds/select4.wav"/>
+			<sound path="../swordman/sounds/select5.wav"/>
+			<sound path="../swordman/sounds/select5b.wav"/>
+			<sound path="../swordman/sounds/select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/select7.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/ack1.wav"/>
+			<sound path="../swordman/sounds/ack1b.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack3.wav"/>
+			<sound path="../swordman/sounds/ack3b.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack4.wav"/>
+			<sound path="../swordman/sounds/ack4b.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack6.wav"/>
+			<sound path="../swordman/sounds/ack7.wav"/>	
+		</command-sounds>
+	</parameters>
+
+	<skills>
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="50"/>
+			<animation path="models/spearman_stand.g3d"/>
+			<animation path="models/spearman_look.g3d"/>
+			<animation path="models/spearman_look2.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="stop"/>
+			<name value="hold_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="250"/>
+			<animation path="models/spearman_hold.g3d"/>
+			<sound enabled="true" start-time="0.47">
+				<sound-file path="../swordman/sounds/yelling/1.wav"/>
+				<sound-file path="../swordman/sounds/yelling/2.wav"/>
+				<sound-file path="../swordman/sounds/yelling/3.wav"/>
+				<sound-file path="../swordman/sounds/yelling/4.wav"/>
+			</sound> 
+		</skill>
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="210"/>
+			<anim-speed value="120"/>
+			<animation path="models/spearman_walk.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
+			<type value="move"/>		
+			<name value="charge_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="230"/>
+			<anim-speed value="120"/>
+			<animation path="models/spearman_walk.g3d"/>
+			<sound enabled="false"/>			
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="110"/>
+			<anim-speed value="110"/>
+			<animation path="models/spearman_attack.g3d"/>
+			<sound enabled="true" start-time="0.4">
+				<sound-file path="$COMMONDATAPATH/sounds/attack3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/attack5.wav"/>
+			</sound> 
+			<attack-strenght value="120"/>
+			<attack-var value="30"/>
+			<attack-range value="1"/>
+			<attack-type value="slashing"/>	
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="die"/>	
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation-random-cycle-maxcount value="1" />
+			<animation path="models/spearman_die1.g3d"/>
+			<animation path="models/spearman_die2.g3d"/>
+			<animation path="models/spearman_die3.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/die2.wav"/>
+			</sound>
+			<fade value="false"/>
+		</skill>
+
+		<skill>
+			<type value="morph"/>
+			<name value="morph_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="500"/>
+			<anim-speed value="80"/>
+			<animation path="models/spearman_stand.g3d"/>
+			<sound enabled="false"/>
+		</skill>	
+
+	</skills>
+	
+	<commands>
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../servant/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../servant/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/guard_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../servant/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+			</upgrade-requirements>
+			<stop-skill value="hold_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>
+
+		<command>
+			<type value="morph"/>
+			<name value="get_armour_and_sheild"/>
+			<image path="../shielded_spearman/images/guard.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<morph-skill value="morph_skill"/>
+			<morph-unit name= "shielded_spearman"/>
+			<discount value="0"/>
+		</command>
+
+	</commands>
+</unit>

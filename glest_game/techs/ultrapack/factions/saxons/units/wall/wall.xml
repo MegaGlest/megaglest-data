@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="2" />
+		<height value="2" />
+		<max-hp value="800" regeneration="0"/>
+		<max-ep value="0" />
+		<armor value="800" />
+		<armor-type value="stone"/>				
+		<sight value="0" />
+		<time value="0" />
+		<multi-selection value="false" />
+		<!--cellmap value="true" allowEmpty="true"-->
+		<cellmap value="true">
+			<row value="11" /> 
+			<row value="11" /> 
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<!--property value="burnable"/-->
+		</properties>
+		<light enabled="false" />
+		<unit-requirements>
+			<unit name="fortress" />
+		</unit-requirements>
+		<upgrade-requirements />
+		<resource-requirements>
+			<resource name="gold" amount="0" />
+		</resource-requirements>
+		<resources-stored />
+		<image path="images/farm.bmp"/>
+		<image-cancel path="../servant/images/tech_cancel.bmp"/>
+		<meeting-point value="true" image-path="../hunters_tent/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="be_built" />
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300"/>
+			<anim-speed value="50" />
+			<animation path="models/wall.g3d" minHp="3001" maxHp="4000"/>
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="50" />
+			<animation path="models/wall.g3d" minHp="3001" maxHp="4000"/>
+			<sound enabled="false" />
+		</skill>		
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="1000" />
+			<speed value="0" />
+			<anim-speed value="0" />
+			<animation path="models/wall.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall3.wav"/>
+			</sound>			
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+		<!--command>
+			<type value="produce"/>
+			<name value="produce_boar" />
+			<image path="../boar/images/pig.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="boar"/>
+		</command>
+
+                <command>
+			<type value="upgrade"/>
+			<name value="research_feathers"/>
+			<image path="../../upgrades/feathers/images/stables.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="feathers"/>
+		</command-->
+	</commands>
+</unit>

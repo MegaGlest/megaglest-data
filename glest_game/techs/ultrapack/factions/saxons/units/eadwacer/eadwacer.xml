@@ -1,0 +1,319 @@
+<?xml version="1.0" standalone="no"?>
+
+<unit>
+
+	<parameters>
+		<size value="1"/>
+		<height value="2"/>
+		<max-hp value="3500" regeneration="1"/>
+		<max-ep value="1000" regeneration="10"/>
+		<max-unit-count value="1"/>
+		<max-ep value="0"/>
+		<armor value="30"/>
+		<armor-type value="metal"/>
+		<sight value="15"/>
+		<time value="60"/>	
+		<multi-selection value="true"/>	
+		<cellmap value="false"/>
+		<levels>
+		</levels>
+		<fields>
+			<field value="land"/>
+			<field value="air"/>
+		</fields>	
+		<properties/>
+		<light enabled="false"/>
+		<unit-requirements>
+			<unit name="hunters_tent"/>
+			<unit name="bonfire"/>
+		</unit-requirements>
+		<upgrade-requirements>
+			<upgrade name="iron"/>
+		</upgrade-requirements>
+		<resource-requirements>
+			<resource name="wood" amount="150"/>
+			<resource name="gold" amount="400"/>
+			<resource name="food" amount="1"/>						
+		</resource-requirements>
+		<resources-stored/>
+		<image path="images/battle_machine.bmp"/>
+		<image-cancel path="../servant/images/tech_cancel.bmp"/>
+		<meeting-point value="false"/>
+		<selection-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/select1.wav"/>
+			<sound path="../swordman/sounds/select1b.wav"/>
+			<sound path="../swordman/sounds/select2.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/select3.wav"/>
+			<sound path="../swordman/sounds/select4.wav"/>
+			<sound path="../swordman/sounds/select5.wav"/>
+			<sound path="../swordman/sounds/select5b.wav"/>
+			<sound path="../swordman/sounds/select6.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/select7.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="$COMMONDATAPATH/sounds/ack1.wav"/>
+			<sound path="../swordman/sounds/ack1b.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack3.wav"/>
+			<sound path="../swordman/sounds/ack3b.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack4.wav"/>
+			<sound path="../swordman/sounds/ack4b.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack5.wav"/>
+			<sound path="$COMMONDATAPATH/sounds/ack6.wav"/>
+			<sound path="../swordman/sounds/ack7.wav"/>	
+		</command-sounds>
+
+	</parameters>
+
+	<skills>
+	
+		<skill>
+			<type value="stop"/>
+			<name value="stop_skill"/>
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="50"/>
+			<animation path="models/quinlin_stand.g3d"/>
+			<animation path="models/quinlin_look.g3d"/>
+			<animation path="models/quinlin_down.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<!--skill>
+			<type value="stop"/>
+			<name value="hold_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="1000"/>
+			<anim-speed value="220"/>
+			<animation path="models/battleaxe_hold.g3d"/>
+			<sound enabled="true" start-time="0.47">
+				<sound-file path="../bull/yelling/1.wav"/>
+				<sound-file path="../bull/yelling/2.wav"/>
+				<sound-file path="../bull/yelling/3.wav"/>
+				<sound-file path="../bull/yelling/4.wav"/>
+			</sound> 
+		</skill-->
+		
+		<skill>
+			<type value="move"/>
+			<name value="move_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="180"/>
+			<anim-speed value="90"/>
+			<animation path="models/quinlin_walk.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/walk1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/walk2.wav"/>
+			</sound> 
+
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="attack_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="70"/>
+			<anim-speed value="70"/>
+			<animation path="models/quinlin_attack.g3d"/>
+			<sound enabled="true" start-time="0.4">
+				<sound-file path="sounds/a1.wav"/>
+				<sound-file path="sounds/a2.wav"/>
+				<sound-file path="sounds/a3.wav"/>
+				<sound-file path="sounds/a4.wav"/>
+			</sound> 
+			<attack-strenght value="210"/>
+			<attack-var value="110"/>
+			<attack-range value="1"/>
+			<attack-type value="slashing"/>	
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+			<attack-start-time value="0.8"/>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="rage_skill"/>		
+			<ep-cost value="10"/>
+			<speed value="400"/>
+			<anim-speed value="150"/>
+			<animation path="models/quinlin_hold.g3d"/>
+			<sound enabled="true" start-time="0.47">
+				<sound-file path="../swordman/sounds/yelling/1.wav"/>
+				<sound-file path="../swordman/sounds/yelling/2.wav"/>
+				<sound-file path="../swordman/sounds/yelling/3.wav"/>
+				<sound-file path="../swordman/sounds/yelling/4.wav"/>
+			</sound> 
+			<attack-strenght value="0"/>
+			<attack-var value="0"/>
+			<attack-range value="10"/>
+			<attack-type value="slashing"/>
+			<attack-start-time value="0.5"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+                        <attack-boost>
+				<allow-multiple-boosts value="false" />
+				<radius value="12"/>
+                        	<target value="ally"> <!-- ally foe faction unit-types all -->
+					<!-- <unit-type value="catapult" /> -->
+                                </target>
+
+				<max-hp value="10"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="40" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="15"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+				
+				<particles value="true">
+					<originator-particle-file path="glow_particles.xml"/>
+					<affected-particle-file path="glow_particles.xml"/>
+				</particles>
+
+                        </attack-boost>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="attack"/>
+			<name value="power_skill"/>		
+			<ep-cost value="400"/>
+			<speed value="100"/>
+			<anim-speed value="100"/>
+			<animation path="models/quinlin_s_attack.g3d"/>
+			<sound enabled="true" start-time="0.5">
+				<sound-file path="sounds/sattack.wav"/>
+				<sound-file path="sounds/sattack2.wav"/>
+			</sound> 
+			<attack-strenght value="2500"/>
+			<attack-var value="800"/>
+			<attack-range value="1"/>
+			<attack-type value="slashing"/>
+			<attack-start-time value="0.5"/>
+			<attack-fields>
+				<field value="land"/>
+			</attack-fields>
+                        <attack-boost>
+				<allow-multiple-boosts value="true" />
+				<radius value="2"/>
+                        	<target value="foe"> <!-- ally foe faction unit-types all -->
+					<!-- <unit-type value="catapult" /> -->
+                                </target>
+
+				<max-hp value="-800"/>
+				<max-ep value="0"/>
+				<sight value="0"/>
+				<attack-strenght value="0" value-percent-multiplier="true"/>
+				<attack-range value="0"/>
+				<armor value="-10"/>
+				<move-speed value="0"/>
+				<production-speed value="0"/>
+				
+				<particles value="true">
+					<originator-particle-file path="1.xml"/>
+					<affected-particle-file path="1.xml"/>
+				</particles>
+
+                        </attack-boost>
+			<particles value="true">
+				<particle-file path="power_particles.xml"/>
+			</particles>
+			<projectile value="false"/>
+			<splash value="false"/>
+		</skill>
+
+		<skill>
+			<type value="die"/>	
+			<name value="die_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="60"/>
+			<anim-speed value="60"/>
+			<animation path="models/quinlin_die.g3d"/>
+			<sound enabled="true" start-time="0">
+				<sound-file path="$COMMONDATAPATH/sounds/die1.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/die2.wav"/>
+			</sound> 			
+			<fade value="false"/>
+		</skill>
+		
+		<skill>
+			<type value="move"/>		
+			<name value="charge_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="240"/>
+			<anim-speed value="100"/>
+			<animation path="models/quinlin_walk.g3d"/>
+			<sound enabled="false" start-time="0">
+			</sound> 
+		</skill>	
+
+	</skills>
+
+	<!-- *** commands *** -->
+	
+	<commands>
+		
+		<command>
+			<type value="stop"/>
+			<name value="stop"/>
+			<image path="../servant/images/tech_stop.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<stop-skill value="stop_skill"/>
+		</command>
+
+		<command>
+			<type value="move"/>
+			<name value="move"/>
+			<image path="../servant/images/tech_move.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="move_skill"/>
+		</command>
+
+		<command>
+			<type value="attack"/>
+			<name value="attack"/>
+			<image path="images/battle_machine_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command>   
+
+		<!--command>
+			<type value="attack_stopped"/>
+			<name value="hold_position"/>
+			<image path="../servant/images/tech_hold.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements>
+			</upgrade-requirements>
+			<stop-skill value="hold_skill"/>
+			<attack-skill value="attack_skill"/>
+		</command-->
+
+		<command>
+			<type value="attack"/>
+			<name value="strengthen_troops"/>
+			<image path="images/battle_machine_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="rage_skill"/>
+		</command>  
+		<command>
+			<type value="attack"/>
+			<name value="power_axe"/>
+			<image path="images/battle_machine_attack.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<move-skill value="charge_skill"/>
+			<attack-skill value="power_skill"/>
+		</command>  
+	</commands>
+</unit>

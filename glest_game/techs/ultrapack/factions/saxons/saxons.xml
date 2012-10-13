@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>
+	<starting-resources>
+		<resource name="gold" amount="600"/>
+		<resource name="wood" amount="600"/>	
+		<resource name="stone" amount="500"/>	
+		<resource name="food" amount="80"/>	
+	</starting-resources>
+	<starting-units>
+		<unit name="fortress" amount="1"/>
+		<unit name="servant" amount="3"/>
+		<unit name="swordman" amount="1"/>
+		<unit name="axe_thrower" amount="0"/>
+		<unit name="hunters_tent" amount="0"/>
+		<unit name="mace_man" amount="0"/>
+		<unit name="stickfighter" amount="0"/>
+		<unit name="torch_man" amount="0"/>
+		<unit name="spearman" amount="0"/>
+		<unit name="bone_house" amount="0"/>
+		<unit name="archer" amount="2"/>
+		<unit name="fire_archer" amount="0"/>
+		<unit name="eadwacer" amount="0"/>
+		<unit name="strong_man" amount="0"/>
+		<unit name="bonfire" amount="0"/>
+		<unit name="training_camp" amount="0"/>
+		<unit name="mounted_archer" amount="0"/>
+		<unit name="shielded_spearman" amount="0"/>
+		<unit name="battering_ram" amount="0"/>
+		<unit name="guarding_post" amount="1"/>
+		<unit name="fire_launcher" amount="0"/>
+		<unit name="wall" amount="0"/>
+	</starting-units>
+	<!--/"SKIN_COLOR"(bright)_36_ (con)_58_/_color(d2a797)-->	
+	<music value="true" path="music/music_barbarians.ogg"/>
+</faction>
