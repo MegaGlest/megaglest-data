@@ -187,7 +187,7 @@
                         elseif triggeredCellEventId() == player3_has_flag_event then
 
                                 player2_enemy_has_flag = 1
-                                player2_has_flag_unit = triggeredCellEventUnitId()
+                                player3_has_flag_unit = triggeredCellEventUnitId()
                                 player3_touch_home_event = registerCellTriggerEventForUnitToUnit(triggeredCellEventUnitId(),player3_home)
 
                                 if debug_print ~= 0 then
@@ -204,7 +204,7 @@
                         elseif triggeredCellEventId() == player2_has_flag_event then
 
                                 player3_enemy_has_flag = 1
-                                player3_has_flag_unit = triggeredCellEventUnitId()
+                                player2_has_flag_unit = triggeredCellEventUnitId()
                                 player2_touch_home_event = registerCellTriggerEventForUnitToUnit(triggeredCellEventUnitId(),player2_home)
                                 
                                 if debug_print ~= 0 then

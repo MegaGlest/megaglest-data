@@ -443,6 +443,7 @@ StandardPort=Default Port
 StartingToUpgrade=Starting to upgrade
 Stop=Stop
 Store=Store
+SystemUser=System Message
 SwitchTeams=Switch Teams
 Team=Team
 TechTree=Tech tree
