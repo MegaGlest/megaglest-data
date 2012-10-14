@@ -134,7 +134,7 @@ German               by Eduard Dopler based on the work of many others
 Ukrainian            by Dmitry Nikitin
 Spanish              by Davidou based on the work of many others
 Catalan              by Miguel Verdú
-Russian              by Strannik
+Russian              by Zhook based on the work of many others
 Portuguese           by VictorJ based on the work of many others
 Polish               by Krzysztof Gurbała
 Japanese             by Hagekura
