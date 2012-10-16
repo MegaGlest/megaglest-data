@@ -178,6 +178,7 @@ HeadlessAdminRequiresMorePlayers=You must have at least %d player(s) connected t
 Hint=Hint:\n%s
 CellHint=Cell hint
 HostGame=Host Game
+HostNotAcceptingDataConnections=*Warning* the host is not accepting data connections.
 Hp=HP
 Human=Human
 IncompatibleVersion=Incompatible Version
