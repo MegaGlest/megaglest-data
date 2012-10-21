@@ -8,10 +8,10 @@ Ritual=Deas-ghnàth
 Armies=Feachdan
 
 ;message strings
-Welcome=Fàilte dhan oideachadh adhartach aig MegaGlest. Ionnsaichidh tu mu chuid de na feartan adhartach aig a' gheama. 
+Welcome=Fàilte dhan oideachadh adhartach aig MegaGlest. Ionnsaichidh tu mu chuid de na feartan adhartach aig a' gheama.
 MagicBrief=Tha thu os cionn na buidhne draoidhich a chleachdas draoidhean is creutairean air an gairm gus sabaid a dhèanamh.
 InitiateBrief='S e an t-aonad draoidheach bunasach a th' anns an Fhoghlamaiche (Initiate). Buainidh iad stòrasan is togaidh iad togalaichean.
-InitiatePromotion=Faodaidh tu Foghlamaichean adhartachadh gu Draoidhean-catha (Battlemage). Gus seo a dhèanamh, tagh Foghlamaiche is cleachd an t-òrdugh "Adhartaich gu Draoidh-catha" ("Promote to Battlemage"). 
+InitiatePromotion=Faodaidh tu Foghlamaichean adhartachadh gu Draoidhean-catha (Battlemage). Gus seo a dhèanamh, tagh Foghlamaiche is cleachd an t-òrdugh "Adhartaich gu Draoidh-catha" ("Promote to Battlemage").
 BattlemageBrief='S e na cathaichean draoidheach bunasach a th' anns na Draoidhean-catha. Tha ionnsaighean air astar cumhachdach agus luaths is aghaidheachd mhath aca.
 EnergyBrief=Mar as trice, bidh feum aig aonadan draoidheach air cumhachd ach an dèan thu iad. Cha tèid cumhachd ithe mar a thèid biadh is cha bhi feum agad oirre ach nuair a chruthaicheas tu aonad. Gheibh thu cumhachd bho Thobraichean Cumhachd (Energy Sources).
 EnergyBrief2=Thoir an aire an-còmhnaidh gu bheil cumhachd gu leòr agad gus aonadan ùra a dhèanamh.

@@ -11,7 +11,7 @@ Tricks=Tricks
 Welcome=Willkommen zur MegaGlest-Einführung!
 
 FirstThing=Ansicht: Du kannst den angezeigten Bereich verändern, indem du die Maus an den Bildschirmrand bewegst oder die Pfeiltasten benutzt. Auch per Linksklick auf die Übersichtskarte (oben links im Bild) kannst du die Ansicht neu positionieren.
- 
+
 WillBeUsingIndian=In dieser Einführung kommandierst du den Indianer-Stamm (indian). Die Indianer kämpfen mit Bogenschützen und einfachen Waffen.
 
 NeedWorkers=Als erstes benötigen wir einen Arbeiter (Worker). Wähle hierzu per linker Maustaste das Hauptzelt (Mainteepee) an und starte die Ausbildung des Arbeiters mit dem Kommando "Produce Worker", indem du auf sein Bild klickst.
@@ -75,4 +75,4 @@ usethirdcommand=Tipp: Wenn das Zelt rot ist, ist der Platz derzeit besetzt (z.B.
 
 ;end
 
-WellDoneNextTutorial=Gut Gemacht! Jetzt kannst du die nächste Einführung spielen.		
+WellDoneNextTutorial=Gut Gemacht! Jetzt kannst du die nächste Einführung spielen.

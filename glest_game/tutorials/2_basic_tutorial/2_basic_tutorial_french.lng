@@ -6,10 +6,10 @@ Combat=Combat
 Buildings=Constructions
 
 ;message strings
-Welcome=Bienvenue sur le tutoriel standard de MegaGlest. Ici vous apprendrez les bases du jeu. 
+Welcome=Bienvenue sur le tutoriel standard de MegaGlest. Ici vous apprendrez les bases du jeu.
 WillBeUsingTech=Vous commandez la faction des Tech, qui utilise des chevaliers du moyen âge et des engins mécaniques pour le combat.
 NeedWorkers=Pour récolter des ressources, vous aurez besoin de travailleurs. Pour en produire sélectionnez le chateau puis utilisez la commande "Produce Worker".
-SelectAndCommand=Les unités sont selectionnées en faisant un clic gauche dessus, les ordres sont donnés en par un clic droit sur une cible ou sur le sol. 
+SelectAndCommand=Les unités sont selectionnées en faisant un clic gauche dessus, les ordres sont donnés en par un clic droit sur une cible ou sur le sol.
 HowToMine=Pour ramasser de l'or, selectionnez un travailleur, puis cliquez avec le bouton droit sur une plaque d'or.
 WorkersKeepOnHarvesting=Les travailleurs vont continuer à récolter les ressources et les ramener dans un batiment capable de stocker les ressources récoltées..
 ResourceInformation=Les informations sur les ressources sont affichées en haut de l'écran, la valeur de gauche étant le montant actuel, celle de droite la capacité de stockage total.

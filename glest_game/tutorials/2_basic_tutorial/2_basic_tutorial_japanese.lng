@@ -6,10 +6,10 @@ Combat=戦闘
 Buildings=建築
 
 ;message strings
-Welcome=Megaglestの基本的チュートリアルへようこそ。 ここではゲームの基本を学びます。 
+Welcome=Megaglestの基本的チュートリアルへようこそ。 ここではゲームの基本を学びます。
 WillBeUsingTech=あなたは中世風の戦士と機械戦闘装置を 使用するTech勢力を指揮しています。
 NeedWorkers=資源を収集するには労働者が必要です。 労働者を生産するには城を選択し、 "Produce Worker" コマンドを選択して下さい。
-SelectAndCommand=ユニットは左クリックで選択できます。 ユニットに命令を与えるには目標 或いは目的地を右クリックします。 
+SelectAndCommand=ユニットは左クリックで選択できます。 ユニットに命令を与えるには目標 或いは目的地を右クリックします。
 HowToMine=金を採掘するには、 労働者を選択し、 次に金鉱を右クリックします。
 WorkersKeepOnHarvesting=労働者は資源を採集し、採集した資源を保管できる建物に持って行きます。
 ResourceInformation=資源の情報は画面上部に表示されます。 左側の数字は現在の資源量、 右側の数字は保管可能な最大数です。

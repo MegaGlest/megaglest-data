@@ -6,10 +6,10 @@ Combat=Combat
 Buildings=Buildings
 
 ;message strings
-Welcome=Welcome to the MegaGlest Basic Tutorial. Here you will learn the basics of the game. 
+Welcome=Welcome to the MegaGlest Basic Tutorial. Here you will learn the basics of the game.
 WillBeUsingTech=You are in command of the Tech faction, which uses medieval warriors and mechanical devices to fight.
 NeedWorkers=To harvest resources you will need Workers. To produce some first select the Castle then use the "Produce Worker" command.
-SelectAndCommand=Units are selected by left clicking on them, commands are given by either right clicking on a target or at the terrain. 
+SelectAndCommand=Units are selected by left clicking on them, commands are given by either right clicking on a target or at the terrain.
 HowToMine=To mine Gold, first select a Worker, then right click on a Gold patch.
 WorkersKeepOnHarvesting=Workers will keep on harvesting and taking resources to a building that can store the type of resource they are carrying.
 ResourceInformation=Resource information is displayed at the top of the screen, the number on the left is the current amount, the number on the right is the storage capacity.

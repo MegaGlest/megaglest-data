@@ -6,7 +6,7 @@ Combat=Combate
 Buildings=Edificios
 
 ;message strings
-Welcome=Bienvenido al Tutorial Básico del MegaGlest. Aquí aprenderás los conceptos básicos del juego. 
+Welcome=Bienvenido al Tutorial Básico del MegaGlest. Aquí aprenderás los conceptos básicos del juego.
 WillBeUsingTech=Estás en control de la facción Tecnológica (Tech), que usa guerreros medievales y aparatos mecanicos para luchar.
 NeedWorkers=Para recolectar recursos necesitas Trabajadores (Worker). Para producir algunos primero selecciona el Castillo (Castle) y luego usa el comando Producir Trabajador (Produce Worker)
 SelectAndCommand=Las unidades se seleccionan pinchando con el botón izquierdo, los comandos se dan pinchando con el botón derecho en el objetivo o en el terreno.

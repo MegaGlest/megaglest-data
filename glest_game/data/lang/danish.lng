@@ -1,5 +1,5 @@
 ; danish lang file by Frederick Angelo ( aka Coldfusionstorm )
- 
+
 ;Main strings
 3dArt=3D kunst
 3dAnd2dArt=3D og 2D kunst
@@ -30,7 +30,7 @@ BattleOver=Kampen er over
 BlockPlayer=Bloker spiller
 BlockPlayerClear=Clear Blocked Players Fjern blokering af blokerede spiller(e)
 BlockPlayerServerMsg=Serveren har midlertidigt blokeret din ipadresse [%s] fra dette spil
-Build=Byg			
+Build=Byg
 BuildSpeed=Bygge Hastighed
 BuildingNoPlace=Bygning kan ikke placeres her
 BuildingNoReqs=Bygning opfylder ikke krav
@@ -39,11 +39,11 @@ Built=Bygget
 CameraModeSet=Kamera mode sat til
 CanRepair=Kan Reparere
 Cancel=Aflys
-CancelDownloads=Afbryd overførsel 
+CancelDownloads=Afbryd overførsel
 CancelDownloadsMsg=Spiller %s afbrød alle fil overførsler
 Canceled=Aflyst
 Chat=Chat
-ChatMode=Chat mode 
+ChatMode=Chat mode
 CheckSumGameLoadError=Checksum Fejl,Du har ikke den samme data som serveren
 CheckSumGameLoadPlayer=Spiller(e) med fejl er:
 CheckSumGameLoadClient=Klient Checksum:
@@ -51,7 +51,7 @@ CheckSumGameLoadServer=Server(ens) Checksum:
 ClientLagDropping=Overskred max tilladt LAG antal %f [time = %f], clientLag = %f [%f], afbryder klient
 ClientLagPausing=Pauser spillet midlertidigt for %s, overskred max tilladt LAG antal of %f [time = %f], KlientLag = %f [%f], Venter på klient indhenter
 ClientLagWarning=Lag ADVARSEL for %s, risiko for at overskride max tiladt LAG antal af %f [time = %f], klientLag = %f [%f], ADVARSEL...
-Closed=Lukket 
+Closed=Lukket
 Command=Komando
 CommonCommand=Fælles komando
 Connect=Forbind
@@ -70,7 +70,7 @@ CpuUltra=CPU (Ultra)
 CreateNewTeam=Opret nyt hold
 CustomGame=Brugerdefineret spil
 DataNotSynchedTitle=Følgende spil data er anderledes:
-DataNotSynchedMap=Kortet er forskelligt imellem klient og server 
+DataNotSynchedMap=Kortet er forskelligt imellem klient og server
 DataNotSynchedTileset=Kort dekorationssæt er forskelligt imellem klient og server
 DataNotSynchedTechtree=Teknotræ er anderledes imellem klient og server
 DataMissingMap=Spiller: %s mangler kortet: %s
@@ -148,7 +148,7 @@ GameResumed=Spil genoptaget
 GameSpeedSet=Spilhastighed sat til
 GameSwitchPlayerToAI=Spiller #%d [%s] har afbrudt, skifter spiller til KI mode!
 GameSwitchPlayerObserverToAI=Spiller #%d [%s] har afbrudt, men spilleren var kun obsevatør!
-Harvest=Høst 
+Harvest=Høst
 HarvestSpeed=Høst hastighed
 Hp=HP
 Human=Menneske
@@ -287,7 +287,7 @@ NetworkGameStatusWaiting=Venter på spillere: %s
 NetworkPauseGameForLaggedClients=Pause for Laggede Clienter
 NetworkSlotUnassignedErrorUI=Kan ikke starte spillet.\nda nogen spiller(e) ikkeer i en netværks plads
 NetworkSlotUnassignedError=Kan ikke starte spillet,da nogen spiller(e) ikke er i en netværks plads
-NetworkUnassigned=Spiller mangler åbne pladser 
+NetworkUnassigned=Spiller mangler åbne pladser
 NewGame=Nyt spil
 No=Nej
 HostGame=Lav et Spil
@@ -337,7 +337,7 @@ Programming=Programming
 Projected=Projected
 PublishServer=Udgiv på Mesterserver
 PublishServerExternalPort=Extern(e) Port(e) #
-PublishDisabled= (deaktivere annoncering)
+PublishDisabled=(deaktivere annoncering)
 Question=Spørgsmål
 QuitGame=Vælg at forlade spillet!
 RainEffect=Regn effekt

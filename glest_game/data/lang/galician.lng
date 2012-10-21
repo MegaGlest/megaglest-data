@@ -112,7 +112,7 @@ JoinInternetGame=Partida por Internet
 Language=Lingua:
 ; Ends in a white space:
 ; Remata nun espazo en branco:
-LanIP=Enderezos locais: 
+LanIP=Enderezos locais:
 LinuxPort=Versión para GNU/Linux:
 Load=Cargar
 LoadedSpeed=Velocidade de carga
@@ -138,7 +138,7 @@ Network=Rede
 NetworkFramePeriod=Enviar a cantidade de fotogramas pola rede
 ; Ends in a white space:
 ; Remata nun espazo en branco:
-NetworkPauseGameForLaggedClients=Deter a partida para os xogadores con problemas de conexión 
+NetworkPauseGameForLaggedClients=Deter a partida para os xogadores con problemas de conexión
 NewGame=Comezar unha partida
 No=Non
 NoServerVisitChat=Non sabe de ningún servidor? Vaia á sala de conversa do xogo
@@ -172,7 +172,7 @@ Play=Xogar
 PlayNow=Comezar
 ; Ends in a white space:
 ; Remata nun espazo en branco:
-Player=Xogador 
+Player=Xogador
 Playername=Nome do xogador:
 Port=Porto
 Produce=Produce

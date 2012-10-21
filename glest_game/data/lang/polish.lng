@@ -199,17 +199,17 @@ MGJoinGameSlots=Dołącz do gry
 MGPlatform=Platforma
 MGVersion=Wersja gry
 Misc=Różne
-		
+
 MismatchedFactions=Frakcje poniżej są niedopasowane:
 MismatchedFactionsMissing=(brak)
 MismatchedFactionsExtra=(dodatkowo)
-		
+
 ModLocalRemoteMismatch=Lokalna modyfikacja %s jest inna od tej\n na serwerze. Zamienić lokalną wersję na zgodną z tą na serwerze?
 ModErrorGettingServerData=Błąd przy odbieraniu danych z master serwera.
 ModRequires7z=** Uwaga. ** - Musisz mieć zainstalowany program 7z by \n pobierać i instalować modyfikacje.
 ModDownloadInProgressCancelQuestion=Aktualnie masz: %d plików pobranych, anulować pobrania?
 ModDownloading=Pobieranie
-		
+
 ModTechAlreadyInstalled=Masz już technologię %s zainstalowaną.
 ModSelectTechToInstall=Najpierw zaznacz technologię do instalacji.
 ModRemoveTechConfirm=Jesteś pewien, że chcesz usunąć technologię %s?
@@ -217,7 +217,7 @@ ModCannotRemoveTechNotInstalled=Nie masz technologii %s zainstalowanej. Usunięc
 ModSelectTechToRemove=Najpierw zaznacz technologię do usunięcia.
 ModDownloadTechSuccess=SKUTECZNIE pobrano technologię %s
 ModDownloadTechFail=NIE POWIODŁO SIĘ pobranie technologii %s przy użyciu wersji CURL %s %s
-		
+
 ModTilesetAlreadyInstalled=Zestaw graficzny %s jest już zainstalowany.
 ModSelectTilesetToInstall=Najpierw zaznacz zestaw graficzny do instalacji.
 ModRemoveTilesetConfirm=Jesteś pewien, że chcesz usunąć zestaw graficzny %s?
@@ -225,7 +225,7 @@ ModCannotRemoveTilesetNotInstalled=Nie masz zestawu graficznego %s zainstalowane
 ModSelectTilesetToRemove=Najpierw zaznacz zestaw graficzny do usunięcia.
 ModDownloadTilesetSuccess=SKUTECZNIE pobrano zestaw graficzny %s
 ModDownloadTilesetFail=NIE POWIODŁO SIĘ pobranie zestawu graficznego %s przy użyciu wersji CURL %s %s
-		
+
 ModMapAlreadyInstalled=Masz już mapę %s zainstalowaną.
 ModSelectMapToInstall=Najpierw zaznacz mapę do instalacji.
 ModRemoveMapConfirm=Jesteś pewien, że chcesz usunąć mapę %s?
@@ -233,7 +233,7 @@ ModCannotRemoveMapNotInstalled=Nie masz mapy %s zainstalowanej. Usunięcie anulo
 ModSelectMapToRemove=Najpierw zaznacz mapę do usunięcia.
 ModDownloadMapSuccess=SKUTECZNIE pobrano mapę %s
 ModDownloadMapFail=NIE POWIODŁO SIĘ pobranie mapy %s przy użyciu wersji CURL %s %s
-		
+
 ModScenarioAlreadyInstalled=Masz już scenariusz %s zainstalowany.
 ModSelectScenarioToInstall=Najpierw zaznacz scenariusz do instalacji.
 ModRemoveScenarioConfirm=Jesteś pewien, że chcesz usunąć scenariusz %s?
@@ -245,7 +245,7 @@ ModInstalled=Zainstalowano.
 ModAvailable=Dostępny
 ModOnlyLocal=Brak na serwerze
 ModHasConflict=Inny na serwerze
-		
+
 Mods=Modyfikacje gry
 Morph=Morf
 MorphNoReqs=Wymagania dla morfu nie spełnione
@@ -316,7 +316,7 @@ Programming=Programowanie
 Projected=Projektowane
 PublishServer=Opublikuj na metaserwerze?
 PublishServerExternalPort=Zewnętrzny port #
-PublishDisabled= (publikowanie wyłączone)
+PublishDisabled=(publikowanie wyłączone)
 Question=Pytanie
 QuitGame=Opuszcza grę!
 RainEffect=Efekt deszczu:
@@ -375,7 +375,7 @@ TimeoutWaitingForClients=Przekroczony limit czasu oczekiwania na klientów.
 TimeoutWaitingForServer=Przekroczony limit czasu oczekiwania na serwer.
 TimeoutWaitingForMessage=Przekroczony limit czasu oczekiwania na wiadomość.
 Tip=Porada
-ToSwitchOffMusicPress=By wyłączyć muzykę podczas oczekiwania na graczy naciśnij 
+ToSwitchOffMusicPress=By wyłączyć muzykę podczas oczekiwania na graczy naciśnij
 Tutorial=Samouczek
 UnitAddedToProductionQueue=Jednostka dodana do kolejki produkcji
 UnitNoPlace=Jednostka nie może być umiejscowiona

@@ -8,25 +8,25 @@ Ritual=Rituale
 Armies=Eserciti
 
 ;message strings
-Welcome=Benvenuto al Tutorial Avanzato di MegaGlest, qui imparerai alcune delle opzioni più avanzate del gioco. 
-MagicBrief=Hai a disposizione la fazione Magic, che usa la magia per evocare creature per la battaglia. 
+Welcome=Benvenuto al Tutorial Avanzato di MegaGlest, qui imparerai alcune delle opzioni più avanzate del gioco.
+MagicBrief=Hai a disposizione la fazione Magic, che usa la magia per evocare creature per la battaglia.
 InitiateBrief=I Novizi (Initiate) sono le unità base della fazione Magic, possono raccogliere risorse e costruire costruzioni.
-InitiatePromotion=I Novizi (Initiate) possono essere promossi a Maghi da Battaglia (Battlemage), per fare ciò seleziona un Novizio (Initiate) e premi il pulsante "Promote to Battlemage". 
+InitiatePromotion=I Novizi (Initiate) possono essere promossi a Maghi da Battaglia (Battlemage), per fare ciò seleziona un Novizio (Initiate) e premi il pulsante "Promote to Battlemage".
 BattlemageBrief=I Maghi da Battaglia (Battlemage) sono potenti maghi guerrieri, hanno potenti attacchi, buona velocità e resistenza.
 EnergyBrief=Generalmente le unità della fazione Magic hanno bisogno di Energia (Energy) per essere prodotte. L'Energia non è consumata come il Cibo, ma è richiesta solo quando l'unità è creata. L'Energia è prodotta dalla risorse energetico.
-EnergyBrief2=Assicurati di avere sempre abbastanza Energia (Energy) per produrre nuove unità. 
-SummonedUnitsBrief=L'altra maniera per la fazione Magic per produrre unità è evocandole. Avrai bisogno di un evocatore per fare ciò devi aver già costruito un Tempio degli Evocatori (Summoners Guild). 
-SummonerBrief=Gli Evocatori (Summoners) possono creare vari tipi di crature, la più basilare è il demone (daemon). 
+EnergyBrief2=Assicurati di avere sempre abbastanza Energia (Energy) per produrre nuove unità.
+SummonedUnitsBrief=L'altra maniera per la fazione Magic per produrre unità è evocandole. Avrai bisogno di un evocatore per fare ciò devi aver già costruito un Tempio degli Evocatori (Summoners Guild).
+SummonerBrief=Gli Evocatori (Summoners) possono creare vari tipi di crature, la più basilare è il demone (daemon).
 DaemonBrief=I Demoni (Daemons) sono creature economiche, utili da usare come guerrieri da mischia o come esploratori.
 OtherSummonedCreatures=Gli Evocatori (Summoners) possono creare creature avanzate, come le Armature Fantasma (Ghost Armors) e i Draghi (dragons), per produrle dovrai fare i giusti aggiornamenti o ricerche.
 GhostArmorRequirements=Le Armature Fantasma (Ghost Armor) richiedono l'aggiornamento Antiche Evocazioni (Ancient Summoning) che può essere fatto tramite il Tempio degli Evocatori (Summoners Guild)
 GhostArmorBrief=Le Armature Fantasma (Ghost Armors) sono armi da mischia, molto potenti se usate per tnere i nemici lontani dai Maghi da Battaglia (battlemage).
 RitualBrief=I Novizi (Initiates) hanno un secondo comando per costruire unità, chiamato rituale (ritual). Puoi usare questo comando per costruire potnti unità come i Golem. Per fare ciò dovrai avere una Biblioteca (Library) già costruita.
-GolemBrief=I Golem sono potenti unità difensive, hanno potenti attacchi e una buona resistenza, ma possono muoversi per una distanza limitata dal numero di punti energia che hanno. 
+GolemBrief=I Golem sono potenti unità difensive, hanno potenti attacchi e una buona resistenza, ma possono muoversi per una distanza limitata dal numero di punti energia che hanno.
 ArmyManagement=Attenzione a produrre troppe unità, potrebbro essere difficili da gestire!
 DoubleClickBrief=Cliccando due volte su una unità puoi selezionare tutte le unità dello stesso tipo che si trovano nelle vicinanze.
 GroupSelectBrief=Puoi definire gruppi di unità selezionando le unità e poi premendo "Control" e un numero dalla tastiera. Puoi richiamare i gruppi ripremendo il numero che hai prmuto prima.
-FinalMission=Come esame finale adesso devi costruire un esercito e sconfiggere il tuo nemico. 
+FinalMission=Come esame finale adesso devi costruire un esercito e sconfiggere il tuo nemico.
 
 ;objective strings
 PromoteInitiate=Objective: Promuovi un Novizio (Initiate) a Mago di Battaglia (Battlemage).
@@ -35,4 +35,4 @@ ProduceDaemon=Objective: Evoca demone (daemon).
 ProduceGhostArmor=Objective: Ricerca Antiche Evocazioni (Ancient Summoning), poi evoca Armatura Fantasma (Ghost Armor).
 BuildEnergySource=Objective: Costruisci una risorsa energetica (Energy Source)
 ProduceGolem=Objective: Costruisci una Biblioteca (Library) e poi usa un Novizio (Initiate) e con il rituale costrusci un Golem.
-DefeatEnemy=Objective: Costruisci un esercito, scova e sconfiggi il tuo nemico. 
+DefeatEnemy=Objective: Costruisci un esercito, scova e sconfiggi il tuo nemico.
