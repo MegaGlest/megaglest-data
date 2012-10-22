@@ -465,6 +465,16 @@ TimeoutWaitingForServer=Timeout waiting for server.
 TimeoutWaitingForMessage=Timeout waiting for message.
 Tip=Tip
 ToSwitchOffMusicPress=To switch off music while waiting for players press
+
+CustomTranslation=Advanced Translation
+TransifexGetLanguageFiles=Download from transifex
+TransifexDeleteLanguageFiles=Delete downloaded files
+TransifexUserName=Transifex Username:
+TransifexPwd=Transifex Password:
+TransifexI18N=Transifex Language Code:
+TransifexDownloadSuccess=Successfully downloaded the language files.
+TransifexDeleteSuccess=Successfully removed the language files.
+
 Tutorial=Tutorial
 UnitAddedToProductionQueue=Unit added to production queue
 UnitNoPlace=Unit can't be placed
