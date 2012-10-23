@@ -1,23 +1,27 @@
-; Galician (gl) lang file
-; 	Ficheiro de tradución ao galego.
+; English lang file
 
 ; Main strings
-; 	Cadeas principais
-; Cadra no contexto (información):
 3dArt=Deseño (tres dimensións):
-; Cadra no contexto (información):
 3dAnd2dArt=Deseño (dúas e tres dimensións):
-; Cadra no contexto (información):
 2dArtAndWeb=Deseño (dúas dimensións) e web:
 Abort=Cancelar
 About=Información
 Address=Enderezo
 AdvancedGameOptions=Opcións avanzadas
+# AffectedUnits=Affected Units
+# AffectedUnitsFromAll=Affected units From All
+# AffectedUnitsFromFoe=Affected units from Foe
+# AffectedUnitsFromTeam=Affected units from Team
+# AffectedUnitsFromYourFaction=Affected units from your Faction
+# AI=AI
+# AISwitchTeamAcceptPercent=AI accept percent
 AlreadyUpgraded=Xa se actualizou
 All=Todos
+# allowMultiBoost=Allow Multiple Boosts
 AllowObservers=Permitir observadores
+# AllowPlayerJoinTeam=Allow player [%s] to join your team\n(changing from team# %d to team# %d)?
 AmbientVolume=Volume do ambiente:
-; Cadra no contexto (información):
+# Amount=Amount
 Animation=Animación:
 Armor=Armadura
 Attack=Atacar
@@ -26,11 +30,13 @@ AttackSpeed=Velocidade de ataque
 AttackStopped=Detívose o ataque
 AttackStrenght=Dano
 Audio=Son
-; Cadra no contexto (configuración), onde o de configuración vai implícito e hai un tamaño límite:
 AutoConfig=Automática
 AutoRefreshRate=Frecuencia de actualización
 AvailableServers=Servidores dispoñíbeis
 BattleOver=A batalla rematou
+# BlockPlayer=Block Player
+# BlockPlayerClear=Clear Blocked Players
+# BlockPlayerServerMsg=The server has temporarily blocked IP Address [%s] from this game.
 Build=Construír
 BuildSpeed=Velocidade de construción
 BuildingNoPlace=Non se pode construír aí o edificio
@@ -40,15 +46,28 @@ Built=Construído
 CameraModeSet=Pasouse a utilizar a cámara
 CanRepair=Pode reparar
 Cancel=Cancelar
+# CancelDownloads=Cancel download(s)
+# CancelDownloadsMsg=Player: %s cancelled all file downloads.
 Canceled=Cancelado
+# Chat=Chat
 ChatMode=Modo de conversa
+# ChatStaysActive=Chat remains active
+# CheckSumGameLoadError=Checksum error, you don't have the same data as the server
+# CheckSumGameLoadPlayer=Player with error is:
+# CheckSumGameLoadClient=Client Checksum:
+# CheckSumGameLoadServer=Server Checksum:
+# ClientLagDropping=DROPPING %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], disconnecting client.
+# ClientLagPausing=PAUSING GAME TEMPORARILY for %s, exceeded max allowed LAG count of %f [time = %f], clientLag = %f [%f], waiting for client to catch up...
+# ClientLagWarning=LAG WARNING for %s, may exceed max allowed LAG count of %f [time = %f], clientLag = %f [%f], WARNING...
 Closed=Pechado
 Command=Orde
 CommonCommand=Orde habitual
 Connect=Conectarse
+# Connecting=Connecting...
 Connected=Conectado
 ConnectedToServer=Está conectado ao servidor
 ConnectionFailed=Non se puido conectar ao servidor
+# ConnectionTimedOut=Connection timed out communicating with server.
 Consume=Consume
 Control=Control
 CouldNotConnect=Non se puido conectar ao servidor, escolla outro.
@@ -56,12 +75,31 @@ Cpu=Intelixencia art.
 CpuEasy=Intelixencia artificial (fácil)
 CpuMega=Intelixencia artificial (normal)
 CpuUltra=Intelixencia artificial (difícil)
+# CreateNewTeam=Create New Team
 CustomGame=Partida personalizada
+# DataNotSynchedTitle=The following game data is different:
+# DataNotSynchedMap=Map is different between client and server
+# DataNotSynchedTileset=Tileset is different between client and server
+# DataNotSynchedTechtree=Techtree is different between client and server
+# DataMissingExtractDownload=Please wait, player: %s is extracting: %s
+# DataMissingExtractDownloadMod=Please wait while we extract: %s
+# DataMissingMap=Player: %s is missing the map: %s
+# DataMissingTileset=Player: %s is missing the tileset: %s
+# DataMissingTechtree=Player: %s is missing the techtree: %s
+# DataMissingMapNowDownloading=Player: %s is attempting to download the map: %s
+# DataMissingTilesetNowDownloading=Player: %s is attempting to download the tileset: %s
+# DataMissingTechtreeNowDownloading=Player: %s is attempting to download the techtree: %s
+# DataMissingMapSuccessDownload=Player: %s SUCCESSFULLY downloaded the map: %s
+# DataMissingMapFailDownload=Player: %s FAILED to download the map: [%s] using CURL version [%s]
+# DataMissingTilesetSuccessDownload=Player: %s SUCCESSFULLY downloaded the tileset: %s
+# DataMissingTilesetFailDownload=Player: %s FAILED to download the tileset: [%s] using CURL version [%s]
+# DataMissingTechtreeSuccessDownload=Player: %s SUCCESSFULLY downloaded the techtree: %s
+# DataMissingTechtreeFailDownload=Player: %s FAILED to download the techtree: [%s] using CURL version [%s]
 Deaths=Mortes
+# Defaults=Defaults
 Defeat=Derrota
 Deleting=Borrando
 Difficulty=Dificultade
-; Van en minúscula porque aparecen despois de dous puntos («:»).
 Difficulty0=moi fácil
 Difficulty1=doado
 Difficulty2=normal
@@ -71,10 +109,28 @@ Difficulty5=imposible
 Disabled=Desactivado
 Disable=Desactivar
 Disconnect=Desconectar
+# DisconnectNetorkPlayer=Disconnect a player
+# DisconnectNetorkPlayerIndex=Disconnect player #%d - %s
+# DisconnectNetorkPlayerIndexConfirm=Confirm disconnection for player #%d - %s?
+# DisconnectNetorkPlayerIndexConfirmed=Notice - Admin is warning to disconnect player #%d - %s!
 Discount=Descontar
 DisplaySettingsChanged=Cambiouse a configuración gráfica
+# DownloadMissingMapQuestion=Download the map:
+# DownloadMissingTilesetQuestion=Download the tileset:
+# DownloadMissingTechtreeQuestion=Download the techtree:
+# effectRadius=Boost effect Radius
+# Effects=Boost Effects:
+# EnableFTP=Enable FTP file transfers
+# EnableFTPServer=Enable FTP Server
+# EnableFTPServerInternetTilesetXfer=Transfer tilesets over Internet
+# EnableFTPServerInternetTechtreeXfer=Transfer techtrees over Internet
 EnableObserverMode=Ver o mapa ao rematar a partida
+# Enabled=Enabled
 EnableServerControlledAI=Intelixencia artificial controlada polo servidor
+# EnableSwitchTeamMode=Switch teams
+# EnableVideos=Enable Video Playback
+# EnableTextureCompression=Texture Compression
+# EnemyKills=Enemies Killed
 Ep=EP
 EpCost=Custo de EP
 ErrorBindingPort=Houbo un erro: non se puido ligar co porto da rede
@@ -82,74 +138,230 @@ ErrorFromMasterserver=Houbo un erro no servidor mestre
 Exit=Saír
 ExitGame?=Quere saír da partida?
 ExitGameServer?=Quere saír da partida?\n(os outros xogadores\nnon poderán seguir xogando)
+# Explored=Explored
 Faction=Facción
+# FallbackCpuMultiplier=AI replacement multiplier
 Fast=rápido
+# FieldAir=Air
+# FieldLand=Land
 Fields=Campos
+# FileDownloadProgress=Player: %s download progress for [%s] is %d %%
 Filter=Filtro:
 FindLANGames=Buscar na rede local
 FogOfWar=Néboa de guerra
-; Cadra no contexto (configuración):
 FontSizeAdjustment=Tamaño da letra:
 FontSizeAdjustmentChanged=Cambiou o axuste do tipo de letra
+# FTPServerPort=FTP Server Port
+# FTPServerDataPort=FTP Server Data Ports
 FreeCamera=Cámara libre
 FxVolume=Volume dos efectos:
 GameCamera=Cámara do xogo
+# GameCancelledByUser=Game cancelled by server user.
+# GameDurationTime=Game duration
+# GameMaxConcurrentUnitCount=Maximum Concurrent Units
+# GameMenuTitle=Game Menu
+# GameSaved=Game saved to file: %s
+# GameTotalEndGameConcurrentUnitCount=Total Units at Game End
 GameMusic=Música do xogo
 GameOver=Rematou a partida
 GamePaused=A partida está detida
 GameResumed=Retomouse a partida
 GameSpeedSet=Cambiouse a velocidade do xogo a
+# GameSwitchPlayerToAI=Player #%d [%s] has disconnected, switching player to AI mode!
+# GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
+# GameTime=Game:
+# GammaCorrection=Brightness
+# GettingModlistFromMasterserver=Getting mod list from masterserver
 Harvest=Recoller
 HarvestSpeed=Velocidade da recolleita
+# HeadlessAdminRequiresMorePlayers=You must have at least %d player(s) connected to start this game!
+# Hint=Hint:\n%s
+# CellHint=Cell hint
+# HostGame=Host Game
+# HostNotAcceptingDataConnections=Warning: The host is not accepting game data connections.
 Hp=Vida
 Human=Humano
+# IncompatibleVersion=Incompatible Version
 Initializing=Inicializando
+# Install=Install
 InvalidOrder=A orde non é correcta
 InvalidPosition=A posición non é correcta
+# IRCPeopleOnline=IRC People Online:
+# Keyboardsetup=Keyboard Setup
+# KeyboardsetupTest=Keyboard test display
 Kills=Mortes
 JoinGame=Partida na rede local
 JoinInternetGame=Partida por Internet
+# JoinOtherTeam=Join another Team
+# JoinPlayerTeam=Join player #%d - %s on Team: %d
 Language=Lingua:
-; Ends in a white space:
-; Remata nun espazo en branco:
 LanIP=Enderezos locais:
 LinuxPort=Versión para GNU/Linux:
 Load=Cargar
+# LoadGame=Load Saved Game
+# LoadGameMenu=Load Saved Games
+# LuaDisableSecuritySandbox=Disable Lua script Security Sandbox
+# LuaDisableSecuritySandboxWarning=Disabling this setting will allow lua scripts that\npotentially contain dangerous behavior\nare you sure that you want to allow this?
+# MaxMarkerCount=You cannot add more markers, the maximum allowed is:
+# ModCenter=Mod Center
+# GameHost=Host Server
+# NoDownload=No Download
+# NoSavedGames=No saved games found.
+# SavedGames=Saved Games
+# SaveGame=Save Current Game
+# SavegameInfo=Information about selected game
+# Delete=Delete
+# NothingSelected=Nothing has been selected.
+# LeftAt=Player left at:
+# LoadGameDeletingFile=Trying to delete file: '%s'
+# LoadGameLoadingFile=Trying to load file: '%s'
+# SavedGameBadVersion=saved game version does match your application version: [%s] --> [%s]
+# LoadSavedGameInfo=Map: %s\nTileset: %s\nTech: %s\nScenario: %s\n# players: %d\nFaction: %s
+
 LoadedSpeed=Velocidade de carga
 Loading=Cargando
+# LocalTime=Local:
+# LogScreenCoreDataLoading=Core data
+# LogScreenGameLoading=Game
+# LogScreenGameLoadingCreatingAIFaction=Creating AI for faction %d
+# LogScreenGameLoadingCreatingRainParticles=Creating rain particle system
+# LogScreenGameLoadingCreatingSnowParticles=Creating snow particle system
+# LogScreenGameLoadingInitRenderer=Initializing renderer
+# LogScreenGameLoadingWaitForNetworkPlayers=Waiting for network players
+# LogScreenGameLoadingStartingMusic=Starting faction music
+# LogScreenGameLoadingStartingAmbient=Starting weather ambient music
+# LogScreenGameLoadingLaunchGame=Launching game
+# LogScreenGameLoadingFactionType=Faction type: %s
+# LogScreenGameLoadingUnitType=Unit type: %s
+# LogScreenGameLoadingUnitTypeSkills=Unit type: %s - skills: %d
+# LogScreenGameLoadingResourceType=Resource type: %s
+# LogScreenGameLoadingTechtree=TechTree: %s
+# LogScreenGameUnLoadingTechtree=Unloading Tech tree
+# LogScreenGameLoadingUpgradeType=Upgrade type: %s
+# LogScreenGameUnLoadingMapCells=Unloading Cells
+# LogScreenGameUnLoadingMap=Unloading Map
+# LogScreenGameLoadingHeightmap=Heightmap computations
+# LogScreenGameUnLoadingMiniMap=Mini Map
+# LogScreenGameLoadingScenario=Scenario: %s
+# LogScreenGameLoadingTileset=Tileset: %s
+LogScreenGameUnLoadingTileset=Ambiente
+# LogScreenGameUnLoadingWorld=Unloading World
+# LogScreenGameLoadingStateCells=State cells
+# LogScreenGameLoadingFactionTypes=Faction types
+# LogScreenGameLoadingMinimapSurface=Compute minimap surface
+# LogScreenGameLoadingGenerateGameElements=Generate elements
 Map=Mapa
 MapFilter=Filtro do mapa
+MapTitle1=Mapa
+# MapTitle2=Players
+# MarkCell=Bookmark Map Position
+# UnMarkCell=Remove Bookmark
+# MasterServerMissing=Your configuration is missing a masterserver entry.
 MaxFilterAnisotropy=Anisotropía máxima do filtro
 MaxLights=Iluminación máxima:
 MaxLoad=Carga máxima
 MaxPlayers=Límite de xogadores
 MaxUnitCount=Cantidade máxima de unidades
 MeetingPoint=Punto de encontro
-; Cadra no contexto (información):
 Megaglest3d2dProgramming=Programación (MegaGlest):
-; Cadra no contexto (información):
 MegaglestProgramming=Programación (MegaGlest):
+# MGBuildDateTime=Build Date/Time
+# MGGameCountry=country
+# MGGameStatus=Status
+# MGGameTitle=Title
+# MGGameSlots=Slots
+# MGGameSlotsFull=Game Full
+# MGGameIP=Server IP Address
+# MGGameStatus0=Accepting players
+# MGGameStatus1=Game full, game start pending
+# MGGameStatus2=Game in progress
+MGGameStatus3=Rematou a partida
+# MGJoinGameSlots=Join Game
+# MGPlatform=Platform
+# MGVersion=Version
 Misc=Varios
+
+# MismatchedFactions=The following factions are mismatched:
+# MismatchedFactionsMissing=(missing)
+# MismatchedFactionsExtra=(extra)
+
+# ModLocalRemoteMismatch=The local mod [%s] is not the same as the\nversion on the server, replace local mod with server version?
+# ModErrorGettingServerData=Error retrieving data from the master server: %s
+# ModRequires7z=** Warning ** - You need to have the free 7z program installed in\norder to download and install mod add-ons.
+# ModDownloadInProgressCancelQuestion=You currently have: %d files downloading,\nexit and abort these download(s)?
+# ModDownloading=Downloading
+
+# ModTechAlreadyInstalled=You already have the tech: %s installed.
+# ModSelectTechToInstall=You must first select a tech to install.
+# ModRemoveTechConfirm=Are you sure you want to remove the tech: %s ?
+# ModCannotRemoveTechNotInstalled=You do not have the tech: %s installed, remove cancelled.
+# ModSelectTechToRemove=You must first select a tech to remove.
+# ModDownloadTechSuccess=SUCCESSFULLY downloaded the tech: %s
+# ModDownloadTechFail=FAILED to download the tech: [%s] using CURL version [%s] [%s]
+
+# ModTilesetAlreadyInstalled=You already have the tileset: %s installed.
+# ModSelectTilesetToInstall=You must first select a tileset to install.
+# ModRemoveTilesetConfirm=Are you sure you want to remove the tileset: %s ?
+# ModCannotRemoveTilesetNotInstalled=You do not have the tileset: %s installed, remove cancelled.
+# ModSelectTilesetToRemove=You must first select a tileset to remove.
+# ModDownloadTilesetSuccess=SUCCESSFULLY downloaded the tileset: %s
+# ModDownloadTilesetFail=FAILED to download the tileset: [%s] using CURL version [%s] [%s]
+
+# ModMapAlreadyInstalled=You already have the map: %s installed.
+# ModSelectMapToInstall=You must first select a map to install.
+# ModRemoveMapConfirm=Are you sure you want to remove the map: %s ?
+# ModCannotRemoveMapNotInstalled=You do not have the map: %s installed, remove cancelled.
+# ModSelectMapToRemove=You must first select a map to remove.
+# ModDownloadMapSuccess=SUCCESSFULLY downloaded the map: %s
+# ModDownloadMapFail=FAILED to download the map: [%s] using CURL version [%s] [%s]
+
+# ModScenarioAlreadyInstalled=You already have the scenario: %s installed.
+# ModSelectScenarioToInstall=You must first select a scenario to install.
+# ModRemoveScenarioConfirm=Are you sure you want to remove the scenario: %s ?
+# ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
+# ModSelectScenarioToRemove=You must first select a scenario to remove.
+# ModDownloadScenarioSuccess=SUCCESSFULLY downloaded the scenario: %s
+# ModDownloadScenarioFail=FAILED to download the scenario: [%s] using CURL version [%s] [%s]
+
+# ModInstalled=Installed
+# ModAvailable=Available
+# ModOnlyLocal=Not on server
+# ModHasConflict=Different on server
+
+# Mods=Game Mods
 Morph=Transformar
+# MorphNoReqs=requirements to morph are not satisfied
+# MorphNoRes=Not enough resources to morph unit
 MorphSpeed=Velocidade de transformación
+# MouseScrollsWorld=Mouse moves camera
 Move=Mover
+# MultiPlayer=Multiplayer:
 MusicVolume=Volume da música:
 Network=Rede
+# NetworkCpuEasy=Network CPU Easy
+# NetworkCpu=Network CPU
+# NetworkCpuUltra=Network Cpu Ultra
+# NetworkCpuMega=Network Cpu Mega
 NetworkFramePeriod=Enviar a cantidade de fotogramas pola rede
-; Ends in a white space:
-; Remata nun espazo en branco:
+# NetworkGameClientLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
+# NetworkGameServerLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
+# NetworkGameStatusWaiting=Waiting for players: %s
 NetworkPauseGameForLaggedClients=Deter a partida para os xogadores con problemas de conexión
+# NetworkSlotUnassignedErrorUI=Cannot start game.\nSome player(s) are not in a network game slot!
+# NetworkSlotUnassignedError=Cannot start game, some player(s) are not in a network game slot!
+# NetworkUnassigned=Player lacks open slot
+# NetworkSlotNoHumanErrorUI=Cannot start game.\nThe host player is not in a human or admin game slot!
+# NetworkSlotNoHumanError=Cannot start game, The host player is not in a human or admin game slot!
 NewGame=Comezar unha partida
 No=Non
 NoServerVisitChat=Non sabe de ningún servidor? Vaia á sala de conversa do xogo
 NotConnected=Non está conectado
+# Notice=Notice
 None=Ningunha
 NonStandardPort=Porto non estándar
 Normal=normal
 Off=Apagado
 Ok=Aceptar
-; As seguintes cadeas están adaptadas ao contexto, no que para a maioría delas (todas salvo a primeira)
-; o de «OpenGL» vai implícito.
 OpenGlInfo=Información sobre OpenGL
 OpenGlVersion=Versión
 OpenGlRenderer=«Renderizador»
@@ -161,33 +373,44 @@ OpenGlModelviewStack=Pila de vistas de modelos
 OpenGlProjectionStack=Pila de proxeccións
 OpenGlExtensions=Extensións
 OpenGlPlatformExtensions=Extensións da plataforma
-; Cadra no contexto (configuración):
 Options=Configuración
 OrdersOnQueue=Ordes na cola
-; Cadra no contexto:
 PathFinderType=Calculador de rutas
 PathFinderTypeRegular=Regular
 PathFinderTypeRoutePlanner=RP-beta
+# PauseResumeGame=Pause/Resume Game
 Play=Xogar
 PlayNow=Comezar
-; Ends in a white space:
-; Remata nun espazo en branco:
 Player=Xogador
+# PlayerDisconnected=Player %s, disconnected from the game.
+# PlayerLeftGame=has chosen to leave the game!
 Playername=Nome do xogador:
+# PlayerStatusSetup=Not Ready
+# PlayerStatusBeRightBack=Be Right Back
+# PlayerStatusReady=Ready
+# PlayerSwitchedTeam=Player %s switched from team# %d to team# %d.
+# PlayerSwitchedTeamDenied=Player %s was denied the request to switch from team# %d to team# %d.
+# PleaseWaitCalculatingCRC=Please wait while Calculating CRCs!
+# PleaseWait=Please wait...
 Port=Porto
+# PressEnterToChat=Press enter to chat
+# PrivacyPlease=Enable Privacy \n(hide country, etc)
 Produce=Produce
 Producing=Producindo
 ProductionSpeed=Velocidade de produción
-; Cadra no contexto (información):
 Programming=Programación:
 Projected=Proxectadas
 PublishServer=Publicalo no servidor mestre?
-; Cadra no contexto (configuración):
 PublishServerExternalPort=Porto externo:
+# PublishDisabled=(disabling publish)
+# Question=Question
+# QuitGame=Chose to leave the game!
+# RainEffectMenuGame=Rain Effect (Menu/Game)
 ReactionSpeed=Velocidade de reacción
 RefreshList=Actualizar a lista
 Regeneration=Rexenerar
 ReloadLastGameSettings=Volver cargar a última configuración
+# Remove=Remove
 Repair=Reparar
 RepairSpeed=Velocidade de reparación
 Reqs=Requisitos
@@ -199,39 +422,59 @@ ResourcesHarvested=Recursos recollidos
 Result=Resultado
 Return=Volver
 Scenario=Escenario
+# ScenarioTitle1=Scenarios
 Score=Puntuación
+# ScreenShotFileType=Screenshot file format
+# ScreenshotSavedTo=Screenshot will be saved to: %s
+# ScreenShotConsoleText=Show 'Screenshot saved'
 Server=Servidor
-; Cadra no contexto:
 ServerPort=Porto do servidor:
 ServerType=Tipo de servidor
-; Cadra no contexto:
 ServerTypeFound=Partidas atopadas
 ServerTypeNew=Novo
 ServerTypePrevious=Anterior
 ShadowMapping=«Mapeadas»
 Shadows=Sombras:
-; Cadra no contexto (configuración):
+# ShadowTextureSize=Shadow Texture Size:
 ShowMapPreview=Previsualización do mapa:
 ShowUnitParticles=Partículas das unidades:
+# ShowTilesetParticles=Tileset Particles:
 Sight=Visión
+# SinglePlayer=Singleplayer:
 Size=Tamaño
 Slow=lentamente
 SomeOrdersFailed=Parte das ordes non chegaron aos seus destinatarios
-; Cadra no contexto (configuración):
 SoundAndMusic=Sons e música:
 SplashRadius=Raio de efecto
-; Cadra no contexto (vai entre parénteses coma esta mensaxe):
 StandardPort=porto predeterminado
 StartingToUpgrade=Iniciando a mellora
 Stop=Deter
 Store=Gardar
+# SystemUser=System Message
+# SwitchTeams=Switch Teams
 Team=Equipo
 TechTree=Árbore tecnolóxica
+# TechTitle1=Tech Tree
+# TechTitle2=Factions
 Textures3D=Texturas en tres dimensións:
-; Encaixa co contexto:
 Tileset=Ambiente
+# TilesetTitle1=Tilesets
+# TimeDisplay=Display real and game time
+# TimeoutWaitingForClients=Timeout waiting for clients.
+# TimeoutWaitingForServer=Timeout waiting for server.
+# TimeoutWaitingForMessage=Timeout waiting for message.
 Tip=Consello
 ToSwitchOffMusicPress=Para apagar a música mentres espera polo resto de xogadores prema
+
+# CustomTranslation=Advanced Translation
+# TransifexGetLanguageFiles=Download from transifex
+# TransifexDeleteLanguageFiles=Delete downloaded files
+# TransifexUserName=Transifex Username:
+# TransifexPwd=Transifex Password:
+# TransifexI18N=Transifex Language Code:
+# TransifexDownloadSuccess=Successfully downloaded the language files.
+# TransifexDeleteSuccess=Successfully removed the language files.
+
 Tutorial=Aprendizaxe
 UnitAddedToProductionQueue=Engadiuse unha unidade á cola de produción
 UnitNoPlace=Non se puido colocar a unidade
@@ -239,6 +482,7 @@ UnitNoReqs=A unidade non dispón dos requisitos necesarios
 UnitNoRes=Non hai recursos abondo para recrutar a unidade
 UnitReady=Hai unha nova unidade preparada
 UnitsProduced=Unidades recrutadas
+# UnitType=Unit type:
 Upgrade=Mellorar
 UpgradeNoReqs=Non se cumpren os requisitos necesarios para realizar a mellora
 UpgradeNoRes=Non hai recursos abondo para realizar a mellora
@@ -248,15 +492,81 @@ Upgrading=Mellorando
 Victory=Vitoria
 Video=Vídeo
 VideoInfo=Información gráfica
+# VisibleHUD=Visible HUD
 WalkSpeed=Velocidade
 WaitingHost=Esperando a que o servidor inicie a partida
-; Cadra no contexto (configuración) e «xanela» é o termo acordado en Trasno:
 Windowed=Xogar nunha xanela:
 WrongRouterSetup=A súa devasa ou router non está correctamente configurado para aloxar partidas.
 Yes=Si
 YouLose=Perdiches
 YouWin=Gañaches!
 
-;http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+;-------------------------------- Intro Text Start
+# IntroText1=Based on award-winning classic Glest
+# IntroStartMilliseconds1=1000
+# IntroText2=the MegaGlest Team presents
+# IntroStartMilliseconds2=4400
+# IntroText3=a libre software real-time strategy game
+# IntroStartMilliseconds3=8400
+# IntroTexture4=$APPLICATIONDATAPATH/data/core/menu/textures/logo.tga
+# IntroTextureWidth4=256
+# IntroTextureHeight4=128
+# IntroStartMilliseconds4=12000
+# IntroText5=$GAMEVERSION
+# IntroTextX5=+5
+# IntroTextY5=-45
+# IntroTextFontType5=menunormal
+# IntroStartMilliseconds5=12000
+# IntroText6=http://megaglest.org
+# IntroStartMilliseconds6=16000
+# IntroModelStartMilliseconds=24000
+# IntroTextureStartMilliseconds=26000
+
+;IntroTextX1=
+;IntroTextY1=
+;IntroTextFontType1=
+;IntroTextX2=
+;IntroTextY2=
+;IntroTextFontType2=
+;IntroTextX3=
+;IntroTextY3=
+;IntroTextFontType3=
+;IntroText4=
+;IntroTextX6=
+;IntroTextY6=
+;IntroTextFontType6=
+;IntroText7=
+;IntroTexture7=
+;-------------------------------- Intro Text End
+
+; Font configuration for FTGL
+; Before using an alternative font, please verify license compatibility
 ISO639-1=gl
 NativeLanguageName=galego
+;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
+;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
+;FONT_SCALE_SIZE=1.0
+;FONT_SCALE_CENTERH_FACTOR=
+;FONT_BASE_SIZE=3
+;FONT_CHARCOUNT=256
+;FONT_CHARSET=
+;FONT_HEIGHT_TEXT=
+;FONT_MULTIBYTE=0
+;FONT_RIGHTTOLEFT=0
+;FONT_TYPENAME=0
+
+;FontDisplayPrefix=
+;FontDisplayPostfix=
+;FontDisplayBaseSize=
+;FontDisplaySmallBaseSize=
+;FontMenuNormalPrefix=
+;FontMenuNormalPostfix=
+;FontMenuNormalBaseSize=
+;FontMenuBigPrefix=
+;FontMenuBigPostfix=
+;FontMenuBigBaseSize=
+;FontMenuVeryBigBaseSize=
+;FontConsolePrefix=
+;FontConsolePostfix=
+;FontConsoleBaseSize=
+
