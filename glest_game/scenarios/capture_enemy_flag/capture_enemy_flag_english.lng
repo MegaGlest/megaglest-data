@@ -5,7 +5,7 @@ Crisis=Red Alert!
 
 ;message strings
 Brief1=Capture your enemy flag by touching it then return that unit to home base! The enemy flag is flashing in the mini map. Your flag will flash in your team color. Watch out for surprises along the way.
-Player2InFlagZoneWarning=Player 2 is in your flag zone nwatch out!
+Player2InFlagZoneWarning=Player 2 is in your flag zone watch out!
 Player3InFlagZoneWarning=Player 3 is in your flag zone watch out!
 Player2HasFlagWarning=Player 2 HAS YOUR FLAG, get him!!
 Player3HasFlagWarning=Player 3 HAS YOUR FLAG, get him!!
