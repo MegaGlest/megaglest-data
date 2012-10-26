@@ -1,0 +1,10 @@
+;message headers
+Storming=Orage
+
+;message strings
+Brief1=Aidez votre Summoner à attaquer tous les villages ennemis. Elle doit survivre !
+
+;objective strings
+ObjectiveWest=Objectif : Détruire le village Magique à l'ouest, votre Summoner devant survivre.
+ObjectiveNorthEast=Objectif : Détruire le Village Tech au nord-est, votre Summoner devant survivre.
+ObjectiveSouthEast=Objectif : Détruire le Village au sud-est, votre Summoner devant survivre.

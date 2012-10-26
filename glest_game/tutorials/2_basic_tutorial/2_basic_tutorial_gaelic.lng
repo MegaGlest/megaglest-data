@@ -1,5 +1,5 @@
 ;message headers
-GlestBasicTutorial=Oideachadh Bunasach MegaGlest
+GlestBasicTutorial=Oideachadh bunasach MegaGlest
 WellDone=Glè mhath!
 Resources=Stòrasan
 Combat=Cath
@@ -7,31 +7,31 @@ Buildings=Togalaichean
 
 ;message strings
 Welcome=Fàilte dhan oideachadh bhunasach aig MegaGlest. Ionnsaichidh tu mu na feartan bunasach aig a' gheama.
-WillBeUsingTech=Tha thu os cionn na buidhne teicneòlaich a chleachdas cathaichean meadhan-aoiseach is beart-innealan gus sabaid a dhèanamh.
-NeedWorkers=Tha Obraichean (Worker) a dhìth ort gus stòrasan a bhuain. Gus feadhainn a dhèanamh, tagh an Caisteal an toiseach is cleachd an t-òrdugh "Dèan Obraiche" ("Produce Worker") an uair sin.
-SelectAndCommand=Tagh aonadan a' briogadh leis a' phutan chlì, is cuir òrdugh dhaibh a' briogadh leis a' phutan dheas air ceann-uidhe no cruth-tìre.
-HowToMine=Gus òr a thochladh, tagh Obraiche an toiseach, is briog leis a' phutan dheas air raon òir.
+WillBeUsingTech=Tha thu os cionn na buidhne teicneolaich a chleachdas cathaichean meadhan-aoiseach is beart-innealan gus sabaid a dhèanamh.
+NeedWorkers=Tha obraichean (Worker) a dhìth ort gus stòrasan a bhuain. Gus feadhainn a dhèanamh, tagh an caisteal an toiseach is cleachd an t-òrdugh "Dèan obraiche" ("Produce Worker") an uair sin.
+SelectAndCommand=Tagh aonadan is tu a' briogadh leis a' phutan chlì, is cuir òrdugh dhaibh is tu a' briogadh leis a' phutan dheas air ceann-uidhe no cruth-tìre.
+HowToMine=Gus òr a thochladh, tagh obraiche an toiseach is dèan briogadh leis a' phutan dheas air raon òir.
 WorkersKeepOnHarvesting=Bidh na h-obraichean a' cumail orra a' buain is a' toirt stòrasan dha thogalach a bhios comasach air an t-seòrsa stòrais a th' aca a chumail.
-ResourceInformation=Chì thu fiosrachadh mu na stòrasan air ceann an sgrìn. Seallaidh an t-àireamh taobh clì am meud a th' agad is an t-àireamh taobh deas an comas stòraidh.
+ResourceInformation=Chì thu fiosrachadh mu na stòrasan air ceann na sgrìn. Seallaidh an àireamh taobh clì am meud a th' agad is an àireamh taobh deas an comas stòraidh.
 OtherResources=Thèid stòrasan eile a leithid maide is clach a bhuain san aon dòigh 's a thèid òr.
-TechResourceNeeds=Mar as trice, bidh feum aig a' bhuidheann theicneòlach air tòrr òir is maide is beagan chlachan.
-TechConsumesFood=Ithidh gach aonad sa bhuidheann theicneòlach biadh. Fulaingidh na h-aonadan dochainn is bàs às aonais. Nì beathaichean tuathanais biadh. Nì thu beathaichean san Tuathanas (Farm).
+TechResourceNeeds=Mar as trice, bidh feum aig a' bhuidheann theicneolach air tòrr òir is maide is beagan chlachan.
+TechConsumesFood=Ithidh gach aonad sa bhuidheann theicneolach biadh. Fulaingidh na h-aonadan dochann is bàs às aonais. Nì beathaichean tuathanais biadh. Nì thu beathaichean san tuathanas (Farm).
 HaveEnoughAnimals=Thoir an aire an-còmhnaidh gu bheil beathaichean gu leòr agad gus biadh a thoirt dha na h-aonadan agad.
-BalanceDisplay=Chì thu a' mheidh eadar dèanamh is ithe a' bhidhe ann an camagan ri taobh an stòras bidhe air ceann an sgrìn.
-TechWarriorsAtBarracks=Bidh cathaichean air choreigin a dhìth ort gus buaidh a thoirt air do nàimhdean. Nì thu a' mhòr chuid de chathaichean teicneòlach san Taigh-feachd (Barracks).
-HowToBuildBarracks=Tagh Obraiche gus taigh-feachd a thogail, briog air "Togail Bunasach" > "Taigh-feachd" ("Build Basic" > "Barracks") is tagh àite airson an togalaich.
+BalanceDisplay=Chì thu a' mheidh eadar dèanamh is ithe a' bhidhe ann an camagan ri taobh an stòras bidhe air ceann na sgrìn.
+TechWarriorsAtBarracks=Bidh cathaichean air choreigin a dhìth ort gus buaidh a thoirt air do nàimhdean. Nì thu a' mhòr chuid dhe chathaichean teicneolach san taigh-feachd (Barracks).
+HowToBuildBarracks=Tagh obraiche gus taigh-feachd a thogail, briog air "Togail bunasach" > "Taigh-feachd" ("Build Basic" > "Barracks") is tagh àite airson an togalaich.
 RememberToBuildBarracks=Thoir an aire gun tog thu taigh-feachd an-còmhnaidh aig toiseach a' gheama ach an urrainn dhut cathaichean a dhèanamh gu luath.
-SwordmanBrief=Is an Claidheamhair (Swordman) an cathaiche teicneòlach bunasach. Tagh an Taigh-feachd (Barracks) is briog air "Dèan Claidheamhair" ("Produce Swordman") gus fear a dhèanamh. Dèan cinnteach gu bheil stòrasan gu leòr agad.
-HaveWarriorsAtBase=Bu chòir dhut cuid de na Claidheamhairean a chumail aig a' bhunait agad. Bheir iad fhèin ionnsaigh air gach nàmhaid a chì iad.
-ArcherBrief=Is am Boghadair (Archer) an cathaiche teicneòlach air astar bunasach. Nì thu iad san Taigh-fheachd a leithid ceudna.
-ProduceWarriors=Dèan cathaichean eile gus do bhunait a dhìon an aghaidh ionnsaighean leis na nàimhdean.
+SwordmanBrief=Is an claidheamhair (Swordman) an cathaiche teicneolach bunasach. Tagh an taigh-feachd (Barracks) is briog air "Dèan claidheamhair" ("Produce Swordman") gus fear a dhèanamh. Dèan cinnteach gu bheil stòrasan gu leòr agad.
+HaveWarriorsAtBase=Bu chòir dhut cuid de na claidheamhairean a chumail sa ghearastan agad. Bheir iad fhèin ionnsaigh air gach nàmhaid a chì iad.
+ArcherBrief=Is am boghadair (Archer) an cathaiche teicneolach air astar bunasach. Nì thu iad san taigh-fheachd a leithid ceudna.
+ProduceWarriors=Dèan cathaichean eile gus an gearastan agad a dhìon an aghaidh ionnsaighean leis na nàimhdean.
 
 ;objective strings
-ProduceWorkers=Ceann-uidhe: Dèan 3 Obraichean (Worker).
-HarvestWoodAndStone=Ceann-uidhe: Buain 100 aonad maide is 150 aonad cloiche.
-ProduceCow=Ceann-uidhe: Dèan Bò (Cow).
-MineGold=Ceann-uidhe: Cladhaich 100 aonad òir.
-BuildBarracks=Ceann-uidhe: Tog Taigh-feachd (Barracks).
-ProduceSwordman=Ceann-uidhe: Dèan Claidheamhair (Swordman).
-ProduceArcher=Ceann-uidhe: Dèan Boghadair (Archer).
+ProduceWorkers=Ceann-uidhe: Dèan 3 obraichean (Worker).
+HarvestWoodAndStone=Ceann-uidhe: Buain 100 aonad dhe mhaide is 150 aonad dhe chlach.
+ProduceCow=Ceann-uidhe: Dèan bò (Cow).
+MineGold=Ceann-uidhe: Cladhaich 100 aonad dhe dh'òr.
+BuildBarracks=Ceann-uidhe: Tog taigh-feachd (Barracks).
+ProduceSwordman=Ceann-uidhe: Dèan claidheamhair (Swordman).
+ProduceArcher=Ceann-uidhe: Dèan boghadair (Archer).
 ProduceMoreWarriors=Ceann-uidhe: Dèan barrachd cathaichean gus dìon an aghaidh na h-ionnsaighe ri tighinn.

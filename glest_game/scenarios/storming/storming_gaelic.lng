@@ -1,10 +1,10 @@
 ;message headers
-Storming=Storming
+Storming=Ionnsaighean
 
 ;message strings
 Brief1=Cuir taic ris a' ghairmear (Summoner) agad gus ionnsaigh a thoirt air a h-uile bailtean nàimhdeil. Feumaidh an gairmear mairsinn beò.
 
 ;objective strings
 ObjectiveWest=Ceann-uidhe: Cuir às dha bhaile nan draoidhean taobh siar. Feumaidh an gairmear (Summoner) mairsinn beò.
-ObjectiveNorthEast=Ceann-uidhe: Cuir às dhan bhaile theicneòlach taobh ear-thuath. Feumaidh an gairmear (Summoner) mairsinn beò.
-ObjectiveSouthEast=Ceann-uidhe: Cuir às dhan bhaile taobh ear-dheas. Feumaidh an gairmear (Summoner) mairsinn beò.
+ObjectiveNorthEast=Ceann-uidhe: Cuir às dhan bhaile theicneolach taobh ear-thuath. Feumaidh an gairmear (Summoner) mairsinn beò.
+ObjectiveSouthEast=Ceann-uidhe: Cuir às dhan bhaile taobh an ear-dheas. Feumaidh an gairmear (Summoner) mairsinn beò.

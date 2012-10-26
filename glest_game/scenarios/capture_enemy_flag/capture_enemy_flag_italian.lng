@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Cattura la bandiera
+Warning=Attenzione
+Crisis=Allarme rosso!
+
+;message strings
+Brief1=Cattura la bandiera toccandola con un'unità, poi riportala subito alla tua base! La bandiera degli avversari lampeggia sulla mini-mappa. La tua bandiera lampeggia col colore della tua squadra. Occhio agli imprevisti.
+Player2InFlagZoneWarning=Giocatore 2 è vicino alla tua bandiera, stai accorto!
+Player3InFlagZoneWarning=Giocatore 3 è vicino alla tua bandiera, stai accorto!
+Player2HasFlagWarning=Giocatore 2 HA LA TUA BANDIERA! Acchiappalo!
+Player3HasFlagWarning=Giocatore 3 HA LA TUA BANDIERA! Acchiappalo!
+
+;objective strings
+Player2HeadHome=Ora Giocatore 2 se ce la fai a tornare a casa hai vinto! Il tuo porta-bandiera è illuminato col colore della tua squadra, non farlo crepare.
+Player3HeadHome=Ora Giocatore 3 se ce la fai a tornare a casa hai vinto! Il tuo porta-bandiera è illuminato col colore della tua squadra, non farlo crepare.
+PlayerWins=Congratulazioni, hai vinto!
+PlayerLoses=Che peccato, hai perso!

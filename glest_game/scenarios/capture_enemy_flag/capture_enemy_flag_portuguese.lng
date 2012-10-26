@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Capture a bandeira
+Warning=Aviso
+Crisis=Alerta Vermelho!
+
+;message strings
+Brief1=Capture a bandeira inimiga encostando nela e então retornando aquela unidade à base! A bandiera inimiga está piscando no minimapa. A sua bandeira piscará na cor do seu time. Cuidado com as surpresas ao longo do caminho.
+Player2InFlagZoneWarning=O jogador 2 está na zona da sua bandeira, cuidado!
+Player3InFlagZoneWarning=O jogador 3 está na zona da sua bandeira, cuidado!
+Player2HasFlagWarning=O jogador 2 ESTÁ COM A SUA BANDEIRA, atrás dele!!
+Player3HasFlagWarning=O jogador 3 ESTÁ COM A SUA BANDEIRA, atrás dele!!
+
+;objective strings
+Player2HeadHome=Agora, jogador 2, chegue vivo em casa e ganhe! O seu carregador da bandeira está destacado no mapa na cor do seu time, não o deixe morrer.
+Player3HeadHome=Agora, jogador 3, chegue vivo em casa e ganhe! O seu carregador da bandeira está destacado no mapa na cor do seu time, não o deixe morrer.
+PlayerWins=Parabéns, você venceu!
+PlayerLoses=Que pena, você perdeu!

@@ -466,14 +466,14 @@ TimeoutWaitingForMessage=Coupure pendant l'attente d'un message.
 Tip=Truc
 ToSwitchOffMusicPress=Pour couper la musique en attendant, appuyer sur
 
-# CustomTranslation=Advanced Translation
-# TransifexGetLanguageFiles=Download from transifex
-# TransifexDeleteLanguageFiles=Delete downloaded files
-# TransifexUserName=Transifex Username:
-# TransifexPwd=Transifex Password:
-# TransifexI18N=Transifex Language Code:
-# TransifexDownloadSuccess=Successfully downloaded the language files.
-# TransifexDeleteSuccess=Successfully removed the language files.
+CustomTranslation=Aide à la traduction
+TransifexGetLanguageFiles=Télécharger depuis Transifex
+TransifexDeleteLanguageFiles=Supprimer les fichiers enregistrés
+TransifexUserName=Nom d'utilisateur Transifex :
+TransifexPwd=Mot de passe Transifex :
+TransifexI18N=Code de langue Transifex :
+TransifexDownloadSuccess=Fichiers de langues téléchargés avec succès.
+TransifexDeleteSuccess=Fichiers de langue supprimés avec succès.
 
 Tutorial=Tutoriel
 UnitAddedToProductionQueue=Unité ajoutée à la file de production
