@@ -5,8 +5,8 @@ Amazones=Amazzoni
 Brief1=Il castello dei tuoi alleati deve sopravvivere!
 
 ;objective strings
-firstwave=Objective: Signore in verde.
-secondwave=Objective: Altre signore.
-thirdwave=Objective: Probabilmente troppe signore......
-fourthwave=Objective: Carino ma pericoloso ;-)
-lastwave=Objective: L'ultima ondata!!
+Firstwave=Objective: Signore in verde.
+Secondwave=Objective: Altre signore.
+Thirdwave=Objective: Probabilmente troppe signore......
+Fourthwave=Objective: Carino ma pericoloso ;-)
+Lastwave=Objective: L'ultima ondata!!

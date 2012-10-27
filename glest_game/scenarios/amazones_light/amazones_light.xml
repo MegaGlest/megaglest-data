@@ -85,9 +85,9 @@
 			end	
 			
 			--objectives
-			objective='firstwave'
+			objective='Firstwave'
 			showMessage('Brief1', 'Amazones')
-			setDisplayText('firstwave')
+			setDisplayText('Firstwave')
 			
 		</startup>
 		
@@ -102,21 +102,21 @@
 					enemyCount=enemyCount-1		
 				end
 			end
-			if objective=="lastwave" then
+			if objective=="Lastwave" then
 				if isSent==0 then
 					sendFlyingUnits()
 				end
 			end
 			-- print('living enemies=',enemyCount)
 			if enemyCount==0 then
-				if(objective=="lastwave") then
+				if(objective=="Lastwave") then
 					clearDisplayText()
-					objective="endgame"
+					objective="Endgame"
 					setPlayerAsWinner(0)
 					setPlayerAsWinner(2)
 					endGame()
 				end
-				if(objective=="fourthwave") then
+				if(objective=="Fourthwave") then
 					enemies={}
                         		for i=1, 40 do
 						addAttackingEnemy('cudgel_lady')
@@ -124,10 +124,10 @@
                         		for i=1, 5 do
 						addAttackingEnemy('valkyrie')
 					end
-					objective='lastwave';
+					objective='Lastwave';
 					giveResource('food', 1, 1000);
 				end
-				if(objective=="thirdwave") then
+				if(objective=="Thirdwave") then
 					enemies={}
                         		for i=1, 30 do
 						addAttackingEnemy('cudgel_lady')
@@ -135,26 +135,26 @@
                         		for i=1, 3 do
 						addAttackingEnemy('valkyrie')
 					end
-					objective='fourthwave';
+					objective='Fourthwave';
 					giveResource('food', 1, 1000);
 				end
-				if(objective=="secondwave") then
+				if(objective=="Secondwave") then
 					enemies={}
                         		for i=1, 25 do
 						addAttackingEnemy('cudgel_lady')
 					end
-					objective='thirdwave';
+					objective='Thirdwave';
 					giveResource('food', 1, 1000);
 				end
-				if(objective=="firstwave") then
+				if(objective=="Firstwave") then
 					enemies={}
                         		for i=1, 17 do
 						addAttackingEnemy('cudgel_lady')
 					end
-					objective='secondwave';
+					objective='Secondwave';
 					giveResource('food', 1, 1000);
 				end
-				if(objective~="endgame") then
+				if(objective~="Endgame") then
 					showMessage(objective, 'Amazones');
 					setDisplayText(objective);
 				end
