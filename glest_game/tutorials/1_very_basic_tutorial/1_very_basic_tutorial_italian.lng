@@ -21,16 +21,16 @@ NeedWorkers=Per prima cosa abbiamo bisogno di un lavoratore (worker). Per crearn
 Select=Adesso clicca col tasto sinistro del tuo mouse sul Lavoratore (Worker). Adesso potrai vedere varie informazioni sull'unità: nome, punti vita (HP), armatura, tipo di armatura etc.
 Select2=Se è un unità in grado di lottare sotto ad essa troverai il numero di unità che essa ha distrutto precedentemente. Se l'unità consuma risorse lo trovi scritto accanto nel riquadro apposito. Sotto potrai vedere ciò che sta facendo l'unità in questo momento.
 
-exampleWorker=Per esempio, il tuo lavoratore ha 600 punti vita (HP), 0 armatura e 9 di raggio d'azione. Il suo stato corrente è fermo, quindi non sta facendo niente.
+ExampleWorker=Per esempio, il tuo lavoratore ha 600 punti vita (HP), 0 armatura e 9 di raggio d'azione. Il suo stato corrente è fermo, quindi non sta facendo niente.
 
 Command=Le abilità delle unità sono mostrare sotto. Adesso impararemo tutti i comandi che un lavoratore può fare.
 
-firstCommand=La prima icona di comando è 'stop'. Se ci clicchi sopra il lavoratore si fermerà immediatamente. Tutte le unità (tranne le costruzioni) hanno questo comando.
+FirstCommand=La prima icona di comando è 'stop'. Se ci clicchi sopra il lavoratore si fermerà immediatamente. Tutte le unità (tranne le costruzioni) hanno questo comando.
 
-secondCommand=La seconda icona di comando è 'move' e serve a far muovere un unità. Se clicchi su questa icona l'unità si muoverà. Tutte le unità (tranne le costruzioni) hanno questa abilità. Puoi anche usare il tasto destro del mouse (dopo aver selezionato l'unità col tasto sinistro) e cliccare il punto dove vuoi che l'unità si sposti.
-secondCommand2=Quando pasi il mouse su 'move' ti verrà mostrata la velocità del lavoratore (tutte le unità hanno questa opzione, tranne le costruzioni).
+SecondCommand=La seconda icona di comando è 'move' e serve a far muovere un unità. Se clicchi su questa icona l'unità si muoverà. Tutte le unità (tranne le costruzioni) hanno questa abilità. Puoi anche usare il tasto destro del mouse (dopo aver selezionato l'unità col tasto sinistro) e cliccare il punto dove vuoi che l'unità si sposti.
+SecondCommand2=Quando pasi il mouse su 'move' ti verrà mostrata la velocità del lavoratore (tutte le unità hanno questa opzione, tranne le costruzioni).
 
-testSecondCommand=Prova il comando 'move', muovi il tuo lavoratore vicino all'altro lavoratore che sta aspettando fuori dal campo. Quest'altro lavoratore è mostrato nella mini mappa come un punto rosse. Il triangolo bianco indica la tua posizione corrente, mentre il punto rosse più grande indica la tua base (Il Mainteepee).
+TestSecondCommand=Prova il comando 'move', muovi il tuo lavoratore vicino all'altro lavoratore che sta aspettando fuori dal campo. Quest'altro lavoratore è mostrato nella mini mappa come un punto rosse. Il triangolo bianco indica la tua posizione corrente, mentre il punto rosse più grande indica la tua base (Il Mainteepee).
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -53,10 +53,10 @@ GetWood=Per fare prima usando il comando di raccolta della legna puoi selezionar
 MeetingPoint=Quando selezioni una costruzione vedrai una freccia blu. Questa freccia indica il "punto di raccolta", cioè il punto dove tutte le unità prodotte da quella costruzione andranno a fermarsi non appena saranno create.
 UseMeetingPoint=Puoi anche cambiare il "punto di raccolta", clicca sull'icona della bandierina e poi clicca sul terreno nel punto dove vuoi muovere il "punto di raccolta". Per fare prima puoi semplicemente cliccare con il destro sul nuovo punto della mappa, attenzione è possibile muovere il "punto di raccolta" entro un raggio non troppo lontano dalla costruzione.
 MeetingPoint2=Se metti il "punto di raccolta" vicino ad una risorsa, i lavoratori che produrrati dopo andranno direttamente a raccogliere quella. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
-thirdcommand=Adesso prova ad usare il terzo comando del lavoratore, il comando "costruisci" (build in inglese).
-thirdcommand2=Cliccando su questa icona di comando entrerai nel menù di costruzioni. Se passi con il mouse sulle icone che rappresentano le varie costruzioni vedrai quanto costa costruirle (e se necessitano di aggiornamenti prima di essere costruite).
-thirdcommand3=Se passi il mouse sull'icona della "tenda" (tent in inglese), vedrai che per costruirla avrai bisogno di 30 oro (gold) e 50 legna (wood) e una tenda principale (main tepee), inoltre vedrai scritto "-10 housing"  che significa che grazia a questa tenda 10 delle tue unità troveranno spazio in essa. Nota, alcune unità molto grandi potrebbero richiedere più di un posto ad unità.
-thirdcommand4=Cotruisci una tenda adeso. Clicca sul menù delle costruzioni, seleziona la tenda e posizionala in una zona libera della mappa.
+Thirdcommand=Adesso prova ad usare il terzo comando del lavoratore, il comando "costruisci" (build in inglese).
+Thirdcommand2=Cliccando su questa icona di comando entrerai nel menù di costruzioni. Se passi con il mouse sulle icone che rappresentano le varie costruzioni vedrai quanto costa costruirle (e se necessitano di aggiornamenti prima di essere costruite).
+Thirdcommand3=Se passi il mouse sull'icona della "tenda" (tent in inglese), vedrai che per costruirla avrai bisogno di 30 oro (gold) e 50 legna (wood) e una tenda principale (main tepee), inoltre vedrai scritto "-10 housing"  che significa che grazia a questa tenda 10 delle tue unità troveranno spazio in essa. Nota, alcune unità molto grandi potrebbero richiedere più di un posto ad unità.
+Thirdcommand4=Cotruisci una tenda adeso. Clicca sul menù delle costruzioni, seleziona la tenda e posizionala in una zona libera della mappa.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
@@ -69,7 +69,7 @@ ProduceStickfighter2=Objective: Crea uno "stick fighter".
 MoveWorker=Objective: Muovi il lavoratore che hai appena cotruito vicino al lavoratore che sta aspettando fuori dalla tua base.
 HarvestGoldandStoneobjective=Objective: Raccogli oro e pietra fino a raggiungere 600 oro e 550 pietra.
 GetWoodob=Objective: Raccogli 550 legna.
-usethirdcommand=Objective: Costruisci una tenda. Se la tenda diventa rossa significa che quel posto è già occupato, per esempio da una unità o da un albero.
+Usethirdcommand=Objective: Costruisci una tenda. Se la tenda diventa rossa significa che quel posto è già occupato, per esempio da una unità o da un albero.
 
 ;end
 

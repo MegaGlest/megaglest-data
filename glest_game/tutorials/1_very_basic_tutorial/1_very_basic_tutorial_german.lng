@@ -23,16 +23,16 @@ Select2=Falls die Einheit kämpfen kann, steht dahinter wie viele Einheiten sie 
 
 ;!!!Hier wird noch nicht erklärt was in den Klammern hinter 'Getötet' steht!!!
 
-exampleWorker=Unser Arbeiter (Worker) hat z.B. 600 LP, 0 Rüstung vom Typ Leder (Leather) und hat eine Sichtweite von 9. Außerdem befindet er sich im Moment im Zustand "Stop", d.h. er tut nichts.
+ExampleWorker=Unser Arbeiter (Worker) hat z.B. 600 LP, 0 Rüstung vom Typ Leder (Leather) und hat eine Sichtweite von 9. Außerdem befindet er sich im Moment im Zustand "Stop", d.h. er tut nichts.
 
 Command=Rechts unten steht, was die Einheit alles machen kann. Wir werden jetzt alle Kommandos erlernen, die der Arbeiter ausführen kann.
 
-firstCommand=Das erste Kommando ist "Stop". Drückst du auf diesen Knopf, hört der Arbeiter sofort mit dem auf, was er gerade tut. Dieses Kommando haben alle Einheiten, die keine Gebäude sind.
+FirstCommand=Das erste Kommando ist "Stop". Drückst du auf diesen Knopf, hört der Arbeiter sofort mit dem auf, was er gerade tut. Dieses Kommando haben alle Einheiten, die keine Gebäude sind.
 
-secondCommand=Das zweite Kommando ist Laufen (Move). Aktivierst du diesen Knopf, musst du danach auf den Boden oder auf eine andere Einheit klicken. Dieses Kommando kann man abkürzen, indem man mit der rechten Maustaste auf das Ziel klickt.
-secondCommand2=Wenn du die Maus auf das Kommando-Icon hältst, siehst du die Bewegungsgeschwindigkeit des Arbeiters. Auch dieses Kommando haben alle Einheiten, die keine Gebäude sind.
+SecondCommand=Das zweite Kommando ist Laufen (Move). Aktivierst du diesen Knopf, musst du danach auf den Boden oder auf eine andere Einheit klicken. Dieses Kommando kann man abkürzen, indem man mit der rechten Maustaste auf das Ziel klickt.
+SecondCommand2=Wenn du die Maus auf das Kommando-Icon hältst, siehst du die Bewegungsgeschwindigkeit des Arbeiters. Auch dieses Kommando haben alle Einheiten, die keine Gebäude sind.
 
-testSecondCommand=Probiere jetzt einmal das Kommando "Laufen" aus. Bewege den Arbeiter zu dem anderen Arbeiter, der außerhalb deines Lagers steht. Diesen siehst du als roten Punkt auf der Kartenübersicht. Das weiße Dreieck auf der Kartenübersicht zeigt dabei deine aktuelle Kameraposition.
+TestSecondCommand=Probiere jetzt einmal das Kommando "Laufen" aus. Bewege den Arbeiter zu dem anderen Arbeiter, der außerhalb deines Lagers steht. Diesen siehst du als roten Punkt auf der Kartenübersicht. Das weiße Dreieck auf der Kartenübersicht zeigt dabei deine aktuelle Kameraposition.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -55,10 +55,10 @@ GetWood=Man kann auch dieses Kommando abkürzen, indem man mit der rechten Maust
 MeetingPoint=Wenn du ein Gebäude anwählst, siehst du einen blauen Pfeil. Wo dieser Pfeil hinzeigt, ist der sogennante "Sammelpunkt". Alle in diesem Gebäude produzierten Einheiten laufen, sobald sie erscheinen, zum Ende dieses Pfeils.
 UseMeetingPoint=Du kannst den Sammelpunkt neu positionieren, indem du erst auf die Flagge klickst und dann auf die neue Position. Auch dieser Befehl kann mit der rechten Maustaste abgekürzt werden (wie beim Laufen).
 MeetingPoint2=Setzt man den Sammelpunkt auf eine Ressource, beginnen neu produzierte Arbeiter sofort mit dem Sammeln derselben. (Achte darauf, die Ressource genau zu treffen!)
-thirdcommand=Wenden wir uns nun dem dritten Kommando zu. Es ist das Bau-Kommando.
-thirdcommand2=Durch Anklicken kommst du ins Bau-Menü. Wenn du hier den Mauszeiger über ein Gebäude hältst, siehst du weiter unten (unter dem Punkt "Vorraussetzungen") was du dafür benötigst.
-thirdcommand3=Wenn du auf das Zelt (Tent) hälst, siehst du, dass du dafür 30 Gold, 50 Holz (Wood), -10 Wohnplätze (housing) und das Hauptzelt (Mainteepee) brauchst. Die Angabe "-10 housing" ist dabei eine Besonderheit: sie bedeutet, dass du 10 Wohnplätze (housing) dazu bekommst.
-thirdcommand4=Lass uns ein Zelt (Tent) bauen. Klicke dazu auf das Bau-Menü und dann auf das Zelt (Tent).
+Thirdcommand=Wenden wir uns nun dem dritten Kommando zu. Es ist das Bau-Kommando.
+Thirdcommand2=Durch Anklicken kommst du ins Bau-Menü. Wenn du hier den Mauszeiger über ein Gebäude hältst, siehst du weiter unten (unter dem Punkt "Vorraussetzungen") was du dafür benötigst.
+Thirdcommand3=Wenn du auf das Zelt (Tent) hälst, siehst du, dass du dafür 30 Gold, 50 Holz (Wood), -10 Wohnplätze (housing) und das Hauptzelt (Mainteepee) brauchst. Die Angabe "-10 housing" ist dabei eine Besonderheit: sie bedeutet, dass du 10 Wohnplätze (housing) dazu bekommst.
+Thirdcommand4=Lass uns ein Zelt (Tent) bauen. Klicke dazu auf das Bau-Menü und dann auf das Zelt (Tent).
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
@@ -71,7 +71,7 @@ ProduceStickfighter2=Objective: Bilde 1 Stickfighter aus.
 MoveWorker=Objective: Bewege deinen neu produzierten Arbeiter (Worker) zu dem anderen Arbeiter (Worker) außerhalb deines Lagers.
 HarvestGoldandStoneobjective=Objective: Baue solange Gold und Stein (Stone) ab, bis du 600 Gold und 550 Stein (Stone) hast.
 GetWoodob=Objective: Sammle 550 Holz (Wood).
-usethirdcommand=Tipp: Wenn das Zelt rot ist, ist der Platz derzeit besetzt (z.B. von einer Einheit oder einem Baum). Objective: Baue ein Zelt (Tent).
+Usethirdcommand=Tipp: Wenn das Zelt rot ist, ist der Platz derzeit besetzt (z.B. von einer Einheit oder einem Baum). Objective: Baue ein Zelt (Tent).
 
 ;end
 

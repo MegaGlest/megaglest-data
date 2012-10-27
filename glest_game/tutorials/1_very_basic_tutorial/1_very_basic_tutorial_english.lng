@@ -21,16 +21,16 @@ NeedWorkers=First we need a worker. To get one, left-click on the Mainteepee and
 Select=Now left-click your worker. Details on the selected unit, namely the unit name and an image, are now displayed in the top right corner of your screen. Below this health points (HP), armor, and, in brackets, armor type and view range (sight) are listed.
 Select2=If this is a battle unit, the number of enemy units it has already destroyed is listed next. If it consumes resources, this is displayed in the following field. Below this, it says what this unit is currently doing.
 
-exampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
 
 Command=The units' abilities are listed further below. We will now learn all commands the worker can execute.
 
-firstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
 
-secondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
-secondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
+SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
 
-testSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -53,10 +53,10 @@ GetWood=For another hint, you can shortcut any harvesting command by selecting y
 MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building  will move to this place as soon as they appear.
 UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
 MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
-thirdcommand=Now for the worker's third command icon - this is the 'build' command.
-thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
-thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
-thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
+Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
+Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
+Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
@@ -69,7 +69,7 @@ ProduceStickfighter2=Objective: Train one stick fighter.
 MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
 HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
 GetWoodob=Objective: Harvest wood until you have 550.
-usethirdcommand=Objective: Build a tent.Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+Usethirdcommand=Objective: Build a tent.Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
 
 ;end
 

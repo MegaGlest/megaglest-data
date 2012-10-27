@@ -37,10 +37,10 @@
 				showMessage('MeetingPoint', 'WellDone')
 				showMessage('UseMeetingPoint', 'GlestBasicTutorial')	
 				showMessage('MeetingPoint2', 'Tricks')
-				showMessage('thirdcommand', 'Buildings')	
-				showMessage('thirdcommand2', 'Buildings')	
-				showMessage('thirdcommand3', 'Buildings')	
-				showMessage('thirdcommand4', 'Buildings')	
+				showMessage('Thirdcommand', 'Buildings')	
+				showMessage('Thirdcommand2', 'Buildings')	
+				showMessage('Thirdcommand3', 'Buildings')	
+				showMessage('Thirdcommand4', 'Buildings')	
 				setDisplayText('usethirdcommand')
 				objective= 'produce_tent'			
 			end				
@@ -51,12 +51,12 @@
 <!--Messages-->
 				showMessage('Select', 'WellDone')			
 				showMessage('Select2', 'GlestBasicTutorial')
-				showMessage('exampleWorker', 'GlestBasicTutorial')			
+				showMessage('ExampleWorker', 'GlestBasicTutorial')			
 				showMessage('Command', 'GlestBasicTutorial')			
-				showMessage('firstCommand', 'GlestBasicTutorial')			
-				showMessage('secondCommand', 'GlestBasicTutorial')			
-				showMessage('secondCommand2', 'GlestBasicTutorial')			
-				showMessage('testSecondCommand', 'GlestBasicTutorial')			
+				showMessage('FirstCommand', 'GlestBasicTutorial')			
+				showMessage('SecondCommand', 'GlestBasicTutorial')			
+				showMessage('SecondCommand2', 'GlestBasicTutorial')			
+				showMessage('TestSecondCommand', 'GlestBasicTutorial')			
 				setDisplayText('MoveWorker')
 				objective= 'move_worker'
 <!--Set Worker-->

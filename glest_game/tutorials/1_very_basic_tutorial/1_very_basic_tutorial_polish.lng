@@ -21,16 +21,16 @@ NeedWorkers=Potrzebujemy Robotnika. Kliknij lewym na Głównym Tipi (Mainteepee)
 Select=Teraz kliknij lewym na Robotniku. Szczegóły dotyczące zaznaczonej jednostki (nazwa jednostki i jej ikona) są teraz wyświetlone w prawym górnym rogu ekranu. Poniżej są punkty życia (HP), pancerz oraz, w nawiasach, typ zbroi i zasięg widoku.
 Select2=Jeśli jest to jednostka bojowa, liczba zabitych przez nią jednostek wroga będzie tuż pod spodem. Jeśli konsumuje surowce, będzie to napisane jako następne. Niżej napisane jest co aktualnie jednostka robi.
 
-exampleWorker=Na przykład, Twój Robotnik ma 600 HP, skórzaną (leather) zbroję dającą 0 obrony oraz zasięg widoczności 9. Jego aktualny stan to "stop", czyli nic nie robi.
+ExampleWorker=Na przykład, Twój Robotnik ma 600 HP, skórzaną (leather) zbroję dającą 0 obrony oraz zasięg widoczności 9. Jego aktualny stan to "stop", czyli nic nie robi.
 
 Command=Możliwości jednostki są wymienione niżej. Zobaczmy co Robotnik potrafi.
 
-firstCommand=Pierwsza ikona to 'stop'. Jeśli na nią klikniesz Robotnik zaprzestanie tego co aktualnie robił. Wszystkie jednostki (niebudynki) mają taką komendę.
+FirstCommand=Pierwsza ikona to 'stop'. Jeśli na nią klikniesz Robotnik zaprzestanie tego co aktualnie robił. Wszystkie jednostki (niebudynki) mają taką komendę.
 
-secondCommand=Następna ikona to 'move'. Jeśli na nią klikniesz, kliknięcie na ziemi lub na innej jednostce sprawi iż zacznie on podążać w tym kierunku. Można też zamiast tego kliknąć prawym na celu.
-secondCommand2=Gdy najedziesz na ikonę 'move' wyświetli się szybkość ruchu Robotnika. Ta komenda też jest dostępna dla każdej jednostki (oprócz budynków).
+SecondCommand=Następna ikona to 'move'. Jeśli na nią klikniesz, kliknięcie na ziemi lub na innej jednostce sprawi iż zacznie on podążać w tym kierunku. Można też zamiast tego kliknąć prawym na celu.
+SecondCommand2=Gdy najedziesz na ikonę 'move' wyświetli się szybkość ruchu Robotnika. Ta komenda też jest dostępna dla każdej jednostki (oprócz budynków).
 
-testSecondCommand=Wypróbuj teraz komendę 'move'. Przemieść Twojego Robotnika do następnego Robotnika, który czeka poza obozem. Ten Robotnik jest wyświetlony na minimapie (lewy górny róg) jako czerwona kropka. Biały trójkąt przedstawia Twój aktualny widok/pozycję kamery. Duża czerwona kropka to Główne Tipi.
+TestSecondCommand=Wypróbuj teraz komendę 'move'. Przemieść Twojego Robotnika do następnego Robotnika, który czeka poza obozem. Ten Robotnik jest wyświetlony na minimapie (lewy górny róg) jako czerwona kropka. Biały trójkąt przedstawia Twój aktualny widok/pozycję kamery. Duża czerwona kropka to Główne Tipi.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -53,10 +53,10 @@ GetWood=Zamiast używać ikony możesz też zaznaczyc Robotnika i kliknąć praw
 MeetingPoint=Gdy zaznaczysz budynek, niebieska strzałka się pojawia. Wskazuje ona do tzw. "punktu zbiórki". Wszystkie jednostki, które tworzysz w tym budynku zbierają się w jego okolicy jak tylko się pojawią.
 UseMeetingPoint=Możesz ustawić punkt zbiórki poprzez kliknięcie ikony flagi a potem na miejscu, gdzie chcesz by nowe jednostki się zbierały. Możesz też kliknąć prawym zamiast wybierać ikonę.
 MeetingPoint2=Jeśli ustawisz punkt zbiórki na surowcu, wtedy nowi Robotnicy będą natychmiast wydobywać. Zwróć uwagę aby poprawnie zaznaczyć miejsce wydobycia, w przeciwnym razie Robotnicy będą się ustawiać tuż obok zamiast pracować.
-thirdcommand=Trzecia ikona Robotnika to 'budowa' ('build').
-thirdcommand2=Klikając na nią przechodzisz do menu budowy. Najeżdżając wskaźnikiem myszy na jedną z ikon zobaczysz, patrząc niżej, pod hasłem "wymagania", wszystkie surowce i osiągnięcia potrzebne do wybudowania tego budynku.
-thirdcommand3=Jeśli najedziesz na Namiot ("tent"), zobaczysz że wymaga on 30 Złota i 50 Drewna dając 10 miejsc zamieszkania ("-10 housing") oraz wymaga posiadania Głównego Tipi ("main teepee"). "-10 housing" oznacza, że otrzymujesz miejsce do zamieszkania dla 10 dodatkowych jednostek (niektóre jednostki potrzebują więcej miejsca niż tylko jedno).
-thirdcommand4=Zbudujmy Namiot teraz. Kliknij na menu budowy, potem na namiot ("tent"), potem umieść go gdzieś na pustym miejscu na planszy.
+Thirdcommand=Trzecia ikona Robotnika to 'budowa' ('build').
+Thirdcommand2=Klikając na nią przechodzisz do menu budowy. Najeżdżając wskaźnikiem myszy na jedną z ikon zobaczysz, patrząc niżej, pod hasłem "wymagania", wszystkie surowce i osiągnięcia potrzebne do wybudowania tego budynku.
+Thirdcommand3=Jeśli najedziesz na Namiot ("tent"), zobaczysz że wymaga on 30 Złota i 50 Drewna dając 10 miejsc zamieszkania ("-10 housing") oraz wymaga posiadania Głównego Tipi ("main teepee"). "-10 housing" oznacza, że otrzymujesz miejsce do zamieszkania dla 10 dodatkowych jednostek (niektóre jednostki potrzebują więcej miejsca niż tylko jedno).
+Thirdcommand4=Zbudujmy Namiot teraz. Kliknij na menu budowy, potem na namiot ("tent"), potem umieść go gdzieś na pustym miejscu na planszy.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
@@ -69,7 +69,7 @@ ProduceStickfighter2=Twój Cel: Stwórz jednego Kijkarza (stick fighter).
 MoveWorker=Twój Cel: Przemieść Twojego nowego Robotnika do innego Robotnika czekającego poza obozem.
 HarvestGoldandStoneobjective=Twój Cel: Zbieraj Złoto i Kamień aż uzyskasz 600 Złota oraz 550 Kamienia.
 GetWoodob=Twój Cel: Zbieraj Drewno aż uzyskasz 550 Drewna.
-usethirdcommand=Twój Cel: Zbuduj Namiot ("tent"). Uwaga: Jeśli namiot podczas stawiania robi się czerwony to oznacza, że to miejsce jest aktualnie (lub zawsze) zajęte (np przez jednostkę lub drzewo).
+Usethirdcommand=Twój Cel: Zbuduj Namiot ("tent"). Uwaga: Jeśli namiot podczas stawiania robi się czerwony to oznacza, że to miejsce jest aktualnie (lub zawsze) zajęte (np przez jednostkę lub drzewo).
 
 ;end
 
