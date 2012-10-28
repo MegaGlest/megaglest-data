@@ -26,7 +26,6 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		INSTALL(FILES 
 		  "${PROJECT_SOURCE_DIR}/../../mk/linux/glestkeys.ini"
 		  "${PROJECT_SOURCE_DIR}/../../mk/linux/megaglest.bmp"
-          	  "${PROJECT_SOURCE_DIR}/../../mk/linux/configuration.xml"
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH})
 
 		# Installation of data files from outside normal data folder
@@ -84,7 +83,6 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 		INSTALL(FILES 
 		  "${PROJECT_SOURCE_DIR}/glestkeys.ini"
 		  "${PROJECT_SOURCE_DIR}/megaglest.bmp"
-                  "${PROJECT_SOURCE_DIR}/configuration.xml"
 		  DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH})
 
 		# Installation of the data
