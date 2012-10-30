@@ -541,8 +541,8 @@ Filter=Filter:
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
-# ISO639-1=en
-# NativeLanguageName=English
+ISO639-1=af
+NativeLanguageName=Afrikaans
 ;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
 ;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
 ;FONT_SCALE_SIZE=1.0
