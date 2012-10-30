@@ -1,0 +1,10 @@
+;message headers
+Storming=Storming
+
+;message strings
+Brief1=Helfe Deiner Summoner alle feindlichen Dörfer zu attackieren, sie muss überlegen.
+
+;objective strings
+ObjectiveWest=Deine Aufgabe: Zerstöre alle westlichen Magic-Dörfer, die Summoner muss überleben.
+ObjectiveNorthEast=Deine Aufgabe: Zerstöre die Nord-Ost Dörfer der Tech, die Summoner muss überleben.
+ObjectiveSouthEast=Deine Aufgabe: Zerstöre die Süd-Ost Dörfer, die Summoner muss überleben.

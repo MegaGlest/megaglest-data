@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Erobere die Flagge
+Warning=Warnung
+Crisis=Roter Alarm!
+
+;message strings
+Brief1=Erobere die feindliche Flagge, indem Du sie berührst und dann mit dieser Einheit in die Heimat-Basis zurückkehrst! Die feindliche Flagge blinkt auf der kleinen Karte/Mini-Map. Deine Flagge blinkt in Deiner Team-Farbe. Pass auf Überraschungen während du auf dem Weg bist.
+Player2InFlagZoneWarning=Spieler 2 ist in Deiner Flaggen-Zone, pass auf!
+Player3InFlagZoneWarning=Spieler 3 ist in Deiner Flaggen-Zone, pass auf!
+Player2HasFlagWarning=Spieler 2 HAT DEINE FLAGGE, hol ihn Dir!!
+Player3HasFlagWarning=Spieler 3 HAT DEINE FLAGGE, hol ihn Dir!!
+
+;objective strings
+Player2HeadHome=Jetzt, Spieler 2, versuche lebend nach Hause zu kommen und Du gewinnst! Dein Flaggenträger ist in Deiner Teamfarbe markiert, lass ihn nicht sterben.
+Player3HeadHome=Jetzt, Spieler 3, versuche lebend nach Hause zu kommen und Du gewinnst! Dein Flaggenträger ist in Deiner Teamfarbe markiert, lass ihn nicht sterben.
+PlayerWins=Gratulation, Du hast gewonnen!
+PlayerLoses=Schade, Du hast verloren!

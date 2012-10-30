@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Capture du drapeau
+Warning=Alerte
+Crisis=Alerte rouge !
+
+;message strings
+Brief1=Capturez le drapeau ennemi en le touchant avec une unité puis en ramenant cette unité à la base. Le drapeau ennemi flashe sur la mini-carte. Votre drapeau flashera avec la couleur de votre équipe. Attention aux surprises sur le chemin.
+Player2InFlagZoneWarning=Le joueur 2 s'approche de votre drapeau, attention !
+Player3InFlagZoneWarning=Le joueur 3 s'approche de votre drapeau, attention !
+Player2HasFlagWarning=Le joueur 2 A VOTRE DRAPEAU, attrapez-le !
+Player3HasFlagWarning=Le joueur 3 A VOTRE DRAPEAU, attrapez-le !
+
+;objective strings
+Player2HeadHome=Maintenant, joueur 2, rentrez à la maison sain et sauf et gagnez ! Votre porteur de drapeau flashe avec la couleur de votre équipe, ne le laissez pas mourir.
+Player3HeadHome=Maintenant, joueur 3, rentrez à la maison sain et sauf et gagnez ! Votre porteur de drapeau flashe avec la couleur de votre équipe, ne le laissez pas mourir.
+PlayerWins=Bravo, vous avez gagné !
+PlayerLoses=Mince, c'est perdu !
