@@ -27,11 +27,11 @@ ArcherBrief=Bogenschützen sind die einfache Fernkampfeinheit. Sie werden ebenfa
 ProduceWarriors=Bilde einige Krieger aus, um dein Lager gegen gegnerische Angriffe zu verteidigen.
 
 ;objective strings
-ProduceWorkers=Objective: Bilde 3 Arbeiter(Worker) aus.
-HarvestWoodAndStone=Objective: Sammle 100 Einheiten Holz und 150 Einheiten Stein.
-ProduceCow=Objective: Produziere eine Kuh (Cow)
-MineGold=Objective: Baue 100 Einheiten Gold ab.
-BuildBarracks=Objective: Baue Baracken.
-ProduceSwordman=Objective: Bilde einen Schwertkämpfer (Swordman) aus.
-ProduceArcher=Objective: Bilde einen Bogenschützen (Archer) aus.
-ProduceMoreWarriors=Objective: Bilde mehr Krieger für den bevorstehenden Angriff aus.
+ProduceWorkers=Deine Aufgabe: Bilde 3 Arbeiter(Worker) aus.
+HarvestWoodAndStone=Deine Aufgabe: Sammle 100 Einheiten Holz und 150 Einheiten Stein.
+ProduceCow=Deine Aufgabe: Produziere eine Kuh (Cow)
+MineGold=Deine Aufgabe: Baue 100 Einheiten Gold ab.
+BuildBarracks=Deine Aufgabe: Baue Baracken.
+ProduceSwordman=Deine Aufgabe: Bilde einen Schwertkämpfer (Swordman) aus.
+ProduceArcher=Deine Aufgabe: Bilde einen Bogenschützen (Archer) aus.
+ProduceMoreWarriors=Deine Aufgabe: Bilde mehr Krieger für den bevorstehenden Angriff aus.

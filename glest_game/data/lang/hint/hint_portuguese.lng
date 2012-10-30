@@ -40,5 +40,5 @@ hint39=Você está com muito lag em jogos em rede? Seu mouse\nestá mexendo deva
 hint40=Esta tela fica aparecendo até que o computador de todos os jogadores\ntenham carregado os dados do jogo completamente.\nAlgumas máquinas são mais rápidas que outras, seja paciente.
 hint41=Para adicionar um marcador célular e deixar comentários ao seu time,\npressione '#BoomarkAdd#'.\nPara removê-lo, pressione #BookmarkRemove#
 hint42=Para seguir com uma unidade em modo primeira pessoa,\nselecione-á e pressione '#CameraFollowSelectedUnit#'.\nPara retornar ao normal, desselecione todas as unidades e pressione\n#CameraFollowSelectedUnit#.
-# hint43=Linux is the best operating system.. ever.. period :)
-# hint44=Free software made this game possible, consider how you can help societies like fsf.org and sourceforge.net
+hint43=Linux é o melhor sistema operacional. O melhor. Ponto final. :)
+hint44=Software Livre tornou esse jogo possível. Se você gostaria de contribuir, ajude organizações como a fsf.org e sourceforge.net.

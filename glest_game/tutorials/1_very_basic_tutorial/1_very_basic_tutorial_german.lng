@@ -10,7 +10,7 @@ Tricks=Tricks
 ;------------------------------------------Start------------------------------------------------
 Welcome=Willkommen zur MegaGlest-Einführung!
 
-FirstThing=Ansicht: Du kannst den angezeigten Bereich verändern, indem du die Maus an den Bildschirmrand bewegst oder die Pfeiltasten benutzt. Auch per Linksklick auf die Übersichtskarte (oben links im Bild) kannst du die Ansicht neu positionieren.
+FirstThing=Zur Ansicht: Du kannst den angezeigten Bereich verändern, indem du die Maus an den Bildschirmrand bewegst oder die Pfeiltasten benutzt. Auch per Linksklick auf die Übersichtskarte (oben links im Bild) kannst du die Ansicht neu positionieren.
 
 WillBeUsingIndian=In dieser Einführung kommandierst du den Indianer-Stamm (indian). Die Indianer kämpfen mit Bogenschützen und einfachen Waffen.
 
@@ -20,8 +20,6 @@ NeedWorkers=Als erstes benötigen wir einen Arbeiter (Worker). Wähle hierzu per
 
 Select=Wähle jetzt den Arbeiter mit der linken Maustaste aus. Oben rechts sieht man nun Details zur angewählten Einheit, wie Name und Bild. Danach folgen die Lebenspunkte (LP), die Rüstung und dahinter in Klammern der Typ der Rüstung und die Sichtweite.
 Select2=Falls die Einheit kämpfen kann, steht dahinter wie viele Einheiten sie schon getötet hat. Verbraucht sie Ressourcen, wird dies nachfolgend angezeigt. Darunter steht, was die Einheit gerade tut.
-
-;!!!Hier wird noch nicht erklärt was in den Klammern hinter 'Getötet' steht!!!
 
 ExampleWorker=Unser Arbeiter (Worker) hat z.B. 600 LP, 0 Rüstung vom Typ Leder (Leather) und hat eine Sichtweite von 9. Außerdem befindet er sich im Moment im Zustand "Stop", d.h. er tut nichts.
 
@@ -66,11 +64,11 @@ Thirdcommand4=Lass uns ein Zelt (Tent) bauen. Klicke dazu auf das Bau-Menü und 
 ProduceStickfighter=Nun bilde einen Stickfighter in dem neu gebauten Zelt (Tent) aus.
 
 ;objective strings
-ProduceWorker=Objective: Bilde 1 Arbeiter (Worker) aus.
-ProduceStickfighter2=Objective: Bilde 1 Stickfighter aus.
-MoveWorker=Objective: Bewege deinen neu produzierten Arbeiter (Worker) zu dem anderen Arbeiter (Worker) außerhalb deines Lagers.
-HarvestGoldandStoneobjective=Objective: Baue solange Gold und Stein (Stone) ab, bis du 600 Gold und 550 Stein (Stone) hast.
-GetWoodob=Objective: Sammle 550 Holz (Wood).
+ProduceWorker=Deine Aufgabe: Bilde 1 Arbeiter (Worker) aus.
+ProduceStickfighter2=Deine Aufgabe: Bilde 1 Stickfighter aus.
+MoveWorker=Deine Aufgabe: Bewege deinen neu produzierten Arbeiter (Worker) zu dem anderen Arbeiter (Worker) außerhalb deines Lagers.
+HarvestGoldandStoneobjective=Deine Aufgabe: Baue solange Gold und Stein (Stone) ab, bis du 600 Gold und 550 Stein (Stone) hast.
+GetWoodob=Deine Aufgabe: Sammle 550 Holz (Wood).
 Usethirdcommand=Tipp: Wenn das Zelt rot ist, ist der Platz derzeit besetzt (z.B. von einer Einheit oder einem Baum). Objective: Baue ein Zelt (Tent).
 
 ;end

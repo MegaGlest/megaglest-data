@@ -6,12 +6,12 @@ Combat=Combatti
 Buildings=Costruzioni
 
 ;message strings
-Welcome=Benvenuto al Tutorial Base di MegaGlest. Qui imparerai le basi del gioco.
+Welcome=Benvenuto al Tutorial Base di MegaGlest. Qui apprenderai le basi del gioco.
 WillBeUsingTech=Hai al comando la fazione Tech che usa guerrieri medievali e strumenti meccanici per combattere.
-NeedWorkers=Per raccogliere le risorsore hai bisogno di Lavoratori (Workers). Per produrli per prima cosa seeziona il Castello (Castle) e poi usa il comando "Produce Worker".
-SelectAndCommand=Le Unità vengono selezionate cliccandoci sopra col tasto sinistro del mouse sopra di esse. Puoi controllare le unità puoi cliccare su di esse e farle attaccare bersarli o muovere sul terreno.
-HowToMine=Per estrarre l'oro (Gold) devi selezionare un Lavoratore (Worker), poi clicca col tasto destro  su un giacimento d'oro.
-WorkersKeepOnHarvesting=I Lavoratori (Workers) raccoglieranno le risorse (oro/legno/pietra) e le porteranno alla costruzione capace di raccoglierle più vicina.
+NeedWorkers=Per raccogliere le risorse hai bisogno di Lavoratori. Per produrli per prima cosa seleziona il Castello e poi usa il comando "Crea Lavoratore".
+SelectAndCommand=Le unità vengono selezionate cliccandoci sopra col tasto sinistro. Puoi controllare le unità cliccandoci su e farle muovere e attaccare.
+HowToMine=Per estrarre l'oro devi selezionare un lavoratore, poi click destro  su un giacimento d'oro.
+WorkersKeepOnHarvesting=I lavoratori raccoglieranno le risorse e le accumuleranno nell'edificio adeguato più vicino.
 ResourceInformation=Le informazioni sulle risorse sono mostrare nella parte alta dello schermo, il numero sulla sinistra di ogni risorsa indica l'ammontare che hai di quella specifica risorsa. I numero sulla destra invece indica la capacità massima che puoi raccoglire di quella risorsa.
 OtherResources=Le altre risorse come la legna (Wood) o la pietra (Stone) sono raccolt nella stessa maniera dell'oro (Gold).
 TechResourceNeeds=La fazione Tech spesso ha bisogno di molto oro (Gold) e legna (Wood), e un po di pietra (Stone).
@@ -21,17 +21,17 @@ BalanceDisplay=Il bilanciamento tra il consumo e la produzione di cibo (Food) è
 TechWarriorsAtBarracks=Per sconfiggere il tuo nemico avrai bisogno di alcuni guerrieri, la maggior parte dei guerrieri della fazione Tech sono prodotti dalle Barricate (Barracks).
 HowToBuildBarracks=Per costruire una Caserma (Barracks) seleziona un Lavoratore e poi clicca su "Build Basic" poi su "Barracks" e poi seleziona un punto libero dove costruirla.
 RememberToBuildBarracks=Ricorda di costruire sempre una Caserma (Barracks) per prima cosa, questo ti permetterà di produrre da subito dei guerriri.
-SwordmanBrief=I guerrieri base della fazione Tech sono è il Fante (Swordsman). Pr produrli seleziona la Caserma (Barracks) e poi premi "Produce Swordman" per produrne uno (assicurati di avere abbastanza risorse per produrlo).
-HaveWarriorsAtBase=Dovresti sempre avere alcuni guerrieri nella tua base, sono molto utili, in quanto non appena un nemico entrerà nel loro raggio d'azione essi lo attaccheranno.
-ArcherBrief=Gli Arceri (Archers) sono l'unità a lungo raggio della fazione Tech. Possono essere anche prodotti dalla Caserma (Barracks).
-ProduceWarriors=Produci alcuni guerrieri per difendere la tua base dagli attacchi nemici.
+SwordmanBrief=Il combattente base dei Tech è il Fante. Pr produrli seleziona la Caserma e poi premi "Produce Swordman" per produrne uno (assicurati di avere abbastanza risorse).
+HaveWarriorsAtBase=Dovresti sempre avere alcuni guerrieri nella tua base, sono molto utili, in quanto attaccheranno un nemico non appena entrerà nel loro raggio d'azione.
+ArcherBrief=L'arciere l'unità a distanza dei Tech, anche questi prodotti dalla Caserma.
+ProduceWarriors=Crea alcuni guerrieri per difendere la tua base dagli attacchi nemici.
 
 ;objective strings
-ProduceWorkers=Objective: Produci 3 Lavoratori (Workers).
-HarvestWoodAndStone=Objective: Raccogli 100 pezzi di legno e 150 pezzi di pietra.
-ProduceCow=Objective: Produci 1 mucca.
-MineGold=Objective: Raccogli 100 pezzi d'oro (Gold).
-BuildBarracks=Objective: Costruisci una Caserma (Barracks).
-ProduceSwordman=Objective: Produci 1 Fante (Swordman).
-ProduceArcher=Objective: Produci 1 Arcere (Archer).
-ProduceMoreWarriors=Objective: Produci più guerrieri per affrontare l'attacco imminente.
+ProduceWorkers=Obiettivo: Crea 3 Lavoratori.
+HarvestWoodAndStone=Obiettivo: Raccogli 100 legno e 150 pietra.
+ProduceCow=Obiettivo: Produci 1 mucca.
+MineGold=Obiettivo: Raccogli 100 oro.
+BuildBarracks=Obiettivo: Fonda una Caserma.
+ProduceSwordman=Obiettivo: Crea 1 Fante.
+ProduceArcher=Obiettivo: Crea 1 Arciere.
+ProduceMoreWarriors=Obiettivo: Crea più guerrieri per affrontare l'attacco imminente.

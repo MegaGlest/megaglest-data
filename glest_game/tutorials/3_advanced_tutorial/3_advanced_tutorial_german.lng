@@ -1,5 +1,5 @@
 ;message headers
-GlestAdvancedTutorial=fortgeschrittene MegaGlest-Einführung
+GlestAdvancedTutorial=Fortgeschrittene MegaGlest-Einführung
 Promoting=Beförderung von Einheiten
 WellDone=Gut gemacht!
 Summoning=Beschwörung
@@ -29,10 +29,10 @@ GroupSelectBrief=Du kannst Gruppen von Einheiten festlegen indem du eine Gruppe 
 FinalMission=Als letzten Test musst du nun eine Armee zusammenstellen und deinen Feind besiegen.
 
 ;objective strings
-PromoteInitiate=Objective: Befördere einen Initiaten zum Battlemage.
-ProduceSummoner=Objective: Baue eine Summoners Guild und bilde einen Summoner aus.
-ProduceDaemon=Objective: Beschwöre einen Dämon.
-ProduceGhostArmor=Objective: Erforsche die antike Beschwörung (Ancient Summoning) und beschwöre einen Ghost Armor.
-BuildEnergySource=Objective: Baue eine Energiequelle.
-ProduceGolem=Objective: Baue eine Bibliothek und dann lasse einen Initiate ein Ritual durchführen, um einen Golem zu bauen.
-DefeatEnemy=Objective: Stelle eine Armee zusammen, dann lokalisiere deinen Gegner und besiege ihn.
+PromoteInitiate=Aufgabe: Befördere einen Initiaten zum Battlemage.
+ProduceSummoner=Aufgabe: Baue eine Summoners Guild und bilde einen Summoner aus.
+ProduceDaemon=Aufgabe: Beschwöre einen Dämon.
+ProduceGhostArmor=Aufgabe: Erforsche die antike Beschwörung (Ancient Summoning) und beschwöre einen Ghost Armor.
+BuildEnergySource=Aufgabe: Baue eine Energiequelle.
+ProduceGolem=Aufgabe: Baue eine Bibliothek und dann lasse einen Initiate ein Ritual durchführen, um einen Golem zu bauen.
+DefeatEnemy=Aufgabe: Stelle eine Armee zusammen, dann lokalisiere deinen Gegner und besiege ihn.
