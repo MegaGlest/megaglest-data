@@ -543,30 +543,24 @@ YouWin=你赢了!
 ; Before using an alternative font, please verify license compatibility
 ISO639-1=zh
 NativeLanguageName=中文 (Zhōngwén), 汉语, 漢語
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
-;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
-;FONT_SCALE_SIZE=1.0
-;FONT_SCALE_CENTERH_FACTOR=
-;FONT_BASE_SIZE=3
-;FONT_CHARCOUNT=256
-;FONT_CHARSET=
-;FONT_HEIGHT_TEXT=
-;FONT_MULTIBYTE=0
-;FONT_RIGHTTOLEFT=0
-;FONT_TYPENAME=0
-
-;FontDisplayPrefix=
-;FontDisplayPostfix=
-;FontDisplayBaseSize=
-;FontDisplaySmallBaseSize=
-;FontMenuNormalPrefix=
-;FontMenuNormalPostfix=
-;FontMenuNormalBaseSize=
-;FontMenuBigPrefix=
-;FontMenuBigPostfix=
-;FontMenuBigBaseSize=
-;FontMenuVeryBigBaseSize=
-;FontConsolePrefix=
-;FontConsolePostfix=
-;FontConsoleBaseSize=
-
+MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
+MEGAGLEST_FONT_FAMILY=WenQuanYi Zen Hei:style=Regular
+FONT_SCALE_SIZE=0.9
+FONT_SCALE_CENTERH_FACTOR=3.0
+FONT_MULTIBYTE=true
+FONT_CHARCOUNT=30000
+FONT_CHARSET=134
+FontConsoleBaseSize=18
+FontConsolePostfix=-*-*-*-*-160-gb2312.1980-0
+FontConsolePrefix=-*-*-*-*-*-*-
+FontDisplayBaseSize=12
+FontDisplayPostfix=-*-*-*-*-160-gb2312.1980-0
+FontDisplayPrefix=-*-*-*-*-*-*-
+FontDisplaySmallBaseSize=12
+FontMenuBigBaseSize=20
+FontMenuBigPostfix=-*-*-*-*-160-gb2312.1980-0
+FontMenuBigPrefix=-*-*-*-*-*-*-
+FontMenuNormalBaseSize=14
+FontMenuNormalPostfix=-*-*-*-*-160-gb2312.1980-0
+FontMenuNormalPrefix=-*-*-*-*-*-*-
+FontMenuVeryBigBaseSize=25
