@@ -555,18 +555,12 @@ NativeLanguageName=Русский
 ;FONT_RIGHTTOLEFT=0
 ;FONT_TYPENAME=0
 
-;FontDisplayPrefix=
-;FontDisplayPostfix=
-;FontDisplayBaseSize=
-;FontDisplaySmallBaseSize=
-;FontMenuNormalPrefix=
-;FontMenuNormalPostfix=
-;FontMenuNormalBaseSize=
-;FontMenuBigPrefix=
-;FontMenuBigPostfix=
-;FontMenuBigBaseSize=
-;FontMenuVeryBigBaseSize=
-;FontConsolePrefix=
-;FontConsolePostfix=
-;FontConsoleBaseSize=
+FontConsolePostfix=-*-*-*-*-*-*-r
+FontConsolePrefix=-*-*-*-*-*-*-
+FontDisplayPostfix=-*-*-*-*-*-*-r
+FontDisplayPrefix=-*-*-*-*-*-*-
+FontMenuBigPostfix=-*-*-*-*-*-*-r
+FontMenuBigPrefix=-*-*-*-*-*-*-
+FontMenuNormalPostfix=-*-*-*-*-*-*-r
+FontMenuNormalPrefix=-*-*-*-*-*-*-
 
