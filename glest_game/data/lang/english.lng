@@ -215,9 +215,8 @@ NothingSelected=Nothing has been selected.
 LeftAt=Player left at:
 LoadGameDeletingFile=Trying to delete file: '%s'
 LoadGameLoadingFile=Trying to load file: '%s'
-SavedGameBadVersion=saved game version does match your application version: [%s] --> [%s]
+SavedGameBadVersion=Saved game version does not match your application version: [%s] --> [%s]
 LoadSavedGameInfo=Map: %s\nTileset: %s\nTech: %s\nScenario: %s\n# players: %d\nFaction: %s
-
 LoadedSpeed=Loaded speed
 Loading=Loading
 LocalTime=Local:
