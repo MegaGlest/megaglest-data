@@ -271,16 +271,16 @@ MGGameTitle=العنوان
 MGGameSlots=الفتحات
 MGGameSlotsFull=اللعبة ممتلئة
 MGGameIP=عنوان IP الخادم
-# MGGameStatus0=Accepting players
-# MGGameStatus1=Game full, game start pending
+MGGameStatus0=قبول اللاعبين
+MGGameStatus1=لعبة كاملة .ستبدىءلعبة
 # MGGameStatus2=Game in progress
 MGGameStatus3=انتهت اللعبة
-# MGJoinGameSlots=Join Game
+MGJoinGameSlots=\nالانضمام لعبة
 MGPlatform=البيئة
 MGVersion=الإصدار
 Misc=منوعات
 
-# MismatchedFactions=The following factions are mismatched:
+MismatchedFactions=\n\nالفصائل التالية متطابقة:
 # MismatchedFactionsMissing=(missing)
 # MismatchedFactionsExtra=(extra)
 

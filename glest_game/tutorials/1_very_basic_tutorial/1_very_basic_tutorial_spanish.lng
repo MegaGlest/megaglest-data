@@ -21,56 +21,56 @@ NeedWorkers=Primero necesitamos un trabajador. Para conseguirlo, pulsa en Mainte
 Select=Ahora selecciona el trabajador pulsando sobre el. Detalles de la unidad seleccionada, nombre de unidad e imagen se muestran en la esquina superior derecha de tu pantalla. Debajo sus puntos de salud (HP), armadura y , entre corchetes, el tipo de armadura y campo de visión (sight).
 Select2=Si esto es una unidad de batalla, el número de unidades enemigas que haya destruido se muestra al lado. Si consume recursos, esto se muestra en el siguiente campo. Debajo de este, se indica lo que la unidad esté haciendo en ese momento.
 
-# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+ExampleWorker=Por ejemplo, tu trabajador tiene 600 HP, 0 arrmadura de cuero y un campo de visión de 9. Su estado actual es "Quieto", el no está haciendo nada.
 
 Command=Las habilidades de unidades se listan más abajo. Aprenderemos ahora los comandos que un trabajador puede hacer.
 
-# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+FirstCommand=El primer icono de comando es "Parar". Si pulsas sobre este icono, el trabajador parará inmediatamente lo que esté haciendo. Todas las unidades (que no sean construcciones) disponen de este comando.
 
-# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
-# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+SecondCommand=El segundo icono de comando es "mover". Si lo pulsas, necesitarás pulsar en el suelo o en otra unidad para definir el destino. Un atajo para este comando es simplemente pulsar con el botón derecho del ratón sore el destino.
+SecondCommand2=Cuando pasas con el ratón por encima del icono "mover", la velocidad del trabajador se muestra. Este comando también está disponible para todas las unidades (menos para las construcciones).
 
-# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+TestSecondCommand=Prueba el comando "mover" ahora. Mueve tu trabajador hacia el otro trabajador que está fuera del campamento. Este otro trabajador se muestra en el mini mapa como un punto rojo (arriba a la izquierda). El triángulo blanco del mini mapa indica tu actual vista de cámara. El punto rojo grande es tu Mainteepee
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
 MoveBack=Bien. Ahora haz volver a los dos trabajaddores a el Mainteepee. Para seleccionar varias unidades, pusa shift y dibuja una caja de selección alrededor de las unidades o...
 MoveBack2=... mantén pulsado shift, y despues haz click sobre cada unidad que quieras incluir en la selección o...
 MoveBack3=... haz doble click en una unidad para seleccionar las unidades del mismo tipo ('trabajadores' en este caso ) que se encuentren cerca.
-# HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
-# HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
-# UseHarvestGoldandStone=To use this command, first click on the command icon, then  on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
-# HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
+HarvestGoldandStone=Cuando tus unidades hayan retornado a casa, usarelos el cuarto icono que sirve para recolectar oro y piedra.
+HarvestGoldandStone2=Pasa por encima de este comando con tu ratón para ver la velocidad a la que tus trabajadores pueden recoger recursos, a qué velocidad pueden andar cuando transportan los recursos y qué recursos pueden recolectar.
+UseHarvestGoldandStone=Para usar este comando, primero pulsa en el icono, despues sobre el recurso que quieras recolectar. Las piedras grises con puntos amarillos son de oro, aquellas sin los puntos amarillos son piedra.
+HarvestGoldandStone3=Ahora recoge oro y piedra hasta que acumules un total de 600 de oro y 550 de piedra. Puedes también construir nuevos trabajadores para hacerlo (te costarán oro). Mira en la parte superior de la pantalla cuántos recursos hay recolectados en el momento.
 
 ;------------------------------------------Get Wood------------------------------------------
 
-# HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
-# ResourceInformation=By the way, the indian faction mostly needs gold and wood.
-# GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
+HarvestGoldAndStoneDone=Ahora todo lo que necesitas es un poco de madera. Para conseguir algo, usa el quinto icono. Este es un comando para recoger madera, y se usa de la misma manera que el icono para recoger oro y piedra.
+ResourceInformation=Por otro lado, la facción de los indios necesita oro y madera.
+GetWood=Puedes dar la orden de recogida de recursos de manera más ágil seleccionando tu trabajador y pulsando, con el boton derecho del ratón, sobre el recurso que desees recolectar (en este caso, madera). En caso de conseguirlo, una flecha amarilla aparecerá. Ahora debes recolectar madera hasta tener 550.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building  will move to this place as soon as they appear.
-# UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
-# MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
-# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
-# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
-# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
-# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+MeetingPoint=Cuando seleccionas un edificio, una flecha azun se muestra. Esta flecha apunta el "Punto de reunión". Todas las unidades que produzca este edificio se moverán hacia este sitio.
+UseMeetingPoint=Puedes cambiar el "punto de reunión". Pulsa sobre el icono de la bandera, después en la posición donde desees poner el nuevo "punto de reunión". Este proceso puede agilizarse si pulsa sobre el sitio deseado con el boton derecho (del ratón).
+MeetingPoint2=Si estableces el punto de reunión sobre un recurso, los nuevos trabajadores comenzarán recolectando dicho recurso. Asegurate de apuntar bien, o tus trabajadores se quedarán junto al recurso sin hacer nada.
+Thirdcommand=Ahora, a por el tercer icono de comando - Este es el comando "construir".
+Thirdcommand2=Si lo pulsas entrarás en el menú "construir". Pasando por encima de los iconos puedes ver, más abajo, todos los recursos y requisitos que necesitas para constuirlo.
+Thirdcommand3=Si pasas con el ratón por encima de "tienda", verás que necesitas 30 de oro, 50 de madera, -10 de housing y un tipi principal. "-10 housing" significa que si construyes una tienda, tendras espacio para acomodar 10 unidades más (aunque hay unidades que consumen más de 1 housing).
+Thirdcommand4=Construyamos una tienda ahora. Pulsa sobre el menú "construir", después elige tienda y posicionala en un espacio vacío.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-# ProduceStickfighter=You can now train a stick fighter in your new tent.
+ProduceStickfighter=Ahora puedes entrenar un luchador en la tienda.
 
 ;objective strings
-# ProduceWorker=Objective: Train one worker.
-# ProduceStickfighter2=Objective: Train one stick fighter.
-# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
-# HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
-# GetWoodob=Objective: Harvest wood until you have 550.
-# Usethirdcommand=Objective: Build a tent.Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+ProduceWorker=Objetivo: Entrena un trabajador.
+ProduceStickfighter2=Objetivo: Entrenar a un luchador - Stick fighter
+MoveWorker=Objetivo: Mueve el trabajador entrenado junto al trabajador que espera fuera del campamento.
+HarvestGoldandStoneobjective=Objetivo: Recolecta oro y piedra hasta que tengas un total de 600 de oro y 550 de piedra.
+GetWoodob=Objetivo: Recolecta madera hsta que tengas 550.
+Usethirdcommand=Objetivo: Construye una tienda. Si la tienda se vuelve roja (rojea), esto quiere decir que el sitio donde la vas a ubicar ya está ocupado (podría ser que hubiese un árbol).
 
 ;end
 
-# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.
+WellDoneNextTutorial=¡Buen trabajo! Puedes ahora seguir con el siguiente tutorial.

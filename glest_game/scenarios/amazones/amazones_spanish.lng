@@ -1,12 +1,12 @@
 ;message headers
-# Amazones=Amazones
+Amazones=Amazonas
 
 ;message strings
-# Brief1=Your allies' castle must survive!
+Brief1=¡El castillo de tus aliados no debe ser destruido!
 
 ;objective strings
-# Firstwave=Objective: Ladies in green.
-# Secondwave=Objective: More Ladies.
-# Thirdwave=Objective: Probably too many ladies...
-# Fourthwave=Objective: Nice but dangerous ;-)
-# Lastwave=Objective: The final wave!!
+Firstwave=Objetivo: Chicas de verde.
+Secondwave=Objetivo: Más Chicas.
+Thirdwave=Objetivo: Provablemente demasiadas chicas...
+Fourthwave=Objetivo: Bueno pero peligroso ;-)
+Lastwave=Objetivo: La ola final
