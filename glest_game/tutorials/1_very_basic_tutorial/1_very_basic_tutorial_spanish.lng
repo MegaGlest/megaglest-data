@@ -18,12 +18,12 @@ NeedWorkers=Primero necesitamos un trabajador. Para conseguirlo, pulsa en Mainte
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-# Select=Now left-click your worker. Details on the selected unit, namely the unit name and an image, are now displayed in the top right corner of your screen. Below this health points (HP), armor, and, in brackets, armor type and view range (sight) are listed.
-# Select2=If this is a battle unit, the number of enemy units it has already destroyed is listed next. If it consumes resources, this is displayed in the following field. Below this, it says what this unit is currently doing.
+Select=Ahora selecciona el trabajador pulsando sobre el. Detalles de la unidad seleccionada, nombre de unidad e imagen se muestran en la esquina superior derecha de tu pantalla. Debajo sus puntos de salud (HP), armadura y , entre corchetes, el tipo de armadura y campo de visión (sight).
+Select2=Si esto es una unidad de batalla, el número de unidades enemigas que haya destruido se muestra al lado. Si consume recursos, esto se muestra en el siguiente campo. Debajo de este, se indica lo que la unidad esté haciendo en ese momento.
 
 # ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
 
-# Command=The units' abilities are listed further below. We will now learn all commands the worker can execute.
+Command=Las habilidades de unidades se listan más abajo. Aprenderemos ahora los comandos que un trabajador puede hacer.
 
 # FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
 
@@ -34,9 +34,9 @@ NeedWorkers=Primero necesitamos un trabajador. Para conseguirlo, pulsa en Mainte
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-# MoveBack=Good. Now make both workers return to the Mainteepee. To select multiple units, press shift and draw a selection box around your units OR ...
-# MoveBack2=... hold down shift, then use your mouse to click on every unit you want to include OR ...
-# MoveBack3=... double-click on a unit to select all nearby units of the same type (workers in this case).
+MoveBack=Bien. Ahora haz volver a los dos trabajaddores a el Mainteepee. Para seleccionar varias unidades, pusa shift y dibuja una caja de selección alrededor de las unidades o...
+MoveBack2=... mantén pulsado shift, y despues haz click sobre cada unidad que quieras incluir en la selección o...
+MoveBack3=... haz doble click en una unidad para seleccionar las unidades del mismo tipo ('trabajadores' en este caso ) que se encuentren cerca.
 # HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
 # HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
 # UseHarvestGoldandStone=To use this command, first click on the command icon, then  on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.

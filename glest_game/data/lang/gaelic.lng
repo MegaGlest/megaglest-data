@@ -201,7 +201,6 @@ Load=Eallach
 LoadGame=Luchdaich geama
 LoadGameMenu=Luchdaich geamannan air an sàbhaladh
 LuaDisableSecuritySandbox=Sandbox tèarainteachd sgriobt Lua à comas
-LuaDisableSecuritySandboxWarning=Ma chuireas tu an rèiteachadh seo à comas, \nceadaichidh tu sgrobtaichean Lua a dh'fhaodadh \na bhith cunnartach.\nAm bu toil leat seo a dhèanamh le cinnt?
 MaxMarkerCount=Chan urrainn dhut barrachd chomharraidhean a chur ris, chan eil ceadaichte ach:
 ModCenter=Ionad nan tuilleadan
 GameHost=Frithealaiche òstair
