@@ -1,20 +1,20 @@
 ;message headers
 GlestBasicTutorial=Tutorial Básico del MegaGlest
-# WellDone=Well done!
+WellDone=¡Bien Hecho!
 Resources=Recursos
 Combat=Combate
 Buildings=Edificios
-# Tricks=Tricks
+Tricks=Trucos
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-# Welcome=Welcome to the basic MegaGlest tutorial.
+Welcome=Bienvenido al tutorial de MegaGlest.
 
-# FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
+FirstThing=Vista: Para ajustar el area visible, mueve tu ratón hacia los extremos de la pantalla, o puedes usar las teclas del cursor. Otra forma de hacerlo es pulsando sobre el botón derecho en el mini mapa (en la esquina superior izquierda de tu pantalla)
 
-# WillBeUsingIndian=In this introduction, you command the indians. The indian faction fights with archers and simple weapons.
+WillBeUsingIndian=En esta instucción, tu manejas los indios. La facción de los indios lucha con arqueros y armas sencillas.
 
-# NeedWorkers=First we need a worker. To get one, left-click on the Mainteepee and start training your worker. To do so, use the 'Produce Worker' command by clicking on the worker icon.
+NeedWorkers=Primero necesitamos un trabajador. Para conseguirlo, pulsa en Mainteepee y comienza a entrenar a un trabajador. Para hacerlo pulsa en el icono 'Trabajador'
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
