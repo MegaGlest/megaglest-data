@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Captura la bandera
+Warning=Aviso
+Crisis=¡Alerta Roja!
+
+;message strings
+Brief1=Captura la bandera de tu enemigo tocándola y despues volviendo a tu base. La bandera de tu enemigo está parpadeando en el mini mapa. Tu bandera está en el color de tu equipo. cuidado con las sorpresas por el camino.
+Player2InFlagZoneWarning=El jugador 2 está en tu zona, cuidado!
+Player3InFlagZoneWarning=El jugador 3 está en tu zona, cuidado!
+Player2HasFlagWarning=El jugador 2 tiene tu bandera. ¡A por el!
+Player3HasFlagWarning=El jugador 3 tiene tu bandera. ¡A por el!
+
+;objective strings
+Player2HeadHome=Ahora, jugador 2, llevala a casa y gana! el portador de la bandera esta resaltado en tu color en el mini mapa. ¡No dejes que muera!
+Player3HeadHome=Ahora, jugador 3, llevala a casa y gana! el portador de la bandera esta resaltado en tu color en el mini mapa. ¡No dejes que muera!
+PlayerWins=¡Felicidades, has ganado!
+PlayerLoses=Mal, ¡tu pierdes!

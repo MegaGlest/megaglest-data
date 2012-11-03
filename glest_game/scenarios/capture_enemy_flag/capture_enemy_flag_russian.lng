@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Захвати флаг
+Warning=Ой-ой!
+Crisis=Тревога!
+
+;message strings
+Brief1=Захватите флаг противника, коснувшись его юнитом, и принесите на базу. Флаг обозначен на миникарте, ваш флаг вашего цвета. Удачи! Ждите сюрпризов.
+Player2InFlagZoneWarning=Игрок 2 в зоне вашего флага!
+Player3InFlagZoneWarning=Игрок 3 в зоне вашего флага!
+Player2HasFlagWarning=Игрок 2 уносит ВАШ ФЛАГ! Держи его!
+Player3HasFlagWarning=Игрок 3 уносит ВАШ ФЛАГ! Держи его!
+
+;objective strings
+Player2HeadHome=Если игрок 2 приносит флаг - он выигрывает!
+Player3HeadHome=Если игрок 3 приносит флаг - он выигрывает!
+PlayerWins=Победа!
+PlayerLoses=Вы продули! :(

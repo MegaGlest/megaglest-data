@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Zabierz flagę
+Warning=Uwaga
+Crisis=Krytyczny alarm!
+
+;message strings
+Brief1=Zabierz flagę przeciwnika dotykając jej, potem wróć tą jednostką do swojej bazy. Flaga przeciwnika mruga na minimapie. Twoja flaga mruga kolorem Twojej drużyny. Strzeż się niespodzianek po drodze.
+Player2InFlagZoneWarning=Gracz 2 jest niedaleko twojej flagi, uważaj!
+Player3InFlagZoneWarning=Gracz 3 jest niedaleko twojej flagi, uważaj!
+Player2HasFlagWarning=Gracz 2 ZABRAŁ TWOJĄ FLAGĘ, bierz go!!
+Player3HasFlagWarning=Gracz 3 ZABRAŁ TWOJĄ FLAGĘ, bierz go!!
+
+;objective strings
+Player2HeadHome=Gracz 2 dotarł do swojej bazy i wygrał! Twój posiadacz flagi jest podświetlony Twoim kolorem drużyny, nie pozwól mu zginąć.
+Player3HeadHome=Gracz 3 dotarł do swojej bazy i wygrał! Twój posiadacz flagi jest podświetlony Twoim kolorem drużyny, nie pozwól mu zginąć.
+PlayerWins=Gratulacje, wygrałeś!
+PlayerLoses=Niestety, przegrałeś!
