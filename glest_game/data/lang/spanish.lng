@@ -137,7 +137,7 @@ ErrorBindingPort=El error, no puede atar al puerto de red
 ErrorFromMasterserver=Error del servidor principal
 Exit=Salir
 ExitGame?=¿Salir de la partida?
-ExitGameServer?=¿Salga el juego?\n(esto parará el juego\n para otros jugadores conectados)
+ExitGameServer?=¿Salga el juego?\n(esto parará el juego\npara otros jugadores conectados)
 Explored=Explorado
 Faction=Facción
 # FallbackCpuMultiplier=AI replacement multiplier
@@ -287,7 +287,7 @@ MismatchedFactionsExtra=(extra)
 
 ModLocalRemoteMismatch=El mod local [%s] no es la misma que la\nversión en el servidor, ¿Reemplazar mod local con la versión del servidor?
 ModErrorGettingServerData=Error al recuperar los datos desde el servidor principal: %s
-ModRequires7z=** Advertencia ** - Es necesario tener el programa 7z instalado \npara descargar e instalar el mod y los complementos.
+ModRequires7z=** Advertencia ** - Es necesario tener el programa 7z instalado\npara descargar e instalar el mod y los complementos.
 ModDownloadInProgressCancelQuestion=Usted tiene actualmente: %d archivos descargando, ¿Desea salir y abortar la descarga?
 ModDownloading=Descargando...
 

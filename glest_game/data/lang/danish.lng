@@ -287,8 +287,8 @@ MismatchedFactionsExtra=(ekstra)
 
 ModLocalRemoteMismatch=Det lokale mod [%s] er ikke det samme som\nversion på serveren, udskift mod med serverens version?
 ModErrorGettingServerData=Fejl ved overførsel af data fra mesterserveren: %s
-ModRequires7z=** Advarsel ** - Du mangler det gratis 7z program installret \norder for at download og installere addons.
-ModDownloadInProgressCancelQuestion=Du er ved at hente: %d ,\n afbryd disse overførsler(s)?
+ModRequires7z=** Advarsel ** - Du mangler det gratis 7z program installret\norder for at download og installere addons.
+ModDownloadInProgressCancelQuestion=Du er ved at hente: %d ,\nafbryd disse overførsler(s)?
 ModDownloading=Overfører
 
 ModTechAlreadyInstalled=Du har allerede Teknotræ: %s installed.
@@ -394,7 +394,7 @@ PlayerSwitchedTeamDenied=Spiller %s var nægtet af skifte fra hold# %d til hold#
 # PleaseWait=Please wait...
 Port=Port
 PressEnterToChat=Tryk enter for at chatte
-PrivacyPlease=Aktiver privatliv \n(gem land, osv)
+PrivacyPlease=Aktiver privatliv\n(gem land, osv)
 Produce=Producer
 Producing=Producere
 ProductionSpeed=Produktions hastighed

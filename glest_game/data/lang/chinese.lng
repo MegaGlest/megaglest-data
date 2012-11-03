@@ -288,7 +288,7 @@ MismatchedFactionsExtra=(额外)
 ModLocalRemoteMismatch=本地mod【%s】同服务上的\n版本不同, 以服务器版本替代本地吗
 ModErrorGettingServerData=从主控服务器%s接收数据失败
 ModRequires7z=** 警告 ** - 为了安装附加Mod,\n你需要安装免费的7z程序.
-ModDownloadInProgressCancelQuestion=已下载%d个文件, \n要退出下载吗?
+ModDownloadInProgressCancelQuestion=已下载%d个文件,\n要退出下载吗?
 ModDownloading=下载中
 
 ModTechAlreadyInstalled=已安装科技树%s.

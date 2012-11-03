@@ -287,7 +287,7 @@ MismatchedFactionsExtra=(extra)
 
 ModLocalRemoteMismatch=De lokale mod [%s] is niet dezelfde als de\nversie op de server, vervangen door server-versie?
 ModErrorGettingServerData=Fout bij ophalen data van masterserver: %s
-ModRequires7z=** Let op ** - Je hebt de gratis 7zip software nod om mods te \nkunnen downloaden en installeren.
+ModRequires7z=** Let op ** - Je hebt de gratis 7zip software nod om mods te\nkunnen downloaden en installeren.
 ModDownloadInProgressCancelQuestion=Er worden momenteel %d bestanden gedownload,\nafsluiten en deze downloads annuleren?
 ModDownloading=Downloaden...
 

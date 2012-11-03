@@ -285,9 +285,9 @@ MismatchedFactions=Les races suivantes ont des versions incompatibles
 MismatchedFactionsMissing=(manquant)
 MismatchedFactionsExtra=(extra)
 
-ModLocalRemoteMismatch=Le mod local [%s] n'est pas le même que la version\n sur le serveur, le remplacer avec la version serveur ?
+ModLocalRemoteMismatch=Le mod local [%s] n'est pas le même que la version\nsur le serveur, le remplacer avec la version serveur ?
 ModErrorGettingServerData=Erreur lors de la récupération des données depuis le serveur maître %s
-ModRequires7z=** Attention ** - Il faut avoir installé le programme 7z libre et gratuit pour\n télécharger et installer des add-ons de mods.
+ModRequires7z=** Attention ** - Il faut avoir installé le programme 7z libre et gratuit pour\ntélécharger et installer des add-ons de mods.
 ModDownloadInProgressCancelQuestion=Vous avez %d téléchargement(s) en cours, quitter et abandonner ?
 ModDownloading=Téléchargement en cours
 
@@ -394,7 +394,7 @@ PleaseWaitCalculatingCRC=Veuillez patienter pendant le calcul des CRCs !
 PleaseWait=Veuillez patienter...
 Port=Port
 PressEnterToChat=Entrée pour discuter
-PrivacyPlease=Protéger la vie privée \n(cacher le pays)
+PrivacyPlease=Protéger la vie privée\n(cacher le pays)
 Produce=Produire
 Producing=Production
 ProductionSpeed=Vitesse de production

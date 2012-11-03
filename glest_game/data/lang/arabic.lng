@@ -393,7 +393,7 @@ PlayerSwitchedTeam=اللاعب %s تحول من الفريق# %d إلى الف�
 PleaseWait=انتظر من فضلك...
 Port=منفذ
 PressEnterToChat=اضغط دخول للمحادثة
-# PrivacyPlease=Enable Privacy \n(hide country, etc)
+# PrivacyPlease=Enable Privacy\n(hide country, etc)
 Produce=إنتاج
 Producing=إنتاج
 ProductionSpeed=سرعة الإنتاج
@@ -495,7 +495,7 @@ VideoInfo=معلومات الفيديو
 WalkSpeed=سرعة السير
 WaitingHost=في انتظار الخادم لإطلاق اللعبة
 # Windowed=Windowed
-WrongRouterSetup=جدار الحماية أو جهاز التوجيه خاصتك ليس معد بشكل صحيح\n معد لإستضافة الألعاب.
+WrongRouterSetup=جدار الحماية أو جهاز التوجيه خاصتك ليس معد بشكل صحيح\nمعد لإستضافة الألعاب.
 Yes=نعم
 YouLose=أنت الخاسر!
 YouWin=أنت الفائز
