@@ -13,7 +13,7 @@ MagicBrief=Vous commandez la faction des Magiciens, qui utilise des mages et des
 InitiateBrief=Les Initiés sont les unités de base des Magiciens, ils peuvent récolter des ressources et construire des batiments.
 InitiatePromotion=Les Initiés peuvent se transformer en Mages de combat. Pour cela, sélectionnez un Initié, et utilisez la commande "Promote to Battlemage".
 BattlemageBrief=Les Mages de combat sont le coeur des guerriers Magiciens, Ils possèdent de puissantes attaques à distance ainsi qu'une bonne vitesse et résistance.
-EnergyBrief=La production de  Magiciens nécessite de l'énergie. L'énergie n'est pas consommée comme la nourriture, mais est uniquement requise à la création de l'unité. Elle est produite par les Sources d'Energie.
+EnergyBrief=La production de Magiciens nécessite de l'énergie. L'énergie n'est pas consommée comme la nourriture, mais est uniquement requise à la création de l'unité. Elle est produite par les Sources d'Energie.
 EnergyBrief2=Assurez-vous de toujours avoir suffisament d'énergie pour produire de nouvelles unités.
 SummonedUnitsBrief=L'autre façon de produire des unités est de les invoquer. Pour cela vous avez besoin d'un Invocateur. Ils sont produits par la Guilde des Invocateurs.
 SummonerBrief=Les Invocateurs sont capables de créer differents types de créatures, la plus basique étant le Démon.
@@ -30,7 +30,7 @@ FinalMission=Comme test final, construisez une armée et battez votre adversaire
 
 ;objective strings
 PromoteInitiate=Objectif: Faites évoluer un Initié en Mage.
-ProduceSummoner=Objectif: Construisez  une Guilde des Invocateurs, puis produisez un Invocateur.
+ProduceSummoner=Objectif: Construisez une Guilde des Invocateurs, puis produisez un Invocateur.
 ProduceDaemon=Objectif: Invoquez un Démon.
 ProduceGhostArmor=Objectif: Rechercher "Ancient Summoning", puis invoquez un Fantôme.
 BuildEnergySource=Objectif: Construisez une source d'énergie.

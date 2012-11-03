@@ -14,7 +14,7 @@ FirstThing=Visuale: Per spostare l'angolo visuale muovi il puntatore del mouse s
 
 WillBeUsingIndian=In questa introduzione comanderai gli indiani. La fazione degli indiani combatte soprattutto con archi e armi semplici.
 
-NeedWorkers=Per prima cosa abbiamo bisogno di un lavoratore. Per crearne fai click  sinistro sul Grande Tepee, e dai il comando cliccando sull'icona del lavoratore.
+NeedWorkers=Per prima cosa abbiamo bisogno di un lavoratore. Per crearne fai click sinistro sul Grande Tepee, e dai il comando cliccando sull'icona del lavoratore.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
@@ -51,11 +51,11 @@ GetWood=Una scorciatoia è di selezionare il tuo lavoratore e poi fare click con
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
 MeetingPoint=Quando selezioni una costruzione, vedrai una freccia blu. Questa freccia indica il "punto di raduno", cioè il punto dove tutte le unità prodotte da quella costruzione andranno a fermarsi non appena saranno create.
-UseMeetingPoint=Per spostare il "punto di raduno", clicca sull'icona con la bandierina e poi sul terreno in un nuovo punto, ma non metterlo troppo lontano.  Anche questo si può fare in due click: sinistro sull'edificio >> destro sul nuovo punto.
+UseMeetingPoint=Per spostare il "punto di raduno", clicca sull'icona con la bandierina e poi sul terreno in un nuovo punto, ma non metterlo troppo lontano. Anche questo si può fare in due click: sinistro sull'edificio >> destro sul nuovo punto.
 MeetingPoint2=Se metti il "punto di raduno" su di una risorsa, i lavoratori appena creati andranno direttamente a raccoglierla. Assicurati di cliccare il punto giusto però, o i tuoi lavoratori potrebbero solo ammassarsi lì.
 Thirdcommand=Adesso prova ad usare il terzo comando del lavoratore, il comando "costruisci".
 Thirdcommand2=Cliccando su questa icona entrerai nel menù di costruzione. Se passi con il mouse sulle varie strutture vedrai tutti i requisiti in termini di risorse e le tecnologie necessarie a erigerle.
-Thirdcommand3=Se passi il mouse sull'icona del "teepee", vedrai che a costruirlo servono 30 oro, 50 legna e un Grande Tepee. Inoltre vedrai scritto "-10 senza tetto"  che significa che 10 unità vi troveranno alloggio (anche se alcune unità molto grandi occupano per due o più).
+Thirdcommand3=Se passi il mouse sull'icona del "teepee", vedrai che a costruirlo servono 30 oro, 50 legna e un Grande Tepee. Inoltre vedrai scritto "-10 senza tetto" che significa che 10 unità vi troveranno alloggio (anche se alcune unità molto grandi occupano per due o più).
 Thirdcommand4=Costruisci un teepee adesso. Clicca sul menù delle costruzioni, seleziona il teepee e posizionalo dove c'è spazio.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------

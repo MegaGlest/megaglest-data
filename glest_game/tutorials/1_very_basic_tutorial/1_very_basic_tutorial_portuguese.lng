@@ -30,7 +30,7 @@ FirstCommand=O ícone do primeiro comando é "pare". Se você clicar neste ícon
 SecondCommand=O ícone do segundo comando é "mover-se". Se você clicar nele, você terá que clicar no chão ou outra unidade próxima para definir o destino. Um atalho para este comando é só clicar no botão direito do mouse na posição de destino.
 SecondCommand2=Quando você passar o ponteiro do mouse sobre o ícone do comando 'move', a velocidade do movimento dos trabalhadores é exibida. Este comando também está disponível para todas as unidades.
 
-TestSecondCommand=Experimente o comando  "move" agora. Mova o trabalhador para o outro trabalhador que está esperando fora do seu campo. Esse outro trabalhador é exibido no mini mapa (canto superior esquerdo) como um ponto vermelho. O triângulo branco no mini mapa indica sua localização/posição da câmera. O grande ponto vermelho é o seu Mainteepee.
+TestSecondCommand=Experimente o comando "move" agora. Mova o trabalhador para o outro trabalhador que está esperando fora do seu campo. Esse outro trabalhador é exibido no mini mapa (canto superior esquerdo) como um ponto vermelho. O triângulo branco no mini mapa indica sua localização/posição da câmera. O grande ponto vermelho é o seu Mainteepee.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 

@@ -39,7 +39,7 @@ Welcome=Vítejte v základním MegaGlest tutorialu.
 # MoveBack3=... double-click on a unit to select all nearby units of the same type (workers in this case).
 # HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
 # HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
-# UseHarvestGoldandStone=To use this command, first click on the command icon, then  on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
+# UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
 # HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
 
 ;------------------------------------------Get Wood------------------------------------------
@@ -50,7 +50,7 @@ Welcome=Vítejte v základním MegaGlest tutorialu.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building  will move to this place as soon as they appear.
+# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
 # UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
 # MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
 # Thirdcommand=Now for the worker's third command icon - this is the 'build' command.

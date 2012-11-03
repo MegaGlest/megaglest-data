@@ -18,7 +18,7 @@ NeedWorkers=D'abord, nous avons besoin d'un travailleur. Pour l'obtenir, faites 
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Sélectionnez maintenant = clic gauche de votre travailleur. Donne des  Détails sur l'unité sélectionnée, à savoir le nom de l'unité et une image sont maintenant affichés dans le coin en haut à droite de votre écran. On vois les points de santé (HP), de l armure, et, entre parenthèses, le type d'armure et le champ de visibilité.
+Select=Sélectionnez maintenant = clic gauche de votre travailleur. Donne des Détails sur l'unité sélectionnée, à savoir le nom de l'unité et une image sont maintenant affichés dans le coin en haut à droite de votre écran. On vois les points de santé (HP), de l armure, et, entre parenthèses, le type d'armure et le champ de visibilité.
 Select2=S'il s'agit d'une unité de combat, le nombre d'unités ennemies qu'il a déjà détruit est inscrit à côté. Si elle consomme des ressources, cela est affiché dans le champ suivant. En dessous, elle dit ce que cette unité est en train de faire.
 
 ExampleWorker=Par exemple, votre travailleur a 600 HP, 0 d'armure de cuir et d'une visibilité de 9. Son état actuel est "stop", alors il ne fait rien.
@@ -30,11 +30,11 @@ FirstCommand=La première icône est «stop». Si vous cliquez sur cette icône,
 SecondCommand=La seconde icône est «bouger». Si vous cliquez dessus, vous devrez cliquer sur le sol ou une autre unité pour définir la destination. Un raccourci pour cette commande est de clic-droit à la position de la cible.
 SecondCommand2=Lorsque vous placez le pointeur de la souris sur l'icône de la commande «bouger», la vitesse de déplacement des travailleurs est affiché. Cette commande, aussi, est disponible à toutes les unités (mais pas les bâtiments).
 
-TestSecondCommand=Essayez la commande "bouger"  maintenant. Déplacez votre travailleur à l'autre travailleur qui attend à l'extérieur de votre camp. Cette autre travailleur est affichée sur la carte (en haut à gauche) mini comme un point rouge. Le triangle blanc sur la carte mini indique la position de la caméra. Le gros point rouge est votre Mainteepee.
+TestSecondCommand=Essayez la commande "bouger" maintenant. Déplacez votre travailleur à l'autre travailleur qui attend à l'extérieur de votre camp. Cette autre travailleur est affichée sur la carte (en haut à gauche) mini comme un point rouge. Le triangle blanc sur la carte mini indique la position de la caméra. Le gros point rouge est votre Mainteepee.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-MoveBack=Bien joué. Maintenant, faites le revennir du  travail au Mainteepee. Pour sélectionner plusieurs unités, appuyez sur Maj et dessinez un rectangle de sélection autour de vos unités OU ...
+MoveBack=Bien joué. Maintenant, faites le revennir du travail au Mainteepee. Pour sélectionner plusieurs unités, appuyez sur Maj et dessinez un rectangle de sélection autour de vos unités OU ...
 MoveBack2=... maintenez la touche MAJ, puis utilisez votre souris pour cliquer sur chaque unité que vous souhaitez inclure ou encore ...
 MoveBack3=... double-cliquez sur une unité pour sélectionner toutes les unités à proximité du même type (les travailleurs dans ce cas).
 HarvestGoldandStone=Lorsque vos unités ont atteint la maison, nous allons utiliser le quatrième icône qui est destiné à la récolte d'or et de pierres.
@@ -52,8 +52,8 @@ GetWood=Pour un autre indice, vous pouvez utilisé n'importe quelle commande de 
 
 MeetingPoint=Lorsque vous sélectionnez un bâtiment, une flèche bleue est affichée. Cette flèche pointe vers le "point de rassemblement". Toutes les unités que vous produisez dans ce bâtiment se déplace à cet endroit dès qu'ils apparaissent.
 UseMeetingPoint=Vous pouvez déplacer le point de rassemblement, aussi. Cliquez sur l'icône du drapeau, puis sur la position où le nouveau point de rencontre doit être situé. Ici aussi, vous pouvez faire simple clic-droit sur le nouveau lieu (tout comme vous pouvez le faire pour le déplacement).
-MeetingPoint2=Si vous placez le point d'assemblage sur une ressource, les nouveaux travailleurs  vont immédiatement commencer à récolter. Assurez-vous que vous avez cliqué au bon endroit, sinon vos travailleurs seront se baladerons sur la carte sans rien faire.
-Thirdcommand=La troisième icône du travailleur est  «construire».
+MeetingPoint2=Si vous placez le point d'assemblage sur une ressource, les nouveaux travailleurs vont immédiatement commencer à récolter. Assurez-vous que vous avez cliqué au bon endroit, sinon vos travailleurs seront se baladerons sur la carte sans rien faire.
+Thirdcommand=La troisième icône du travailleur est «construire».
 Thirdcommand2=En cliquant dessus vous entrez dans le menu de construction. Si vous placez l'une des icônes de construction avec le pointeur de votre souris, vous pouvez voir, sous la rubrique «exigences», toutes les ressources et les réalisations dont vous avez besoin pour cela.
 Thirdcommand3=Si vous survolez la tente, vous verrez que cela prend 30 d'or, 50 bois, -10 logement et un tipi principal. «-10 Logement» signifie que la construction d'une tente vous permet le logement pour dix unités supplémentaires (même si certaines unités peuvent avoir besoin plus d'un tipi).
 Thirdcommand4=Bâtissons une tente maintenant. Cliquez sur le menu de construction, puis sur la tente, et le placer sur un endroit vide.
@@ -69,7 +69,7 @@ ProduceStickfighter2=Objectif: Former un combattant utilisant le bâton.
 MoveWorker=Objectif: déplacer nouveau votre travailleur à l'autre travailleur qui attend à l'extérieur de votre camp.
 HarvestGoldandStoneobjective=Objectif: Moisson d'or et de pierres jusqu'à avoir un total de 600 pièces d'or et 550 en pierre.
 GetWoodob=Objectif: La récolte de bois jusqu'à en avoir un total de 550.
-Usethirdcommand=Objectif: Construire un tente: Si la tente devient rouge, cela signifie que cet emplacement est actuellement (ou en général) pris ou qu'il est sur un objet   (par exemple une autre unité ou un arbre).
+Usethirdcommand=Objectif: Construire un tente: Si la tente devient rouge, cela signifie que cet emplacement est actuellement (ou en général) pris ou qu'il est sur un objet (par exemple une autre unité ou un arbre).
 
 ;end
 

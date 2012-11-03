@@ -65,7 +65,7 @@ ProduceStickfighter='S urrainn dhut cathaiche bata (stick fighter) a thrèanadh 
 
 ;objective strings
 ProduceWorker=Ceann-uidhe: Dèan obraiche (Worker).
-ProduceStickfighter2=Ceann-uidhe:  Dèan trèanadh air cathaiche bata (Stick Fighter).
+ProduceStickfighter2=Ceann-uidhe: Dèan trèanadh air cathaiche bata (Stick Fighter).
 MoveWorker=Ceann-uidhe: Gluais an t-obraiche ùr agad gu far a bheil an t-obraiche eile agad a' feitheamh taobh a-muigh an campa agad.
 HarvestGoldandStoneobjective=Ceann-uidhe: Tochail òr is clach gus am bi 600 aonad dhe dh'òr is 550 aonad dhe chlach agad.
 GetWoodob=Ceann-uidhe: Buain maide gus am bi 550 aonad dhe mhaide agad.

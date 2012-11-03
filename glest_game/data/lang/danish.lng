@@ -91,7 +91,7 @@ DataMissingTilesetNowDownloading=Spiller: %s forsøger at overfører kortdekorat
 DataMissingTechtreeNowDownloading=Spiler: %s forsøger at overføre teknotræet: %s
 DataMissingMapSuccessDownload=Spiller: %s sucessfuldt overførte kortet: %s
 DataMissingMapFailDownload=Spiller: %s Overførsel af kortet: [%s] fejlede CURL version blev brugt [%s]
-DataMissingTilesetSuccessDownload=Spiller: %s overførsel af kortdekoration: %s  var sucessfuld
+DataMissingTilesetSuccessDownload=Spiller: %s overførsel af kortdekoration: %s var sucessfuld
 DataMissingTilesetFailDownload=Spiller: %s Overførsel af kortdekorationssæt: [%s] fejlede CURL version blev brudt [%s]
 DataMissingTechtreeSuccessDownload=Spiller: %s har sucessfyldt overført teknotræ: %s
 DataMissingTechtreeFailDownload=Spiller: %s Teknotræ overførsel fejlede: [%s] using CURL version [%s]
@@ -304,7 +304,7 @@ ModSelectTilesetToInstall=Du må først vælge et kortdekorationsset at installe
 ModRemoveTilesetConfirm=Er du sikker på du vil fjerne kortdekorationssættet: %s ?
 ModCannotRemoveTilesetNotInstalled=Du har ikke kort dekorationssæt: %s Installeret, Fjernelse afbrudt
 ModSelectTilesetToRemove=Du skal først vælge et kortdekorationssæt for at fjerne det.
-ModDownloadTilesetSuccess=Kortdekorationsættet: %s  var sucessfuldt overført
+ModDownloadTilesetSuccess=Kortdekorationsættet: %s var sucessfuldt overført
 ModDownloadTilesetFail=Overførslen af kordekorationssættet: [%s] fejlde ved brug CURL version [%s] [%s]
 
 ModMapAlreadyInstalled=Du har allerede kortet: %s installeret.

@@ -216,7 +216,7 @@ NothingSelected=No has seleccionado nada
 LoadGameDeletingFile=Tratando de borrar el archivo: '%s'
 LoadGameLoadingFile=Tratando de cargar el archivo: '%s'
 # SavedGameBadVersion=saved game version does match your application version: [%s] --> [%s]
-LoadSavedGameInfo=Mapa: %s⏎ Tileset: %s⏎ Tech: %s⏎ Scenario: %s⏎ # players: %d⏎ Faction: %s
+LoadSavedGameInfo=Mapa: %s\nTileset: %s\nTech: %s\nScenario: %s\n# players: %d\nFaction: %s
 
 LoadedSpeed=Velocidad de carga
 Loading=Cargando...
