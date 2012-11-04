@@ -217,7 +217,6 @@ LoadGameDeletingFile=Tentando apagar o arquivo: '%s'
 LoadGameLoadingFile=Tentando carregar arquivo: '%s'
 SavedGameBadVersion=versão do jogo salvo é compativel com sua versão: [%s] --> [%s]
 LoadSavedGameInfo=Mapa: %s\nTileset: %s\nTech: %s\nCenário: %s\n# Jogadores: %d\nFacção: %s
-
 LoadedSpeed=Velocidade Quando Carregado
 Loading=Carregando
 LocalTime=Local:
@@ -521,52 +520,36 @@ IntroText6=http://megaglest.org
 IntroStartMilliseconds6=16000
 IntroModelStartMilliseconds=24000
 IntroTextureStartMilliseconds=26000
-
-;IntroTextX1=
-;IntroTextY1=
-;IntroTextFontType1=
-;IntroTextX2=
-;IntroTextY2=
-;IntroTextFontType2=
-;IntroTextX3=
-;IntroTextY3=
-;IntroTextFontType3=
-;IntroText4=
-;IntroTextX6=
-;IntroTextY6=
-;IntroTextFontType6=
-;IntroText7=
-;IntroTexture7=
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
 ISO639-1=pt
 NativeLanguageName=português
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
-;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
-;FONT_SCALE_SIZE=1.0
-;FONT_SCALE_CENTERH_FACTOR=
-;FONT_BASE_SIZE=3
-;FONT_CHARCOUNT=256
-;FONT_CHARSET=
-;FONT_HEIGHT_TEXT=
-;FONT_MULTIBYTE=0
-;FONT_RIGHTTOLEFT=0
-;FONT_TYPENAME=0
+# MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
+# MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
+# FONT_SCALE_SIZE=0.8
+# FONT_SCALE_CENTERH_FACTOR=4.0
+# FONT_BASE_SIZE=3
+FONT_CHARCOUNT=256
+# FONT_CHARSET=1
+# FONT_HEIGHT_TEXT=yW
+# FONT_MULTIBYTE=false
+# FONT_RIGHTTOLEFT=false
+# FONT_TYPENAME=Times New Roman
 
-;FontDisplayPrefix=
-;FontDisplayPostfix=
-;FontDisplayBaseSize=
-;FontDisplaySmallBaseSize=
-;FontMenuNormalPrefix=
-;FontMenuNormalPostfix=
-;FontMenuNormalBaseSize=
-;FontMenuBigPrefix=
-;FontMenuBigPostfix=
-;FontMenuBigBaseSize=
-;FontMenuVeryBigBaseSize=
-;FontConsolePrefix=
-;FontConsolePostfix=
-;FontConsoleBaseSize=
+# FontDisplayBaseSize=12
+# FontDisplayPostfix=-*-*-*-*-*-*-*
+# FontDisplayPrefix=-*-arial-*-r-*-*-
+# FontDisplaySmallBaseSize=12
+# FontMenuNormalBaseSize=14
+# FontMenuNormalPostfix=-*-*-*-*-*-*-*
+# FontMenuNormalPrefix=-*-arial-*-r-*-*-
+# FontMenuBigBaseSize=20
+# FontMenuBigPostfix=-*-*-*-*-*-*-*
+# FontMenuBigPrefix=-*-arial-*-r-*-*-
+# FontMenuVeryBigBaseSize=25
+# FontConsoleBaseSize=14
+# FontConsolePostfix=-*-*-*-*-*-*-*
+# FontConsolePrefix=-*-arial-*-r-*-*-
 

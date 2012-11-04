@@ -201,7 +201,7 @@ Load=Завантажити
 # LoadGame=Load Saved Game
 # LoadGameMenu=Load Saved Games
 # LuaDisableSecuritySandbox=Disable Lua script Security Sandbox
-# LuaDisableSecuritySandboxWarning=Disabling this setting will allow lua scripts that\npotentially contain dangerous behavior\nare you sure that you want to allow this?
+# LuaDisableSecuritySandboxWarning=Enabling this setting will allow lua scripts that\npotentially contain dangerous behavior\nare you sure that you want to allow this?
 # MaxMarkerCount=You cannot add more markers, the maximum allowed is:
 # ModCenter=Mod Center
 # GameHost=Host Server
@@ -215,9 +215,8 @@ Load=Завантажити
 # LeftAt=Player left at:
 # LoadGameDeletingFile=Trying to delete file: '%s'
 # LoadGameLoadingFile=Trying to load file: '%s'
-# SavedGameBadVersion=saved game version does match your application version: [%s] --> [%s]
+# SavedGameBadVersion=Saved game version does not match your application version: [%s] --> [%s]
 # LoadSavedGameInfo=Map: %s\nTileset: %s\nTech: %s\nScenario: %s\n# players: %d\nFaction: %s
-
 LoadedSpeed=Швидкість завантаження
 Loading=Завантаження
 # LocalTime=Local:
@@ -521,51 +520,36 @@ YouWin=Ви виграли
 # IntroStartMilliseconds6=16000
 # IntroModelStartMilliseconds=24000
 # IntroTextureStartMilliseconds=26000
-
-;IntroTextX1=
-;IntroTextY1=
-;IntroTextFontType1=
-;IntroTextX2=
-;IntroTextY2=
-;IntroTextFontType2=
-;IntroTextX3=
-;IntroTextY3=
-;IntroTextFontType3=
-;IntroText4=
-;IntroTextX6=
-;IntroTextY6=
-;IntroTextFontType6=
-;IntroText7=
-;IntroTexture7=
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
 ISO639-1=uk
 NativeLanguageName=українська мова
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
-;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
+# MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
+# MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
 FONT_SCALE_SIZE=1.0
+# FONT_SCALE_CENTERH_FACTOR=4.0
 FONT_BASE_SIZE=-2
-;FONT_CHARCOUNT=256
-;FONT_CHARSET=
-;FONT_HEIGHT_TEXT=
-;FONT_MULTIBYTE=0
-;FONT_RIGHTTOLEFT=0
-;FONT_TYPENAME=0
+# FONT_CHARCOUNT=256
+# FONT_CHARSET=1
+# FONT_HEIGHT_TEXT=yW
+# FONT_MULTIBYTE=false
+# FONT_RIGHTTOLEFT=false
+# FONT_TYPENAME=Times New Roman
 
-;FontDisplayPrefix=
-;FontDisplayPostfix=
-;FontDisplayBaseSize=
-;FontDisplaySmallBaseSize=
-;FontMenuNormalPrefix=
-;FontMenuNormalPostfix=
-;FontMenuNormalBaseSize=
-;FontMenuBigPrefix=
-;FontMenuBigPostfix=
-;FontMenuBigBaseSize=
-;FontMenuVeryBigBaseSize=
-;FontConsolePrefix=
-;FontConsolePostfix=
-;FontConsoleBaseSize=
+# FontDisplayBaseSize=12
+# FontDisplayPostfix=-*-*-*-*-*-*-*
+# FontDisplayPrefix=-*-arial-*-r-*-*-
+# FontDisplaySmallBaseSize=12
+# FontMenuNormalBaseSize=14
+# FontMenuNormalPostfix=-*-*-*-*-*-*-*
+# FontMenuNormalPrefix=-*-arial-*-r-*-*-
+# FontMenuBigBaseSize=20
+# FontMenuBigPostfix=-*-*-*-*-*-*-*
+# FontMenuBigPrefix=-*-arial-*-r-*-*-
+# FontMenuVeryBigBaseSize=25
+# FontConsoleBaseSize=14
+# FontConsolePostfix=-*-*-*-*-*-*-*
+# FontConsolePrefix=-*-arial-*-r-*-*-
 

@@ -201,7 +201,7 @@ Load=加载
 # LoadGame=Load Saved Game
 # LoadGameMenu=Load Saved Games
 # LuaDisableSecuritySandbox=Disable Lua script Security Sandbox
-# LuaDisableSecuritySandboxWarning=Disabling this setting will allow lua scripts that\npotentially contain dangerous behavior\nare you sure that you want to allow this?
+# LuaDisableSecuritySandboxWarning=Enabling this setting will allow lua scripts that\npotentially contain dangerous behavior\nare you sure that you want to allow this?
 # MaxMarkerCount=You cannot add more markers, the maximum allowed is:
 # ModCenter=Mod Center
 # GameHost=Host Server
@@ -215,9 +215,8 @@ Load=加载
 # LeftAt=Player left at:
 # LoadGameDeletingFile=Trying to delete file: '%s'
 # LoadGameLoadingFile=Trying to load file: '%s'
-# SavedGameBadVersion=saved game version does match your application version: [%s] --> [%s]
+# SavedGameBadVersion=Saved game version does not match your application version: [%s] --> [%s]
 # LoadSavedGameInfo=Map: %s\nTileset: %s\nTech: %s\nScenario: %s\n# players: %d\nFaction: %s
-
 LoadedSpeed=加载速度
 Loading=加载中
 # LocalTime=Local:
@@ -521,22 +520,6 @@ YouWin=你赢了!
 # IntroStartMilliseconds6=16000
 # IntroModelStartMilliseconds=24000
 # IntroTextureStartMilliseconds=26000
-
-;IntroTextX1=
-;IntroTextY1=
-;IntroTextFontType1=
-;IntroTextX2=
-;IntroTextY2=
-;IntroTextFontType2=
-;IntroTextX3=
-;IntroTextY3=
-;IntroTextFontType3=
-;IntroText4=
-;IntroTextX6=
-;IntroTextY6=
-;IntroTextFontType6=
-;IntroText7=
-;IntroTexture7=
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL
@@ -547,20 +530,26 @@ MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
 MEGAGLEST_FONT_FAMILY=WenQuanYi Zen Hei:style=Regular
 FONT_SCALE_SIZE=0.9
 FONT_SCALE_CENTERH_FACTOR=3.0
-FONT_MULTIBYTE=true
+# FONT_BASE_SIZE=3
 FONT_CHARCOUNT=30000
 FONT_CHARSET=134
-FontConsoleBaseSize=18
-FontConsolePostfix=-*-*-*-*-160-gb2312.1980-0
-FontConsolePrefix=-*-*-*-*-*-*-
+# FONT_HEIGHT_TEXT=yW
+FONT_MULTIBYTE=true
+# FONT_RIGHTTOLEFT=false
+# FONT_TYPENAME=Times New Roman
+
 FontDisplayBaseSize=12
 FontDisplayPostfix=-*-*-*-*-160-gb2312.1980-0
 FontDisplayPrefix=-*-*-*-*-*-*-
 FontDisplaySmallBaseSize=12
-FontMenuBigBaseSize=20
-FontMenuBigPostfix=-*-*-*-*-160-gb2312.1980-0
-FontMenuBigPrefix=-*-*-*-*-*-*-
 FontMenuNormalBaseSize=14
 FontMenuNormalPostfix=-*-*-*-*-160-gb2312.1980-0
 FontMenuNormalPrefix=-*-*-*-*-*-*-
+FontMenuBigBaseSize=20
+FontMenuBigPostfix=-*-*-*-*-160-gb2312.1980-0
+FontMenuBigPrefix=-*-*-*-*-*-*-
 FontMenuVeryBigBaseSize=25
+FontConsoleBaseSize=18
+FontConsolePostfix=-*-*-*-*-160-gb2312.1980-0
+FontConsolePrefix=-*-*-*-*-*-*-
+

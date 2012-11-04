@@ -201,6 +201,7 @@ Load=Eallach
 LoadGame=Luchdaich geama
 LoadGameMenu=Luchdaich geamannan air an sàbhaladh
 LuaDisableSecuritySandbox=Sandbox tèarainteachd sgriobt Lua à comas
+LuaDisableSecuritySandboxWarning=Ma chuireas tu an rèiteachadh seo à comas,\nceadaichidh tu sgrobtaichean Lua a dh'fhaodadh\na bhith cunnartach.\nAm bu toil leat seo a dhèanamh le cinnt?
 MaxMarkerCount=Chan urrainn dhut barrachd chomharraidhean a chur ris, chan eil ceadaichte ach:
 ModCenter=Ionad nan tuilleadan
 GameHost=Frithealaiche òstair
@@ -216,7 +217,6 @@ LoadGameDeletingFile=A' feuchainn ri sguabadh às dha dh'fhaidhle: '%s'
 LoadGameLoadingFile=A' feuchainn ri faidhle a luchdadh: '%s'
 SavedGameBadVersion=chan eil tionndadh a' gheama ri luchdadh co-ionnan ri tionndadh an aplacaid: [%s] --> [%s]
 LoadSavedGameInfo=Mapa: %s\nBuidhean leacan: %s\nTeicneolas: %s\nCnàmh-sgeul: %s\nCluicheadairean: %d\nBuidheann: %s
-
 LoadedSpeed=Luaths le eallach
 Loading=A' luchdadh
 LocalTime=Fìor:
@@ -520,52 +520,36 @@ IntroText6=http://megaglest.org
 IntroStartMilliseconds6=16000
 IntroModelStartMilliseconds=24000
 IntroTextureStartMilliseconds=26000
-
-;IntroTextX1=
-;IntroTextY1=
-;IntroTextFontType1=
-;IntroTextX2=
-;IntroTextY2=
-;IntroTextFontType2=
-;IntroTextX3=
-;IntroTextY3=
-;IntroTextFontType3=
-;IntroText4=
-;IntroTextX6=
-;IntroTextY6=
-;IntroTextFontType6=
-;IntroText7=
-;IntroTexture7=
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
 ISO639-1=gd
 NativeLanguageName=Gàidhlig
-;MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
-;MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
-;FONT_SCALE_SIZE=1.0
-;FONT_SCALE_CENTERH_FACTOR=
-;FONT_BASE_SIZE=3
-;FONT_CHARCOUNT=256
-;FONT_CHARSET=
-;FONT_HEIGHT_TEXT=
-;FONT_MULTIBYTE=0
-;FONT_RIGHTTOLEFT=0
-;FONT_TYPENAME=0
+MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
+MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
+FONT_SCALE_SIZE=0.8
+FONT_SCALE_CENTERH_FACTOR=4.0
+FONT_BASE_SIZE=3
+FONT_CHARCOUNT=256
+FONT_CHARSET=1
+FONT_HEIGHT_TEXT=yW
+FONT_MULTIBYTE=false
+FONT_RIGHTTOLEFT=false
+FONT_TYPENAME=Times New Roman
 
-;FontDisplayPrefix=
-;FontDisplayPostfix=
-;FontDisplayBaseSize=
-;FontDisplaySmallBaseSize=
-;FontMenuNormalPrefix=
-;FontMenuNormalPostfix=
-;FontMenuNormalBaseSize=
-;FontMenuBigPrefix=
-;FontMenuBigPostfix=
-;FontMenuBigBaseSize=
-;FontMenuVeryBigBaseSize=
-;FontConsolePrefix=
-;FontConsolePostfix=
-;FontConsoleBaseSize=
+FontDisplayBaseSize=12
+FontDisplayPostfix=-*-*-*-*-*-*-*
+FontDisplayPrefix=-*-arial-*-r-*-*-
+FontDisplaySmallBaseSize=12
+FontMenuNormalBaseSize=14
+FontMenuNormalPostfix=-*-*-*-*-*-*-*
+FontMenuNormalPrefix=-*-arial-*-r-*-*-
+FontMenuBigBaseSize=20
+FontMenuBigPostfix=-*-*-*-*-*-*-*
+FontMenuBigPrefix=-*-arial-*-r-*-*-
+FontMenuVeryBigBaseSize=25
+FontConsoleBaseSize=14
+FontConsolePostfix=-*-*-*-*-*-*-*
+FontConsolePrefix=-*-arial-*-r-*-*-
 
