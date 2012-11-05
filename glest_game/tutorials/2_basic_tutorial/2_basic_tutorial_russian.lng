@@ -1,12 +1,11 @@
-; Russian lang file
-;Заголовки сообщений
+;message headers
 GlestBasicTutorial=Базовое руководство MegaGlest
 WellDone=Отлично!
 Resources=Ресурсы
 Combat=Битва
 Buildings=Строения
 
-;Строки сообщений
+;message strings
 Welcome=Добро пожаловать в Базовое руководство MegaGlest. Здесь вы узнаете основы игры.
 WillBeUsingTech=Вы находитесь в команде расы Tech, которая использует средневековых воинов и механические устройства для битв.
 NeedWorkers=Для сбора средств необходимы работники. Для их производства сначала выберите Замок (Castle), затем используйте команду "Produce Worker" (значок).
@@ -27,7 +26,7 @@ HaveWarriorsAtBase=Вы всегда должны иметь некоторое 
 ArcherBrief=Лучники - тоже базовые воины расы Tech. Они также производятся в казармах.
 ProduceWarriors=Содавайте много воинов, чтобы защищать свою базу от вражеских атак.
 
-;Строки заданий
+;objective strings
 ProduceWorkers=Цель: Произвести 3 работников.
 HarvestWoodAndStone=Цель: Добыть 100 единиц дерева (Wood) и 150 камня (Stone).
 ProduceCow=Цель: Вырастить корову (Cow).

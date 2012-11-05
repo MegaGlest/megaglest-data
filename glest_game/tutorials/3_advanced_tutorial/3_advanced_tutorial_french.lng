@@ -1,38 +1,38 @@
 ;message headers
 GlestAdvancedTutorial=Tutoriel Avancé MegaGlest
-Promoting=Evolution des Unités
+Promoting=Évolution des Unités
 WellDone=Bien Joué!
 Summoning=Invocation
-Energy=Energie
+Energy=Énergie
 Ritual=Rituel
 Armies=Armées
 
 ;message strings
 Welcome=Bienvenue dans le tutoriel avancé de MegaGlest, ici vous allez apprendre une partie des fonctionnalités les plus avancées du jeu.
-MagicBrief=Vous commandez la faction des Magiciens, qui utilise des mages et des créatures pour combattre.
-InitiateBrief=Les Initiés sont les unités de base des Magiciens, ils peuvent récolter des ressources et construire des batiments.
-InitiatePromotion=Les Initiés peuvent se transformer en Mages de combat. Pour cela, sélectionnez un Initié, et utilisez la commande "Promote to Battlemage".
-BattlemageBrief=Les Mages de combat sont le coeur des guerriers Magiciens, Ils possèdent de puissantes attaques à distance ainsi qu'une bonne vitesse et résistance.
-EnergyBrief=La production de Magiciens nécessite de l'énergie. L'énergie n'est pas consommée comme la nourriture, mais est uniquement requise à la création de l'unité. Elle est produite par les Sources d'Energie.
-EnergyBrief2=Assurez-vous de toujours avoir suffisament d'énergie pour produire de nouvelles unités.
-SummonedUnitsBrief=L'autre façon de produire des unités est de les invoquer. Pour cela vous avez besoin d'un Invocateur. Ils sont produits par la Guilde des Invocateurs.
+MagicBrief=Vous commandez la faction des Magiciens, qui utilise des mages et des créatures invoquées pour combattre.
+InitiateBrief=Les Initiés (Initiate) sont les unités de base des Magiciens, ils peuvent récolter des ressources et construire des bâtiments.
+InitiatePromotion=Les Initiés peuvent se transformer en Mages de combat (Battlemage). Pour cela, sélectionnez un Initié, et utilisez la commande "Promote to Battlemage".
+BattlemageBrief=Les Mages de combat sont le cœur des guerriers Magiciens, ils possèdent de puissantes attaques à distance ainsi qu'une bonne vitesse et une bonne résistance.
+EnergyBrief=La production de Magiciens nécessite de l'énergie. L'énergie n'est pas consommée comme la nourriture, mais est uniquement requise à la création de l'unité. Elle est produite par les Sources d’Énergie.
+EnergyBrief2=Assurez-vous de toujours avoir suffisamment d'énergie pour produire de nouvelles unités.
+SummonedUnitsBrief=L'autre façon de produire des unités est de les invoquer. Pour cela vous avez besoin d'un Invocateur (Summoner). Ils sont produits par la Guilde des Invocateurs.
 SummonerBrief=Les Invocateurs sont capables de créer differents types de créatures, la plus basique étant le Démon.
-DaemonBrief=Les Démons sont faibles, mais trés bon marché. Ils sont utiles comme des guerriers de mêlée ainsi que le "scouting".
-OtherSummonedCreatures=Les Ivocateurs peuvent créer des créatures plus avancées, comme des Fantômes et des Dragons, cependant il vous faudra rechercher les mises à niveau correspondantes.
-GhostArmorRequirements=Les fantômes nessitent la mise à niveau "Ancient Summonig", qui peut être faite à la "Guilde des Invocateurs".
+DaemonBrief=Les Démons sont faibles, mais trés bon marché. Ils sont utiles comme des guerriers de mêlée ainsi qu'en tant qu'éclaireurs.
+OtherSummonedCreatures=Les Invocateurs peuvent créer des créatures plus avancées, comme des Fantômes et des Dragons, cependant il vous faudra rechercher les mises à niveau correspondantes.
+GhostArmorRequirements=Les fantômes nécessitent la mise à niveau "Ancient Summonig", qui peut être faite à la "Guilde des Invocateurs".
 GhostArmorBrief=Les Fantômes sont des unités de mêlée moyenne, utiles pour tenir les guerriers ennemis à distance de vos Mages.
-RitualBrief=Les Initiés ont une autre possibilité, le Rituel, utilisée pour créer des batiments avancés et des créatuers trés puissantes comme le Golem. Vous aurez besoin d'une bibliothèque pour pouvoir l'utiliser.
-GolemBrief=Les Golems sont d'excellentes unités de défense. Ils ont des attaques trés puissantes et une excellente résistance, mais ne peuvent se déplacer que s'ils ont suffisament de points d'énergie.
+RitualBrief=Les Initiés ont une autre possibilité, le Rituel, utilisée pour créer des bâtiments avancés et des créatures très puissantes comme le Golem. Vous aurez besoin d'une bibliothèque pour pouvoir l'utiliser.
+GolemBrief=Les Golems sont d'excellentes unités de défense. Ils ont des attaques très puissantes et une excellente résistance, mais ne peuvent se déplacer que s'ils ont suffisamment de points d'énergie.
 ArmyManagement=Plus vous produisez d'unités, plus elles deviennent difficile à gérer.
-DoubleClickBrief=En double cliquant sur une unité, Cela sélectionne toutes les unités du même type aux alentours.
+DoubleClickBrief=En double cliquant sur une unité, cela sélectionne toutes les unités du même type aux alentours.
 GroupSelectBrief=Vous pouvez définir des groupes d'unités en les sélectionnant et en pressant Control et une touche numérique, puis vous pouvez sélectionner le groupe en pressant à nouveau la touche numérique.
 FinalMission=Comme test final, construisez une armée et battez votre adversaire.
 
 ;objective strings
-PromoteInitiate=Objectif: Faites évoluer un Initié en Mage.
-ProduceSummoner=Objectif: Construisez une Guilde des Invocateurs, puis produisez un Invocateur.
-ProduceDaemon=Objectif: Invoquez un Démon.
-ProduceGhostArmor=Objectif: Rechercher "Ancient Summoning", puis invoquez un Fantôme.
-BuildEnergySource=Objectif: Construisez une source d'énergie.
-ProduceGolem=Objectif: Construisez une bibliothèque puis utilisez un Initié et effectuez un rituel opur créer un Golem.
-DefeatEnemy=Objectif: Construisez une armée, trouvez et détruisez votre ennemi.
+PromoteInitiate=Objectif : Faites évoluer un Initié en Mage.
+ProduceSummoner=Objectif : Construisez une Guilde des Invocateurs, puis produisez un Invocateur.
+ProduceDaemon=Objectif : Invoquez un Démon.
+ProduceGhostArmor=Objectif : Recherchez "Ancient Summoning", puis invoquez un Fantôme.
+BuildEnergySource=Objectif : Construisez une source d'énergie.
+ProduceGolem=Objectif : pour créer un Golem.
+DefeatEnemy=Objectif : Construisez une armée, trouvez et détruisez votre ennemi.
