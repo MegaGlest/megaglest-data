@@ -524,7 +524,7 @@ YouWin=你赢了!
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
-ISO639-1=zh
+ISO639-1=zh-cn
 NativeLanguageName=中文 (Zhōngwén), 汉语, 漢語
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
 MEGAGLEST_FONT_FAMILY=WenQuanYi Zen Hei:style=Regular
