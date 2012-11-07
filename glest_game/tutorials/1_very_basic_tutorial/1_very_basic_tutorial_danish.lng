@@ -1,0 +1,76 @@
+;message headers
+GlestBasicTutorial=Megaglest begynder kursus
+WellDone=Godt klaret!
+Resources=Resources
+Combat=Kamp
+Buildings=Bygninger
+Tricks=Tricks
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Velkommen til Megaglest basis kursus
+
+FirstThing=Udsigt:For at justere det synlige område. flyt din muse makør til kanten af din skærm, eller brug pile tasterne. En anden måde er at venstre klikke på dit minimap(øverste venstre hjørne af din skærm).
+
+WillBeUsingIndian=I denne introduktion, Kommandere du Indianerene. Den indianske faktion slås med bueskytter og simple våben
+
+NeedWorkers=Først skal vi bruge en arbejder. Få at få en, venstre klik på Mainteepee og start træningen af en arbejder. For at gøre dette skal du bruge "produce worker" kommandoen ved at trykke på arbejder ikonet
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Venstre klik nu på din arbejder. Detailjerne for den valgte enhed, Navnligt Enhedens navn og billede er nu vist i højre øverste hjørne af din skærm. Nedenunder er vist (liv point), armor, og i parenteser armor type og hvor langt enheden kan (se).
+Select2=Hvis dette er en kamp enhed,vil antallet af fjender den har ødelagt blive vist herefter. hvis enheden bruger resourcer, det blive vist i det følgende felt. Nedenunder dette vil der stå hvad enhedens er beordret til lige nu
+
+# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+
+Command=Enhedens evner er vist længere nede. Nu skal vi til hvilken kommandoer denne enhed kan udfører
+
+# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+
+# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
+# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+
+# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Godt. Lad nu begge arbejdere retunere til "Mainteepee". For at vælge flere enheder på en gang. Hold shift nede og flyt musen til du har en firkantet boks rundt om dine enheder eller ...
+MoveBack2=... Hold shift nede, og så klik på hver enkelt enhed du vil have valgt eller...
+MoveBack3=... dobbelt-klik på en enhed for at vælge alle enheder af den samme typer (arbejdere i dette tilfælde).
+# HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
+# HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
+# UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
+# HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
+
+;------------------------------------------Get Wood------------------------------------------
+
+# HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
+# ResourceInformation=By the way, the indian faction mostly needs gold and wood.
+# GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
+# UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
+# MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
+# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
+# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
+# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
+# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+# ProduceStickfighter=You can now train a stick fighter in your new tent.
+
+;objective strings
+# ProduceWorker=Objective: Train one worker.
+# ProduceStickfighter2=Objective: Train one stick fighter.
+# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
+# HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
+# GetWoodob=Objective: Harvest wood until you have 550.
+# Usethirdcommand=Objective: Build a tent.Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+
+;end
+
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

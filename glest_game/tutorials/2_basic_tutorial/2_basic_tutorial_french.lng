@@ -1,24 +1,24 @@
 ;message headers
 GlestBasicTutorial=Tutoriel Standard MegaGlest
-WellDone=Bien joué!
+WellDone=Bien joué !
 Resources=Ressources
 Combat=Combat
 Buildings=Constructions
 
 ;message strings
-Welcome=Bienvenue sur le tutoriel standard de MegaGlest. Ici vous apprendrez les bases du jeu.
+Welcome=Bienvenue dans le tutoriel standard de MegaGlest. Ici vous apprendrez les bases du jeu.
 WillBeUsingTech=Vous commandez la faction des Tech, qui utilise des chevaliers du moyen âge et des engins mécaniques pour le combat.
-NeedWorkers=Pour récolter des ressources, vous aurez besoin de travailleurs. Pour en produire sélectionnez le chateau puis utilisez la commande "Produce Worker".
+NeedWorkers=Pour récolter des ressources, vous aurez besoin de 'Worker' ("Travailleurs"). Pour en produire, sélectionnez le château puis utilisez la commande "Produce Worker".
 SelectAndCommand=Les unités sont sélectionnées en faisant un clic gauche dessus, les ordres sont donnés par un clic droit sur une cible ou sur le sol.
-HowToMine=Pour ramasser de l'or, sélectionnez un travailleur, puis cliquez avec le bouton droit sur une pierre d'or.
+HowToMine=Pour ramasser de l'or, sélectionnez un travailleur, puis cliquez avec le bouton droit sur une mine d'or.
 WorkersKeepOnHarvesting=Les travailleurs vont continuer à récolter les ressources et les ramener dans un bâtiment capable de les stocker.
 ResourceInformation=Les informations sur les ressources sont affichées en haut de l'écran, la valeur de gauche étant le montant actuel, celle de droite la capacité de stockage total.
 OtherResources=Les autres ressources telles que le bois ou la pierre sont récoltées de la même façon que l'or.
 TechResourceNeeds=La faction Tech a besoin de beaucoup d'or et de bois, ainsi qu'un peu de pierres..
-TechConsumesFood=Chaque unité de la faction Tech consomme de la nourriture. Sans nourriture les unités seront affamées et mourront de faim. La nourriture est produite par les animaux d'élevage. Les animaux sont élevés à la ferme.
-HaveEnoughAnimals=Souvenez-vous de toujours disposer de suffisament d'animaux pour nourrir vos unités.
+TechConsumesFood=Chaque unité de la faction Tech consomme de la nourriture. Sans nourriture, les unités seront affamées et mourront de faim. La nourriture est produite par les animaux d'élevage. Les animaux sont élevés à la ferme.
+HaveEnoughAnimals=Souvenez-vous de toujours disposer de suffisamment d'animaux pour nourrir vos unités.
 BalanceDisplay=L'équilibre entre la consommation et la production de nourriture est affichée entre parenthèses à coté des stocks de nourriture en haut de l'écran.
-TechWarriorsAtBarracks=Pour vaincre votre ennemi vous aurez besoin de guerriers ; la plupart des guerriers Tech sont produits dans les casernes..
+TechWarriorsAtBarracks=Pour vaincre votre ennemi vous aurez besoin de guerriers ; la plupart des guerriers Tech sont produits dans les casernes.
 HowToBuildBarracks=Pour construire une caserne sélectionnez un travailleur, cliquez sur "Build Basic" > "Barracks" puis sélectionnez un emplacement pour le bâtiment.
 RememberToBuildBarracks=Souvenez-vous de toujours construire une caserne dès le début de la partie, cela vous permettra de créer des guerriers rapidement.
 SwordmanBrief=Le guerrier de base des Tech est le "Swordman" (l'épéiste). Sélectionnez une caserne, puis cliquez sur "Produce Swordman" pour en créer un. Assurez-vous d'avoir suffisamment de ressources.
@@ -30,8 +30,8 @@ ProduceWarriors=Produisez quelques guerriers supplémentaires pour défendre vot
 ProduceWorkers=Objectif : Produisez 3 travailleurs.
 HarvestWoodAndStone=Objectif : Récoltez 100 unités de bois et 150 unités de pierre.
 ProduceCow=Objectif : Produisez une vache.
-MineGold=Objectif : Récolterz 100 unités d'or.
-BuildBarracks=Objectif : Construisez une caserne (Barracks).
-ProduceSwordman=Objectif : Produisez un Épéiste (Swordman) .
+MineGold=Objectif : Récoltez 100 unités d'or.
+BuildBarracks=Objectif : Construisez une caserne ('Barracks').
+ProduceSwordman=Objectif : Produisez un Épéiste ('Swordman') .
 ProduceArcher=Objectif : Produisez un Archer.
 ProduceMoreWarriors=Objectif : Produisez plus de guerriers pour vous préparer à la prochaine attaque.
