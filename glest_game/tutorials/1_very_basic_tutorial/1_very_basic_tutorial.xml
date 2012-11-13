@@ -41,7 +41,7 @@
 				showMessage('Thirdcommand2', 'Buildings')	
 				showMessage('Thirdcommand3', 'Buildings')	
 				showMessage('Thirdcommand4', 'Buildings')	
-				setDisplayText('usethirdcommand')
+				setDisplayText('UseThirdCommand')
 				objective= 'produce_tent'			
 			end				
 		</resourceHarvested>

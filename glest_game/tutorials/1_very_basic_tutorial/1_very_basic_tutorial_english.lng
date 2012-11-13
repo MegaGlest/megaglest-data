@@ -69,7 +69,7 @@ ProduceStickfighter2=Objective: Train one stick fighter.
 MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
 HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
 GetWoodob=Objective: Harvest wood until you have 550.
-Usethirdcommand=Objective: Build a tent.Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
 
 ;end
 

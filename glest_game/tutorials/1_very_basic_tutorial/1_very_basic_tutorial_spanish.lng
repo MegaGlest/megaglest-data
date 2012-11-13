@@ -69,7 +69,7 @@ ProduceStickfighter2=Objetivo: Entrenar a un luchador - Stick fighter
 MoveWorker=Objetivo: Mueve el trabajador entrenado junto al trabajador que espera fuera del campamento.
 HarvestGoldandStoneobjective=Objetivo: Recolecta oro y piedra hasta que tengas un total de 600 de oro y 550 de piedra.
 GetWoodob=Objetivo: Recolecta madera hsta que tengas 550.
-Usethirdcommand=Objetivo: Construye una tienda. Si la tienda se vuelve roja (rojea), esto quiere decir que el sitio donde la vas a ubicar ya está ocupado (podría ser que hubiese un árbol).
+UseThirdCommand=Objetivo: Construye una tienda. Si la tienda se vuelve roja (rojea), esto quiere decir que el sitio donde la vas a ubicar ya está ocupado (podría ser que hubiese un árbol).
 
 ;end
 

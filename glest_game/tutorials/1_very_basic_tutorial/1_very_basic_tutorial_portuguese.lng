@@ -69,7 +69,7 @@ ProduceStickfighter2=Objetivo: treinar um para a batalha.
 MoveWorker=Objetivo: Mova o trabalhador recém-produzido com o outro trabalhador que está esperando fora do seu campo.
 HarvestGoldandStoneobjective=Objetivo: Colha ouro e pedra até que você tenha um total de 600 de ouro e 550 de pedra.
 GetWoodob=Objetivo: Colha madeira até que você tenha 550.
-Usethirdcommand=Objetivo: Construa uma tenda. Dica: Se a tenda fica vermelha, isso significa que este local é atualmente (em geral), ocupado (como por outra unidade ou uma árvore).
+UseThirdCommand=Objetivo: Construa uma tenda. Dica: Se a tenda fica vermelha, isso significa que este local é atualmente (em geral), ocupado (como por outra unidade ou uma árvore).
 
 ;end
 

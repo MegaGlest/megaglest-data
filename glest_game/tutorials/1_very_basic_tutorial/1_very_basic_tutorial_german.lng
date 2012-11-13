@@ -69,7 +69,7 @@ ProduceStickfighter2=Deine Aufgabe: Bilde 1 Stickfighter aus.
 MoveWorker=Deine Aufgabe: Bewege deinen neu produzierten Arbeiter (Worker) zu dem anderen Arbeiter (Worker) außerhalb deines Lagers.
 HarvestGoldandStoneobjective=Deine Aufgabe: Baue solange Gold und Stein (Stone) ab, bis du 600 Gold und 550 Stein (Stone) hast.
 GetWoodob=Deine Aufgabe: Sammle 550 Holz (Wood).
-Usethirdcommand=Tipp: Wenn das Zelt rot ist, ist der Platz derzeit besetzt (z.B. von einer Einheit oder einem Baum). Objective: Baue ein Zelt (Tent).
+UseThirdCommand=Tipp: Wenn das Zelt rot ist, ist der Platz derzeit besetzt (z.B. von einer Einheit oder einem Baum). Objective: Baue ein Zelt (Tent).
 
 ;end
 

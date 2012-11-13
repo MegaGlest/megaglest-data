@@ -69,7 +69,7 @@ ProduceStickfighter2=Objectif : Formez un combattant utilisant un bâton (StickF
 MoveWorker=Objectif : Déplacez votre nouveau travailleur vers l'autre travailleur qui attend à l'extérieur de votre camp.
 HarvestGoldandStoneobjective=Objectif : Récoltez de l'or et des pierres jusqu'à avoir un total de 600 unités d'or et 550 unités de pierre.
 GetWoodob=Objectif : Récoltez du bois jusqu'à en avoir un total de 550.
-Usethirdcommand=Objectif : Construisez une tente : Si la tente devient rouge, cela signifie que cet emplacement est actuellement (ou en général) pris ou qu'il est sur un objet (par exemple une autre unité ou un arbre).
+UseThirdCommand=Objectif : Construisez une tente : Si la tente devient rouge, cela signifie que cet emplacement est actuellement (ou en général) pris ou qu'il est sur un objet (par exemple une autre unité ou un arbre).
 
 ;end
 

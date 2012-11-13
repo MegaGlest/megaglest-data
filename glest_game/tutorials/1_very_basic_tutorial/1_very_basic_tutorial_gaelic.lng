@@ -69,7 +69,7 @@ ProduceStickfighter2=Ceann-uidhe: Dèan trèanadh air cathaiche bata (Stick Figh
 MoveWorker=Ceann-uidhe: Gluais an t-obraiche ùr agad gu far a bheil an t-obraiche eile agad a' feitheamh taobh a-muigh an campa agad.
 HarvestGoldandStoneobjective=Ceann-uidhe: Tochail òr is clach gus am bi 600 aonad dhe dh'òr is 550 aonad dhe chlach agad.
 GetWoodob=Ceann-uidhe: Buain maide gus am bi 550 aonad dhe mhaide agad.
-Usethirdcommand=Ceann-uidhe: Tog teanta (tent). Gliocas: Ma thèid an teanta dearg, tha seo a' ciallachadh gu bheil rudeigin eile (a leithid aonad eile no craobh) air an àite seo an-dràsta (no san fharsaingeachd).
+UseThirdCommand=Ceann-uidhe: Tog teanta (tent). Gliocas: Ma thèid an teanta dearg, tha seo a' ciallachadh gu bheil rudeigin eile (a leithid aonad eile no craobh) air an àite seo an-dràsta (no san fharsaingeachd).
 
 ;end
 

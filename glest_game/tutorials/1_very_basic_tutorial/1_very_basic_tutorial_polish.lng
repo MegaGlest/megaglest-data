@@ -69,7 +69,7 @@ ProduceStickfighter2=Twój Cel: Stwórz jednego Kijkarza (stick fighter).
 MoveWorker=Twój Cel: Przemieść Twojego nowego Robotnika do innego Robotnika czekającego poza obozem.
 HarvestGoldandStoneobjective=Twój Cel: Zbieraj Złoto i Kamień aż uzyskasz 600 Złota oraz 550 Kamienia.
 GetWoodob=Twój Cel: Zbieraj Drewno aż uzyskasz 550 Drewna.
-Usethirdcommand=Twój Cel: Zbuduj Namiot ("tent"). Uwaga: Jeśli namiot podczas stawiania robi się czerwony to oznacza, że to miejsce jest aktualnie (lub zawsze) zajęte (np przez jednostkę lub drzewo).
+UseThirdCommand=Twój Cel: Zbuduj Namiot ("tent"). Uwaga: Jeśli namiot podczas stawiania robi się czerwony to oznacza, że to miejsce jest aktualnie (lub zawsze) zajęte (np przez jednostkę lub drzewo).
 
 ;end
 

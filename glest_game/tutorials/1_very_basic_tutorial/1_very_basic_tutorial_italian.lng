@@ -69,7 +69,7 @@ ProduceStickfighter2=Obiettivo: Crea uno "mazziatore".
 MoveWorker=Obiettivo: Porta il lavoratore che hai appena creato vicino al lavoratore che sta aspettando fuori l'accampamento.
 HarvestGoldandStoneobjective=Obiettivo: Raccogli oro e pietra fino a raggiungere 600 oro e 550 pietra.
 GetWoodob=Obiettivo: Raccogli 550 legna.
-Usethirdcommand=Obiettivo: Costruisci un teepee. Se il teepee diventa rossa significa che quel posto è già occupato, per esempio da un'unità o da un albero.
+UseThirdCommand=Obiettivo: Costruisci un teepee. Se il teepee diventa rossa significa che quel posto è già occupato, per esempio da un'unità o da un albero.
 
 ;end
 
