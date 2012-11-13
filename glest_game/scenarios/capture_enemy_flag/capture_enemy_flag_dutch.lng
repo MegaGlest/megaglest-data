@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=Verover de vlag
+Warning=Waarschuwing
+Crisis=Alarmfase rood!
+
+;message strings
+# Brief1=Capture your enemy flag by touching it then return that unit to home base! The enemy flag is flashing in the mini map. Your flag will flash in your team color. Watch out for surprises along the way.
+# Player2InFlagZoneWarning=Player 2 is in your flag zone watch out!
+# Player3InFlagZoneWarning=Player 3 is in your flag zone watch out!
+Player2HasFlagWarning=Speler 2 HEEFT JOUW VLAG, vang hem!!
+Player3HasFlagWarning=Speler 3 HEEFT JOUW VLAG, vang hem!!
+
+;objective strings
+# Player2HeadHome=Now player 2 you make it home alive and win! Your flag bearer is highlighted in your team color, don't let him die.
+# Player3HeadHome=Now player 3 you make it home alive and win! Your flag bearer is highlighted in your team color, don't let him die.
+PlayerWins=Gefeliciteerd, je hebt gewonnen!
+PlayerLoses=Jammer, je hebt verloren!
