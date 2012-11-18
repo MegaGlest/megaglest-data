@@ -10,11 +10,11 @@ Tricks=Astuces
 ;------------------------------------------Start------------------------------------------------
 Welcome=Bienvenue dans le tutoriel de MegaGlest.
 
-FirstThing=Vue : Pour régler la zone visible, déplacez le pointeur de votre souris sur les bords de votre écran, ou utilisez les touches curseur. Une autre façon de faire est de cliquer à gauche sur la mini-carte (coin supérieur gauche de votre écran).
+FirstThing=Vue : Pour régler la zone visible, déplacez le pointeur de votre souris sur les bords de votre écran, ou utilisez les flèches du clavier. Vous pouvez aussi utiliser le clic gauche sur la mini-carte (coin supérieur gauche de votre écran).
 
 WillBeUsingIndian=Dans cette introduction, vous commandez les Indiens. La faction indienne combat avec des archers et des armes simples.
 
-NeedWorkers=D'abord, nous avons besoin d'un travailleur (Worker). Pour l'obtenir, faites un clic gauche sur le Mainteepee et commencez à produire votre travailleur. Pour ce faire, utilisez le bouton «Produce Worker» en cliquant sur l'icône des travailleurs.
+NeedWorkers=Nous avons d'abord besoin d'un travailleur (Worker). Pour l'obtenir, faites un clic gauche sur le Mainteepee et commencez à produire votre travailleur. Pour ce faire, utilisez le bouton « Produce Worker » en cliquant sur l'icône des travailleurs.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
@@ -55,7 +55,7 @@ UseMeetingPoint=Vous pouvez également déplacer le point de rassemblement. Cliq
 MeetingPoint2=Si vous placez le point de rassemblement sur une ressource, les nouveaux travailleurs vont immédiatement commencer à la récolter. Assurez-vous que vous avez cliqué au bon endroit, sinon vos travailleurs resteront autour de la ressource sans rien faire.
 Thirdcommand=La troisième icône du travailleur est 'Build' ("Construire").
 Thirdcommand2=En cliquant dessus, vous entrez dans le menu de construction. Si vous passez votre souris sur l'une des icônes d'un bâtiment, vous pouvez voir, sous la rubrique 'Requirements' ("Exigences"), toutes les ressources et les réalisations nécessaires à sa construction .
-Thirdcommand3=Si vous passez la souris sur la 'Tent', vous verrez que cela coûte 30 d'or, 50 bois, -10 de logement et un 'Mainteepee'. «-10 Logement» signifie que la construction d'une tente vous permet d'avoir une capacité de logement pour dix unités supplémentaires (même si certaines unités peuvent avoir besoin de plus d'une tente).
+Thirdcommand3=Si vous passez la souris sur la 'Tent', vous verrez que cela coûte 30 d'or, 50 bois, -10 de logement et un 'Mainteepee'. « -10 Logement » signifie que la construction d'une tente vous permet d'avoir une capacité de logement pour dix unités supplémentaires (même si certaines unités peuvent avoir besoin de plus d'une tente).
 Thirdcommand4=Maintenant, construisons une tente. Cliquez sur le menu de construction, puis sur la tente, et placez la sur un endroit vide.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------

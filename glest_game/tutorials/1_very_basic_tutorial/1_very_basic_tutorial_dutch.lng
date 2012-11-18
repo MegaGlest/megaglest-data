@@ -1,5 +1,5 @@
 ;message headers
-GlestBasicTutorial=MegaGlest Basis Handleiding
+GlestBasicTutorial=MegaGlest Basis les
 WellDone=Goed gedaan!
 Resources=Middelen
 Combat=Gevecht
@@ -8,13 +8,13 @@ Tricks=Trucs
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-# Welcome=Welcome to the basic MegaGlest tutorial.
+Welcome=Welkom bij de basis MegaGlest introductie.
 
 # FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
 
-# WillBeUsingIndian=In this introduction, you command the indians. The indian faction fights with archers and simple weapons.
+WillBeUsingIndian=In deze introductie moet je het commando voeren over de Indianen. De Indianen stam vecht met boogschutters en eenvoudige wapens.
 
-# NeedWorkers=First we need a worker. To get one, left-click on the Mainteepee and start training your worker. To do so, use the 'Produce Worker' command by clicking on the worker icon.
+NeedWorkers=We hebben eerst een arbeider nodig. Om er een te krijgen dien je links the klikken op de tent en train je arbeider. OM dit te doen gebruik het 'Produceer Arbeider' commando door op het arbeider icoon te klikken.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
@@ -23,7 +23,7 @@ Tricks=Trucs
 
 # ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
 
-# Command=The units' abilities are listed further below. We will now learn all commands the worker can execute.
+Command=Wat de eenheden kunnen staat beneden vermeld. We zullen die leren wat een arbeider kan doen.
 
 # FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
 
@@ -34,9 +34,9 @@ Tricks=Trucs
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-# MoveBack=Good. Now make both workers return to the Mainteepee. To select multiple units, press shift and draw a selection box around your units OR ...
-# MoveBack2=... hold down shift, then use your mouse to click on every unit you want to include OR ...
-# MoveBack3=... double-click on a unit to select all nearby units of the same type (workers in this case).
+MoveBack=Prima. Nu moeten beide arbeiders terug gaan naar de hoofd tent. Om meerdere eenheden te selecteren moet je shift indrukken en een selectie rechthoek om je eenheden OF ...
+MoveBack2=... hou shift ingedrukt en klik met de muis op iedere eenheid die je wil selecteren OF ...
+MoveBack3=... dubbel klik op een eenheid om alle eenheden van het zelfde type die dichtbij zijn te selecteren (in dit geval de arbeiders).
 # HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
 # HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
 # UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
@@ -45,7 +45,7 @@ Tricks=Trucs
 ;------------------------------------------Get Wood------------------------------------------
 
 # HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
-# ResourceInformation=By the way, the indian faction mostly needs gold and wood.
+ResourceInformation=Trouwens, de Indianen stam heeft vooral goud en hout nodig.
 # GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
@@ -53,24 +53,24 @@ Tricks=Trucs
 # MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
 # UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
 # MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
-# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
+Thirdcommand=Nu is het derde commando icoon voor de arbeiders, het "bouw" commando.
 # Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
 # Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
-# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+Thirdcommand4=Laten we een tent bouwen. Klik op het bouw menu, daarna op tent plaats deze op een lege plaats.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-# ProduceStickfighter=You can now train a stick fighter in your new tent.
+ProduceStickfighter=Je kunt een stok vechter in de nieuwe tent opleiden.
 
 ;objective strings
-# ProduceWorker=Objective: Train one worker.
-# ProduceStickfighter2=Objective: Train one stick fighter.
-# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
-# HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
-# GetWoodob=Objective: Harvest wood until you have 550.
-# UseThirdCommand=Objective: Build a tent.Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+ProduceWorker=Doel: Leid een arbeider op.
+ProduceStickfighter2=Doel: Leid een stok vechter op.
+MoveWorker=Doel: Verplaats je nieuwe arbeider naar een andere arbeider die buiten het kamp wacht.
+HarvestGoldandStoneobjective=Doel: Delf goud en stenen totdat je 600 goud en 550 stenen hebt.
+GetWoodob=Doel: Hak hout tot je 550 hebt.
+UseThirdCommand=Doel: Bouw een tent. Tip: As de tent rood wordt, betekend dit dat deze plaats op dit moment ( of in het algemeen ) bezet is ( bijvoorbeeld door een eenheid of een boom).
 
 ;end
 
-# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.
+WellDoneNextTutorial=Goed gedaan! Je kunt nu verder gaan met de volgende les.

@@ -2,9 +2,9 @@
 GlestBasicTutorial=MegaGlest základní tutorial
 WellDone=Výborně!
 Resources=Zdroje
-# Combat=Combat
+Combat=Boj
 Buildings=Budovy
-# Tricks=Tricks
+Tricks=Triky
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
@@ -69,7 +69,7 @@ Welcome=Vítejte v základním MegaGlest tutorialu.
 # MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
 HarvestGoldandStoneobjective=Cíl: Těžit zlato a kamení, dokud nebudete mít celkem 600 zlata a 550 kamene.
 GetWoodob=Cíl: Těžit dřevo, dokud nebudete mít 550.
-# Usethirdcommand=Objective: Build a tent.Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+# UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
 
 ;end
 
