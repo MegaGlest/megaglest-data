@@ -37,14 +37,14 @@ Command=Wat de eenheden kunnen staat beneden vermeld. We zullen die leren wat ee
 MoveBack=Prima. Nu moeten beide arbeiders terug gaan naar de hoofd tent. Om meerdere eenheden te selecteren moet je shift indrukken en een selectie rechthoek om je eenheden OF ...
 MoveBack2=... hou shift ingedrukt en klik met de muis op iedere eenheid die je wil selecteren OF ...
 MoveBack3=... dubbel klik op een eenheid om alle eenheden van het zelfde type die dichtbij zijn te selecteren (in dit geval de arbeiders).
-# HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
+HarvestGoldandStone=Als je eenheden weer thuis zijn, zullen we het vierde commando icoon gebruiken dat bedoeld is voor het delven van goud en stenen,
 # HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
-# UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
-# HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
+UseHarvestGoldandStone=Om dit commando te gebruiken, klik eerst op het commando icoon, dan op de bron die je wil delven. De grijs hopen met gele stippen zijn goud, de hopen zonder gele stippen zijn stenen.
+HarvestGoldandStone3=Delf nu goud en stenen tot je 600 goud en 550 stenen hebt. Je kunt ook nieuwe arbeiders maken om dit te doen (maar dat kost ook goud). Controleer boven in het scherm hoeveel bronnen je momenteel hebt.
 
 ;------------------------------------------Get Wood------------------------------------------
 
-# HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
+HarvestGoldAndStoneDone=Nu heb je wat hout nodig. Om deze te krijgen, dien je het vijfde commando icoon te gebruiken. Dit is ook het verzamel commando,dat op de zelfde manier werkt als het delven van goud en stenen.
 ResourceInformation=Trouwens, de Indianen stam heeft vooral goud en hout nodig.
 # GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
 

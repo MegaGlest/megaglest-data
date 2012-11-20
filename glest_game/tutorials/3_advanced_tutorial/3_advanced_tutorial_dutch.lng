@@ -10,8 +10,8 @@ Armies=Legers
 ;message strings
 Welcome=Welkom bij de geavanceerde MegaGlest les, hier zul je leren hoe je beruik kunt maken van de geavanceerde mogelijkheden van het spel.
 MagicBrief=Je bent nu commando van een Magische stam, die gebruik maakt van tovenaars en opgeroepen wezens om te vechten.
-# InitiateBrief=Initiates are the basic Magic unit, they can harvest resources and build structures.
-# InitiatePromotion=Initiates can be promoted to Battlemages, to do so, select an Initiate, and use the "Promote to Battlemage" command.
+InitiateBrief=Nieuwelingen zijn een basis Magic eenheid, ze verzamelen hulpstoffen en bouwen structuren.
+InitiatePromotion=Nieuwelingen kunnen gepromoveerd worden tot Strijd tovenaars, om dit te doen selecteer een Nieuweling en gebruik het "Promote to Battlemage" commando.
 # BattlemageBrief=Battlemages are the core Magic warriors, they have powerful ranged attacks and also good speed and resistance.
 # EnergyBrief=Magic units usually need Energy to be produced, Energy is not consumed like Food, but it is only requiered when the unit is created. It is produced by Energy Sources.
 EnergyBrief2=Zorg ervoor dat je altijd genoeg Energie hebt om nieuwe eenheden te maken.
