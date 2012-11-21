@@ -1,9 +1,12 @@
-; English lang file
+; This is the main MegaGlest localization file (INI format)
+;
+; Your contributions are welcome. Please ensure you agree to the terms of the
+; contributors license (CC-BY-SA 3.0 Unported). Please also read this page in
+; its entirety before contributing: http://translate.megaglest.org
 
-; Main strings
 3dArt=3D art
 3dAnd2dArt=3D and 2D art
-2dArtAndWeb=2D art and web
+2dArtAndWeb=2D art
 Abort=Abort
 About=About
 Address=Address

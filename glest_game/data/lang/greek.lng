@@ -1,6 +1,3 @@
-; English lang file
-
-; Main strings
 3dArt=3D τέχνη
 3dAnd2dArt=3D και 2D τέχνη
 2dArtAndWeb=2D τέχνη και διαδίκτυο
@@ -516,7 +513,7 @@ IntroTextX5=$USE_DEFAULT_LANGUAGE_VALUE
 IntroTextY5=$USE_DEFAULT_LANGUAGE_VALUE
 IntroTextFontType5=$USE_DEFAULT_LANGUAGE_VALUE
 IntroStartMilliseconds5=$USE_DEFAULT_LANGUAGE_VALUE
-IntroText6=megaglest.org
+IntroText6=$USE_DEFAULT_LANGUAGE_VALUE
 IntroStartMilliseconds6=$USE_DEFAULT_LANGUAGE_VALUE
 IntroModelStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE

@@ -1,6 +1,3 @@
-; English lang file
-
-; Main strings
 3dArt=Ealain 3D
 3dAnd2dArt=Ealain 3D is 2D
 2dArtAndWeb=Ealain 2D is lìn
@@ -502,24 +499,24 @@ YouWin=Bhuannaich thu!
 
 ;-------------------------------- Intro Text Start
 IntroText1=Stèidhichte air Glest clasaigeach a choisinn duaisean
-IntroStartMilliseconds1=1000
+IntroStartMilliseconds1=$USE_DEFAULT_LANGUAGE_VALUE
 IntroText2=tha an sgioba MegaGlest a' toirt dhuibh
-IntroStartMilliseconds2=4400
+IntroStartMilliseconds2=$USE_DEFAULT_LANGUAGE_VALUE
 IntroText3=geama ro-innleachd fìor-ùine bathair-bhuig shaoir
-IntroStartMilliseconds3=8400
+IntroStartMilliseconds3=$USE_DEFAULT_LANGUAGE_VALUE
 IntroTexture4=$APPLICATIONDATAPATH/data/core/menu/textures/logo.tga
-IntroTextureWidth4=256
-IntroTextureHeight4=128
-IntroStartMilliseconds4=12000
+IntroTextureWidth4=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextureHeight4=$USE_DEFAULT_LANGUAGE_VALUE
+IntroStartMilliseconds4=$USE_DEFAULT_LANGUAGE_VALUE
 IntroText5=$GAMEVERSION
-IntroTextX5=+5
-IntroTextY5=-45
-IntroTextFontType5=menunormal
-IntroStartMilliseconds5=12000
-IntroText6=http://megaglest.org
-IntroStartMilliseconds6=16000
-IntroModelStartMilliseconds=24000
-IntroTextureStartMilliseconds=26000
+IntroTextX5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextY5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextFontType5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroStartMilliseconds5=$USE_DEFAULT_LANGUAGE_VALUE
+IntroText6=$USE_DEFAULT_LANGUAGE_VALUE
+IntroStartMilliseconds6=$USE_DEFAULT_LANGUAGE_VALUE
+IntroModelStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL
