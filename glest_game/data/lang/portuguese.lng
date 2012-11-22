@@ -1,3 +1,9 @@
+; This is the main MegaGlest localization file (INI format)
+;
+; Your contributions are welcome. Please ensure you agree to the terms of the
+; contributors license (CC-BY-SA 3.0 Unported). Please also read this page in
+; its entirety before contributing: http://translate.megaglest.org
+
 3dArt=Arte 3D
 3dAnd2dArt=Arte 3D e 2D
 2dArtAndWeb=Arte 2D e Web

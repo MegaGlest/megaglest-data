@@ -1,3 +1,9 @@
+; This is the main MegaGlest localization file (INI format)
+;
+; Your contributions are welcome. Please ensure you agree to the terms of the
+; contributors license (CC-BY-SA 3.0 Unported). Please also read this page in
+; its entirety before contributing: http://translate.megaglest.org
+
 3dArt=فن ثلاثي الأبعاد
 3dAnd2dArt=فن ثلاثي وثنائي الأبعاد
 2dArtAndWeb=الفن ثنائي الأبعاد والويب
