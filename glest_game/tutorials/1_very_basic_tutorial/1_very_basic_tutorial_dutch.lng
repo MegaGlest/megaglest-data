@@ -21,11 +21,11 @@ NeedWorkers=We hebben eerst een arbeider nodig. Om er een te krijgen dien je lin
 # Select=Now left-click your worker. Details on the selected unit, namely the unit name and an image, are now displayed in the top right corner of your screen. Below this health points (HP), armor, and, in brackets, armor type and view range (sight) are listed.
 # Select2=If this is a battle unit, the number of enemy units it has already destroyed is listed next. If it consumes resources, this is displayed in the following field. Below this, it says what this unit is currently doing.
 
-# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+ExampleWorker=Als je arbeider 600 HP, 0 lederen harnas en een kijk afstand van 9 heeft, is zijn huidige status "Stop", en zal daarom niets doen.
 
 Command=Wat de eenheden kunnen staat beneden vermeld. We zullen die leren wat een arbeider kan doen.
 
-# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+FirstCommand=Het eerste commando icoon is "stop". Als je dit klikt,stopt je arbeider onmiddellijk met wat deze aan het doen is. Alle eenheden (die geen gebouwen zijn) maken gebruik van dit commando.
 
 # SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
 # SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
