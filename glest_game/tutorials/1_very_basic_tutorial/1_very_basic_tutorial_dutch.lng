@@ -12,9 +12,9 @@ Welcome=Welkom bij de basis MegaGlest introductie.
 
 # FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
 
-WillBeUsingIndian=In deze introductie moet je het commando voeren over de Indianen. De Indianen stam vecht met boogschutters en eenvoudige wapens.
+WillBeUsingIndian=In deze introductie moet je het commando voeren over de Indianen. De Indianen Groepering vecht met boogschutters en eenvoudige wapens.
 
-NeedWorkers=We hebben eerst een arbeider nodig. Om er een te krijgen dien je links the klikken op de tent en train je arbeider. OM dit te doen gebruik het 'Produceer Arbeider' commando door op het arbeider icoon te klikken.
+NeedWorkers=We hebben eerst een arbeider nodig. Om er een te verkrijgen dien je links the klikken op de tent en train je arbeider. Gebruik hiervoor het 'Produceer Arbeider' commando door op het arbeider icoon te klikken.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
@@ -27,8 +27,8 @@ Command=Wat de eenheden kunnen staat beneden vermeld. We zullen die leren wat ee
 
 FirstCommand=Het eerste commando icoon is "stop". Als je dit klikt,stopt je arbeider onmiddellijk met wat deze aan het doen is. Alle eenheden (die geen gebouwen zijn) maken gebruik van dit commando.
 
-# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
-# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+SecondCommand=Het tweede commando is 'verplaats'. Als je dit klikt, dien je op de grond te klikken of op een andere eenheid om de richting te bepalen. Een versneld commando is door op de doel positie te klikken met de rechter muisknop.
+SecondCommand2=Als je de muis aanwijzer boven het 'verplaats' commando houd, wordt de arbeiders voortplantingssnelheid weergegeven. Dit commando is bruikbaar voor alle eenheden ( behalve gebouwen).
 
 # TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
 
@@ -45,14 +45,14 @@ HarvestGoldandStone3=Delf nu goud en stenen tot je 600 goud en 550 stenen hebt. 
 ;------------------------------------------Get Wood------------------------------------------
 
 HarvestGoldAndStoneDone=Nu heb je wat hout nodig. Om deze te krijgen, dien je het vijfde commando icoon te gebruiken. Dit is ook het verzamel commando,dat op de zelfde manier werkt als het delven van goud en stenen.
-ResourceInformation=Trouwens, de Indianen stam heeft vooral goud en hout nodig.
+ResourceInformation=Trouwens, de Indianen Groepering heeft vooral goud en hout nodig.
 # GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
+MeetingPoint=Als je een gebouw selecteert wordt een blauwe pijp weergegeven. Deze pijl wijst naar het zogenaamde "verzamelpunt". Alle eenheden die in dit gebouw geproduceerd worden zullen zich hier verzamel zodra ze geproduceerd zijn.
 # UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
-# MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
+MeetingPoint2=Als je een verzamelpunt op een bron plaatst, zullen nieuwe arbeiders daar onmiddellijk gaan oogsten. Vergewis je ervan dat je het juiste plaats selecteert, anders zullen de arbeider zich daar alleen verzamelen en in de weg staan.
 Thirdcommand=Nu is het derde commando icoon voor de arbeiders, het "bouw" commando.
 # Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
 # Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).

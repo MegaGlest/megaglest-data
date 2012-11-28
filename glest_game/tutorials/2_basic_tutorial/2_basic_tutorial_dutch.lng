@@ -7,24 +7,24 @@ Buildings=Gebouwen
 
 ;message strings
 Welcome=Welkom bij de MegaGlest basis les. Hier zul je de basis van het spel leren kennen.
-WillBeUsingTech=Je voert nu het commando over de Tech stam, die gebruik maakt van middeleeuwse strijders en mechanisch oorlogstuig om mee te vechten.
+WillBeUsingTech=Je voert nu het commando over de Tech Groepering, die gebruik maakt van middeleeuwse strijders en mechanisch oorlogstuig om mee te vechten.
 NeedWorkers=Om middelen te verzamelen heb je Arbeiders nodig. Om de eerste Arbeider te produceren dien je eerst het Kasteel te selecteren en gebruik daarna het "Produceer Arbeider" commando.
 SelectAndCommand=Eenheden worden geselecteerd door er op te klikken met de linker muisknop, commando's kunnen gegeven worden door de rechter muisknop te klikken op het doel of terrein.
 HowToMine=Om Goud te delven moet je eerst een arbeider selecteren, daarna klik de rechter muisknop op de Goud vlakte.
 WorkersKeepOnHarvesting=Arbeiders blijven verzamelen en brengen middelen naar een gebouw dat bedoeld is voor dit type middelen.
-# ResourceInformation=Resource information is displayed at the top of the screen, the number on the left is the current amount, the number on the right is the storage capacity.
+ResourceInformation=Middelen informatie wordt boven aan het scherm weergegeven, het linker getal is de huidige hoeveelheid, de rechter getal de hoeveelheid die opgeslagen kan worden.
 OtherResources=Andere bronnen zoals Hout en Stenen worden op de zelfde manier als Goud gewonnen.
-TechResourceNeeds=De Tech stam heeft veel Goud en Hout en wat Stenen.
-# TechConsumesFood=Every unit in the Tech faction consumes Food. Without Food units will take damage and die. Food can be produced by farm animals. Animals are produced at the Farm.
+TechResourceNeeds=De Tech Groepering heeft veel Goud en Hout en wat Stenen.
+TechConsumesFood=Elke eenheid in de Tech Groepering consumeren eten. Zonder eten zullen de eenheden gewond raken en door gaan. Eten kan door de boerderijdieren geproduceerd worden. Dieren worden geproduceerd in de boerderij.
 HaveEnoughAnimals=Zorg ervoor dat je altijd voldoende dieren hebt om de eenheden te voeden.
-BalanceDisplay=De verhouding van voedsel consumptie en productie wordt weergegeven tussen haakjes naast de Voedsel opslag weergeven boven in het scherm.
-TechWarriorsAtBarracks=Om de vijand te kunnen slaan heb je strijders nodig, de meeste Tech strijders worden in de barakken gemaakt.
+BalanceDisplay=De verhouding tussen voedsel consumptie en productie wordt weergegeven tussen haakjes naast de Voedsel opslag weergeven boven in het scherm.
+TechWarriorsAtBarracks=Om de vijand te kunnen slaan heb je strijders nodig, de meeste Tech strijders worden in de barakken geprroduceerd.
 HowToBuildBarracks=Select een arbeider om een barak te bouwen, klik op "Build Basic" > "Barracks" selecteer dan een plaats om het gebouw te bouwen.
-RememberToBuildBarracks=Onthoud dat je in het begin altijd barakken moet bouwen, hierdoor kun je snel strijders maken.
-# SwordmanBrief=The basic Tech warrior is the Swordman, select the Barracks, then click on "Produce Swordman" to produce one. Make sure you have enough resources.
-# HaveWarriorsAtBase=You should always have some warriors at your base, they will automatically attack any enemies in range.
-# ArcherBrief=Archers are the basic ranged unit of the Tech faction. They are also produced at the Barracks.
-ProduceWarriors=Maak wat meer strijders om je basis te kunnen verdedigingen tegen aanvallen van de vijand.
+RememberToBuildBarracks=Onthoud dat je in het begin altijd barakken moet bouwen, hierdoor kun je snel strijders produceren.
+SwordmanBrief=De basis Tech strijder is de zwaardvechter, selecteer de Barakken, klik daarna op "Produceer Zwaardvechter, om er een te produceren. Je dient voldoende bouwstoffen te hebben.
+HaveWarriorsAtBase=Zorg ervoor dat zich altijd strijders op je basis bevinden, ze zullen de vijand automatisch aanvallen als ze binnen bereik zijn.
+ArcherBrief=Boogschutters zijn de basis afstand gevechtseenheid van de Tech Groepering. Ze worden ook in de Barakken geproduceerd.
+ProduceWarriors=Produceer wat meer strijders om je basis te kunnen verdedigingen tegen aanvallen van de vijand.
 
 ;objective strings
 ProduceWorkers=Doel: Produceer 3 werkers.

@@ -9,30 +9,30 @@ Armies=Legers
 
 ;message strings
 Welcome=Welkom bij de geavanceerde MegaGlest les, hier zul je leren hoe je beruik kunt maken van de geavanceerde mogelijkheden van het spel.
-MagicBrief=Je bent nu commando van een Magische stam, die gebruik maakt van tovenaars en opgeroepen wezens om te vechten.
-InitiateBrief=Nieuwelingen zijn een basis Magic eenheid, ze verzamelen hulpstoffen en bouwen structuren.
+MagicBrief=Je bent nu commando van een Magische Groepering, die gebruik maakt van tovenaars en opgeroepen wezens om te vechten.
+InitiateBrief=Nieuwelingen zijn een basis Magic eenheid, ze verzamelen hulpstoffen en bouwen bouwwerken.
 InitiatePromotion=Nieuwelingen kunnen gepromoveerd worden tot Strijd tovenaars, om dit te doen selecteer een Nieuweling en gebruik het "Promote to Battlemage" commando.
 BattlemageBrief=Strijd Magiërs zijn de kern van de Magische strijders, ze hebben krachtige afstand aanvallen, een goede snelheid en weerstand.
 EnergyBrief=Magische eenheden hebben Energie nodig gereproduceerd te worden, Energie wordt niet geconsumeerd als Eten, ze zijn alleen nodig om een eenheid te creëren. Ze worden geproduceerd door Energiebronnen.
-EnergyBrief2=Zorg ervoor dat je altijd genoeg Energie hebt om nieuwe eenheden te maken.
-SummonedUnitsBrief=De andere manier hoe de Magische stam eenheden produceert is oproepen. Je hebt hier een oproeper voor nodig, ze worden gemaakt door de Oproepers Gilde.
+EnergyBrief2=Zorg ervoor dat je altijd genoeg Energie hebt om nieuwe eenheden te produceren.
+SummonedUnitsBrief=De andere manier hoe de Magische Groepering eenheden produceert is oproepen. Je hebt hier een oproeper voor nodig, ze worden geproduceerd door de Oproepers Gilde.
 SummonerBrief=Oproepers kunnen verschillende type wezens maken, de meest eenvoudige is een Demon.
 DaemonBrief=Demons zijn erg zwak en goedkoop, ze zijn zinvol als licht strijder en ook als verkenner.
 # OtherSummonedCreatures=Summoners can create more advanced creatures, like Ghost Armors and Dragons, however they require that you research the right upgrades.
 # GhostArmorRequirements=Ghost Armors require the Ancient Summoning upgrade, that can be researched at the Summoners Guild.
 # GhostArmorBrief=Ghost Armors are a medium melee unit, useful to keep enemy warriors away from your Battlemages.
-# RitualBrief=Initiates have a second build command, called Ritual, used to build advanced structures and also powerful creatures like the Golem. You will need a Library to access them.
+RitualBrief=Nieuwelingen hebben tweede bouw commando, Ritueel, dit wordt gebruikt om geavanceerde bouwwerken en ook krachtige bouwwerken zoals Golem te bouwen. Je hebt een Bibliotheek nodig om toegang te kunnen verkrijgen.
 # GolemBrief=Golems are very powerful defensive units, they have a powerful attack and very good resistance, but they can only move as long as they have enough energy points.
-# ArmyManagement=As you produce higher numbers of units, they might become difficult to manage.
-# DoubleClickBrief=By double clicking on a unit, you can select all the units of the same type in the surroudings.
+ArmyManagement=Hoe meer eenheden je produceert hoe moeilijker deze bestuurd kunnen worden.
+DoubleClickBrief=Door de dubbel klikken op een eenheid kun je alle eenheden van het zelfde type in de omgeving selecteren.
 # GroupSelectBrief=You can define groups of units by selecting them and then pressing Control and a number key, then you can recall groups by pressing the number key again.
 FinalMission=Uiteindelijke test, nu moet je een leger bouwen en de vijand overwinnen.
 
 ;objective strings
 PromoteInitiate=Doel: Promoveer een nieuwe tovenaar naar gevecht tovenaar.
-ProduceSummoner=Doel: Bouw een Oproepers Gilde. maak daarna een oproeper.
+ProduceSummoner=Doel: Bouw een Oproepers Gilde, produceer daarna een oproeper.
 ProduceDaemon=Doel: Roep een Demon op.
 ProduceGhostArmor=Doel: Onderzoek een oudheidkundige oproep, roep daarna een Geest Harnas op.
 BuildEnergySource=Doel: Bouw een Energiebron.
-# ProduceGolem=Objective: Build Library and then use an Initiate to perform a ritual to build a Golem.
+ProduceGolem=Doel: Bouw een Bibliotheek en gebruik een nieuweling om een ritueel voor te voeren om een Golem te bouwen.
 DefeatEnemy=Doel: Bouw een leger, plaats en overwin je vijand.
