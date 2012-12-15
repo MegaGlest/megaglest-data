@@ -37,8 +37,9 @@
 # hint37=When you are looking for an Internet game\nbut no-one is around: connect to a server and remain there\nfor 15 minutes. You can minimize MegaGlest while waiting for players to join.
 # hint38=On Linux and OS X, you can press Alt-Enter at any time\nto switch between windowed and full screen modes.
 # hint39=Are you lagging a lot during network games? Is your mouse\nmoving slowly? Read what you can do about it at\nhttp://FAQ.megaglest.org
-hint40=Dette skærmbillede bliver vist på alle spilleres skærm\nindtil alle computere har hentet spillet data(fra harddisken) ⏎. Nogen computere er hurtigere end andre. Vent med tålmodighed.
+hint40=Dette skærmbillede bliver vist på alle spilleres skærm\nindtil alle computere har hentet spillet data(fra harddisken)\n. Nogen computere er hurtigere end andre. Vent med tålmodighed.
 # hint41=To add a cell marker and leave comments for your team,\npress the '#BookmarkAdd#' key. To remove it press #BookmarkRemove#.
 # hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal deselect all units and press #CameraFollowSelectedUnit#.
 hint43=Linux er det bedste styresystem....nogensinde....punktum :).
 hint44=Fri software gjorde dette spil muligt, overvej om du kan hjælpe\n\nsteder som fsf.org og sourceforge.net
+# hint45=Is a translation missing or bad? Would you like to add support\nfor another language? Please read: http://translate.megaglest.org/\nContributing is easy and your work will end up in the next release.

@@ -42,3 +42,4 @@ hint41=Pour marquer une position et laisser des commentaires à votre\néquipe, 
 hint42=Pour suivre une unité à la troisième personne, sélectionnez-la et\npressez la touche '#CameraFollowSelectedUnit#'. Pour revenir au\nmode normal, désélectionnez et utilisez '#CameraFollowSelectedUnit#' à nouveau.
 hint43=GNU/Linux est le meilleur système d'exploitation. Et vous n'y pouvez rien. :)
 hint44=Le mouvement du logiciel libre a permis à ce jeu d'exister, et vous\npouvez aider des organisations telles que fsf.org et sourceforge.net.
+# hint45=Is a translation missing or bad? Would you like to add support\nfor another language? Please read: http://translate.megaglest.org/\nContributing is easy and your work will end up in the next release.

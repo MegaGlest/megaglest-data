@@ -42,3 +42,4 @@ hint41=Чтобы поставить маркер и оставить комме
 hint42=Чтобы следовать за юнитом в режиме третьего лица,\nвыбирите юнита и нажмите '#CameraFollowSelectedUnit#' key.\nЧтобы вернуться в нормальный режим, снимите выделение и нажмите #CameraFollowSelectedUnit#.
 hint43=Линукс - лучшая операционная система... ...переодически :)
 hint44=Это свободная и открытая игра,\nподдерживаемая проектами fsf.org и sourceforge.net
+# hint45=Is a translation missing or bad? Would you like to add support\nfor another language? Please read: http://translate.megaglest.org/\nContributing is easy and your work will end up in the next release.
