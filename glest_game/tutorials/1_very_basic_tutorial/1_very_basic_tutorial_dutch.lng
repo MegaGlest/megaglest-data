@@ -10,16 +10,16 @@ Tricks=Trucs
 ;------------------------------------------Start------------------------------------------------
 Welcome=Welkom bij de basis MegaGlest introductie.
 
-# FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
+FirstThing=Zicht: Om het zichtbare gebied aan te passen, verplaats de muisaanwijzer naar de kant van je scherm, of gebruik je cursor toetsen. Een andere manier is door de linkermuisknop te klikken in de mini kaart (linker bovenhoek van je scherm).
 
 WillBeUsingIndian=In deze introductie moet je het commando voeren over de Indianen. De Indianen Groepering vecht met boogschutters en eenvoudige wapens.
 
-NeedWorkers=We hebben eerst een arbeider nodig. Om er een te verkrijgen dien je links the klikken op de tent en train je arbeider. Gebruik hiervoor het 'Produceer Arbeider' commando door op het arbeider icoon te klikken.
+NeedWorkers=We hebben eerst een arbeider nodig. Om er een te verkrijgen dien je links the klikken op de hoofd tipi en train je arbeider. Gebruik hiervoor het 'Produceer Arbeider' commando door op het arbeider icoon te klikken.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-# Select=Now left-click your worker. Details on the selected unit, namely the unit name and an image, are now displayed in the top right corner of your screen. Below this health points (HP), armor, and, in brackets, armor type and view range (sight) are listed.
-# Select2=If this is a battle unit, the number of enemy units it has already destroyed is listed next. If it consumes resources, this is displayed in the following field. Below this, it says what this unit is currently doing.
+Select=Klik nu met de linker muisknop op een arbeider. Gegevens van de geselecteerde eenheid, de naam en een afbeelding worden nu weergegeven in de rechter bovenhoek van het scherm. Hieronder worden de gezondheidspunten (HP), pantser, en, tussen haakjes, het pantser type en de kijk bereik (zicht) weergegeven.
+Select2=Als die een aanvalseenheid is, wordt het aantal vernietigde vijandelijke eenheden ernaast weergegeven worden. Als het middelen gebruikt, wordt dit in het volgende veld weergegeven. Hieronder, wordt weergegeven wat de eenheid op dit moment doet.
 
 ExampleWorker=Als je arbeider 600 HP, 0 lederen harnas en een kijk afstand van 9 heeft, is zijn huidige status "Stop", en zal daarom niets doen.
 
@@ -28,17 +28,17 @@ Command=Wat de eenheden kunnen staat beneden vermeld. We zullen die leren wat ee
 FirstCommand=Het eerste commando icoon is "stop". Als je dit klikt,stopt je arbeider onmiddellijk met wat deze aan het doen is. Alle eenheden (die geen gebouwen zijn) maken gebruik van dit commando.
 
 SecondCommand=Het tweede commando is 'verplaats'. Als je dit klikt, dien je op de grond te klikken of op een andere eenheid om de richting te bepalen. Een versneld commando is door op de doel positie te klikken met de rechter muisknop.
-SecondCommand2=Als je de muis aanwijzer boven het 'verplaats' commando houd, wordt de arbeiders voortplantingssnelheid weergegeven. Dit commando is bruikbaar voor alle eenheden ( behalve gebouwen).
+SecondCommand2=Als je de muisaanwijzer boven het 'verplaats' commando houd, wordt de arbeiders voortplantingssnelheid weergegeven. Dit commando is bruikbaar voor alle eenheden ( behalve gebouwen).
 
-# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+TestSecondCommand=Test het "verplaats" commando. Verplaats de arbeider naar de andere arbeider die buiten het kamp wacht. Deze arbeider wordt weergegeven als een rode punt (links boven) op de mini kaart. De witte driehoek op de mini kaart geeft je huidige camera positie weer. De grote rode punt is de hoofd tipi.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-MoveBack=Prima. Nu moeten beide arbeiders terug gaan naar de hoofd tent. Om meerdere eenheden te selecteren moet je shift indrukken en een selectie rechthoek om je eenheden OF ...
+MoveBack=Prima. Nu moeten beide arbeiders terug gaan naar de hoofd tipi. Om meerdere eenheden te selecteren moet je shift indrukken en een selectie rechthoek om je eenheden OF ...
 MoveBack2=... hou shift ingedrukt en klik met de muis op iedere eenheid die je wil selecteren OF ...
 MoveBack3=... dubbel klik op een eenheid om alle eenheden van het zelfde type die dichtbij zijn te selecteren (in dit geval de arbeiders).
 HarvestGoldandStone=Als je eenheden weer thuis zijn, zullen we het vierde commando icoon gebruiken dat bedoeld is voor het delven van goud en stenen,
-# HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
+HarvestGoldandStone2=Zweef met de muisaanwijzer boven dit commando icoon, je zult zien hoe snel je arbeiders kunnen verzamelen, hoe snel ze kunnen lopen als ze goederen dragen en welke goederen ze kunnen verzamelen.
 UseHarvestGoldandStone=Om dit commando te gebruiken, klik eerst op het commando icoon, dan op de bron die je wil delven. De grijs hopen met gele stippen zijn goud, de hopen zonder gele stippen zijn stenen.
 HarvestGoldandStone3=Delf nu goud en stenen tot je 600 goud en 550 stenen hebt. Je kunt ook nieuwe arbeiders maken om dit te doen (maar dat kost ook goud). Controleer boven in het scherm hoeveel bronnen je momenteel hebt.
 
@@ -46,16 +46,16 @@ HarvestGoldandStone3=Delf nu goud en stenen tot je 600 goud en 550 stenen hebt. 
 
 HarvestGoldAndStoneDone=Nu heb je wat hout nodig. Om deze te krijgen, dien je het vijfde commando icoon te gebruiken. Dit is ook het verzamel commando,dat op de zelfde manier werkt als het delven van goud en stenen.
 ResourceInformation=Trouwens, de Indianen Groepering heeft vooral goud en hout nodig.
-# GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
+GetWood=Voor een andere tip, kun je ieder verzamel commando gebruiken door je arbeider te selecteren, daarna op de locatie van de bron met de rechtermuisknop klikken (bijvoorbeeld op hout, in dit geval). Als het gelukt is zul je een gele pijl zien. Hak nu hout tot je 550 hout op voorraad hebt.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
 MeetingPoint=Als je een gebouw selecteert wordt een blauwe pijp weergegeven. Deze pijl wijst naar het zogenaamde "verzamelpunt". Alle eenheden die in dit gebouw geproduceerd worden zullen zich hier verzamel zodra ze geproduceerd zijn.
-# UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
+UseMeetingPoint=Je kunt de verzamelplaats ook verplaatsen. Klik op het vlag icoon, daarna op de positie waar de nieuwe verzamelplaats moet komen. Dit kun je ook verkort doen door rechts te klikken op de nieuwe locatie (zoals je ook doet bij lopen).
 MeetingPoint2=Als je een verzamelpunt op een bron plaatst, zullen nieuwe arbeiders daar onmiddellijk gaan oogsten. Vergewis je ervan dat je het juiste plaats selecteert, anders zullen de arbeider zich daar alleen verzamelen en in de weg staan.
 Thirdcommand=Nu is het derde commando icoon voor de arbeiders, het "bouw" commando.
-# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
-# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
+Thirdcommand2=Door erop te klikken ga je naar het bouw menu. Als je boven een van de bouw iconen zweeft met muisaanwijzer zie verder beneden de "benodigdheden", alle bouwstoffen en prestaties die hiervoor nodig zijn.
+Thirdcommand3=Als je boven de tent zweeft, zul je zien dat 30 goud, 50 hout en -10 onderdak en een hoofd tipi. "-10 onderdak" betekend dat je door het bouwen van een tent, krijg je een kwartier voor 10 extra eenheden (sommige eenheden hebben meer huisvesting nodig).
 Thirdcommand4=Laten we een tent bouwen. Klik op het bouw menu, daarna op tent plaats deze op een lege plaats.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
