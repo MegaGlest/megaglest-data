@@ -529,7 +529,7 @@ IntroTextureStartMilliseconds=26000
 ; Before using an alternative font, please verify license compatibility
 ISO639-1=he
 NativeLanguageName=עברית
-MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fontsx/LinLibertine_RB.otf
+MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinLibertine_RB.otf
 MEGAGLEST_FONT_FAMILY=Linux Libertine O:style=Bold
 FONT_SCALE_SIZE=0.8
 FONT_SCALE_CENTERH_FACTOR=4.0
