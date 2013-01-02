@@ -530,7 +530,7 @@ IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 ISO639-1=ar
 NativeLanguageName=العربية
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/DejaVuSansMono.ttf
-MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
+MEGAGLEST_FONT_FAMILY=DejaVu Sans Mono O:style=Bold
 FONT_SCALE_SIZE=0.8
 FONT_SCALE_CENTERH_FACTOR=4.0
 FONT_BASE_SIZE=1
