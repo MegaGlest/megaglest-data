@@ -61,7 +61,7 @@ CheckSumGameLoadClient=تدقيق العميل
 CheckSumGameLoadServer=تدقيق الخادم
 ClientLagDropping=إسقاط %s، تجاوز عدد الإنقطاعات الحد الأقصى المسموح من %f [الوقت = %f]، انقطاع العميل = %f [%f]، يتم فصل العميل.
 ClientLagPausing=تم إيقاف العبة مؤقتا لأجل %s، تجاوز عدد الإنقطاعات الحد الأقصى المسموح من %f [الوقت = %f]، انقطاع العميل = %f [%f]، في انتضار لحاق العميل
-# ClientLagWarning=LAG WARNING for %s, may exceed max allowed LAG count of %f [time = %f], clientLag = %f [%f], WARNING...
+ClientLagWarning=تحذير انقطاع لـ %s، قد تجاوز عدد الإنقطاعات الحد الأقصى المسموح من%f [الوقت = %f]، انقطاع العميل = %f [%f]، تحذير...
 Closed=مغلق
 Command=أمر
 CommonCommand=الأمر المشترك
@@ -85,19 +85,19 @@ DataNotSynchedMap=الخريطة مختلفة بين العميل والخادم
 DataNotSynchedTileset=tileset يختلف بين العميل و الخادم
 DataNotSynchedTechtree=Techtree يختلف بين العميل و الخادم
 DataMissingExtractDownload=يرجى الإنتضار، اللاعب: %s يستخرج: %s
-# DataMissingExtractDownloadMod=Please wait while we extract: %s
+DataMissingExtractDownloadMod=الرجاء الانتظارلحين استخراج: %s
 DataMissingMap=اللاعب: %s يفتقد الخريطة: %s
-# DataMissingTileset=Player: %s is missing the tileset: %s
-# DataMissingTechtree=Player: %s is missing the techtree: %s
+DataMissingTileset=اللاعب: %s يفتقد الأرضية: %s
+DataMissingTechtree=اللاعب: %s يفتقد نوع اللعبة: %s
 DataMissingMapNowDownloading=اللاعب: %s يحاول تحميل الخريطة: %s
-# DataMissingTilesetNowDownloading=Player: %s is attempting to download the tileset: %s
-# DataMissingTechtreeNowDownloading=Player: %s is attempting to download the techtree: %s
+DataMissingTilesetNowDownloading=اللاعب: %s يحاول تحميل الأرضية: %s
+DataMissingTechtreeNowDownloading=اللاعب: %s يحاول تحميل نوع اللعبة: %s
 DataMissingMapSuccessDownload=اللاعب: %s نجح في تحميل خريطة: %s
 DataMissingMapFailDownload=اللاعب: %s لم فشل في تحميل خريطة: [%s] بإستخدام cURL الإصدار [%s]
-# DataMissingTilesetSuccessDownload=Player: %s SUCCESSFULLY downloaded the tileset: %s
-# DataMissingTilesetFailDownload=Player: %s FAILED to download the tileset: [%s] using CURL version [%s]
-# DataMissingTechtreeSuccessDownload=Player: %s SUCCESSFULLY downloaded the techtree: %s
-# DataMissingTechtreeFailDownload=Player: %s FAILED to download the techtree: [%s] using CURL version [%s]
+DataMissingTilesetSuccessDownload=اللاعب: %s نجح في تحميل الأرضية: %s
+DataMissingTilesetFailDownload=اللاعب: %s فشل في تحميل الأرضية: [%s] باستخدام CURL الإصدار [%s]
+DataMissingTechtreeSuccessDownload=اللاعب: %s نجح في تحميل نوع اللعبة: %s
+DataMissingTechtreeFailDownload=اللاعب: %s فشل في تحميل نوع اللعبة: [%s] باستخدام CURL الإصدار [%s]
 Deaths=وفيات
 Defaults=افتراضية
 Defeat=هزم
@@ -126,7 +126,7 @@ Effects=زيادة التاثيرات:
 EnableFTP=تمكين تحويلات FTP
 EnableFTPServer=تمكين خادم FTP
 EnableFTPServerInternetTilesetXfer=نقل tilesets عبر الانترنات
-# EnableFTPServerInternetTechtreeXfer=Transfer techtrees over Internet
+EnableFTPServerInternetTechtreeXfer=تحويل أنواع اللعبة عبر الإنترنت
 EnableObserverMode=عرض خريطة اللعبة في النهاية
 Enabled=تفعيل
 EnableServerControlledAI=تحكم الخادم في ذإ
@@ -134,8 +134,8 @@ EnableSwitchTeamMode=تبديل الفرق
 EnableVideos=تمكين عرض الفيديو
 EnableTextureCompression=ضغط الملمس
 EnemyKills=الأعداء المقتولة
-# Ep=EP
-# EpCost=EP cost
+Ep=EP
+EpCost=ثمن EP
 ErrorBindingPort=خطأ، تعذر الربط بمنفذ الشبكة
 ErrorFromMasterserver=خطأ من الخادم الرئيسي
 Exit=خروج
@@ -171,14 +171,14 @@ GamePaused=توقفت اللعبة
 GameResumed=استأنفت اللعبة
 GameSpeedSet=تعيين سرعة اللعبة إلى
 GameSwitchPlayerToAI=اللاعب #%d [%s] قطع اتصاله، تم تحويل اللاعب إلى وضع ذإ!
-# GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was only an observer!
+GameSwitchPlayerObserverToAI=اللاعب #%d [%s] قطع اتصاله، لكن اللاعب كان مراقبا فقط!
 GameTime=اللعبة:
 GammaCorrection=الإضاءة
 GettingModlistFromMasterserver=جلب قائمة الوحدات من الخادم الرئيسي
 Harvest=المحصول
 HarvestSpeed=سرعة الحصاد
-# HeadlessAdminRequiresMorePlayers=You must have at least %d player(s) connected to start this game!
-# Hint=Hint:\n%s
+HeadlessAdminRequiresMorePlayers=يجب أن يكون لديك على الأقل%d لاعب(ين) متصل(ين) لبدء هذه اللعبة!
+Hint=تلميح:\n%s
 CellHint=تلميح
 HostGame=إنشاء لعبة
 HostNotAcceptingDataConnections=تحذير: لا يقبل المضيف بيانات إتصال اللعبة.
@@ -196,13 +196,13 @@ Kills=يقتل
 JoinGame=لعبة محلية
 JoinInternetGame=لعبة الانترنت
 JoinOtherTeam=الإنضمام لفريق آخر
-# JoinPlayerTeam=Join player #%d - %s on Team: %d
+JoinPlayerTeam=انضمام اللاعب#%d - %s في الفريق: %d
 Language=اللغة:
 LanIP=عناوين IP الشبكة المحلية:
 LinuxPort=منفذ لينكس
 Load=الحمل
-LoadGame=تحميل اللعبة المحفوظة
-LoadGameMenu=تحميل الألعاب المحفوظة
+LoadGame=إكمال لعبة محفوظة
+LoadGameMenu=إكمال ألعاب محفوظة
 LuaDisableSecuritySandbox=تعطيل Lua script Security Sandbox
 LuaDisableSecuritySandboxWarning=تمكين هذا الإعداد يسمح لسكربتات lua والتي يحتمل أن تحتوي سلوكا خطير، هل أنت متأكد أنك تريد السماح بذلك؟
 MaxMarkerCount=لا تستطيع إضافة علامات أكثر، الحد الأقصى المسموح هو:
@@ -219,13 +219,13 @@ LeftAt=غادر اللاعب على:
 LoadGameDeletingFile=يحاول حذف الملف: '%s'
 LoadGameLoadingFile=يحاول جلب الملف: '%s'
 SavedGameBadVersion=إصدار اللعبة المخزنة لا يتناسب مع إصدار تطبيقك: [%s] --> [%s]
-# LoadSavedGameInfo=Map: %s\nTileset: %s\nTech: %s\nScenario: %s\n# players: %d\nFaction: %s
+LoadSavedGameInfo=خريطة: %s\nأرضية: %s\nفصيلة: %s\nسيناريو: %s\n# لاعبين: %d\nفصيلة: %s
 LoadedSpeed=تحميل السرعة
 Loading=جاري التحميل
 LocalTime=محلي:
 LogScreenCoreDataLoading=البيانات الأساسية
 LogScreenGameLoading=لعبة
-# LogScreenGameLoadingCreatingAIFaction=Creating AI for faction %d
+LogScreenGameLoadingCreatingAIFaction=إنشاء ذ.إ للفصيلة %d
 LogScreenGameLoadingCreatingRainParticles=إنشاء نضام الجسيمات المطر
 LogScreenGameLoadingCreatingSnowParticles=إنشاء نضام الجسيمات الثلوج
 LogScreenGameLoadingInitRenderer=تهيئة العارض
@@ -235,19 +235,19 @@ LogScreenGameLoadingStartingAmbient=بدا الموسيقى المحيطة ال�
 LogScreenGameLoadingLaunchGame=بدأ اللعبة
 LogScreenGameLoadingFactionType=نوع القبيلة: %s
 LogScreenGameLoadingUnitType=نوع الوحدة: %s
-# LogScreenGameLoadingUnitTypeSkills=Unit type: %s - skills: %d
+LogScreenGameLoadingUnitTypeSkills=نوع الوحدة: %s - المهارات: %d
 LogScreenGameLoadingResourceType=نوع المصدر: %s
-# LogScreenGameLoadingTechtree=TechTree: %s
+LogScreenGameLoadingTechtree=نوع اللعبة: %s
 LogScreenGameUnLoadingTechtree=تفريغ شجرة التكنولوجيا
 LogScreenGameLoadingUpgradeType=نوع الترقية: %s
 LogScreenGameUnLoadingMapCells=تفريغ الخلايا
 LogScreenGameUnLoadingMap=تفريغ الخريطة
-# LogScreenGameLoadingHeightmap=Heightmap computations
+LogScreenGameLoadingHeightmap=حسابات ارتفاع الخريطة
 LogScreenGameUnLoadingMiniMap=خريطة مصغرة
 LogScreenGameLoadingScenario=سيناريو: %s
-# LogScreenGameLoadingTileset=Tileset: %s
-# LogScreenGameUnLoadingTileset=Tileset
-# LogScreenGameUnLoadingWorld=Unloading World
+LogScreenGameLoadingTileset=أرضية: %s
+LogScreenGameUnLoadingTileset=أرضية
+LogScreenGameUnLoadingWorld=تفريغ العالم
 LogScreenGameLoadingStateCells=خلايا الدولة
 LogScreenGameLoadingFactionTypes=أنواع القبيلة
 LogScreenGameLoadingMinimapSurface=حساب مساحة الخريطة المصغرة
@@ -259,13 +259,13 @@ MapTitle2=اللاعبين
 MarkCell=إشارة مرجعية لموضع الخريطة
 UnMarkCell=حذف الإشارة المرجعية
 MasterServerMissing=إعداداتك تفتقد إدخال الخادم الرئيسي
-# MaxFilterAnisotropy=Max Filter Anisotropy
+MaxFilterAnisotropy=تباين التصفية الأقصى
 MaxLights=أقصى حد للأضواء:
 MaxLoad=أقصى حد للحمل
 MaxPlayers=أقصى حد لللاعبين
 MaxUnitCount=أقصى حد للوحدة
 MeetingPoint=نقطة تجميع
-# Megaglest3d2dProgramming=MegaGlest 3D/2D+Programming
+Megaglest3d2dProgramming=MegaGlest ثلاثي/ثنائي الأبعاد+برمجة
 MegaglestProgramming=برمجة MegaGlest
 MGBuildDateTime=تاريخ/وقت البناء
 MGGameCountry=البلد
@@ -287,9 +287,9 @@ MismatchedFactions=\n\nالفصائل التالية متطابقة:
 MismatchedFactionsMissing=المفقود
 MismatchedFactionsExtra=الإضافة\n
 
-# ModLocalRemoteMismatch=The local mod [%s] is not the same as the\nversion on the server, replace local mod with server version?
+ModLocalRemoteMismatch=التعديل المحلي [%s] ليس نفس\nالإصدار الذي على الخادم، إستبدال التعديل المحلي بإصدار الخادم؟
 ModErrorGettingServerData=خطأ في جلب البيانات من الخادم الرئيسي: %s
-# ModRequires7z=** Warning ** - You need to have the free 7z program installed in order to download and install mod add-ons.
+ModRequires7z=** تحذير ** - تحتاج برنامج 7z الحر أن يكون مثبت من أجل تحميل وتثبيت الإضافات.
 ModDownloadInProgressCancelQuestion=لديك حاليا: %d ملفات للتحميل، هل تريد الخروج وإنهاء هذه التحميلات؟
 ModDownloading=التحميل\n
 
@@ -299,17 +299,17 @@ ModRemoveTechConfirm=هل أنت متأكد أنك تريد ازالة التك�
 ModCannotRemoveTechNotInstalled=ليست لديك الفصيلة: %s مثبتة، ألغي الحذف.
 ModSelectTechToRemove=تحتاج أولا لتحديد فصيلة للحذف.
 ModDownloadTechSuccess=تم تحميل الفصيلة: %s بنجاح
-# ModDownloadTechFail=FAILED to download the tech: [%s] using CURL version [%s] [%s]
+ModDownloadTechFail=فشل في تحميل الفصيلة: [%s] باستخدام CURL الإصدار [%s] [%s]
 
-# ModTilesetAlreadyInstalled=You already have the tileset: %s installed.
-# ModSelectTilesetToInstall=You must first select a tileset to install.
-# ModRemoveTilesetConfirm=Are you sure you want to remove the tileset: %s ?
-# ModCannotRemoveTilesetNotInstalled=You do not have the tileset: %s installed, remove cancelled.
-# ModSelectTilesetToRemove=You must first select a tileset to remove.
-# ModDownloadTilesetSuccess=SUCCESSFULLY downloaded the tileset: %s
-# ModDownloadTilesetFail=FAILED to download the tileset: [%s] using CURL version [%s] [%s]
+ModTilesetAlreadyInstalled=لديك مسبقا الأرضية: %s المثبتة.
+ModSelectTilesetToInstall=تحتاج أولا لتحديد أرضية للتثبيت.
+ModRemoveTilesetConfirm=هل أنت متأكد أنك تريد إزالة الأرضية: %s ؟
+ModCannotRemoveTilesetNotInstalled=لا تملك الأرضية: %s مثبتة، إلغاء الإزالة.
+ModSelectTilesetToRemove=تحتاج أولا لتحديد أرضية لإزالتها.
+ModDownloadTilesetSuccess=تمت عملية تحميل الأرضية: %s بنجاح
+ModDownloadTilesetFail=فشل في تحميل الأرضية: [%s] باستخدام CURL الإصدار [%s][%s]
 
-# ModMapAlreadyInstalled=You already have the map: %s installed.
+ModMapAlreadyInstalled=حاليا الخريطة: %s مثبتة لديك.
 ModSelectMapToInstall=يجب تحديد الخريطة أولا للتثبيت.
 ModRemoveMapConfirm=هل أنت متأكد أنك تريد إزالة الخريطة: %s؟
 ModCannotRemoveMapNotInstalled=أنت لا تملك الخريطة: %s مثبتة، إلغاء الإزالة.
@@ -320,7 +320,7 @@ ModDownloadMapFail=فشل في تحميل الخريطة: [%s] باستخدام 
 ModScenarioAlreadyInstalled=بالفعل لديك السيناريو: %s مثبت.
 ModSelectScenarioToInstall=يجب أولا تحديد سيناريو لتثبيته.
 ModRemoveScenarioConfirm=هل أنت متأكد من أنّك تريد حذف السيناريو: %s؟
-# ModCannotRemoveScenarioNotInstalled=You do not have the scenario: %s installed, remove cancelled.
+ModCannotRemoveScenarioNotInstalled=ليس لديك السيناريو: %s مثبت، ألغيت الإزالة.
 ModSelectScenarioToRemove=يجب أولا تحديد سيناريو لحذفه.
 ModDownloadScenarioSuccess=تم تحميل السيناريو بنجاح: %s
 ModDownloadScenarioFail=فشل في تحميل السيناريو: [%s] باستخدام CURL الإصدار [%s][%s]
@@ -331,10 +331,10 @@ ModOnlyLocal=ليس في الخادم
 ModHasConflict=مختلف عن الخادم
 
 Mods=تعديلات اللعبة
-# Morph=Morph
-# MorphNoReqs=requirements to morph are not satisfied
-# MorphNoRes=Not enough resources to morph unit
-# MorphSpeed=Morph Speed
+Morph=تحول
+MorphNoReqs=متطلبات التحول غير مرضية
+MorphNoRes=لا توجد موارد كافية لتحول الوحدة
+MorphSpeed=سرعة التحول
 MouseScrollsWorld=تحريك الكاميرا بالفأرة
 Move=تحريك
 MultiPlayer=متعدد اللاعبين
@@ -345,15 +345,15 @@ NetworkCpu=معالج شبكة
 NetworkCpuUltra=معالج شبكة فائق
 NetworkCpuMega=معالج شبكة ميجا
 NetworkFramePeriod=عدد الإطارات المرسلة في الشبكة
-# NetworkGameClientLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
-# NetworkGameServerLoadStatus=Waiting for network: %lld seconds elapsed (maximum wait time: %d seconds)
+NetworkGameClientLoadStatus=في انتظار الشبكة: %lld ثواني منقضية (الوقت الأقصى للإانتظار: %d ثانية)
+NetworkGameServerLoadStatus=في انتظار الشبكة: %lld ثواني منقضية (الوقت الأقصى للإانتظار: %d ثانية)
 NetworkGameStatusWaiting=انتظار اللاعبين: %s
 NetworkPauseGameForLaggedClients=إيقاف مؤقت لتخلف العملاء
 NetworkSlotUnassignedErrorUI=لا يمكن بدأ اللعبة.\nبعض اللاعبين غير موجودين في فتحات اللعبة بالشبكة
 NetworkSlotUnassignedError=لا يمكن بدأ اللعبة.\nبعض اللاعبين غير موجودين في فتحات اللعبة بالشبكة
 NetworkUnassigned=لاعب يفتقر إلى فتحة متاحة
-# NetworkSlotNoHumanErrorUI=Cannot start game. The host player is not in a human or admin game slot!
-# NetworkSlotNoHumanError=Cannot start game, The host player is not in a human or admin game slot!
+NetworkSlotNoHumanErrorUI=لا يمكن بدء تشغيل اللعبة، اللاعب المضيف ليس في وضع إنسان أو فتحة مشرف اللعبة!
+NetworkSlotNoHumanError=لا يمكن بدء تشغيل اللعبة، اللاعب المضيف ليس في وضع إنسان أو فتحة مشرف اللعبة!
 NewGame=لعبة جديدة
 No=لا
 NoServerVisitChat=لا خادم؟ زر الدردشة
@@ -366,20 +366,20 @@ Off=معطل
 Ok=حسنا
 OpenGlInfo=معلومات OpenGL
 OpenGlVersion=إصدار OpenGL
-# OpenGlRenderer=OpenGL Renderer
+OpenGlRenderer=عارض OpenGL
 OpenGlVendor=بائع OpenGL
-# OpenGlMaxLights=OpenGL Max Lights
-# OpenGlMaxTextureSize=OpenGL Max Texture Size
-# OpenGlMaxTextureUnits=OpenGL Max Texture Units
-# OpenGlModelviewStack=OpenGL Modelview Stack
-# OpenGlProjectionStack=OpenGL Projection Stack
+OpenGlMaxLights=أقصى حد لأضواء OpenGL
+OpenGlMaxTextureSize=أقصى حجم لملمس OpenGL
+OpenGlMaxTextureUnits=أقصى مظهر سطحي لوحدات OpenGL
+OpenGlModelviewStack=نموذج عرض مكدس OpenGL
+OpenGlProjectionStack=إسقاط نموذج OpenGL
 OpenGlExtensions=ملحقات OpenGL
 OpenGlPlatformExtensions=ملحقات بيئة OpenGL
 Options=خيارات
 OrdersOnQueue=طلبات في الإنتظار
 PathFinderType=الباحث عن نوع المسار
 PathFinderTypeRegular=منتظم
-# PathFinderTypeRoutePlanner=RP-beta
+PathFinderTypeRoutePlanner=RP-بيتا
 PauseResumeGame=إيقاف\إستئناف اللعبة
 Play=إلعب
 PlayNow=إلعب الآن!
@@ -391,7 +391,7 @@ PlayerStatusSetup=غير مستعد
 PlayerStatusBeRightBack=سأعود بعد قليل
 PlayerStatusReady=مستعد
 PlayerSwitchedTeam=اللاعب %s تحول من الفريق# %d إلى الفريق# %d.
-# PlayerSwitchedTeamDenied=Player %s was denied the request to switch from team# %d to team# %d.
+PlayerSwitchedTeamDenied=اللاعب%s تم رفض طلبه للتحويل من فريق# %d إلى فريق# %d.
 PleaseWaitCalculatingCRC=الرجاء الإنتضار بينما يتم حساب CRCs!
 PleaseWait=انتظر من فضلك...
 Port=منفذ
@@ -415,7 +415,7 @@ ReloadLastGameSettings=أعد تحميل الإعدادات الأخيرة
 Remove=حذف
 Repair=إصلاح
 RepairSpeed=سرعة الإصلاح
-# Reqs=Reqs
+Reqs=متطلبات
 RestartNeeded=يجب إعادة التشغيل لتفعيل التأثيرات
 Resolution=الدقة:
 ResolutionChanged=الدقة تغيرت!
@@ -428,7 +428,7 @@ ScenarioTitle1=سيناريوهات
 Score=النتيجة
 ScreenShotFileType=صيغة ملف لقطة الشاشة
 ScreenshotSavedTo=لقطة الشاشة ستحفظ في: %s
-ScreenShotConsoleText=أظهر 'لقطة الشاشة المحفوظة'
+ScreenShotConsoleText=عرض 'لقطة الشاشة المحفوظة'
 Server=الخادم
 ServerPort=منفذ الخادم #
 ServerType=نوع الخادم
@@ -437,17 +437,17 @@ ServerTypeNew=جديد
 ServerTypePrevious=السابق
 ShadowMapping=خريطة مضللة
 Shadows=الضل:
-# ShadowTextureSize=Shadow Texture Size:
+ShadowTextureSize=حجم ظل المادة:
 ShowMapPreview=معاينة الخريطة
-# ShowUnitParticles=Unit Particles:
-# ShowTilesetParticles=Tileset Particles:
+ShowUnitParticles=جزيئات الوحدة:
+ShowTilesetParticles=جزئيات الأرضية:
 Sight=مدى الرؤية
 SinglePlayer=لاعب منفرد:
 Size=الحجم
 Slow=بطيئ
 SomeOrdersFailed=لا يمكن أن تعطى بعض الأوامر
 SoundAndMusic=الصوت والموسيقى
-# SplashRadius=Splash radius
+SplashRadius=Splash radius
 StandardPort=المنفذ الإفتراضي
 StartingToUpgrade=بدأت الترقية
 Stop=توقف
@@ -458,13 +458,13 @@ Team=فريق
 TechTree=شجرة الفصائل
 TechTitle1=شجرة الفصائل
 TechTitle2=فصائل
-# Textures3D=3D Textures:
-# Tileset=Tileset
-# TilesetTitle1=Tilesets
+Textures3D=ملامس ثلاثية الأبعاد:
+Tileset=نوع الأرضية
+TilesetTitle1=الأرضيات
 TimeDisplay=عرض الوقت الحقيقي واللعبة
-# TimeoutWaitingForClients=Timeout waiting for clients.
-# TimeoutWaitingForServer=Timeout waiting for server.
-# TimeoutWaitingForMessage=Timeout waiting for message.
+TimeoutWaitingForClients=انتهت مهلة انتضار الزبائن.
+TimeoutWaitingForServer=انتهت مهلة انتظار الخادم.
+TimeoutWaitingForMessage=انتهت مهلة انتظار الرسالة.
 Tip=نصيحة
 ToSwitchOffMusicPress=لإيقاف الموسيقى في حين انتظار اللاعبين اضغط على
 

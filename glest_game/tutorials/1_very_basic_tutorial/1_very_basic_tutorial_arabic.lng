@@ -1,0 +1,76 @@
+;message headers
+GlestBasicTutorial=دروس MegaGlest الأساسية
+WellDone=احسنت !
+Resources=مصادر
+Combat=معركة
+Buildings=المنشآت
+Tricks=حيل
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=مرحبا بكم في دروس MegaGlest الأساسية.
+
+FirstThing=عرض: لضبط منطقة الرؤيا، حرك مؤشر الماوس على حواف الشاشة، أو استخدم مفاتيح المؤشرات. هناك طريقة أخرى للقيام بذلك وهي النقر الأيسر على الخريطة المصغرة (الزاوية اليسرى العليا من الشاشة).
+
+WillBeUsingIndian=في هذه المقدمة، ستقوم بقيادة الهنود. تحارب فصيلة الهنود بالرماة والأسلحة البسيطة.
+
+NeedWorkers=أولا نحن بحاجة إلى عمال. للحصول على واحد، انقر باليسار على المينتيبي وابدأ في تدريب العاملين لديك. للقيام بذلك، استخدم الأمر "إنتاج عامل" عن طريق النقر على أيقونة العامل.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=الآن انقر بزر الفأرة الأيسرعلى العامل الخاص بك.سيتم عرض تفاصيل عن الوحدة المختارة، هي اسم وصورة الوحدة، في الزاوية اليمنى العليا من الشاشة. فيما يلي نقاط الصحة (HP)، الدرع، و بين قوسين نوع الدرع ومجال الرؤية (البصر).
+Select2=إذا كانت هذه وحدة قتال، يتم سرد عدد وحدات العدو التي تم تدميرها. إذا كان مستهلك موارد، سيتم عرضه في الحقل التالي. دون هذا، فإنه يقول ما تقوم به هذه الوحدة حاليا.
+
+# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+
+Command=يتم سرد قدرات الوحدات بمزيد من التفصيل أدناه. سوف نتعلم الآن جميع الأوامر التي يستطيع العامل تنفيذها.
+
+# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+
+# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
+# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+
+# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=جيد. الآن اجعل كلا من العمال يعودون إلى المينتيبي. لتحديد وحدات متعددة، اضغط على المفتاح shift وارسم مربع تحديد حول الوحدات الخاصة بك أو...
+MoveBack2=.. اضغط باستمرار المفتاح shift، ثم استخدم الفأرة للنقر فوق كل وحدة تريد تضمينها أو...
+MoveBack3=.. قم بالنقر المزدوج على وحدة ما لتحديد جميع الوحدات القريبة من نفس النوع (العمال في هذه الحالة).
+HarvestGoldandStone=عندما تصل الوحدات الخاصة بك إلى منزلك، سوف نستخدم رمز الأمر الرابع والذي يعني جني الذهب والحجر.
+HarvestGoldandStone2=تحوم أيقونة الأمرهذه مع مؤشر الفأرة الخاص بك لمعرفة مدى سرعة حصاد عمالك، كم يمكن أن يحصد كل عامل، مدى سرعتهم عندما يحملون الموارد وما هي الموارد التي يمكن حصادها تقريبا.
+UseHarvestGoldandStone=لاستخدام هذا الأمر، أولاً انقر على أيقونة الأمر، ثم على المورد الذي تريد حصاده. الأكوام الرمادية مع النقاط الصفراء هي الذهب، وتلك دونها هي حجر.
+HarvestGoldandStone3=الآن اجمع الذهب والحجر حتى يكون لديك إجمالي 600 ذهب و 550 حجر . يمكنك أيضا بناء عمال جدد للقيام بذلك (لكن سوف يكلفونك الذهب، أيضا). تحقق من الجزء العلوي من الشاشة لمعرفة كمية الموارد التي لديك حاليا في المخزن.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=الآن كل ما تحتاجه هو القليل من الخشب. للحصول على البعض، استخدم رمز الأمر الخامس. وهذا أيضا أمر حصاد لذلك يمكن استخدامه بنفس طريقة تحصيل الذهب والحجر.
+ResourceInformation=بالمناسبة، غالبا ما تحتاج فصيلة الهنود الذهب والخشب.
+GetWood=تلميح لآخر، يمكنك اختصار أي أمر حصاد عن طريق تحديد عامل خاص بك، ثم النقر بزر الفأرة الأيمن على الموقع حيث تتوفر هذه الموارد (هلم جرا الخشب في هذه الحالة). في حالة النجاح، سيظهر سهم أصفر. الآن إجمع الخشب حتى يكون لديك 550 في المخزن.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=عند تحديد مبنى، سيتم عرض سهم أزرق. هذا السهم يشير إلى ما يسمى بـ "نقطة تجمع". وجميع الوحدات المنتجة في هذا المبنى ستنتقل إلى هذا المكان عند ظهورها.
+UseMeetingPoint=يمكنك نقل نقطة التجمع أيضا. انقر على أيقونة العلم، ثم على الموضع الذي يجب أن تكون فيه نقطة التجمع الجديدة. هنا، أيضا، يمكنك اختصار هذه ببساطة عن طريق النقر بزر الفأرة الأيمن في الموقع الجديد (تماما كما يمكنك القيام به للمشي).
+MeetingPoint2=إذا قمت بوضع نقطة التجمع على مورد، سيقوم العمال الجدد بالبدأ على الفور في الحصاد هناك. تأكد من أن تضغط إلى الموقع الصحيح، وإلا سيقف العمال حول المورد مشكلين عقبة في الطريق.
+# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
+# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
+# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
+# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+# ProduceStickfighter=You can now train a stick fighter in your new tent.
+
+;objective strings
+# ProduceWorker=Objective: Train one worker.
+# ProduceStickfighter2=Objective: Train one stick fighter.
+# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
+# HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
+# GetWoodob=Objective: Harvest wood until you have 550.
+# UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+
+;end
+
+WellDoneNextTutorial=عمل جيد ! الآن يمكنك الانتقال للمساعدة التالية
