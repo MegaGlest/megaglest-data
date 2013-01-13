@@ -1,37 +1,37 @@
 ;message headers
-GlestBasicTutorial=الدروس الأساسية ل MegaGlest
-WellDone=احسنت!
-Resources=المصادر
+GlestBasicTutorial=دروس MegaGlest الأساسية
+WellDone=أحسنت!
+Resources=مصادر
 Combat=معركة
-Buildings=المنشآت
+Buildings=منشآت
 
 ;message strings
-Welcome=مرحبا بكم في الدروس الاساسية لMegaGlest. هنا سوف تتعلم اساسيات اللعبة
-WillBeUsingTech=انت في اوامر الفصائل التقنية . التي تستخدم محاربي العصور الوسطى والاجهزة الميكانيكية للقتال
-NeedWorkers=لجني الموارد ستحتاج العمال.لانتاج البعض حدد اولا القلعة ثم استخدم الامر "انتاج عامل"
-SelectAndCommand=يتم اختيارالوحدات بالنقر باليسار عليها. يتم اعطاء الاوامر بالنقر باليمين سواء على الهدف او على التضاريس
-HowToMine=للحصول على الذهب . حدد اولا العامل . ثم انقر بزر الماوس الايمن على قطعة الذهب
-WorkersKeepOnHarvesting=سوف تبقي العمال على الحصاد. واخذ الموارد الى مبنى الذي يمكن فيه تخزين انواع الموارد التي يحملونها
-ResourceInformation=يتم عرض معلومات عن الموارد في الجزء العلوي من الشاشة.الرقم على اليسار هو المبلغ الحالي. الرقم على اليمين هوالكمية المخزونة
-OtherResources=الموارد الاخرى مثل الخشب او الحجر يتم حصادها بنفس طريقة حصاد الذهب
+Welcome=مرحبا بكم في دروس MegaGlest الأساسية. هنا سوف تتعلم أساسيات اللعبة.
+WillBeUsingTech=أنت في قيادة الفصائل التقنية . التي تستخدم محاربي العصور الوسطى والاجهزة الميكانيكية للقتال.
+NeedWorkers=لجني الموارد ستحتاج للعمال. لانتاج البعض حدد اولا القلعة ثم استخدم أمر "انتاج عامل"
+SelectAndCommand=يتم اختيارالوحدات بالنقر باليسار عليها. يتم اعطاء الاوامر بالنقر باليمين سواء على الهدف أو على المنطقة.
+HowToMine=للحصول على الذهب. حدد اولا العامل . ثم انقر بزر الفأرة الأيمن على قطعة الذهب.
+WorkersKeepOnHarvesting=سوف يبقى العمال يحصدون ويأخذون الموارد الى المبنى الذي يمكن تخزين أنواع الموارد التي يحملونها.
+ResourceInformation=يتم عرض معلومات عن الموارد في الجزء العلوي من الشاشة.الرقم على اليسار هو المبلغ الحالي. الرقم على اليمين هو سعة التخزين.
+OtherResources=الموارد الأخرى مثل الخشب او الحجر يتم حصادها بنفس طريقة حصاد الذهب.
 TechResourceNeeds=عادة ما تحتاج الفصائل التقنية للكثير من الذهب والخشب . والقليل من الحجارة
-TechConsumesFood=كل وحد في الفصائل التقنية تستهلك الغذاء. دون الغذاء تتضرر الوحدات وتموت. يمكن انتاج الغذاء من قبل حيوانات المزرعة. ويتم انتاج الحيوانات في المزرعة
-HaveEnoughAnimals=تذكر دائما أن يكون هناك ما يكفي من الحيوانات لإطعام الوحدات الخاصة بك
-# BalanceDisplay=The balance between Food consumption and production is displayed in brackets next to the Food storage at the top of the screen.
-# TechWarriorsAtBarracks=To defeat your enemy you will need some warriors, most Tech warriors are produced at the Barracks.
-# HowToBuildBarracks=To build a Barracks select a Worker, click on "Build Basic" > "Barracks" and then select a spot for the building.
-# RememberToBuildBarracks=Remember to always build a Barracks at the beginning, this will allow you to quickly produce warriors.
-# SwordmanBrief=The basic Tech warrior is the Swordman, select the Barracks, then click on "Produce Swordman" to produce one. Make sure you have enough resources.
-# HaveWarriorsAtBase=You should always have some warriors at your base, they will automatically attack any enemies in range.
-# ArcherBrief=Archers are the basic ranged unit of the Tech faction. They are also produced at the Barracks.
-# ProduceWarriors=Produce a few more warriors to defend your base from enemy attacks.
+TechConsumesFood=كل وحدة في الفصائل التقنية تستهلك الغذاء. دون الغذاء تتضرر الوحدات وتموت. يمكن انتاج الغذاء من قبل حيوانات المزرعة. ويتم انتاج الحيوانات في المزرعة.
+HaveEnoughAnimals=تذكر دائما أن يكون هناك ما يكفي من الحيوانات لإطعام الوحدات الخاصة بك.
+BalanceDisplay=يتم عرض التوازن بين استهلاك وإنتاج الغذاء بين قوسين بجانب تخزين الغذاء في الجزء العلوي من الشاشة.
+TechWarriorsAtBarracks=لهزيمة عدوك سوف تحتاج بعض المحاربين، ويتم إنتاج المحاربين في معظم الفصائل في الثكنة.
+HowToBuildBarracks=لبناء ثكنات حدد عامل، انقر على "إنشاء أساسي" > "ثكنة" ثم حدد مكان البناء.
+RememberToBuildBarracks=تذكر دائما بناء الثكنات في البداية، هذا سوف يسمح لك بإنتاج المحاربين بسرعة .
+SwordmanBrief=محارب الفصائل الأساسي هو السياف، حدد ثكنة، ثم انقر على "إنتاج سياف" لإنتاج واحد. تأكد أن لديك ما يكفي من الموارد.
+HaveWarriorsAtBase=يجب أن يكون لديك دائما بعض المحاربين في القاعدة الخاص بك، سيهاجمون تلقائيا أي أعداء في مجال رؤيتهم.
+ArcherBrief=الرماة هم وحدة المدى الأساسية في الفصائل. ويتم إنتاجهم أيضا في الثكنة.
+ProduceWarriors=انتج عدد قليل من أكثر المحاربين للدفاع عن القاعدة الخاص بك من هجمات العدو.
 
 ;objective strings
-# ProduceWorkers=Objective: Produce 3 Workers.
-# HarvestWoodAndStone=Objective: Harvest 100 wood and 150 stone units.
-# ProduceCow=Objective: Produce a Cow.
-# MineGold=Objective: Mine 100 Gold units.
-# BuildBarracks=Objective: Build Barracks.
-# ProduceSwordman=Objective: Produce a Swordman.
-# ProduceArcher=Objective: Produce an Archer.
-# ProduceMoreWarriors=Objective: Produce more warriors to deal with the upcoming attack.
+ProduceWorkers=الهدف: إنتاج 3 عمال.
+HarvestWoodAndStone=الهدف: حصاد 100 وحدة خشب و 150 حجر.
+ProduceCow=الهدف: إنتاج بقرة.
+MineGold=الهدف: إستخراج 100 وحدة ذهب.
+BuildBarracks=الهدف: بناء ثكنة.
+ProduceSwordman=الهدف: إنتاج سياف.
+ProduceArcher=الهدف: إنتاج رامي سهام.
+ProduceMoreWarriors=الهدف: إنتاج المزيد من المحاربين للتصدي للهجوم القادم.

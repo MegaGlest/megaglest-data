@@ -1,32 +1,32 @@
 ;message headers
-GlestAdvancedTutorial=المساعدة المتقدمة ل MegaGlest
-# Promoting=Promoting Units
+GlestAdvancedTutorial=دروس MegaGlest المتقدمة
+Promoting=تعزيز وحدات
 WellDone=أحسنت!
-# Summoning=Summoning
+Summoning=استدعاء
 Energy=الطاقة
-# Ritual=Ritual
+Ritual=طقوس
 Armies=الجيوش
 
 ;message strings
-# Welcome=Welcome to the Advanced MegaGlest Tutorial, here you will learn the some of the more advanced features of the game.
-# MagicBrief=You are in command of the Magic faction, which uses mages and summoned creatures to fight.
-# InitiateBrief=Initiates are the basic Magic unit, they can harvest resources and build structures.
-# InitiatePromotion=Initiates can be promoted to Battlemages, to do so, select an Initiate, and use the "Promote to Battlemage" command.
-# BattlemageBrief=Battlemages are the core Magic warriors, they have powerful ranged attacks and also good speed and resistance.
-# EnergyBrief=Magic units usually need Energy to be produced, Energy is not consumed like Food, but it is only requiered when the unit is created. It is produced by Energy Sources.
-# EnergyBrief2=Make sure you always have enough Energy to produce new units.
-# SummonedUnitsBrief=The other way the Magic faction produces units is by summoning them. You will need a Summoner for this, they are produced at the Summoners Guild.
-# SummonerBrief=Summoners can create several types of creatures, the most basic one is the Daemon.
-# DaemonBrief=Daemons are really weak but also very cheap, they are useful as basic melee warriors and are also good for scouting.
-# OtherSummonedCreatures=Summoners can create more advanced creatures, like Ghost Armors and Dragons, however they require that you research the right upgrades.
-# GhostArmorRequirements=Ghost Armors require the Ancient Summoning upgrade, that can be researched at the Summoners Guild.
-# GhostArmorBrief=Ghost Armors are a medium melee unit, useful to keep enemy warriors away from your Battlemages.
-# RitualBrief=Initiates have a second build command, called Ritual, used to build advanced structures and also powerful creatures like the Golem. You will need a Library to access them.
+Welcome=مرحبا بكم في دروس MegaGlest المتقدمة، هنا سوف تتعلم بعض الميزات الأكثر تقدما من اللعبة.
+MagicBrief=أنت في قيادة فصيلة السحر، التي تستخدم السحرة واستدعاء المخلوقات للقتال.
+InitiateBrief=المستهلين هي الوحدة الأساسية للسحرة، و يمكنهم حصاد الموارد وبناء الهياكل.
+InitiatePromotion=يمكن ترقية المستهلين إلى سحرة محاربين، لتفعل ذلك، حدد أحد المستهلين، واستخدم أمر "ترقية لساحر محارب".
+BattlemageBrief=السحرة المحاربين هم محاربي فصيلة السحرة الأساسيين، لديهم هجمات مدى قوية وأيضا سرعة ومقاومة جيدة.
+EnergyBrief=عادة ما تحتاج وحدات السحرة إلى الطاقة لإنتاجها، لا تستهلك الطاقة مثل الغذاء، ولكن مطلوبة فقط عند إنشاء الوحدة. تنتج الطاقة من "مصادر الطاقة".
+EnergyBrief2=تأكد أن لديك دائما ما يكفي من الطاقة لإنتاج وحدات جديدة.
+SummonedUnitsBrief=بطريقة أخرى فصيلة السحرة تنتج الوحدات عن طريق استدعائها. ستحتاج لمستدعين لفعل لهذا، والذين يمكن إنتاجهم من نقابة المستدعين.
+SummonerBrief=يمكن أن ينشئ المستدعون عدة أنواع من المخلوقات، أحد أكثرها أساسية هو الشيطان.
+DaemonBrief=الشياطين ضعيفة حقا ولكنها أيضا رخيصة جدا، كما أنها مفيدة كمحاربي إلتحام قاعدية وهي أيضا جيدة للإستطلاع.
+OtherSummonedCreatures=يمكن للمستدعين إنشاء مخلوقات أكثر تطورا، مثل دروع الشبح والتنانين، إلا أنها تتطلب منك ترقيات البحث.
+GhostArmorRequirements=دروع الشبح تتطلب ترقية الإستدعاء القديم، والتي يمكن البحث عنها في نقابة المستدعين.
+GhostArmorBrief=دروع الشبح هي وحدة إلتحام متوسطة، مفيدة لإبقاء محاربين العدو بعيدا عن السحرة المحاربين الخاصين بك.
+RitualBrief=يبادر لها أمر بناء الثانية، دعا الطقوس، وتستخدم لبناء هياكل قوية متقدمة والمخلوقات أيضا مثل Golem. سوف تحتاج إلى مكتبة للوصول إليها.
 # GolemBrief=Golems are very powerful defensive units, they have a powerful attack and very good resistance, but they can only move as long as they have enough energy points.
 # ArmyManagement=As you produce higher numbers of units, they might become difficult to manage.
 # DoubleClickBrief=By double clicking on a unit, you can select all the units of the same type in the surroudings.
 # GroupSelectBrief=You can define groups of units by selecting them and then pressing Control and a number key, then you can recall groups by pressing the number key again.
-FinalMission=الآن كاختبار نهائي، سيكون عليك لبناء جيش وهزيمة العدو.
+FinalMission=الآن كاختبار نهائي، سيكون عليك بناء جيش وهزيمة العدو.
 
 ;objective strings
 # PromoteInitiate=Objective: Promote an Initiate to Battlemage.

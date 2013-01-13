@@ -21,16 +21,16 @@ NeedWorkers=أولا نحن بحاجة إلى عمال. للحصول على وا
 Select=الآن انقر بزر الفأرة الأيسرعلى العامل الخاص بك.سيتم عرض تفاصيل عن الوحدة المختارة، هي اسم وصورة الوحدة، في الزاوية اليمنى العليا من الشاشة. فيما يلي نقاط الصحة (HP)، الدرع، و بين قوسين نوع الدرع ومجال الرؤية (البصر).
 Select2=إذا كانت هذه وحدة قتال، يتم سرد عدد وحدات العدو التي تم تدميرها. إذا كان مستهلك موارد، سيتم عرضه في الحقل التالي. دون هذا، فإنه يقول ما تقوم به هذه الوحدة حاليا.
 
-# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+ExampleWorker=على سبيل المثال، عامل لديه 600 نقطة صحة، 0 درع جلدي ومجال رؤية 9 . حالته الحالية هي "متوقف"، لذلك فهو لا يفعل أي شيء.
 
 Command=يتم سرد قدرات الوحدات بمزيد من التفصيل أدناه. سوف نتعلم الآن جميع الأوامر التي يستطيع العامل تنفيذها.
 
-# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+FirstCommand=أيقونة الأمر الأول هي 'التوقف'. إذا نقرت على هذه الأيقونة، فإن العامل سيتوقف فورا عن ما يقوم به حاليا. جميع الوحدات (ماعدا المباني) توفر هذا الأمر.
 
-# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
-# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+SecondCommand=أيقونة الأمر الثاني هي 'التحرك'. إذا قمت بالنقر عليها، ستحتاج إلى الضغط على الأرض أو وحدة أخرى لتحديد وجهة التحرك التالية. اختصار هذا الأمر هوالنقر بزر الفأرة الأيمن عند الموضع المستهدف.
+SecondCommand2=عندما تحوم مؤشر الفأرة فوق أيقونة أمر 'التحرك'، يتم عرض سرعة حركة العمال. هذا الأمر أيضا، متاح لجميع الوحدات (ماعدا المباني).
 
-# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+TestSecondCommand=جرب أمر "التحرك" الآن. قم بتحريك أحد العمال إلى العامل الآخر الذي ينتظر خارج المخيم الخاص بك. العامل الآخر يظهر على الخريطة المصغرة (أعلى اليسار) على شكل نقطة حمراء. المثلث الأبيض الصغير على الخريطة يشير إلى وجهة نظرك/الكاميرا الحالية. النقطة الحمراء الكبيرة هي الماينتيبي الخاص بك.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -53,24 +53,24 @@ GetWood=تلميح لآخر، يمكنك اختصار أي أمر حصاد عن 
 MeetingPoint=عند تحديد مبنى، سيتم عرض سهم أزرق. هذا السهم يشير إلى ما يسمى بـ "نقطة تجمع". وجميع الوحدات المنتجة في هذا المبنى ستنتقل إلى هذا المكان عند ظهورها.
 UseMeetingPoint=يمكنك نقل نقطة التجمع أيضا. انقر على أيقونة العلم، ثم على الموضع الذي يجب أن تكون فيه نقطة التجمع الجديدة. هنا، أيضا، يمكنك اختصار هذه ببساطة عن طريق النقر بزر الفأرة الأيمن في الموقع الجديد (تماما كما يمكنك القيام به للمشي).
 MeetingPoint2=إذا قمت بوضع نقطة التجمع على مورد، سيقوم العمال الجدد بالبدأ على الفور في الحصاد هناك. تأكد من أن تضغط إلى الموقع الصحيح، وإلا سيقف العمال حول المورد مشكلين عقبة في الطريق.
-# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
-# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
-# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
-# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+Thirdcommand=الآن مع أيقونة الأمر الثالث للعامل - هذا هو أمر 'البناء'.
+Thirdcommand2=بالنقر فوقها ستدخل لقائمة البناء. إذا كنت تحوم مؤشر الفأرة على إحدى رموز البنايات سترى، قائمة تحت عنوان "متطلبات"، بها جميع الموارد والمنجزات التي تحتاجها لإنجاز تلك البناية.
+Thirdcommand3=إذا كنت تحوم فوق الخيمة، سترى ان الأمر يأخذ 30 ذهب،50 خشب ، -10 مساكن وخيمة رئيسية. "-10 مساكن" يعني أن من خلال بناء الخيمة، ستحصل على إقامة جيدة لعشر وحدات إضافية (على الرغم من أن بعض الوحدات قد تحتاج إلى أكثر من مسكن واحد).
+Thirdcommand4=دعونا الآن نبني خيمة. انقر على قائمة الإنشاء، ثم على خيمة، وضعها على بقعة فارغة.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-# ProduceStickfighter=You can now train a stick fighter in your new tent.
+ProduceStickfighter=يمكنك الآن تدريب مقاتل عصا في خيمتك الجديدة.
 
 ;objective strings
-# ProduceWorker=Objective: Train one worker.
-# ProduceStickfighter2=Objective: Train one stick fighter.
-# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
-# HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
-# GetWoodob=Objective: Harvest wood until you have 550.
-# UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+ProduceWorker=الهدف: تدريب عامل واحد.
+ProduceStickfighter2=الهدف: تدريب مقاتل عصا واحد.
+MoveWorker=الهدف: نقل عاملك المنتج حديثا للعامل الآخر الذي ينتظر خارج المخيمك.
+HarvestGoldandStoneobjective=الهدف: جمع الذهب والحجر حتى يكون لديك إجمالي 600 ذهب و 550 حجر.
+GetWoodob=الهدف: جمع الخشب حتى يكون لديك 550.
+UseThirdCommand=الهدف: بناء خيمة. تلميح: إذا أخذت الخيمة اللون الأحمر، هذا يعني أن هذه البقعة حاليا (أو عادة) محجوزة (مثلا من طرف وحدة أخرى أو شجرة).
 
 ;end
 
-WellDoneNextTutorial=عمل جيد ! الآن يمكنك الانتقال للمساعدة التالية
+WellDoneNextTutorial=عمل جيد ! الآن يمكنك التقدم للدرس التالي.
