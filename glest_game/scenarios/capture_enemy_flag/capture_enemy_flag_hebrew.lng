@@ -1,0 +1,17 @@
+;message headers
+CaptureFlag=אל הדגל!
+Warning=אזהרה
+Crisis=כוננות אדומה!
+
+;message strings
+Brief1=כבוש את הדגל של האויב על ידי נגיעה בו, ואחר כך החזירו לבסיס הבית שלך! הדגל של האויב מתנופף במפה הקטנה. הדגל שלך הוא בצבע של הצוות שלך. הישמר מהפתעות בדרך.
+Player2InFlagZoneWarning=שחקן 2 באזור הדגל שלך, היזהר!
+Player3InFlagZoneWarning=שחקן 3 באזור הדגל שלך, היזהר!
+Player2HasFlagWarning=שחקן 2 תפס את הדגל שלך, תפוס אותו!!
+Player3HasFlagWarning=שחקן 3 תפס את הדגל שלך, תפוס אותו!!
+
+;objective strings
+Player2HeadHome=עכשיו שחקן 2 החזר את הדגל הביתה בחיים וניצחת! נושא הדגל מובלט בצבע של הצוות שלך, אל תתן לו למות!
+Player3HeadHome=עכשיו שחקן 3 החזר את הדגל הביתה בחיים וניצחת! נושא הדגל מובלט בצבע של הצוות שלך, אל תתן לו למות!
+PlayerWins=ברכות, ניצחת!
+PlayerLoses=חבל, הפסדת!

@@ -40,6 +40,6 @@
 # hint40=This screen stays on until every players' computer\nhas fully loaded the game data. Some computers\nare faster than others. Please wait patiently.
 # hint41=To add a cell marker and leave comments for your team,\npress the '#BookmarkAdd#' key. To remove it press #BookmarkRemove#.
 # hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal deselect all units and press #CameraFollowSelectedUnit#.
-# hint43=Linux is the best operating system.. ever.. period :)
-# hint44=Free software made this game possible, consider how you can help\nsocieties like fsf.org and sourceforge.net
+hint43=לינוקס הינה מערכת ההפעלה הטובה ביותר... לעולם... סוף פסוק :)
+hint44=תוכנה חופשית ייצרה את התוכנה הזו, תחשוב כיצד אתה יכול לעזור\nקהילות כמו fsf.org וsourceforge.ner.
 # hint45=Is a translation missing or bad? Would you like to add support\nfor another language? Please read: http://translate.megaglest.org/\nContributing is easy and your work will end up in the next release.

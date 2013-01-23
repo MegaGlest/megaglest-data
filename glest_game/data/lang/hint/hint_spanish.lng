@@ -42,4 +42,4 @@ hint41=Para alladir una marca de celda y dejar comentarios a tu equipo,\npulse l
 hint42=Para seguir una unidad en modo de tercera persona\nselecciona la unidad y pulsa la tecla '#CameraFollowSelectedUnit#'.\nPara volver a la vista normal deseleccione las unidades y pulse #CameraFollowSelectedUnit#.
 hint43=gnuLinux es el mejor sistema operativo de toda la historia :-)
 hint44=El software libre ha hecho posible este juego, piensa como puedes ayudar a organismos como fsf.org y sourceforge.net
-# hint45=Is a translation missing or bad? Would you like to add support\nfor another language? Please read: http://translate.megaglest.org/\nContributing is easy and your work will end up in the next release.
+hint45=¿Falta traducción o contiene errores? ¿Te gustaría contribuir en la traducción en otros idiomas?\nPor favor, lea: http://translate.megaglest.org/\nContribuir es fácil y tu trabajo se verá reflejado en la próxima versión de Megaglest.

@@ -1,14 +1,14 @@
 ;message headers
-# GlestBasicTutorial=MegaGlest Basic Tutorial
-# WellDone=Well done!
+GlestBasicTutorial=MegaGlest הדרכה בסיסית
+WellDone=כל הכבוד!
 Resources=משאבים
-# Combat=Combat
-# Buildings=Buildings
-# Tricks=Tricks
+Combat=קרב
+Buildings=מבנים
+Tricks=טיפים
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-# Welcome=Welcome to the basic MegaGlest tutorial.
+Welcome=ברוך הבא להדרכה בסיסית של MegaGlest.
 
 # FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
 
@@ -61,16 +61,16 @@ Resources=משאבים
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-# ProduceStickfighter=You can now train a stick fighter in your new tent.
+ProduceStickfighter=אתה יכול עכשיו לאמן "לוחם מקלות" באוהל שלך.
 
 ;objective strings
-# ProduceWorker=Objective: Train one worker.
-# ProduceStickfighter2=Objective: Train one stick fighter.
+ProduceWorker=מטרה: אמן פועל אחד.
+ProduceStickfighter2=מטרה: אמן "לוחם מקלות" אחד.
 # MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
 # HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
-# GetWoodob=Objective: Harvest wood until you have 550.
+GetWoodob=מטרה: חטוב עצים עד שתגיע ל 550 יחידות.
 # UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
 
 ;end
 
-# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.
+WellDoneNextTutorial=עבודה טובה! אתה יכול לעבור להדרכה הבאה.
