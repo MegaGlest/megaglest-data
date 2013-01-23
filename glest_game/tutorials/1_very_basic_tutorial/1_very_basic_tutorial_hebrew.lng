@@ -12,18 +12,18 @@ Welcome=ברוך הבא להדרכה בסיסית של MegaGlest.
 
 # FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
 
-# WillBeUsingIndian=In this introduction, you command the indians. The indian faction fights with archers and simple weapons.
+WillBeUsingIndian=בהדרכה זו אתה מפקד על האינדיאנים. האינדיאנים נלחמים עם קשתים וכלי לחימה פשוטים.
 
-# NeedWorkers=First we need a worker. To get one, left-click on the Mainteepee and start training your worker. To do so, use the 'Produce Worker' command by clicking on the worker icon.
+NeedWorkers=קודם אנו זקוקים לפועל. על מנת להשיגו, לחץ על האוהל הראשי והתחל לאמן את הפועל. השתמש לשם כך בפקודה Produce Worker (ייצר פועל), על ידי לחיצה על סמל הפועל.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-# Select=Now left-click your worker. Details on the selected unit, namely the unit name and an image, are now displayed in the top right corner of your screen. Below this health points (HP), armor, and, in brackets, armor type and view range (sight) are listed.
-# Select2=If this is a battle unit, the number of enemy units it has already destroyed is listed next. If it consumes resources, this is displayed in the following field. Below this, it says what this unit is currently doing.
+Select=עכשיו לחץ בלחצן שמאל על הפועל. באופן כללי לחיצה שמאלית על יחידה כל שהיא תציב בפינה הימנית של המסך את שם היחידה, תמונה שלה, מצב בריאותו (HP) שריון וסוג שריון, ואת הטווח ראיה של היחידה.
+Select2=אם מדובר ביחידה לוחמת יוצג מספר הלוחמים שהיחידה הרגה, אם מדובר בפועל הנושא משאבים תוצג כמות המשאבים שהוא נושא. כמו כן מוצג מה היחידה עושה כרגע.
 
-# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+ExampleWorker=לדוגמה, לפועל שלך יש 600 כח חיים (HP), אין לו שריון, וטווח הראיה שלו 9. המצב שלו הינו "עוצר", כך שהוא לא עושה כלום.
 
-# Command=The units' abilities are listed further below. We will now learn all commands the worker can execute.
+Command=יכולות היחידות רשומות בהמשך. כרגע נלמד את כל הפקודות הנוגעות לפועלים.
 
 # FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
 
@@ -34,9 +34,9 @@ Welcome=ברוך הבא להדרכה בסיסית של MegaGlest.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-# MoveBack=Good. Now make both workers return to the Mainteepee. To select multiple units, press shift and draw a selection box around your units OR ...
-# MoveBack2=... hold down shift, then use your mouse to click on every unit you want to include OR ...
-# MoveBack3=... double-click on a unit to select all nearby units of the same type (workers in this case).
+MoveBack=טוב. עכשיו החזר את שני הפועלים לאוהל הראשי. על מנת לבחור כמה יחידות לחץ shift וצייר ריבוע בחירה סביב ליחידות או...
+MoveBack2=החזק את מקש הshift לחוץ והשתמש בעכבר על מנת לבחור כל יחידה שתרצה להוסיף לבחירה או...
+MoveBack3=לחיצה כפולה על יחידה תבחר את כל היחידות הקרובות מאותו סוג (במקרה שלנו, פועלים).
 # HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
 # HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
 # UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
@@ -45,7 +45,7 @@ Welcome=ברוך הבא להדרכה בסיסית של MegaGlest.
 ;------------------------------------------Get Wood------------------------------------------
 
 # HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
-# ResourceInformation=By the way, the indian faction mostly needs gold and wood.
+ResourceInformation=דרך אגב, האינדיאנים צריכים בעיקר זהב ועצים.
 # GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
@@ -53,10 +53,10 @@ Welcome=ברוך הבא להדרכה בסיסית של MegaGlest.
 # MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
 # UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
 # MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
-# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
+Thirdcommand=עכשיו נעבור לסמל השלישי - זוהי פקודת הבניה.
 # Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
 # Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
-# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+Thirdcommand4=בוא נבנה אוהל עכשיו. לחץ על תפריט בניה (build), לאחר מכן על אוהל (tent), ומקם אותו במקום ריק.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
@@ -66,10 +66,10 @@ ProduceStickfighter=אתה יכול עכשיו לאמן "לוחם מקלות" ב
 ;objective strings
 ProduceWorker=מטרה: אמן פועל אחד.
 ProduceStickfighter2=מטרה: אמן "לוחם מקלות" אחד.
-# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
-# HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
+MoveWorker=מטרה: הזז את הפועלים החדשים שלך לעבר הפועלים הקיימים המחכים מחוץ למחנה.
+HarvestGoldandStoneobjective=מטרה: כרה זהב ואבנים עד שיהיה לך 600 יחידות זהב ו550 יחידות אבנים.
 GetWoodob=מטרה: חטוב עצים עד שתגיע ל 550 יחידות.
-# UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+UseThirdCommand=מטרה: בנה אוהל. רמז: אם האוהל בצבע אדום המשמעות היא שהמקום הזה אינו מתאים לבניית אוהל (באופן זמני או קבוע) היות והוא תפוס על ידי יחידה כל שהיא או עץ.
 
 ;end
 

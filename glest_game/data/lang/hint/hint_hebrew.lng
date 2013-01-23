@@ -1,7 +1,7 @@
-# hint1=You can set/edit your player name in the 'options' menu,\naccessible from the main menu.
+hint1=אתה יכול לשנות את שם המשחק שלך בתפריט אפשרויות,\nניתן לגשת אליו מהתפריט הראשי.
 # hint2=To select and highlight idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then '#HotKeyCenterCameraOnSelection#'.
 # hint3=To toggle team chat on/off, press '#ChatTeamMode#' (while not in chat mode).
-# hint4=To see more chat history, hold down the '#ShowFullConsole#' key.
+hint4=על מנת לראות יותר מהסטוריית הצ'אט החזק את המקש '#ShowFullConsole#' לחוץ.
 # hint5=You can group units by selecting them and pressing Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10#.\nTo recall a group press the number of the group (0-9).\nDouble-tap the number to position the camera above this group.
 # hint6=To defend from incoming enemies, use long-range combat units\nand fight behind your buildings and send your workers to repair them.
 # hint7=To take a screenshot, press the '#Screenshot#' key.\nPressing the '#TogglePhotoMode#' key toggles the HUD on/off.
@@ -29,9 +29,9 @@
 # hint29=Be sure to read the announcements shown on the master server list screen.\nIt will also report whether your version of the game is up to date.
 # hint30=Press the '#SaveGame#' key any time in-game to save your game.\nSaved games can be loaded from the main menu.
 # hint31=Details on all Megapack factions, units and structures,\ntheir properties, strengths and weaknesses, are available\non the MegaGlest website at http://megaglest.org/techtree/
-# hint32=You can easily contribute your own mods to MegaGlest.\nCheck http://wiki.megaglest.org for more details.
-# hint33=Got any questions? Something doesn't work?\nCheck http://FAQ.megaglest.org
-# hint34=To learn how to host your own games check\nhttp://FAQ.megaglest.org
+hint32=אתה יכול בקלות ליצור חבילת הרחבה משלך לMegaGlest\nבקר ב http://wiki.megaglest.org לפרטים נוספים.
+hint33=יש לך שאלה? משהו לא עובד?\nכנס ל: http//FAQ.megaglest.org
+hint34=על מנת ללמוד איך לארח משחק משלך, בקר ב:\nhttp://FAQ.megaglest.org
 # hint35=There are many hidden and advanced options\navailable in MegaGlest. Run 'megaglest --help'\nto list them from a console.
 # hint36=To permanently mark a position on the map\npress the '#BookmarkAdd#' key, then click on the map. To remove it,\npress '#BookmarkRemove#' and click again.
 # hint37=When you are looking for an Internet game\nbut no-one is around: connect to a server and remain there\nfor 15 minutes. You can minimize MegaGlest while waiting for players to join.
