@@ -1,6 +1,6 @@
 hint1=אתה יכול לשנות את שם המשחק שלך בתפריט אפשרויות,\nניתן לגשת אליו מהתפריט הראשי.
-# hint2=To select and highlight idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then '#HotKeyCenterCameraOnSelection#'.
-# hint3=To toggle team chat on/off, press '#ChatTeamMode#' (while not in chat mode).
+hint2=על מנת לבחור ולאתר פועלים מתבטלים לחץ על: '#HotKeySelectIdleHarvesterUnit#', ולאחר מכן '#HotKeyCenterCameraOnSelection#'.
+hint3=על מנת להפעיל או לכבות שיחה פרטית עם הצוות, לחץ '#ChatTeamMode#' (כאשר אינך במצב הצ'אט).
 hint4=על מנת לראות יותר מהסטוריית הצ'אט החזק את המקש '#ShowFullConsole#' לחוץ.
 # hint5=You can group units by selecting them and pressing Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10#.\nTo recall a group press the number of the group (0-9).\nDouble-tap the number to position the camera above this group.
 # hint6=To defend from incoming enemies, use long-range combat units\nand fight behind your buildings and send your workers to repair them.

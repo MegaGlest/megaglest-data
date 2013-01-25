@@ -10,7 +10,7 @@ Tricks=טיפים
 ;------------------------------------------Start------------------------------------------------
 Welcome=ברוך הבא להדרכה בסיסית של MegaGlest.
 
-# FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
+FirstThing=צפייה: על מנת להזיז את האזור הנצפה, הזז את העכבר אל מעבר לקצה של המסך. אפשרות אחרת הינה שימוש במקשי החיצים, ואפשרות שלישית היא לחיצה שמאלית על המפה המוקטנת (מופיעה בפינה השמאלית העליונה של המסך).
 
 WillBeUsingIndian=בהדרכה זו אתה מפקד על האינדיאנים. האינדיאנים נלחמים עם קשתים וכלי לחימה פשוטים.
 
@@ -25,37 +25,37 @@ ExampleWorker=לדוגמה, לפועל שלך יש 600 כח חיים (HP), אי�
 
 Command=יכולות היחידות רשומות בהמשך. כרגע נלמד את כל הפקודות הנוגעות לפועלים.
 
-# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+FirstCommand=הפקודה הראשונה היא עצור "stop". אם תלחץ על פקודה זו הפועל יפסיק מיד לעשות את כל מה שהוא עושה. כל היחידות למעט מבנים, תומכים בפקודה זו.
 
-# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
-# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+SecondCommand=הפקודה השניה הינה נוע "move". אם תלחץ על פקודה זו, אתה תצטרך ללחוץ על האדמה או על יחידה אחרת על מנת להגדיר את מקום ההליכה. קיצור לפקודה זו הינו לחיצה ימנית על המיקום המבוקש.
+SecondCommand2=כאשר תעמיד את העכבר על הסמל "נוע", מהירות התזוזה של הפועל תופיע. הפקודה זמינה לכלל היחידות (למעט מבנים).
 
-# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+TestSecondCommand=נסה את הפקודה נוע עכשיו. הזז את הפועל לפועל אחר המחכה מחוץ למחנה. הפועל הזה מסומן במפה הממוזערת כנקודה אדומה. המשולש הלבן במפה הקטנה מייצג את המיקום הנוכחי של המצלמה המאפשר לך לצפות במשחק. הנקודה האדומה הגדולה הינה האוהל הראשי שלך.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
 MoveBack=טוב. עכשיו החזר את שני הפועלים לאוהל הראשי. על מנת לבחור כמה יחידות לחץ shift וצייר ריבוע בחירה סביב ליחידות או...
 MoveBack2=החזק את מקש הshift לחוץ והשתמש בעכבר על מנת לבחור כל יחידה שתרצה להוסיף לבחירה או...
 MoveBack3=לחיצה כפולה על יחידה תבחר את כל היחידות הקרובות מאותו סוג (במקרה שלנו, פועלים).
-# HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
-# HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
-# UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
-# HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
+HarvestGoldandStone=כאשר היחידות שלך מגיעות הביתה, אנו נשתמש בפקודה הרביעית המפקדת לחצוב זהב ואבנים.
+HarvestGoldandStone2=עמוד עם העכבר על הסמל הזה על מנת לראות כמה מהר הפועלים שלך יכולים לאסוף, כמה כל אחד מהם יכול לשאת, ובאיזה מהירות הם יכולים ללכת לעבר המחסן אחר האיסוף.
+UseHarvestGoldandStone=על מנת להשתמש בפקודה זו, לחץ על סמל הפקודה, ולאחר מכן על המשאב שברצונך לכרות, הערמות האפורות עם נצנוצי זהב הם זהב, ואלו שבלי אבנים.
+HarvestGoldandStone3=עכשיו כרה זהב ואבנים עד שיהיה לך סך הכל 600 יחידות זהב ו550 אבנים. אתה יכול ליצור פועלים חדשים (אבל הם יעלו לך זהב). בדוק בשורה העליונה של המסך כמה משאבים יש לך כרגע.
 
 ;------------------------------------------Get Wood------------------------------------------
 
-# HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
+HarvestGoldAndStoneDone=עכשיו כל מה שאתה צריך זה קצת עצים. כדי להשיגם השתמש בפקודה החמישית. זאת פקודה לחטיבת עצים שניתן להשתמש בה באותה דרך שהשתמשת לחצוב זהב או אבנים.
 ResourceInformation=דרך אגב, האינדיאנים צריכים בעיקר זהב ועצים.
-# GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
+GetWood=עצה טובה, אתה יכול לקצר את התהליך על ידי בחירת הפועל ולחיצה ימנית על המשאב המבוקש (במקרה שלנו עצים). במידה והפקודה נתנה בהצלחה, חץ צהוב יופיע מהפועל אל המשאב. עכשיו חטוב עצים עד שיהיו לך 550 עצים מאוחסנים.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
-# UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
-# MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
+MeetingPoint=כשאתה בוחר מבנה, יופיע חץ כחול. החץ הזה מצביע ל"מקום המפגש". כל החיילים המיוצרים בבית הזה, ילכו למקום המפגש מיד בצאתם מהבית.
+UseMeetingPoint=אתה יכול לשנות את מקום המפגש. לחץ על סמל הדגל, ולאחר מכן על מקום בו תרצה למקם את נקודת המפגש החדשה. גם כאן תוכל לקצר זאת פשוט על ידי לחיצה על לחצן ימני על המקום (באותה דרך כמו ששולחים חייל רגלי למקום).
+MeetingPoint2=אם תמקם את נקודת המפגש על משאב, פועלים חדשים שייצאו ילכו ישר לעבוד במשאב זה. וודא שאתה ממקם את החץ בערמה הנכונה, או שפועליך יעמדו בצד או יסתובבו סתם.
 Thirdcommand=עכשיו נעבור לסמל השלישי - זוהי פקודת הבניה.
-# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
-# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
+Thirdcommand2=על ידי לחיצה עליו אתה נכנס לתפריט בניה. אם תעמוד עם העכבר על אחד מהסמלים של הבניינים אתה תקבל רשימה תחת הכותרת "דרישות" את עלויות ודרישות הקדם של המבנה.
+Thirdcommand3=אם תשים את העכבר על ה"אוהל"' אתה תראה שהוא עולה 30 זהב, 50 עצים -10 מגורים (housing) ואוהל ראשי. -10 מגורים פירושו שעל ידי בניית האוהל הזה אתה מקבל תוספת של 10 מגורים לשימוש היחידות השונות (חלק מהיחידות דורשות יותר ממקום מגורים אחד).
 Thirdcommand4=בוא נבנה אוהל עכשיו. לחץ על תפריט בניה (build), לאחר מכן על אוהל (tent), ומקם אותו במקום ריק.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
