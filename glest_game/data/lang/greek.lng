@@ -213,6 +213,7 @@ NoSavedGames=Δεν βρέθηκαν αποθηκευμένα παιχνίδια
 SavedGames=Αποθηκευμένα παιχνίδια
 SaveGame=Αποθήκευση του παρόντως παιχνιδιού
 SavegameInfo=Πληροφορίες για το επιλεγμένο παιχνίδι
+# SelectionType=Unit selection type:
 Delete=Διαγραφή
 NothingSelected=Δεν έχει επιλεχθεί τίποτα
 LeftAt=Ο παίκτης έφυγε στις:

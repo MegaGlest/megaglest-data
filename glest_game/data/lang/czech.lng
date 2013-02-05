@@ -213,6 +213,7 @@ NoSavedGames=Nenalezeny žádné uložené hry.
 SavedGames=Uložené hry
 SaveGame=Uložit současnou hru
 SavegameInfo=Inforbace o vybrané hře
+# SelectionType=Unit selection type:
 Delete=Smazat
 NothingSelected=Nic nebylo vybráno.
 # LeftAt=Player left at:

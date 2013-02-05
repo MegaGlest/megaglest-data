@@ -213,6 +213,7 @@ NoSavedGames=Não há Jogos Salvos.
 SavedGames=Jogos Salvos
 SaveGame=Salvar Jogo Atual
 SavegameInfo=Informações sobre o jogo selecionado
+# SelectionType=Unit selection type:
 Delete=Excluir
 NothingSelected=Nada foi selecionado.
 LeftAt=O jogador saiu às:

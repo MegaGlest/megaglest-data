@@ -213,6 +213,7 @@ NoSavedGames=No se encontraron juegos guardados.
 SavedGames=Juegos guardados
 SaveGame=Guardar juego actual
 SavegameInfo=Información sobre el juego elegido
+# SelectionType=Unit selection type:
 Delete=Borrar
 NothingSelected=No has seleccionado nada
 LeftAt=El jugador avandonó en

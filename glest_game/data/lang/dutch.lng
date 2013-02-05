@@ -213,6 +213,7 @@ NoSavedGames=Geen opgeslagen spellen gevonden.
 SavedGames=Opgeslagen spellen
 SaveGame=Sla huidige spel op
 SavegameInfo=Informatie over het opgeslagen spel
+# SelectionType=Unit selection type:
 Delete=Verwijderen
 NothingSelected=Niets is geselecteerd.
 LeftAt=Speler heeft spel verlaten om:

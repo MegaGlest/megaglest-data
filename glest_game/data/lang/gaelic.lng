@@ -213,6 +213,7 @@ NoSavedGames=Cha deach geama a lorg.
 SavedGames=Geamannan air an sàbhaladh
 SaveGame=Sàbhail an geama
 SavegameInfo=Fiosrachadh mun gheama a thagh thu
+# SelectionType=Unit selection type:
 Delete=Sguab às dha
 NothingSelected=Cha deach càil a thaghadh.
 LeftAt=Cluicheadair:

@@ -213,6 +213,7 @@ NoSavedGames=Brak zapisanych gier.
 SavedGames=Zapisane gry
 SaveGame=Zapisz aktualną grę
 SavegameInfo=Informacja o zaznaczonej grze
+# SelectionType=Unit selection type:
 Delete=Usuń
 NothingSelected=Nic nie zaznaczono.
 LeftAt=Gracz odszedł o:

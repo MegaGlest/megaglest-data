@@ -213,6 +213,7 @@ NoSavedGames=Ingen gemte spil fundet
 SavedGames=Gemte spil
 SaveGame=Gem det nuværende spil
 SavegameInfo=Information om det valgte spil
+# SelectionType=Unit selection type:
 Delete=Slet
 NothingSelected=Intet er valgt
 LeftAt=Spiller forlod ved:

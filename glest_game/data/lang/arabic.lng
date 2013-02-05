@@ -213,6 +213,7 @@ NoSavedGames=لا توجد ألعاب محفوظة.
 SavedGames=الألعاب المحفوظة
 SaveGame=حفظ اللعبة الحالية
 SavegameInfo=معلومات عن اللعبة المختارة
+# SelectionType=Unit selection type:
 Delete=حذف
 NothingSelected=لا شيء تم تحديده
 LeftAt=غادر اللاعب على:

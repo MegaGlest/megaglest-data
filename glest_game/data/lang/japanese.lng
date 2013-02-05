@@ -213,6 +213,7 @@ NoSavedGames=セーブされたゲームはありません。
 SavedGames=セーブされたゲーム
 SaveGame=現在のゲームをセーブする
 SavegameInfo=選択したゲームについての詳細
+# SelectionType=Unit selection type:
 Delete=削除
 NothingSelected=何も選択されていません。
 LeftAt=プレイヤー辞退:
