@@ -22,17 +22,17 @@ OtherSummonedCreatures=يمكن للمستدعين إنشاء مخلوقات أ�
 GhostArmorRequirements=دروع الشبح تتطلب ترقية الإستدعاء القديم، والتي يمكن البحث عنها في نقابة المستدعين.
 GhostArmorBrief=دروع الشبح هي وحدة إلتحام متوسطة، مفيدة لإبقاء محاربين العدو بعيدا عن السحرة المحاربين الخاصين بك.
 RitualBrief=يبادر لها أمر بناء الثانية، دعا الطقوس، وتستخدم لبناء هياكل قوية متقدمة والمخلوقات أيضا مثل Golem. سوف تحتاج إلى مكتبة للوصول إليها.
-# GolemBrief=Golems are very powerful defensive units, they have a powerful attack and very good resistance, but they can only move as long as they have enough energy points.
-# ArmyManagement=As you produce higher numbers of units, they might become difficult to manage.
-# DoubleClickBrief=By double clicking on a unit, you can select all the units of the same type in the surroudings.
-# GroupSelectBrief=You can define groups of units by selecting them and then pressing Control and a number key, then you can recall groups by pressing the number key again.
+GolemBrief=Golems هي وحدات دفاعية قوية جدا، لديهم هجوم قوي ومقاومة جيدة للغاية، ولكنها تتحرك فقط عندما يكون لديها ما يكفي من نقاط الطاقة.
+ArmyManagement=كلما أنتجت أعدادا كبيرة من الوحدات، قد يصبح من الصعب السيطرة عليها.
+DoubleClickBrief=بالنقر المزدوج على وحدة، يمكنك تحديد جميع الوحدات من نفس النوع في المنطقة المحيطة بها.
+GroupSelectBrief=يمكنك تحديد مجموعات من الوحدات عن طريق تحديدها ثم الضغط على مفتاح التحكم ومفتاح رقم ما، ثم يمكنك استدعاء المجموعات عن طريق الضغط على مفتاح الرقم مرة أخرى.
 FinalMission=الآن كاختبار نهائي، سيكون عليك بناء جيش وهزيمة العدو.
 
 ;objective strings
-# PromoteInitiate=Objective: Promote an Initiate to Battlemage.
-# ProduceSummoner=Objective: Build a Summoners Guild, then produce a Summoner.
-# ProduceDaemon=Objective: Summon a Daemon.
-# ProduceGhostArmor=Objective: Research Ancient Summoning, then summon a Ghost Armor.
-# BuildEnergySource=Objective: Build an Energy Source.
-# ProduceGolem=Objective: Build Library and then use an Initiate to perform a ritual to build a Golem.
-# DefeatEnemy=Objective: Build an army, locate and defeat your enemy.
+PromoteInitiate=الهدف: ترقية مستهل إلى ساحر محارب.
+ProduceSummoner=الهدف: بناء نقابة مستدعين، ثم إنتاج مستدعي.
+ProduceDaemon=الهدف: استدعاء شيطان.
+ProduceGhostArmor=الهدف: ترقية الإستدعاء القديم، ثم استدعاء درع شبح.
+BuildEnergySource=الهدف: بناء مصدر للطاقة.
+ProduceGolem=الهدف: بناء مكتبة ومن ثم استخدام مستهل لأداء الطقوس لبناء Golem.
+DefeatEnemy=الهدف: بناء جيش، حدد موقع واهزم عدوك.
