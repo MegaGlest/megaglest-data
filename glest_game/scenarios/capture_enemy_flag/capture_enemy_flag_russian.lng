@@ -1,3 +1,4 @@
+SCENARIO_NAME=Захват флага
 ;message headers
 CaptureFlag=Захвати флаг
 Warning=Ой-ой!
