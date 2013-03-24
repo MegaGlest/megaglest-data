@@ -1,4 +1,4 @@
-TUTORIAL_NAME=#1 einfaches Einsteiger Tutorial
+TUTORIAL_NAME=einfaches Einsteiger Tutorial
 ;message headers
 GlestBasicTutorial=MegaGlest Einsteiger-Einführung
 WellDone=Gut gemacht!

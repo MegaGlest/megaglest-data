@@ -1,4 +1,4 @@
-# TUTORIAL_NAME=#2 Basic Tutorial
+TUTORIAL_NAME=#2 Basis Handleiding
 ;message headers
 GlestBasicTutorial=MegaGlest Basis Handleiding
 WellDone=Goed gedaan!
@@ -7,7 +7,7 @@ Combat=Gevecht
 Buildings=Gebouwen
 
 ;message strings
-Welcome=Welkom bij de MegaGlest basis les. Hier zul je de basis van het spel leren kennen.
+Welcome=Welkom bij de MegaGlest basis handleiding. Hier zul je de basis van het spel leren kennen.
 WillBeUsingTech=Je voert nu het commando over de Tech Groepering, die gebruik maakt van middeleeuwse strijders en mechanisch oorlogstuig om mee te vechten.
 NeedWorkers=Om middelen te verzamelen heb je Arbeiders nodig. Om de eerste Arbeider te produceren dien je eerst het Kasteel te selecteren en gebruik daarna het "Produceer Arbeider" commando.
 SelectAndCommand=Eenheden worden geselecteerd door er op te klikken met de linker muisknop, commando's kunnen gegeven worden door de rechter muisknop te klikken op het doel of terrein.

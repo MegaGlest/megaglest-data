@@ -1,6 +1,6 @@
-# TUTORIAL_NAME=#1 Basic Tutorial
+TUTORIAL_NAME=#1 Basis Handleiding
 ;message headers
-GlestBasicTutorial=MegaGlest Basis les
+GlestBasicTutorial=MegaGlest Basis Handleiding
 WellDone=Goed gedaan!
 Resources=Middelen
 Combat=Gevecht
@@ -9,7 +9,7 @@ Tricks=Trucs
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-Welcome=Welkom bij de basis MegaGlest introductie.
+Welcome=Welkom bij de basis MegaGlest handleiding.
 
 FirstThing=Zicht: Om het zichtbare gebied aan te passen, verplaats de muisaanwijzer naar de kant van je scherm, of gebruik je cursor toetsen. Een andere manier is door de linkermuisknop te klikken in de mini kaart (linker bovenhoek van je scherm).
 

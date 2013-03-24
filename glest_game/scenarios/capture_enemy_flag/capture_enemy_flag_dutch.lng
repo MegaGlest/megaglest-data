@@ -1,4 +1,4 @@
-# SCENARIO_NAME=Capture the flag
+SCENARIO_NAME=Verover de vlag
 ;message headers
 CaptureFlag=Verover de vlag
 Warning=Waarschuwing
