@@ -1,38 +1,38 @@
-# TUTORIAL_NAME=#2 Basic Tutorial
+TUTORIAL_NAME=2 Samouczek - Podst.
 ;message headers
-GlestBasicTutorial=Tutorial do MegaGlesta. Podstawy.
+GlestBasicTutorial=Samouczek. Poziom podstawowy 2.
 WellDone=Doskonale!
 Resources=Surowce
 Combat=Bitwa
 Buildings=Budynki
 
 ;message strings
-Welcome=Witaj w tutorialu do MegaGlesta. Nauczysz się tutaj podstaw gry.
-WillBeUsingTech=Kierujesz frakcją Techników, w szeregach której są średniowieczni wojownicy i maszyny.
-NeedWorkers=By zbierać surowce potrzebujesz Robotników (Workers). By stworzyć kilku zaznacz Zamek (Castle) i użyj polecenia "Produce Worker".
-SelectAndCommand=Jednostki zaznacza się przez kliknięcie lewym przyciskiem na nich, polecenia są wydawane prawym kliknięciem na celu lub na terenie.
-HowToMine=By zbierać Złoto (Gold) zaznacz Robotnika (Worker), następnie kliknij prawym na rudzie złota na mapie.
-WorkersKeepOnHarvesting=Robotnicy będą zbierać i przenosić surowce do budynku, który może je przechowywać.
-ResourceInformation=Informacja o surowcach jest wyświetlona na górze ekranu. Liczba po lewej to posiadana ilość, liczba po prawej to pojemność magazynów.
-OtherResources=Inne surowce jak Drewno (Wood) czy Kamień (Stone) są zbierane w taki sam sposób jak Złoto.
-TechResourceNeeds=Technicy zazwyczaj potrzebują dużo Złota i Drewna oraz trochę Kamienia.
-TechConsumesFood=Każda jednostka Techników konsumuje Jedzenie. Bez Jedzenia jednostki będą tracić zdrowie i umierać. Jedzenie produkowane jest przez zwierzęta, które można stworzyć w Farmie.
-HaveEnoughAnimals=Pamiętaj by zawsze mieć wystarczającą ilość zwierząt by wykarmić jednostki.
-BalanceDisplay=Balans pomiędzy spożyciem i produkcją Jedzenia jest pokazany w nawiasach obok ikonki Jedzenia u góry ekranu.
-TechWarriorsAtBarracks=By pokonać wroga będziesz potrzebował wojowników, Technicy większość z nich tworzą w Koszarach (Barracks).
-HowToBuildBarracks=By wybudować Koszary zaznacz Robotnika (Worker), kliknij na "Build Basic" > "Barracks" i zaznacz miejsce do budowy.
-RememberToBuildBarracks=Pamiętaj by zawsze budować Koszary na początku gry by szybko zbudować wojowników.
-SwordmanBrief=Podstawowy wojownik Techników to Miecznik (Swordman). Zaznacz Koszary (Barracks), potem kliknij "Produce Swordman" by stworzyć jednego. Upewnij się że masz wystarczającą ilość surowców.
-HaveWarriorsAtBase=Zawsze powinieneś mieć kilku wojowników w swojej bazie. Zaatakują oni automatycznie wroga będącego w zasięgu.
-ArcherBrief=Łucznicy to podstawowa jednostka strzelająca u Techników. Ich też możesz stworzyc w Koszarach.
+Welcome=Witaj w 2 części samouczka do gry MegaGlest.
+WillBeUsingTech=Dowodzisz frakcją Techników ('Tech'), w szeregach której są średniowieczni wojownicy i machiny wojenne.
+NeedWorkers=Aby zbierać surowce potrzebujesz robotników ('Workers'). Aby stworzyć kilku, zaznacz Zamek ('Castle') i kilka razy użyj polecenia 'Produce Worker'. Stwórz teraz 3 robotników.
+SelectAndCommand=Jednostki zaznacza się przez kliknięcie ich lewym przyciskiem myszy, a polecenia są wydawane prawym kliknięciem myszy na celu lub na mapie.
+HowToMine=Aby zbierać złoto ('Gold') zaznacz robotnika ('Worker'), a następnie kliknij prawym klawiszem myszy na rudzie złota.
+WorkersKeepOnHarvesting=Robotnicy będą zbierać i przenosić surowce do budynku, który może je przechowywać. W głównym budynku można gromadzić każdy rodzaj surowca, a dodatkowo w budynku kowala ('Blacksmith') (lub zazwyczaj w jego jakimś odpowiedniku u innej frakcji) można gromadzić drewno.
+ResourceInformation=Informacja o surowcach jest wyświetlona na górze ekranu. Liczba po lewej (X / Y) to posiadana ilość, liczba po prawej to pojemność magazynów.
+OtherResources=Inne surowce jak drewno ('Wood') czy kamień ('Stone') są zbierane w taki sam sposób jak złoto. Zbierz teraz 100 sztuk drewna oraz 150 sztuk kamienia.
+TechResourceNeeds=Technicy zazwyczaj potrzebują dużo złota i drewna oraz trochę kamienia.
+TechConsumesFood=Każda jednostka Techników konsumuje jedzenie. Bez jedzenia jednostki będą tracić zdrowie i umierać. Jedzenie produkowane jest przez zwierzęta, które to z kolei można wyhodować na Farmie ('Farm'). Stwórz teraz krowę ('Cow').
+HaveEnoughAnimals=Pamiętaj aby zawsze mieć wystarczającą ilość zwierząt, która wystarczy do wykarmienia wszystkich jednostek.
+BalanceDisplay=Różnica pomiędzy spożyciem i produkcją jedzenia jest pokazana w nawiasie obok ikonki jedzenia u góry ekranu. (+ X) oznacza, że zapas żywności będzie rósł lub utrzymywał się na maksymalnym możliwym poziomie.
+TechWarriorsAtBarracks=Aby pokonać wroga będziesz potrzebował wojowników, Technicy większość z nich tworzą w koszarach ('Barracks').
+HowToBuildBarracks=Aby wybudować koszary zaznacz robotnika ('Worker'), kliknij na ikonę 'Build Basic', a następnie 'Barracks' i wskaż miejsce do budowy. Zbuduj teraz koszary.
+RememberToBuildBarracks=Pamiętaj aby zawsze budować koszary na początku gry, co pozwoli (w razie potrzeby) szybko zacząć budować wojowników.
+SwordmanBrief=Podstawowy wojownik Techników to miecznik ('Swordman'). Zaznacz koszary ('Barracks'), potem kliknij 'Produce Swordman' by stworzyć teraz jednego. Upewnij się że masz wystarczającą do tego ilość surowców.
+HaveWarriorsAtBase=Zawsze powinieneś mieć kilku wojowników w swojej bazie. Zaatakują oni automatycznie wroga który pojawi się w ich zasięgu.
+ArcherBrief=Łucznicy ('Archers') to podstawowa jednostka dystansowa u Techników. Ich także możesz stworzyć w koszarach ('Barracks'). Stwórz teraz jednego łucznika.
 ProduceWarriors=Stwórz jeszcze kilku wojowników by obronić swoją bazę przed wrogiem.
 
 ;objective strings
-ProduceWorkers=Twój Cel: Stwórz 3 Robotników (Workers).
-HarvestWoodAndStone=Twój Cel: Zbierz 100 sztuk Drewna (Wood) oraz 150 sztuk Kamienia (Stone).
-ProduceCow=Twój Cel: Stwórz Krowę.
-MineGold=Twój Cel: Zbierz 100 sztuk Złota (Gold).
-BuildBarracks=Twój Cel: Wybuduj Koszary.
-ProduceSwordman=Twój Cel: Stwórz Miecznika (Swordman).
-ProduceArcher=Twój Cel: Stwórz Łucznika (Archer).
-ProduceMoreWarriors=Twój Cel: Stwórz więcej wojowników by poradzić sobie z nadchodzącym atakiem.
+ProduceWorkers=Twój Cel: Stwórz 3 robotników ('Workers').
+HarvestWoodAndStone=Twój Cel: Zbierz 100 sztuk drewna ('Wood') oraz 150 sztuk kamienia ('Stone').
+ProduceCow=Twój Cel: Stwórz krowę ('Cow').
+MineGold=Twój Cel: Zbierz 100 sztuk złota ('Gold').
+BuildBarracks=Twój Cel: Zbuduj koszary ('Barracks').
+ProduceSwordman=Twój Cel: Stwórz miecznika ('Swordman').
+ProduceArcher=Twój Cel: Stwórz łucznika ('Archer').
+ProduceMoreWarriors=Twój Cel: Stwórz więcej wojowników by poradzić sobie z nadchodzącym atakiem.\n\nKiedy pokonasz przeciwnika będziesz mógł przejść do następnego samouczka. (nr. 3)

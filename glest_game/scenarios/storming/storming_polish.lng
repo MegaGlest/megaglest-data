@@ -3,9 +3,9 @@ SCENARIO_NAME=Szturm
 Storming=Szturm
 
 ;message strings
-Brief1=Pomóż Zaklinaczce (Summoner) w ataku na obce wioski, ona nie może zginąć!
+Brief1=Pomóż Zaklinaczce ('Summoner') w ataku na obce wioski. Ona nie może zginąć!
 
 ;objective strings
-ObjectiveWest=Twój Cel: Zniszcz zachodnią wioskę Magów. Zaklinaczka musi przetrwać!
-ObjectiveNorthEast=Twój Cel: Zniszcz północno-wschodnią wioskę Techników. Zaklinaczka musi przetrwać!
+ObjectiveWest=Twój Cel: Zniszcz zachodnią wioskę Magów ('Magic'). Zaklinaczka musi przetrwać!
+ObjectiveNorthEast=Twój Cel: Zniszcz północno-wschodnią wioskę Techników ('Tech'). Zaklinaczka musi przetrwać!
 ObjectiveSouthEast=Twój Cel: Zniszcz południowo-wschodnią wioskę. Zaklinaczka musi przetrwać!

@@ -3,11 +3,11 @@ SCENARIO_NAME=Amazonki
 Amazones=Amazonki
 
 ;message strings
-Brief1=Zamek Twoich sojuszników musi przetrwać!
+Brief1=Zamek twoich sojuszników musi przetrwać!
 
 ;objective strings
-Firstwave=Twój Cel: Panie w zieleni.
-Secondwave=Twój Cel: Więcej pań.
-Thirdwave=Twój Cel: Prawdopodobnie za dużo pań...
-Fourthwave=Twój Cel: Miłe, lecz niebezpieczne ;-)
+Firstwave=Twój Cel: Kobiety w zieleni.
+Secondwave=Twój Cel: Więcej kobiet.
+Thirdwave=Twój Cel: Prawdopodobnie za dużo kobiet...
+Fourthwave=Twój Cel: Kobiety są fajne, ale czasem trochę niebezpieczne ;-)
 Lastwave=Twój Cel: Ostatnia fala!!

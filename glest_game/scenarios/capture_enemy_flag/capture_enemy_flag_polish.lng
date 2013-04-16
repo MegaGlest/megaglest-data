@@ -1,18 +1,18 @@
-# SCENARIO_NAME=Capture the flag
+SCENARIO_NAME=Zdobądź flagę
 ;message headers
-CaptureFlag=Zabierz flagę
+CaptureFlag=Zdobądź flagę
 Warning=Uwaga
 Crisis=Krytyczny alarm!
 
 ;message strings
-Brief1=Zabierz flagę przeciwnika dotykając jej, potem wróć tą jednostką do swojej bazy. Flaga przeciwnika mruga na minimapie. Twoja flaga mruga kolorem Twojej drużyny. Strzeż się niespodzianek po drodze.
+Brief1=Zdobądź flagę przeciwnika dotykając jej, a potem wróć jednostką która jej dotknęła do swojej bazy. Flaga przeciwnika mruga na minimapie. Twoja flaga mruga kolorem twojej drużyny. Strzeż się niespodzianek po drodze.
 Player2InFlagZoneWarning=Gracz 2 jest niedaleko twojej flagi, uważaj!
 Player3InFlagZoneWarning=Gracz 3 jest niedaleko twojej flagi, uważaj!
-Player2HasFlagWarning=Gracz 2 ZABRAŁ TWOJĄ FLAGĘ, bierz go!!
-Player3HasFlagWarning=Gracz 3 ZABRAŁ TWOJĄ FLAGĘ, bierz go!!
+Player2HasFlagWarning=Gracz 2 ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do swojej bazy!!!
+Player3HasFlagWarning=Gracz 3 ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do swojej bazy!!!
 
 ;objective strings
-Player2HeadHome=Gracz 2 dotarł do swojej bazy i wygrał! Twój posiadacz flagi jest podświetlony Twoim kolorem drużyny, nie pozwól mu zginąć.
-Player3HeadHome=Gracz 3 dotarł do swojej bazy i wygrał! Twój posiadacz flagi jest podświetlony Twoim kolorem drużyny, nie pozwól mu zginąć.
+Player2HeadHome=Gracz 2 dotarł żywy do swojej bazy i wygrał! Teraz jest podświetlony kolorem twojej drużyny, nie pozwól mu zginąć.
+Player3HeadHome=Gracz 3 dotarł żywy do swojej bazy i wygrał! Teraz jest podświetlony kolorem twojej drużyny, nie pozwól mu zginąć.
 PlayerWins=Gratulacje, wygrałeś!
 PlayerLoses=Niestety, przegrałeś!

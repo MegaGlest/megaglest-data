@@ -1,6 +1,6 @@
-# TUTORIAL_NAME=#1 Basic Tutorial
+TUTORIAL_NAME=1 Samouczek - Podst.
 ;message headers
-GlestBasicTutorial=Tutorial do MegaGlesta. Podstawy.
+GlestBasicTutorial=Samouczek. Poziom podstawowy 1.
 WellDone=Doskonale!
 Resources=Surowce
 Combat=Bitwa
@@ -9,69 +9,69 @@ Tricks=Sztuczki
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-Welcome=Witaj w tutorialu do MegaGlesta.
+Welcome=Witaj w samouczku do gry MegaGlest.
 
-FirstThing=Widok: By ustawić widoczny obszar przesuń wskaźnik myszy do krawędzi ekranu lub użyj kursorów klawiatury. Możesz też kliknąć lewym na minimapie (lewy górny róg ekranu).
+FirstThing=Widok: Aby ustawić widoczny obszar przesuń wskaźnik myszy do krawędzi ekranu/ lub użyj strzałek na klawiaturze./ Możesz też kliknąć lewym klawiszem myszy na minimapie (lewy górny róg ekranu).
 
-WillBeUsingIndian=W tym wprowadzeniu kierujesz Indianami. Ta frakcja walczy łucznikami i prostymi broniami.
+WillBeUsingIndian=W tej części samouczka dowodzisz Indianami. Indianie w walce generalnie wykorzystują łuczników i wojowników z prymitywną bronią.
 
-NeedWorkers=Potrzebujemy Robotnika. Kliknij lewym na Głównym Tipi (Mainteepee) i rozpocznij budowę Robotnika (Worker). Kliknij komendę 'Produce Worker' poprzez kliknięcie na ikonę Robotnika (Worker).
+NeedWorkers=Na początku potrzebujemy robotnika ('Worker'). Aby jednego zdobyć kliknij lewym klawiszem myszy na Głównym Tipi ('Mainteepee') i rozpocznij trening robotnika używając komendy: 'Produce Worker' poprzez kliknięcie na ikonie robotnika.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Teraz kliknij lewym na Robotniku. Szczegóły dotyczące zaznaczonej jednostki (nazwa jednostki i jej ikona) są teraz wyświetlone w prawym górnym rogu ekranu. Poniżej są punkty życia (HP), pancerz oraz, w nawiasach, typ zbroi i zasięg widoku.
-Select2=Jeśli jest to jednostka bojowa, liczba zabitych przez nią jednostek wroga będzie tuż pod spodem. Jeśli konsumuje surowce, będzie to napisane jako następne. Niżej napisane jest co aktualnie jednostka robi.
+Select=Teraz kliknij lewym klawiszem myszy tego robotnika. Szczegóły dotyczące zaznaczonej jednostki są teraz wyświetlone w prawym górnym rogu ekranu: Nazwa jednostki i jej ikona, a niżej kolejno: punkty życia (HP), odporność pancerza, (typ pancerza), zasięg pola widzenia.
+Select2=Jeśli jest to jednostka bojowa, liczba zabitych przez nią jednostek wroga jest podana tuż pod spodem. Jeśli konsumuje surowce, będzie to napisane jako następne. Jeszcze niżej napisane jest co aktualnie jednostka robi.
 
-ExampleWorker=Na przykład, Twój Robotnik ma 600 HP, skórzaną (leather) zbroję dającą 0 obrony oraz zasięg widoczności 9. Jego aktualny stan to "stop", czyli nic nie robi.
+ExampleWorker=Na przykład, twój robotnik ma 600 HP, skórzaną ('Leather') zbroję dającą 0 obrony oraz jego zasięg widoczności wynosi 9. Jego aktualny stan to 'Stop', czyli nic nie robi.
 
-Command=Możliwości jednostki są wymienione niżej. Zobaczmy co Robotnik potrafi.
+Command=Umiejętności jednostki są wymienione niżej w postaci ikon. Teraz nauczymy się wszystkich poleceń które robotnik potrafi wykonać.
 
-FirstCommand=Pierwsza ikona to 'stop'. Jeśli na nią klikniesz Robotnik zaprzestanie tego co aktualnie robił. Wszystkie jednostki (niebudynki) mają taką komendę.
+FirstCommand=Pierwsza ikona to 'Stop'. Jeśli na nią klikniesz robotnik zaprzestanie tego co aktualnie robił. Wszystkie jednostki (nie budynki) mają taką ikonę.
 
-SecondCommand=Następna ikona to 'move'. Jeśli na nią klikniesz, kliknięcie na ziemi lub na innej jednostce sprawi iż zacznie on podążać w tym kierunku. Można też zamiast tego kliknąć prawym na celu.
-SecondCommand2=Gdy najedziesz na ikonę 'move' wyświetli się szybkość ruchu Robotnika. Ta komenda też jest dostępna dla każdej jednostki (oprócz budynków).
+SecondCommand=Następna ikona to 'Move'. Jeśli na nią klikniesz, to następne kliknięcie gdzieś na ziemi lub na innej jednostce sprawi iż robotnik zacznie podążać we wskazanym kierunku./ Można też po prostu kliknąć prawym klawiszem myszy na celu.
+SecondCommand2=Gdy wskażesz kursorem myszy ikonę 'Move' wyświetli się szybkość ruchu robotnika. Ta komenda też jest dostępna dla każdej jednostki (nie dla budynków).
 
-TestSecondCommand=Wypróbuj teraz komendę 'move'. Przemieść Twojego Robotnika do następnego Robotnika, który czeka poza obozem. Ten Robotnik jest wyświetlony na minimapie (lewy górny róg) jako czerwona kropka. Biały trójkąt przedstawia Twój aktualny widok/pozycję kamery. Duża czerwona kropka to Główne Tipi.
+TestSecondCommand=Wypróbuj teraz komendę 'Move'. Zaprowadź twojego robotnika do innego robotnika, który czeka poza twoim obozem. Ten robotnik jest wyświetlony na minimapie (lewy górny róg ekranu) jako czerwona kropka. Biały trójkąt przedstawia twój aktualny widok.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-MoveBack=Dobrze. Wyślij teraz Robotników spowrotem do Tipi. By zaznaczyć kilka jednostek naraz naciśnij Shift i narysuj prostokąt wokół jednostek ALBO ...
-MoveBack2=... przytrzymaj Shift i użyj myszy by kliknąć na każdej jednostce, którą chcesz dodać ALBO ...
-MoveBack3=... naciśnij dwukrotnie na jednostce by zaznaczyć wszystkie jednostki o tym samym typie przebywające w pobliżu (w tym przypadku Robotników).
-HarvestGoldandStone=Gdy Twoi Robotnicy dotrą do domu, użyjemy komendy pod czwartą ikoną, która służy do polecenia wydobycia złota i kamienia.
-HarvestGoldandStone2=Najedź na tą ikonę swoją mysza by zobaczyć jak szybko Twoi Robotnicy potrafią wydobywać, ile każdy z nich może wydobyć naraz, jak szybko chodzą gdy niosą surowce i jakie surowce mogą wydobywać.
-UseHarvestGoldandStone=By użyć tej komendy kliknij na ikonie a potem na surowcu, który chcesz wydobywać. Szare pryzmy z żółtymi kropkami to Złoto, a te bez to Kamień.
-HarvestGoldandStone3=Zbieraj Złoto i Kamień aż będziesz miał 600 Złota i 550 Kamienia. Możesz stworzyć nowych Robotników by to zrobić (ale oni też będą kosztować Złoto). Sprawdzaj na górze ekranu ile surowców masz już zebranych w magazynach.
+MoveBack=Wyślij teraz obu robotników do Głównego Tipi ('Mainteepee'). Aby zaznaczyć kilka jednostek naraz, narysuj prostokąt wokół jednostek trzymając lewy klawisz myszy, ALBO ...
+MoveBack2=... przytrzymaj wciśnięty klawisz Shift i użyj myszy by kliknąć kolejno każdą jednostkę, którą chcesz dodać do zaznaczonej grupy jednostek, ALBO ...
+MoveBack3=... kliknij dwukrotnie jednostkę aby zaznaczyć wszystkie jednostki tego samego typu przebywające w pobliżu (w tym przypadku robotników).
+HarvestGoldandStone=Gdy twoi robotnicy dotrą do domu, użyjemy komendy pod czwartą ikoną, która służy do wydobywania złota ('Gold') i kamienia ('Stone').
+HarvestGoldandStone2=Wskaż tą ikonę myszą aby zobaczyć jak szybko twoi robotnicy potrafią wydobywać surowce, ile potrafią ich udźwignąć, jak szybko chodzą gdy je niosą oraz jakie surowce mogą wydobywać.
+UseHarvestGoldandStone=Aby użyć tej komendy kliknij na ikonie a następnie na surowcu, który chcesz wydobywać. Szare pryzmy z żółtymi kropkami to złoto, a te bez kropek to kamień.
+HarvestGoldandStone3=Teraz zbieraj złoto i kamień aż do czasu gdy zdobędziesz przynajmniej 600 złota i 550 kamienia. Możesz stworzyć więcej robotników by zrobić to szybciej. Sprawdzaj na górze ekranu ile surowców masz już zebranych w magazynach.
 
 ;------------------------------------------Get Wood------------------------------------------
 
-HarvestGoldAndStoneDone=Teraz potrzeba nieco Drewna. By go zdobyć użyj piątej ikony. Możesz tego polecenia używać w podobny sposób jak poprzedniego.
-ResourceInformation=Indianie głównie potrzebują Złota i Drewna.
-GetWood=Zamiast używać ikony możesz też zaznaczyc Robotnika i kliknąć prawym na miejscu gdzie ma on zbierać surowiec (w tym przypadku drzewa). Jeśli zaznaczysz poprawnie, pojawi się żółta strzałka. Zbierz 550 Drewna do magazynów.
+HarvestGoldAndStoneDone=Teraz potrzebujesz nieco drewna ('Wood'). Aby go zdobyć użyj piątej ikony. Ta ikona również służy gromadzeniu surowców więc działa w analogiczny sposób jak poprzednia (od wydobywania złota i kamienia).
+ResourceInformation=Warto wiedzieć, że: Indianie głównie potrzebują złota i drewna.
+GetWood=Zamiast używać ikony możesz też zaznaczyć robotnika i kliknąć prawym klawiszem myszy na surowcu który ma on zacząć zbierać (jeśli wskażesz surowiec poprawnie, pojawi się żółta strzałka). Teraz zbieraj drewno ('Wood') do czasu aż będziesz go mieć 550 sztuk.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-MeetingPoint=Gdy zaznaczysz budynek, niebieska strzałka się pojawia. Wskazuje ona do tzw. "punktu zbiórki". Wszystkie jednostki, które tworzysz w tym budynku zbierają się w jego okolicy jak tylko się pojawią.
-UseMeetingPoint=Możesz ustawić punkt zbiórki poprzez kliknięcie ikony flagi a potem na miejscu, gdzie chcesz by nowe jednostki się zbierały. Możesz też kliknąć prawym zamiast wybierać ikonę.
-MeetingPoint2=Jeśli ustawisz punkt zbiórki na surowcu, wtedy nowi Robotnicy będą natychmiast wydobywać. Zwróć uwagę aby poprawnie zaznaczyć miejsce wydobycia, w przeciwnym razie Robotnicy będą się ustawiać tuż obok zamiast pracować.
-Thirdcommand=Trzecia ikona Robotnika to 'budowa' ('build').
-Thirdcommand2=Klikając na nią przechodzisz do menu budowy. Najeżdżając wskaźnikiem myszy na jedną z ikon zobaczysz, patrząc niżej, pod hasłem "wymagania", wszystkie surowce i osiągnięcia potrzebne do wybudowania tego budynku.
-Thirdcommand3=Jeśli najedziesz na Namiot ("tent"), zobaczysz że wymaga on 30 Złota i 50 Drewna dając 10 miejsc zamieszkania ("-10 housing") oraz wymaga posiadania Głównego Tipi ("main teepee"). "-10 housing" oznacza, że otrzymujesz miejsce do zamieszkania dla 10 dodatkowych jednostek (niektóre jednostki potrzebują więcej miejsca niż tylko jedno).
-Thirdcommand4=Zbudujmy Namiot teraz. Kliknij na menu budowy, potem na namiot ("tent"), potem umieść go gdzieś na pustym miejscu na planszy.
+MeetingPoint=Gdy zaznaczysz jakiś budynek, pojawia się niebieska strzałka. Wskazuje ona tzw. 'Punkt Zbiórki'. Wszystkie jednostki, które tworzysz w tym budynku zbierają się w okolicy punktu zbiórki gdy tylko się pojawią.
+UseMeetingPoint=Możesz przesunąć punkt zbiórki jednostek (trenowanych w zaznaczonym budynku) poprzez kliknięcie ikony flagi a potem miejsca gdzie chcesz by nowe jednostki się zbierały./ Inną metodą jest po prostu kliknięcie prawym klawiszem myszy nowego miejsca.
+MeetingPoint2=Jeśli ustawisz punkt zbiórki na jakimś surowcu, wtedy nowi robotnicy zaczną go automatycznie wydobywać. Zwróć uwagę aby poprawnie zaznaczyć to miejsce, gdyż w przeciwnym wypadku robotnicy będą się tylko zbierać i czekać w okolicy.
+Thirdcommand=Trzecia ikona robotnika to budowa ('Build Basic').
+Thirdcommand2=Klikając na nią przechodzisz do menu budowy. Wskazując w tym menu jedną z ikon zobaczysz poniżej, pod hasłem 'Wymagania', wszystkie surowce i osiągnięcia potrzebne do wybudowania tego budynku.
+Thirdcommand3=Jeśli wskażesz namiot ('Tent'), zobaczysz że do budowy potrzeba 30 złota ('Gold') i 50 drewna ('Wood'), wymagane jest też posiadanie Głównego Tipi ('Mainteepee') oraz że da on 10 dodatkowych miejsc do zamieszkania twoim jednostkom ('Housing: -10').
+Thirdcommand4=Zbudujmy teraz namiot ('Tent'). Kliknij ikonę menu budowy, a w nim ikonę namiotu, następnie umieść go gdzieś gdzie jest wolne miejsce (zwykle w pobliżu Głównego Tipi).
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-ProduceStickfighter=Możesz teraz stworzyć Kijkarza ("stick fighter") w Twoim nowym namiocie.
+ProduceStickfighter=Teraz możesz wytrenować kijkarza ('Stickfighter') w twoim nowym namiocie.
 
 ;objective strings
-ProduceWorker=Twój Cel: Stwórz jednego Robotnika (Worker).
-ProduceStickfighter2=Twój Cel: Stwórz jednego Kijkarza (stick fighter).
-MoveWorker=Twój Cel: Przemieść Twojego nowego Robotnika do innego Robotnika czekającego poza obozem.
-HarvestGoldandStoneobjective=Twój Cel: Zbieraj Złoto i Kamień aż uzyskasz 600 Złota oraz 550 Kamienia.
-GetWoodob=Twój Cel: Zbieraj Drewno aż uzyskasz 550 Drewna.
-UseThirdCommand=Twój Cel: Zbuduj Namiot ("tent"). Uwaga: Jeśli namiot podczas stawiania robi się czerwony to oznacza, że to miejsce jest aktualnie (lub zawsze) zajęte (np przez jednostkę lub drzewo).
+ProduceWorker=Twój Cel: Stwórz jednego robotnika ('Worker').
+ProduceStickfighter2=Twój Cel: Stwórz jednego kijkarza ('Stickfighter').
+MoveWorker=Twój Cel: Przemieść twojego nowego robotnika ('Worker') do innego robotnika, który czeka poza twoim obozem.
+HarvestGoldandStoneobjective=Twój Cel: Zbieraj złoto oraz kamień aż zdobędziesz: 600 złota ('Gold') i 550 kamienia ('Stone').
+GetWoodob=Twój Cel: Zbieraj drewno ('Wood') aż zdobędziesz: 550 sztuk.
+UseThirdCommand=Twój Cel: Zbuduj namiot ('Tent').\nUwaga: Jeśli namiot podczas stawiania robi się czerwony to oznacza, że to miejsce jest aktualnie (lub zawsze) zajęte (np. przez jednostkę lub drzewo).
 
 ;end
 
-WellDoneNextTutorial=Świetna robota! Możesz teraz przejść do następnego samouczka.
+WellDoneNextTutorial=Świetna robota!\nMożesz teraz przejść do następnego samouczka. (nr. 2)
