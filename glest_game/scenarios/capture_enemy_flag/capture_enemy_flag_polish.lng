@@ -12,7 +12,7 @@ Player2HasFlagWarning=Gracz 2 ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do sw
 Player3HasFlagWarning=Gracz 3 ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do swojej bazy!!!
 
 ;objective strings
-Player2HeadHome=Gracz 2 dotarł żywy do swojej bazy i wygrał! Teraz jest podświetlony kolorem twojej drużyny, nie pozwól mu zginąć.
+Player2HeadHome=Posiadacz flagi jest podświetlony kolorem twojej drużyny, nie pozwól mu zginąć i doprowadź go jak najszybciej z powrotem do swojej bazy.
 Player3HeadHome=Gracz 3 dotarł żywy do swojej bazy i wygrał! Teraz jest podświetlony kolorem twojej drużyny, nie pozwól mu zginąć.
 PlayerWins=Gratulacje, wygrałeś!
 PlayerLoses=Niestety, przegrałeś!
