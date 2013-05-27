@@ -203,6 +203,7 @@ JoinPlayerToCurrentGameWelcome=Player: %s has connected to the game lobby to sel
 JoinPlayerToCurrentGameSuccessDownload=Player: %s SUCCESSFULLY downloaded the saved game: %s
 JoinPlayerToCurrentGameLaunch=Player: %s is about to join the game, please wait...
 JoinPlayerToCurrentGameFailDownload=Player: %s FAILED to download the saved game: [%s] using CURL version [%s]
+JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=Language:
 LanIP=LAN IP Address(es):
 LinuxPort=Linux port
