@@ -15,27 +15,27 @@ FirstThing=Widok: Aby ustawić widoczny obszar przesuń wskaźnik myszy do kraw�
 
 WillBeUsingIndian=W tej części samouczka dowodzisz Indianami. Indianie w walce generalnie wykorzystują łuczników i wojowników z prymitywną bronią.
 
-NeedWorkers=Na początku potrzebujemy robotnika ('Worker'). Aby jednego zdobyć kliknij lewym klawiszem myszy na Głównym Tipi ('Mainteepee') i rozpocznij trening robotnika używając komendy: 'Produce Worker' poprzez kliknięcie na ikonie robotnika.
+NeedWorkers=Na początku potrzebujemy robotnika ('Worker'). Aby jednego zdobyć kliknij lewym klawiszem myszy na Głównym Tipi ('Main teepee') i rozpocznij trening robotnika używając komendy: 'Produkcja robotnika'/ ('Produce Worker') poprzez kliknięcie na ikonie robotnika.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Teraz kliknij lewym klawiszem myszy tego robotnika. Szczegóły dotyczące zaznaczonej jednostki są teraz wyświetlone w prawym górnym rogu ekranu: Nazwa jednostki i jej ikona, a niżej kolejno: punkty życia (HP), odporność pancerza, (typ pancerza), zasięg pola widzenia.
+Select=Teraz kliknij lewym klawiszem myszy tego robotnika. Szczegóły dotyczące zaznaczonej jednostki są teraz wyświetlone w prawym górnym rogu ekranu: Nazwa jednostki i jej ikona, a niżej kolejno: punkty życia (HP), odporność pancerza, (typ pancerza), zasięg wykrywania wrogów.
 Select2=Jeśli jest to jednostka bojowa, liczba zabitych przez nią jednostek wroga jest podana tuż pod spodem. Jeśli konsumuje surowce, będzie to napisane jako następne. Jeszcze niżej napisane jest co aktualnie jednostka robi.
 
-ExampleWorker=Na przykład, twój robotnik ma 600 HP, skórzaną ('Leather') zbroję dającą 0 obrony oraz jego zasięg widoczności wynosi 9. Jego aktualny stan to 'Stop', czyli nic nie robi.
+ExampleWorker=Na przykład, twój robotnik ma 600 punktów życia, skórzaną ('Leather') zbroję dającą 0 obrony oraz jego zasięg wykrywania wrogów wynosi 9. Jego aktualny stan to 'Stop', czyli nic nie robi.
 
 Command=Umiejętności jednostki są wymienione niżej w postaci ikon. Teraz nauczymy się wszystkich poleceń które robotnik potrafi wykonać.
 
 FirstCommand=Pierwsza ikona to 'Stop'. Jeśli na nią klikniesz robotnik zaprzestanie tego co aktualnie robił. Wszystkie jednostki (nie budynki) mają taką ikonę.
 
-SecondCommand=Następna ikona to 'Move'. Jeśli na nią klikniesz, to następne kliknięcie gdzieś na ziemi lub na innej jednostce sprawi iż robotnik zacznie podążać we wskazanym kierunku./ Można też po prostu kliknąć prawym klawiszem myszy na celu.
+SecondCommand=Następna ikona to 'Idź'/ ('Move'). Jeśli na nią klikniesz, to następne kliknięcie gdzieś na ziemi lub na innej jednostce sprawi iż robotnik zacznie podążać we wskazanym kierunku./ Można też po prostu kliknąć prawym klawiszem myszy na celu.
 SecondCommand2=Gdy wskażesz kursorem myszy ikonę 'Move' wyświetli się szybkość ruchu robotnika. Ta komenda też jest dostępna dla każdej jednostki (nie dla budynków).
 
 TestSecondCommand=Wypróbuj teraz komendę 'Move'. Zaprowadź twojego robotnika do innego robotnika, który czeka poza twoim obozem. Ten robotnik jest wyświetlony na minimapie (lewy górny róg ekranu) jako czerwona kropka. Biały trójkąt przedstawia twój aktualny widok.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-MoveBack=Wyślij teraz obu robotników do Głównego Tipi ('Mainteepee'). Aby zaznaczyć kilka jednostek naraz, narysuj prostokąt wokół jednostek trzymając lewy klawisz myszy, ALBO ...
+MoveBack=Wyślij teraz obu robotników do Głównego Tipi ('Main teepee'). Aby zaznaczyć kilka jednostek naraz, narysuj prostokąt wokół jednostek trzymając lewy klawisz myszy, ALBO ...
 MoveBack2=... przytrzymaj wciśnięty klawisz Shift i użyj myszy by kliknąć kolejno każdą jednostkę, którą chcesz dodać do zaznaczonej grupy jednostek, ALBO ...
 MoveBack3=... kliknij dwukrotnie jednostkę aby zaznaczyć wszystkie jednostki tego samego typu przebywające w pobliżu (w tym przypadku robotników).
 HarvestGoldandStone=Gdy twoi robotnicy dotrą do domu, użyjemy komendy pod czwartą ikoną, która służy do wydobywania złota ('Gold') i kamienia ('Stone').
@@ -54,9 +54,9 @@ GetWood=Zamiast używać ikony możesz też zaznaczyć robotnika i kliknąć pra
 MeetingPoint=Gdy zaznaczysz jakiś budynek, pojawia się niebieska strzałka. Wskazuje ona tzw. 'Punkt Zbiórki'. Wszystkie jednostki, które tworzysz w tym budynku zbierają się w okolicy punktu zbiórki gdy tylko się pojawią.
 UseMeetingPoint=Możesz przesunąć punkt zbiórki jednostek (trenowanych w zaznaczonym budynku) poprzez kliknięcie ikony flagi a potem miejsca gdzie chcesz by nowe jednostki się zbierały./ Inną metodą jest po prostu kliknięcie prawym klawiszem myszy nowego miejsca.
 MeetingPoint2=Jeśli ustawisz punkt zbiórki na jakimś surowcu, wtedy nowi robotnicy zaczną go automatycznie wydobywać. Zwróć uwagę aby poprawnie zaznaczyć to miejsce, gdyż w przeciwnym wypadku robotnicy będą się tylko zbierać i czekać w okolicy.
-Thirdcommand=Trzecia ikona robotnika to budowa ('Build Basic').
+Thirdcommand=Trzecia ikona robotnika to 'budynki podstawowe' ('Build Basic').
 Thirdcommand2=Klikając na nią przechodzisz do menu budowy. Wskazując w tym menu jedną z ikon zobaczysz poniżej, pod hasłem 'Wymagania', wszystkie surowce i osiągnięcia potrzebne do wybudowania tego budynku.
-Thirdcommand3=Jeśli wskażesz namiot ('Tent'), zobaczysz że do budowy potrzeba 30 złota ('Gold') i 50 drewna ('Wood'), wymagane jest też posiadanie Głównego Tipi ('Mainteepee') oraz że da on 10 dodatkowych miejsc do zamieszkania twoim jednostkom ('Housing: -10').
+Thirdcommand3=Jeśli wskażesz namiot ('Tent'), zobaczysz że do budowy potrzeba 30 złota ('Gold') i 50 drewna ('Wood'), wymagane jest też posiadanie Głównego Tipi ('Main teepee') oraz że da on 10 dodatkowych miejsc do zamieszkania twoim jednostkom ('Housing: -10').
 Thirdcommand4=Zbudujmy teraz namiot ('Tent'). Kliknij ikonę menu budowy, a w nim ikonę namiotu, następnie umieść go gdzieś gdzie jest wolne miejsce (zwykle w pobliżu Głównego Tipi).
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------

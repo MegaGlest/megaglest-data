@@ -203,6 +203,7 @@ JoinPlayerToCurrentGameWelcome=Player: %sがプレイヤーポジションを選
 JoinPlayerToCurrentGameSuccessDownload=Player: %s はセーブしたゲームのダウンロードを完了しました: %s
 JoinPlayerToCurrentGameLaunch=Player: %s がゲームに加わろうとしています。お待ちください……
 JoinPlayerToCurrentGameFailDownload=Player: %s がセーブしたゲームのダウンロードに失敗しました: [%s] using CURL version [%s]
+# JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=言語:
 LanIP=LAN IP アドレス(es):
 LinuxPort=Linux port

@@ -203,6 +203,7 @@ JoinInternetGame=Joc per Internet
 # JoinPlayerToCurrentGameSuccessDownload=Player: %s SUCCESSFULLY downloaded the saved game: %s
 # JoinPlayerToCurrentGameLaunch=Player: %s is about to join the game, please wait...
 # JoinPlayerToCurrentGameFailDownload=Player: %s FAILED to download the saved game: [%s] using CURL version [%s]
+# JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=Llengua
 LanIP=Adreça IP de la Xarxa local:
 LinuxPort=Port a Linux

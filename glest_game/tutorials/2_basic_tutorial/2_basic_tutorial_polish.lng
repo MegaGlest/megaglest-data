@@ -1,6 +1,6 @@
-TUTORIAL_NAME=2 Samouczek - Podst.
+TUTORIAL_NAME=2 Samouczek - Śred.
 ;message headers
-GlestBasicTutorial=Samouczek. Poziom podstawowy 2.
+GlestBasicTutorial=Samouczek. Poziom średni 2.
 WellDone=Doskonale!
 Resources=Surowce
 Combat=Bitwa
@@ -20,7 +20,7 @@ TechConsumesFood=Każda jednostka Techników konsumuje jedzenie. Bez jedzenia je
 HaveEnoughAnimals=Pamiętaj aby zawsze mieć wystarczającą ilość zwierząt, która wystarczy do wykarmienia wszystkich jednostek.
 BalanceDisplay=Różnica pomiędzy spożyciem i produkcją jedzenia jest pokazana w nawiasie obok ikonki jedzenia u góry ekranu. (+ X) oznacza, że zapas żywności będzie rósł lub utrzymywał się na maksymalnym możliwym poziomie.
 TechWarriorsAtBarracks=Aby pokonać wroga będziesz potrzebował wojowników, Technicy większość z nich tworzą w koszarach ('Barracks').
-HowToBuildBarracks=Aby wybudować koszary zaznacz robotnika ('Worker'), kliknij na ikonę 'Build Basic', a następnie 'Barracks' i wskaż miejsce do budowy. Zbuduj teraz koszary.
+HowToBuildBarracks=Aby wybudować koszary zaznacz robotnika ('Worker'), kliknij na ikonę 'budynki podstawowe'/ ('Build Basic'), a następnie 'koszary'/ ('Barracks') i wskaż miejsce do budowy. Zbuduj teraz koszary.
 RememberToBuildBarracks=Pamiętaj aby zawsze budować koszary na początku gry, co pozwoli (w razie potrzeby) szybko zacząć budować wojowników.
 SwordmanBrief=Podstawowy wojownik Techników to miecznik ('Swordman'). Zaznacz koszary ('Barracks'), potem kliknij 'Produce Swordman' by stworzyć teraz jednego. Upewnij się że masz wystarczającą do tego ilość surowców.
 HaveWarriorsAtBase=Zawsze powinieneś mieć kilku wojowników w swojej bazie. Zaatakują oni automatycznie wroga który pojawi się w ich zasięgu.

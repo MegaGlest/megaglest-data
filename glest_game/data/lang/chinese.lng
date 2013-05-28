@@ -203,6 +203,7 @@ JoinPlayerToCurrentGameWelcome=玩家 %s 已加入游戏大厅，选择位置。
 JoinPlayerToCurrentGameSuccessDownload=玩家 %s 成功载入已保存的游戏 %s
 JoinPlayerToCurrentGameLaunch=玩家 %s 正在加入游戏，请等待......
 # JoinPlayerToCurrentGameFailDownload=Player: %s FAILED to download the saved game: [%s] using CURL version [%s]
+# JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=语言
 LanIP=局域网IP地址
 LinuxPort=Linux端口

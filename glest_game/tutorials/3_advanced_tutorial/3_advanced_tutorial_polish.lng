@@ -10,17 +10,17 @@ Armies=Armie
 
 ;message strings
 Welcome=Witaj w zaawansowanym samouczku do gry MegaGlest.
-MagicBrief=Dowodzisz frakcją Magów ('Magic'), która używa czarowników, zaklinaczy oraz przyzywa wojownicze stworzenia.
+MagicBrief=Dowodzisz frakcją Magów ('Magic'), która używa czarowników oraz przywołuje wojownicze stworzenia do walki.
 InitiateBrief=Adepci ('Initiate') są podstawową jednostką Magów, mogą oni zbierać surowce i budować struktury.
-InitiatePromotion=Adepci mogą być ulepszeni do Magów Bitewnych ('Battlemage'). Aby to zrobić zaznacz Adepta i użyj komendy 'Ulepsz do Maga Bitewnego' ('Promote to Battlemage'). Ulepsz teraz jednego Adepta.
+InitiatePromotion=Adepci mogą być awansowani do Magów Bitewnych ('Battlemage'). Aby to zrobić zaznacz Adepta i użyj komendy 'Awans do Maga Bitewnego' ('Promote to Battlemage'). Awansuj teraz jednego Adepta.
 BattlemageBrief=Magowie Bitewni są głównymi wojownikami Magów, mają silny atak z dystansu oraz dobrą szybkość i odporność.
 EnergyBrief=Jednostki Magów wymagają energii aby można było je stworzyć. Energia wytwarzana jest przez Źródła Energii ('Energy Source'). Zbuduj teraz jedno z nich.
 EnergyBrief2=Bądź pewien, że zawsze masz wystarczająco dużo energii by produkować nowe jednostki.
-SummonedUnitsBrief=Inny sposób tworzenia jednostek przez Magów to przyzywanie, ale musisz mieć zaklinaczkę ('Summoner'). Można ją stworzyć w Gildii Zaklinaczy ('Summoner Guild'). Wybuduj teraz Gildię Zaklinaczy i stwórz w niej jedną zaklinaczkę.
-SummonerBrief=Zaklinaczki mogą tworzyć kilka typów stworzeń, najbardziej podstawowym jest Demon ('Daemon'). Przyzwij jednego.
+SummonedUnitsBrief=Inny sposób tworzenia jednostek przez Magów to przyzywanie, ale musisz mieć przywoływaczkę ('Summoner'). Można ją stworzyć w Gildii Przywoływaczek ('Summoners' Guild'). Wybuduj teraz Gildię Przywoływaczek i stwórz w niej jedną przywoływaczkę.
+SummonerBrief=Przywoływaczki mogą wzywać kilka typów stworzeń, najbardziej podstawowym jest Demon ('Daemon'). Przyzwij jednego.
 DaemonBrief=Demony są bardzo słabe ale też bardzo tanie, użyteczne są jako podstawowa jednostka do walki wręcz oraz jako zwiadowcy.
-OtherSummonedCreatures=Zaklinaczki mogą też wezwać bardziej zaawansowane stwory, takie jak Zbrojny Duch ('Ghost Armor') i Smok ('Dragon'), ale zanim będą mogły to robić należy wcześniej wykonanać odpowiednie ulepszenia.
-GhostArmorRequirements=Zbrojny Duch wymaga ulepszenia w postaci Starożytnego Przyzywania ('Ancient Summoning'), a można je wykonać w Gildii Zaklinaczy ('Summoner Guild'). Wykonaj teraz to ulepszenie, a następnie przyzwij Zbrojnego Ducha.
+OtherSummonedCreatures=Przywoływaczki mogą też wezwać bardziej zaawansowane stwory, takie jak Zbrojny Duch ('Ghost Armor') i Smok ('Dragon'), ale zanim będą mogły to robić należy wcześniej wykonać odpowiednie ulepszenia.
+GhostArmorRequirements=Zbrojny Duch wymaga ulepszenia w postaci Starożytnego Przyzywania ('Ancient Summoning'), a można je wykonać w Gildii Przywoływaczek ('Summoners' Guild'). Wykonaj teraz to ulepszenie, a następnie przyzwij Zbrojnego Ducha.
 GhostArmorBrief=Zbrojny Duch to średnia jednostka do walki wręcz, przydatna do trzymania wrogich wojowników z dala od twoich Magów Bitewnych.
 RitualBrief=Adepci posiadają drugą komendę budowy, zwaną Rytuałem ('Ritual'), używaną do budowania zaawansowanych struktur i potężnych stworów takich jak Golem. Aby uzyskać do nich dostęp należy zbudować wcześniej bibliotekę ('Library'). Zbuduj bibliotekę a następnie golema.
 GolemBrief=Golemy to potężne jednostki obronne, posiadają potężny atak i bardzo dobrą odporność, ale mogą się poruszać tylko tak długo na ile wystarczą im ich Punkty Energii (a później muszą trochę 'odpocząć' aby je zregenerować).
@@ -30,8 +30,8 @@ GroupSelectBrief=Możesz zdefiniować grupę jednostek zaznaczając ją a nastę
 FinalMission=Jako ostateczny test będziesz musiał stworzyć armię i pokonać wroga.
 
 ;objective strings
-PromoteInitiate=Twój Cel: Ulepsz Adepta ('Initiate') do Maga Bitewnego ('Battlemage').
-ProduceSummoner=Twój Cel: Zbuduj Gildię Zaklinaczy ('Summoner Guild') i stwórz zaklinaczkę ('Summoner').
+PromoteInitiate=Twój Cel: Awansuj Adepta ('Initiate') do Maga Bitewnego ('Battlemage').
+ProduceSummoner=Twój Cel: Zbuduj Gildię Przywoływaczek ('Summoners' Guild') i stwórz Przywoływaczkę ('Summoner').
 ProduceDaemon=Twój Cel: Wezwij Demona ('Daemon').
 ProduceGhostArmor=Twój Cel: Odkryj Starożytne Przyzywanie ('Ancient Summoning'), a następnie wezwij Zbrojnego Ducha ('Ghost Armor').
 BuildEnergySource=Twój Cel: Zbuduj źródło energii ('Energy Source').

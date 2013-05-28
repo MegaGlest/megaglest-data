@@ -203,6 +203,7 @@ JoinPlayerToCurrentGameWelcome=Jugadores:%s se ha conectado a la sala de juego p
 JoinPlayerToCurrentGameSuccessDownload=Jugador:%s se descargó correctamente el juego guardado: %s
 JoinPlayerToCurrentGameLaunch=Jugador:%s está a punto de entrar en el juego, por favor espere...
 JoinPlayerToCurrentGameFailDownload=Jugador:%s No se ha podido descargar el juego guardado: [%s] con la versión CURL [%s]
+# JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=Idioma
 LanIP=Dirección IP para jugar LAN (Red Local):
 LinuxPort=Versión para Linux

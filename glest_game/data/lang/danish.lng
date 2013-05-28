@@ -203,6 +203,7 @@ JoinPlayerTeam=Tilslut spiller #%d - %s hold: %d
 # JoinPlayerToCurrentGameSuccessDownload=Player: %s SUCCESSFULLY downloaded the saved game: %s
 # JoinPlayerToCurrentGameLaunch=Player: %s is about to join the game, please wait...
 # JoinPlayerToCurrentGameFailDownload=Player: %s FAILED to download the saved game: [%s] using CURL version [%s]
+# JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=Sprog:
 LanIP=LAN IP Adresse(r):
 LinuxPort=Linux port

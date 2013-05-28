@@ -203,6 +203,7 @@ JoinPlayerToCurrentGameWelcome=Speler: %s is in de game portaal om een speler po
 JoinPlayerToCurrentGameSuccessDownload=Speler: %s heeft het opgeslagen spel %s SUCCESSVOL gedownload.
 JoinPlayerToCurrentGameLaunch=Speler: %s is zich met het aan het spel aan het verbinden, geduld a.u.b.
 JoinPlayerToCurrentGameFailDownload=Speler: %s download van spel [%s] is GEFAALD. (cURL-versie: [%s])
+# JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=Taal:
 LanIP=LAN IP-adres(sen):
 LinuxPort=Linux-poort

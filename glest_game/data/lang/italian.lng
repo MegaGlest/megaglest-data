@@ -203,6 +203,7 @@ JoinPlayerTeam=Metti il giocatore #%d - %s nella Squadra: %d
 # JoinPlayerToCurrentGameSuccessDownload=Player: %s SUCCESSFULLY downloaded the saved game: %s
 # JoinPlayerToCurrentGameLaunch=Player: %s is about to join the game, please wait...
 # JoinPlayerToCurrentGameFailDownload=Player: %s FAILED to download the saved game: [%s] using CURL version [%s]
+# JoinPlayerToCurrentGameLaunchDone=Player: %s is joining the game now.
 Language=Lingua:
 LanIP=Indirizzo/i IP LAN:
 LinuxPort=Port su Linux

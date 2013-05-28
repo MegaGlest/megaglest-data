@@ -1,6 +1,6 @@
 SCENARIO_NAME=Orageux
 ;message headers
-Storming=Orage
+# Storming=Storming
 
 ;message strings
 Brief1=Aidez votre Summoner à attaquer tous les villages ennemis. Elle doit survivre !

@@ -19,12 +19,12 @@ NeedWorkers=Nous avons d'abord besoin d'un travailleur (Worker). Pour l'obtenir,
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Sélectionnez (clic gauche) votre travailleur . Des détails sur l'unité sélectionnée, tels le nom de l'unité et son image, sont maintenant affichés dans le coin en haut à droite de votre écran. En dessous sont affichés les points de santé (HP), l'armure, avec, entre parenthèses, le type d'armure et le champ de visibilité.
-Select2=S'il s'agit d'une unité de combat, le nombre d'unités ennemies qu'elle a déjà détruit est inscrit à côté. Si elle consomme des ressources, cela est affiché dans le champ suivant. En dessous, on peut lire ce que cette unité est en train de faire.
+Select=Sélectionnez (clic gauche) votre travailleur. Des détails sur l'unité sélectionnée, tels le nom de l'unité et son image, sont maintenant affichés dans le coin en haut à droite de votre écran. En dessous sont affichés les points de santé (HP), l'armure, avec le type d'armure et le champ de visibilité entre parenthèses.
+Select2=S'il s'agit d'une unité de combat, le nombre d'unités ennemies qu'elle a déjà détruit s'inscrit à côté. Si elle consomme des ressources, c'est affiché dans le champ suivant. En dessous, on peut lire ce que cette unité est en train de faire.
 
 ExampleWorker=Par exemple, votre travailleur a 600 HP, 0 d'armure de cuir et une visibilité de 9. Son état actuel est "stop", donc il ne fait rien.
 
-Command=Les capacités des unités sont inscrites en dessous. Nous allons maintenant apprendre toutes les commandes que le travailleur peut exécuter.
+Command=Les capacités des unités sont inscrites en dessous. Voyons maintenant les commandes qu'un travailleur peut exécuter.
 
 FirstCommand=La première icône est "Stop". Si vous cliquez sur cette icône, le travailleur cesse immédiatement ce qu'il est en train de faire. Toutes les unités (qui ne sont pas des bâtiments) possèdent cette commande.
 
@@ -40,8 +40,8 @@ MoveBack2=... maintenez la touche MAJ, puis utilisez votre souris pour cliquer s
 MoveBack3=... double-cliquez sur une unité pour sélectionner toutes les unités à proximité du même type (les travailleurs dans ce cas).
 HarvestGoldandStone=Lorsque vos unités ont atteint le Mainteepee, nous allons utiliser la quatrième icône qui est destinée à la récolte d'or et de pierres.
 HarvestGoldandStone2=Passez le pointeur de votre souris dessus pour voir la vitesse et le volume de récolte, la vitesse de déplacement des travailleurs portant leur récolte ainsi que le type de ressources accumulables.
-UseHarvestGoldandStone=Pour utiliser cette commande, cliquez d'abord sur l'icône, puis sur la ressource que vous souhaitez récolter. Les pierre grises avec des points jaunes sont de l'or, ceux qui n'en ont pas sont des pierres.
-HarvestGoldandStone3=Maintenant, récoltez de l'or et des pierres jusqu'à obtenir un total de 600 unités d'or et 550 unités de pierre. Vous pouvez également créer de nouveaux travailleurs (mais ils vous coûteront de l'or). Vérifiez en haut de l'écran pour savoir de combien de ressources vous disposez actuellement.
+UseHarvestGoldandStone=Pour utiliser cette commande, cliquez d'abord sur l'icône, puis sur la ressource que vous souhaitez récolter. Les amas gris et jaunes sont de l'or, tandis que les gris sont des pierres.
+HarvestGoldandStone3=Maintenant, récoltez de l'or et des pierres jusqu'à obtenir un total de 600 unités d'or et 550 unités de pierre. Vous pouvez également créer de nouveaux travailleurs (mais ils vous coûteront de l'or). Vérifiez en haut de l'écran la quantité de ressources dont vous disposez actuellement.
 
 ;------------------------------------------Get Wood------------------------------------------
 
