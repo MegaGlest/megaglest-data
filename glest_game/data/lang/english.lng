@@ -85,6 +85,7 @@ DataNotSynchedTitle=The following game data is different:
 DataNotSynchedMap=Map is different between client and server
 DataNotSynchedTileset=Tileset is different between client and server
 DataNotSynchedTechtree=Techtree is different between client and server
+DataMissing=***missing***
 DataMissingExtractDownload=Please wait, player: %s is extracting: %s
 DataMissingExtractDownloadMod=Please wait while we extract: %s
 DataMissingMap=Player: %s is missing the map: %s
