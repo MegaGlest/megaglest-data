@@ -569,3 +569,6 @@ FontConsoleBaseSize=$USE_DEFAULT_LANGUAGE_VALUE
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=page down
+
