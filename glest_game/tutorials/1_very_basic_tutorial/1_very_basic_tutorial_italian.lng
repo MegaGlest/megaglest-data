@@ -22,7 +22,7 @@ NeedWorkers=Per prima cosa abbiamo bisogno di un lavoratore. Per crearne fai cli
 Select=Adesso seleziona il Lavoratore cliccandoci su. Potrai vedere varie informazioni sull'unità: nome, punti vita (HP), armatura e, tra parentesi, tipo di armatura e raggio visivo (vista).
 Select2=Se si tratta di un'unità da combattimento, è indicato anche il numero di nemici distrutti. Se consuma risorse, anche queste vengono elencate. Per ultimo, c'è scritto quello che l'unità sta facendo.
 
-ExampleWorker=Per esempio, il tuo lavoratore ha 600 HP, armatura di cuoio 0 e raggio visuale 9. Il suo stato attuale è "stop", quindi non sta facendo niente.
+ExampleWorker=Per esempio, il tuo lavoratore ha 600 HP, armatura di cuoio 0 e raggio visuale 9. Il suo stato attuale è &quot;stop&quot;, quindi non sta facendo niente.
 
 Command=Le abilità delle unità sono mostrate più in basso. Adesso impararemo tutti i comandi che si possono impartire a un lavoratore.
 
@@ -51,22 +51,22 @@ GetWood=Una scorciatoia è di selezionare il tuo lavoratore e poi fare click con
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-MeetingPoint=Quando selezioni una costruzione, vedrai una freccia blu. Questa freccia indica il "punto di raduno", cioè il punto dove tutte le unità prodotte da quella costruzione andranno a fermarsi non appena saranno create.
-UseMeetingPoint=Per spostare il "punto di raduno", clicca sull'icona con la bandierina e poi sul terreno in un nuovo punto, ma non metterlo troppo lontano. Anche questo si può fare in due click: sinistro sull'edificio >> destro sul nuovo punto.
-MeetingPoint2=Se metti il "punto di raduno" su di una risorsa, i lavoratori appena creati andranno direttamente a raccoglierla. Assicurati di cliccare il punto giusto però, o i tuoi lavoratori potrebbero solo ammassarsi lì.
-Thirdcommand=Adesso prova ad usare il terzo comando del lavoratore, il comando "costruisci".
+MeetingPoint=Quando selezioni una costruzione, vedrai una freccia blu. Questa freccia indica il &quot;punto di raduno&quot;, cioè il punto dove tutte le unità prodotte da quella costruzione andranno a fermarsi non appena saranno create.
+UseMeetingPoint=Per spostare il &quot;punto di raduno&quot;, clicca sull'icona con la bandierina e poi sul terreno in un nuovo punto, ma non metterlo troppo lontano. Anche questo si può fare in due click: sinistro sull'edificio >> destro sul nuovo punto.
+MeetingPoint2=Se metti il &quot;punto di raduno&quot; su di una risorsa, i lavoratori appena creati andranno direttamente a raccoglierla. Assicurati di cliccare il punto giusto però, o i tuoi lavoratori potrebbero solo ammassarsi lì.
+Thirdcommand=Adesso prova ad usare il terzo comando del lavoratore, il comando &quot;costruisci&quot;.
 Thirdcommand2=Cliccando su questa icona entrerai nel menù di costruzione. Se passi con il mouse sulle varie strutture vedrai tutti i requisiti in termini di risorse e le tecnologie necessarie a erigerle.
-Thirdcommand3=Se passi il mouse sull'icona del "teepee", vedrai che a costruirlo servono 30 oro, 50 legna e un Grande Tepee. Inoltre vedrai scritto "-10 senza tetto" che significa che 10 unità vi troveranno alloggio (anche se alcune unità molto grandi occupano per due o più).
+Thirdcommand3=Se passi il mouse sull'icona del &quot;teepee&quot;, vedrai che a costruirlo servono 30 oro, 50 legna e un Grande Tepee. Inoltre vedrai scritto &quot;-10 senza tetto&quot; che significa che 10 unità vi troveranno alloggio (anche se alcune unità molto grandi occupano per due o più).
 Thirdcommand4=Costruisci un teepee adesso. Clicca sul menù delle costruzioni, seleziona il teepee e posizionalo dove c'è spazio.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-ProduceStickfighter=Adesso puoi creare un "mazziatore" nella tua nuova tenda.
+ProduceStickfighter=Adesso puoi creare un &quot;mazziatore&quot; nella tua nuova tenda.
 
 ;objective strings
 ProduceWorker=Obiettivo: Crea un lavoratore.
-ProduceStickfighter2=Obiettivo: Crea uno "mazziatore".
+ProduceStickfighter2=Obiettivo: Crea uno &quot;mazziatore&quot;.
 MoveWorker=Obiettivo: Porta il lavoratore che hai appena creato vicino al lavoratore che sta aspettando fuori l'accampamento.
 HarvestGoldandStoneobjective=Obiettivo: Raccogli oro e pietra fino a raggiungere 600 oro e 550 pietra.
 GetWoodob=Obiettivo: Raccogli 550 legna.

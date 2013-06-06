@@ -1,4 +1,4 @@
-# SCENARIO_NAME=Capture the flag
+SCENARIO_NAME=Κατακτήστε την σημαία
 ;message headers
 CaptureFlag=Κατακτήστε την σημαία
 Warning=Προσοχή
