@@ -26,6 +26,7 @@ AllowPlayerJoinTeam=Spieler [%s] erlauben Deinem Team beizutreten\n(Wechsel von 
 AllowInGameJoinPlayer=Spieler können Spiel beitreten
 AmbientVolume=Umgebung:
 Amount=Einheiten
+AnimatedTilesetObjects=Animierte Grafikset Objekte.
 Animation=Animationen
 Armor=Rüstung
 Attack=Angreifen
@@ -85,6 +86,7 @@ DataNotSynchedTitle=Folgende Spieleinhalte sind unterschiedlich:
 DataNotSynchedMap=Die Karte von Client und Server stimmt nicht überein
 DataNotSynchedTileset=Die Umgebungsgrafik von Client und Server stimmt nicht überein
 DataNotSynchedTechtree=Techtree von Client und Server stimmt nicht überein
+DataMissing=***fehlt***
 DataMissingExtractDownload=Bitte warten, Spieler %s extrahiert: %s
 DataMissingExtractDownloadMod=Bitte warten während extrahiert wird: %s
 DataMissingMap=Dem Spieler %s fehlt die Karte %s
@@ -399,7 +401,7 @@ PlayerFaction=Fraktion des Spieler
 PlayerLeftGame=trennte sich vom Spiel!
 Playername=Spielername:
 PlayerNameNotSetTitle=Achtung: kein Spielername gewählt
-PlayerNameNotSetPrompt=Du bist bis jetzt noch, ohne Spielernamen!\n\nGib Dir einen Spielernamen:\nHauptmenü -> Einstellungen (oben rechts).
+PlayerNameNotSetPrompt=Sie haben einεn Spielernamen noch nicht festgelegt!\n\nLegen Sie Ihren Spielernamen fest in: Hauptmenü-> Optionen.
 PlayerStatusSetup=Nicht bereit!
 PlayerStatusBeRightBack=Gleich zurück!
 PlayerStatusReady=Bereit!
@@ -568,4 +570,7 @@ FontMenuVeryBigBaseSize=25
 FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 

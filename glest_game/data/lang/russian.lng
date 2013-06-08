@@ -26,6 +26,7 @@ AllowPlayerJoinTeam=Разрешить игроку [% s] присоединит
 AllowInGameJoinPlayer=Игроки могут объединяться в игре
 AmbientVolume=Фоновый звук:
 Amount=Количество
+# AnimatedTilesetObjects=Animated tileset objects
 Animation=Анимация
 Armor=Броня
 Attack=Атака
@@ -85,6 +86,7 @@ DataNotSynchedTitle=Следующие игровые данные отлича�
 DataNotSynchedMap=Карты клиента и сервера различны
 DataNotSynchedTileset=Местности клиента и сервера различны
 DataNotSynchedTechtree=Цивилизации клиента и сервера различны
+# DataMissing=***missing***
 DataMissingExtractDownload=Пожалуйста, подождите. Игрок %s извлекает %s
 DataMissingExtractDownloadMod=Пожалуйста, подождите, пока мы распакуем: %s
 DataMissingMap=Игрок: %s не имеет карты: %s
@@ -399,7 +401,7 @@ PlayerFaction=Команда игрока
 PlayerLeftGame=решил покинуть игру!
 Playername=Имя игрока
 PlayerNameNotSetTitle=Внимание: имя игрока не определено
-PlayerNameNotSetPrompt=Вы ещё не определили имя игрока!\n\nЗадать имя можно здесь:\nГлавное меню -> Настройки (справа вверху).
+# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options.
 PlayerStatusSetup=Не готов
 PlayerStatusBeRightBack=Отошёл
 PlayerStatusReady=Готов
@@ -568,4 +570,7 @@ FontMenuVeryBigBaseSize=25
 FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-r
 FontConsolePrefix=-*-*-*-*-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 

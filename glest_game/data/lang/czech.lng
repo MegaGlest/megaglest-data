@@ -26,6 +26,7 @@ AllowPlayerJoinTeam=Povolit hráči [%s] přidat se do vašeho týmu\n(z týmu #
 # AllowInGameJoinPlayer=Players can join in game
 AmbientVolume=Okolní zvuk:
 Amount=Množství
+# AnimatedTilesetObjects=Animated tileset objects
 Animation=Animace
 Armor=Brnění
 Attack=Útok
@@ -85,6 +86,7 @@ DataNotSynchedTitle=Následující herní data se liší:
 DataNotSynchedMap=Mapa se liší mezi klientem a serverem
 DataNotSynchedTileset=Prostředí se liší mezi klientem a serverem
 DataNotSynchedTechtree=Technologický strom se liší mezi klientem a serverem
+# DataMissing=***missing***
 DataMissingExtractDownload=Prosím čekejte, hráč: %s extrahuje: %s
 DataMissingExtractDownloadMod=Prosím čekejte, zatímco extrahujeme: %s
 DataMissingMap=Hráči '%s' schází mapa '%s'
@@ -399,7 +401,7 @@ PlayerDisconnected=Hráč %s opustil hru.
 PlayerLeftGame=se rozhodl opustit hru!
 Playername=Jméno hráče:
 # PlayerNameNotSetTitle=Warning: Player name not set
-# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options (top right).
+# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options.
 PlayerStatusSetup=Nepřipravený
 PlayerStatusBeRightBack=Budu hned zpět
 PlayerStatusReady=Připravený
@@ -568,4 +570,7 @@ FontMenuVeryBigBaseSize=25
 FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 

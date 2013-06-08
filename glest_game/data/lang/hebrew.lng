@@ -26,6 +26,7 @@ AllowPlayerJoinTeam=לאפשר לשחקן [%s] להצטרף לצוות (לשנו
 # AllowInGameJoinPlayer=Players can join in game
 AmbientVolume=עוצמת מוזיקת רקע
 Amount=כמות
+# AnimatedTilesetObjects=Animated tileset objects
 Animation=אנימציה
 Armor=שריון
 Attack=התקפה
@@ -85,6 +86,7 @@ DataNotSynchedTitle=הנתונים הבאים במשחק שונים:
 DataNotSynchedMap=מפת המשתמש שונה מהמפה בשרת
 DataNotSynchedTileset=שוני בסביבה בין השרת ללקוח
 DataNotSynchedTechtree=חבילת הרחבה אצל הלקוח שונה מאשר אצל השרת.
+# DataMissing=***missing***
 DataMissingExtractDownload=אנא המתן, שחקן %s מחלץ: %s
 DataMissingExtractDownloadMod=אנא המתן בעת חילוץ: %s
 DataMissingMap=לשחקן: %s חסרה המפה: %s
@@ -399,7 +401,7 @@ PlayerDisconnected=שחקן: %s, התנתק מהמשחק.
 PlayerLeftGame=בחר לעזוב את המשחק!
 Playername=שם השחקן:
 # PlayerNameNotSetTitle=Warning: Player name not set
-# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options (top right).
+# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options.
 PlayerStatusSetup=לא מוכן
 PlayerStatusBeRightBack=תכף אשוב
 PlayerStatusReady=מוכן
@@ -568,4 +570,7 @@ FontMenuVeryBigBaseSize=25
 FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 

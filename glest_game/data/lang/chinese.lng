@@ -26,6 +26,7 @@ AllowObservers=允许观察
 AllowInGameJoinPlayer=允许玩家加入游戏
 AmbientVolume=环境音量
 Amount=总量
+# AnimatedTilesetObjects=Animated tileset objects
 Animation=动画
 Armor=护甲
 Attack=攻击
@@ -85,6 +86,7 @@ DataNotSynchedTitle=下面的游戏数据不同:
 DataNotSynchedMap=客户端和服务器地图不同
 DataNotSynchedTileset=客户端与服务器主题不同
 DataNotSynchedTechtree=客户端与服务器科技树不同
+# DataMissing=***missing***
 DataMissingExtractDownload=请等待，玩家: %s 提取: %s
 DataMissingExtractDownloadMod=请稍后，正在提取 : %s
 DataMissingMap=玩家【%s】丢失地图【%s】
@@ -399,7 +401,7 @@ PlayerFaction=玩家派系
 PlayerLeftGame=选择离开游戏!
 Playername=玩家名
 # PlayerNameNotSetTitle=Warning: Player name not set
-# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options (top right).
+# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options.
 PlayerStatusSetup=未准备好
 PlayerStatusBeRightBack=正确返回
 PlayerStatusReady=准备好
@@ -568,4 +570,7 @@ FontMenuVeryBigBaseSize=25
 FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-*-*-*-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 

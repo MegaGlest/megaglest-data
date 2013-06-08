@@ -26,6 +26,7 @@ AllowPlayerJoinTeam=Να επιτραπεί στον παίχτη [%s] να γί
 AllowInGameJoinPlayer=Οι παίκτες μπορούν να συμμετάσχουν στο παιχνίδι
 AmbientVolume=Ένταση ήχου περιβάλλοντος:
 Amount=Ποσότητα
+AnimatedTilesetObjects=Κινούμενα αντικείμενα tileset.
 Animation=Animation
 Armor=Θωράκιση
 Attack=Επίθεση
@@ -85,6 +86,7 @@ DataNotSynchedTitle=Τα ακόλουθα δεδομένα παιχνιδιού 
 DataNotSynchedMap=Οι χάρτες του διακομιστή και του πελάτη είναι διαφορετικοί
 DataNotSynchedTileset=Τα tileset του διακομιστή και του πελάτη είναι διαφορετικά
 DataNotSynchedTechtree=Τα techtree του διακομιστή και του πελάτη είναι διαφορετικά
+DataMissing=***λείπει***
 DataMissingExtractDownload=Παρακαλώ περιμένετε, ο παίκτης: %s εξάγει: %s
 DataMissingExtractDownloadMod=Παρακαλώ περιμένετε ενώ εξάγουμε: %s
 DataMissingMap=Player: %s δεν έχει τον χάρτη: %s
@@ -399,7 +401,7 @@ PlayerFaction=Παράταξη του παίκτη
 PlayerLeftGame=επέλεξε να φύγει από το παιχνίδι!
 Playername=Όνομα Παίκτη:
 PlayerNameNotSetTitle=Προειδοποίηση: Το όνομα του παίκτη δεν έχει οριστεί
-PlayerNameNotSetPrompt=Δεν έχετε ορίσετε ένα όνομα παίκτη, ακόμα!\n\nΟρίστε το όνομα παίκτη σας τώρα στο:\nΚύριο μενού -> Options (επάνω δεξιά).
+PlayerNameNotSetPrompt=Δεν έχετε ορίσει ένα όνομα παίκτη, ακόμα!\n\nΟρίστε το όνομα του παίκτη σας τώρα στο: κύριο μενού-> επιλογές.
 PlayerStatusSetup=Ανέτοιμος
 PlayerStatusBeRightBack=Επιστρέφω σε λίγο
 PlayerStatusReady=Έτοιμος
@@ -568,4 +570,7 @@ FontMenuVeryBigBaseSize=25
 FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 

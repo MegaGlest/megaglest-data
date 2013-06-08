@@ -26,6 +26,7 @@ AllowPlayerJoinTeam=Дозволити гравцю [%s] приєднатись\
 # AllowInGameJoinPlayer=Players can join in game
 AmbientVolume=Навколишні звуки:
 Amount=Кількість
+# AnimatedTilesetObjects=Animated tileset objects
 Animation=Анімація
 Armor=Броня
 Attack=Напад
@@ -85,6 +86,7 @@ DataNotSynchedTitle=Наступні дані гри відрізняються:
 DataNotSynchedMap=Мапа відрізняється між клієнтом і сервером
 DataNotSynchedTileset=Tileset відрізняється між клієнтом і сервером
 DataNotSynchedTechtree=Дерево технологій відрізняється між клієнтом і сервером
+# DataMissing=***missing***
 # DataMissingExtractDownload=Please wait, player: %s is extracting: %s
 # DataMissingExtractDownloadMod=Please wait while we extract: %s
 DataMissingMap=Гравець: %s немає карти: %s
@@ -399,7 +401,7 @@ PlayerDisconnected=Гравець %s, від'єднаний від гри.
 PlayerLeftGame=вирішив вийти з гри!
 Playername=Назва гравця:
 # PlayerNameNotSetTitle=Warning: Player name not set
-# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options (top right).
+# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options.
 PlayerStatusSetup=Не готовий
 PlayerStatusBeRightBack=Готовий повернутися
 PlayerStatusReady=Готовий
@@ -568,4 +570,7 @@ FONT_BASE_SIZE=-2
 # FontConsoleBaseSize=14
 # FontConsolePostfix=-*-*-*-*-*-*-*
 # FontConsolePrefix=-*-arial-*-r-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 

@@ -2,17 +2,17 @@ SCENARIO_NAME=Glac a' bhratach
 ;message headers
 CaptureFlag=Glac a' bhratach
 Warning=Rabhadh
-Crisis=Rabhadh dearg!
+Crisis=Caismeachd dhearg!
 
 ;message strings
-Brief1=Glac bratach do nàmhad. Feumaidh aonad a' beantainn rithe is a' tilleadh dhachaigh! Tha bratach an nàmhad a' boillsgeadh sa mheanbh-mhapa. Bidh a' bhratach agad fhèin a' boillsgeadh ann an dath an sgioba agadsa. Bi faiceallach air an t-slighe.
+Brief1=Glac bratach do nàmhad. Feumaidh aonad beantainn ris a' bhratach is a' tilleadh dhachaigh! Tha bratach an nàmhad a' boillsgeadh sa mheanbh-mhapa. Bidh a' bhratach agad fhèin a' boillsgeadh leis dath aig an sgioba agadsa. Bi faiceallach air an rathad.
 Player2InFlagZoneWarning=Thoir an aire, tha Cluicheadair 2 ann an roinn na brataich agad!
 Player3InFlagZoneWarning=Thoir an aire, tha Cluicheadair 3 ann an roinn na brataich agad!
-Player2HasFlagWarning=Tha A' BHRATACH AGAD aig Cluicheadair 2, rach air a tòir!
-Player3HasFlagWarning=Tha A' BHRATACH AGAD aig Cluicheadair 3, rach air a tòir!
+Player2HasFlagWarning=Tha A' BHRATACH AGAD aig Cluicheadair 2, rach air a thòir!
+Player3HasFlagWarning=Tha A' BHRATACH AGAD aig Cluicheadair 3, rach air a thòir!
 
 ;objective strings
-Player2HeadHome=Nise, a' Chluicheadair 2, ruig dhachaigh gu slàn is buannaichidh tu! Tha cuideam air do neach-giùlain na brataich ann an dath an sgioba agad, na leig leis bàs fhaighinn.
-Player3HeadHome=Nise, a' Chluicheadair 3, ruig dhachaigh gu slàn is buannaichidh tu! Tha cuideam air do neach-giùlain na brataich ann an dath an sgioba agad, na leig leis bàs fhaighinn.
-PlayerWins=Meal do naidheachd, bhuannaich thu!
+Player2HeadHome=Nise, a Chluicheadair 2, till dhachaigh gu slàn is buannaichidh tu! Tha cuideam air do neach-giùlain na brataich le dath an sgioba agad, na leig leis bàs fhaighinn.
+Player3HeadHome=Nise, a Chluicheadair 3, till dhachaigh gu slàn is buannaichidh tu! Tha cuideam air do neach-giùlain na brataich le dath an sgioba agad, na leig leis bàs fhaighinn.
+PlayerWins=Meal do naidheachd, fhuair thu buaidh!
 PlayerLoses=Oich, chaill thu!

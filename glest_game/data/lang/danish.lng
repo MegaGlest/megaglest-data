@@ -26,6 +26,7 @@ AllowPlayerJoinTeam=Tillad spiller [%s] at komme på dit hold\n(skifter fra hold
 # AllowInGameJoinPlayer=Players can join in game
 AmbientVolume=Bagrunds lydstyrke:
 Amount=Mængde
+# AnimatedTilesetObjects=Animated tileset objects
 Animation=Animation
 Armor=Armor
 Attack=Angrib
@@ -85,6 +86,7 @@ DataNotSynchedTitle=Følgende spil data er anderledes:
 DataNotSynchedMap=Kortet er forskelligt imellem klient og server
 DataNotSynchedTileset=Kort dekorationssæt er forskelligt imellem klient og server
 DataNotSynchedTechtree=Teknotræ er anderledes imellem klient og server
+# DataMissing=***missing***
 DataMissingExtractDownload=Vent venligts: %s udpakker: %s
 DataMissingExtractDownloadMod=Vent venligst imens: %s bliver udpakket
 DataMissingMap=Spiller: %s mangler kortet: %s
@@ -399,7 +401,7 @@ PlayerDisconnected=Spiller %s, afbrød fra spillet
 PlayerLeftGame=Har valgt at forlade spillet!
 Playername=Spillernavn:
 # PlayerNameNotSetTitle=Warning: Player name not set
-# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options (top right).
+# PlayerNameNotSetPrompt=You have not set a player name, yet!\n\nSet your player name now at:\nMain menu -> Options.
 PlayerStatusSetup=Ikke klar
 PlayerStatusBeRightBack=Er straks tilbage
 PlayerStatusReady=Klar
@@ -568,4 +570,7 @@ FontMenuVeryBigBaseSize=25
 FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
+
+; Special Key strokes allowed for this language and font (comma delimited)
+ALLOWED_SPECIAL_KEYS=
 
