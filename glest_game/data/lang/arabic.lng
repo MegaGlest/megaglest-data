@@ -571,6 +571,6 @@ FontConsoleBaseSize=14
 FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
-; Special Key strokes allowed for this language and font (comma delimited)
-ALLOWED_SPECIAL_KEYS=
+; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
+ALLOWED_SPECIAL_KEYS=لا شيء
 
