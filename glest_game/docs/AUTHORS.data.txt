@@ -47,63 +47,86 @@ The Romans faction uses music tracks from Mattias Westlund's album
 
 Tilesets:
 =========
-Tileset Jungle:     by Titus Tscharntke(titi) & Philipp Tscharntke 
-Tileset Evergreen:  by Titus Tscharntke(titi) 
-Tileset Autumn:     by Titus Tscharntke(titi) 
-Tileset Desert2:    by Idanwin and Titus Tscharntke(titi)
-Tileset Winter:     by Titus Tscharntke(titi)
-Tileset Hell:       by Titus Tscharntke(titi)
-Tileset Mediterran: by Titus Tscharntke(titi)
-Tileset Scurbland:  by MadElf (improved a bit by titi)
-Tileset Spring:     by Philipp Tscharntke
-Tileset Meadow:     by Trappin ( with water from madelf )
-Tileset Fernland:   by Titus Tscharntke(titi)
-Tileset Pine Peat:  by Trappin modified by Titus Tscharntke(titi). Uses some ground textures from Rhyzom and some models from wciow.
-Tileset Karningul:  by Trappin( with help from Omega) based on original imladris tileset by GameBoy
+Autumn     	by Titus Tscharntke(titi)
+Birch Forest 	by Titus Tscharntke(titi) 
+Desert2    	by Idanwin and Titus Tscharntke(titi)
+Evergreen  	by Titus Tscharntke(titi) 
+Fernland       	by Titus Tscharntke(titi)
+Hell       	by Titus Tscharntke(titi)
+Jungle     	by Titus Tscharntke(titi) & Philipp Tscharntke 
+Karningul  	by Trappin( with help from Omega) based on original imladris by GameBoy
+Meadow         	by Trappin ( with water from madelf )
+Mediterran     	by Titus Tscharntke(titi)
+Pine Peat      	by Trappin modified by Titus Tscharntke(titi). Uses some ground textures from Rhyzom and some models from wciow.
+Scurbland      	by MadElf (improved a bit by titi)
+Spring         	by Philipp Tscharntke
+Winter     	by Titus Tscharntke(titi)
 
 
 Maps:
 =====
+ 2rivers           	by Titus Tscharntke(titi)
+ 4hills8kings      	by Titus Tscharntke(titi)
+ 4kingdoms8kings   	by Eliminator ( little changes by titi )
+ 5vs2			by tiger
+ 6isle         		by Titus Tscharntke(titi)
+ 6player		by atze
+ ally_resists      	by Trappin tweaked by ultifd
+ another_riverside	by atze
+ base_it          	by atze
+ beat_the_enemy    	by Philipp Tscharntke
+ cauldron          	by Wciow
+ center_castle     	by Titus Tscharntke(titi)
+ clinch			by atze
  conflict          	by ttsmj
+ conflict6xtreed  	by Eliminator (based on 'conflict')
+ confrontation    	by atze (based on 'conflict')
+ coop4_ally_resist 	by Trappin
  domination_isles  	by mapmaker(from the glest forum)
+ eight_gradient    	by Trappin
+ eight_rivers      	by Eliminator
+ end_times         	original by omega modified by Trappin
+ fight_4_your_golden_right by atze
+ five_on_three     	by Tiger
+ four_free		by atze
+ fracture          	by wciow
+ grandezza		by atze
+ hells_clam		by Titus Tscharntke(titi)
+ highlands         	by Titus Tscharntke(titi)
+ intermezzo		by atze
+ kaleidoscope		by Titus Tscharntke(titi)
+ lakesway          	by atze
+ land_of_plenty2   	by Eliminator ( little changes by titi )
+ lau_lagoon        	by Trappin
+ loggerheads		by atze
+ megakill3vs1      	by Enno Tscharntke
+ no_masters		by atze
+ one_king_fairplay	by Titus Tscharntke(titi)
+ one_king_rules_them_all by Uncle
  one_on_one        	by original glest team ( but no longer in the game yet )
+ orlog			by atze
  overgrown_city    	by mapmaker and Titus Tscharntke(titi)
+ paraiso_br		by carla
+ pentagon		by cavavin
+ pot_hole          	original by glest team, improved by Trappin
+ ragor			by Titus Tscharntke(titi)
+ redoubt           	by Trappin
+ renkontre		by atze
+ river_raid2	   	by James McCulloch(silnarm)
+ showdown_3way     	by atze
+ simple_river_8_player	by atze
+ swamp_of_hope		by atze
+ team_island       	by Titus Tscharntke(titi)
+ team_island4      	by Titus Tscharntke(titi)
+ teamplay		by Titus Tscharntke(titi)
+ tour_de_force		by atze
+ tropical4v4       	by Titus Tscharntke(titi)
  tropical_arena    	by mapmaker(from the glest forum)
  tt_goldrush_v2    	by Titus Tscharntke(titi)
- waterworld       	by Titus Tscharntke(titi)
- tropical4v4       	by Titus Tscharntke(titi)
- pot_hole          	original by glest team, improved by Trappin
- 4kingdoms8kings   	by Eliminator ( little changes by titi )
- land_of_plenty2   	by Eliminator ( little changes by titi )
- end_times         	original by omega modified by Trappin
- eight_gradient    	by Trappin
+ unforgotten		by atze
  wadi_nefud2       	by Trappin
- lau_lagoon        	by Trappin
- redoubt           	by Trappin
- megakill3vs1      	by Enno Tscharntke
- cauldron          	by Wciow
- 6isle.mgm         	by Titus Tscharntke(titi)
- eight_rivers      	by Eliminator
- 4hills8kings      	by Titus Tscharntke(titi)
- coop4_ally_resist 	by Trappin
- fracture          	by wciow
- 2rivers           	by Titus Tscharntke(titi)
- ally_resists      	by Trappin tweaked by ultifd
- beat_the_enemy    	by Philipp Tscharntke
- center_castle     	by Titus Tscharntke(titi)
- river_raid2	   	by James McCulloch(silnarm)
- highlands         	by Titus Tscharntke(titi)
- team_island       	by Titus Tscharntke(titi)
- five_on_three     	by Tiger
- lakesway          	by atze
- showdown_3way     	by atze
- one_king_rules_them_all by Uncle
- team_island4      	by Titus Tscharntke(titi)
- conflict6xtreed  	by Eliminator (based on 'conflict')
- confrontation    	by Atze (based on 'conflict')
- simple_river_8_player	by Atze
- base_it          	by Atze
- fight_4_your_golden_right by Atze
+ waterworld       	by Titus Tscharntke(titi)
+
 
 
 Scenarios:
@@ -117,8 +140,8 @@ m4_magic_can_do_it   by Titus Tscharntke(titi)
 m4_my_island         by Titus Tscharntke(titi)
 m4_norsemen_attack   by Titus Tscharntke(titi)
 m4_persian_conflict  by Philipp Tscharntke
-m4_waterworld_light  by Titus Tscharntke(titi)
 m4_waterworld        by Titus Tscharntke(titi)
+m4_waterworld_light  by Titus Tscharntke(titi)
 
 Tutorials:
 ==========
@@ -126,22 +149,22 @@ basic_tutorial2      by Philipp Tscharntke
 
 Translations:
 =============
-Italian              by Marco "Pizza90" Gori
+Catalan              by Miguel Verdú
+Chinese              by James
+Czech                by Uncle
 Danish               by Frederick "Coldfusionstorm" Angelo
 Dutch                by joepie91
 French               by Cygal + Davidou based on the work of many others
-German               by Eduard Dopler based on the work of many others
-Ukrainian            by Dmitry Nikitin
-Spanish              by Davidou based on the work of many others
-Catalan              by Miguel Verdú
-Russian              by Zhook based on the work of many others
-Portuguese           by VictorJ based on the work of many others
-Polish               by Krzysztof Gurbała
-Japanese             by Hagekura
-Greek                by Billy Toulas
-Chinese              by James
-Czech                by Uncle
 Gaelic               by GunChleoc
+German               by Eduard Dopler based on the work of many others
+Greek                by Billy Toulas
+Italian              by Marco "Pizza90" Gori
+Japanese             by Hagekura
+Polish               by Krzysztof Gurbała
+Portuguese           by VictorJ based on the work of many others
+Russian              by Zhook based on the work of many others
+Spanish              by Davidou based on the work of many others
+Ukrainian            by Dmitry Nikitin
 
 Credits go to:
 ==============
