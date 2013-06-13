@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=Pravděpodobnost akceptování UI
 AlreadyUpgraded=Již vylepšeno
 All=Všichni
 # allowMultiBoost=Allow Multiple Boosts
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Povolit pozorovatele
 AllowPlayerJoinTeam=Povolit hráči [%s] přidat se do vašeho týmu\n(z týmu # %d do týmu # %d)?
 # AllowInGameJoinPlayer=Players can join in game

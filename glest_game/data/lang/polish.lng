@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=Częstość przyjęcia do drużyny przez AI
 AlreadyUpgraded=Już ulepszone
 All=Wszyscy
 allowMultiBoost=Wielokrotne podładowania
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Pozwól obserwować
 AllowPlayerJoinTeam=Pozwól graczowi [%s] dołączyć do twojej drużyny\n(zamiana drużyny# %d na drużynę# %d)?
 AllowInGameJoinPlayer=\nGracze mogą przyłączać\nsię do już trwającej bitwy\nzastępując CPU_AI.

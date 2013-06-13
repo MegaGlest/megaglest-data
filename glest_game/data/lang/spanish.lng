@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=Probabilidad de que el IA acepte
 AlreadyUpgraded=Mejora ya realizada
 All=Todos
 allowMultiBoost=Permitir Múltiples Impulsos
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Permitir observadores
 AllowPlayerJoinTeam=Permitir jugador [%s] a unirse al equipo\n(cambio del equipo #%d al equipo #%d)?
 AllowInGameJoinPlayer=Los jugadores pueden participar en el juego

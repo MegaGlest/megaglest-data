@@ -1,30 +1,30 @@
 # TUTORIAL_NAME=#1 Basic Tutorial
 ;message headers
-GlestBasicTutorial=Megaglest begynder kursus
+GlestBasicTutorial=Megaglest begynderkursus
 WellDone=Godt klaret!
-Resources=Resources
+Resources=Ressourcer
 Combat=Kamp
 Buildings=Bygninger
 Tricks=Tricks
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-Welcome=Velkommen til Megaglest basis kursus
+Welcome=Velkommen til Megaglest basiskursus.
 
-FirstThing=Udsigt:For at justere det synlige område. flyt din muse makør til kanten af din skærm, eller brug pile tasterne. En anden måde er at venstre klikke på dit minimap(øverste venstre hjørne af din skærm).
+FirstThing=Udsigt: For at justere det synlige område, flyt din musemarkør til kanten af din skærm, eller brug piletasterne. En anden måde er at venstre klikke på dit minimap (øverste, venstre hjørne af din skærm).
 
-WillBeUsingIndian=I denne introduktion, Kommandere du Indianerene. Den indianske faktion slås med bueskytter og simple våben
+WillBeUsingIndian=I denne introduktion, Kommandere du indianerne. Den indianske faktion slås med bueskytter og simple våben.
 
-NeedWorkers=Først skal vi bruge en arbejder. Få at få en, venstre klik på Mainteepee og start træningen af en arbejder. For at gøre dette skal du bruge "produce worker" kommandoen ved at trykke på arbejder ikonet
+NeedWorkers=Først skal vi bruge en arbejder. Får at få en, venstre klik på Hovedtipien og start træningen af en arbejder. For at gøre dette skal du bruge 'Producer Arbejder'-kommandoen, ved at trykke på arbejder ikonet.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Venstre klik nu på din arbejder. Detailjerne for den valgte enhed, Navnligt Enhedens navn og billede er nu vist i højre øverste hjørne af din skærm. Nedenunder er vist (liv point), armor, og i parenteser armor type og hvor langt enheden kan (se).
-Select2=Hvis dette er en kamp enhed,vil antallet af fjender den har ødelagt blive vist herefter. hvis enheden bruger resourcer, det blive vist i det følgende felt. Nedenunder dette vil der stå hvad enhedens er beordret til lige nu
+Select=Venstreklik nu på din arbejder. Detaljerne for den valgte enhed, navnlig enhedens navn og billede er nu vist i højre øverste hjørne af din skærm. Nedenunder er vist livspoint (HP), armor, og i parenteser, armortype og hvor langt enheden kan se (sight).
+Select2=Hvis dette er en kamp enhed, vil antallet af fjender den har ødelagt blive vist herefter. Hvis enheden bruger ressourcer, vil det blive vist i det følgende felt. Nedenunder dette vil der stå hvad enhedens er beordret til at gøre lige nu.
 
 # ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
 
-Command=Enhedens evner er vist længere nede. Nu skal vi til hvilken kommandoer denne enhed kan udfører
+Command=Enhedens evner er vist længere nede. Nu skal vi lære alle de kommandoer som enheden kan udføre.
 
 # FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
 
@@ -35,19 +35,19 @@ Command=Enhedens evner er vist længere nede. Nu skal vi til hvilken kommandoer 
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-MoveBack=Godt. Lad nu begge arbejdere retunere til "Mainteepee". For at vælge flere enheder på en gang. Hold shift nede og flyt musen til du har en firkantet boks rundt om dine enheder eller ...
-MoveBack2=... Hold shift nede, og så klik på hver enkelt enhed du vil have valgt eller...
-MoveBack3=... dobbelt-klik på en enhed for at vælge alle enheder af den samme typer (arbejdere i dette tilfælde).
-# HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
-# HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
+MoveBack=Godt. Lad nu begge arbejdere gå tilbage til Hovedtipien. For at vælge flere enheder på en gang, hold shift nede og flyt musen til du har en firkantet boks rundt om dine enheder ELLER ...
+MoveBack2=... Hold shift nede, og klik så på hver enkelt enhed du vil have valgt ELLER ...
+MoveBack3=... dobbelt-klik på en enhed for at vælge alle enheder af den samme type (arbejdere i dette tilfælde).
+HarvestGoldandStone=Når dine enheder har nået dit hjem, vil vi bruge det fjerde kommandoikon, som bruges til at indsamle guld eller sten.
+HarvestGoldandStone2=Hold musen over dette kommandoikon for at se hvor hurtigt arbejdere kan indsamle, hvor meget hverenkelt arbejder kan indsamle, hvor hurtigt de kan gå med ressourcer og hvilke ressourcer de overhovedet kan indsamle.
 # UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
-# HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
+HarvestGoldandStone3=Grav nu efter guld og sten indtil du har i alt 600 guld og 550 sten. Du kan også bygge nye arbejdere for at hjælpe dig (husk dog at dette også vil koste dig guld). Du kan se øverst på skærmen hvor mange af de forskellige ressourcer du har lagret.
 
 ;------------------------------------------Get Wood------------------------------------------
 
-# HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
-# ResourceInformation=By the way, the indian faction mostly needs gold and wood.
-# GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
+HarvestGoldAndStoneDone=Nu mangler du kun en smule træ. For at skaffe noget, brug det femte kommandoikon. Dette er også en indsamlingskommando, så du kan bruge den på samme måde som dem for guld og sten.
+ResourceInformation=I øvrigt har indianerfaktionen mest brug for guld og træ.
+GetWood=Endnu et tip: Du kan bruge indsamlingskommandoen hurtigere ved at vælge din arbejde og derefter højre-klikke på den ressource du gerne vil indsamle, for at få arbejderen i gang. Du vil se en gul pil hvis du har gjort det korrekt. Indsaml nu træ indtil du har 550 lagret.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 

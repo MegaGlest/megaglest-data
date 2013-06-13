@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=نسبة قبول ذإ
 AlreadyUpgraded=تمت ترقيتها
 All=الكل
 allowMultiBoost=سماح دفعات متعددة
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=السماح للمراقبين
 AllowPlayerJoinTeam=السماح للاّعب [%s] بالانضمام إلى فريقك\n(تغيير من فريق# %d إلى فريق# %d)؟
 AllowInGameJoinPlayer=يمكن للاعبين الانضمام إلى اللعبة

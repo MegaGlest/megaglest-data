@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=AI aanvaar persent
 AlreadyUpgraded=Reeds Opgegradeer
 All=Alle
 allowMultiBoost=Laat Multiple Bevordert
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Toelaat van stock
 # AllowPlayerJoinTeam=Allow player [%s] to join your team (changing from team# %d to team# %d)?
 # AllowInGameJoinPlayer=Players can join in game

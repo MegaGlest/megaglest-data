@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=Ймовірність прийняття зміни �
 AlreadyUpgraded=Вже оновлено
 All=Всі
 # allowMultiBoost=Allow Multiple Boosts
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Дозволити глядачів
 AllowPlayerJoinTeam=Дозволити гравцю [%s] приєднатись\nдо вашої команди (змінити команду# %d на команду# %d)?
 # AllowInGameJoinPlayer=Players can join in game

@@ -6,7 +6,7 @@ ArmorTypeName_leather=leather
 ArmorTypeName_wood=wood
 ArmorTypeName_metal=metal
 ArmorTypeName_stone=stone
-; -------------- 
+; --------------
 ; Types of Attack
 AttackTypeName_slashing=slashing
 AttackTypeName_piercing=piercing

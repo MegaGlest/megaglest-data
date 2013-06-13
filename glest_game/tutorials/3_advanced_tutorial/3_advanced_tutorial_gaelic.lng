@@ -1,39 +1,39 @@
 TUTORIAL_NAME=Oideachadh adhartach
 ;message headers
 GlestAdvancedTutorial=Oideachadh adhartach MegaGlest
-Promoting=Ag àrdachadh aonadan
+Promoting=Àrdachadh aonadan
 WellDone=Glè mhath!
-Summoning=Gairm
-Energy=Cumhachd
+Summoning=Taghairm
+Energy=Lùths
 Ritual=Deas-ghnàth
 Armies=Feachdan
 
 ;message strings
 Welcome=Fàilte dhan oideachadh adhartach aig MegaGlest. Ionnsaichidh tu mu chuid dhe na feartan adhartach aig a' gheama.
-MagicBrief=Tha thu os cionn na buidhne draoidhich a chleachdas draoidhean is creutairean air an gairm gus sabaid a dhèanamh.
-InitiateBrief='S e an t-aonad draoidheach bunasach a tha san fhoghlamaiche (Initiate). Buainidh iad stòrasan is togaidh iad togalaichean.
-InitiatePromotion=Faodaidh tu foghlamaichean àrdachadh gu draoidhean-catha (Battlemage). Gus seo a dhèanamh, tagh foghlamaiche is cleachd an t-òrdugh "Àrdaich gu draoidh-catha" ("Promote to Battlemage").
-BattlemageBrief='S e na cathaichean draoidheach bunasach a th' anns na draoidhean-catha. Tha ionnsaighean air astar cumhachdach agus luaths is comas-seasaimh math aca.
-EnergyBrief=Mar as trice, bidh feum aig aonadan draoidheach air cumhachd ach an dèan thu iad. Cha tèid cumhachd ithe mar a thèid biadh is cha bhi feum agad oirre ach nuair a chruthaicheas tu aonad. Gheibh thu cumhachd bho thobraichean cumhachd (Energy Sources).
-EnergyBrief2=Thoir an aire an-còmhnaidh gu bheil cumhachd gu leòr agad gus aonadan ùra a dhèanamh.
-SummonedUnitsBrief=Is a' ghairm an dòigh eile aig na draoidhean gus aonadan a chruthachadh. Tha gairmeir (Summoner) a dhìth ort. Nì thu tè aig comann nan gairmeirean (Summoners Guild).
-SummonerBrief=Nì gairmeirean an caochladh de chreutairean. Is an deamhan (Daemon) am fear as bunasaiche.
-DaemonBrief=Tha deamhannan glè lag, ach tha iad glè shaor cuideachd. Tha iad feumail mar aonad catha bunasach is nan rabhadairean.
-OtherSummonedCreatures=Nì gairmeirean creutairean as àrda a leithid an taibhs-armachd (Ghost Armor) no dràgonan (Dragons), ach feumaidh tu na h-adhartachaidhean iomchaidh a rannsachadh an toiseach.
-GhostArmorRequirements=Tha an t-adhartachadh gairm àrsaidh (Ancient Summoning) a dhìth ort gus taibhsean-armachd a dèanamh. 'S urrainn dhut seo a rannsachadh ann an comann nan gairmear (Summoners Guild).
+MagicBrief=Tha thu os cionn na buidhne draoidhich a chleachdas draoidhean is creutairean air an taghairm gus sabaid a dhèanamh.
+InitiateBrief=Is am foghlamaiche an t-aonad draoidheach bunasach. Buainidh e stòrasan is togaidh e togalaichean.
+InitiatePromotion=Faodaidh tu foghlamaichean àrdachadh gu draoidhean-catha. Gus seo a dhèanamh, tagh foghlamaiche is cleachd an t-òrdugh "Àrdaich gu draoidh-catha".
+BattlemageBrief='S e na cathaich dhraoidheach bhunasach a th' anns na draoidhean-catha. Tha ionnsaighean astair cumhachdach agus luaths is comas-seasaimh math aca.
+EnergyBrief=Mar as trice, bidh feum aig aonadan draoidheach air lùths ach an dèan thu iad. Cha tèid lùths ithe mar a thèid biadh is cha bhi feum agad air ach nuair a chruthaicheas tu aonad. Gheibh thu lùths bho thobraichean lùiths.
+EnergyBrief2=Thoir an aire an-còmhnaidh gum bi lùths gu leòr agad gus aonadan ùra a dhèanamh.
+SummonedUnitsBrief=Is an taghairm an dòigh eile aig na draoidhean gus aonadan a chruthachadh. Tha taghairmeir a dhìth ort. Nì thu tè aig comann nan gairmeirean.
+SummonerBrief=Cruthaichidh taghairmeirean caochladh dhe chreutairean. Is an t-ifrinneach am fear as bunasaiche.
+DaemonBrief=Tha ifrinnich glè lag, ach tha iad glè shaor cuideachd. Tha iad feumail mar aonad catha bunasach is mar rabhadairean.
+OtherSummonedCreatures=Nì taghairmeirean creutairean as àirde a leithid an taibhs-armachd no dràgon, ach feumaidh tu na h-àrdachaidhean iomchaidh a rannsachadh an toiseach.
+GhostArmorRequirements=Tha an t-àrdachadh "taghairm àrsaidh" a dhìth ort gus taibhs-armachdan a dèanamh. 'S urrainn dhut seo a rannsachadh ann an comann nan taghairmeirean.
 GhostArmorBrief='S e aonad catha dhlùth air ìre mheadhanach a th' anns an taibhs-armachd. Tha i feumail gus aonadan do nàmhad a chumail air falbh bho na draoidhean-catha agad.
-RitualBrief=Tha òrdugh togail eile aig foghlamaichean air a bheil deas-ghnàth (Ritual). Cleachdaidh iad seo gus structaran adhartach is creutairean cumhachdach a leithid a' ghoileim a thogail. Tha leabharlann (Library) a dhìth ort gus na deas-gnàthan ionnsachadh.
-GolemBrief='S e aonad dìon glè chumhachdach a th' anns a' ghoileam (Golem). Tha ionnsaigh chumhachdach is comas-seasaimh glè mhath aige, ach chan urrainn dha gluasad mus eil cumhachd gu leòr air fhàgail dha.
-ArmyManagement=Nuair a thòisicheas tu air àireamh dhe dh'aonadan as àirde a thogail, 's dòcha gum bi e doirbh smachd a chumail orra.
+RitualBrief=Tha òrdugh togail eile aig foghlamaichean air a bheil deas-ghnàth. Cleachdaidh iad seo gus structaran adhartach is creutairean cumhachdach a leithid a' ghòileim a thogail. Tha leabhar-lann a dhìth ort gus na deas-gnàthan ionnsachadh.
+GolemBrief='S e aonad dìona glè chumhachdach a th' anns a' ghòileam. Tha ionnsaigh chumhachdach is comas-seasaimh glè mhath aige, ach chan urrainn dha gluasad mur eil lùths gu leòr air fhàgail dha.
+ArmyManagement=Nuair a thòisicheas tu air barrachd aonadan a thogail, 's dòcha gum bi e doirbh smachd a chumail orra.
 DoubleClickBrief=Dèan briogadh dùbailte air aonad gus a h-uile aonad dhen aon seòrsa a tha faisg air a thaghadh.
-GroupSelectBrief=Gus buidheann dhe dh'aonadan a chruthachadh, tagh iad is dèan briogadh air CTRL is àireamh. An uair sin, thèid a' bhuidheann seo a thaghadh gach turas a bhrùthas tu air an àireamh.
-FinalMission=Mar dheuchainn mu dheireadh, tog feachd is cuir às dhan nàmhaid agad.
+GroupSelectBrief=Gus buidheann dhe dh'aonadan a chruthachadh, tagh iad is dèan briogadh air CTRL is àireamh. An uairsin, thèid a' bhuidheann seo a thaghadh gach turas a bhrùthas tu air an àireamh.
+FinalMission=Mar an deuchainn mu dheireadh, tog feachd is cuir às dhan nàmhaid agad.
 
 ;objective strings
-PromoteInitiate=Ceann-uidhe: Àrdaich foghlamaiche (Initiate) gu draoidh-catha (Battlemage).
-ProduceSummoner=Ceann-uidhe: Tog comann nan gairmear (Summoners Guild) is an uair sin dèan gairmeir (Summoner).
-ProduceDaemon=Ceann-uidhe: Gairm deamhan (Daemon).
-ProduceGhostArmor=Ceann-uidhe: Rannsaich gairm àrsaidh (Ancient Summoning) is an uair sin gairm taibhs-armachd (Ghost Armor).
-BuildEnergySource=Ceann-uidhe: Tog tobar cumhachd (Energy Source).
-ProduceGolem=Ceann-uidhe: Tog leabharlann (Library) is an uair sin cleachd foghlamaiche (Initiate) gus deas-ghnàth a chumail a thogas goileam (Golem).
+PromoteInitiate=Ceann-uidhe: Àrdaich foghlamaiche gu draoidh-catha.
+ProduceSummoner=Ceann-uidhe: Tog comann nan taghairmeirean is an uairsin dèan taghairmeir.
+ProduceDaemon=Ceann-uidhe: Taghairm ifrinneach.
+ProduceGhostArmor=Ceann-uidhe: Rannsaich taghairm àrsaidh is an uairsin taghairm taibhs-armachd.
+BuildEnergySource=Ceann-uidhe: Tog tobar lùiths.
+ProduceGolem=Ceann-uidhe: Tog leabhar-lann is an uairsin cleachd foghlamaiche gus deas-ghnàth a chumail a thogas gòileam.
 DefeatEnemy=Ceann-uidhe: Tog feachd agus lorg is cuir às dhan nàmhaid.

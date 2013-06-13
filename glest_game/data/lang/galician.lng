@@ -21,6 +21,7 @@ AdvancedGameOptions=Opcións avanzadas
 AlreadyUpgraded=Xa se actualizou
 All=Todos
 # allowMultiBoost=Allow Multiple Boosts
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Permitir observadores
 # AllowPlayerJoinTeam=Allow player [%s] to join your team (changing from team# %d to team# %d)?
 # AllowInGameJoinPlayer=Players can join in game

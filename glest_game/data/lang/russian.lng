@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=AI процент
 AlreadyUpgraded=Уже модернизировано
 All=Всем
 allowMultiBoost=Разрешить множественное усиление
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Разрешить наблюдателей
 AllowPlayerJoinTeam=Разрешить игроку [% s] присоединиться к вашей команде\n(из команды# %d в команду# %d)?
 AllowInGameJoinPlayer=Игроки могут объединяться в игре

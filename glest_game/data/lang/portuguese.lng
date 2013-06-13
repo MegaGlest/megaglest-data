@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=Tempo do bot(AI) aceitar troca
 AlreadyUpgraded=Já Pesquisado
 All=Todos
 allowMultiBoost=Permita Múltiplos Boost
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Permitir Observadores
 AllowPlayerJoinTeam=Permito ao jogador [%s] entrar no seu time\n(trocando do time #%d para o time#%d)?
 # AllowInGameJoinPlayer=Players can join in game

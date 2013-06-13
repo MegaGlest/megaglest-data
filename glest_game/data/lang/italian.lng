@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=Percentuale di accettazione da parte dell'AI
 AlreadyUpgraded=Già aggiornato.
 All=Tutti
 allowMultiBoost=Potenziamenti cumulabili
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Permetti osservatori
 AllowPlayerJoinTeam=Permetti al Giocatore [%s] di unirsi alla tua squadra\n(passerà dalla squadra# %d alla squadra# %d)?
 AllowInGameJoinPlayer=I Giocatori possono unirsi alla partita

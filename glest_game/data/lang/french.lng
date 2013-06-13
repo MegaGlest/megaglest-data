@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=Probabilité d'acceptation du changement d'équipe
 AlreadyUpgraded=Déjà mis à jour
 All=Tous
 allowMultiBoost=Autoriser plusieurs boosts
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Autoriser Observateurs
 AllowPlayerJoinTeam=Autoriser le joueur [%s] à rejoindre l'équipe\n(changement de l'équipe #%d à l'équipe #%d) ?
 AllowInGameJoinPlayer=Le joueurs peuvent rejoindre la partie

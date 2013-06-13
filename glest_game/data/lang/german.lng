@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=CPU akzeptiert (%)
 AlreadyUpgraded=Bereits verbessert
 All=Alle
 allowMultiBoost=Mit Mehrfachboost
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Zuschauer zulassen
 AllowPlayerJoinTeam=Spieler [%s] erlauben Deinem Team beizutreten\n(Wechsel von Team %d zu Team %d)?
 AllowInGameJoinPlayer=Spieler können Spiel beitreten

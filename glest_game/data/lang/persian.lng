@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=درصد موافقت هوش مصنوعی
 AlreadyUpgraded=به‌روز‌رسانی شده
 All=تمامی
 allowMultiBoost=امکان ترقی چندگانه
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=امکان وجود نظرین
 # AllowPlayerJoinTeam=Allow player [%s] to join your team (changing from team# %d to team# %d)?
 # AllowInGameJoinPlayer=Players can join in game

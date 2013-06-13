@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=接受AI切换队伍几率
 AlreadyUpgraded=升级完毕
 All=所有
 # allowMultiBoost=Allow Multiple Boosts
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=允许观察
 # AllowPlayerJoinTeam=Allow player [%s] to join your team (changing from team# %d to team# %d)?
 AllowInGameJoinPlayer=允许玩家加入游戏

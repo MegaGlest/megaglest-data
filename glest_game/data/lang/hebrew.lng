@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=אחוזי קבלה של המחשב
 AlreadyUpgraded=שודרג
 All=הכל
 allowMultiBoost=לאפשר מגברים מרובים
+# AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=אפשר משקיפים
 AllowPlayerJoinTeam=לאפשר לשחקן [%s] להצטרף לצוות (לשנות צוות מצוות# %d לצוות# %d)?
 # AllowInGameJoinPlayer=Players can join in game
