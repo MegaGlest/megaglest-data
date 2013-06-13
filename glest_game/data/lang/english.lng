@@ -21,6 +21,7 @@ AISwitchTeamAcceptPercent=AI accept percent
 AlreadyUpgraded=Already Upgraded
 All=All
 allowMultiBoost=Allow Multiple Boosts
+AllowNativeLanguageTechtree=Allow Translated Techtrees
 AllowObservers=Allow Observers
 AllowPlayerJoinTeam=Allow player [%s] to join your team (changing from team# %d to team# %d)?
 AllowInGameJoinPlayer=Players can join in game
