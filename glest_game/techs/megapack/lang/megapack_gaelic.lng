@@ -1,0 +1,1443 @@
+TechTreeName=meaga-phacaid
+; --------------
+; Types of Armor
+ArmorTypeName_organic=fàs-bheartach
+ArmorTypeName_leather=leathar
+ArmorTypeName_wood=fiodh
+ArmorTypeName_metal=meatailt
+ArmorTypeName_stone=clach
+; --------------
+; Types of Attack
+AttackTypeName_slashing=gearraidh
+AttackTypeName_piercing=biorach
+AttackTypeName_impact=bualadh
+AttackTypeName_energy=lùths
+AttackTypeName_sword=claidheamh
+AttackTypeName_arrow=saighead
+AttackTypeName_magic=draoidheach
+AttackTypeName_beat=buille
+; ------------------
+; Types of Resources
+ResourceTypeName_energy=lùths
+ResourceTypeName_food=biadh
+ResourceTypeName_gold=òr
+ResourceTypeName_housing=taighean
+ResourceTypeName_stone=clach
+ResourceTypeName_wood=fiodh
+; -----------------
+; Types of Factions
+FactionName_egypt=Èipheit
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=cumhachd Rà
+UpgradeTypeName_spear_weapons=airm slèigh
+UpgradeTypeName_speedup_priest_production=dèanadas shagairtean as luaithe
+UpgradeTypeName_summon_ibis=taghairm ìbis
+UpgradeTypeName_summon_scarab=taghairm sgarab
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_air_pyramid=pioramaid adhair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_anubis_warrior=cathach anùbais
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_chicken=cearc
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+UnitTypeName_desert_camp=campa fàsach
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearthrower=dèan tilgeir slèigh
+CommandName_produce_spearman=dèan sleaghadair
+CommandName_upgrade_spear_weapons=àrdaich na h-airm slèigh
+UnitTypeName_farm=tuathanas
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_chicken=dèan cearc
+UnitTypeName_ibis=ìbis
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_mummy=mamaidh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_obelisk=tursa Éiphiteach
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_scarab=dèan sgarab
+CommandName_produce_snake=dèan nathair
+CommandName_produce_ibis=dèan ìbis
+UnitTypeName_priest=sagairt
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_speedup_priest_production=dèanadas shagairtean as luaithe
+CommandName_heal=slànaich
+CommandName_produce_mummy=dèan mamaidh
+CommandName_produce_anubis_warrior=dèan cathach anùbais
+CommandName_ice_nova=spreadhadh deighe
+CommandName_hold_position=seas
+UnitTypeName_pyramid=pioramaid
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=dèan sglàbh
+UnitTypeName_scarab=sgarab
+; --------------------
+; Levels for this Unit
+LevelName_expert=eòlaiche
+LevelName_master=maighstir
+LevelName_legendary=seann-sgeulach
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_dung_attack=ionnsaigh buachair
+CommandName_hold_position=seas
+UnitTypeName_slave=sglàbh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_build_basic=togail bhunasach
+CommandName_repair=càraich
+CommandName_mine=tochail
+CommandName_harvest_wood=buain fiodh
+UnitTypeName_snake=nathair
+; --------------------
+; Levels for this Unit
+LevelName_expert=eòlaiche
+LevelName_master=maighstir
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_poison_shot=saighead phuinnseanach
+CommandName_hold_position=seas
+UnitTypeName_spearman=sleaghadair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_spearthrower=tilgeir slèigh
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_sphinx=sphinx
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_temple=teampaill
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_priest=dèan sagairt
+CommandName_research_scarab=rannsaich sgarab
+CommandName_research_ibis=rannsaich ìbis
+CommandName_get_power_of_ra=faigh cumachd Rà
+FactionName_indian=Innseanaich
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_bullfood=biadh tairbh
+UpgradeTypeName_iron=iarainn
+UpgradeTypeName_iron_advanced=iarainn adhartach
+UpgradeTypeName_petroleum=ola
+UpgradeTypeName_stables=stàballan
+UpgradeTypeName_training_field=raon trèanaidh
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=boghadair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_axe_indian=Innseanach tuaighe
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_axe_thrower=tilgeir tuaighe
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_beehive=sgeap
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_bigtent=mòr-theanta
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=dèan cathach bata
+CommandName_produce_archer=dèan boghadair
+UnitTypeName_bull=tarbh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_campfire=teine campa
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_firegolem=dèan gòileam teine
+CommandName_research_iron=rannsaich iarainn
+CommandName_research_iron_advanced=rannsaich iarainn adhartach
+UnitTypeName_fire_archer=boghadair teine
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_firegolem=gòileam teine
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_horsefarm=tuathanas eich
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_horseman=dèan marcaiche
+CommandName_produce_bull=dèan tarbh
+CommandName_research_stables=rannsaich stàballan
+UnitTypeName_horseman=marcaiche
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_mainteepee=prìomh thìpidh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=dèan obraiche
+UnitTypeName_reed=cuilc
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_bullfood=rannsaich biadh tairbh
+UnitTypeName_roundtent=teanta cruinn
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_axe_indian=dèan tùsanach tuaighe
+CommandName_produce_axe_thrower=dèan tilgeir tuaighe
+CommandName_produce_fire_archer=dèan boghadair teine
+CommandName_produce_spearman=dèan sleaghadair
+CommandName_create_training_field=tog raon trèanaidh
+UnitTypeName_shaman=seuman
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_repair=càraich
+CommandName_heal=slànaich
+CommandName_molotov=molotobh
+CommandName_produce_thunderbird=eun tàirneanaich
+CommandName_build_beehive=tog sgeap
+UnitTypeName_spearman=sleaghadair
+; --------------------
+; Levels for this Unit
+LevelName_guardian=cùra
+LevelName_chief=ceannard
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_stickfighter=cathach bata
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_tent=teanta
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=dèan cathach bata
+UnitTypeName_thunderbird=eun tàirneanach
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+LevelName_expert=eòlaiche
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_throw=tilg
+CommandName_breath=anail
+CommandName_hold_position=seas
+UnitTypeName_totem=tòtam
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_air_on=adhair air
+CommandName_research_petroleum=rannsaich ola
+CommandName_produce_shaman=dèan seuman
+UnitTypeName_worker=obraiche
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_build_basic=togail bhunasach
+CommandName_mine=tochail
+CommandName_harvest_wood=buain fiodh
+CommandName_repair=càraich
+FactionName_magic=Draoidhean
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=taghairm àrsaidh
+UpgradeTypeName_dragon_call=gairm dràgoin
+UpgradeTypeName_energy_compression=teannachadh lùiths
+UpgradeTypeName_energy_sharpening=geurachadh lùiths
+UpgradeTypeName_golem_power=cumhachd gòileim
+UpgradeTypeName_hell_gate=doras ifrinne
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archmage=àrd-dhraoidh
+; --------------------
+; Levels for this Unit
+LevelName_expert=eòlaiche
+LevelName_master=maighstir
+LevelName_legendary=seann-sgeulach
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_ice_nova=spreadhadh deighe
+CommandName_static_fire=teine seasmhach
+CommandName_hold_position=seas
+UnitTypeName_archmage_tower=tùr nan àrd-dhraoidh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_dragon_call=rannsaich gairm dràgoin
+CommandName_golem_power=cumhachd gòileim
+UnitTypeName_battlemage=draoidh-catha
+; --------------------
+; Levels for this Unit
+LevelName_expert=eòlaiche
+LevelName_master=maighstir
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_fire_bolt=saighead theine
+CommandName_hold_position=seas
+CommandName_promote_to_archmage=àrdaich gu àrd-dhraoidh
+UnitTypeName_behemoth=mòr-bhèist
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_daemon=ifrinneach
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_dragon=dràgon
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_breath=anail
+CommandName_hold_position=seas
+CommandName_promote_to_evil_dragon=àrdaich gu dràgon olc
+UnitTypeName_drake_rider=marcaiche dràic
+; --------------------
+; Levels for this Unit
+LevelName_expert=eòlaiche
+LevelName_master=maighstir
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_fire_breath=anail teine
+CommandName_flare=lasair
+CommandName_hold_position=seas
+UnitTypeName_energy_source=tobar lùiths
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+UnitTypeName_evil_dragon=dràgon olc
+; --------------------
+; Levels for this Unit
+LevelName_expert=eòlaiche
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_breath=anail
+CommandName_hold_position=seas
+UnitTypeName_ghost_armor=taibhs-armachd
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_golem=gòileam
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+CommandName_promote_to_power_golem=àrdaich gu lùths-ghòileam
+UnitTypeName_initiate=foghlamaiche
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_repair=càraich
+CommandName_build=tog
+CommandName_ritual=deas-ghnàth
+CommandName_mine=tochail
+CommandName_harvest=buain
+CommandName_promote_to_battlemage=àrdaich gu draoidh-catha
+UnitTypeName_library=leabhar-lann
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_energy_compression=rannsaich teannachadh lùiths
+CommandName_research_energy_sharpening=rannsaich geurachadh lùiths
+CommandName_research_hell_gate=rannsaich doras ifrinne
+UnitTypeName_mage_tower=tùr nan draoidh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_initiate=dèan foghlamaiche
+UnitTypeName_power_golem=lùths-ghòileam
+; --------------------
+; Levels for this Unit
+LevelName_ancient=àrsaidh
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_summoner=taghairmeir
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_flare=lasair
+CommandName_hold_position=seas
+CommandName_summon_daemon=taghairm ifrinneach
+CommandName_summon_ghost_armor=taghairm taibhs-armachd
+CommandName_summon_dragon=taghairm dràgon
+CommandName_summon_drake=taghairm dràc
+UnitTypeName_summoner_guild=comann nan taghairmeirean
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_summoner=dèan taghairmeir
+CommandName_research_ancient_summoning=rannsaich taghairm àrsaidh
+UnitTypeName_tower_of_souls=tùr nan anman
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_wicker_behemoth=mòr-bhèist shlatach
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_promote_to_behemoth=àrdaich tu mòr-bhèist
+FactionName_norsemen=Lochlannaich
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=iarainn adhartach
+UpgradeTypeName_arrow=saighead
+UpgradeTypeName_holy_valkyrie=bailgiridh naomh
+UpgradeTypeName_iron=iarainn
+UpgradeTypeName_med=mil-dheoch
+UpgradeTypeName_root=freumh
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=boghadair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_axe_thrower=tilgeir tuaighe
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_battleaxe=tuagh catha
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_promote_to_battleaxe=àrdaich gu tuagh catha
+UnitTypeName_battleaxe_berzerk=tuagh catha boile
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+UnitTypeName_blacksmith=gobha
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_iron=àrdaich gu iarainn
+CommandName_upgrade_arrow=àrdaich na saighdean
+CommandName_upgrade_advanced_iron=àrdaich gu iarainn adhartach
+CommandName_produce_crossbow=dèan crois-bhogha
+UnitTypeName_bone_tent=teanta cnàmha
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=dèan claidheamhair
+CommandName_produce_archer=dèan boghadair
+CommandName_produce_battleaxe=dèan tuagh catha
+CommandName_produce_axe_thrower=dèan tilgeir tuaighe
+UnitTypeName_castle=caisteal
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_thrull=dèan tràill
+UnitTypeName_cow=bò
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+UnitTypeName_crossbow=crois-bhogha
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack_arrow=ionnsaigh saighde
+CommandName_hold_position=seas
+UnitTypeName_cudgel_lady=bean chuaille
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_cudgel=cuaille
+UnitTypeName_farm=tuathanas
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cow=dèan bò
+UnitTypeName_flyingvalkyrie=bailgiridh sgiathach
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_house=taigh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=dèan bean chuaille
+CommandName_produce_spearman=dèan sleaghadair
+UnitTypeName_med_bar=bàr mil-dhighe
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=dèan bean chuaille
+CommandName_produce_spearman=dèan sleaghadair
+CommandName_research_med=rannsaich mil-dheoch
+UnitTypeName_mistletree=craobh uile-ìce
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_air_on=adhair air
+CommandName_attack_off=ionnsaighean dheth
+CommandName_research_root=rannsaich freumh
+CommandName_resurrect_wild_sow=ath-bheothaich cràin-fhiadhaich
+UnitTypeName_spearman=sleaghadair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+CommandName_promote_to_spearman=àrdaich gu sleaghadair
+UnitTypeName_spearman_berzerk=sleaghadair boile
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_swordman=claidheamhair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+CommandName_promote_to_swordman=àrdaich gu claidheamhair
+UnitTypeName_swordman_berzerk=claidheamhair boile
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_thor=Tor
+; --------------------
+; Levels for this Unit
+LevelName_advanced=adhartach
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_throw=tilg
+CommandName_hold_position=seas
+UnitTypeName_thortotem=tòtaim Toir
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_build_thor=tog Tor
+UnitTypeName_thrull=tràill
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_build_basic=togail bhunasach
+CommandName_mine=tochail
+CommandName_harvest_wood=buain fiodh
+CommandName_repair=càraich
+UnitTypeName_valhalla=bhal-thalla
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_flyingvalkyrie=dèan bailgiridh sgiathach
+CommandName_produce_valkyrie=dèan bailgiridh
+CommandName_research_holy_valkyrie=rannsaich bailgiridh naomh
+UnitTypeName_valkyrie=bailgiridh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_airattack=ionnsaigh adhair
+CommandName_hold_position=seas
+UnitTypeName_wild_sow=cràin-fhiadhaich
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+FactionName_persian=Pearsaich
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=slat is arbhar
+UpgradeTypeName_magic_level_1=draoidheachd adhartach
+UpgradeTypeName_magic_level_2=sàr-dhraoidheachd
+UpgradeTypeName_nails=tarragan
+UpgradeTypeName_shield=sgiath
+UpgradeTypeName_weapons=airm
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_blacksmith=gobha
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_weapons=àrdaich na h-airm
+CommandName_upgrade_nails=àrdaich gu tarragan
+CommandName_upgrade_shield=àrdaich na sgiathan
+UnitTypeName_elephant=ailbhean
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_attack_arrow=ionnsaigh saighde
+CommandName_hold_position=seas
+UnitTypeName_elephant_cage=cèidse ailbhein
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_elephant=dèan ailbhean
+UnitTypeName_fakir=feaghar
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_farm=tuathanas
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_sheep=dèan caora
+CommandName_research_corn_and_wicker=rannsaich slat is arbhar
+UnitTypeName_flying_carpet=brat-ùrlair sgiathach
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_magic_attack=ionnsaigh draoidheach
+CommandName_hold_position=seas
+UnitTypeName_genie=dìnidh
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_house=taigh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_fakir=dèan feaghar
+CommandName_produce_stickfighter=dèan cathach bata
+UnitTypeName_magician=fiosaiche
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_repair=càraich
+CommandName_build_snake_basket=tog basgaid nathrach
+CommandName_heal=slànaich
+CommandName_hold_position=seas
+UnitTypeName_minaret=manarat
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_palace=lùchairt
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=dèan obraiche
+UnitTypeName_princess=bana-phrionnsa
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_sheep=caora
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+UnitTypeName_snake_basket=basgaid nathrach
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_stickfighter=cathach bata
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_swordman=claidheamhair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_temple=teampaill
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_princess=dèan bana-phrionnsa
+CommandName_produce_swordman=dèan claidheamhair
+UnitTypeName_tent=teanta
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_genie=dèan dìnidh
+CommandName_produce_flying_carpet=dèan brat-ùrlair sgiathach
+CommandName_produce_magician=dèan fiosaiche
+CommandName_upgrade_magic_level_1=àrdaich gu draoidheachd adhartach
+CommandName_upgrade_magic_level_2=àrdaich gu sàr-dhaoidheachd
+UnitTypeName_worker=obraiche
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_attack=thoir ionnsaigh
+CommandName_move=gluais
+CommandName_build_basic=togail bhunasach
+CommandName_mine=tochail
+CommandName_harvest_wood=buain fiodh
+CommandName_repair=càraich
+FactionName_romans=Ròmanaich
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=ailtireachd adhartach
+UpgradeTypeName_bless_of_minerva=beannachd Minearbha
+UpgradeTypeName_enlarge_shields=meudaich sgiathan
+UpgradeTypeName_formations=foirmean
+UpgradeTypeName_jupiter=Iupatar
+UpgradeTypeName_reinforce_armor=neartaich armachd
+UpgradeTypeName_sharpen_points=geuraich bioran
+UpgradeTypeName_sign_of_mars=samhla Mhàirs
+UpgradeTypeName_strengthen_swords=neartaich claidheamhan
+UpgradeTypeName_training_field=raon trèanaidh
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=boghadair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+CommandName_get_fire_arrows=faigh saighdean teine
+UnitTypeName_axe_man=cathach tuaighe
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_ballista=bogha-tilgeil
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_battering_ram=reithe-mulcaidh
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack_land=ionnsaigh tìre
+CommandName_attack_air=ionnsaigh adhair
+CommandName_hold_position=seas
+UnitTypeName_blacksmith_shop=bùth gobhainn
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_strengthen_swords=neartaich claidheamhan
+CommandName_sharpen_points=geuraich bioran
+CommandName_reinforce_armor=neartaich armachd
+CommandName_enlarge_shields=meudaich sgiathan
+UnitTypeName_catapult=crann-tabhail
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_fire_ball=bàla teine
+CommandName_hold_position=seas
+UnitTypeName_cavalry=eachraidh
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+CommandName_promote_to_tribune=àrdaich gu treubhan
+UnitTypeName_cow=bò
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+UnitTypeName_eagle_pillar=carragh iolaire
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_fire_archer=boghadair teine
+; --------------------
+; Levels for this Unit
+LevelName_accurate=pongail
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_forum=fòram
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=dèan sglàbh
+CommandName_produce_cow=dèan bò
+UnitTypeName_general=ceann-armailt
+; --------------------
+; Levels for this Unit
+LevelName_esteemed=measail
+LevelName_grand=mòr
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_gladiator=gladair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack_land=ionnsaigh tìre
+CommandName_attack_air=ionnsaigh adhair
+CommandName_hold_position=seas
+UnitTypeName_gladiator_school=sgoil nan gladairean
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_train_gladiator=trèanaich gladair
+CommandName_produce_axe_man=dèan cathach tuaighe
+UnitTypeName_guard=geàrd
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_guard_tower=turaid-faire
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_military_camp=campa feachd
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cavalry=dèan eachraidh
+CommandName_produce_turtle_formation=dèan foirm turtair
+CommandName_produce_general=dèan ceann-armailt
+CommandName_produce_mechanic=dèan ceàrd
+CommandName_upgrade_advanced_architecture=àrdaich gu ailtireachd adhartach
+CommandName_upgrade_formations=àrdaich na foirmean
+UnitTypeName_slave=sglàbh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_build_=tog
+CommandName_mine=tochail
+CommandName_harvest_wood=buain fiodh
+CommandName_repair=càraich
+UnitTypeName_spearman=sleaghadair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_swordsman=claidheamhair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_temple=teampaill
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_sign_of_mars=rannsaich samhla Mhàirs
+CommandName_research_jupiter=rannsaich Iupatar
+CommandName_upgrade_bless_of_minerva=àrdaich beannachd Minearbha
+UnitTypeName_training_camp=campa trèanaidh
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearman=dèan sleaghadair
+CommandName_produce_archer=dèan boghadair
+CommandName_produce_guard=dèan geàrd
+CommandName_produce_swordsman=dèan claidheamhair
+CommandName_create_training_field=tog raon trèanaidh
+UnitTypeName_tribune=treubhan
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_turtle_formation=foirm turtair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_wartime_mechanic=ceàrd blàir
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+CommandName_repair=càraich
+CommandName_heal=slànaich
+CommandName_build_catapult=tog crann-tabhail
+CommandName_build_battering_ram=tog reithe-mulcaidh
+CommandName_build_ballista=tog bogha-tilgeil
+FactionName_tech=Teicneolaich
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=ailtireachd adhartach
+UpgradeTypeName_blade_weapons=airm lanna
+UpgradeTypeName_piercing_weapons=airm bhiorach
+UpgradeTypeName_robotics=robotaireachd
+UpgradeTypeName_shield_level_1=sgiath adhartach
+UpgradeTypeName_shield_level_2=sàr-sgiath
+UpgradeTypeName_stables=stàballan
+UpgradeTypeName_training_field=raon trèanaidh
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_aerodrome=raon adhair
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_ornithopter=eun-sgiathaiche
+CommandName_produce_airship=dèan long adhair
+UnitTypeName_air_ballista=bogha-tilgeil adhair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_airship=long adhair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_missile=astas
+CommandName_hold_position=seas
+UnitTypeName_archer=boghadair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_barracks=taigh-feachd
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=dèan claidheamhair
+CommandName_produce_archer=dèan boghadair
+CommandName_produce_guard=dèan geàrd
+CommandName_produce_horseman=dèan marcaiche
+CommandName_create_training_field=tog raon trèanaidh
+UnitTypeName_battle_machine=inneal-catha
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_attack_arrow=ionnsaigh saighde
+CommandName_hold_position=seas
+UnitTypeName_blacksmith=gobha
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_blade_weapons=àrdaich na h-airm lanna
+CommandName_upgrade_piercing_weapons=àrdaich na h-airm bhiorach
+CommandName_upgrade_shield=àrdaich na sgiathan
+CommandName_upgrade_shield=àrdaich na sgiathan
+UnitTypeName_castle=caisteal
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=dèan obraiche
+UnitTypeName_catapult=crann-tabhail
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_fire_ball=bàla teine
+CommandName_hold_position=seas
+UnitTypeName_cow=bò
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+UnitTypeName_defense_tower=tùr dìonadach
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ionnsaighean dheth
+CommandName_attack_on=ionnsaighean air
+UnitTypeName_farm=tuathanas
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_pig=dèan muc
+CommandName_produce_cow=dèan bò
+CommandName_research_stables=rannsaich stàballan
+UnitTypeName_guard=geàrd
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_horseman=marcaiche
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+UnitTypeName_ornithopter=eun-sgiathaiche
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_molotov=molotobh
+CommandName_fire_arrow=tilg saighead
+CommandName_hold_position=seas
+UnitTypeName_pig=muc
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+UnitTypeName_swordman=claidheamhair
+; --------------------
+; Levels for this Unit
+LevelName_elite=uasail
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_attack=thoir ionnsaigh
+CommandName_hold_position=seas
+CommandName_promote_to_guard=àrdaich gu geàrd
+UnitTypeName_technician=teicneolaiche
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_build_ultimate=sàr-thogail
+CommandName_repair=càraich
+CommandName_heal=slànaich
+CommandName_mine_gold=tochail òr
+CommandName_molotov=molotobh
+CommandName_build_catapult=tog crann-tabhail
+CommandName_build_battle_machine=tog inneal-catha
+CommandName_build_air_ballista=tog bogha-tilgeil adhair
+UnitTypeName_technodrome=aonadh nan teicneolaichean
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_technician=dèan teicneolaiche
+CommandName_research_advanced_architecture=rannsaich ailtireachd adhartach
+CommandName_research_robotics=rannsaich robotaireachd
+UnitTypeName_worker=obraiche
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stad
+CommandName_move=gluais
+CommandName_build_basic=togail bhunasach
+CommandName_build_advanced=togail adhartach
+CommandName_mine=tochail
+CommandName_harvest_wood=buain fiodh
+CommandName_repair=càraich
