@@ -87,6 +87,7 @@ Maps:
  end_times         	original by omega modified by Trappin
  fight_4_your_golden_right by atze
  five_on_three     	by Tiger
+ forest_divide		by felipeludo2011 / mod Trappin
  four_free		by atze
  fracture          	by wciow
  grandezza		by atze
