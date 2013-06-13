@@ -68,7 +68,6 @@ Maps:
  2rivers           	by Titus Tscharntke(titi)
  4hills8kings      	by Titus Tscharntke(titi)
  4kingdoms8kings   	by Eliminator ( little changes by titi )
- 5vs3			by tiger
  6isle         		by Titus Tscharntke(titi)
  6player		by atze
  ally_resists      	by Trappin tweaked by ultifd
