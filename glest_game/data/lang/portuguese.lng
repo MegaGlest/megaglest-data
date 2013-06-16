@@ -229,6 +229,7 @@ SavegameInfo=Informações sobre o jogo selecionado
 Delete=Excluir
 NothingSelected=Nada foi selecionado.
 LeftAt=O jogador saiu às:
+# Limits=Limits:
 LoadGameDeletingFile=Tentando apagar o arquivo: '%s'
 LoadGameLoadingFile=Tentando carregar arquivo: '%s'
 SavedGameBadVersion=versão do jogo salvo é compativel com sua versão: [%s] --> [%s]

@@ -21,7 +21,7 @@ AISwitchTeamAcceptPercent=AI процент
 AlreadyUpgraded=Уже модернизировано
 All=Всем
 allowMultiBoost=Разрешить множественное усиление
-# AllowNativeLanguageTechtree=Allow Translated Techtrees
+AllowNativeLanguageTechtree=Разрешить перевод в цивилизациях
 AllowObservers=Разрешить наблюдателей
 AllowPlayerJoinTeam=Разрешить игроку [% s] присоединиться к вашей команде\n(из команды# %d в команду# %d)?
 AllowInGameJoinPlayer=Игроки могут объединяться в игре
@@ -229,6 +229,7 @@ SettingsSaved=Настройки сохранены
 Delete=Удалить
 NothingSelected=Ничего не выбрано.
 LeftAt=Игрок вышел в
+Limits=Ограничения:
 LoadGameDeletingFile=Удаляю: '%s'
 LoadGameLoadingFile=Загружаю: '%s'
 SavedGameBadVersion=Версия программы не соответствует сохранению: [%s] --> [%s]
@@ -573,5 +574,5 @@ FontConsolePostfix=-*-*-*-*-*-*-r
 FontConsolePrefix=-*-*-*-*-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-# ALLOWED_SPECIAL_KEYS=none
+ALLOWED_SPECIAL_KEYS=нет
 

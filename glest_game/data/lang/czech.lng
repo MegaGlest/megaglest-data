@@ -229,6 +229,7 @@ SavegameInfo=Inforbace o vybrané hře
 Delete=Smazat
 NothingSelected=Nic nebylo vybráno.
 # LeftAt=Player left at:
+# Limits=Limits:
 LoadGameDeletingFile=Snažím se smazat soubor: '%s'
 LoadGameLoadingFile=Snažím se nahrát soubor: '%s'
 SavedGameBadVersion=Uložená verze hry se neshoduje s vaší verzí aplikace: [%s] --> [%s]

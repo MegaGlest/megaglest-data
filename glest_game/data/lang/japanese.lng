@@ -229,6 +229,7 @@ SettingsSaved=設定が保存されました
 Delete=削除
 NothingSelected=何も選択されていません。
 LeftAt=プレイヤー辞退:
+# Limits=Limits:
 LoadGameDeletingFile=ファイルを削除: '%s'
 LoadGameLoadingFile=ファイルをロード中: '%s'
 SavedGameBadVersion=セーブされたゲームのバージョンの不一致: [%s] --> [%s]

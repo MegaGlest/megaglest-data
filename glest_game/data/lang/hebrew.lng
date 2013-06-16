@@ -229,6 +229,7 @@ SavegameInfo=מידע על המשחק הנבחר
 Delete=מחק
 NothingSelected=לא נבחר דבר
 LeftAt=שחקן עזב ב:
+# Limits=Limits:
 LoadGameDeletingFile=מנסה למחוק קובץ: '%s'
 LoadGameLoadingFile=מנסה לטעון קובץ: '%s'
 SavedGameBadVersion=המשחק השמור אינו תואם לגירסת המשחק שלך: [%s] --> [%s]

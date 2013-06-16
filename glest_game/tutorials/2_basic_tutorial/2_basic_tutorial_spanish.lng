@@ -1,6 +1,6 @@
-# TUTORIAL_NAME=#2 Basic Tutorial
+TUTORIAL_NAME=Tutorial básico #2
 ;message headers
-GlestBasicTutorial=Tutorial Básico del MegaGlest
+GlestBasicTutorial=Tutorial Básico de MegaGlest
 WellDone=Bien Hecho
 Resources=Recursos
 Combat=Combate

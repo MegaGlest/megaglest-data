@@ -229,6 +229,7 @@ SettingsSaved=Οι Ρυθμίσεις αποθηκεύτηκαν
 Delete=Διαγραφή
 NothingSelected=Δεν έχει επιλεχθεί τίποτα
 LeftAt=Ο παίκτης έφυγε στις:
+# Limits=Limits:
 LoadGameDeletingFile=Προσπάθεια για διαγραφή του αρχείου: '%s'
 LoadGameLoadingFile=Προσπάθεια για φόρτωση του αρχείου: '%s'
 SavedGameBadVersion=Η έκδοση του αποθηκευμένου παιχνιδιού δεν ταιριάζει με την έκδοση της εφαρμογής: [%s] --> [%s]

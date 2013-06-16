@@ -229,6 +229,7 @@ SettingsSaved=Chaidh na roghainnean a shàbhaladh
 Delete=Sguab às
 NothingSelected=Cha deach càil a thaghadh.
 LeftAt=Dh'fhàg an cluicheadair aig:
+Limits=Crìochan:
 LoadGameDeletingFile=A' feuchainn ri faidhle a sguabadh às: "%s"
 LoadGameLoadingFile=A' feuchainn ri faidhle a luchdadh: "%s"
 SavedGameBadVersion=chan eil tionndadh a' gheama ri luchdadh co-ionnan ri tionndadh an aplacaid: [%s] --> [%s]

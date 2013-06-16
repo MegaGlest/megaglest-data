@@ -229,6 +229,7 @@ SettingsSaved=设置已保存
 Delete=删除
 NothingSelected=未选取单位
 # LeftAt=Player left at:
+# Limits=Limits:
 LoadGameDeletingFile=删除文件中: '%s'
 LoadGameLoadingFile=加载文件中: '%s'
 # SavedGameBadVersion=Saved game version does not match your application version: [%s] --> [%s]

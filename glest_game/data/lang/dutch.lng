@@ -229,6 +229,7 @@ SettingsSaved=Instellingen Opgeslagen
 Delete=Verwijderen
 NothingSelected=Er is niets geselecteerd.
 LeftAt=Speler heeft spel verlaten om:
+Limits=Limieten:
 LoadGameDeletingFile=Probeert bestand %s te verwijderen
 LoadGameLoadingFile=Probeert bestand %s te laden
 SavedGameBadVersion=Opgeslagen spel versie komt niet overeen met de applicatie versie: [%s] --> [%s]

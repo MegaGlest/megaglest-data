@@ -229,6 +229,7 @@ SettingsSaved=Impostazioni Salvate
 Delete=Cancella
 NothingSelected=Nulla di selezionato
 LeftAt=Il giocatore se n'è andato a:
+# Limits=Limits:
 LoadGameDeletingFile=Rimozione del file: '%s' in corso
 LoadGameLoadingFile=Caricamento del file: '%s' in corso
 SavedGameBadVersion=Le versioni del salvataggio e del programma non corrispondono: [%s] --> [%s]

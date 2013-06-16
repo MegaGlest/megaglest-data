@@ -1,119 +1,121 @@
-# TechTreeName=megapack
+TechTreeName=megapack
 ; --------------
 ; Types of Armor
-# ArmorTypeName_organic=organic
-# ArmorTypeName_leather=leather
-# ArmorTypeName_wood=wood
-# ArmorTypeName_metal=metal
-# ArmorTypeName_stone=stone
+ArmorTypeName_organic=органика
+ArmorTypeName_leather=кожа
+ArmorTypeName_wood=дерево
+ArmorTypeName_metal=металл
+ArmorTypeName_stone=камень
 ; --------------
 ; Types of Attack
-# AttackTypeName_slashing=slashing
-# AttackTypeName_piercing=piercing
-# AttackTypeName_impact=impact
-# AttackTypeName_energy=energy
-# AttackTypeName_sword=sword
-# AttackTypeName_arrow=arrow
-# AttackTypeName_magic=magic
-# AttackTypeName_beat=beat
+AttackTypeName_slashing=рубящий
+AttackTypeName_piercing=острый
+AttackTypeName_impact=воздействие
+AttackTypeName_energy=энергия
+AttackTypeName_sword=меч
+AttackTypeName_arrow=стрела
+AttackTypeName_magic=магия
+AttackTypeName_beat=удар
 ; ------------------
 ; Types of Resources
-# ResourceTypeName_energy=energy
-# ResourceTypeName_food=food
-# ResourceTypeName_gold=gold
-# ResourceTypeName_housing=housing
-# ResourceTypeName_stone=stone
-# ResourceTypeName_wood=wood
+ResourceTypeName_energy=энергия
+ResourceTypeName_food=пища
+ResourceTypeName_gold=золото
+ResourceTypeName_housing=жильё
+ResourceTypeName_stone=камень
+ResourceTypeName_wood=дерево
 ; -----------------
 ; Types of Factions
-# FactionName_egypt=egypt
+# FactionName_*Observer*=*Observer*
+# FactionName_*Random*=*Random*
+FactionName_egypt=Египет
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_power_of_ra=power_of_ra
-# UpgradeTypeName_spear_weapons=spear_weapons
-# UpgradeTypeName_speedup_priest_production=speedup_priest_production
-# UpgradeTypeName_summon_ibis=summon_ibis
-# UpgradeTypeName_summon_scarab=summon_scarab
+UpgradeTypeName_power_of_ra=сила_солнца_РА
+UpgradeTypeName_spear_weapons=копьё_оружие
+UpgradeTypeName_speedup_priest_production=ускорение_обучения_жреца
+UpgradeTypeName_summon_ibis=вызвать_ибиса
+UpgradeTypeName_summon_scarab=вызвать_скарабея
 ; -------------------------------
 ; Types of Units for this Faction
-# UnitTypeName_air_pyramid=air_pyramid
+UnitTypeName_air_pyramid=воздушная_пирамида
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
-# UnitTypeName_anubis_warrior=anubis_warrior
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
+UnitTypeName_anubis_warrior=анубис_воин
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=древний
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# UnitTypeName_chicken=chicken
-; --------------------
-; Levels for this Unit
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# UnitTypeName_desert_camp=desert_camp
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+UnitTypeName_chicken=курица
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_spearthrower=produce_spearthrower
-# CommandName_produce_spearman=produce_spearman
-# CommandName_upgrade_spear_weapons=upgrade_spear_weapons
-# UnitTypeName_farm=farm
+CommandName_stop=стоп
+CommandName_move=перемещение
+UnitTypeName_desert_camp=бивак
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_chicken=produce_chicken
-# UnitTypeName_ibis=ibis
-; --------------------
-; Levels for this Unit
-# LevelName_elite=elite
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
-# UnitTypeName_mummy=mummy
+CommandName_produce_spearthrower=обучить_метателя_копья
+CommandName_produce_spearman=обучить_копейщика
+CommandName_upgrade_spear_weapons=улучшить_копья
+UnitTypeName_farm=ферма
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# UnitTypeName_obelisk=obelisk
+CommandName_produce_chicken=развести_кур
+UnitTypeName_ibis=ибис
+; --------------------
+; Levels for this Unit
+LevelName_elite=элита
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
+UnitTypeName_mummy=мумия
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_scarab=produce_scarab
-# CommandName_produce_snake=produce_snake
-# CommandName_produce_ibis=produce_ibis
-# UnitTypeName_priest=priest
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+UnitTypeName_obelisk=обелиск
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_speedup_priest_production=speedup_priest_production
+CommandName_produce_scarab=получить_скарабея
+CommandName_produce_snake=получить_змею
+CommandName_produce_ibis=получить_ибиса
+UnitTypeName_priest=жрец
+; --------------------
+; Levels for this Unit
+LevelName_elite=элита
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_speedup_priest_production=ускорение_обучения_жреца
 # CommandName_heal=heal
 # CommandName_produce_mummy=produce_mummy
 # CommandName_produce_anubis_warrior=produce_anubis_warrior
 # CommandName_ice_nova=ice_nova
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_pyramid=pyramid
 ; --------------------
 ; Levels for this Unit
@@ -128,17 +130,17 @@
 # LevelName_legendary=legendary
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_dung_attack=dung_attack
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_slave=slave
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_build_basic=build_basic
 # CommandName_repair=repair
 # CommandName_mine=mine
@@ -150,36 +152,36 @@
 # LevelName_master=master
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_poison_shot=poison_shot
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_spearman=spearman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # UnitTypeName_spearthrower=spearthrower
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_sphinx=sphinx
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_temple=temple
 ; --------------------
 ; Levels for this Unit
@@ -203,36 +205,36 @@
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_axe_indian=axe_indian
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # UnitTypeName_axe_thrower=axe_thrower
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # UnitTypeName_beehive=beehive
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_bigtent=bigtent
 ; --------------------
 ; Levels for this Unit
@@ -245,9 +247,9 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # UnitTypeName_campfire=campfire
 ; --------------------
 ; Levels for this Unit
@@ -259,23 +261,23 @@
 # UnitTypeName_fire_archer=fire_archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_firegolem=firegolem
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=древний
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_horsefarm=horsefarm
 ; --------------------
 ; Levels for this Unit
@@ -283,121 +285,121 @@
 ; Types of Commands for this Unit
 # CommandName_produce_horseman=produce_horseman
 # CommandName_produce_bull=produce_bull
-# CommandName_research_stables=research_stables
-# UnitTypeName_horseman=horseman
+CommandName_research_stables=спроектировать_конюшни
+UnitTypeName_horseman=всадник
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
-# UnitTypeName_mainteepee=mainteepee
-; --------------------
-; Levels for this Unit
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_produce_worker=produce_worker
-# UnitTypeName_reed=reed
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
+UnitTypeName_mainteepee=основной_тип
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_research_bullfood=research_bullfood
-# UnitTypeName_roundtent=roundtent
+CommandName_produce_worker=обучить_работника
+UnitTypeName_reed=тростник
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_axe_indian=produce_axe_indian
-# CommandName_produce_axe_thrower=produce_axe_thrower
-# CommandName_produce_fire_archer=produce_fire_archer
-# CommandName_produce_spearman=produce_spearman
-# CommandName_create_training_field=create_training_field
-# UnitTypeName_shaman=shaman
+CommandName_research_bullfood=заготовить_корма
+UnitTypeName_roundtent=круглая_палатка
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_produce_axe_indian=обучить_индейца_с_топором
+CommandName_produce_axe_thrower=обучить_метателя_топоров
+CommandName_produce_fire_archer=обучить_стрелка_огнём
+CommandName_produce_spearman=обучить_копейщика
+CommandName_create_training_field=обустроить_тренировочную_площадку
+UnitTypeName_shaman=шаман
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_repair=repair
 # CommandName_heal=heal
-# CommandName_molotov=molotov
-# CommandName_produce_thunderbird=produce_thunderbird
-# CommandName_build_beehive=build_beehive
+CommandName_molotov=молотов
+CommandName_produce_thunderbird=получить_громовую_птицу
+CommandName_build_beehive=сколотить_улей
 # UnitTypeName_spearman=spearman
 ; --------------------
 ; Levels for this Unit
-# LevelName_guardian=guardian
-# LevelName_chief=chief
+LevelName_guardian=страж
+LevelName_chief=главный
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# UnitTypeName_stickfighter=stickfighter
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+UnitTypeName_stickfighter=боец_на_палках
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
-# UnitTypeName_tent=tent
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
+UnitTypeName_tent=палатка
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_produce_stickfighter=produce_stickfighter
-# UnitTypeName_thunderbird=thunderbird
+UnitTypeName_thunderbird=громовая_птица
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=древний
 # LevelName_expert=expert
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_throw=throw
-# CommandName_breath=breath
-# CommandName_hold_position=hold_position
-# UnitTypeName_totem=totem
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_throw=бросок
+CommandName_breath=жизнь
+CommandName_hold_position=занять_позицию
+UnitTypeName_totem=тотем
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_air_on=air_on
-# CommandName_research_petroleum=research_petroleum
-# CommandName_produce_shaman=produce_shaman
-# UnitTypeName_worker=worker
+CommandName_attack_off=остановить_атаку
+CommandName_air_on=на_воздух
+CommandName_research_petroleum=исследовать_нефть
+CommandName_produce_shaman=обучить_шамана
+UnitTypeName_worker=работник
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_build_basic=build_basic
 # CommandName_mine=mine
 # CommandName_harvest_wood=harvest_wood
 # CommandName_repair=repair
-# FactionName_magic=magic
+FactionName_magic=магия
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_ancient_summoning=ancient_summoning
-# UpgradeTypeName_dragon_call=dragon_call
-# UpgradeTypeName_energy_compression=energy_compression
-# UpgradeTypeName_energy_sharpening=energy_sharpening
-# UpgradeTypeName_golem_power=golem_power
-# UpgradeTypeName_hell_gate=hell_gate
+UpgradeTypeName_ancient_summoning=древний_призыв
+UpgradeTypeName_dragon_call=вызвать_дракона
+UpgradeTypeName_energy_compression=накопление_энергии
+UpgradeTypeName_energy_sharpening=концентрация_энергии
+UpgradeTypeName_golem_power=мощь_голема
+UpgradeTypeName_hell_gate=врата_ада
 ; -------------------------------
 ; Types of Units for this Faction
-# UnitTypeName_archmage=archmage
+UnitTypeName_archmage=архимаг
 ; --------------------
 ; Levels for this Unit
 # LevelName_expert=expert
@@ -405,114 +407,114 @@
 # LevelName_legendary=legendary
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_ice_nova=ice_nova
-# CommandName_static_fire=static_fire
-# CommandName_hold_position=hold_position
-# UnitTypeName_archmage_tower=archmage_tower
+CommandName_static_fire=неподвижный_огонь
+CommandName_hold_position=занять_позицию
+UnitTypeName_archmage_tower=башня_архимагов
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_research_dragon_call=research_dragon_call
-# CommandName_golem_power=golem_power
-# UnitTypeName_battlemage=battlemage
-; --------------------
-; Levels for this Unit
-# LevelName_expert=expert
-# LevelName_master=master
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_fire_bolt=fire_bolt
-# CommandName_hold_position=hold_position
-# CommandName_promote_to_archmage=promote_to_archmage
-# UnitTypeName_behemoth=behemoth
-; --------------------
-; Levels for this Unit
-# LevelName_ancient=ancient
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# UnitTypeName_daemon=daemon
-; --------------------
-; Levels for this Unit
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# UnitTypeName_dragon=dragon
-; --------------------
-; Levels for this Unit
-# LevelName_ancient=ancient
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_breath=breath
-# CommandName_hold_position=hold_position
-# CommandName_promote_to_evil_dragon=promote_to_evil_dragon
-# UnitTypeName_drake_rider=drake_rider
+CommandName_research_dragon_call=изучить_вызов_дракона
+CommandName_golem_power=мощь_голема
+UnitTypeName_battlemage=боевой_маг
 ; --------------------
 ; Levels for this Unit
 # LevelName_expert=expert
 # LevelName_master=master
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_fire_breath=fire_breath
-# CommandName_flare=flare
-# CommandName_hold_position=hold_position
-# UnitTypeName_energy_source=energy_source
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_fire_bolt=огненная_стрела_арбалета
+CommandName_hold_position=занять_позицию
+CommandName_promote_to_archmage=произвести_в_архимаги
+UnitTypeName_behemoth=бегемот
+; --------------------
+; Levels for this Unit
+LevelName_ancient=древний
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+UnitTypeName_daemon=демон
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# UnitTypeName_evil_dragon=evil_dragon
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+UnitTypeName_dragon=дракон
+; --------------------
+; Levels for this Unit
+LevelName_ancient=древний
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_breath=жизнь
+CommandName_hold_position=занять_позицию
+CommandName_promote_to_evil_dragon=преобразить_в_зловещего_дракона
+UnitTypeName_drake_rider=оседлавший_дракона
+; --------------------
+; Levels for this Unit
+# LevelName_expert=expert
+# LevelName_master=master
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_fire_breath=огненное_дыхание
+CommandName_flare=расширение
+CommandName_hold_position=занять_позицию
+UnitTypeName_energy_source=источник_энергии
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+UnitTypeName_evil_dragon=зловещий_дракон
 ; --------------------
 ; Levels for this Unit
 # LevelName_expert=expert
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_breath=breath
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_breath=жизнь
+CommandName_hold_position=занять_позицию
 # UnitTypeName_ghost_armor=ghost_armor
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=древний
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_golem=golem
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=древний
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # CommandName_promote_to_power_golem=promote_to_power_golem
 # UnitTypeName_initiate=initiate
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # CommandName_repair=repair
 # CommandName_build=build
 # CommandName_ritual=ritual
@@ -536,22 +538,22 @@
 # UnitTypeName_power_golem=power_golem
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=древний
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_summoner=summoner
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_flare=flare
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_flare=расширение
+CommandName_hold_position=занять_позицию
 # CommandName_summon_daemon=summon_daemon
 # CommandName_summon_ghost_armor=summon_ghost_armor
 # CommandName_summon_dragon=summon_dragon
@@ -568,8 +570,8 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_wicker_behemoth=wicker_behemoth
 ; --------------------
 ; Levels for this Unit
@@ -580,7 +582,7 @@
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 # UpgradeTypeName_advanced_iron=advanced_iron
-# UpgradeTypeName_arrow=arrow
+UpgradeTypeName_arrow=стрела
 # UpgradeTypeName_holy_valkyrie=holy_valkyrie
 # UpgradeTypeName_iron=iron
 # UpgradeTypeName_med=med
@@ -590,38 +592,38 @@
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_axe_thrower=axe_thrower
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # UnitTypeName_battleaxe=battleaxe
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # CommandName_promote_to_battleaxe=promote_to_battleaxe
 # UnitTypeName_battleaxe_berzerk=battleaxe_berzerk
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # UnitTypeName_blacksmith=blacksmith
 ; --------------------
 ; Levels for this Unit
@@ -639,7 +641,7 @@
 # CommandName_produce_swordman=produce_swordman
 # CommandName_produce_archer=produce_archer
 # CommandName_produce_battleaxe=produce_battleaxe
-# CommandName_produce_axe_thrower=produce_axe_thrower
+CommandName_produce_axe_thrower=обучить_метателя_топоров
 # UnitTypeName_castle=castle
 ; --------------------
 ; Levels for this Unit
@@ -651,118 +653,118 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # UnitTypeName_crossbow=crossbow
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_attack_arrow=attack_arrow
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_cudgel_lady=cudgel_lady
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_cudgel=cudgel
-# UnitTypeName_farm=farm
+UnitTypeName_farm=ферма
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_produce_cow=produce_cow
-# UnitTypeName_flyingvalkyrie=flyingvalkyrie
+UnitTypeName_flyingvalkyrie=летающие_валькирии
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
-# UnitTypeName_house=house
-; --------------------
-; Levels for this Unit
-; -------------------------------
-; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
-# CommandName_produce_spearman=produce_spearman
-# UnitTypeName_med_bar=med_bar
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
+UnitTypeName_house=жилище
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
-# CommandName_produce_spearman=produce_spearman
+CommandName_produce_cudgel_lady=обучить_леди_с_дубиной
+CommandName_produce_spearman=обучить_копейщика
+UnitTypeName_med_bar=med_bar
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=обучить_леди_с_дубиной
+CommandName_produce_spearman=обучить_копейщика
 # CommandName_research_med=research_med
 # UnitTypeName_mistletree=mistletree
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_air_on=air_on
-# CommandName_attack_off=attack_off
+CommandName_air_on=на_воздух
+CommandName_attack_off=остановить_атаку
 # CommandName_research_root=research_root
 # CommandName_resurrect_wild_sow=resurrect_wild_sow
 # UnitTypeName_spearman=spearman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # CommandName_promote_to_spearman=promote_to_spearman
 # UnitTypeName_spearman_berzerk=spearman_berzerk
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_swordman=swordman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # CommandName_promote_to_swordman=promote_to_swordman
 # UnitTypeName_swordman_berzerk=swordman_berzerk
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_thor=thor
 ; --------------------
 ; Levels for this Unit
 # LevelName_advanced=advanced
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_throw=throw
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_throw=бросок
+CommandName_hold_position=занять_позицию
 # UnitTypeName_thortotem=thortotem
 ; --------------------
 ; Levels for this Unit
@@ -774,8 +776,8 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_build_basic=build_basic
 # CommandName_mine=mine
 # CommandName_harvest_wood=harvest_wood
@@ -793,19 +795,19 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # CommandName_airattack=airattack
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_wild_sow=wild_sow
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # FactionName_persian=persian
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -828,14 +830,14 @@
 # UnitTypeName_elephant=elephant
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # CommandName_attack_arrow=attack_arrow
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_elephant_cage=elephant_cage
 ; --------------------
 ; Levels for this Unit
@@ -845,14 +847,14 @@
 # UnitTypeName_fakir=fakir
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
-# UnitTypeName_farm=farm
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
+UnitTypeName_farm=ферма
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -862,24 +864,24 @@
 # UnitTypeName_flying_carpet=flying_carpet
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_magic_attack=magic_attack
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_genie=genie
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
-# UnitTypeName_house=house
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
+UnitTypeName_house=жилище
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -889,74 +891,74 @@
 # UnitTypeName_magician=magician
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # CommandName_repair=repair
 # CommandName_build_snake_basket=build_snake_basket
 # CommandName_heal=heal
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_minaret=minaret
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_palace=palace
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_worker=produce_worker
+CommandName_produce_worker=обучить_работника
 # UnitTypeName_princess=princess
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_sheep=sheep
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # UnitTypeName_snake_basket=snake_basket
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
-# UnitTypeName_stickfighter=stickfighter
+CommandName_stop=стоп
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
+UnitTypeName_stickfighter=боец_на_палках
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_swordman=swordman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_temple=temple
 ; --------------------
 ; Levels for this Unit
@@ -964,7 +966,7 @@
 ; Types of Commands for this Unit
 # CommandName_produce_princess=produce_princess
 # CommandName_produce_swordman=produce_swordman
-# UnitTypeName_tent=tent
+UnitTypeName_tent=палатка
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -974,14 +976,14 @@
 # CommandName_produce_magician=produce_magician
 # CommandName_upgrade_magic_level_1=upgrade_magic_level_1
 # CommandName_upgrade_magic_level_2=upgrade_magic_level_2
-# UnitTypeName_worker=worker
+UnitTypeName_worker=работник
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_attack=attack
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_attack=атака
+CommandName_move=перемещение
 # CommandName_build_basic=build_basic
 # CommandName_mine=mine
 # CommandName_harvest_wood=harvest_wood
@@ -1004,43 +1006,43 @@
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # CommandName_get_fire_arrows=get_fire_arrows
 # UnitTypeName_axe_man=axe_man
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_ballista=ballista
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_battering_ram=battering_ram
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_attack_land=attack_land
 # CommandName_attack_air=attack_air
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_blacksmith_shop=blacksmith_shop
 ; --------------------
 ; Levels for this Unit
@@ -1055,46 +1057,46 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_fire_ball=fire_ball
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_cavalry=cavalry
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # CommandName_promote_to_tribune=promote_to_tribune
 # UnitTypeName_cow=cow
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # UnitTypeName_eagle_pillar=eagle_pillar
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_fire_archer=fire_archer
 ; --------------------
 ; Levels for this Unit
 # LevelName_accurate=accurate
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_forum=forum
 ; --------------------
 ; Levels for this Unit
@@ -1109,21 +1111,21 @@
 # LevelName_grand=grand
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_gladiator=gladiator
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_attack_land=attack_land
 # CommandName_attack_air=attack_air
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_gladiator_school=gladiator_school
 ; --------------------
 ; Levels for this Unit
@@ -1134,20 +1136,20 @@
 # UnitTypeName_guard=guard
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_guard_tower=guard_tower
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_military_camp=military_camp
 ; --------------------
 ; Levels for this Unit
@@ -1164,8 +1166,8 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_build_=build_
 # CommandName_mine=mine
 # CommandName_harvest_wood=harvest_wood
@@ -1173,23 +1175,23 @@
 # UnitTypeName_spearman=spearman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_swordsman=swordsman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_temple=temple
 ; --------------------
 ; Levels for this Unit
@@ -1203,40 +1205,40 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_spearman=produce_spearman
+CommandName_produce_spearman=обучить_копейщика
 # CommandName_produce_archer=produce_archer
 # CommandName_produce_guard=produce_guard
 # CommandName_produce_swordsman=produce_swordsman
-# CommandName_create_training_field=create_training_field
+CommandName_create_training_field=обустроить_тренировочную_площадку
 # UnitTypeName_tribune=tribune
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_turtle_formation=turtle_formation
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_wartime_mechanic=wartime_mechanic
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # CommandName_repair=repair
 # CommandName_heal=heal
 # CommandName_build_catapult=build_catapult
@@ -1265,31 +1267,31 @@
 # UnitTypeName_air_ballista=air_ballista
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
 # UnitTypeName_airship=airship
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_missile=missile
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_barracks=barracks
 ; --------------------
 ; Levels for this Unit
@@ -1299,18 +1301,18 @@
 # CommandName_produce_archer=produce_archer
 # CommandName_produce_guard=produce_guard
 # CommandName_produce_horseman=produce_horseman
-# CommandName_create_training_field=create_training_field
+CommandName_create_training_field=обустроить_тренировочную_площадку
 # UnitTypeName_battle_machine=battle_machine
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
 # CommandName_attack_arrow=attack_arrow
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_blacksmith=blacksmith
 ; --------------------
 ; Levels for this Unit
@@ -1325,99 +1327,99 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_worker=produce_worker
+CommandName_produce_worker=обучить_работника
 # UnitTypeName_catapult=catapult
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_fire_ball=fire_ball
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_cow=cow
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # UnitTypeName_defense_tower=defense_tower
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_attack_off=attack_off
-# CommandName_attack_on=attack_on
-# UnitTypeName_farm=farm
+CommandName_attack_off=остановить_атаку
+CommandName_attack_on=атаковать
+UnitTypeName_farm=ферма
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_produce_pig=produce_pig
 # CommandName_produce_cow=produce_cow
-# CommandName_research_stables=research_stables
+CommandName_research_stables=спроектировать_конюшни
 # UnitTypeName_guard=guard
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
-# UnitTypeName_horseman=horseman
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
+UnitTypeName_horseman=всадник
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # UnitTypeName_ornithopter=ornithopter
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_molotov=molotov
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_molotov=молотов
 # CommandName_fire_arrow=fire_arrow
-# CommandName_hold_position=hold_position
+CommandName_hold_position=занять_позицию
 # UnitTypeName_pig=pig
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # UnitTypeName_swordman=swordman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=элита
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_hold_position=hold_position
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_attack=атака
+CommandName_hold_position=занять_позицию
 # CommandName_promote_to_guard=promote_to_guard
 # UnitTypeName_technician=technician
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_build_ultimate=build_ultimate
 # CommandName_repair=repair
 # CommandName_heal=heal
 # CommandName_mine_gold=mine_gold
-# CommandName_molotov=molotov
+CommandName_molotov=молотов
 # CommandName_build_catapult=build_catapult
 # CommandName_build_battle_machine=build_battle_machine
 # CommandName_build_air_ballista=build_air_ballista
@@ -1429,13 +1431,13 @@
 # CommandName_produce_technician=produce_technician
 # CommandName_research_advanced_architecture=research_advanced_architecture
 # CommandName_research_robotics=research_robotics
-# UnitTypeName_worker=worker
+UnitTypeName_worker=работник
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=стоп
+CommandName_move=перемещение
 # CommandName_build_basic=build_basic
 # CommandName_build_advanced=build_advanced
 # CommandName_mine=mine

@@ -1,4 +1,4 @@
-# SCENARIO_NAME=Capture the flag
+SCENARIO_NAME=Captura la bandera
 ;message headers
 CaptureFlag=Captura la bandera
 Warning=Aviso

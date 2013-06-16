@@ -229,6 +229,7 @@ SettingsSaved=Configuration modifiée
 Delete=Supprimer
 NothingSelected=Rien de sélectionné.
 LeftAt=Le joueur a quitté la partie à :
+# Limits=Limits:
 LoadGameDeletingFile=Tentative de suppression du fichier "%s"
 LoadGameLoadingFile=Tentative de chargement du fichier "%s"
 SavedGameBadVersion=Partie sauvegardée sous une autre version du jeu : [%s] --> [%s]

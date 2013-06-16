@@ -229,6 +229,7 @@ SettingsSaved=Ustawienia zostały zachowane
 Delete=Usuń
 NothingSelected=Nic nie zaznaczono.
 LeftAt=Gracz odszedł o czasie:
+# Limits=Limits:
 LoadGameDeletingFile=Próba usunięcia pliku: '%s'
 LoadGameLoadingFile=Próba wczytania pliku: '%s'
 SavedGameBadVersion=Wersja zapisanej gry nie pasuje do wersji aplikacji: [%s] --> [%s]

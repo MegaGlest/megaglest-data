@@ -8,9 +8,9 @@ ArmorTypeName_metal=metaal
 ArmorTypeName_stone=steen
 ; --------------
 ; Types of Attack
-# AttackTypeName_slashing=slashing
-# AttackTypeName_piercing=piercing
-# AttackTypeName_impact=impact
+AttackTypeName_slashing=verpletterend
+AttackTypeName_piercing=doordringend
+AttackTypeName_impact=impact
 AttackTypeName_energy=energie
 AttackTypeName_sword=zwaard
 AttackTypeName_arrow=pijl
@@ -26,6 +26,8 @@ ResourceTypeName_stone=steen
 ResourceTypeName_wood=hout
 ; -----------------
 ; Types of Factions
+# FactionName_*Observer*=*Observer*
+# FactionName_*Random*=*Random*
 FactionName_egypt=Egypte
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -354,7 +356,7 @@ UnitTypeName_tent=tent
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_produce_stickfighter=produce_stickfighter
-# UnitTypeName_thunderbird=thunderbird
+UnitTypeName_thunderbird=thunderbird
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
@@ -366,7 +368,7 @@ CommandName_move=verplaatsen
 CommandName_throw=werpen
 CommandName_breath=ademen
 # CommandName_hold_position=hold_position
-# UnitTypeName_totem=totem
+UnitTypeName_totem=totem
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -763,13 +765,13 @@ CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_throw=werpen
 # CommandName_hold_position=hold_position
-# UnitTypeName_thortotem=thortotem
+UnitTypeName_thortotem=thor totem
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_build_thor=build_thor
-# UnitTypeName_thrull=thrull
+UnitTypeName_thrull=thrull
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1022,7 +1024,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 # CommandName_hold_position=hold_position
-# UnitTypeName_ballista=ballista
+UnitTypeName_ballista=ballista
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1105,8 +1107,8 @@ UnitTypeName_forum=forum
 UnitTypeName_general=algemeen
 ; --------------------
 ; Levels for this Unit
-# LevelName_esteemed=esteemed
-# LevelName_grand=grand
+LevelName_esteemed=gewaardeerd
+LevelName_grand=groots
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
@@ -1377,7 +1379,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 # CommandName_hold_position=hold_position
-# UnitTypeName_ornithopter=ornithopter
+UnitTypeName_ornithopter=ornitopter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite

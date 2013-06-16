@@ -229,6 +229,7 @@ SettingsSaved=Indstillinger Gemt
 Delete=Slet
 NothingSelected=Intet er valgt
 LeftAt=Spiller forlod ved:
+# Limits=Limits:
 LoadGameDeletingFile=Prøver at slette fil: '%s'
 LoadGameLoadingFile=Prøver at hente fil: '%s'
 SavedGameBadVersion=Den gemte spil version passer ikke til den nuværende spil version: [%s] --> [%s]
