@@ -456,6 +456,7 @@ ShadowMapping=Shadow Mapping
 Shadows=Shadows:
 ShadowTextureSize=Shadow Texture Size:
 ShowMapPreview=Map Preview
+ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Unit Particles:
 ShowTilesetParticles=Tileset Particles:
 Sight=Sight
