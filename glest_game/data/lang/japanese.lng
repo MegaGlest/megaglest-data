@@ -21,7 +21,7 @@ AISwitchTeamAcceptPercent=AI 許容値
 AlreadyUpgraded=すでにアップグレード済み
 All=全て
 allowMultiBoost=重複ブースト
-# AllowNativeLanguageTechtree=Allow Translated Techtrees
+AllowNativeLanguageTechtree=翻訳された技術ツリーを許可
 AllowObservers=観戦者を許可
 AllowPlayerJoinTeam=プレイヤー [%s] があなたのチームに参戦することを許可する\n(チーム変更 team# %d から team# %d へ)?
 AllowInGameJoinPlayer=プレイヤーはゲーム内参加可能
@@ -229,7 +229,7 @@ SettingsSaved=設定が保存されました
 Delete=削除
 NothingSelected=何も選択されていません。
 LeftAt=プレイヤー辞退:
-# Limits=Limits:
+Limits=制限:
 LoadGameDeletingFile=ファイルを削除: '%s'
 LoadGameLoadingFile=ファイルをロード中: '%s'
 SavedGameBadVersion=セーブされたゲームのバージョンの不一致: [%s] --> [%s]
@@ -574,5 +574,5 @@ FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-# ALLOWED_SPECIAL_KEYS=none
+ALLOWED_SPECIAL_KEYS=なし
 

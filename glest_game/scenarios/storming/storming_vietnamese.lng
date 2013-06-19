@@ -1,0 +1,11 @@
+SCENARIO_NAME=Có bão bà con ơi
+;message headers
+Storming=Có bão bà con ơi
+
+;message strings
+Brief1=Hãy giúp Summoner tất công tất cả kẻ địch tron glàng, và cô ấy phải còn sống.
+
+;objective strings
+ObjectiveWest=Đối tượng: Hủy diệt ngôi làng Magic phía tây, và Summoner phải còn sống nha cha nội.
+ObjectiveNorthEast=Mục tiêu: Hủy diệt Tech ở ngôi làng phía tây bắc , và Summoner không được phép đi bán muối.
+ObjectiveSouthEast=Mục tiêu: Hủy diệt ngôi làng phía tây nam, Summoner không được quyền bị thông ass đến chết.

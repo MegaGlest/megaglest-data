@@ -1,0 +1,18 @@
+SCENARIO_NAME=Giữ lá cờ
+;message headers
+CaptureFlag=Thu giữ Địch Kỳ
+Warning=Cảnh báo
+Crisis=Đồng bào chú ý!
+
+;message strings
+Brief1=Giữ Địch Kỳ bằng việc đốt cháy nó, đổi lại đơn vị đó sẽ trở thành đơn vị của phe bạn! Địch kỳ đang hiển thị trong bản đồ thu nhỏ. Cờ của phe bạn sẽ cùng màu với màu mà phe bạn đã được gán trước đó. Đường dài ngựa chạy, hãy đón chờ điều bất ngờ còn ẩn tiềm nơi chiến địa.
+Player2InFlagZoneWarning=Người chơi 2 hiện đang trong vùng chiến địa có cờ, hãy cẩn thận thằng cờ hó này!
+Player3InFlagZoneWarning=Người chơi 3 đang ở trong vùng cấm cờ của bạn, coi chừng bị thông ass!
+Player2HasFlagWarning=Người chơi 2 đã có lá cờ của bạn, phồng tôm nó lẹ lên!!
+Player3HasFlagWarning=Người chơi 3 đã lấy lá cờ của bạn, đấm phát cho nó chết luôn!!
+
+;objective strings
+Player2HeadHome=Người chơi 2 hiện đã trở về thành của bạn và đã chiến thằng! Màu của lá cờ đang được chuyển thành màu của phe bạn, đừng để người chơi này đi bán muối nhé.
+Player3HeadHome=Hiện người chơi 3 đã về thành và chiến thắng! Lá cờ của bạn đã được chuyển màu cho lá cờ địch, đừng để người chơi này đi bán đậu phộng nhé!
+PlayerWins=Trời đất mẹ ơi, thắng rồi bà con ơiiiii!
+PlayerLoses=Thôi đừng buồn, dù bạn rất xấu nhưng lần sau đừng ăn nhiều dưa hấu, nếu bị sida thì đừng quá xông pha đi hiến máu nhóe nghe chưa nè, quân tử báo thù mười năm chưa muộn!

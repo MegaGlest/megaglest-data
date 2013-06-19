@@ -1,39 +1,39 @@
-# TechTreeName=megapack
+TechTreeName=mega包
 ; --------------
 ; Types of Armor
-# ArmorTypeName_organic=organic
-# ArmorTypeName_leather=leather
-# ArmorTypeName_wood=wood
-# ArmorTypeName_metal=metal
-# ArmorTypeName_stone=stone
+ArmorTypeName_organic=有机
+ArmorTypeName_leather=皮革
+ArmorTypeName_wood=木材
+ArmorTypeName_metal=金属
+ArmorTypeName_stone=石头
 ; --------------
 ; Types of Attack
-# AttackTypeName_slashing=slashing
-# AttackTypeName_piercing=piercing
-# AttackTypeName_impact=impact
-# AttackTypeName_energy=energy
-# AttackTypeName_sword=sword
-# AttackTypeName_arrow=arrow
-# AttackTypeName_magic=magic
-# AttackTypeName_beat=beat
+AttackTypeName_slashing=削减
+AttackTypeName_piercing=冲孔
+AttackTypeName_impact=碰撞
+AttackTypeName_energy=敌人
+AttackTypeName_sword=剑
+AttackTypeName_arrow=弓箭
+AttackTypeName_magic=魔法
+AttackTypeName_beat=打败
 ; ------------------
 ; Types of Resources
-# ResourceTypeName_energy=energy
-# ResourceTypeName_food=food
-# ResourceTypeName_gold=gold
-# ResourceTypeName_housing=housing
-# ResourceTypeName_stone=stone
-# ResourceTypeName_wood=wood
+ResourceTypeName_energy=能量
+ResourceTypeName_food=食物
+ResourceTypeName_gold=黄金
+ResourceTypeName_housing=住房
+ResourceTypeName_stone=石头
+ResourceTypeName_wood=木材
 ; -----------------
 ; Types of Factions
 # FactionName_*Observer*=*Observer*
 # FactionName_*Random*=*Random*
-# FactionName_egypt=egypt
+FactionName_egypt=埃及
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 # UpgradeTypeName_power_of_ra=power_of_ra
 # UpgradeTypeName_spear_weapons=spear_weapons
-# UpgradeTypeName_speedup_priest_production=speedup_priest_production
+UpgradeTypeName_speedup_priest_production=加快生产牧师
 # UpgradeTypeName_summon_ibis=summon_ibis
 # UpgradeTypeName_summon_scarab=summon_scarab
 ; -------------------------------
@@ -41,7 +41,7 @@
 # UnitTypeName_air_pyramid=air_pyramid
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_attack_off=attack_off
@@ -52,16 +52,16 @@
 # LevelName_ancient=ancient
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_chicken=chicken
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # UnitTypeName_desert_camp=desert_camp
 ; --------------------
 ; Levels for this Unit
@@ -70,7 +70,7 @@
 # CommandName_produce_spearthrower=produce_spearthrower
 # CommandName_produce_spearman=produce_spearman
 # CommandName_upgrade_spear_weapons=upgrade_spear_weapons
-# UnitTypeName_farm=farm
+UnitTypeName_farm=农场
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -79,21 +79,21 @@
 # UnitTypeName_ibis=ibis
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_mummy=mummy
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_obelisk=obelisk
 ; --------------------
 ; Levels for this Unit
@@ -105,77 +105,77 @@
 # UnitTypeName_priest=priest
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_speedup_priest_production=speedup_priest_production
-# CommandName_heal=heal
-# CommandName_produce_mummy=produce_mummy
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_speedup_priest_production=加快生产牧师
+CommandName_heal=治疗
+CommandName_produce_mummy=生产木乃伊
 # CommandName_produce_anubis_warrior=produce_anubis_warrior
 # CommandName_ice_nova=ice_nova
 # CommandName_hold_position=hold_position
-# UnitTypeName_pyramid=pyramid
+UnitTypeName_pyramid=金字塔
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_slave=produce_slave
-# UnitTypeName_scarab=scarab
+CommandName_produce_slave=生产奴隶
+UnitTypeName_scarab=金龟子
 ; --------------------
 ; Levels for this Unit
-# LevelName_expert=expert
+LevelName_expert=专家级
 # LevelName_master=master
 # LevelName_legendary=legendary
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_dung_attack=dung_attack
 # CommandName_hold_position=hold_position
-# UnitTypeName_slave=slave
+UnitTypeName_slave=奴隶
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_build_basic=build_basic
-# CommandName_repair=repair
+CommandName_repair=修复
 # CommandName_mine=mine
-# CommandName_harvest_wood=harvest_wood
-# UnitTypeName_snake=snake
+CommandName_harvest_wood=收获木材
+UnitTypeName_snake=蛇
 ; --------------------
 ; Levels for this Unit
-# LevelName_expert=expert
+LevelName_expert=专家级
 # LevelName_master=master
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_poison_shot=poison_shot
 # CommandName_hold_position=hold_position
-# UnitTypeName_spearman=spearman
+UnitTypeName_spearman=矛兵
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# UnitTypeName_spearthrower=spearthrower
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
+UnitTypeName_spearthrower=掷矛兵
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_sphinx=sphinx
+UnitTypeName_sphinx=狮身人面像
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -187,7 +187,7 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_priest=produce_priest
+CommandName_produce_priest=生产牧师
 # CommandName_research_scarab=research_scarab
 # CommandName_research_ibis=research_ibis
 # CommandName_get_power_of_ra=get_power_of_ra
@@ -205,29 +205,29 @@
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_axe_indian=axe_indian
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_axe_thrower=axe_thrower
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_beehive=beehive
 ; --------------------
 ; Levels for this Unit
@@ -247,9 +247,9 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_campfire=campfire
 ; --------------------
 ; Levels for this Unit
@@ -261,12 +261,12 @@
 # UnitTypeName_fire_archer=fire_archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_firegolem=firegolem
 ; --------------------
@@ -274,9 +274,9 @@
 # LevelName_ancient=ancient
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_horsefarm=horsefarm
 ; --------------------
@@ -289,12 +289,12 @@
 # UnitTypeName_horseman=horseman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_mainteepee=mainteepee
 ; --------------------
@@ -323,32 +323,32 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_repair=repair
-# CommandName_heal=heal
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_repair=修复
+CommandName_heal=治疗
 # CommandName_molotov=molotov
 # CommandName_produce_thunderbird=produce_thunderbird
 # CommandName_build_beehive=build_beehive
-# UnitTypeName_spearman=spearman
+UnitTypeName_spearman=矛兵
 ; --------------------
 ; Levels for this Unit
 # LevelName_guardian=guardian
 # LevelName_chief=chief
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_stickfighter=stickfighter
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_tent=tent
 ; --------------------
@@ -360,11 +360,11 @@
 ; --------------------
 ; Levels for this Unit
 # LevelName_ancient=ancient
-# LevelName_expert=expert
+LevelName_expert=专家级
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_throw=throw
 # CommandName_breath=breath
 # CommandName_hold_position=hold_position
@@ -382,13 +382,13 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_build_basic=build_basic
 # CommandName_mine=mine
-# CommandName_harvest_wood=harvest_wood
-# CommandName_repair=repair
-# FactionName_magic=magic
+CommandName_harvest_wood=收获木材
+CommandName_repair=修复
+FactionName_magic=魔法
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 # UpgradeTypeName_ancient_summoning=ancient_summoning
@@ -402,13 +402,13 @@
 # UnitTypeName_archmage=archmage
 ; --------------------
 ; Levels for this Unit
-# LevelName_expert=expert
+LevelName_expert=专家级
 # LevelName_master=master
 # LevelName_legendary=legendary
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_ice_nova=ice_nova
 # CommandName_static_fire=static_fire
 # CommandName_hold_position=hold_position
@@ -422,12 +422,12 @@
 # UnitTypeName_battlemage=battlemage
 ; --------------------
 ; Levels for this Unit
-# LevelName_expert=expert
+LevelName_expert=专家级
 # LevelName_master=master
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_fire_bolt=fire_bolt
 # CommandName_hold_position=hold_position
 # CommandName_promote_to_archmage=promote_to_archmage
@@ -437,37 +437,37 @@
 # LevelName_ancient=ancient
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_daemon=daemon
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_dragon=dragon
 ; --------------------
 ; Levels for this Unit
 # LevelName_ancient=ancient
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_breath=breath
 # CommandName_hold_position=hold_position
 # CommandName_promote_to_evil_dragon=promote_to_evil_dragon
 # UnitTypeName_drake_rider=drake_rider
 ; --------------------
 ; Levels for this Unit
-# LevelName_expert=expert
+LevelName_expert=专家级
 # LevelName_master=master
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_fire_breath=fire_breath
 # CommandName_flare=flare
 # CommandName_hold_position=hold_position
@@ -479,11 +479,11 @@
 # UnitTypeName_evil_dragon=evil_dragon
 ; --------------------
 ; Levels for this Unit
-# LevelName_expert=expert
+LevelName_expert=专家级
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_breath=breath
 # CommandName_hold_position=hold_position
 # UnitTypeName_ghost_armor=ghost_armor
@@ -492,9 +492,9 @@
 # LevelName_ancient=ancient
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_golem=golem
 ; --------------------
@@ -502,9 +502,9 @@
 # LevelName_ancient=ancient
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # CommandName_promote_to_power_golem=promote_to_power_golem
 # UnitTypeName_initiate=initiate
@@ -512,10 +512,10 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_repair=repair
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
+CommandName_repair=修复
 # CommandName_build=build
 # CommandName_ritual=ritual
 # CommandName_mine=mine
@@ -541,17 +541,17 @@
 # LevelName_ancient=ancient
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_summoner=summoner
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_flare=flare
 # CommandName_hold_position=hold_position
 # CommandName_summon_daemon=summon_daemon
@@ -582,7 +582,7 @@
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 # UpgradeTypeName_advanced_iron=advanced_iron
-# UpgradeTypeName_arrow=arrow
+UpgradeTypeName_arrow=弓箭
 # UpgradeTypeName_holy_valkyrie=holy_valkyrie
 # UpgradeTypeName_iron=iron
 # UpgradeTypeName_med=med
@@ -592,38 +592,38 @@
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_axe_thrower=axe_thrower
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_battleaxe=battleaxe
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_promote_to_battleaxe=promote_to_battleaxe
 # UnitTypeName_battleaxe_berzerk=battleaxe_berzerk
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # UnitTypeName_blacksmith=blacksmith
 ; --------------------
 ; Levels for this Unit
@@ -653,15 +653,15 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # UnitTypeName_crossbow=crossbow
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_attack_arrow=attack_arrow
 # CommandName_hold_position=hold_position
 # UnitTypeName_cudgel_lady=cudgel_lady
@@ -669,10 +669,10 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_cudgel=cudgel
-# UnitTypeName_farm=farm
+UnitTypeName_farm=农场
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -681,12 +681,12 @@
 # UnitTypeName_flyingvalkyrie=flyingvalkyrie
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_house=house
 ; --------------------
@@ -712,47 +712,47 @@
 # CommandName_attack_off=attack_off
 # CommandName_research_root=research_root
 # CommandName_resurrect_wild_sow=resurrect_wild_sow
-# UnitTypeName_spearman=spearman
+UnitTypeName_spearman=矛兵
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # CommandName_promote_to_spearman=promote_to_spearman
 # UnitTypeName_spearman_berzerk=spearman_berzerk
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_swordman=swordman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # CommandName_promote_to_swordman=promote_to_swordman
 # UnitTypeName_swordman_berzerk=swordman_berzerk
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_thor=thor
 ; --------------------
@@ -760,9 +760,9 @@
 # LevelName_advanced=advanced
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_throw=throw
 # CommandName_hold_position=hold_position
 # UnitTypeName_thortotem=thortotem
@@ -776,12 +776,12 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_build_basic=build_basic
 # CommandName_mine=mine
-# CommandName_harvest_wood=harvest_wood
-# CommandName_repair=repair
+CommandName_harvest_wood=收获木材
+CommandName_repair=修复
 # UnitTypeName_valhalla=valhalla
 ; --------------------
 ; Levels for this Unit
@@ -795,9 +795,9 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_airattack=airattack
 # CommandName_hold_position=hold_position
 # UnitTypeName_wild_sow=wild_sow
@@ -805,9 +805,9 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # FactionName_persian=persian
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -830,12 +830,12 @@
 # UnitTypeName_elephant=elephant
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_attack_arrow=attack_arrow
 # CommandName_hold_position=hold_position
 # UnitTypeName_elephant_cage=elephant_cage
@@ -847,14 +847,14 @@
 # UnitTypeName_fakir=fakir
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_farm=farm
+UnitTypeName_farm=农场
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -864,22 +864,22 @@
 # UnitTypeName_flying_carpet=flying_carpet
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_magic_attack=magic_attack
 # CommandName_hold_position=hold_position
 # UnitTypeName_genie=genie
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_house=house
 ; --------------------
@@ -891,15 +891,15 @@
 # UnitTypeName_magician=magician
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
-# CommandName_repair=repair
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
+CommandName_repair=修复
 # CommandName_build_snake_basket=build_snake_basket
-# CommandName_heal=heal
+CommandName_heal=治疗
 # CommandName_hold_position=hold_position
 # UnitTypeName_minaret=minaret
 ; --------------------
@@ -917,47 +917,47 @@
 # UnitTypeName_princess=princess
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_sheep=sheep
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # UnitTypeName_snake_basket=snake_basket
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
+CommandName_stop=tzhi
 # CommandName_attack_off=attack_off
 # CommandName_attack_on=attack_on
 # UnitTypeName_stickfighter=stickfighter
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_swordman=swordman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_temple=temple
 ; --------------------
@@ -981,13 +981,13 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_attack=attack
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_attack=攻击
+CommandName_move=移动
 # CommandName_build_basic=build_basic
 # CommandName_mine=mine
-# CommandName_harvest_wood=harvest_wood
-# CommandName_repair=repair
+CommandName_harvest_wood=收获木材
+CommandName_repair=修复
 # FactionName_romans=romans
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -1006,28 +1006,28 @@
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # CommandName_get_fire_arrows=get_fire_arrows
 # UnitTypeName_axe_man=axe_man
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_ballista=ballista
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_attack_off=attack_off
@@ -1035,11 +1035,11 @@
 # UnitTypeName_battering_ram=battering_ram
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_attack_land=attack_land
 # CommandName_attack_air=attack_air
 # CommandName_hold_position=hold_position
@@ -1057,19 +1057,19 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_fire_ball=fire_ball
 # CommandName_hold_position=hold_position
 # UnitTypeName_cavalry=cavalry
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # CommandName_promote_to_tribune=promote_to_tribune
 # UnitTypeName_cow=cow
@@ -1077,8 +1077,8 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # UnitTypeName_eagle_pillar=eagle_pillar
 ; --------------------
 ; Levels for this Unit
@@ -1090,19 +1090,19 @@
 ; --------------------
 ; Levels for this Unit
 # LevelName_accurate=accurate
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_forum=forum
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_slave=produce_slave
+CommandName_produce_slave=生产奴隶
 # CommandName_produce_cow=produce_cow
 # UnitTypeName_general=general
 ; --------------------
@@ -1111,18 +1111,18 @@
 # LevelName_grand=grand
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_gladiator=gladiator
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_attack_land=attack_land
 # CommandName_attack_air=attack_air
 # CommandName_hold_position=hold_position
@@ -1136,12 +1136,12 @@
 # UnitTypeName_guard=guard
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_guard_tower=guard_tower
 ; --------------------
@@ -1161,36 +1161,36 @@
 # CommandName_produce_mechanic=produce_mechanic
 # CommandName_upgrade_advanced_architecture=upgrade_advanced_architecture
 # CommandName_upgrade_formations=upgrade_formations
-# UnitTypeName_slave=slave
+UnitTypeName_slave=奴隶
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_build_=build_
 # CommandName_mine=mine
-# CommandName_harvest_wood=harvest_wood
-# CommandName_repair=repair
-# UnitTypeName_spearman=spearman
+CommandName_harvest_wood=收获木材
+CommandName_repair=修复
+UnitTypeName_spearman=矛兵
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_swordsman=swordsman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_temple=temple
 ; --------------------
@@ -1213,34 +1213,34 @@
 # UnitTypeName_tribune=tribune
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_turtle_formation=turtle_formation
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_wartime_mechanic=wartime_mechanic
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# CommandName_repair=repair
-# CommandName_heal=heal
+CommandName_repair=修复
+CommandName_heal=治疗
 # CommandName_build_catapult=build_catapult
 # CommandName_build_battering_ram=build_battering_ram
 # CommandName_build_ballista=build_ballista
@@ -1267,7 +1267,7 @@
 # UnitTypeName_air_ballista=air_ballista
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_attack_off=attack_off
@@ -1275,22 +1275,22 @@
 # UnitTypeName_airship=airship
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_missile=missile
 # CommandName_hold_position=hold_position
 # UnitTypeName_archer=archer
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_barracks=barracks
 ; --------------------
@@ -1305,12 +1305,12 @@
 # UnitTypeName_battle_machine=battle_machine
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_attack_arrow=attack_arrow
 # CommandName_hold_position=hold_position
 # UnitTypeName_blacksmith=blacksmith
@@ -1333,8 +1333,8 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_fire_ball=fire_ball
 # CommandName_hold_position=hold_position
 # UnitTypeName_cow=cow
@@ -1342,8 +1342,8 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # UnitTypeName_defense_tower=defense_tower
 ; --------------------
 ; Levels for this Unit
@@ -1351,7 +1351,7 @@
 ; Types of Commands for this Unit
 # CommandName_attack_off=attack_off
 # CommandName_attack_on=attack_on
-# UnitTypeName_farm=farm
+UnitTypeName_farm=农场
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1362,31 +1362,31 @@
 # UnitTypeName_guard=guard
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_horseman=horseman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # UnitTypeName_ornithopter=ornithopter
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_molotov=molotov
 # CommandName_fire_arrow=fire_arrow
 # CommandName_hold_position=hold_position
@@ -1395,17 +1395,17 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # UnitTypeName_swordman=swordman
 ; --------------------
 ; Levels for this Unit
-# LevelName_elite=elite
+LevelName_elite=精英
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
-# CommandName_attack=attack
+CommandName_stop=tzhi
+CommandName_move=移动
+CommandName_attack=攻击
 # CommandName_hold_position=hold_position
 # CommandName_promote_to_guard=promote_to_guard
 # UnitTypeName_technician=technician
@@ -1413,11 +1413,11 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_build_ultimate=build_ultimate
-# CommandName_repair=repair
-# CommandName_heal=heal
+CommandName_repair=修复
+CommandName_heal=治疗
 # CommandName_mine_gold=mine_gold
 # CommandName_molotov=molotov
 # CommandName_build_catapult=build_catapult
@@ -1436,10 +1436,10 @@
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_stop=stop
-# CommandName_move=move
+CommandName_stop=tzhi
+CommandName_move=移动
 # CommandName_build_basic=build_basic
 # CommandName_build_advanced=build_advanced
 # CommandName_mine=mine
-# CommandName_harvest_wood=harvest_wood
-# CommandName_repair=repair
+CommandName_harvest_wood=收获木材
+CommandName_repair=修复

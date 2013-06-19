@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazones
+;message headers
+Amazones=Amazones
+
+;message strings
+Brief1=Lâu đài của đồng đội bạn phải còn sống!
+
+;objective strings
+Firstwave=Mục tiêu: Quý bà màu xanh.
+Secondwave=Mục tiêu: Thêm nhiều quý bà.
+Thirdwave=Mục tiêu: quá nhiều quý bà...
+Fourthwave=Mục tiêu: Ngon cơm nhưng cực kỳ nguy hiểm ;-)
+Lastwave=Mục tiêu: Đợt đổ bộ cuối cùng!!

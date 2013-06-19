@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazones Lite
+;message headers
+Amazones=Amazones
+
+;message strings
+Brief1=Lâu đài của đồng đội bạn phải còn vững!
+
+;objective strings
+Firstwave=Mục tiêu: quý bà vận đồ xanh.
+Secondwave=Mục tiêu: thêm nhiều quý bà.
+Thirdwave=Mục tiêu: quá nhiều quý gà, ý quên quý bà...
+Fourthwave=Mục tiêu: Ngon cơm nhưng cực kỳ nguy hiểm ;-)
+Lastwave=Mục tiêu: Đợt đổ bộ cuối cùng!!
