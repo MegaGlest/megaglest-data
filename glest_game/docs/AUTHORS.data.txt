@@ -50,6 +50,7 @@ Tilesets:
 Autumn     	by Titus Tscharntke(titi)
 Birch Forest 	by Titus Tscharntke(titi) 
 Desert2    	by Idanwin and Titus Tscharntke(titi)
+Desert4    	by Titus Tscharntke(titi)
 Evergreen  	by Titus Tscharntke(titi) 
 Fernland       	by Titus Tscharntke(titi)
 Hell       	by Titus Tscharntke(titi)
