@@ -456,6 +456,7 @@ ShadowMapping=简单阴影
 Shadows=阴影
 ShadowTextureSize=阴影纹理大小：
 ShowMapPreview=地图预览
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=单位粒子
 ShowTilesetParticles=主题粒子
 Sight=视力

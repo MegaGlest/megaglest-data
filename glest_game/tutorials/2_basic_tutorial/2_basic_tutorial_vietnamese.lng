@@ -1,28 +1,28 @@
 # TUTORIAL_NAME=#2 Basic Tutorial
 ;message headers
-# GlestBasicTutorial=MegaGlest Basic Tutorial
-# WellDone=Well Done!
+GlestBasicTutorial=Hướng dẫn cơ bản
+WellDone=Rất tốt!
 Resources=Tài nguyên
-# Combat=Combat
-# Buildings=Buildings
+Combat=Combat
+Buildings=Buildings
 
 ;message strings
 # Welcome=Welcome to the MegaGlest Basic Tutorial. Here you will learn the basics of the game.
-# WillBeUsingTech=You are in command of the Tech faction, which uses medieval warriors and mechanical devices to fight.
-# NeedWorkers=To harvest resources you will need Workers. To produce some first select the Castle then use the "Produce Worker" command.
+WillBeUsingTech=Bạn đang ở phe Tech, sử dụng các chiến binh thời trung cổ và các thiết bị cơ khí để chiến đấu.
+NeedWorkers=Để có thể thu hoạch tài nguyên bạn cần có thợ. Để tạo ra đầu tiên hãy click vào Lâu Đài và sau đó là lệnh &quot;tạo thợ&quot;.
 # SelectAndCommand=Units are selected by left clicking on them, commands are given by either right clicking on a target or at the terrain.
-# HowToMine=To mine Gold, first select a Worker, then right click on a Gold patch.
-# WorkersKeepOnHarvesting=Workers will keep on harvesting and taking resources to a building that can store the type of resource they are carrying.
-# ResourceInformation=Resource information is displayed at the top of the screen, the number on the left is the current amount, the number on the right is the storage capacity.
-# OtherResources=Other resources like Wood or Stone are harvested in the same way as Gold.
-# TechResourceNeeds=The Tech faction usually needs a lot of Gold and Wood, and a bit of Stone.
-# TechConsumesFood=Every unit in the Tech faction consumes Food. Without Food units will take damage and die. Food can be produced by farm animals. Animals are produced at the Farm.
-# HaveEnoughAnimals=Always remember to have enough animals to feed your units.
-# BalanceDisplay=The balance between Food consumption and production is displayed in brackets next to the Food storage at the top of the screen.
-# TechWarriorsAtBarracks=To defeat your enemy you will need some warriors, most Tech warriors are produced at the Barracks.
-# HowToBuildBarracks=To build a Barracks select a Worker, click on "Build Basic" > "Barracks" and then select a spot for the building.
+HowToMine=Để có thể khai thác vàng, đầu tiên chọn người thợ, sau đó click chuột phải vào vàng.
+WorkersKeepOnHarvesting=Những người thợ sẽ tiếp tục thu hoạch các tài nguyên để hoàn thành việc xây dựng thành, có thể chứa các loại tài nguyên mà họ đang mang theo.
+ResourceInformation=Thông tin về tài nguyên được hiển thị phía trên cùng của màn hình, số lượng bên trái là số lượng hiện tại, số lượng bên phải là khả năng có thể chứa.
+OtherResources=Các nguồn tài nguyên khác như gỗ và đá được thu hoạch bằng cách giống như đã làm với vàng.
+TechResourceNeeds=Phe Tech luôn sử dụng nhiều vàng và gỗ, thêm vào một chút đá.
+TechConsumesFood=Mỗi đơn vị chiến đấu thuộc phe Tech tiêu thụ gỗ. Không có gỗ thì đơn vị này sẽ dễ bị hao tổn và chết. Thực phẩm có thể được tạm ra bằng các con vật trong nông trại. Các con vật này có thể được tạo ra ở nông trại.
+HaveEnoughAnimals=Luôn nhớ rằng phải duy trì đủ số lượng vật nuôi để cung cấp lương thực cho đơn vị chiến đấu bạn làm chủ.
+BalanceDisplay=Cân bằng giữa việc tiêu thụ thực phẩm và sản lượng được hiển thị trong một biểu tượng hình chiếc rổ kế bên cạnh thông số lưu trữ thực phẩm nằm ở trên cùng của màn hình.
+TechWarriorsAtBarracks=Để có thể đánh bại kẻ thù bạn cần thêm nhiều chiến bình, hầu hết các chiến binh phe Tech đều được tạo ra ở Barracks.
+# HowToBuildBarracks=To build a Barracks select a Worker, click on &quot;Build Basic&quot; > &quot;Barracks&quot; and then select a spot for the building.
 # RememberToBuildBarracks=Remember to always build a Barracks at the beginning, this will allow you to quickly produce warriors.
-# SwordmanBrief=The basic Tech warrior is the Swordman, select the Barracks, then click on "Produce Swordman" to produce one. Make sure you have enough resources.
+# SwordmanBrief=The basic Tech warrior is the Swordman, select the Barracks, then click on &quot;Produce Swordman&quot; to produce one. Make sure you have enough resources.
 # HaveWarriorsAtBase=You should always have some warriors at your base, they will automatically attack any enemies in range.
 # ArcherBrief=Archers are the basic ranged unit of the Tech faction. They are also produced at the Barracks.
 # ProduceWarriors=Produce a few more warriors to defend your base from enemy attacks.

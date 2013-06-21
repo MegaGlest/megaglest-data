@@ -456,6 +456,7 @@ ShadowMapping=Realistisch
 Shadows=Schaduwen:
 ShadowTextureSize=Grote Schaduw Textuur:
 ShowMapPreview=Kaart-voorbeeld
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Unit particles:
 ShowTilesetParticles=Tileset particles:
 Sight=Zicht

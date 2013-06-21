@@ -456,6 +456,7 @@ ShadowMapping=Shadow Mapping
 Shadows=Skygger:
 ShadowTextureSize=Skyggers tekstur størelse
 ShowMapPreview=Kort smukig
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Enheds partikler:
 ShowTilesetParticles=Kortdekorations Partikler:
 Sight=Sight

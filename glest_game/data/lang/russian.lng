@@ -456,6 +456,7 @@ ShadowMapping=Просчёт теней
 Shadows=Тени
 ShadowTextureSize=Размер текстур теней:
 ShowMapPreview=Предпросмотр карт
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Детализация юнитов
 ShowTilesetParticles=Детализация местности
 Sight=Дальность обнаружения

@@ -456,6 +456,7 @@ ShadowMapping=«Mapeadas»
 Shadows=Sombras:
 # ShadowTextureSize=Shadow Texture Size:
 ShowMapPreview=Previsualización do mapa:
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Partículas das unidades:
 # ShowTilesetParticles=Tileset Particles:
 Sight=Visión

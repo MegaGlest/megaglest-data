@@ -456,6 +456,7 @@ ShadowMapping=En tiempo real
 Shadows=Sombras:
 ShadowTextureSize=Resolución de sombras:
 ShowMapPreview=Vista previa del mapa
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Partículas de unidad:
 ShowTilesetParticles=Partículas del clima:
 Sight=Visión

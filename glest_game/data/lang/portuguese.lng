@@ -456,6 +456,7 @@ ShadowMapping=Mapeamento
 Shadows=Sombras:
 ShadowTextureSize=Tamanho da Sombra na Textura:
 ShowMapPreview=Visualização do Mapa
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Partículas:
 ShowTilesetParticles=Partículas do Jogo de Imagem:
 Sight=Campo de Visão

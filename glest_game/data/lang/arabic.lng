@@ -456,6 +456,7 @@ ShadowMapping=خريطة مضللة
 Shadows=الضل:
 ShadowTextureSize=حجم ظل المادة:
 ShowMapPreview=معاينة الخريطة
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=جزيئات الوحدة:
 ShowTilesetParticles=جزئيات الأرضية:
 Sight=مدى الرؤية

@@ -456,6 +456,7 @@ ShadowMapping=Mapování stínů
 Shadows=Stíny:
 ShadowTextureSize=Velikost stínované textury:
 ShowMapPreview=Náhled mapy
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Části jednotky:
 ShowTilesetParticles=Části prostředí:
 Sight=Rádius rozhledu

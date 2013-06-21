@@ -1,77 +1,77 @@
-# TUTORIAL_NAME=#1 Basic Tutorial
+TUTORIAL_NAME=#1 Hướng dẫn cơ bản
 ;message headers
-# GlestBasicTutorial=MegaGlest Basic Tutorial
-# WellDone=Well done!
+GlestBasicTutorial=Hướng dẫn cơ bản
+WellDone=Đã hoàn tất!
 Resources=Tài nguyên
-# Combat=Combat
-# Buildings=Buildings
-# Tricks=Tricks
+Combat=Combat
+Buildings=Buildings
+Tricks=Mẹo
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-# Welcome=Welcome to the basic MegaGlest tutorial.
+Welcome=Chào mừng đến phần hướng dẫn cơ bản
 
-# FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
+FirstThing=Xem: thiết lập các thông số về camera/góc nhìn của người chơi bằng cách di chuyển con trỏ chuột về phía bờ rìa của màn hình, hoặc sử dụng ngay chính con trỏ chuột. Một cách đơn giản hơn là click chuột trái vào bản đồ thu nhỏ(nằm ở phía bên trên góc phía trái của màn hình).
 
-# WillBeUsingIndian=In this introduction, you command the indians. The indian faction fights with archers and simple weapons.
+WillBeUsingIndian=Trong phần giới thiêu này, bạn sẽ đóng vai trò là người chỉ huy dân da đỏ. Phe da đỏ sẽ chống lại những binh sĩ dùng cung tên cùng những vũ khí đơn giản.
 
-# NeedWorkers=First we need a worker. To get one, left-click on the Mainteepee and start training your worker. To do so, use the 'Produce Worker' command by clicking on the worker icon.
+NeedWorkers=Đầu tiên là việc thao tác đi lại. Để thao tác phần này, bạn click chuột trái vào Mainteepee và bắt đầu huấn luyện quân của mình. Để làm thế, sử dụng lệnh &quot;produce worker&quot; bằng cách click chuột vào biểu tượng của người thợ đó.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-# Select=Now left-click your worker. Details on the selected unit, namely the unit name and an image, are now displayed in the top right corner of your screen. Below this health points (HP), armor, and, in brackets, armor type and view range (sight) are listed.
-# Select2=If this is a battle unit, the number of enemy units it has already destroyed is listed next. If it consumes resources, this is displayed in the following field. Below this, it says what this unit is currently doing.
+Select=Bây giờ click chuột trái vào người thợ. Chi tiết về đơn vị được lựa chọn, tên của đơn vị và kèm theo đó là một hình ảnh sơ lược, sẽ được hiển thị ở tận cùng góc phải màn hình. Bên dưới là chỉ số sức mạnh (HP), vũ trang và các loại vũ khí, tầm chiến đấu cũng được liệt kê.
+Select2=Nếu đây là một đơn vị chiến đấu, số lượng đơn vị của phe địch bị giết sẽ được liệt kê bên cạnh. Nếu tài nguyên bị sử dụng, thông tin cũng được thể hiện trong phần này. Bên dưới phần này, là những tác vụ mà đơn vị đó đang thực hiện.
 
-# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+ExampleWorker=Thí dụ, một người thợ có HP là 600, 0 cho vũ khí và phạm vi hoạt động là 9. Trạng thái hiện tại của người này là &quot;dừng lại&quot;, bởi thế người này không hề có bất kỳ hoạt động nào trong màn chơi.
 
-# Command=The units' abilities are listed further below. We will now learn all commands the worker can execute.
+Command=Khả năng của từng đơn vị chiến đấu được liệt kê bên dưới. Và bạn sẽ lần lượt học các lệnh nhằm bắt các người thợ/lính huấn luyện làm theo.
 
-# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+FirstCommand=Biểu tượng lệnh đầu tiên là 'dừng lại'. Nếu bạn click chuột vào biểu tượng này, người thợ sẽ ngay lập tức dừng mọi thao tác mà người đó đang tiến hành. Mọi đơn vị chiến đấu (không bao gồm lực lượng thợ xây dựng) được cung cấp lệnh này.
 
-# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
-# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+SecondCommand=Biểu tượng lệnh thứ hai là 'di chuyển'. Nếu bạn click vào biểu tượng này, bạn sẽ cần phải click vào một vị trí nào đó trên bản đồ, hoặc một đơn vị khác để xác định địa điểm đi đến. Một lệnh tắt để thực hiện điều tương tự đó là click chuột phải vào vị trí mà bạn muốn đi đến.
+SecondCommand2=Khi bạn rê chuột qua biểu tượng di chuyển, tốc độ của những người thợ sẽ được hiển thị. Lệnh này cũng có tác dụng với toàn bộ các đơn vị chiến đấu (ngoại trừ đơn vị xây dựng thành).
 
-# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+TestSecondCommand=Bây giờ hãy thử dùng lệnh 'di chuyển'. Di chuyển người thợ của bạn đến với những người thợ khác đang đợi bên ngoài trại của bạn. Người thợ này sẽ được hiển thị dưới dạng một dấu chấm màu đỏ ở trong bản đồ thu nhỏ (phía cùng bên trái). Một hình tam giác màu trắng trên bản đồ thu nhỏ sẽ chỉ ra vị trí hiện tại của bạn đối với góc nhìn từ camera của trò chơi. Và trong trường hợp này thì chấm đỏ lớn chính là Mainteepee của bạn.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-# MoveBack=Good. Now make both workers return to the Mainteepee. To select multiple units, press shift and draw a selection box around your units OR ...
-# MoveBack2=... hold down shift, then use your mouse to click on every unit you want to include OR ...
-# MoveBack3=... double-click on a unit to select all nearby units of the same type (workers in this case).
-# HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
-# HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
-# UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
-# HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
+MoveBack=Tốt. Bây giờ hãy điều khiển người thợ quay trở lại Mainteepee. Để có thể chọn nhiều đơn vị chiến đấu, nhấn giữ Shift và chọn vào vùng lựa chọn xung quanh đơn vị chiến đấu hoặc...
+MoveBack2=... nhấn giữ shift, sau đó click chuột trái trên từng đơn vị chiến đấu mà bạn muốn thêm vào hoặc...
+MoveBack3=... click đúp chuột lên một đơn vị để lựa chọn tất cả những đơn vị chiến đấu tương tự thể loại (trong trường hợp này là cùng loại là thợ).
+HarvestGoldandStone=Khi đơn vị chiến đấu đã quay trở về thành, chúng ta sẽ sủe dụng một lệnh từ biểu tượng thứ tư trên màn hình, nhằm để lượm/thu hoạch vàng và đá.
+HarvestGoldandStone2=Rê chuột ngang biểu tượng này và bạn sẽ thấy tốc độ thu hoạch/lượm của lực lượng người thợ hiện tại, mỗi người thợ có thể thu hoạch bao nhiêu và khả năng thu hoạch nhanh hay chậm hay đi đứng với tốc độ như thế nào khi thu hoạch những nguồn tài nguyên này.
+UseHarvestGoldandStone=Để sử dụng lệnh này, đầu tiên là click chuột trái vào biểu tượng, sau đó vào nguồn tài nguyên mà bạn muốn thu hoạch. Những mảnh xám với chấm vàng bên trên chúng là vàng, còn lại không có chấm vàng là đá.
+HarvestGoldandStone3=Bây giờ tiếp tục thu hoạch vàng và đá cho đến khi bạn thu hoạch đủ 600 vàng và 550 đá. Bạn cũng có thể tạo ra những người thợ mới để làm công việc này (nhưng dĩ nhiên chi phí tạo ra sẽ được trừ vào phần vàng mà bạn đang giữ). Kiểm tra số liệu tài nguyên mà bạn thu hoạch được hoặc có trong tài khoản ở trên góc phía trên cùng của màn hình.
 
 ;------------------------------------------Get Wood------------------------------------------
 
-# HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
-# ResourceInformation=By the way, the indian faction mostly needs gold and wood.
-# GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
+HarvestGoldAndStoneDone=Bây giờ mọi việc còn lại là bạn cần thêm một chút gỗ. Để lấy được vật liệu này, sử dụng biểu tượng thứ năm. Biểu tượng này thi hành lệnh thu hoạch gỗ cũng giống như cách bạn đã thu hoạch vàng và đá.
+ResourceInformation=Đồng thời, phe người da đỏ hầu như đều cần vàng và gỗ.
+GetWood=Một gợi ý nữa cho bạn, đó là bạn có thể tạo ra các thao tác nhanh cho việc thu hoạch của mình bằng việc chọn lấy các người thợ, sau đó chọn chuột phải vào một vị trí nào đó, mà nơi đó có các nguồn tài nguyên cần thu hoạch (trong trường hợp này là gỗ). Nếu thành công, một mũi tên màu vàng sẽ hiển thị. Bây giờ, hãy thu hoạch đủ số lượng gỗ là 550.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
-# UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
-# MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
-# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
-# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
-# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
-# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+MeetingPoint=Khi bạn tiến hành xây một công trình, một mũi tên màu xanh sẽ hiển thị lên. Mũi tên này chỉ đến một địa điểm được gọi là &quot;điểm xây dựng&quot;. Tất cả các đơn vị chiến đấu mà bạn tạo ra trong công trình này sẽ di chuyển đến vị trí này ngay khi chúng xuất hiện.
+UseMeetingPoint=Bạn cũng có thể tự chọn địa điểm. Click vào biểu tượng flag/lá cờ, sau đó ở bất kỳ vị trí nào nơi mà những điểm gặp mặt có thể đặt được. Đồng thời, bạn cũng có thể tạo một đường dẫn tắt bằng cách chọn chuột phải ở địa điểm mới (làm giống như cách mà bạn đã thao tác để di chuyển nhân vật).
+MeetingPoint2=Nếu điểm bạn chọn nằm ở phạm vi của một tài nguyên nào đó, các người thợ mới được tạo ra sẽ ngay lập tức bắt đầu thu hoạch tại vùng đó. Chú ý rằng bạn chọn đúng địa điểm, còn không thì những người thợ bạn chọn ra sẽ chỉ đứng lòng vòng rồi dông chạy mất.
+Thirdcommand=Bây giờ sẽ tới biểu tượng lệnh thứ ba - đây là lệnh giúp bạn 'xây dựng'.
+Thirdcommand2=Bằng việc click chuột vào vị trí này bạn sẽ đi đến phần thao tác với menu xây dựng. Nếu bạn rê chuột qua một trong những biểu tượng của các tòa tháp thì bạn sẽ thấy rõ hơn chi tiết, đồng thời bên dưới còn có hiển thị thông số &quot;yêu cầu&quot;, tức là số lượng về tài nguyên mà bạn cần để thực hiện thao tác này.
+Thirdcommand3=Nếu bạn rê chuột qua túp lều, bạn sẽ thấy túp lêu này tốn 30 vàng và 50 gỗ, -10 căn nhà và một teepee chính. &quot;-10 căn nhà&quot; có nghĩa rằng nếu xây lều, bạn sẽ cần một đơn vị bổ sung gấp mười lần (một số đơn vị cần nhiều hơn là một).
+Thirdcommand4=Bây giờ hãy xây một căn lều. Click vào menu xây dựng, sau đó vào căn lều và đặt nó vào một điểm trống trên màn hình.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-# ProduceStickfighter=You can now train a stick fighter in your new tent.
+ProduceStickfighter=Giờ thì bạn có thể huấn luyện một đấu sĩ bằng kiếm gỗ trong lều của mình.
 
 ;objective strings
-# ProduceWorker=Objective: Train one worker.
-# ProduceStickfighter2=Objective: Train one stick fighter.
-# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
-# HarvestGoldandStoneobjective=Objective: Harvest gold and stone until you have a total of 600 gold and 550 stone.
-# GetWoodob=Objective: Harvest wood until you have 550.
-# UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+ProduceWorker=Mục tiêu: Huấn luyện một người thợ.
+ProduceStickfighter2=Mục tiêu: Huấn luyện một đấu sĩ bằng kiếm gỗ.
+MoveWorker=Mục tiêu: Di chuyển các người thợ mới vừa tạo ra đến gặp các người thợ khác đang đứng đợi bên ngoài trại của bạn.
+HarvestGoldandStoneobjective=Mục tiêu: Thu hoạch vàng và đá cho đến khi bạn đủ số lượng 600 vàng và 550 đá.
+GetWoodob=Mục tiêu: Thu hoạch đủ số gỗ là 550.
+UseThirdCommand=Mục tiêu: Xây dựng một căn lều. Gợi ý: Nếu căn lều chuyển sang màu đỏ, điều này có nghĩa rằng điểm xây này hiện đang (nói cách khác) đã bị chiếm giữ (bởi một đơn vị nào đó hoặc vùng đó có cây).
 
 ;end
 
-# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.
+WellDoneNextTutorial=Rất tốt! Bạn có thể đi đến phần hướng dẫn tiếp theo.

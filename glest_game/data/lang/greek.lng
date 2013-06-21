@@ -456,6 +456,7 @@ ShadowMapping=Χαρτογράφηση Σκιών
 Shadows=Σκιές:
 ShadowTextureSize=Μέγεθος texture σκιάς
 ShowMapPreview=Προεπισκόπιση Χάρτη
+# ShowNextHint=To show another hint (click here)
 ShowUnitParticles=Σωματίδια Μονάδων:
 ShowTilesetParticles=Σωματίδια Tileset:
 Sight=Όραση
