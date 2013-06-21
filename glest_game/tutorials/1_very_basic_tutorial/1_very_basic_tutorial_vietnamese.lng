@@ -15,14 +15,14 @@ FirstThing=Xem: thiết lập các thông số về camera/góc nhìn của ngư
 
 WillBeUsingIndian=Trong phần giới thiêu này, bạn sẽ đóng vai trò là người chỉ huy dân da đỏ. Phe da đỏ sẽ chống lại những binh sĩ dùng cung tên cùng những vũ khí đơn giản.
 
-NeedWorkers=Đầu tiên là việc thao tác đi lại. Để thao tác phần này, bạn click chuột trái vào Mainteepee và bắt đầu huấn luyện quân của mình. Để làm thế, sử dụng lệnh &quot;produce worker&quot; bằng cách click chuột vào biểu tượng của người thợ đó.
+NeedWorkers=Đầu tiên là việc thao tác đi lại. Để thao tác phần này, bạn click chuột trái vào Mainteepee và bắt đầu huấn luyện quân của mình. Để làm thế, sử dụng lệnh "produce worker" bằng cách click chuột vào biểu tượng của người thợ đó.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
 Select=Bây giờ click chuột trái vào người thợ. Chi tiết về đơn vị được lựa chọn, tên của đơn vị và kèm theo đó là một hình ảnh sơ lược, sẽ được hiển thị ở tận cùng góc phải màn hình. Bên dưới là chỉ số sức mạnh (HP), vũ trang và các loại vũ khí, tầm chiến đấu cũng được liệt kê.
 Select2=Nếu đây là một đơn vị chiến đấu, số lượng đơn vị của phe địch bị giết sẽ được liệt kê bên cạnh. Nếu tài nguyên bị sử dụng, thông tin cũng được thể hiện trong phần này. Bên dưới phần này, là những tác vụ mà đơn vị đó đang thực hiện.
 
-ExampleWorker=Thí dụ, một người thợ có HP là 600, 0 cho vũ khí và phạm vi hoạt động là 9. Trạng thái hiện tại của người này là &quot;dừng lại&quot;, bởi thế người này không hề có bất kỳ hoạt động nào trong màn chơi.
+ExampleWorker=Thí dụ, một người thợ có HP là 600, 0 cho vũ khí và phạm vi hoạt động là 9. Trạng thái hiện tại của người này là "dừng lại", bởi thế người này không hề có bất kỳ hoạt động nào trong màn chơi.
 
 Command=Khả năng của từng đơn vị chiến đấu được liệt kê bên dưới. Và bạn sẽ lần lượt học các lệnh nhằm bắt các người thợ/lính huấn luyện làm theo.
 
@@ -51,12 +51,12 @@ GetWood=Một gợi ý nữa cho bạn, đó là bạn có thể tạo ra các t
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-MeetingPoint=Khi bạn tiến hành xây một công trình, một mũi tên màu xanh sẽ hiển thị lên. Mũi tên này chỉ đến một địa điểm được gọi là &quot;điểm xây dựng&quot;. Tất cả các đơn vị chiến đấu mà bạn tạo ra trong công trình này sẽ di chuyển đến vị trí này ngay khi chúng xuất hiện.
+MeetingPoint=Khi bạn tiến hành xây một công trình, một mũi tên màu xanh sẽ hiển thị lên. Mũi tên này chỉ đến một địa điểm được gọi là "điểm xây dựng". Tất cả các đơn vị chiến đấu mà bạn tạo ra trong công trình này sẽ di chuyển đến vị trí này ngay khi chúng xuất hiện.
 UseMeetingPoint=Bạn cũng có thể tự chọn địa điểm. Click vào biểu tượng flag/lá cờ, sau đó ở bất kỳ vị trí nào nơi mà những điểm gặp mặt có thể đặt được. Đồng thời, bạn cũng có thể tạo một đường dẫn tắt bằng cách chọn chuột phải ở địa điểm mới (làm giống như cách mà bạn đã thao tác để di chuyển nhân vật).
 MeetingPoint2=Nếu điểm bạn chọn nằm ở phạm vi của một tài nguyên nào đó, các người thợ mới được tạo ra sẽ ngay lập tức bắt đầu thu hoạch tại vùng đó. Chú ý rằng bạn chọn đúng địa điểm, còn không thì những người thợ bạn chọn ra sẽ chỉ đứng lòng vòng rồi dông chạy mất.
 Thirdcommand=Bây giờ sẽ tới biểu tượng lệnh thứ ba - đây là lệnh giúp bạn 'xây dựng'.
-Thirdcommand2=Bằng việc click chuột vào vị trí này bạn sẽ đi đến phần thao tác với menu xây dựng. Nếu bạn rê chuột qua một trong những biểu tượng của các tòa tháp thì bạn sẽ thấy rõ hơn chi tiết, đồng thời bên dưới còn có hiển thị thông số &quot;yêu cầu&quot;, tức là số lượng về tài nguyên mà bạn cần để thực hiện thao tác này.
-Thirdcommand3=Nếu bạn rê chuột qua túp lều, bạn sẽ thấy túp lêu này tốn 30 vàng và 50 gỗ, -10 căn nhà và một teepee chính. &quot;-10 căn nhà&quot; có nghĩa rằng nếu xây lều, bạn sẽ cần một đơn vị bổ sung gấp mười lần (một số đơn vị cần nhiều hơn là một).
+Thirdcommand2=Bằng việc click chuột vào vị trí này bạn sẽ đi đến phần thao tác với menu xây dựng. Nếu bạn rê chuột qua một trong những biểu tượng của các tòa tháp thì bạn sẽ thấy rõ hơn chi tiết, đồng thời bên dưới còn có hiển thị thông số "yêu cầu", tức là số lượng về tài nguyên mà bạn cần để thực hiện thao tác này.
+Thirdcommand3=Nếu bạn rê chuột qua túp lều, bạn sẽ thấy túp lêu này tốn 30 vàng và 50 gỗ, -10 căn nhà và một teepee chính. "-10 căn nhà" có nghĩa rằng nếu xây lều, bạn sẽ cần một đơn vị bổ sung gấp mười lần (một số đơn vị cần nhiều hơn là một).
 Thirdcommand4=Bây giờ hãy xây một căn lều. Click vào menu xây dựng, sau đó vào căn lều và đặt nó vào một điểm trống trên màn hình.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------

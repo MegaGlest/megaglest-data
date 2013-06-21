@@ -1,4 +1,4 @@
-hint1=يمكنك تعيين / تعديل اسم اللاعب في قائمة &quot;خيارات&quot;،\nيمكن الوصول إليها من القائمة الرئيسية.
+hint1=يمكنك تعيين / تعديل اسم اللاعب في قائمة "خيارات"،\nيمكن الوصول إليها من القائمة الرئيسية.
 # hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
 hint3=لتمكين/تعطيل محادثة الفريق، اضغط '#ChatTeamMode#' (في حين لم تكن في وضع المحادثة).
 hint4=لرؤية المزيد من سجل المحادثة، اضغط باستمرار على مفتاح '#ShowFullConsole#'.
@@ -26,4 +26,4 @@ hint38=على نظامي لينكس و أو إس X، يمكنك الضغط عل�
 # hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
 hint43=لينكس هو أفضل نظام تشغيل .. على الإطلاق .. هذه الفترة :)
 hint44=البرمجيات الحرة جعلت هذه اللعبة ممكنة، أنظر كيف يمكن أن تساعد\nفي مجتمعات مثل fsf.org وsourceforge.net
-# hint45=Is a translation missing or bad? Please help translate MegaGlest!  http://translate.megaglest.org
+# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org

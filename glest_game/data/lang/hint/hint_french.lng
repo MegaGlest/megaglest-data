@@ -1,4 +1,4 @@
-hint1=Vous pouvez modifier votre nom de joueur dans le menu &quot;Options&quot; du menu principal.
+hint1=Vous pouvez modifier votre nom de joueur dans le menu "Options" du menu principal.
 # hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
 hint3=Pour activer/désactiver le chat, pressez '#ChatTeamMode#' (en dehors du chat).
 hint4=Pour voir un historique de chat plus long, maintenez la touche '#ShowFullConsole#'.
@@ -26,4 +26,4 @@ hint38=Sur Linux et OS X, Alt+Entrée permet de passer du plein écran au mode f
 # hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
 hint43=GNU/Linux est le meilleur système d'exploitation. Et vous n'y pouvez rien. :)
 hint44=Le mouvement du logiciel libre a permis à ce jeu d'exister, et vous\npouvez aider des organisations telles que fsf.org et sourceforge.net.
-# hint45=Is a translation missing or bad? Please help translate MegaGlest!  http://translate.megaglest.org
+# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org
