@@ -145,6 +145,7 @@ ErrorBindingPort=Mearachd, cha ghabh nasgadh ri port lìonraidh
 ErrorFromMasterserver=Mearachd on fhrithealaiche mhaighstir
 Exit=Fàg an-seo
 ExitGame?=Am bu toil leat an geama fhàgail?
+ExitGameMenu?=Fàg an geama seo
 ExitGameServer?=Am bu toil leat an geama fhàgail?\n(stadaidh seo an geama\ndha na cluicheadairean ceangailte eile)
 Explored=Rùraichte
 Faction=Buidheann

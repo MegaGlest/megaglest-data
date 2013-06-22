@@ -1,5 +1,5 @@
 hint1=Вы можете посмотреть/изменить имя игрока в меню 'Настройки'.
-# hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
+hint2=Чтобы выбрать бездельничающих работников, нажмите клавишу '#HotKeySelectIdleHarvesterUnit#', затем нажмите '#HotKeyCenterCameraOnSelection#', чтобы выделить их.
 hint3=Чтобы вкл/выкл чат, нажмите '#ChatTeamMode#'.()
 hint4=Чтобы увидеть всю историю чата, нажмите '#ShowFullConsole#'.
 hint5=Вы можете группировать юнитов, выбирая их и нажимая Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10#.\nЧтобы после вызвать группу, посто нажмите её номер (0-9).\nДвойное нажатие установит камеру над группой.
@@ -23,7 +23,7 @@ hint28=Вы можете показать союзникам свое место
 hint34=Как запустить свой сервер читайте на http://FAQ.megaglest.org
 hint36=Чтобы пометить позицию на карте,\nнажмите '#BookmarkAdd#' и кликните на карте. Чтобы убрать,\nнажмите '#BookmarkRemove#' и кликните снова.
 hint38=На Linux и OS X, вы можете нажимать Alt-Enter в любое время,\nчтобы переключаться между обычным и полноэкранным режимами.
-# hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
+hint42=Чтобы управлять юнитами в режиме от третьего лица,\nвыберите и нажмите клавишу '#CameraFollowSelectedUnit#'.\nДля возврата к нормальному виду нажмите #ResetCameraMode#.
 hint43=Линукс - лучшая операционная система... ...переодически :)
 hint44=Это свободная и открытая игра,\nподдерживаемая проектами fsf.org и sourceforge.net
-# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org
+hint45=Плохой перевод или он отсутсвует на вашем языке? Пожалуйста, помогите перевести MegaGlest! http://translate.megaglest.org

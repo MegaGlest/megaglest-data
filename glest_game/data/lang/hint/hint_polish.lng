@@ -1,5 +1,5 @@
 hint1=Możesz ustawiać/edytować swoją nazwę gracza w menu 'Opcje' > 'Różne',\nktóre jest dostępne z głównego menu.
-# hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
+hint2=Aby zaznaczyć bezczynnych robotników naciśnij klawisz '#HotKeySelectIdleHarvesterUnit#',\nnastępnie naciśnij '#HotKeyCenterCameraOnSelection#' aby ich zobaczyć.
 hint3=By włączyć lub wyłączyć chat drużynowy, naciśnij '#ChatTeamMode#'\n(przycisk działa wtedy gdy chat nie jest aktywny).
 hint4=Aby zobaczyć (dłuższą) historię chatu, przytrzymaj '#ShowFullConsole#'.
 hint5=Możesz grupować jednostki zaznaczając je, a następnie naciskając klawisz Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10#.\nNastępnie aby móc wydać rozkaz takiej grupie naciśnij cyfrę przypisaną do tej grupy (0-9).\nAby zobaczyć tą grupę, naciśnij tą cyfrę dwukrotnie.
@@ -23,7 +23,7 @@ hint28=Możesz wskazywać członkom twojej drużyny miejsca na mapie. Naciśnij 
 hint34=Aby dowiedzieć się jak hostować (udostępniać dla innych jako serwer)\nwłasne bitwy sieciowe sprawdź: http://FAQ.megaglest.org
 hint36=Aby na stałe oznaczyć pozycję na mapie naciśnij '#BookmarkAdd#' a następnie kliknij miejsce\nna mapie. Aby później usunąć znacznik, naciśnij '#BookmarkRemove#' i kliknij go ponownie.
 hint38=Na Linuksie oraz pod OS X możesz nacisnąć w dowolnym momencie Alt+Enter by\nprzełączyć widok z okienka do pełnoekranowego i odwrotnie.
-# hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
+hint42=Aby śledzić jednostkę z widoku trzeciej osoby,\nwybierz tą jednostkę i naciśnij klawisz '#CameraFollowSelectedUnit#'\nAby później przywrócić normalny widok naciśnij klawisz #ResetCameraMode#.
 hint43=Linuks jest najlepszym systemem operacyjnym..\nod zawsze.. koniec kropka :)
 hint44=Wolne oprogramowanie sprawiło, że ta gra istnieje. Rozważ jak możesz pomóc\nspołecznościom takim jak fsf.org oraz sourceforge.net
-# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org
+hint45=Czy gdzieś w tłumaczeniu czegoś brakuje, albo może coś jest źle przetłumaczone?\nProszę, pomóż tłumaczyć MegaGlest!  http://translate.megaglest.org/

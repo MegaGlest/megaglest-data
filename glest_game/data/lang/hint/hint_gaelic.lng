@@ -1,5 +1,5 @@
 hint1='S urrainn dhut d' fhar-ainm a chur ann/deasachadh\nann an clàr-taice 'roghainnean' is gheibh thu ann\nbhon phrìomh-chlàr.
-# hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
+hint2=Gus obraichean nan tàmh a lorg, brùth air an iuchair "#HotKeySelectIdleHarvesterUnit" is an uairsin air "#HotKeyCenterCameraOnSelection#" gus fòcas fhaighinn orra.
 hint3=Gus cabadaich an sgioba a thoglachadh air/dheth, brùth air "#ChatTeamMode#" (nuair nach eil thu sa mhodh chabadaich).
 hint4=Gus eachdraidh nas fhaide na cabadaich fhaicinn, cum an iuchair "#ShowFullConsole#" sìos.
 hint5='S urrainn dhut aonadan a bhuidhneachadh is tu a' brùthadh air Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10#.\nGus buidheann a thaghadh, brùth air an àireamh aige (0-9).\nDèan brùthadh dùbailte air an àireamh gus an camara a chur os cionn a' bhuidhinn seo.
@@ -23,7 +23,7 @@ hint28='S urrainn dhut buill an sgioba agad a stiùireadh\ngu àite air a' mhapa
 hint34=Gus ionnsachadh mar a nì thu òstadh\nair na geamaichean agad fhèin, thoir\nsùil air http://FAQ.megaglest.org
 hint36=Gus comharra maireannach a chur air àite air a mhapa,\nbrùth air an iuchair "#BookmarkAdd#" is an uairsin\nbriog air a' mhapa.\nGus an comharra a thoirt air falbh, brùth air "#BookmarkRemove#"\nis briog a-rithist.
 hint38=Air Linux is OS X, 's urrainn dhut brùthadh air Alt-enter\nuair sam bith gus suids a dhèanamh eadar am modh\nuinneige is làn-sgrìn.
-# hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
+hint42=Gus leantainn air aonad ann am modh treas pearsa,\ntagh an t-aonad is brùth air an iuchair "#CameraFollowSelectedUnit#".\nGus tilleadh dhan mhodh camara àbhaisteach, brùth air "#ResetCameraMode#".
 hint43=Is Linux an t-siostam-obrachaidh as fhearr ... sin agad e :)
 hint44=Cha bhiodh an geama seo ann às aonais bathair-bhuig shaoir.\nSaoil an toir thu taic dha chomainn a leithid fsf.org\nis sourceforge.net?
-# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org
+hint45=A bheil eadar-theangachadh a dhìth no dona? Nach cuir thu taic dhuinn gus MegaGlest eadar-theangachadh? http://translate.megaglest.org
