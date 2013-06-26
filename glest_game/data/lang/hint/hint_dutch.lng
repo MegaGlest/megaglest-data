@@ -1,5 +1,5 @@
 hint1=Je kunt je speler naam aanpassen in het 'optie' menu,\nvia het hoofdmenu.
-# hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
+hint2=Om niet actieve arbeiders te selecteren, druk de '#HotKeySelectIdleHarvesterUnit#' toets, druk daarna '#HotKeyCenterCameraOnSelection#' om hun te focusseren.
 hint3=Schakel team chat aan/uit, druk '#ChatTeamMode#' (in chat mode).
 hint4=Om meer chat historie te zien, druk de '#ShowFullConsole#' knop.
 hint5=Je kunt eenheden groeperen door Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10# te drukken.\nOm een groep terug te roepen druk je het nummer van de groep (0-9).\nDruk het nummer 2 keer om de camera boven de groep te positioneren.
@@ -23,7 +23,7 @@ hint28=Je kunt nu je team leden naar een nieuwe locatie op de kaart verwijzen.\n
 hint34=Leer hoe je een spel gast server kunt op zetten\nop http://FAQ.megaglest.org
 hint36=Druk op de '#BookmarkAdd#' toets,\nom een positie op de kaart permanent te markeren en daarna op de kaart. Om deze te verwijderen\ndruk '#BookmarkRemove#' en op klik daarna weer.
 hint38=Op Linux en OS X, kun je Alt-Enter drukken\nom tussen een window en volledig scherm te schakelen
-# hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
+hint42=Om een eenheid te volgen in derde persoon mode,\nselecteer de eenheid en druk de '#CameraFollowSelectedUnit#' toets.\nOm terug te keren aan de normale camera mode druk #ResetCameraMode#.
 hint43=Linux is het beste besturingssysteem ... ooit :)
 hint44="Free software" heeft dit spel mogelĳk gemaakt, je kunt ook helpen\nVia organisaties zoals fsf.org and sourceforge.net
-# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org
+hint45=Ontbreekt een vertaling of is deze niet correct? Help a.u.b. met vertalen van MegaGlest! http://translate.megaglest.org
