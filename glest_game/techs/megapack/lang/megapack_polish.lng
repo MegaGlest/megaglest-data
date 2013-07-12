@@ -67,8 +67,8 @@ UnitTypeName_desert_camp=Pustynny obóz
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_spearthrower=trenuj pikiniera
-CommandName_produce_spearman=trenuj pinikiera
+CommandName_produce_spearthrower=trenuj oszczepnika
+CommandName_produce_spearman=trenuj pikiniera
 CommandName_upgrade_spear_weapons=ulepsz włócznie
 UnitTypeName_farm=farma
 ; --------------------
@@ -110,7 +110,7 @@ LevelName_elite=Elitarny
 ; Types of Commands for this Unit
 CommandName_stop=Stop
 CommandName_move=Idź
-CommandName_speedup_priest_production=przyspiesz trening kapłana
+CommandName_speedup_priest_production=przyspiesz przywołania
 CommandName_heal=Wylecz
 CommandName_produce_mummy=przywołaj mumię
 CommandName_produce_anubis_warrior=przywołaj wojownika Anubisa
@@ -132,7 +132,7 @@ LevelName_legendary=Legendarny
 ; Types of Commands for this Unit
 CommandName_stop=Stop
 CommandName_move=Idź
-# CommandName_dung_attack=dung_attack
+CommandName_dung_attack=wyrzut błota
 CommandName_hold_position=Utrzymaj pozycję
 UnitTypeName_slave=Niewolnik
 ; --------------------
@@ -156,7 +156,7 @@ CommandName_stop=Stop
 CommandName_move=Idź
 CommandName_poison_shot=Zatruty strzał
 CommandName_hold_position=Utrzymaj pozycję
-UnitTypeName_spearman=Włócznik
+UnitTypeName_spearman=Pikinier
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elitarny
@@ -165,7 +165,7 @@ LevelName_elite=Elitarny
 CommandName_stop=Stop
 CommandName_move=Idź
 CommandName_attack=Atakuj
-UnitTypeName_spearthrower=miotacz włóczni
+UnitTypeName_spearthrower=Oszczepnik
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elitarny
@@ -278,7 +278,7 @@ CommandName_stop=Stop
 CommandName_move=Idź
 CommandName_attack=Atakuj
 CommandName_hold_position=Utrzymaj pozycję
-# UnitTypeName_horsefarm=horsefarm
+UnitTypeName_horsefarm=stadnina
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -316,7 +316,7 @@ UnitTypeName_roundtent=okrągły namiot
 CommandName_produce_axe_indian=trenuj topornika
 CommandName_produce_axe_thrower=trenuj miotacza toporów
 CommandName_produce_fire_archer=trenuj łucznika - ogniste strzały
-CommandName_produce_spearman=trenuj pinikiera
+CommandName_produce_spearman=trenuj pikiniera
 CommandName_create_training_field=odkryj formację
 UnitTypeName_shaman=szaman
 ; --------------------
@@ -330,7 +330,7 @@ CommandName_heal=Wylecz
 CommandName_molotov=koktajl mołotowa
 CommandName_produce_thunderbird=przywołaj ognistego ptaka
 CommandName_build_beehive=buduj ul
-UnitTypeName_spearman=Włócznik
+UnitTypeName_spearman=Pikinier
 ; --------------------
 ; Levels for this Unit
 LevelName_guardian=strażnik
@@ -365,8 +365,8 @@ LevelName_expert=Ekspert
 ; Types of Commands for this Unit
 CommandName_stop=Stop
 CommandName_move=Idź
-CommandName_throw=rzucaj
-CommandName_breath=oddech
+CommandName_throw=błyskawica
+CommandName_breath=ognisty oddech
 CommandName_hold_position=Utrzymaj pozycję
 UnitTypeName_totem=totem
 ; --------------------
@@ -456,7 +456,7 @@ LevelName_ancient=Starożytny
 ; Types of Commands for this Unit
 CommandName_stop=Stop
 CommandName_move=Idź
-CommandName_breath=oddech
+CommandName_breath=ognisty oddech
 CommandName_hold_position=Utrzymaj pozycję
 CommandName_promote_to_evil_dragon=ulepsz do potwornego smoka
 UnitTypeName_drake_rider=smoczy jeździec
@@ -484,9 +484,9 @@ LevelName_expert=Ekspert
 ; Types of Commands for this Unit
 CommandName_stop=Stop
 CommandName_move=Idź
-CommandName_breath=oddech
+CommandName_breath=ognisty oddech
 CommandName_hold_position=Utrzymaj pozycję
-# UnitTypeName_ghost_armor=ghost_armor
+UnitTypeName_ghost_armor=zbrojny duch
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=Starożytny
@@ -694,14 +694,14 @@ UnitTypeName_house=dom
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_produce_cudgel_lady=produce_cudgel_lady
-CommandName_produce_spearman=trenuj pinikiera
+CommandName_produce_spearman=trenuj pikiniera
 # UnitTypeName_med_bar=med_bar
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_produce_cudgel_lady=produce_cudgel_lady
-CommandName_produce_spearman=trenuj pinikiera
+CommandName_produce_spearman=trenuj pikiniera
 # CommandName_research_med=research_med
 # UnitTypeName_mistletree=mistletree
 ; --------------------
@@ -712,7 +712,7 @@ CommandName_air_on=atak p.lot wł.
 CommandName_attack_off=wyłącz atak
 CommandName_research_root=odkryj korzeń
 # CommandName_resurrect_wild_sow=resurrect_wild_sow
-UnitTypeName_spearman=Włócznik
+UnitTypeName_spearman=Pikinier
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elitarny
@@ -763,7 +763,7 @@ UnitTypeName_thor=Tor
 CommandName_stop=Stop
 CommandName_move=Idź
 CommandName_attack=Atakuj
-CommandName_throw=rzucaj
+CommandName_throw=błyskawica
 CommandName_hold_position=Utrzymaj pozycję
 # UnitTypeName_thortotem=thortotem
 ; --------------------
@@ -800,7 +800,7 @@ CommandName_move=Idź
 CommandName_attack=Atakuj
 CommandName_airattack=atak p.lot
 CommandName_hold_position=Utrzymaj pozycję
-# UnitTypeName_wild_sow=wild_sow
+UnitTypeName_wild_sow=Locha
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1172,7 +1172,7 @@ CommandName_build_=buduj_
 CommandName_mine=Wydobywaj
 CommandName_harvest_wood=Zbieraj drewno
 CommandName_repair=Naprawiaj
-UnitTypeName_spearman=Włócznik
+UnitTypeName_spearman=Pikinier
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elitarny
@@ -1205,7 +1205,7 @@ UnitTypeName_training_camp=obóz szkoleniowy
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_spearman=trenuj pinikiera
+CommandName_produce_spearman=trenuj pikiniera
 CommandName_produce_archer=trenuj łucznika
 CommandName_produce_guard=trenuj strażnika
 CommandName_produce_swordsman=trenuj miecznika

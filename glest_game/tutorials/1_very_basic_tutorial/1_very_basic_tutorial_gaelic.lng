@@ -1,6 +1,6 @@
-TUTORIAL_NAME=1 Oideachadh fìor bhunasach
+TUTORIAL_NAME=1: Fìor bhunasach
 ;message headers
-GlestBasicTutorial=Oideachadh fìor-bhunasach MegaGlest
+GlestBasicTutorial=Oideachadh fìor bhunasach MegaGlest
 WellDone=Glè mhath!
 Resources=Stòrasan
 Combat=Cath
@@ -9,7 +9,7 @@ Tricks=Cleasan
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-Welcome=Fàilte dhan oideachadh fìor-bhunasach aig MegaGlest.
+Welcome=Fàilte dhan oideachadh fìor bhunasach aig MegaGlest.
 
 FirstThing=Sealladh: Gus an roinn a chì thu air an sgìn atharrachadh, gluais an luchag gu oir na sgrìn, no cleachd na h-iuchraichean saighde. 'S urrainn dhut briogadh leis a' phutan chlì air a' mheanbh-mhapa cuideachd (oisean iar-thuath na sgrìn).
 

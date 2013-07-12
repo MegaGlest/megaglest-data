@@ -26,12 +26,12 @@ ResourceTypeName_stone=steen
 ResourceTypeName_wood=hout
 ; -----------------
 ; Types of Factions
-# FactionName_*Observer*=*Observer*
-# FactionName_*Random*=*Random*
+FactionName_*Observer*=*Observer*
+FactionName_*Random*=*Random*
 FactionName_egypt=Egypte
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_power_of_ra=power_of_ra
+UpgradeTypeName_power_of_ra=macht_van_ra
 UpgradeTypeName_spear_weapons=speer_wapens
 UpgradeTypeName_speedup_priest_production=versnel_productie_van_priester
 UpgradeTypeName_summon_ibis=ontbied_ibis
@@ -114,7 +114,7 @@ CommandName_speedup_priest_production=versnel_productie_van_priester
 CommandName_heal=genezen
 CommandName_produce_mummy=produceer_mummie
 CommandName_produce_anubis_warrior=produceer_anubis_krijger
-# CommandName_ice_nova=ice_nova
+CommandName_ice_nova=ijs_nova
 CommandName_hold_position=houd_positie
 UnitTypeName_pyramid=piramide
 ; --------------------
@@ -154,7 +154,7 @@ LevelName_master=meester
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_poison_shot=poison_shot
+CommandName_poison_shot=gif_shot
 CommandName_hold_position=houd_positie
 UnitTypeName_spearman=speerman
 ; --------------------
@@ -190,7 +190,7 @@ UnitTypeName_temple=tempel
 CommandName_produce_priest=produceer_priester
 CommandName_research_scarab=onderzoek_scarabee
 CommandName_research_ibis=onderzoek_ibis
-# CommandName_get_power_of_ra=get_power_of_ra
+CommandName_get_power_of_ra=krijg_macht_van_ra
 FactionName_indian=indiaan
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -255,7 +255,7 @@ UnitTypeName_campfire=kampvuur
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_firegolem=produce_firegolem
+CommandName_produce_firegolem=produceer_vuurgolem
 CommandName_research_iron=onderzoek_ijzer
 CommandName_research_iron_advanced=onderzoek_ijzer_geavanceerd
 UnitTypeName_fire_archer=vuur_boogschutter
@@ -313,11 +313,11 @@ UnitTypeName_roundtent=ronde tent
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_axe_indian=produce_axe_indian
-# CommandName_produce_axe_thrower=produce_axe_thrower
-# CommandName_produce_fire_archer=produce_fire_archer
+CommandName_produce_axe_indian=produceer_bijl_indiaan
+CommandName_produce_axe_thrower=produceeer_vuurwerper
+CommandName_produce_fire_archer=produceer_vuurboogschieter
 CommandName_produce_spearman=produceer_speerdrager
-# CommandName_create_training_field=create_training_field
+CommandName_create_training_field=creëer_trainingsveld
 UnitTypeName_shaman=sjamaan
 ; --------------------
 ; Levels for this Unit
@@ -329,7 +329,7 @@ CommandName_repair=repareren
 CommandName_heal=genezen
 CommandName_molotov=molotovcocktail
 CommandName_produce_thunderbird=produceer_dondervogel
-# CommandName_build_beehive=build_beehive
+CommandName_build_beehive=bouw_bijenkorf
 UnitTypeName_spearman=speerman
 ; --------------------
 ; Levels for this Unit
@@ -374,9 +374,9 @@ UnitTypeName_totem=totem
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen_uit
-# CommandName_air_on=air_on
-# CommandName_research_petroleum=research_petroleum
-# CommandName_produce_shaman=produce_shaman
+CommandName_air_on=lucht_aan
+CommandName_research_petroleum=onderzoek_olie
+CommandName_produce_shaman=produceer_sjamaan
 UnitTypeName_worker=arbeider
 ; --------------------
 ; Levels for this Unit
@@ -391,15 +391,15 @@ CommandName_repair=repareren
 FactionName_magic=magie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_ancient_summoning=ancient_summoning
+UpgradeTypeName_ancient_summoning=oudheidkundig_ontbieden
 UpgradeTypeName_dragon_call=drakenroep
-# UpgradeTypeName_energy_compression=energy_compression
-# UpgradeTypeName_energy_sharpening=energy_sharpening
-# UpgradeTypeName_golem_power=golem_power
+UpgradeTypeName_energy_compression=energie_compensatie
+UpgradeTypeName_energy_sharpening=energie_bundelen
+UpgradeTypeName_golem_power=golem_kracht
 UpgradeTypeName_hell_gate=hellepoort
 ; -------------------------------
 ; Types of Units for this Faction
-# UnitTypeName_archmage=archmage
+UnitTypeName_archmage=oppertovenaar
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
@@ -409,16 +409,16 @@ LevelName_legendary=legendarisch
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_ice_nova=ice_nova
+CommandName_ice_nova=ijs_nova
 CommandName_static_fire=statisch_vuur
 CommandName_hold_position=houd_positie
-# UnitTypeName_archmage_tower=archmage_tower
+UnitTypeName_archmage_tower=oppertovenaar_toren
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_research_dragon_call=onderzoek_drakenroep
-# CommandName_golem_power=golem_power
+CommandName_golem_power=golem_kracht
 UnitTypeName_battlemage=strijdmagier
 ; --------------------
 ; Levels for this Unit
@@ -430,7 +430,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_fire_bolt=vuur_tong
 CommandName_hold_position=houd_positie
-# CommandName_promote_to_archmage=promote_to_archmage
+CommandName_promote_to_archmage=promoveer_tot_oppertovenaar
 UnitTypeName_behemoth=behemoth
 ; --------------------
 ; Levels for this Unit
@@ -458,8 +458,8 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_breath=ademen
 CommandName_hold_position=houd_positie
-# CommandName_promote_to_evil_dragon=promote_to_evil_dragon
-# UnitTypeName_drake_rider=drake_rider
+CommandName_promote_to_evil_dragon=promoveer_tot_wreede_draak
+UnitTypeName_drake_rider=eenden_rijder
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
@@ -468,15 +468,15 @@ LevelName_master=meester
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_fire_breath=fire_breath
+CommandName_fire_breath=vuur_adem
 CommandName_flare=gloed
 CommandName_hold_position=houd_positie
-# UnitTypeName_energy_source=energy_source
+UnitTypeName_energy_source=energiebron
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# UnitTypeName_evil_dragon=evil_dragon
+UnitTypeName_evil_dragon=kwaadaardige_draak
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
@@ -486,7 +486,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_breath=ademen
 CommandName_hold_position=houd_positie
-# UnitTypeName_ghost_armor=ghost_armor
+UnitTypeName_ghost_armor=geest_pantser
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
@@ -506,7 +506,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# CommandName_promote_to_power_golem=promote_to_power_golem
+CommandName_promote_to_power_golem=promoveer_tot_macht_golem
 UnitTypeName_initiate=initiëren
 ; --------------------
 ; Levels for this Unit
@@ -520,22 +520,22 @@ CommandName_build=bouw
 CommandName_ritual=ritueel
 CommandName_mine=mijn
 CommandName_harvest=oogsten
-# CommandName_promote_to_battlemage=promote_to_battlemage
+CommandName_promote_to_battlemage=promoveer_tot_strijdtovenaar
 UnitTypeName_library=bibliotheek
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_research_energy_compression=research_energy_compression
-# CommandName_research_energy_sharpening=research_energy_sharpening
-# CommandName_research_hell_gate=research_hell_gate
-# UnitTypeName_mage_tower=mage_tower
+CommandName_research_energy_compression=onderzoek_energie_compensatie
+CommandName_research_energy_sharpening=onderzoek_energie_bundeling
+CommandName_research_hell_gate=onderzoek_hellepoort
+UnitTypeName_mage_tower=tovenaarstoren
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_initiate=produce_initiate
-# UnitTypeName_power_golem=power_golem
+CommandName_produce_initiate=produceer_beginner
+UnitTypeName_power_golem=macht_golem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
@@ -554,38 +554,38 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_flare=gloed
 CommandName_hold_position=houd_positie
-# CommandName_summon_daemon=summon_daemon
-# CommandName_summon_ghost_armor=summon_ghost_armor
-# CommandName_summon_dragon=summon_dragon
-# CommandName_summon_drake=summon_drake
-# UnitTypeName_summoner_guild=summoner_guild
+CommandName_summon_daemon=ontbied_demon
+CommandName_summon_ghost_armor=ontbied_geest_pantser
+CommandName_summon_dragon=ontbied_draak
+CommandName_summon_drake=ontbied_draak
+UnitTypeName_summoner_guild=ontbieder_gilde
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_summoner=produce_summoner
-# CommandName_research_ancient_summoning=research_ancient_summoning
-# UnitTypeName_tower_of_souls=tower_of_souls
+CommandName_produce_summoner=produceer_ontbieder
+CommandName_research_ancient_summoning=onderzoek_oudheidkundig_ontbieden
+UnitTypeName_tower_of_souls=toren_van_zielen
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen_uit
 CommandName_attack_on=aanvallen_aan
-# UnitTypeName_wicker_behemoth=wicker_behemoth
+UnitTypeName_wicker_behemoth=rieten_behemoth
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_promote_to_behemoth=promote_to_behemoth
+CommandName_promote_to_behemoth=promoveer_tot_behemoth
 FactionName_norsemen=Noormannen
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_advanced_iron=advanced_iron
+UpgradeTypeName_advanced_iron=geavanceerd_ijzer
 UpgradeTypeName_arrow=pijl
-# UpgradeTypeName_holy_valkyrie=holy_valkyrie
+UpgradeTypeName_holy_valkyrie=heilige_walkure
 UpgradeTypeName_iron=ijzer
-# UpgradeTypeName_med=med
+UpgradeTypeName_med=honingdrank
 UpgradeTypeName_root=wortel
 ; -------------------------------
 ; Types of Units for this Faction
@@ -615,8 +615,8 @@ UnitTypeName_battleaxe=strijdbijl
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
-# CommandName_promote_to_battleaxe=promote_to_battleaxe
-# UnitTypeName_battleaxe_berzerk=battleaxe_berzerk
+CommandName_promote_to_battleaxe=promoveer_tot_strijdbijl
+UnitTypeName_battleaxe_berzerk=waanzinnig_strijdbijl
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -629,25 +629,25 @@ UnitTypeName_blacksmith=smid
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_upgrade_iron=upgrade_iron
-# CommandName_upgrade_arrow=upgrade_arrow
-# CommandName_upgrade_advanced_iron=upgrade_advanced_iron
-# CommandName_produce_crossbow=produce_crossbow
-# UnitTypeName_bone_tent=bone_tent
+CommandName_upgrade_iron=waardeer_ijzer_op
+CommandName_upgrade_arrow=waardeer_pijl_op
+CommandName_upgrade_advanced_iron=waardeer_geavanceerd_ijzer_op
+CommandName_produce_crossbow=produceer_kruisboog
+UnitTypeName_bone_tent=botten_tent
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_swordman=produce_swordman
+CommandName_produce_swordman=produceer_zwaardman
 CommandName_produce_archer=produceer_boogschutter
-# CommandName_produce_battleaxe=produce_battleaxe
-# CommandName_produce_axe_thrower=produce_axe_thrower
+CommandName_produce_battleaxe=produceer_strijdbijl
+CommandName_produce_axe_thrower=produceeer_vuurwerper
 UnitTypeName_castle=kasteel
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_thrull=produce_thrull
+CommandName_produce_thrull=produceer_troll
 UnitTypeName_cow=koe
 ; --------------------
 ; Levels for this Unit
@@ -662,9 +662,9 @@ UnitTypeName_crossbow=kruisboog
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_attack_arrow=attack_arrow
+CommandName_attack_arrow=aanvalspijl
 CommandName_hold_position=houd_positie
-# UnitTypeName_cudgel_lady=cudgel_lady
+UnitTypeName_cudgel_lady=knuppel_vrouw
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -677,8 +677,8 @@ UnitTypeName_farm=boerderĳ
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cow=produce_cow
-# UnitTypeName_flyingvalkyrie=flyingvalkyrie
+CommandName_produce_cow=produceer_koe
+UnitTypeName_flyingvalkyrie=vliegende_walkure
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -693,25 +693,25 @@ UnitTypeName_house=huis
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
+CommandName_produce_cudgel_lady=produceer_knuppel_dame
 CommandName_produce_spearman=produceer_speerdrager
-# UnitTypeName_med_bar=med_bar
+UnitTypeName_med_bar=honingdrank_bar
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
+CommandName_produce_cudgel_lady=produceer_knuppel_dame
 CommandName_produce_spearman=produceer_speerdrager
-# CommandName_research_med=research_med
-# UnitTypeName_mistletree=mistletree
+CommandName_research_med=onderzoek_honingdrank
+UnitTypeName_mistletree=mistboom
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_air_on=air_on
+CommandName_air_on=lucht_aan
 CommandName_attack_off=aanvallen_uit
-# CommandName_research_root=research_root
-# CommandName_resurrect_wild_sow=resurrect_wild_sow
+CommandName_research_root=onderzoek_wortel
+CommandName_resurrect_wild_sow=herrijs_wilde_zeug
 UnitTypeName_spearman=speerman
 ; --------------------
 ; Levels for this Unit
@@ -722,8 +722,8 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# CommandName_promote_to_spearman=promote_to_spearman
-# UnitTypeName_spearman_berzerk=spearman_berzerk
+CommandName_promote_to_spearman=promoot_tot_speerman
+UnitTypeName_spearman_berzerk=waanzinnige_speerman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -743,8 +743,8 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# CommandName_promote_to_swordman=promote_to_swordman
-# UnitTypeName_swordman_berzerk=swordman_berzerk
+CommandName_promote_to_swordman=promoveer_tot_zwaardman
+UnitTypeName_swordman_berzerk=waanzinnige_zwaardman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -787,9 +787,9 @@ UnitTypeName_valhalla=walhalla
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_flyingvalkyrie=produce_flyingvalkyrie
-# CommandName_produce_valkyrie=produce_valkyrie
-# CommandName_research_holy_valkyrie=research_holy_valkyrie
+CommandName_produce_flyingvalkyrie=produceer_vliegendewalkure\n
+CommandName_produce_valkyrie=produceer_walkure
+CommandName_research_holy_valkyrie=onderzoek_heilige_walkure
 UnitTypeName_valkyrie=Walkure
 ; --------------------
 ; Levels for this Unit
@@ -800,7 +800,7 @@ CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_airattack=luchtaanval
 CommandName_hold_position=houd_positie
-# UnitTypeName_wild_sow=wild_sow
+UnitTypeName_wild_sow=wilde_zeug
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -811,7 +811,7 @@ CommandName_attack=aanvallen
 FactionName_persian=Pers
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_corn_and_wicker=corn_and_wicker
+UpgradeTypeName_corn_and_wicker=mais_en_riet
 UpgradeTypeName_magic_level_1=magisch_niveau_1
 UpgradeTypeName_magic_level_2=magisch_niveau_2
 UpgradeTypeName_nails=spijkers
@@ -825,7 +825,7 @@ UnitTypeName_blacksmith=smid
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_weapons=waardeer_wapens_op
-# CommandName_upgrade_nails=upgrade_nails
+CommandName_upgrade_nails=waardeer_nagels_op
 CommandName_upgrade_shield=waardeer_schild_op
 UnitTypeName_elephant=olifant
 ; --------------------
@@ -836,7 +836,7 @@ LevelName_elite=elite
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
-# CommandName_attack_arrow=attack_arrow
+CommandName_attack_arrow=aanvalspijl
 CommandName_hold_position=houd_positie
 UnitTypeName_elephant_cage=olifanten_kooi
 ; --------------------
@@ -860,7 +860,7 @@ UnitTypeName_farm=boerderĳ
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_sheep=produceer_schaap
-# CommandName_research_corn_and_wicker=research_corn_and_wicker
+CommandName_research_corn_and_wicker=onderzoek_mais_en_riet
 UnitTypeName_flying_carpet=vliegend_tapijt
 ; --------------------
 ; Levels for this Unit
@@ -965,17 +965,17 @@ UnitTypeName_temple=tempel
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_princess=produceer_prinses
-# CommandName_produce_swordman=produce_swordman
+CommandName_produce_swordman=produceer_zwaardman
 UnitTypeName_tent=tent
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_genie=produce_genie
+CommandName_produce_genie=produceer_geest
 CommandName_produce_flying_carpet=produceer_vliegend_tapijt
 CommandName_produce_magician=produceer_magiër
-# CommandName_upgrade_magic_level_1=upgrade_magic_level_1
-# CommandName_upgrade_magic_level_2=upgrade_magic_level_2
+CommandName_upgrade_magic_level_1=waardeer_toto_magie_niveau_1_op
+CommandName_upgrade_magic_level_2=waardeer_toto_magie_niveau_2_op
 UnitTypeName_worker=arbeider
 ; --------------------
 ; Levels for this Unit
@@ -991,14 +991,14 @@ CommandName_repair=repareren
 FactionName_romans=Romeinen
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_advanced_architecture=advanced_architecture
-# UpgradeTypeName_bless_of_minerva=bless_of_minerva
+UpgradeTypeName_advanced_architecture=geavanceerde_architectuur
+UpgradeTypeName_bless_of_minerva=zegen_van_minerva
 UpgradeTypeName_enlarge_shields=vergoot_schilden
 UpgradeTypeName_formations=formaties
 UpgradeTypeName_jupiter=jupiter
 UpgradeTypeName_reinforce_armor=versterk_pantser
-# UpgradeTypeName_sharpen_points=sharpen_points
-# UpgradeTypeName_sign_of_mars=sign_of_mars
+UpgradeTypeName_sharpen_points=bundel_punten
+UpgradeTypeName_sign_of_mars=tekens_van_mars
 UpgradeTypeName_strengthen_swords=versterk_zwaarden
 UpgradeTypeName_training_field=oefen_veld
 ; -------------------------------
@@ -1013,8 +1013,8 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# CommandName_get_fire_arrows=get_fire_arrows
-# UnitTypeName_axe_man=axe_man
+CommandName_get_fire_arrows=haal_vuurpijlen
+UnitTypeName_axe_man=bijlman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1032,7 +1032,7 @@ LevelName_elite=elite
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen_uit
 CommandName_attack_on=aanvallen_aan
-# UnitTypeName_battering_ram=battering_ram
+UnitTypeName_battering_ram=stormram
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1040,16 +1040,16 @@ LevelName_elite=elite
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_attack_land=attack_land
-# CommandName_attack_air=attack_air
+CommandName_attack_land=land_aanval
+CommandName_attack_air=lucht_aanval
 CommandName_hold_position=houd_positie
-# UnitTypeName_blacksmith_shop=blacksmith_shop
+UnitTypeName_blacksmith_shop=smidse
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_strengthen_swords=versterk_zwaarden
-# CommandName_sharpen_points=sharpen_points
+CommandName_sharpen_points=bundel_punten
 CommandName_reinforce_armor=versterk_pantser
 CommandName_enlarge_shields=vergoot_schilden
 UnitTypeName_catapult=katapult
@@ -1071,7 +1071,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# CommandName_promote_to_tribune=promote_to_tribune
+CommandName_promote_to_tribune=promoveer_tot_beschermer
 UnitTypeName_cow=koe
 ; --------------------
 ; Levels for this Unit
@@ -1079,7 +1079,7 @@ UnitTypeName_cow=koe
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# UnitTypeName_eagle_pillar=eagle_pillar
+UnitTypeName_eagle_pillar=arend_pilaar
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1103,7 +1103,7 @@ UnitTypeName_forum=forum
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=produceer_slaaf
-# CommandName_produce_cow=produce_cow
+CommandName_produce_cow=produceer_koe
 UnitTypeName_general=algemeen
 ; --------------------
 ; Levels for this Unit
@@ -1123,16 +1123,16 @@ LevelName_elite=elite
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_attack_land=attack_land
-# CommandName_attack_air=attack_air
+CommandName_attack_land=land_aanval
+CommandName_attack_air=lucht_aanval
 CommandName_hold_position=houd_positie
-# UnitTypeName_gladiator_school=gladiator_school
+UnitTypeName_gladiator_school=gladiator_school
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_train_gladiator=train_gladiator
-# CommandName_produce_axe_man=produce_axe_man
+CommandName_train_gladiator=train_gladiator
+CommandName_produce_axe_man=produceer_bijlman
 UnitTypeName_guard=bewaker
 ; --------------------
 ; Levels for this Unit
@@ -1150,17 +1150,17 @@ UnitTypeName_guard_tower=bewaak_toren
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen_uit
 CommandName_attack_on=aanvallen_aan
-# UnitTypeName_military_camp=military_camp
+UnitTypeName_military_camp=miltair_kamp
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cavalry=produce_cavalry
-# CommandName_produce_turtle_formation=produce_turtle_formation
-# CommandName_produce_general=produce_general
-# CommandName_produce_mechanic=produce_mechanic
-# CommandName_upgrade_advanced_architecture=upgrade_advanced_architecture
-# CommandName_upgrade_formations=upgrade_formations
+CommandName_produce_cavalry=produceer_cavalerie
+CommandName_produce_turtle_formation=produceer_schildpadden_formatie
+CommandName_produce_general=produceer_generaal
+CommandName_produce_mechanic=produceer_werktuigbouwkundige
+CommandName_upgrade_advanced_architecture=waardeer_geavanceerd_architectuur_op
+CommandName_upgrade_formations=waardeer_formaties_op
 UnitTypeName_slave=slaaf
 ; --------------------
 ; Levels for this Unit
@@ -1168,7 +1168,7 @@ UnitTypeName_slave=slaaf
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_build_=build_
+CommandName_build_=bouw_
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel_hout
 CommandName_repair=repareren
@@ -1197,19 +1197,19 @@ UnitTypeName_temple=tempel
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_research_sign_of_mars=research_sign_of_mars
-# CommandName_research_jupiter=research_jupiter
-# CommandName_upgrade_bless_of_minerva=upgrade_bless_of_minerva
-# UnitTypeName_training_camp=training_camp
+CommandName_research_sign_of_mars=onderzoek_tekens_van_mars
+CommandName_research_jupiter=onderzoek_jupiter
+CommandName_upgrade_bless_of_minerva=opwaarderen_tot_zegen_van_minerva
+UnitTypeName_training_camp=trainingskamp
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_spearman=produceer_speerdrager
 CommandName_produce_archer=produceer_boogschutter
-# CommandName_produce_guard=produce_guard
-# CommandName_produce_swordsman=produce_swordsman
-# CommandName_create_training_field=create_training_field
+CommandName_produce_guard=produceer_wacht
+CommandName_produce_swordsman=produceer_zwaardman
+CommandName_create_training_field=creëer_trainingsveld
 UnitTypeName_tribune=tribune
 ; --------------------
 ; Levels for this Unit
@@ -1220,7 +1220,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# UnitTypeName_turtle_formation=turtle_formation
+UnitTypeName_turtle_formation=schildpadden_formatie
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1230,7 +1230,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# UnitTypeName_wartime_mechanic=wartime_mechanic
+UnitTypeName_wartime_mechanic=oorlogs_werktuigbouwkundige
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1241,18 +1241,18 @@ CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
 CommandName_repair=repareren
 CommandName_heal=genezen
-# CommandName_build_catapult=build_catapult
-# CommandName_build_battering_ram=build_battering_ram
-# CommandName_build_ballista=build_ballista
-# FactionName_tech=tech
+CommandName_build_catapult=bouw_katapult
+CommandName_build_battering_ram=bouw_stormram
+CommandName_build_ballista=bouw_trebucket
+FactionName_tech=tech
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_advanced_architecture=advanced_architecture
-# UpgradeTypeName_blade_weapons=blade_weapons
-# UpgradeTypeName_piercing_weapons=piercing_weapons
+UpgradeTypeName_advanced_architecture=geavanceerde_architectuur
+UpgradeTypeName_blade_weapons=lemmet_wapens
+UpgradeTypeName_piercing_weapons=steekwapens
 UpgradeTypeName_robotics=robotica
-# UpgradeTypeName_shield_level_1=shield_level_1
-# UpgradeTypeName_shield_level_2=shield_level_2
+UpgradeTypeName_shield_level_1=schild_niveau_1
+UpgradeTypeName_shield_level_2=schild_niveau_2
 UpgradeTypeName_stables=stallen
 UpgradeTypeName_training_field=oefen_veld
 ; -------------------------------
@@ -1262,9 +1262,9 @@ UnitTypeName_aerodrome=luchthaven
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_ornithopter=produce_ornithopter
-# CommandName_produce_airship=produce_airship
-# UnitTypeName_air_ballista=air_ballista
+CommandName_produce_ornithopter=produceer_ornitopter
+CommandName_produce_airship=produceer_luchtschip
+UnitTypeName_air_ballista=lucht_trebucket
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1297,12 +1297,12 @@ UnitTypeName_barracks=barakken
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_swordman=produce_swordman
+CommandName_produce_swordman=produceer_zwaardman
 CommandName_produce_archer=produceer_boogschutter
-# CommandName_produce_guard=produce_guard
+CommandName_produce_guard=produceer_wacht
 CommandName_produce_horseman=produceer_ruiter
-# CommandName_create_training_field=create_training_field
-# UnitTypeName_battle_machine=battle_machine
+CommandName_create_training_field=creëer_trainingsveld
+UnitTypeName_battle_machine=strijd_machine
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1311,15 +1311,15 @@ LevelName_elite=elite
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
-# CommandName_attack_arrow=attack_arrow
+CommandName_attack_arrow=aanvalspijl
 CommandName_hold_position=houd_positie
 UnitTypeName_blacksmith=smid
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_upgrade_blade_weapons=upgrade_blade_weapons
-# CommandName_upgrade_piercing_weapons=upgrade_piercing_weapons
+CommandName_upgrade_blade_weapons=waardeer_lemmet_wapens_op
+CommandName_upgrade_piercing_weapons=waardeer_steekwapens_op
 CommandName_upgrade_shield=waardeer_schild_op
 CommandName_upgrade_shield=waardeer_schild_op
 UnitTypeName_castle=kasteel
@@ -1344,7 +1344,7 @@ UnitTypeName_cow=koe
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# UnitTypeName_defense_tower=defense_tower
+UnitTypeName_defense_tower=defensieve_toren
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1356,8 +1356,8 @@ UnitTypeName_farm=boerderĳ
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_pig=produce_pig
-# CommandName_produce_cow=produce_cow
+CommandName_produce_pig=produceer_varken
+CommandName_produce_cow=produceer_koe
 CommandName_research_stables=onderzoek_stallen
 UnitTypeName_guard=bewaker
 ; --------------------
@@ -1388,7 +1388,7 @@ LevelName_elite=elite
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_molotov=molotovcocktail
-# CommandName_fire_arrow=fire_arrow
+CommandName_fire_arrow=vuurpijl
 CommandName_hold_position=houd_positie
 UnitTypeName_pig=varken
 ; --------------------
@@ -1407,7 +1407,7 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd_positie
-# CommandName_promote_to_guard=promote_to_guard
+CommandName_promote_to_guard=promoveer_tot_wachter
 UnitTypeName_technician=technicus
 ; --------------------
 ; Levels for this Unit
@@ -1415,22 +1415,22 @@ UnitTypeName_technician=technicus
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-# CommandName_build_ultimate=build_ultimate
+CommandName_build_ultimate=bouw_ultieme
 CommandName_repair=repareren
 CommandName_heal=genezen
-# CommandName_mine_gold=mine_gold
+CommandName_mine_gold=delf_goud
 CommandName_molotov=molotovcocktail
-# CommandName_build_catapult=build_catapult
-# CommandName_build_battle_machine=build_battle_machine
-# CommandName_build_air_ballista=build_air_ballista
-# UnitTypeName_technodrome=technodrome
+CommandName_build_catapult=bouw_katapult
+CommandName_build_battle_machine=bouw_strijd_machine
+CommandName_build_air_ballista=bouw_lucht_trebuchet
+UnitTypeName_technodrome=technovliegveld
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_technician=produce_technician
-# CommandName_research_advanced_architecture=research_advanced_architecture
-# CommandName_research_robotics=research_robotics
+CommandName_produce_technician=produceer_technicus
+CommandName_research_advanced_architecture=onderzoek_geavanceerde_architectuur
+CommandName_research_robotics=onderzoek_robotica
 UnitTypeName_worker=arbeider
 ; --------------------
 ; Levels for this Unit
@@ -1439,7 +1439,7 @@ UnitTypeName_worker=arbeider
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_build_basic=bouw_elementair
-# CommandName_build_advanced=build_advanced
+CommandName_build_advanced=geavanceerd_bouwen
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel_hout
 CommandName_repair=repareren
