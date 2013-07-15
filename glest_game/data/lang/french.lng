@@ -27,7 +27,7 @@ AllowPlayerJoinTeam=Autoriser le joueur [%s] à rejoindre l'équipe\n(changement
 AllowInGameJoinPlayer=Le joueurs peuvent rejoindre la partie
 AmbientVolume=Ambiance Sonore:
 Amount=Montant
-# AnimatedTilesetObjects=Animated tileset objects
+AnimatedTilesetObjects=Objets en jeu de tuiles animés
 Animation=Animation
 Armor=Armure
 Attack=Attaque
@@ -457,7 +457,7 @@ ShadowMapping=Afficher les ombres
 Shadows=Ombres :
 ShadowTextureSize=Taille des ombres
 ShowMapPreview=Minimap
-# ShowNextHint=Next hint
+ShowNextHint=Astuce suivante
 ShowUnitParticles=Particules d'unité :
 ShowTilesetParticles=Particules de sols :
 Sight=Visibilité
@@ -576,5 +576,5 @@ FontConsolePostfix=$USE_DEFAULT_LANGUAGE_VALUE
 FontConsolePrefix=$USE_DEFAULT_LANGUAGE_VALUE
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-# ALLOWED_SPECIAL_KEYS=none
+ALLOWED_SPECIAL_KEYS=none
 
