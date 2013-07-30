@@ -26,8 +26,8 @@ ResourceTypeName_stone=kamień
 ResourceTypeName_wood=drewno
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=Obserwator
-FactionName_*Random*=Losowo
+FactionName_*Observer*=*Obserwator*
+FactionName_*Random*=*Losowo*
 FactionName_egypt=Egipt
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -388,7 +388,7 @@ CommandName_build_basic=Buduj podstawowe
 CommandName_mine=Wydobywaj
 CommandName_harvest_wood=Zbieraj drewno
 CommandName_repair=Naprawiaj
-FactionName_magic=magia
+FactionName_magic=Magicy
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_ancient_summoning=starożytne przywoływanie
@@ -578,7 +578,7 @@ UnitTypeName_wicker_behemoth=wiklinowa bestia
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_promote_to_behemoth=ulepsz do bestii
-# FactionName_norsemen=norsemen
+FactionName_norsemen=Normanowie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_iron=zaawansowana obróbka żelaza
@@ -988,7 +988,7 @@ CommandName_build_basic=Buduj podstawowe
 CommandName_mine=Wydobywaj
 CommandName_harvest_wood=Zbieraj drewno
 CommandName_repair=Naprawiaj
-FactionName_romans=Romanie
+FactionName_romans=Rzymianie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=zaawansowana architektura
@@ -1244,7 +1244,7 @@ CommandName_heal=Wylecz
 CommandName_build_catapult=buduj katapultę
 CommandName_build_battering_ram=buduj taran
 CommandName_build_ballista=buduj balistę
-FactionName_tech=Tech
+FactionName_tech=Technicy
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=zaawansowana architektura

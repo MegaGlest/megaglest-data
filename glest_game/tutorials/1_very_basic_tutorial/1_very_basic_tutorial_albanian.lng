@@ -1,0 +1,77 @@
+TUTORIAL_NAME=#1 Tutoriali Baze
+;message headers
+GlestBasicTutorial=MegaGlest Tutoriali Baze
+WellDone=Shume bukur!
+Resources=Resurset
+Combat=Luftimi
+Buildings=Ndertesat
+Tricks=Truqet
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Mire se vini ne tutorialin baze te MegaGlest
+
+FirstThing=Shikimi: Per te e rregulluar zonen e dukshme, levizni miun ne cepat e ekranit ose perdorni shigjetat ne tastier. Nje menyre tjeter eshte te klikoni ne Harten e Vogel (lart-majtas ne ekran).
+
+WillBeUsingIndian=Ne kete mesim, ju komandoni Indianet. Fraksioni i Indianeve lufton me shigjetare dhe arme te thjeshta.
+
+NeedWorkers=Se pari na duhet nje Punetor. Per te e marre nje, klikoni me te majten e miut ne Maintipi (Ndertesa kryesore) dhe filloni te prodhoni nje punetor. Per te e bere ate klikoni ne ikonen 'Prodho Punetor' per te e dhene komanden.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Tash klikoni me te majten e miut mbi Punetor. Detajet mbi njesitin e zgjedhur shfaqen ne pjesen e djatht te ekranit. Aty mund te e shihni Shendetin, Mburojen, Shikueshmerin etj.
+Select2=Ne qoftese eshte njesit i betejave, numri i armiqeve te shkatrruar eshte i listuar. Ne qoftese konsumon resurse, kjo shfaqet ne kete fushe. Poshte kesaj tregon per njesitin aktual se cfare eshte duke bere.
+
+ExampleWorker=Per shembull, Punetori juaj e ka Shendetin 600, 0 Mburoje te Lekures dhe Shikueshmerin 9. Gjendja e tij momentale eshte "ndalur", pra ai nuk eshte duke bere asgje.
+
+Command=Aftesit e njesitit jane te listuara me poshte. Tash ne do te mesojme te gjitha komandatat per nje Punetor.
+
+FirstCommand=Komanda e pare eshte 'ndalu'. Ne qoftese klikoni mbi kete komande, Punetori menjeher do te ndalet. Te gjitha njesitet (ato qe nuk jane ndertesa) e kane kete komande.
+
+SecondCommand=Komanda e dyte eshte 'leviz'. Ne qoftese e klikoni, ju pastaj duhet te klikoni dikund ne Toke apo ndonje Njesit tjeter per te i treguar se ku duhet te leviz. Nje komande e shkurter per kete eshte vetem te zgjedhni Njesitin dhe me te majten e miut te klikoni se ku deshironi ta levizni.
+SecondCommand2=Ne qoftese vendosni miun mbi komanden 'leviz', ju shfaqet Shpejtesia e Levizjes e Punetorit. Kjo komand gjithashtu eshte e pranishme ne te gjitha Njesitet (perveq ndertesave).
+
+TestSecondCommand=Provoni komanden "leviz" tash. Levizni Punetorin te Punetori tjeter qe eshte duge pritur jasht kampit. Punetori tjeter eshte shfaqur Harten e Vogel si pike e kuqe. Trekendshi i bardhe ne Harten e Vogel tregon poziten aktualte te kameres. Pikae madhe e kuqe eshte Maintipi (Shtepia Kryesore) e juaj.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Mire. Tash beji te gjithe Punetoret te kthehen ne Maintipi (Shtepin Kryesore). Per te zgjedhur shume njesite, shtypni Shift dhe vizatoni nje katror rreth njesiteve qe deshironi te i zgjidhni OSE ...
+MoveBack2=... mbajeni te shtypur Shift-in, dhe pastaj zgjedhi nje nga nje me miun.
+MoveBack3=... klikoni dy her shpejt me miun per te i zgjedhur te gjitha njesitet afer (Punetoret ne kete rast).
+HarvestGoldandStone=Kur njesitet kan arritur ne shtepi, ne do te perdorim komanden e katert per te mbledhur Ari dhe Guri.
+HarvestGoldandStone2=Vendosni miun mbi ikone per te e pare se sa shpejt Punetoret mund te mbledhin.
+UseHarvestGoldandStone=Per te e perdorur kete komand, se pari klikoni ne ikonen e komandes, pastaj ne resurset qe deshironi te i mblidhni. Gurezit e hint me pika te verdha jane Ari, ato pa pika jane Gure te rendomt.
+HarvestGoldandStone3=Tash mbledhni Ari dhe Guri deri sate i beni 600 Ari dhe 550 Guri. Ju gjithashtu mund te prodhoni Punetore te tjere (por ata do te ju kushtojne Ari gjithashtu). Shihni lart ne ekran per te pare se sa resurse keni per momentin.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Tash ju duhet edhe pake Dru. Per te mbledhur Dru perdorni komanden e peste. Kjo gjithashtu eshte komande per te mbledhur sikur per Ari dhe Guri.
+ResourceInformation=Pasi qe ra fjala, fraksioni i Indianeve me se shumti i duhet Ari dhe Druri.
+GetWood=Nje keshille tjeter, per te e bere kete proces me shpejt, klikoni mbi Punetore dhe pastaj me te djathten e miut klikoni ne vendin se ku deshironi te mbledhni Ari, Guri apo Dru. Ne raste te suksesit nje shigjete e verdhe do te paraqitet. Tash mbledhni Dru deri sa te i keni 550.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Kur e zgjedhni nje Ndertese, shfaqet nje shigjete e kalter. Kjo shigjete drejtohet tek Pika e Takimeve. Te gjitha Njesitet qe prodhohen ne kete Ndertese, levizin tek ky vend menjeher pas prodhimit.
+UseMeetingPoint=Ju mund te e ndryshoni Piken e Takimit gjithashtu. Klikoni mbi Ikonen me Flamur dhe pastaj ne poziten se ku duhet te jete Pika e Takimit. Gjithashtu mund te e perdorni komanden per shpejtesi si me heret.
+MeetingPoint2=Ne qoftese e zgjedhni Piken e Takimit mbi ndonje resurs, Punetoret te cilen prodhohen me pas , menjeher fillojn te mbledhin resursin. Sigurohuni qe te zgjidhni piken e duhur mbi resurs, perndryshe punetoret vetem do te rrijne rreth resursit.
+Thirdcommand=Komanda e trete e Punetorit eshte komanda "Nderto".
+Thirdcommand2=Duke e kilikuar ate ju shfaqet Menyja e Ndertimeve. Ne qoftese e vendosni miun mbi ndonje ndertese, i shini te listuara me poshte "Kerkesat" e te gjitha resurseve dhe arritjeve qe ju duhen.
+Thirdcommand3=Ne qoftese e vendosni miun mbi Tende e shini se ju duhen 30 Ari, 50 Dru, -10 Mirembajtje. -10 Mirembatje do te thote qe me ndertimin e Tendes ju prodhoni akomodim per 10 Njesite (edhe pse disa Njesite kerkojne me shume se 1 ushqim)
+Thirdcommand4=Le ta ndertojm nje Tende tash. Kliko ne Menyn e Ndertimeve, pastaj tek Tenda,dhe vendose ne nje hapsire te zbrazet ne Toke.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=Tash mund te e prodhoni nje Luftues me Shkop ne Tenden tuaj te re.
+
+;objective strings
+ProduceWorker=Objektiva: Prodho nje Punetor.
+ProduceStickfighter2=Objektiva: Prodho nje Luftues me Shkop
+MoveWorker=Objektiva: Leviz Punetorin tuaj te ri afer Punetoreve te tjere qe jane duke pritur jasht kampit.
+HarvestGoldandStoneobjective=Objektiva: Mbledh Ari dhe Guri deri sa te keni 600 Ari dhe 550 Guri.
+GetWoodob=Objektiva: Mbledhni Dru deri sa te keni 550.
+UseThirdCommand=Objektiva: Nderto nje Tende. Keshille: Ne qoftese Tenda behet e kuqe, kjo do te thote qe pozita eshte e zene (nga ndonje Njesit, Peme, etj.)
+
+;end
+
+WellDoneNextTutorial=Shume bukur! Ju tash mund te kaloni ne tutorialin tjeter.
