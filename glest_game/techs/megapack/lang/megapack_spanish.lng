@@ -302,7 +302,7 @@ UnitTypeName_mainteepee=tipi principal
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_worker=producir_trabajador
-UnitTypeName_reed=lengüeta
+UnitTypeName_reed=cañaveral
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------

@@ -20,7 +20,7 @@ AttackTypeName_beat=slaan
 ; Types of Resources
 ResourceTypeName_energy=energie
 ResourceTypeName_food=voedsel
-ResourceTypeName_gold=hout
+ResourceTypeName_gold=goud
 ResourceTypeName_housing=huisvesting
 ResourceTypeName_stone=steen
 ResourceTypeName_wood=hout

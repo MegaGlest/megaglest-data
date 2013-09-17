@@ -15,7 +15,7 @@ AttackTypeName_energy=énergie
 AttackTypeName_sword=épée
 AttackTypeName_arrow=flèche
 AttackTypeName_magic=magie
-# AttackTypeName_beat=beat
+AttackTypeName_beat=battement
 ; ------------------
 ; Types of Resources
 ResourceTypeName_energy=énergie

@@ -286,7 +286,7 @@ CommandName_attack=攻击
 # CommandName_produce_horseman=produce_horseman
 # CommandName_produce_bull=produce_bull
 # CommandName_research_stables=research_stables
-# UnitTypeName_horseman=horseman
+UnitTypeName_horseman=骑兵
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -302,7 +302,7 @@ CommandName_attack=攻击
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_produce_worker=produce_worker
-# UnitTypeName_reed=reed
+UnitTypeName_reed=芦苇
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -350,7 +350,7 @@ CommandName_stop=tzhi
 CommandName_move=移动
 CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_tent=tent
+UnitTypeName_tent=帐篷
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -377,7 +377,7 @@ CommandName_move=移动
 # CommandName_air_on=air_on
 # CommandName_research_petroleum=research_petroleum
 # CommandName_produce_shaman=produce_shaman
-# UnitTypeName_worker=worker
+UnitTypeName_worker=工人
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -521,7 +521,7 @@ CommandName_repair=修复
 # CommandName_mine=mine
 # CommandName_harvest=harvest
 # CommandName_promote_to_battlemage=promote_to_battlemage
-# UnitTypeName_library=library
+UnitTypeName_library=图书馆
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -733,7 +733,7 @@ CommandName_stop=tzhi
 CommandName_move=移动
 CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_swordman=swordman
+UnitTypeName_swordman=剑士
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -808,7 +808,7 @@ CommandName_attack=攻击
 CommandName_stop=tzhi
 CommandName_move=移动
 CommandName_attack=攻击
-# FactionName_persian=persian
+FactionName_persian=波斯人
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 # UpgradeTypeName_corn_and_wicker=corn_and_wicker
@@ -816,7 +816,7 @@ CommandName_attack=攻击
 # UpgradeTypeName_magic_level_2=magic_level_2
 # UpgradeTypeName_nails=nails
 # UpgradeTypeName_shield=shield
-# UpgradeTypeName_weapons=weapons
+UpgradeTypeName_weapons=武器
 ; -------------------------------
 ; Types of Units for this Faction
 # UnitTypeName_blacksmith=blacksmith
@@ -924,7 +924,7 @@ CommandName_stop=tzhi
 CommandName_move=移动
 CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_sheep=sheep
+UnitTypeName_sheep=羊
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -949,7 +949,7 @@ CommandName_stop=tzhi
 CommandName_move=移动
 CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_swordman=swordman
+UnitTypeName_swordman=剑士
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -966,7 +966,7 @@ CommandName_attack=攻击
 ; Types of Commands for this Unit
 # CommandName_produce_princess=produce_princess
 # CommandName_produce_swordman=produce_swordman
-# UnitTypeName_tent=tent
+UnitTypeName_tent=帐篷
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -976,7 +976,7 @@ CommandName_attack=攻击
 # CommandName_produce_magician=produce_magician
 # CommandName_upgrade_magic_level_1=upgrade_magic_level_1
 # CommandName_upgrade_magic_level_2=upgrade_magic_level_2
-# UnitTypeName_worker=worker
+UnitTypeName_worker=工人
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1061,7 +1061,7 @@ CommandName_stop=tzhi
 CommandName_move=移动
 # CommandName_fire_ball=fire_ball
 # CommandName_hold_position=hold_position
-# UnitTypeName_cavalry=cavalry
+UnitTypeName_cavalry=骑兵
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -1097,14 +1097,14 @@ CommandName_stop=tzhi
 CommandName_move=移动
 CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_forum=forum
+UnitTypeName_forum=论坛
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=生产奴隶
 # CommandName_produce_cow=produce_cow
-# UnitTypeName_general=general
+UnitTypeName_general=将军
 ; --------------------
 ; Levels for this Unit
 # LevelName_esteemed=esteemed
@@ -1369,7 +1369,7 @@ CommandName_stop=tzhi
 CommandName_move=移动
 CommandName_attack=攻击
 # CommandName_hold_position=hold_position
-# UnitTypeName_horseman=horseman
+UnitTypeName_horseman=骑兵
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -1397,7 +1397,7 @@ CommandName_move=移动
 ; Types of Commands for this Unit
 CommandName_stop=tzhi
 CommandName_move=移动
-# UnitTypeName_swordman=swordman
+UnitTypeName_swordman=剑士
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -1431,7 +1431,7 @@ CommandName_heal=治疗
 # CommandName_produce_technician=produce_technician
 # CommandName_research_advanced_architecture=research_advanced_architecture
 # CommandName_research_robotics=research_robotics
-# UnitTypeName_worker=worker
+UnitTypeName_worker=工人
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------

@@ -1,4 +1,4 @@
-# SCENARIO_NAME=Capture the flag
+SCENARIO_NAME=Ukořistění vlajky
 ;message headers
 CaptureFlag=Ukořistění vlajky
 Warning=Varování

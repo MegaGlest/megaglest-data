@@ -1,5 +1,5 @@
 hint1=Puoi impostare il nome del giocatore nel menù 'opzioni',\naccessibile dal menù principale.
-# hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
+hint2=Per selezionare lavoratori in attesa, premi il pulsante '#HotKeySelectIdleHarvesterUnit#', poi premi '#HotKeyCenterCameraOnSelection#' per spostarli.
 hint3=Per (dis)attivare la chat in squadra, premi '#ChatTeamMode#' (mentre non sei in chat).
 hint4=Per vedere uno storico chat più lungo, tieni premuto '#ShowfullConsole#'.
 hint5=Puoi raggruppare le unità selezionandole, e premento Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10#.\nRichiama un gruppo premendo il numero assegnato.\nPremilo due volte e centrerai la visuale sul gruppo.
@@ -23,7 +23,7 @@ hint28=Ora puoi indicare alla tua squadra qualsiasi punto sulla mappa.\nTieni pr
 hint34=Per imparare a ospitare partite tue, vedi\nhttp://FAQ.megaglest.org
 hint36=Per mettere un segnale permanente sulla mappa\npremi '#BookmarkAdd#', poi clicca sulla mappa.\nPer rimuoverlo, '#BookmarkRemove#' e un altro click.
 hint38=Su Linux e OS X, premi Alt+Invio in qualsiasi momento\nper passare tra finestra e schermo intero.
-# hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
+hint42=Per seguire un'unità in modalità terza persona,\nseleziona l'unità e premi il tasto '#CameraFollowSelectedUnit#'.\nPer tornare alla modalità normale premi #ResetCameraMode#.
 hint43=Linux è il miglior sistema operativo... di sempre... punto :)
 hint44=Il software libero ha reso questo gioco possibile, considera come puoi\naiutare comunità come fsf.org e sourceforge.net
-# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org
+hint45=E' una traduzione dimenticata o sbagliata? Per favore aiuta a tradurre MegaGlest! http://translate.megaglest.org

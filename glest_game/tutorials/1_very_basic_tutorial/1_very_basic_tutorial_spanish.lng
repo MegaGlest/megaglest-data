@@ -11,20 +11,20 @@ Tricks=Trucos
 ;------------------------------------------Start------------------------------------------------
 Welcome=Bienvenido al tutorial de MegaGlest.
 
-FirstThing=Vista: Para ajustar el area visible, mueve tu ratón hacia los extremos de la pantalla, o puedes usar las teclas del cursor. Otra forma de hacerlo es pulsando sobre el botón derecho en el mini mapa (en la esquina superior izquierda de tu pantalla)
+FirstThing=Vista: Para ajustar el área visible, mueve tu ratón hacia los extremos de la pantalla, o puedes usar las teclas del cursor. Otra forma de hacerlo es pulsando sobre el botón derecho en el minimapa (en la esquina superior izquierda de tu pantalla)
 
-WillBeUsingIndian=En esta instucción, tu manejas los indios. La facción de los indios lucha con arqueros y armas sencillas.
+WillBeUsingIndian=En ésta introducción, tú manejas a los indios. La facción de los indios lucha con arqueros y armas sencillas.
 
-NeedWorkers=Primero necesitamos un trabajador. Para conseguirlo, pulsa en Mainteepee y comienza a entrenar a un trabajador. Para hacerlo pulsa en el icono 'Trabajador'
+NeedWorkers=Primero necesitamos un trabajador. Para conseguirlo, pulsa en el Tipi Principal y comienza a entrenar un trabajador. Para hacerlo pulsa en el icono correspondiente.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Ahora selecciona el trabajador pulsando sobre el. Detalles de la unidad seleccionada, nombre de unidad e imagen se muestran en la esquina superior derecha de tu pantalla. Debajo sus puntos de salud (HP), armadura y , entre corchetes, el tipo de armadura y campo de visión (sight).
-Select2=Si esto es una unidad de batalla, el número de unidades enemigas que haya destruido se muestra al lado. Si consume recursos, esto se muestra en el siguiente campo. Debajo de este, se indica lo que la unidad esté haciendo en ese momento.
+Select=Ahora selecciona el trabajador pulsando sobre él. Detalles de la unidad seleccionada, nombre de unidad e imagen se muestran en la esquina superior derecha de tu pantalla. Debajo sus puntos de salud (HP), armadura y, entre corchetes, el tipo de armadura y campo de visión (sight).
+Select2=Si esto es una unidad de batalla, el número de unidades enemigas que haya destruido se muestra al lado. Si consume recursos, esto se muestra en el siguiente campo. Debajo de éste, se indica lo que la unidad esté haciendo en ese momento.
 
 ExampleWorker=Por ejemplo, tu trabajador tiene 600 HP, 0 arrmadura de cuero y un campo de visión de 9. Su estado actual es "Quieto", el no está haciendo nada.
 
-Command=Las habilidades de unidades se listan más abajo. Aprenderemos ahora los comandos que un trabajador puede hacer.
+Command=Las habilidades las de unidades se listan más abajo. Ahora aprenderemos las órdenes que un trabajador puede acometer.
 
 FirstCommand=El primer icono de comando es "Parar". Si pulsas sobre este icono, el trabajador parará inmediatamente lo que esté haciendo. Todas las unidades (que no sean construcciones) disponen de este comando.
 
@@ -35,10 +35,10 @@ TestSecondCommand=Prueba el comando "mover" ahora. Mueve tu trabajador hacia el 
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-MoveBack=Bien. Ahora haz volver a los dos trabajaddores a el Mainteepee. Para seleccionar varias unidades, pusa shift y dibuja una caja de selección alrededor de las unidades o...
-MoveBack2=... mantén pulsado shift, y despues haz click sobre cada unidad que quieras incluir en la selección o...
-MoveBack3=... haz doble click en una unidad para seleccionar las unidades del mismo tipo ('trabajadores' en este caso ) que se encuentren cerca.
-HarvestGoldandStone=Cuando tus unidades hayan retornado a casa, usarelos el cuarto icono que sirve para recolectar oro y piedra.
+MoveBack=Bien. Ahora haz volver a los dos trabajadores al Tipi Principal. Para seleccionar varias unidades, pulsa mayúsculas y dibuja una caja de selección alrededor de las unidades o...
+MoveBack2=... mantén pulsado mayús, y después haz clic sobre cada unidad que quieras incluir en la selección o...
+MoveBack3=... haz doble clic en una unidad para seleccionar las unidades del mismo tipo ('trabajadores' en este caso) que se encuentren cerca.
+HarvestGoldandStone=Cuando tus unidades hayan vuelto a casa, usaremos el cuarto icono que sirve para recolectar oro y piedra.
 HarvestGoldandStone2=Pasa por encima de este comando con tu ratón para ver la velocidad a la que tus trabajadores pueden recoger recursos, a qué velocidad pueden andar cuando transportan los recursos y qué recursos pueden recolectar.
 UseHarvestGoldandStone=Para usar este comando, primero pulsa en el icono, despues sobre el recurso que quieras recolectar. Las piedras grises con puntos amarillos son de oro, aquellas sin los puntos amarillos son piedra.
 HarvestGoldandStone3=Ahora recoge oro y piedra hasta que acumules un total de 600 de oro y 550 de piedra. Puedes también construir nuevos trabajadores para hacerlo (te costarán oro). Mira en la parte superior de la pantalla cuántos recursos hay recolectados en el momento.
@@ -66,7 +66,7 @@ ProduceStickfighter=Ahora puedes entrenar un luchador en la tienda.
 
 ;objective strings
 ProduceWorker=Objetivo: Entrena un trabajador.
-ProduceStickfighter2=Objetivo: Entrenar a un luchador - Stick fighter
+ProduceStickfighter2=Objetivo: Entrena a un luchador - Stick fighter
 MoveWorker=Objetivo: Mueve el trabajador entrenado junto al trabajador que espera fuera del campamento.
 HarvestGoldandStoneobjective=Objetivo: Recolecta oro y piedra hasta que tengas un total de 600 de oro y 550 de piedra.
 GetWoodob=Objetivo: Recolecta madera hsta que tengas 550.

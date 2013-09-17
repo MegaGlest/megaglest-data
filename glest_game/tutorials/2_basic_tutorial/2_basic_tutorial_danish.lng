@@ -3,8 +3,8 @@
 GlestBasicTutorial=Megaglest begynderkursus
 WellDone=Godt gået!
 Resources=Resources
-# Combat=Combat
-# Buildings=Buildings
+Combat=Kamp
+Buildings=Bygninger
 
 ;message strings
 # Welcome=Welcome to the MegaGlest Basic Tutorial. Here you will learn the basics of the game.
