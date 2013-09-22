@@ -107,6 +107,7 @@
 		<sun-light red="1" green="1" blue="1"/>
 		<moon-light red="0.2" green="0.2" blue="0.3"/>
 		<day-night value="0.7"/>
+		<shadow-intensity value="0.3"/>
 		<weather sun="0.70" rain="0.30" snow="0"/> 
 		<air-height value="5.8"/>
 	</parameters>
