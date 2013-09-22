@@ -151,6 +151,7 @@
 		<sun-light red="1" green="1" blue="1"/>
 		<moon-light red="0.05" green="0.1" blue="0.4"/>
 		<day-night value="0.7"/>
+		<shadow-intensity value="0.5"/>
 		<weather sun="1.0" rain="0.0" snow="0"/> 
 	</parameters>
 </tileset>
