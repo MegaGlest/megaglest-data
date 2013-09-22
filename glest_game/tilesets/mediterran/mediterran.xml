@@ -2,65 +2,36 @@
 
 <tileset>
 	<surfaces>
-		<surface>
-			<texture path="textures/surface1a.bmp" prob="0.15"/>
-			<texture path="textures/surface1b.bmp" prob="0.17"/>
-			<texture path="textures/surface1c.bmp" prob="0.3"/>
-		        <texture path="textures/surface1d.bmp" prob="0.21"/>
-                        <texture path="textures/surface1e.bmp" prob="0.10"/>
-                        <texture path="textures/surface1f.bmp" prob="0.02"/>
+		<surface partsize="128">
+			<texture path="textures/grass1.png"/>
                 </surface>
-		<surface>
-			<texture path="textures/surface2a.bmp" prob="0.1"/>
-			<texture path="textures/surface2b.bmp" prob="0.2"/>
-			<texture path="textures/surface2c.bmp" prob="0.1"/>
-		        <texture path="textures/surface2d.bmp" prob="0.2"/>
-                        <texture path="textures/surface2e.bmp" prob="0.2"/>
-                        <texture path="textures/surface2f.bmp" prob="0.2"/>
+		<surface partsize="128">
+			<texture path="textures/grass0.png"/>
+                </surface>
+		<surface partsize="128">
+			<texture path="textures/way.png"/>
 		</surface>
-		<surface>
-			<texture path="textures/surface3a.bmp" prob="0.20"/>
-			<texture path="textures/surface3b.bmp" prob="0.15"/>
-			<texture path="textures/surface3c.bmp" prob="0.15"/>
-			<texture path="textures/surface3d.bmp" prob="0.30"/>
-			<texture path="textures/surface3e.bmp" prob="0.20"/>
+		<surface partsize="128">
+			<texture path="textures/cobbles.png"/>
 		</surface>
-		<surface>
-			<!--texture path="textures/surface4a.bmp" prob="0.4"/>
-			<texture path="textures/surface4b.bmp" prob="0.15"/>
-			<texture path="textures/surface4c.bmp" prob="0.15"/>
-			<texture path="textures/surface4d.bmp" prob="0.10"/-->
-			<texture path="textures/surface4d.bmp" prob="0.57"/>
-			<texture path="textures/surface4e.bmp" prob="0.43"/>
-
+		<surface partsize="128">
+			<texture path="textures/clover.png"/>
 		</surface>
-		<surface>
-			<texture path="textures/surface5a.bmp" prob="0.2"/>
-			<texture path="textures/surface5b.bmp" prob="0.2"/>
-			<texture path="textures/surface5c.bmp" prob="0.1"/>
-			<texture path="textures/surface5d.bmp" prob="0.25"/>
-			<texture path="textures/surface5e.bmp" prob="0.25"/>
-			<texture path="textures/surface5f.bmp" prob="0.2"/>
-		</surface>
-		<surface>
-			<texture path="textures/yellow1.png" prob="0.3"/>
-			<texture path="textures/yellow2.png" prob="0.1"/>
-			<texture path="textures/yellow3.png" prob="0.2"/>
-			<texture path="textures/yellow4.png" prob="0.125"/>
-			<texture path="textures/yellow5.png" prob="0.275"/>
+		<surface partsize="128">
+			<texture path="textures/rock1.png"/>
 		</surface>
 	</surfaces>
 
 	<objects>
 		<object walkable="false">
-			<model path="models/palm2.g3d" />
-			<model path="models/palm31.g3d" />
-			<model path="models/palm3.g3d" />
-			<model path="models/palm21.g3d" />
-			<model path="models/phoenix.g3d" />
-			<model path="models/palm31.g3d" />
-			<model path="models/palm21.g3d" />
-			<model path="models/phoenix2.g3d" />
+			<model path="models/palm2.g3d" anim-speed="18" smoothTwoFrameAnim="true" />
+			<model path="models/palm31.g3d" anim-speed="20" smoothTwoFrameAnim="true"/>
+			<model path="models/palm3.g3d"  anim-speed="19" smoothTwoFrameAnim="true"/>
+			<model path="models/palm21.g3d" anim-speed="29" smoothTwoFrameAnim="true" />
+			<model path="models/phoenix.g3d"  anim-speed="23" smoothTwoFrameAnim="true" />
+			<model path="models/palm31.g3d" anim-speed="22" smoothTwoFrameAnim="true"/>
+			<model path="models/palm21.g3d" anim-speed="23" smoothTwoFrameAnim="true" />
+			<model path="models/phoenix2.g3d" anim-speed="21" smoothTwoFrameAnim="true" />
                         <!--model path="models/birke.g3d" /-->
 		</object>					
 		<object walkable="false">
@@ -76,14 +47,19 @@
 		</object>					
 		<object walkable="true">
                         <model path="models/grass.g3d"/>
+                        <model path="models/grass2.g3d"/>
 		</object>					
                 <object walkable="true">
-			<model path="models/papyrus.g3d"/>
+			<model path="models/papyrus.g3d" anim-speed="19" smoothTwoFrameAnim="true"/>
+			<model path="models/papyrus.g3d" anim-speed="21" smoothTwoFrameAnim="true"/>
+			<model path="models/papyrus.g3d" anim-speed="29" smoothTwoFrameAnim="true"/>
+			<model path="models/papyrus.g3d" anim-speed="25" smoothTwoFrameAnim="true"/>
+			<model path="models/papyrus.g3d" anim-speed="23" smoothTwoFrameAnim="true"/>
 		</object>										
 		<object walkable="false">
 			<model path="models/cypress44.g3d"/>
 			<model path="models/cypress43.g3d"/>
-			<model path="models/tree4.g3d"/>
+			<model path="models/tree4.g3d" anim-speed="24" smoothTwoFrameAnim="true"/>
 			<model path="models/cypress43.g3d"/>
 			<model path="models/cypress44.g3d"/>
 			<model path="models/tree_dead1.g3d"/>
