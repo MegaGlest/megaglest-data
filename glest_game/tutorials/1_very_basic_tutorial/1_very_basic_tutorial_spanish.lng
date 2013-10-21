@@ -57,7 +57,7 @@ MeetingPoint2=Si estableces el punto de reunión sobre un recurso, los nuevos tr
 Thirdcommand=Ahora, a por el tercer icono de comando - Este es el comando "construir".
 Thirdcommand2=Si lo pulsas entrarás en el menú "construir". Pasando por encima de los iconos puedes ver, más abajo, todos los recursos y requisitos que necesitas para constuirlo.
 Thirdcommand3=Si pasas con el ratón por encima de "tienda", verás que necesitas 30 de oro, 50 de madera, -10 de housing y un tipi principal. "-10 housing" significa que si construyes una tienda, tendras espacio para acomodar 10 unidades más (aunque hay unidades que consumen más de 1 housing).
-Thirdcommand4=Construyamos una tienda ahora. Pulsa sobre el menú "construir", después elige tienda y posicionala en un espacio vacío.
+Thirdcommand4=Construyamos una tienda ahora. Pulsa sobre el menú "construir", después elige tienda y ponla en un espacio vacío.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
@@ -69,7 +69,7 @@ ProduceWorker=Objetivo: Entrena un trabajador.
 ProduceStickfighter2=Objetivo: Entrena a un luchador - Stick fighter
 MoveWorker=Objetivo: Mueve el trabajador entrenado junto al trabajador que espera fuera del campamento.
 HarvestGoldandStoneobjective=Objetivo: Recolecta oro y piedra hasta que tengas un total de 600 de oro y 550 de piedra.
-GetWoodob=Objetivo: Recolecta madera hsta que tengas 550.
+GetWoodob=Objetivo: Recolecta madera hasta que tengas 550.
 UseThirdCommand=Objetivo: Construye una tienda. Si la tienda se vuelve roja (rojea), esto quiere decir que el sitio donde la vas a ubicar ya está ocupado (podría ser que hubiese un árbol).
 
 ;end
