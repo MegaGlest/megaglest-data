@@ -227,6 +227,7 @@ SaveGame=Сохранить данную игру
 SavegameInfo=Информация о выбранной игре
 SelectionType=Тип юнита:
 SettingsSaved=Настройки сохранены
+ShadowIntensity=Интенсивность теней
 Delete=Удалить
 NothingSelected=Ничего не выбрано.
 LeftAt=Игрок вышел в
@@ -576,5 +577,5 @@ FontConsolePostfix=-*-*-*-*-*-*-r
 FontConsolePrefix=-*-*-*-*-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-ALLOWED_SPECIAL_KEYS=нет
+ALLOWED_SPECIAL_KEYS=none
 

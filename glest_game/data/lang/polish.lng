@@ -227,6 +227,7 @@ SaveGame=Zapisz grę
 SavegameInfo=Informacja o zaznaczonej grze
 SelectionType=Rodzaj metody zaznaczania jednostek:
 SettingsSaved=Ustawienia zostały zachowane
+ShadowIntensity=Intensywność cienia:
 Delete=Usuń
 NothingSelected=Nic nie zaznaczono.
 LeftAt=Gracz odszedł o czasie:

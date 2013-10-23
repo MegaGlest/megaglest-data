@@ -227,6 +227,7 @@ SaveGame=Uložit současnou hru
 SavegameInfo=Inforbace o vybrané hře
 # SelectionType=Unit selection type:
 # SettingsSaved=Settings Saved
+# ShadowIntensity=Shadow Intensity
 Delete=Smazat
 NothingSelected=Nic nebylo vybráno.
 # LeftAt=Player left at:

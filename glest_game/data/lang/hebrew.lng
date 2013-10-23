@@ -227,6 +227,7 @@ SaveGame=שמור משחק
 SavegameInfo=מידע על המשחק הנבחר
 # SelectionType=Unit selection type:
 # SettingsSaved=Settings Saved
+# ShadowIntensity=Shadow Intensity
 Delete=מחק
 NothingSelected=לא נבחר דבר
 LeftAt=שחקן עזב ב:

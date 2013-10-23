@@ -227,6 +227,7 @@ SaveGame=حفظ اللعبة الحالية
 SavegameInfo=معلومات عن اللعبة المختارة
 SelectionType=تحديد نوع الوحدة:
 SettingsSaved=تم حفظ الإعدادات
+# ShadowIntensity=Shadow Intensity
 Delete=حذف
 NothingSelected=لا شيء تم تحديده
 LeftAt=غادر اللاعب على:
@@ -576,5 +577,5 @@ FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-ALLOWED_SPECIAL_KEYS=لا شيء
+ALLOWED_SPECIAL_KEYS=none
 

@@ -227,6 +227,7 @@ SaveGame=Ruaj lojen e tanishme
 SavegameInfo=Informata mbi lojen e perzgjedhur
 SelectionType=Zgjedhja e tipit te njesitit:
 SettingsSaved=Ndryshimet u ruajten
+# ShadowIntensity=Shadow Intensity
 Delete=Largo
 NothingSelected=Asgje nuk u perzgjedh.
 LeftAt=Lojtari u largua te:

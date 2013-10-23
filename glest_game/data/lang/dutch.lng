@@ -227,6 +227,7 @@ SaveGame=Sla huidige spel op
 SavegameInfo=Informatie over het opgeslagen spel
 SelectionType=Eenheid keuze type:
 SettingsSaved=Instellingen Opgeslagen
+# ShadowIntensity=Shadow Intensity
 Delete=Verwijderen
 NothingSelected=Er is niets geselecteerd.
 LeftAt=Speler heeft spel verlaten om:
@@ -576,5 +577,5 @@ FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-ALLOWED_SPECIAL_KEYS=geen
+ALLOWED_SPECIAL_KEYS=none
 

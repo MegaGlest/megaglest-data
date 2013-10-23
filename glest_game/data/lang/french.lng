@@ -227,6 +227,7 @@ SaveGame=Sauvegarder
 SavegameInfo=Information sur le jeu sélectionné
 SelectionType=Sélection du type d'unité:
 SettingsSaved=Configuration modifiée
+# ShadowIntensity=Shadow Intensity
 Delete=Supprimer
 NothingSelected=Rien de sélectionné.
 LeftAt=Le joueur a quitté la partie à :

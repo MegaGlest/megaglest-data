@@ -227,6 +227,7 @@ SaveGame=Salvar Jogo Atual
 SavegameInfo=Informações sobre o jogo selecionado
 # SelectionType=Unit selection type:
 # SettingsSaved=Settings Saved
+# ShadowIntensity=Shadow Intensity
 Delete=Excluir
 NothingSelected=Nada foi selecionado.
 LeftAt=O jogador saiu às:

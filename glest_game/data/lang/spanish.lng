@@ -227,6 +227,7 @@ SaveGame=Guardar partida
 SavegameInfo=Información sobre la partida seleccionada
 SelectionType=Tipo de selección de unidad:
 SettingsSaved=Ajustes guardados
+# ShadowIntensity=Shadow Intensity
 Delete=Borrar
 NothingSelected=No has seleccionado nada.
 LeftAt=El jugador abandonó en:
@@ -576,5 +577,5 @@ FontConsolePostfix=$USE_DEFAULT_LANGUAGE_VALUE
 FontConsolePrefix=$USE_DEFAULT_LANGUAGE_VALUE
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-ALLOWED_SPECIAL_KEYS=ninguno
+ALLOWED_SPECIAL_KEYS=none
 

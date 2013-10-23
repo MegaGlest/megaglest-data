@@ -227,6 +227,7 @@ SaveGame=Gem det nuværende spil
 SavegameInfo=Information om det valgte spil
 SelectionType=Enhedsvalgstype:
 SettingsSaved=Indstillinger Gemt
+# ShadowIntensity=Shadow Intensity
 Delete=Slet
 NothingSelected=Intet er valgt
 LeftAt=Spiller forlod ved:
@@ -576,5 +577,5 @@ FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-ALLOWED_SPECIAL_KEYS=ingen
+ALLOWED_SPECIAL_KEYS=none
 

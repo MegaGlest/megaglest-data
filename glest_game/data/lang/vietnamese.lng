@@ -227,6 +227,7 @@ SaveGame=Lưu màn chơi hiện tại
 SavegameInfo=Thông tin về màn chơi được lựa chọn
 SelectionType=Thể loại lựa chọn đơn vị:
 SettingsSaved=Đã lưu các thiết lập
+# ShadowIntensity=Shadow Intensity
 Delete=Xóa
 NothingSelected=Vẫn chưa chọn gì.
 LeftAt=Người chơi rời khỏi lúc:
@@ -576,5 +577,5 @@ FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-ALLOWED_SPECIAL_KEYS=không
+ALLOWED_SPECIAL_KEYS=none
 

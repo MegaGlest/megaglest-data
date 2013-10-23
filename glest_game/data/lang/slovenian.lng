@@ -227,6 +227,7 @@ SaveGame=Shrani trenutno igro
 SavegameInfo=Informacija o izbrani igri
 SelectionType=Tip izbire enote:
 SettingsSaved=Nastavitve shranjene
+# ShadowIntensity=Shadow Intensity
 Delete=Izbriši
 NothingSelected=Nič ni bilo izbrano.
 LeftAt=Igralec odšel ob:

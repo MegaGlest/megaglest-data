@@ -75,7 +75,7 @@ ConnectedToServer=Mit Server verbunden
 ConnectionFailed=Verbindung fehlgeschlagen
 ConnectionTimedOut=Zeitüberschreitung der Verbindung mit Server.
 Consume=Verbrauch
-Control=Spieler
+Control=Steuerung
 CouldNotConnect=Keine Verbindung möglich. Wähle einen anderen Server.
 Cpu=CPU
 CpuEasy=CPU (Easy)
@@ -227,6 +227,7 @@ SaveGame=Aktuelles Spiel speichern
 SavegameInfo=Information über das ausgewählte Spiel
 SelectionType=Art der Einheitenauswahl:
 SettingsSaved=Einstellungen gespeichert
+ShadowIntensity=Schattenintensität
 Delete=Löschen
 NothingSelected=Nichts ausgewählt.
 LeftAt=Spieler ist gegangen um:
@@ -576,5 +577,5 @@ FontConsolePostfix=-*-*-*-*-*-*-*
 FontConsolePrefix=-*-arial-*-r-*-*-
 
 ; Special Key strokes allowed for this language and font (comma delimited) see http://sdl.beuc.net/sdl.wiki/SDLKey
-ALLOWED_SPECIAL_KEYS=keine
+ALLOWED_SPECIAL_KEYS=none
 
