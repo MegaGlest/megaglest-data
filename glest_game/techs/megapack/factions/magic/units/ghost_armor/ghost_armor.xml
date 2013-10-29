@@ -25,7 +25,7 @@
 			<upgrade name="ancient_summoning"/>
 		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="gold" amount="175"/>
+			<resource name="gold" amount="150"/>
 			<resource name="energy" amount="1"/>				
 		</resource-requirements>
 		<resources-stored/>
@@ -66,8 +66,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="160"/>
-			<anim-speed value="120"/>
+			<speed value="220"/>
+			<anim-speed value="165"/>
 			<animation path="models/ghost_armor_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
