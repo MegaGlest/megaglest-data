@@ -20,7 +20,7 @@ NeedWorkers=Primero necesitamos un trabajador. Para conseguirlo, pulsa en el Tip
 ;------------------------------------------After produce Worker------------------------------------------------
 
 Select=Ahora selecciona el trabajador pulsando sobre él. Detalles de la unidad seleccionada, nombre de unidad e imagen se muestran en la esquina superior derecha de tu pantalla. Debajo sus puntos de salud (HP), armadura y, entre corchetes, el tipo de armadura y campo de visión (sight).
-Select2=Si esto es una unidad de batalla, el número de unidades enemigas que haya destruido se muestra al lado. Si consume recursos, esto se muestra en el siguiente campo. Debajo de éste, se indica lo que la unidad esté haciendo en ese momento.
+Select2=Si esta es una unidad de batalla, el número de unidades enemigas que haya destruido se muestra al lado. Si consume recursos, estos se muestran en el siguiente campo. Debajo de éste, se indica lo que la unidad esté haciendo en ese momento.
 
 ExampleWorker=Por ejemplo, tu trabajador tiene 600 HP, 0 arrmadura de cuero y un campo de visión de 9. Su estado actual es "Quieto", el no está haciendo nada.
 
@@ -36,7 +36,7 @@ TestSecondCommand=Prueba el comando "mover" ahora. Mueve tu trabajador hacia el 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
 MoveBack=Bien. Ahora haz volver a los dos trabajadores al Tipi Principal. Para seleccionar varias unidades, pulsa mayúsculas y dibuja una caja de selección alrededor de las unidades o...
-MoveBack2=... mantén pulsado mayús, y después haz clic sobre cada unidad que quieras incluir en la selección o...
+MoveBack2=... mantén pulsado Mayús, y después haz clic sobre cada unidad que quieras incluir en la selección o...
 MoveBack3=... haz doble clic en una unidad para seleccionar las unidades del mismo tipo ('trabajadores' en este caso) que se encuentren cerca.
 HarvestGoldandStone=Cuando tus unidades hayan vuelto a casa, usaremos el cuarto icono que sirve para recolectar oro y piedra.
 HarvestGoldandStone2=Pasa por encima de este comando con tu ratón para ver la velocidad a la que tus trabajadores pueden recoger recursos, a qué velocidad pueden andar cuando transportan los recursos y qué recursos pueden recolectar.
@@ -47,13 +47,13 @@ HarvestGoldandStone3=Ahora recoge oro y piedra hasta que acumules un total de 60
 
 HarvestGoldAndStoneDone=Ahora todo lo que necesitas es un poco de madera. Para conseguir algo, usa el quinto icono. Este es un comando para recoger madera, y se usa de la misma manera que el icono para recoger oro y piedra.
 ResourceInformation=Por otro lado, la facción de los indios necesita oro y madera.
-GetWood=Puedes dar la orden de recogida de recursos de manera más ágil seleccionando tu trabajador y pulsando, con el boton derecho del ratón, sobre el recurso que desees recolectar (en este caso, madera). En caso de conseguirlo, una flecha amarilla aparecerá. Ahora debes recolectar madera hasta tener 550.
+GetWood=Puedes dar la orden de recogida de recursos de manera más ágil seleccionando tu trabajador y pulsando con el boton derecho del ratón sobre el recurso que desees recolectar (en este caso, madera). En caso de conseguirlo, una flecha amarilla aparecerá. Ahora debes recolectar madera hasta tener 550.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-MeetingPoint=Cuando seleccionas un edificio, una flecha azun se muestra. Esta flecha apunta el "Punto de reunión". Todas las unidades que produzca este edificio se moverán hacia este sitio.
-UseMeetingPoint=Puedes cambiar el "punto de reunión". Pulsa sobre el icono de la bandera, después en la posición donde desees poner el nuevo "punto de reunión". Este proceso puede agilizarse si pulsa sobre el sitio deseado con el boton derecho (del ratón).
-MeetingPoint2=Si estableces el punto de reunión sobre un recurso, los nuevos trabajadores comenzarán recolectando dicho recurso. Asegurate de apuntar bien, o tus trabajadores se quedarán junto al recurso sin hacer nada.
+MeetingPoint=Cuando seleccionas un edificio, aparece una flecha azul. Esta flecha apunta hacia el "punto de reunión". Todas las unidades que produzca este edificio se moverán hacia este sitio.
+UseMeetingPoint=Puedes cambiar el "punto de reunión". Pulsa sobre el icono de la bandera, después en la posición donde desees poner el nuevo "punto de reunión". Este proceso puede agilizarse si pulsa sobre el sitio deseado con el botón derecho (del ratón).
+MeetingPoint2=Si estableces el punto de reunión sobre un recurso, los nuevos trabajadores comenzarán a recolectar dicho recurso. Asegúrate de apuntar bien, o tus trabajadores se quedarán junto al recurso sin hacer nada.
 Thirdcommand=Ahora, a por el tercer icono de comando - Este es el comando "construir".
 Thirdcommand2=Si lo pulsas entrarás en el menú "construir". Pasando por encima de los iconos puedes ver, más abajo, todos los recursos y requisitos que necesitas para constuirlo.
 Thirdcommand3=Si pasas con el ratón por encima de "tienda", verás que necesitas 30 de oro, 50 de madera, -10 de housing y un tipi principal. "-10 housing" significa que si construyes una tienda, tendras espacio para acomodar 10 unidades más (aunque hay unidades que consumen más de 1 housing).
@@ -66,7 +66,7 @@ ProduceStickfighter=Ahora puedes entrenar un luchador en la tienda.
 
 ;objective strings
 ProduceWorker=Objetivo: Entrena un trabajador.
-ProduceStickfighter2=Objetivo: Entrena a un luchador - Stick fighter
+ProduceStickfighter2=Objetivo: Entrena a un luchador de palo
 MoveWorker=Objetivo: Mueve el trabajador entrenado junto al trabajador que espera fuera del campamento.
 HarvestGoldandStoneobjective=Objetivo: Recolecta oro y piedra hasta que tengas un total de 600 de oro y 550 de piedra.
 GetWoodob=Objetivo: Recolecta madera hasta que tengas 550.

@@ -1,11 +1,11 @@
-SCENARIO_NAME=Storming
+SCENARIO_NAME=Arrasatierras
 ;message headers
-Storming=Storming
+Storming=Arrasatierras
 
 ;message strings
-Brief1=Ayuda a tu Summoner a atacar todos los poblados enemigos, ella debe sobrevivir.
+Brief1=Ayuda a tu invocadora a atacar todos los poblados enemigos, ella debe sobrevivir.
 
 ;objective strings
-ObjectiveWest=Objetivo: Destruir el poblado Magic del oeste, la Summoner debe sobrevivir.
-ObjectiveNorthEast=Objectivo: Destruir el poblado Tech del nordeste, la Summoner debe sobrevivir.
-ObjectiveSouthEast=Objectivo: Destruir el poblado del sudeste, la Summoner debe sobrevivir.
+ObjectiveWest=Objetivo: Destruir el poblado mágico del oeste, la invocadora debe sobrevivir.
+ObjectiveNorthEast=Objectivo: Destruir el poblado tecnólogo del nordeste, la invocadora debe sobrevivir.
+ObjectiveSouthEast=Objectivo: Destruir el poblado del sudeste, la invocadora debe sobrevivir.

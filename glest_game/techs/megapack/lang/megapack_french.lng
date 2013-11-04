@@ -15,7 +15,7 @@ AttackTypeName_energy=énergie
 AttackTypeName_sword=épée
 AttackTypeName_arrow=flèche
 AttackTypeName_magic=magie
-AttackTypeName_beat=battement
+AttackTypeName_beat=beat
 ; ------------------
 ; Types of Resources
 ResourceTypeName_energy=énergie
@@ -67,8 +67,8 @@ UnitTypeName_desert_camp=camp_du_désert
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_spearthrower=produce_spearthrower
-# CommandName_produce_spearman=produce_spearman
+CommandName_produce_spearthrower=produire_atlatl
+CommandName_produce_spearman=produire_lancier
 CommandName_upgrade_spear_weapons=améliorer_armes_de_projection
 UnitTypeName_farm=ferme
 ; --------------------
@@ -165,7 +165,7 @@ LevelName_elite=élite
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
-# UnitTypeName_spearthrower=spearthrower
+UnitTypeName_spearthrower=Atlatl
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -316,7 +316,7 @@ UnitTypeName_roundtent=tente_ronde
 CommandName_produce_axe_indian=produire_indien_à_la_hache
 CommandName_produce_axe_thrower=produire_lanceur_de_haches
 CommandName_produce_fire_archer=produire_archer_feu
-# CommandName_produce_spearman=produce_spearman
+CommandName_produce_spearman=produire_lancier
 CommandName_create_training_field=créer_camp_d'entrainement
 UnitTypeName_shaman=shaman
 ; --------------------
@@ -572,7 +572,7 @@ UnitTypeName_tower_of_souls=tour_des_âmes
 ; Types of Commands for this Unit
 CommandName_attack_off=attaque_off
 CommandName_attack_on=attaque_on
-UnitTypeName_wicker_behemoth=behemoth_d'osier
+UnitTypeName_wicker_behemoth=béhémoth_d'osier
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -630,7 +630,7 @@ UnitTypeName_blacksmith=forgeron
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_iron=améliorer_fer
-# CommandName_upgrade_arrow=upgrade_arrow
+CommandName_upgrade_arrow=améliorer_flèches
 CommandName_upgrade_advanced_iron=améliorer_fer_perfectionné
 # CommandName_produce_crossbow=produce_crossbow
 # UnitTypeName_bone_tent=bone_tent
@@ -655,7 +655,7 @@ UnitTypeName_cow=vache
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-UnitTypeName_crossbow=arbalètrier
+UnitTypeName_crossbow=arbalétrier
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -694,14 +694,14 @@ UnitTypeName_house=maison
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produire_dame_au_gourdin
-# CommandName_produce_spearman=produce_spearman
+CommandName_produce_spearman=produire_lancier
 # UnitTypeName_med_bar=med_bar
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produire_dame_au_gourdin
-# CommandName_produce_spearman=produce_spearman
+CommandName_produce_spearman=produire_lancier
 # CommandName_research_med=research_med
 UnitTypeName_mistletree=boules_de_gui
 ; --------------------
@@ -992,7 +992,7 @@ CommandName_repair=réparer
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=architecture_avancée
-# UpgradeTypeName_bless_of_minerva=bless_of_minerva
+UpgradeTypeName_bless_of_minerva=bénédiction_de_minerve
 UpgradeTypeName_enlarge_shields=agrandir_boucliers
 UpgradeTypeName_formations=formations
 UpgradeTypeName_jupiter=jupiter
@@ -1024,7 +1024,7 @@ CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
 CommandName_hold_position=tenir_la_position
-UnitTypeName_ballista=balliste
+UnitTypeName_ballista=baliste
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -1131,7 +1131,7 @@ UnitTypeName_gladiator_school=école_de_gladiateurs
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_train_gladiator=entrainer_gladiateur
+CommandName_train_gladiator=entraîner_gladiateur
 # CommandName_produce_axe_man=produce_axe_man
 UnitTypeName_guard=garde
 ; --------------------
@@ -1159,8 +1159,8 @@ CommandName_produce_cavalry=produire_cavalerie
 CommandName_produce_turtle_formation=produire_formation_de_la_tortue
 CommandName_produce_general=produire_général
 # CommandName_produce_mechanic=produce_mechanic
-# CommandName_upgrade_advanced_architecture=upgrade_advanced_architecture
-# CommandName_upgrade_formations=upgrade_formations
+CommandName_upgrade_advanced_architecture=améliorer_architecture_avancée
+CommandName_upgrade_formations=améliorer_formations
 UnitTypeName_slave=esclave
 ; --------------------
 ; Levels for this Unit
@@ -1168,7 +1168,7 @@ UnitTypeName_slave=esclave
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-CommandName_build_=contruire_
+CommandName_build_=construire_
 CommandName_mine=exploiter_gisement
 CommandName_harvest_wood=récolter_bois
 CommandName_repair=réparer
@@ -1199,13 +1199,13 @@ UnitTypeName_temple=temple
 ; Types of Commands for this Unit
 CommandName_research_sign_of_mars=rechercher_signe_de_mars
 CommandName_research_jupiter=rechercher_jupiter
-# CommandName_upgrade_bless_of_minerva=upgrade_bless_of_minerva
+CommandName_upgrade_bless_of_minerva=améliorer_bénédiction_de_minerve
 UnitTypeName_training_camp=camp_d'entraînement
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_spearman=produce_spearman
+CommandName_produce_spearman=produire_lancier
 CommandName_produce_archer=produire_archer
 CommandName_produce_guard=produire_garde
 CommandName_produce_swordsman=produire_épéiste
@@ -1262,7 +1262,7 @@ UnitTypeName_aerodrome=aérodrome
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_ornithopter=produire_onrithoptère
+CommandName_produce_ornithopter=produire_ornithoptère
 CommandName_produce_airship=produire_dirigeable
 UnitTypeName_air_ballista=baliste_anti-aérienne
 ; --------------------
@@ -1319,7 +1319,7 @@ UnitTypeName_blacksmith=forgeron
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_blade_weapons=améliorer_armes_à_lames
-CommandName_upgrade_piercing_weapons=améliorer_amres_perçantes
+CommandName_upgrade_piercing_weapons=améliorer_armes_perçantes
 CommandName_upgrade_shield=améliorer_bouclier
 CommandName_upgrade_shield=améliorer_bouclier
 UnitTypeName_castle=château
@@ -1344,7 +1344,7 @@ UnitTypeName_cow=vache
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-UnitTypeName_defense_tower=tour_de_défence
+UnitTypeName_defense_tower=tour_de_défense
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------

@@ -49,7 +49,7 @@ CommandName_attack_on=ataque_activado
 UnitTypeName_anubis_warrior=guerrero_de_anubis
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=parar
@@ -235,7 +235,7 @@ UnitTypeName_beehive=colmena
 ; Types of Commands for this Unit
 CommandName_attack_off=ataque_desactivado
 CommandName_attack_on=ataque_activado
-UnitTypeName_bigtent=tienda_grande
+UnitTypeName_bigtent=gran_tienda
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -271,7 +271,7 @@ CommandName_hold_position=mantener_la_posición
 UnitTypeName_firegolem=gólem_de_fuego
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=parar
@@ -359,7 +359,7 @@ CommandName_produce_stickfighter=producir_luchador_de_palo
 UnitTypeName_thunderbird=pájaro_de_tormenta
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 LevelName_expert=experto
 ; -------------------------------
 ; Types of Commands for this Unit
@@ -434,7 +434,7 @@ CommandName_promote_to_archmage=mejorar_a_archimago
 UnitTypeName_behemoth=mastodonte
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=parar
@@ -451,7 +451,7 @@ CommandName_attack=atacar
 UnitTypeName_dragon=dragón
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=parar
@@ -489,7 +489,7 @@ CommandName_hold_position=mantener_la_posición
 UnitTypeName_ghost_armor=armadura_fantasma
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=parar
@@ -499,7 +499,7 @@ CommandName_hold_position=mantener_la_posición
 UnitTypeName_golem=gólem
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=parar
@@ -538,14 +538,14 @@ CommandName_produce_initiate=producir_iniciado
 UnitTypeName_power_golem=gólem_poderoso
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=vetusto
+LevelName_ancient=antiguo
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=mantener_la_posición
-UnitTypeName_summoner=invocador
+UnitTypeName_summoner=invocadora
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -563,8 +563,8 @@ UnitTypeName_summoner_guild=hermandad_de_invocadores
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_summoner=producir_invocador
-CommandName_research_ancient_summoning=investigar_invocación_vetusta
+CommandName_produce_summoner=producir_invocadora
+CommandName_research_ancient_summoning=investigar_invocación_antigua
 UnitTypeName_tower_of_souls=torre_de_almas
 ; --------------------
 ; Levels for this Unit
