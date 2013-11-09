@@ -97,7 +97,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/temple_die.g3d" />
+			<animation path="models/blacksmith_die.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall1.wav"/>
 			</sound>			
