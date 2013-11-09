@@ -26,9 +26,7 @@ ResourceTypeName_stone=kamień ('Stone')
 ResourceTypeName_wood=drewno ('Wood')
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*Obserwator*
-FactionName_*Random*=*Losowa*
-FactionName_egypt=egipcjanie
+FactionName_egypt=Egipcjanie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_power_of_ra=moc Ra ('Power of Ra')
@@ -191,7 +189,7 @@ CommandName_produce_priest=produkcja kapłana\n('Produce priest')
 CommandName_research_scarab=odkrycie skarabeusza\n('Research scarab')
 CommandName_research_ibis=odkrycie ptaka ibis\n('Research ibis')
 CommandName_get_power_of_ra=odkrycie mocy Ra\n('Research power of Ra')
-FactionName_indian=indianie
+FactionName_indian=Indianie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bullfood=karma dla byków\n('Bull food')
@@ -388,7 +386,7 @@ CommandName_build_basic=budowanie, b. podstawowe\n('Build, basic b.')
 CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
 CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
 CommandName_repair=naprawianie ('Repair')
-FactionName_magic=magicy
+FactionName_magic=Magicy
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_ancient_summoning=starożytne przywoływanie\n('Ancient summoning')
@@ -578,7 +576,7 @@ UnitTypeName_wicker_behemoth=wiklinowy potwór\n('Wicker behemoth')
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_promote_to_behemoth=transformacja do potwora\n('Transform to behemoth')
-FactionName_norsemen=normanowie
+FactionName_norsemen=Normanowie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_iron=zaawansowane Żelazo\n('Advanced iron')
@@ -808,7 +806,7 @@ UnitTypeName_wild_sow=dzika locha ('Wild sow')
 CommandName_stop=stop ('Stop')
 CommandName_move=przesuń się / idź ('Move')
 CommandName_attack=atak ('Attack')
-FactionName_persian=persowie
+FactionName_persian=Persowie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_corn_and_wicker=kukurydza i wikliny\n('Corn and wicker')
@@ -988,7 +986,7 @@ CommandName_build_basic=budowanie, b. podstawowe\n('Build, basic b.')
 CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
 CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
 CommandName_repair=naprawianie ('Repair')
-FactionName_romans=rzymianie
+FactionName_romans=Rzymianie
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=zaawansowana architektura\n('Advanced architecture')
@@ -1244,7 +1242,7 @@ CommandName_heal=leczenie ('To heal')
 CommandName_build_catapult=transformacja do katapulty\n('Transform to catapult')
 CommandName_build_battering_ram=transformacja do tarana\n('Transform to battering ram')
 CommandName_build_ballista=transformacja do balisty\n('Transform to ballista')
-FactionName_tech=technicy
+FactionName_tech=Technicy
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=zaawansowana architektura\n('Advanced architecture')

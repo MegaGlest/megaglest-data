@@ -14,7 +14,7 @@ AttackTypeName_impact=impact
 AttackTypeName_energy=énergie
 AttackTypeName_sword=épée
 AttackTypeName_arrow=flèche
-AttackTypeName_magic=magie
+AttackTypeName_magic=magiciens
 AttackTypeName_beat=beat
 ; ------------------
 ; Types of Resources
@@ -26,27 +26,25 @@ ResourceTypeName_stone=pierre
 ResourceTypeName_wood=bois
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*Spectateur*
-FactionName_*Random*=*Aléatoire*
 FactionName_egypt=égypte
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_power_of_ra=puissance_de_ra
 UpgradeTypeName_spear_weapons=armes_de_projection
-UpgradeTypeName_speedup_priest_production=accélerer_production_des_prêtres
+UpgradeTypeName_speedup_priest_production=accélérer_production_des_prêtres
 UpgradeTypeName_summon_ibis=invoquer_ibis
 UpgradeTypeName_summon_scarab=invoquer_scarabée
 ; -------------------------------
 ; Types of Units for this Faction
-UnitTypeName_air_pyramid=pyramide_aérienne
+UnitTypeName_air_pyramid=pyramide_volante
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
-UnitTypeName_anubis_warrior=guerrier_d'anubis
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
+UnitTypeName_anubis_warrior=guerrier_d’Anubis
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=ancien
@@ -132,7 +130,7 @@ LevelName_legendary=légendaire
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_dung_attack=dung_attack
+CommandName_dung_attack=jet_de_bouse
 CommandName_hold_position=tenir_la_position
 UnitTypeName_slave=esclave
 ; --------------------
@@ -141,7 +139,7 @@ UnitTypeName_slave=esclave
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_build_basic=build_basic
+CommandName_build_basic=construire_bâtiments_de_base
 CommandName_repair=réparer
 CommandName_mine=exploiter_gisement
 CommandName_harvest_wood=récolter_bois
@@ -180,8 +178,8 @@ UnitTypeName_sphinx=sphinx
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_temple=temple
 ; --------------------
 ; Levels for this Unit
@@ -233,8 +231,8 @@ UnitTypeName_beehive=ruche
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_bigtent=grand_tipi
 ; --------------------
 ; Levels for this Unit
@@ -365,7 +363,7 @@ LevelName_expert=expert
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_throw=throw
+CommandName_throw=Jet
 CommandName_breath=souffle
 CommandName_hold_position=tenir_la_position
 UnitTypeName_totem=totem
@@ -373,7 +371,7 @@ UnitTypeName_totem=totem
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
+CommandName_attack_off=ne_pas_attaquer
 # CommandName_air_on=air_on
 CommandName_research_petroleum=rechercher_huile
 CommandName_produce_shaman=produire_shaman
@@ -384,7 +382,7 @@ UnitTypeName_worker=travailleur
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_build_basic=build_basic
+CommandName_build_basic=construire_bâtiments_de_base
 CommandName_mine=exploiter_gisement
 CommandName_harvest_wood=récolter_bois
 CommandName_repair=réparer
@@ -394,8 +392,8 @@ FactionName_magic=magie
 UpgradeTypeName_ancient_summoning=invocation_antique
 UpgradeTypeName_dragon_call=appel_du_dragon
 UpgradeTypeName_energy_compression=compression_de_l'énergie
-# UpgradeTypeName_energy_sharpening=energy_sharpening
-# UpgradeTypeName_golem_power=golem_power
+UpgradeTypeName_energy_sharpening=concentration_de_l'énergie
+UpgradeTypeName_golem_power=golem_puissant
 UpgradeTypeName_hell_gate=porte_de_l'enfer
 ; -------------------------------
 ; Types of Units for this Faction
@@ -418,7 +416,7 @@ UnitTypeName_archmage_tower=tour_d'archimage
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_research_dragon_call=recherche_appel_du_dragon
-# CommandName_golem_power=golem_power
+CommandName_golem_power=golem_puissant
 UnitTypeName_battlemage=mage_de_comb
 ; --------------------
 ; Levels for this Unit
@@ -428,7 +426,7 @@ LevelName_master=maître
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_fire_bolt=fire_bolt
+CommandName_fire_bolt=éclair_enflammé
 CommandName_hold_position=tenir_la_position
 CommandName_promote_to_archmage=promouvoir_en_archimage
 UnitTypeName_behemoth=behemoth
@@ -469,7 +467,7 @@ LevelName_master=maître
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_fire_breath=souffle_de_feu
-# CommandName_flare=flare
+CommandName_flare=éclat_de_lumière
 CommandName_hold_position=tenir_la_position
 UnitTypeName_energy_source=source_d'énergie
 ; --------------------
@@ -527,7 +525,7 @@ UnitTypeName_library=bibliothèque
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_research_energy_compression=rechercher_compression_de_l'énergie
-# CommandName_research_energy_sharpening=research_energy_sharpening
+CommandName_research_energy_sharpening=rechercher_concentration_de_l'énergie
 CommandName_research_hell_gate=rechercher_porte_de_l'enfer
 UnitTypeName_mage_tower=tour_de_mage
 ; --------------------
@@ -552,7 +550,7 @@ UnitTypeName_summoner=invocateur
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_flare=flare
+CommandName_flare=éclat_de_lumière
 CommandName_hold_position=tenir_la_position
 CommandName_summon_daemon=invoquer_démon
 CommandName_summon_ghost_armor=invoquer_armure_fantôme
@@ -570,8 +568,8 @@ UnitTypeName_tower_of_souls=tour_des_âmes
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_wicker_behemoth=béhémoth_d'osier
 ; --------------------
 ; Levels for this Unit
@@ -585,7 +583,7 @@ UpgradeTypeName_advanced_iron=fer_perfectionné
 UpgradeTypeName_arrow=flèche
 UpgradeTypeName_holy_valkyrie=valkyrie_sainte
 UpgradeTypeName_iron=fer
-# UpgradeTypeName_med=med
+UpgradeTypeName_med=hydromel
 UpgradeTypeName_root=racine
 ; -------------------------------
 ; Types of Units for this Faction
@@ -607,7 +605,7 @@ UnitTypeName_axe_thrower=lanceur_de_haches
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
-# UnitTypeName_battleaxe=battleaxe
+UnitTypeName_battleaxe=guerrier_viking
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -615,8 +613,8 @@ CommandName_attack=attaque
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
-# CommandName_promote_to_battleaxe=promote_to_battleaxe
-# UnitTypeName_battleaxe_berzerk=battleaxe_berzerk
+CommandName_promote_to_battleaxe=promouvoir_en_guerrier
+UnitTypeName_battleaxe_berzerk=guerrier_berserk
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -632,15 +630,15 @@ UnitTypeName_blacksmith=forgeron
 CommandName_upgrade_iron=améliorer_fer
 CommandName_upgrade_arrow=améliorer_flèches
 CommandName_upgrade_advanced_iron=améliorer_fer_perfectionné
-# CommandName_produce_crossbow=produce_crossbow
-# UnitTypeName_bone_tent=bone_tent
+CommandName_produce_crossbow=produire_arbalète
+UnitTypeName_bone_tent=tente_d'os
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_swordman=produire_épéiste
 CommandName_produce_archer=produire_archer
-# CommandName_produce_battleaxe=produce_battleaxe
+CommandName_produce_battleaxe=produire_guerrier
 CommandName_produce_axe_thrower=produire_lanceur_de_haches
 UnitTypeName_castle=château
 ; --------------------
@@ -662,7 +660,7 @@ UnitTypeName_crossbow=arbalétrier
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_attack_arrow=attack_arrow
+CommandName_attack_arrow=jet_de_flèches
 CommandName_hold_position=tenir_la_position
 UnitTypeName_cudgel_lady=dame_au_gourdin
 ; --------------------
@@ -695,22 +693,22 @@ UnitTypeName_house=maison
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produire_dame_au_gourdin
 CommandName_produce_spearman=produire_lancier
-# UnitTypeName_med_bar=med_bar
+UnitTypeName_med_bar=bar_à_hydromel
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produire_dame_au_gourdin
 CommandName_produce_spearman=produire_lancier
-# CommandName_research_med=research_med
+CommandName_research_med=rechercher_hydromel
 UnitTypeName_mistletree=boules_de_gui
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_air_on=air_on
-CommandName_attack_off=attaque_off
-# CommandName_research_root=research_root
+CommandName_attack_off=ne_pas_attaquer
+CommandName_research_root=rechercher_racine
 CommandName_resurrect_wild_sow=ressusciter_truie_sauvage
 UnitTypeName_spearman=lancier
 ; --------------------
@@ -763,7 +761,7 @@ LevelName_advanced=supérieur
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
-# CommandName_throw=throw
+CommandName_throw=Jet
 CommandName_hold_position=tenir_la_position
 UnitTypeName_thortotem=totem_de_thor
 ; --------------------
@@ -778,7 +776,7 @@ UnitTypeName_thrull=thrull
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_build_basic=build_basic
+CommandName_build_basic=construire_bâtiments_de_base
 CommandName_mine=exploiter_gisement
 CommandName_harvest_wood=récolter_bois
 CommandName_repair=réparer
@@ -836,7 +834,7 @@ LevelName_elite=élite
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
-# CommandName_attack_arrow=attack_arrow
+CommandName_attack_arrow=jet_de_flèches
 CommandName_hold_position=tenir_la_position
 UnitTypeName_elephant_cage=cage_à_éléphant
 ; --------------------
@@ -888,7 +886,7 @@ UnitTypeName_house=maison
 ; Types of Commands for this Unit
 CommandName_produce_fakir=produire_fakir
 CommandName_produce_stickfighter=produire_combattant_à_la_crosse
-# UnitTypeName_magician=magician
+UnitTypeName_magician=mage_perse
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -906,8 +904,8 @@ UnitTypeName_minaret=minaret
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_palace=palace
 ; --------------------
 ; Levels for this Unit
@@ -937,8 +935,8 @@ UnitTypeName_snake_basket=panier_de_serpent
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_stickfighter=combattant_à_la_crosse
 ; --------------------
 ; Levels for this Unit
@@ -973,7 +971,7 @@ UnitTypeName_tent=tente
 ; Types of Commands for this Unit
 CommandName_produce_genie=produire_génie
 CommandName_produce_flying_carpet=produire_tapis_volant
-# CommandName_produce_magician=produce_magician
+CommandName_produce_magician=produire_mage_perse
 CommandName_upgrade_magic_level_1=améliorer_magie_niveau_1
 CommandName_upgrade_magic_level_2=améliorer_magie_niveau_2
 UnitTypeName_worker=travailleur
@@ -984,11 +982,11 @@ UnitTypeName_worker=travailleur
 CommandName_stop=stop
 CommandName_attack=attaque
 CommandName_move=déplacement
-# CommandName_build_basic=build_basic
+CommandName_build_basic=construire_bâtiments_de_base
 CommandName_mine=exploiter_gisement
 CommandName_harvest_wood=récolter_bois
 CommandName_repair=réparer
-# FactionName_romans=romans
+FactionName_romans=romains
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=architecture_avancée
@@ -1030,8 +1028,8 @@ UnitTypeName_ballista=baliste
 LevelName_elite=élite
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_battering_ram=bélier_de_siège
 ; --------------------
 ; Levels for this Unit
@@ -1071,7 +1069,7 @@ CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
 CommandName_hold_position=tenir_la_position
-# CommandName_promote_to_tribune=promote_to_tribune
+CommandName_promote_to_tribune=promouvoir_en_tribun_militaire
 UnitTypeName_cow=vache
 ; --------------------
 ; Levels for this Unit
@@ -1084,8 +1082,8 @@ UnitTypeName_eagle_pillar=aigle_pilier
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_fire_archer=archer_feu
 ; --------------------
 ; Levels for this Unit
@@ -1148,8 +1146,8 @@ UnitTypeName_guard_tower=tour_de_garde
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_military_camp=camp_militaire
 ; --------------------
 ; Levels for this Unit
@@ -1158,7 +1156,7 @@ UnitTypeName_military_camp=camp_militaire
 CommandName_produce_cavalry=produire_cavalerie
 CommandName_produce_turtle_formation=produire_formation_de_la_tortue
 CommandName_produce_general=produire_général
-# CommandName_produce_mechanic=produce_mechanic
+CommandName_produce_mechanic=produire_ingénieur_de_guerre
 CommandName_upgrade_advanced_architecture=améliorer_architecture_avancée
 CommandName_upgrade_formations=améliorer_formations
 UnitTypeName_slave=esclave
@@ -1230,7 +1228,7 @@ CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
 CommandName_hold_position=tenir_la_position
-# UnitTypeName_wartime_mechanic=wartime_mechanic
+UnitTypeName_wartime_mechanic=ingénieur_de_guerre
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1270,8 +1268,8 @@ UnitTypeName_air_ballista=baliste_anti-aérienne
 LevelName_elite=élite
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_airship=dirigeable
 ; --------------------
 ; Levels for this Unit
@@ -1311,7 +1309,7 @@ LevelName_elite=élite
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
-# CommandName_attack_arrow=attack_arrow
+CommandName_attack_arrow=jet_de_flèches
 CommandName_hold_position=tenir_la_position
 UnitTypeName_blacksmith=forgeron
 ; --------------------
@@ -1349,8 +1347,8 @@ UnitTypeName_defense_tower=tour_de_défense
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_attack_off=attaque_off
-CommandName_attack_on=attaque_on
+CommandName_attack_off=ne_pas_attaquer
+CommandName_attack_on=attaque_à_vue
 UnitTypeName_farm=ferme
 ; --------------------
 ; Levels for this Unit
@@ -1415,7 +1413,7 @@ UnitTypeName_technician=technicien
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_build_ultimate=build_ultimate
+CommandName_build_ultimate=construire_bâtiments_suprêmes
 CommandName_repair=réparer
 CommandName_heal=guérir
 CommandName_mine_gold=exploiter_gisement_d'or
@@ -1429,7 +1427,7 @@ UnitTypeName_technodrome=technodrome
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_technician=produire_technicien
-# CommandName_research_advanced_architecture=research_advanced_architecture
+CommandName_research_advanced_architecture=rechercher_architecture_avancée
 CommandName_research_robotics=rechercher_robotique
 UnitTypeName_worker=travailleur
 ; --------------------
@@ -1438,8 +1436,8 @@ UnitTypeName_worker=travailleur
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-# CommandName_build_basic=build_basic
-# CommandName_build_advanced=build_advanced
+CommandName_build_basic=construire_bâtiments_de_base
+CommandName_build_advanced=construire_bâtiments_avancés
 CommandName_mine=exploiter_gisement
 CommandName_harvest_wood=récolter_bois
 CommandName_repair=réparer

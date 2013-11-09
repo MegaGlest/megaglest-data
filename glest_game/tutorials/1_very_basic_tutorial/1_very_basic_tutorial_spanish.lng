@@ -56,7 +56,7 @@ UseMeetingPoint=Puedes cambiar el "punto de reunión". Pulsa sobre el icono de l
 MeetingPoint2=Si estableces el punto de reunión sobre un recurso, los nuevos trabajadores comenzarán a recolectar dicho recurso. Asegúrate de apuntar bien, o tus trabajadores se quedarán junto al recurso sin hacer nada.
 Thirdcommand=Ahora, a por el tercer icono de comando - Este es el comando "construir".
 Thirdcommand2=Si lo pulsas entrarás en el menú "construir". Pasando por encima de los iconos puedes ver, más abajo, todos los recursos y requisitos que necesitas para constuirlo.
-Thirdcommand3=Si pasas con el ratón por encima de "tienda", verás que necesitas 30 de oro, 50 de madera, -10 de housing y un tipi principal. "-10 housing" significa que si construyes una tienda, tendras espacio para acomodar 10 unidades más (aunque hay unidades que consumen más de 1 housing).
+Thirdcommand3=Si pasas con el ratón por encima de la "tienda", verás que necesitas 30 de oro, 50 de madera, -10 de alojamiento y un Tipi principal. "-10 de alojamiento" significa que si construyes una tienda, tendrás espacio para acomodar 10 unidades más (aunque hay unidades que consumen más de 1 alojamiento).
 Thirdcommand4=Construyamos una tienda ahora. Pulsa sobre el menú "construir", después elige tienda y ponla en un espacio vacío.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------

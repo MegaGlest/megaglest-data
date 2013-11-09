@@ -26,8 +26,6 @@ TechTreeName=メガパック
 # ResourceTypeName_wood=wood
 ; -----------------
 ; Types of Factions
-# FactionName_*Observer*=*Observer*
-# FactionName_*Random*=*Random*
 # FactionName_egypt=egypt
 ; ----------------------------------
 ; Types of Upgrades for this Faction

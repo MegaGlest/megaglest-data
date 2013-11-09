@@ -26,8 +26,6 @@ ResourceTypeName_stone=אבן
 ResourceTypeName_wood=עץ
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*משקיף*
-FactionName_*Random*=*אקראי*
 FactionName_egypt=מצרים
 ; ----------------------------------
 ; Types of Upgrades for this Faction

@@ -378,6 +378,7 @@ Notice=Informacja
 None=Brak
 NonStandardPort=Port niestandardowy
 Normal=normalną
+Observer=Obserwator
 Off=Wyłączona
 Ok=Ok
 OpenGlInfo=Informacje o OpenGL
@@ -427,6 +428,7 @@ PublishDisabled=(publikowanie wyłączone)
 Question=Pytanie
 QuitGame=<<< Opuszcza bitwę!
 RainEffectMenuGame=Efekt deszczu (Menu / Gra):
+Random=Losowo
 ReactionSpeed=Szybkość reakcji
 RefreshList=Odśwież listę
 Regeneration=Regen.
@@ -541,8 +543,8 @@ IntroTextFontType5=menubig
 IntroStartMilliseconds5=$USE_DEFAULT_LANGUAGE_VALUE
 IntroText6=$USE_DEFAULT_LANGUAGE_VALUE
 IntroStartMilliseconds6=$USE_DEFAULT_LANGUAGE_VALUE
-IntroModelStartMilliseconds=20000
-IntroTextureStartMilliseconds=22600
+IntroModelStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
+IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 ;-------------------------------- Intro Text End
 
 ; Font configuration for FTGL

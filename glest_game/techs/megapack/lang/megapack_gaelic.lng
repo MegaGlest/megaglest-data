@@ -26,8 +26,6 @@ ResourceTypeName_stone=clach
 ResourceTypeName_wood=fiodh
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*Amharc*
-FactionName_*Random*=*Air thuaiream*
 FactionName_egypt=Èipheit
 ; ----------------------------------
 ; Types of Upgrades for this Faction

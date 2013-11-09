@@ -26,8 +26,6 @@ ResourceTypeName_stone=pietra
 ResourceTypeName_wood=legno
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*Spettatore*
-FactionName_*Random*=*Casuale*
 FactionName_egypt=egitto
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -585,7 +583,7 @@ UpgradeTypeName_advanced_iron=ferro_avanzato
 UpgradeTypeName_arrow=freccia
 UpgradeTypeName_holy_valkyrie=valchiria_sacra
 UpgradeTypeName_iron=ferro
-# UpgradeTypeName_med=med
+UpgradeTypeName_med=med
 UpgradeTypeName_root=radice
 ; -------------------------------
 ; Types of Units for this Faction
@@ -647,7 +645,7 @@ UnitTypeName_castle=castello
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_thrull=produce_thrull
+CommandName_produce_thrull=produce_thrull
 UnitTypeName_cow=mucca
 ; --------------------
 ; Levels for this Unit
@@ -695,15 +693,15 @@ UnitTypeName_house=casa
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produci_donna_con_clava
 CommandName_produce_spearman=produci_lancere
-# UnitTypeName_med_bar=med_bar
+UnitTypeName_med_bar=bar_med
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produci_donna_con_clava
 CommandName_produce_spearman=produci_lancere
-# CommandName_research_med=research_med
-# UnitTypeName_mistletree=mistletree
+CommandName_research_med=ricerca_med
+UnitTypeName_mistletree=mistletree
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------

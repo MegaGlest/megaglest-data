@@ -26,8 +26,6 @@ ResourceTypeName_stone=guri
 ResourceTypeName_wood=dru
 ; -----------------
 ; Types of Factions
-# FactionName_*Observer*=*Observer*
-# FactionName_*Random*=*Random*
 FactionName_egypt=egjipt
 ; ----------------------------------
 ; Types of Upgrades for this Faction

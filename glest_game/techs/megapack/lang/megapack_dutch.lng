@@ -26,8 +26,6 @@ ResourceTypeName_stone=steen
 ResourceTypeName_wood=hout
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*Observer*
-FactionName_*Random*=*Random*
 FactionName_egypt=Egypte
 ; ----------------------------------
 ; Types of Upgrades for this Faction

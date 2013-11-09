@@ -26,8 +26,6 @@ ResourceTypeName_stone=kamen
 ResourceTypeName_wood=les
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*Opazovalec*
-FactionName_*Random*=*Naključno*
 FactionName_egypt=egipt
 ; ----------------------------------
 ; Types of Upgrades for this Faction

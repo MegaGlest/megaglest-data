@@ -26,8 +26,6 @@ ResourceTypeName_stone=piedra
 ResourceTypeName_wood=madera
 ; -----------------
 ; Types of Factions
-FactionName_*Observer*=*Observador*
-FactionName_*Random*=*Aleatorio*
 FactionName_egypt=egipto
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -191,7 +189,7 @@ CommandName_produce_priest=producir_sacerdote
 CommandName_research_scarab=investigar_escarabajo
 CommandName_research_ibis=investigar_ibis
 CommandName_get_power_of_ra=conseguir_poder_de_rá
-FactionName_indian=índios
+FactionName_indian=Índios
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bullfood=comida_taurina
@@ -278,15 +276,15 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=mantener_la_posición
-UnitTypeName_horsefarm=granja_de_equinos
+UnitTypeName_horsefarm=caballeriza
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_horseman=producir_caballería
+CommandName_produce_horseman=producir_jinete
 CommandName_produce_bull=producir_toro
 CommandName_research_stables=investigar_establos
-UnitTypeName_horseman=caballería
+UnitTypeName_horseman=jinete
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -520,7 +518,7 @@ CommandName_build=construir
 CommandName_ritual=ritual
 CommandName_mine=mina
 CommandName_harvest=cosechar
-CommandName_promote_to_battlemage=promover_a_mago_de_batalla
+CommandName_promote_to_battlemage=mejorar_a_mago_de_batalla
 UnitTypeName_library=biblioteca
 ; --------------------
 ; Levels for this Unit
@@ -1071,7 +1069,7 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=mantener_la_posición
-CommandName_promote_to_tribune=promover_a_tribuno
+CommandName_promote_to_tribune=mejorar_a_tribuno
 UnitTypeName_cow=vaca
 ; --------------------
 ; Levels for this Unit
@@ -1300,7 +1298,7 @@ UnitTypeName_barracks=cuartel
 CommandName_produce_swordman=producir_espadachín
 CommandName_produce_archer=producir_arquero
 CommandName_produce_guard=producir_guardia
-CommandName_produce_horseman=producir_caballería
+CommandName_produce_horseman=producir_jinete
 CommandName_create_training_field=crear_campo_de_entrenamiento
 UnitTypeName_battle_machine=máquina_de_batalla
 ; --------------------
@@ -1369,7 +1367,7 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=mantener_la_posición
-UnitTypeName_horseman=caballería
+UnitTypeName_horseman=jinete
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -1407,7 +1405,7 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=mantener_la_posición
-CommandName_promote_to_guard=promover_a_guardián
+CommandName_promote_to_guard=mejorar_a_guardián
 UnitTypeName_technician=tecnólogo
 ; --------------------
 ; Levels for this Unit
