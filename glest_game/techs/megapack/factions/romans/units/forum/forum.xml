@@ -2,7 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
-		<size value="5" />
+		<size value="6" />
 		<height value="2" />
 		<max-hp value="11000" regeneration="0"/>
 		<max-ep value="0" />
@@ -12,11 +12,12 @@
 		<time value="250" />
 		<multi-selection value="false" />
 		<cellmap value="true">
-			<row value="11011"/>
-			<row value="11011"/>
-			<row value="00000"/>
-			<row value="11111"/>
-			<row value="11110"/>
+			<row value="111011"/>
+			<row value="111011"/>
+			<row value="111000"/>
+			<row value="000011"/>
+			<row value="101111"/>
+			<row value="111111"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -111,7 +112,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_slave" />
-			<image path="../slave/images/worker.bmp" />
+			<image path="../slave/images/worker.jpg" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>

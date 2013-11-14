@@ -61,8 +61,8 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="50"/>
-			<animation path="models/guard_stand.g3d"/>
-			<animation path="models/guard_stand2.g3d"/>
+			<animation path="models/guard_idle1.g3d"/>
+			<animation path="models/guard_idle2.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -71,7 +71,7 @@
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="240"/>
-			<anim-speed value="120"/>
+			<anim-speed value="100"/>
 			<animation path="models/guard_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -81,7 +81,7 @@
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="80"/>
-			<anim-speed value="80"/>
+			<anim-speed value="100"/>
 			<animation path="models/guard_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
@@ -116,7 +116,7 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="60"/>
+			<anim-speed value="100"/>
 			<animation path="models/guard_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die1.wav"/>
@@ -132,7 +132,7 @@
 			<name value="charge_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="240"/>
-			<anim-speed value="120"/>
+			<anim-speed value="100"/>
 			<animation path="models/guard_walk.g3d"/>
 			<sound enabled="false"/>			
 		</skill>	

@@ -60,7 +60,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
-			<animation path="models/catapult_sit.g3d"/>
+			<animation path="models/catapult_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -127,16 +127,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_die3.wav"/>
 			</sound> 			
 			<fade value="false"/>
-		</skill>
-
-		<skill>
-			<type value="stop"/>
-			<name value="stop_skill"/>		
-			<ep-cost value="0"/>
-			<speed value="1000"/>
-			<anim-speed value="40"/>
-			<animation path="models/catapult_sit.g3d"/>
-			<sound enabled="false"/>
 		</skill>
 
 	</skills>

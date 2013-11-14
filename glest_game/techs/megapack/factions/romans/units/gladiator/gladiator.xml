@@ -66,8 +66,8 @@
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="250"/>
-			<anim-speed value="190"/>
+			<speed value="170"/>
+			<anim-speed value="100"/>
 			<animation path="models/g_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
@@ -150,7 +150,7 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="60"/>
+			<anim-speed value="110"/>
 			<animation path="models/g_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die1.wav"/>
@@ -165,8 +165,8 @@
 			<type value="move"/>		
 			<name value="charge_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="170"/>
-			<anim-speed value="120"/>
+			<speed value="250"/>
+			<anim-speed value="130"/>
 			<animation path="models/g_walk.g3d"/>
 			<sound enabled="false"/>			
 		</skill>	

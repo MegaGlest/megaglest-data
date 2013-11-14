@@ -29,7 +29,7 @@
 			<resource name="food" amount="1"/>	
 		</resource-requirements>
 		<resources-stored/>
-		<image path="images/guard.bmp"/>
+		<image path="images/guard.jpg"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
@@ -57,19 +57,9 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="50"/>
-			<animation path="models/wartime_mechanic_stand.g3d"/>
+			<animation path="models/wartime_mechanic_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
-		<!--skill>
-			<type value="upgrade"/>	
-			<name value="upgrade_skill"/>	
-			<ep-cost value="0" />
-			<speed value="300" />
-			<anim-speed value="300" />
-			<animation path="models/wartime_mechanic_learn.g3d" />
-			<sound enabled="false" />
-		</skill-->
 		
 		<skill>
 			<type value="move"/>
@@ -121,7 +111,7 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="60"/>
+			<anim-speed value="105"/>
 			<animation path="models/wartime_mechanic_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die1.wav"/>
@@ -172,7 +162,7 @@
 			<ep-cost value="0"/>
 			<speed value="450"/>
 			<anim-speed value="200"/>
-			<animation path="models/catapult_build.g3d"/>
+			<animation path="models/wartime_mechanic_build_catapult.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
@@ -189,7 +179,7 @@
 			<ep-cost value="0"/>
 			<speed value="450"/>
 			<anim-speed value="200"/>
-			<animation path="models/ballstac_build.g3d"/>
+			<animation path="models/wartime_mechanic_build_balista.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
@@ -206,7 +196,7 @@
 			<ep-cost value="0"/>
 			<speed value="450"/>
 			<anim-speed value="200"/>
-			<animation path="models/battering_ram_build.g3d"/>
+			<animation path="models/wartime_mechanic_build_bram.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>

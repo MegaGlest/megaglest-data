@@ -33,7 +33,7 @@
 			<resource name="food" amount="2"/>						
 		</resource-requirements>
 		<resources-stored/>
-		<image path="images/horseman.bmp"/>
+		<image path="images/horseman.jpg"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
@@ -78,7 +78,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="50"/>
-			<animation path="models/heavy_calvary_stand.g3d"/>
+			<animation path="models/tribune_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -88,7 +88,7 @@
 			<ep-cost value="0"/>
 			<speed value="380"/>
 			<anim-speed value="100"/>
-			<animation path="models/heavy_calvary_walk.g3d"/>
+			<animation path="models/tribune_walk.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_walk2.wav"/>
@@ -102,7 +102,7 @@
 			<ep-cost value="0"/>
 			<speed value="130"/>
 			<anim-speed value="130"/>
-			<animation path="models/heavy_calvary_attack.g3d"/>
+			<animation path="models/tribune_attack.g3d"/>
 			<sound enabled="true" start-time="0.4">
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack2.wav"/>
@@ -136,8 +136,8 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="50"/>
-			<animation path="models/heavy_calvary_die.g3d"/>
+			<anim-speed value="90"/>
+			<animation path="models/tribune_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_die2.wav"/>

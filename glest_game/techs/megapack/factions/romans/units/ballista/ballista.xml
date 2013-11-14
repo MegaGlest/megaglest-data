@@ -79,7 +79,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
-			<animation path="models/ballstac_sit.g3d"/>
+			<animation path="models/ballista_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
  
@@ -89,7 +89,7 @@
 			<ep-cost value="0"/>
 			<speed value="185"/>
 			<anim-speed value="150"/>
-			<animation path="models/ballstac_sit.g3d"/>
+			<animation path="models/ballista_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -99,7 +99,7 @@
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
-			<animation path="models/ballstac_attack.g3d"/>
+			<animation path="models/ballista_attack.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
@@ -135,8 +135,8 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="60"/>
-			<animation path="models/ballstac_die.g3d"/>
+			<anim-speed value="1200"/>
+			<animation path="models/ballista_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die2.wav"/>

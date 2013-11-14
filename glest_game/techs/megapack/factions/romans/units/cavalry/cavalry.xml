@@ -33,7 +33,7 @@
 			<resource name="food" amount="2"/>						
 		</resource-requirements>
 		<resources-stored/>
-		<image path="images/horseman.bmp"/>
+		<image path="images/horseman.jpg"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
@@ -78,8 +78,10 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="50"/>
-			<animation path="models/calvary_stand.g3d"/>
-			<animation path="models/calvary_stand2.g3d"/>
+			<animation path="models/calvary_idle1.g3d"/>
+			<animation path="models/calvary_idle1.g3d"/>
+			<animation path="models/calvary_idle2.g3d"/>
+			<animation path="models/calvary_idle3.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -138,7 +140,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="80"/>
-			<animation path="models/calvary_stand.g3d"/>
+			<animation path="models/calvary_idle1.g3d"/>
 			<sound enabled="false"/>
 		</skill>
                 
@@ -147,7 +149,7 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="50"/>
+			<anim-speed value="90"/>
 			<animation path="models/calvary_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_die1.wav"/>
@@ -205,7 +207,7 @@
 		<command>
 			<type value="morph"/>
 			<name value="promote_to_tribune"/>
-			<image path="../tribune/images/horseman.bmp"/>
+			<image path="../tribune/images/horseman.jpg"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>

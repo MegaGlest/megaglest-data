@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="4" />
+		<size value="5" />
 		<height value="2" />
 		<max-hp value="4500" regeneration="0"/>
 		<max-ep value="0" />
@@ -11,10 +11,11 @@
 		<time value="100" />
 		<multi-selection value="false" />
 		<cellmap value="true">
-			<row value="1101"/>
-			<row value="0000"/>
-			<row value="1001"/>
-			<row value="1111"/>
+			<row value="11011"/>
+			<row value="11011"/>
+			<row value="11000"/>
+			<row value="11101"/>
+			<row value="11111"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -25,7 +26,8 @@
 		<damage-particles value="true">
 			<particle-file path="fire_particles1.xml"/>
 			<particle-file path="fire_particles2.xml"/>
-			<particle-file path="smoke_particles.xml"/>
+			<particle-file path="smoke_particles1.xml"/>
+			<particle-file path="smoke_particles2.xml"/>
 		</damage-particles>
 		<unit-requirements>
 			<unit name="forum" />
@@ -36,7 +38,7 @@
 			<resource name="wood" amount="100" />
 		</resource-requirements>
 		<resources-stored />
-		<image path="images/barracks.bmp" />
+		<image path="images/barracks.jpg" />
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
@@ -108,7 +110,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_spearman" />
-			<image path="../spearman/images/swordman.bmp" />
+			<image path="../spearman/images/swordman.jpg" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -138,7 +140,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_swordsman" />
-			<image path="../swordsman/images/guard.bmp" />
+			<image path="../swordsman/images/guard.jpg" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>

@@ -31,7 +31,7 @@
 			<resource name="food" amount="2"/>						
 		</resource-requirements>
 		<resources-stored/>
-		<image path="images/guard.bmp"/>
+		<image path="images/guard.jpg"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
@@ -59,7 +59,8 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="50"/>
-			<animation path="models/sword_man_stand.g3d"/>
+			<animation path="models/swordsman_idle1.g3d"/>
+			<animation path="models/swordsman_idle2.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -68,8 +69,8 @@
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="170"/>
-			<anim-speed value="120"/>
-			<animation path="models/sword_man_walk.g3d"/>
+			<anim-speed value="100"/>
+			<animation path="models/swordsman_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -78,9 +79,9 @@
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="80"/>
-			<anim-speed value="80"/>
-			<animation path="models/sword_man_attack.g3d"/>
-			<sound enabled="true" start-time="0">
+			<anim-speed value="120"/>
+			<animation path="models/swordsman_attack.g3d"/>
+			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack3.wav"/>
@@ -103,7 +104,7 @@
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
-			<attack-start-time value="0"/>
+			<attack-start-time value="0.1"/>
 			<projectile value="false"/>
 			<splash value="false"/>
 		</skill>
@@ -113,8 +114,8 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="60"/>
-			<anim-speed value="60"/>
-			<animation path="models/sword_man_die.g3d"/>
+			<anim-speed value="90"/>
+			<animation path="models/swordsman_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_die2.wav"/>
@@ -130,7 +131,7 @@
 			<ep-cost value="0"/>
 			<speed value="170"/>
 			<anim-speed value="120"/>
-			<animation path="models/sword_man_walk.g3d"/>
+			<animation path="models/swordsman_walk.g3d"/>
 			<sound enabled="false"/>			
 		</skill>	
 

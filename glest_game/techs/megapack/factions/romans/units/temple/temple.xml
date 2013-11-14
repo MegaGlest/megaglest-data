@@ -12,10 +12,10 @@
 		<time value="300" />
 		<multi-selection value="false" />
 		<cellmap value="true">
-			<row value="1101"/>
-			<row value="0000"/>
-			<row value="1011"/>
-			<row value="1011"/>
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="1111"/>
 
 		 </cellmap>
 		<levels/>
