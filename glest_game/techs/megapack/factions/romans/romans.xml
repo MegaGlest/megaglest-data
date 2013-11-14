@@ -18,6 +18,7 @@
 		<unit name="guard" amount="0"/>
 		<unit name="cavalry" amount="0"/>
 		<unit name="eagle_pillar" amount="0"/>
+		<unit name="general" amount="0"/>
 		<unit name="gladiator" amount="0"/>
 		<unit name="axe_man" amount="0"/>
 		<unit name="swordsman" amount="0"/>

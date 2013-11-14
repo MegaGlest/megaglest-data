@@ -60,7 +60,6 @@
 			<speed value="1000"/>
 			<anim-speed value="50"/>
 			<animation path="models/swordsman_idle1.g3d"/>
-			<animation path="models/swordsman_idle2.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
