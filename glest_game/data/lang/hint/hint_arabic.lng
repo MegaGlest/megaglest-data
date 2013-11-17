@@ -1,5 +1,5 @@
 hint1=يمكنك تعيين / تعديل اسم اللاعب في قائمة "خيارات"،\nيمكن الوصول إليها من القائمة الرئيسية.
-# hint2=To select idle workers, press the '#HotKeySelectIdleHarvesterUnit#' key, then press '#HotKeyCenterCameraOnSelection#' to focus them.
+hint2=لتحديد العمال العاطلين، اضغط على مفتاح '#HotKeySelectIdleHarvesterUnit#'، ثم اضغط على '#HotKeyCenterCameraOnSelection#' للتركيز عليهم.
 hint3=لتمكين/تعطيل محادثة الفريق، اضغط '#ChatTeamMode#' (في حين لم تكن في وضع المحادثة).
 hint4=لرؤية المزيد من سجل المحادثة، اضغط باستمرار على مفتاح '#ShowFullConsole#'.
 hint5=يمكنك تجميع الوحدات عن طريق تحديدها والضغط على Ctrl + #GroupUnitsKey1#..#GroupUnitsKey10#.\nلمنادات مجموعة اضغط على رقم المجموعة (0-9).\nأنقر نقرا مزدوجا على الرقم لوضع الكاميرا فوق هذه المجموعة.
@@ -23,7 +23,7 @@ hint28=الآن يمكنك إشارة أعضاء فريقك إلى موقع عل
 hint34=لتعلم كيفية إستضافة ألعاب خاصة بك راجع\nhttp://FAQ.megaglest.org
 hint36=لتحديد موضع دائم على الخريطة\nاضغط المفتاح '#BookmarkAdd#'، ثم انقر على الخريطة. لإزالته،\nاضغط على '#BookmarkRemove#' وانقر مرة أخرى.
 hint38=على نظامي لينكس و أو إس X، يمكنك الضغط على Alt+Enter في أي وقت\nللتبديل بين أوضاع الشاشة، وضع الإطارات ووضع ملئ الشاشة.
-# hint42=To follow a unit in third person mode,\nselect the unit and press the '#CameraFollowSelectedUnit#' key.\nTo return to normal camera mode press #ResetCameraMode#.
+hint42=لمتابعة وحدة في وضع الشخص ثالث،\nحدد الوحدة واضغط المفتاح '#CameraFollowSelectedUnit#'.\nللعودة إلى وضع الكاميرا الطبيعي اضغط على #ResetCameraMode#.
 hint43=لينكس هو أفضل نظام تشغيل .. على الإطلاق .. هذه الفترة :)
 hint44=البرمجيات الحرة جعلت هذه اللعبة ممكنة، أنظر كيف يمكن أن تساعد\nفي مجتمعات مثل fsf.org وsourceforge.net
-# hint45=Is a translation missing or bad? Please help translate MegaGlest! http://translate.megaglest.org
+hint45=هناك ترجمة مفقودة أو سيئة؟ الرجاء المساعدة في ترجمة MegaGlest! http://translate.megaglest.org
