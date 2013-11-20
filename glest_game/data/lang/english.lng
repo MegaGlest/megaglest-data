@@ -562,6 +562,7 @@ FONT_HEIGHT_TEXT=yW
 FONT_MULTIBYTE=0
 FONT_RIGHTTOLEFT=0
 FONT_TYPENAME=Times New Roman
+FONT_RIGHTTOLEFT_MIXED_SUPPORT=false
 
 FontDisplayBaseSize=12
 FontDisplayPostfix=-*-*-*-*-*-*-*
