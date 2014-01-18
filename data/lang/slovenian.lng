@@ -50,6 +50,7 @@ BuildingNoReqs=Vsi pogoji za to zgradbo niso izpolnjeni
 BuildingNoRes=Premalo surovin za grajenje te zgradbe
 Built=Zgrajeno
 CameraModeSet=Nastavljen način kamere
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Lahko popravlja
 Cancel=Prekliči
 CancelDownloads=Prekliči prenos

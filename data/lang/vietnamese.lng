@@ -50,6 +50,7 @@ BuildingNoReqs=Việc xây dựng không thỏa mãn yêu cầu
 BuildingNoRes=Không đủ tài nguyên để thực hiện xây dựng
 Built=Đã xây
 CameraModeSet=Chế độ camera được đặt
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Có thể sửa chữa
 Cancel=Hủy bỏ
 CancelDownloads=Hủy bỏ tải xuống

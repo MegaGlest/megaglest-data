@@ -50,6 +50,7 @@ BuildingNoReqs=Le bâtiment ne sastisfait pas les prérequis
 BuildingNoRes=Pas assez de ressources pour construire
 Built=Construit
 CameraModeSet=Mode caméra mis sur
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Peut réparer
 Cancel=Annuler
 CancelDownloads=Annuler le(s) téléchargement(s)

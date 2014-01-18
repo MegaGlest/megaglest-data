@@ -50,6 +50,7 @@ BuildingNoReqs=Budova nesplňuje požadavky
 BuildingNoRes=Nedostatek zdrojů pro stavbu budovy
 Built=Postaveno
 CameraModeSet=Pohled nastaven na
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Může opravovat
 Cancel=Zrušit
 CancelDownloads=Zrušit stahování

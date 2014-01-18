@@ -50,6 +50,7 @@ BuildingNoReqs=Το κτήριο δεν πληρεί της απαιτήσεις
 BuildingNoRes=Δεν υπάρχουν αρκετοί πόροι για το κτίσιμο αυτού του κτιρίου
 Built=Χτησμένο
 CameraModeSet=Το mode κάμερας ορίστηκε σε
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Διορθώσημο
 Cancel=Ακύρωση
 CancelDownloads=Ακύρωση μεταφόρτωσης(εων)

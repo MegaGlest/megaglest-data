@@ -50,6 +50,7 @@ BuildingNoReqs=Требования строительства не удовле
 BuildingNoRes=Не хватает ресурсов для строительства
 Built=Построено
 CameraModeSet=Установка камеры:
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Можно восстановить
 Cancel=Отмена
 CancelDownloads=Отменить загрузку(ки)

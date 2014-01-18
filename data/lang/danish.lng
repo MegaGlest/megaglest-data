@@ -50,6 +50,7 @@ BuildingNoReqs=Bygning opfylder ikke krav
 BuildingNoRes=Ikke nok ressourcer til at producere bygning
 Built=Bygget
 CameraModeSet=Kamera mode sat til
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Kan Reparere
 Cancel=Aflys
 CancelDownloads=Afbryd overførsel

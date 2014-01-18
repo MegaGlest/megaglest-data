@@ -50,6 +50,7 @@ BuildingNoReqs=建設に必要な条件を満たしていません.
 BuildingNoRes=建設に必要な資源が足りません.
 Built=建設済み
 CameraModeSet=カメラモードを設定
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=修理可能
 Cancel=キャンセル
 CancelDownloads=ダウンロードをキャンセル(s)

@@ -50,6 +50,7 @@ BuildingNoReqs=Ndertesa nuk i ploteson kushtet
 BuildingNoRes=Nuk keni resurse te mjaftueshme per ndertim
 Built=U ndertua
 CameraModeSet=Menyra e kameres u be
+# CameraMoveSpeed=Camera Move Speed
 CanRepair=Mund te riparohet
 Cancel=Anulo
 CancelDownloads=Anulo shkarkimin(et)
