@@ -1,0 +1,18 @@
+SCENARIO_NAME=Capture a bandeira
+;message headers
+CaptureFlag=Capture a bandeira
+Warning=Aviso
+Crisis=Alerta vermelho!
+
+;message strings
+Brief1=Capture a bandeira inimiga ao tocá-la e então retorne aquela unidade à base! A bandeira inimiga está piscando no mini mapa. A sua bandeira piscará na cor da sua equipe. Tome cuidado com surpresas ao longo do caminho.
+Player2InFlagZoneWarning=O jogador 2 está na sua área da bandeira, tome cuidado!
+Player3InFlagZoneWarning=O jogador 3 está na sua área da bandeira, tome cuidado!
+Player2HasFlagWarning=O jogador 2 PEGOU SUA BANDEIRA, pegue-o!!
+Player3HasFlagWarning=O jogador 3 PEGOU SUA BANDEIRA, pegue-o!!
+
+;objective strings
+Player2HeadHome=Agora, jogador 2, chegue vivo em casa e ganhe! O seu portador de bandeira está destacado no mapa com a cor da sua equipe, não o deixe morrer.
+Player3HeadHome=Agora, jogador 3, chegue vivo em casa e ganhe! O seu portador de bandeira está destacado no mapa com a cor da sua equipe, não o deixe morrer.
+PlayerWins=Parabéns, você venceu!
+PlayerLoses=Que pena, você perdeu!

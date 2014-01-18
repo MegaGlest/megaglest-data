@@ -1,0 +1,13 @@
+# SCENARIO_NAME=Amazones Lite
+;message headers
+Amazones=Amazonas
+
+;message strings
+Brief1=O castelo do seu aliado deve sobreviver!
+
+;objective strings
+Firstwave=Objetivo: Ladies de verde.
+Secondwave=Objetivo: Mais Ladies.
+Thirdwave=Objetivo: Provavelmente Ladies em excesso....
+Fourthwave=Objetivo: Legal, porém perigoso ;-)
+Lastwave=Objetivo: A onda final!!

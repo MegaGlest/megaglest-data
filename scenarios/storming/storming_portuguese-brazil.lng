@@ -1,0 +1,11 @@
+SCENARIO_NAME=Tempestade
+;message headers
+Storming=Tempestade
+
+;message strings
+Brief1=Ajude sua Summoner atacar todas as vilas inimigas, porem ela deve sobreviver
+
+;objective strings
+ObjectiveWest=Objetivo: Destrua a vila mágica do oeste, A Summoner tem que sobrevicer
+ObjectiveNorthEast=Objetivo: Destrua a vila tech ao nordeste, A Summoner tem que sobrevicer
+ObjectiveSouthEast=Objetivo: Destrua a vila ao sudeste, A Summoner tem que sobrevicer
