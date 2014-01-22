@@ -8,6 +8,10 @@ IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
 	#MESSAGE(STATUS "Looking for [${PROJECT_SOURCE_DIR}/../glest_game/]")
         MESSAGE(STATUS "**Data package INSTALL triggered.")
 
+	IF(NOT MEGAGLEST_DATA_INSTALL_PATH)
+		SET(MEGAGLEST_DATA_INSTALL_PATH "share/megaglest/" CACHE STRING "The installation path for data files (this is appended to the CMAKE_INSTALL_PREFIX)")
+	ENDIF()
+
 	# Check if we are running from a GIT folder structure or tarballs
 	#IF(EXISTS "${PROJECT_SOURCE_DIR}/../glest_game/")
 	#	MESSAGE(STATUS "**Data package detected GIT folder structure.")
