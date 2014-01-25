@@ -7,6 +7,8 @@
 *.un~
 Session.vim
 .netrwhist
+# KDevelop
+*.kdev4
 
 ## OSX
 .DS_Store
@@ -60,6 +62,7 @@ $RECYCLE.BIN/
 !.tx/
 *.blend
 *.blend1
+
 # Windows_build
 *.dll
 *.exe
@@ -69,6 +72,5 @@ $RECYCLE.BIN/
 *.map
 *.dmp
 *.dat
-data/glest_game/lua/
+/lua/
 #
-
