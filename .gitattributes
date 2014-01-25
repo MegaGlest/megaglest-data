@@ -7,6 +7,8 @@
 
 *.txt eol=crlf
 CMake*.txt eol=lf
+version.txt eol=lf
+VERSION.txt eol=lf
 robots.txt eol=lf
 
 *.ttc -text -diff

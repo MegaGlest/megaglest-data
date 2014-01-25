@@ -9,6 +9,8 @@ Session.vim
 .netrwhist
 # KDevelop
 *.kdev4
+# Meld
+*.orig
 
 ## OSX
 .DS_Store
@@ -23,6 +25,7 @@ Icon
 .Trashes
 
 ## Windows
+*.old
 # Windows image file caches
 Thumbs.db
 thumbs.db
