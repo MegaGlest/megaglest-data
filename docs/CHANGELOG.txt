@@ -1,1 +1,1 @@
-../../../docs/CHANGELOG.txt
+Please refer to docs/ in megaglest-source repository for changelog.

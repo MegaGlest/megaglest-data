@@ -7,6 +7,10 @@
 *.un~
 Session.vim
 .netrwhist
+# KDevelop
+*.kdev4
+# Meld
+*.orig
 
 ## OSX
 .DS_Store
@@ -21,6 +25,7 @@ Icon
 .Trashes
 
 ## Windows
+*.old
 # Windows image file caches
 Thumbs.db
 thumbs.db
@@ -60,6 +65,7 @@ $RECYCLE.BIN/
 !.tx/
 *.blend
 *.blend1
+
 # Windows_build
 *.dll
 *.exe
@@ -69,6 +75,5 @@ $RECYCLE.BIN/
 *.map
 *.dmp
 *.dat
-data/glest_game/lua/
+/lua/
 #
-
