@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Glossy Serpent is a free theme for CEGUI, based on the Taharez Look theme.
+Glossy Serpent is licensed under the terms of the MIT license.
+
+Copyright (c) 2012 Augustin Preda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
+and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!--
+version:      0.7
+Last change:	$LastChangedDate: 2013-01-04 08:55:21 +0200 (V, 04 ian. 2013) $
+-->
+
+<GUILayout >
+
+    <Window Type="GlossySerpent/StaticImage" Name="MainMenuRootItem" >
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{-0,0},{1,0},{1,0}}" />
+        <Property Name="BackgroundEnabled" Value="False" />
+
+        <!-- The bottom area semi-transparent button panel -->
+        <Window Type="GlossySerpent/SimplePanel" Name="BottomFrame">
+            <Property Name="UnifiedPosition" Value="{{-0.001,0},{0.935,0}}" />
+            <Property Name="UnifiedMaxSize" Value="{{1.1,0},{1.1,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,001},{0,001}}" />
+            <Property Name="UnifiedSize" Value="{{1.0016,0},{0.066,0}}" />
+            <!-- <Property Name="BackgroundPictureColour" Value="AFFFFFFFF" /> -->
+            
+          <Window Type="GlossySerpent/Button32_4C" Name="ButtonQuit" >
+              <Property Name="Text" Value="Quit (ESC)" />
+              <Property Name="InheritsAlpha" Value="False" />
+              <Property Name="UnifiedAreaRect" Value="{{0.0059,0},{0.15,0},{0.126718,0},{0.85,0}}" />
+              <Property Name="Tooltip" Value="Exit the app...
+that is [colour='FF00FF88']if [colour='FFFFFFFF']the button
+is connected to some [b]code[/b]" />
+              <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphShield" />
+          </Window>
+          
+          <Window Type="GlossySerpent/Button32_4C" Name="ButtonShieldOnly" >
+              <!--<Property Name="Text" Value="Prev shadow mode (K)" />-->
+              <Property Name="InheritsAlpha" Value="False" />
+              <Property Name="UnifiedAreaRect" Value="{{0.403282,0},{0.15,0},{0.445,0},{0.85,0}}" />
+              <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphShield" />
+              <Property Name="TextUsesGlyph" Value="1" />
+              <Property Name="Tooltip" Value="Only the glyph is shown (no text)" />
+          </Window>
+          <Window Type="GlossySerpent/Button32_4C" Name="ButtonPrevShadowTech" >
+              <Property Name="Text" Value="Prev shadow mode (K)" />
+              <Property Name="InheritsAlpha" Value="False" />
+              <Property Name="UnifiedAreaRect" Value="{{0.483282,0},{0.15,0},{0.6941,0},{0.85,0}}" />
+              <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphBlack" />
+              <Property Name="Tooltip" Value="The black square is not an error,
+it's the actual picture used in the glyph" />
+              <Property Name="TextUsesGlyph" Value="1" />
+          </Window>
+          <Window Type="GlossySerpent/Button32_4C" Name="ButtonNextShadowTech" >
+              <Property Name="Text" Value="Next shadow mode (L)" />
+              <Property Name="InheritsAlpha" Value="False" />
+              <Property Name="UnifiedAreaRect" Value="{{0.703282,0},{0.15,0},{0.8641,0},{0.85,0}}" />
+          </Window>
+
+          <Window Type="GlossySerpent/Button32" Name="ButtonReloadExperimentGroup" >
+              <Property Name="Text" Value="Reload group (R)" />
+              <Property Name="InheritsAlpha" Value="False" />
+              <Property Name="UnifiedAreaRect" Value="{{0.873282,0},{0.15,0},{0.9941,0},{0.85,0}}" />
+          </Window>
+        </Window>
+
+        <!--transparent stuff-->                  
+        <Window Type="GlossySerpent/ListboxTransparent" Name="Sample_TransparentListBox" >
+            <Property Name="Alpha" Value="1.0" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.33,0},{0.0,0},{0.55,0},{0.36,0}}" />
+            <Property Name="Tooltip" Value="Sample tooltip." />
+            
+            <!-- no items added here; all will be added via code -->
+        </Window>
+
+        <!-- The bottom area semi-transparent button panel -->
+        <!--
+        <Window Type="GlossySerpent/FrameWindow" Name="TestMMixFrame">
+            <Property Name="UnifiedPosition" Value="{{0.4,0},{0.6,0}}" />
+            <Property Name="UnifiedMaxSize" Value="{{1.1,0},{1.1,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0.0,0},{0.0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0.2,0},{0.0,15}}" />
+            <Property Name="TitlebarEnabled"         Value="False" />
+            <Property Name="FrameEnabled"            Value="False" />
+            <Property Name="CloseButtonEnabled"      Value="False" />
+            <Property Name="Visible"                 Value="True" />
+            <Property Name="Alpha"                   Value="0.1" />
+            <Property Name="MousePassThroughEnabled" Value="True" />
+                        
+        </Window>-->
+
+        <!-- The top right area -->
+        <Window Type="GlossySerpent/FrameWindow" Name="TopRightSelectionFrame" >
+            <Property Name="Text" Value="Title of Frame Window" />
+            <Property Name="FrameEnabled" Value="True" />
+            <Property Name="TitlebarFont" Value="DejaVuSerif-HD-12" />
+            <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphBack" />
+            <!--<Property Name="TitlebarFont" Value="OpenSans-Regular-12" />-->
+            
+            <Property Name="TitlebarHeight" Value="40" />
+            <Property Name="InheritsAlpha" Value="True" />
+            <Property Name="SizingEnabled" Value="True" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.647,0},{0.003,0},{0.99,0},{0.90,0}}" />
+            <Property Name="DragMovingEnabled" Value="True" />
+            <Property Name="CloseButtonEnabled" Value="True" />
+
+            <Window Type="GlossySerpent/TabControl" Name="OptionsWindowTab" >
+              <Property Name="Alpha" Value="1.0" />
+              <Property Name="TabHeight" Value="{0.15,0}" />
+              <Property Name="TCScrollLRatio" Value="0.45" />
+              
+              <Property Name="TabPanePosition" Value="Top" />
+              <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+              <Property Name="UnifiedAreaRect" Value="{{0.0276348,0},{0.038806,0},{0.990961,0},{0.50,0}}" />
+              <Property Name="Tooltip" Value="This is a test tab control" />
+
+              <!-- tab 1-->
+              <Window Type="GlossySerpent/TabContentPane" Name="Sample_Tab_1" >
+                  <Property Name="Text" Value="Btns, ProgrBar" />
+                  <Property Name="Alpha" Value="0.0" />
+                  <Property Name="Visible" Value="False" />
+                  <Property Name="InheritsAlpha" Value="False" />
+                  <Property Name="UnifiedAreaRect" Value="{{0.0376348,0},{0.0792462,0},{0.970961,0},{0.881281,0}}" />
+                  
+                  <Window Type="GlossySerpent/StaticText" Name="ProgrInfoLabel" >
+                      <Property Name="Text" Value="Progress" />
+                      <Property Name="FrameEnabled" Value="False" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.015548,0},{0.075763,0},{0.345548,0},{0.175763,0}}" />
+                      <Property Name="BackgroundEnabled" Value="False" />
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/StaticText" Name="DragInfoLabel" >
+                      <Property Name="Text" Value="Drag slider to change progress" />
+                      <Property Name="Font" Value="DejaVuSerif-HD-10" />
+                      <Property Name="FrameEnabled" Value="False" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.315548,0},{0.005763,0},{0.845548,0},{0.0725763,0}}" />
+                      <Property Name="BackgroundEnabled" Value="False" />
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/HorizontalScrollbar" Name="Sample_ProgressSlider" >
+                      <Property Name="PageSize" Value="0" />
+                      <Property Name="StepSize" Value="0.1" />
+                      <Property Name="OverlapSize" Value="0" />
+                      <Property Name="DocumentSize" Value="1" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="ScrollPosition" Value="0" />
+                      <Property Name="ThumbMinSize" Value="{{0,50},{0,0}}" />
+                      <!--<Property Name="UnifiedAreaRect" Value="{{0.390391,0},{0.082696,0},{0.823861,0},{0.172696,0}}" />-->
+                      <!--<Property Name="UnifiedAreaRect" Value="{{0.390391,0},{0.082696,0},{0.823861,0},{0.082696,15}}" />-->
+                      <Property Name="UnifiedPosition" Value="{{0.390391,0},{0.082696,0}}" />
+                      <Property Name="UnifiedSize" Value="{{0.433470,0},{0.0,15}}" />
+                      <Property Name="UnifiedMinSize" Value="{{0.0,0},{0.0,0}}" />
+                      <!--
+                      <Property Name="TitlebarEnabled"         Value="False" />
+                      <Property Name="FrameEnabled"            Value="False" />
+                      <Property Name="CloseButtonEnabled"      Value="False" />
+                      -->
+                      <Property Name="Visible"                 Value="True" />
+                      <Property Name="Alpha"                   Value="0.1" />
+                      <Property Name="MousePassThroughEnabled" Value="True" />
+                      <!--XXX-->
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/Button32_4C" Name="ButtonGetRandomProgressValue" >
+                      <Property Name="Text" Value="Button32_4C" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.46,0},{0.48,0},{0.87,0},{0.62,0}}" />
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/Button32" Name="ButtonGetRandomProgressValue2" >
+                      <Property Name="Text" Value="Button32" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.46,0},{0.70,0},{0.87,0},{0.84,0}}" />
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/Button32_4C" Name="ButtonGetRandomProgressValue3" >
+                      <Property Name="Text" Value="With Glyph" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.48,0},{0.45,0},{0.62,0}}" />
+                      <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphBack" />
+                      <Property Name="TextUsesGlyph" Value="1" />
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/Button32" Name="ButtonGetRandomProgressValue4" >
+                      <Property Name="Text" Value="With Glyph" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.70,0},{0.45,0},{0.84,0}}" />
+                      <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphExit" />
+                      <Property Name="TextUsesGlyph" Value="1" />
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/ProgressBar" Name="Sample_ProgressBar" >
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="StepSize" Value="0.01" />
+                      <Property Name="CurrentProgress" Value="0.34" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.25,0},{0.868219,0},{0.40,0}}" />
+                      <!--<Property Name="BarFillColour" Value="FF13C6BB" /> <!-- teal -->
+                      <!--<Property Name="BarFillColour" Value="FFFF8410" /> <!-- brown/orange -->
+                      <!--<Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.95,0},{0.868219,0},{0.99,0}}" />-->
+                  </Window>
+
+              </Window>
+              
+              <!-- tab 2-->
+              <Window Type="GlossySerpent/TabContentPane" Name="Sample_Tab_2" >
+                  <Property Name="Text" Value="Sliders" />
+                  <Property Name="Alpha" Value="0.0" />
+                  <Property Name="Visible" Value="False" />
+                  <Property Name="InheritsAlpha" Value="False" />
+                  <Property Name="UnifiedAreaRect" Value="{{0.0376348,0},{0.0812315,0},{0.970961,0},{0.881281,0}}" />
+
+                  <Window Type="GlossySerpent/StaticText" Name="SoundVolumeLabel" >
+                      <Property Name="Text" Value="Sound Volume" />
+                      <Property Name="FrameEnabled" Value="False" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.015548,0},{0.12587,0},{0.345548,0},{0.225869,0}}" />
+                      <Property Name="BackgroundEnabled" Value="False" />
+                  </Window>
+                  <Window Type="GlossySerpent/HorizontalScrollbar" Name="SoundVolumeSlider" >
+                      <Property Name="PageSize" Value="0" />
+                      <Property Name="StepSize" Value="1" />
+                      <Property Name="OverlapSize" Value="0" />
+                      <Property Name="DocumentSize" Value="1" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="ScrollPosition" Value="0" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.12536,0},{0.8,0},{0.22536,0}}" />
+                  </Window>
+
+                  <Window Type="GlossySerpent/StaticText" Name="MusicVolumeLabel" >
+                      <Property Name="Text" Value="Music Volume" />
+                      <Property Name="FrameEnabled" Value="False" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.015548,0},{0.275763,0},{0.345548,0},{0.375763,0}}" />
+                      <Property Name="BackgroundEnabled" Value="False" />
+                  </Window>
+                  <Window Type="GlossySerpent/HorizontalScrollbar" Name="MusicVolumeSlider" >
+                      <Property Name="PageSize" Value="0" />
+                      <Property Name="StepSize" Value="1" />
+                      <Property Name="OverlapSize" Value="0" />
+                      <Property Name="DocumentSize" Value="1" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="ScrollPosition" Value="0" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.282696,0},{0.8,0},{0.382696,0}}" />
+                  </Window>
+
+                  <Window Type="GlossySerpent/VerticalScrollbar" Name="DemoVertSlider" >
+                      <Property Name="PageSize" Value="0" />
+                      <Property Name="StepSize" Value="0.25" />
+                      <Property Name="OverlapSize" Value="0" />
+                      <Property Name="DocumentSize" Value="1" />
+                      <Property Name="ThumbMinSize" Value="{{0,0},{0,50}}" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="ScrollPosition" Value="0" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.92,0},{0.102696,0},{0.99,0},{0.88,0}}" />
+                  </Window>
+
+              </Window>
+
+              <!-- tab 3-->
+              <Window Type="GlossySerpent/TabContentPane" Name="Sample_Tab_3" >
+                  <Property Name="Text" Value="Multi Line Text" />
+                  <Property Name="Alpha" Value="0.0" /> <!-- Set the alpha to 0, so the borders don't show-->
+                  <Property Name="Visible" Value="True" />
+                  <Property Name="InheritsAlpha" Value="False" />
+                  <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+                  
+                  <!-- make sure that the inehritance of the alpha does not applyfor child items-->
+                  <Window Type="GlossySerpent/StaticText" Name="SampleTab5_Label0" >
+                      <Property Name="Text" Value="SampleTab5" />
+                      <Property Name="FrameEnabled" Value="False" />
+                      <Property Name="InheritsAlpha" Value="False" /> 
+                      <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0,0},{0.35,0},{0.1,0}}" />
+                      <Property Name="BackgroundEnabled" Value="False" />
+                  </Window>
+                  <Window Type="GlossySerpent/MultiLineEditbox" Name="SampleMLineEditbox_001" >
+                      <Property Name="ScrollBarPreferredSize" Value="16" />
+                      <Property Name="Text">This text is a multiline text:
+Line 1 - custom size for the scrollbar specified in the layout file
+Line 2 (ScrollBarPreferredSize = 16)
+Line 3
+Line 4
+Line 5
+Line 6
+</Property>
+                      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.13,0},{0.98,0},{0.48,0}}" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                  </Window>
+                      
+                  <Window Type="GlossySerpent/MultiLineEditbox" Name="SampleMLineEditbox_002" >
+                      <Property Name="Text">Double scrollbars!
+Line 1
+Line 2
+Line 3
+Line 4 and some more text just to fill in the white space.
+Line 5 Can you believe how much text was entered here with no particular reason?
+Line 6</Property>
+                      <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.50,0},{0.98,0},{0.98,0}}" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="WordWrap" Value="False" />
+                  </Window>
+              </Window> <!-- /tab content pane -->
+
+              <!-- tab 4-->
+              <Window Type="GlossySerpent/TabContentPane" Name="Sample_Tab_4" >
+                  <Property Name="Text" Value="Checkboxes" />
+                  <Property Name="Alpha" Value="0.0" />
+                  <Property Name="Visible" Value="True" />
+                  <Property Name="InheritsAlpha" Value="False" />
+                  <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+                  <Window Type="GlossySerpent/StaticText" Name="SampleTab4_Label0" >
+                      <Property Name="Text" Value="SampleTab4" />
+                      <Property Name="FrameEnabled" Value="False" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.1,0},{0.1,0},{0.85,0},{0.2,0}}" />
+                      <Property Name="BackgroundEnabled" Value="False" />
+                  </Window>
+                  <!-- check box -->
+                  <Window Type="GlossySerpent/Checkbox" Name="UseCPUBurnCheckBox_2" >
+                      <Property Name="Text" Value="CPU Burn mode" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.380,0},{0.72,0},{0.47,0}}" />
+                      <Property Name="Tooltip" Value="This option will consume all available cpu cycles." />
+                  </Window>
+                  <!-- check box -->
+                  <Window Type="GlossySerpent/Checkbox" Name="UseCPUBurnCheckBox_3" >
+                      <Property Name="Text" Value="CPU Burn mode (max)" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.180,0},{0.72,0},{0.37,0}}" />
+                      <Property Name="Tooltip" Value="This option will consume all available cpu cycles." />
+                      <Property Name="BorderSpacing" Value="10" />
+                  </Window>
+                  
+                  <!-- spinner -->
+                  <Window Type="GlossySerpent/Spinner" Name="DifficultyLevelSpinner_2" >
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.73,0},{0.380,0},{0.95,0},{0.47,0}}" />
+                  </Window>
+                  
+                  <Window Type="GlossySerpent/Button32_4C" Name="extra_button1" >
+                      <Property Name="Text" Value="Button" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.0059,0},{0.5,0},{0.726718,0},{0.64,0}}" />
+                      <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphShield" />
+                      <Property Name="TextUsesGlyph" Value="1" />
+                  </Window>
+                  <Window Type="GlossySerpent/Button32" Name="extra_button2" >
+                      <Property Name="Text" Value="Button" />
+                      <Property Name="InheritsAlpha" Value="False" />
+                      <Property Name="UnifiedAreaRect" Value="{{0.0059,0},{0.65,0},{0.726718,0},{0.79,0}}" />
+                      <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphShield" />
+                      <Property Name="TextUsesGlyph" Value="1" />
+                  </Window>
+                  
+              </Window>
+              
+
+              <!-- tab 5-->
+              <Window Type="GlossySerpent/TabContentPane" Name="Sample_Tab_Empty" >
+                  <Property Name="Text" Value="Empty" />
+                  <Property Name="Alpha" Value="0.0" />
+                  <Property Name="Visible" Value="True" />
+                  <Property Name="InheritsAlpha" Value="False" />
+                  <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+              </Window>
+            </Window> <!-- /tab control -->
+            
+            <!-- a table -->
+            <Window Type="GlossySerpent/MultiColumnList" Name="Sample_MultiColumnList" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.511,0},{0.99,0},{0.79,0}}" />
+                <Property Name="ColumnHeader" Value="text:Server Name width:{0.33,0} id:0" />
+                <Property Name="ColumnHeader" Value="text:Address width:{0.5,0} id:1" />
+                <Property Name="ColumnHeader" Value="text:Ping width:{0.2,0} id:2" />
+                
+                <!-- no items added here; all will be added via code -->
+            </Window>
+            
+            
+            <Window Type="GlossySerpent/ItemListbox" Name="SampleListBox_001" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.51,0},{0.80,0},{0.99,0},{0.98,0}}" />
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 1" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 2" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 3" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <!--<Property Name="Text" Value="Listbox Item 4 with a text" />-->
+                    <Property Name="Text" Value="Listbox Item 4 with a quite long text, I wonder why, maybe to test something" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 5" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 6" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 7" />
+                </Window>
+            </Window>
+            
+            <Window Type="GlossySerpent/Listbox" Name="SampleListBox_002" >
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.01,0},{0.80,0},{0.49,0},{0.98,0}}" />
+                <Property Name="Tooltip" Value="Sample tooltip." />
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 1" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 2" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 3" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <!--<Property Name="Text" Value="Listbox Item 4 with a text" />-->
+                    <Property Name="Text" Value="Listbox Item 4 with a quite long text, I wonder why, maybe to test something" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 5" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 6" />
+                </Window>
+                <Window Type="GlossySerpent/ListboxItem" >
+                    <Property Name="Text" Value="Listbox Item 7" />
+                </Window>
+            </Window>
+        </Window> <!-- /frame window -->
+
+        
+        <!-- The top left area semi-transparent button panel -->
+        <Window Type="GlossySerpent/SerpentPanel" Name="_AnonFrame3">
+            <Property Name="UnifiedPosition" Value="{{0.003,0},{0.003,0}}" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0,001},{0,001}}" />
+            <Property Name="UnifiedSize" Value="{{0.32,0},{0.58,0}}" />
+            <!--<Property Name="BackgroundImage" Value="set:GlossySerpent image:GlyphShield" />-->
+            <!--<Property Name="BackgroundPictureColour" Value="DDFFFFFF" />-->
+            
+            <Property Name="Tooltip" Value="[colour='FFFFFFFF']Window shows a simple
+[colour='FFFFF000'](semi)[colour='FFFFFFFF']transparent panel." />
+            
+            <Window Type="GlossySerpent/StaticText" Name="DebugInfoLabel" >
+                <Property Name="Text" Value="Info Area" />
+                <Property Name="FrameEnabled" Value="True" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedAreaRect" Value="{{0.25,0},{0.015,0},{0.75,0},{0.075,0}}" />
+                <Property Name="BackgroundEnabled" Value="True" />
+            </Window>
+
+            <Window Type="GlossySerpent/StaticText" Name="LoadedBenchTextLabel" >
+                <Property Name="Text" Value="" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.077,0},{0.85,0},{0.134,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+
+            <Window Type="GlossySerpent/StaticText" Name="Instruction_row_1" >
+                <Property Name="Text" Value="* Right click - look around; keys W, A, S, D - move; CTRL, SHIFT - move faster or slower" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.139,0},{0.98,0},{0.224,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+
+            <!-- combo -->
+            <Window Type="GlossySerpent/Combobox" Name="Sample_ComboBox" >
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.230,0},{0.95,0},{0.450,0}}" />
+                <Property Name="UnifiedSize" Value="{{0.80,0},{0.35,0}}" />
+                <Property Name="MaxEditTextLength" Value="100" />
+            </Window>
+
+            <!-- spinner -->
+            <Window Type="GlossySerpent/Spinner" Name="DifficultyLevelSpinner" >
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.73,0},{0.320,0},{0.95,0},{0.40,0}}" />
+            </Window>
+
+            <!-- check box -->
+            <Window Type="GlossySerpent/Checkbox" Name="Checkbox_001" >
+                <Property Name="Text" Value="Checkbox 1" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.34,0},{0.72,0},{0.41,0}}" />
+                <Property Name="Tooltip" Value="Another checkbox." />
+            </Window>
+            <!-- check box -->
+            <Window Type="GlossySerpent/Checkbox" Name="Checkbox_002" >
+                <Property Name="Text" Value="Checkbox 2" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.420,0},{0.72,0},{0.50,0}}" />
+                <Property Name="Tooltip" Value="Yet another [colour='FFFF0000']check[colour='FFFFFFFF']box." />
+            </Window>
+            
+            
+            <!-- check box -->
+            <Window Type="GlossySerpent/Checkbox" Name="Checkbox_003" >
+                <Property Name="Text" Value="Checkbox 3" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.51,0},{0.44,0},{0.59,0}}" />
+                <Property Name="Tooltip" Value="This option will consume all available cpu cycles." />
+            </Window>
+
+            <!-- edit box -->
+            <Window Type="GlossySerpent/Editbox" Name="NameEditBox" >
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.02,0},{0.60,0},{0.49,0},{0.66,0}}" />
+                <Property Name="Text" Value="Editable text field" />
+            </Window>
+            
+            <!-- radio buttons -->
+            <Window Type="GlossySerpent/GroupBox" Name="SFX_RB_Grouper_1">
+                <Property Name="Text" Value="Choose one op." />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.54,0},{0.409,0},{0.96,0},{0.675,0}}" />
+                <Property Name="CaptionOffset" Value="15" />
+                <Window Type="GlossySerpent/RadioButton" Name="SFX_RB_Radio1" >
+                    <Property Name="Text" Value="Option 1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <!--<Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.41,0},{0.8,0},{0.47,0}}" />-->
+                    <Property Name="UnifiedAreaRect" Value="{{0.0,0},{0.05,0},{1.0,0},{0.36,0}}" />-->
+                </Window>
+                <Window Type="GlossySerpent/RadioButton" Name="SFX_RB_Radio2" >
+                    <Property Name="ID" Value="1" />
+                    <Property Name="Text" Value="Option 2" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <!--<Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.48,0},{0.8,0},{0.54,0}}" />-->
+                    <Property Name="UnifiedAreaRect" Value="{{0.0,0},{0.37,0},{1.0,0},{0.68,0}}" />
+                </Window>
+                <Window Type="GlossySerpent/RadioButton" Name="SFX_RB_Radio3" >
+                    <Property Name="ID" Value="2" />
+                    <Property Name="Text" Value="Option 3" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <!--<Property Name="UnifiedAreaRect" Value="{{0.4,0},{0.55,0},{0.8,0},{0.61,0}}" />-->
+                    <Property Name="UnifiedAreaRect" Value="{{0.0,0},{0.69,0},{1.0,0},{1.0,0}}" />
+                </Window>
+            </Window>
+
+            <Window Type="GlossySerpent/StaticText" Name="FPSTextLabel" >
+                <Property Name="Text" Value="FPS: " />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.5,0},{0.68,0},{0.74,0},{0.729,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="GlossySerpent/StaticText" Name="FPSValueLabel" >
+                <Property Name="Text" Value="0" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.75,0},{0.68,0},{0.95,0},{0.729,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+
+            <Window Type="GlossySerpent/StaticText" Name="ShadowModeTextLabel" >
+                <Property Name="Text" Value="Shadow Technique (keys K, L): " />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.73,0},{0.85,0},{0.799,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="GlossySerpent/StaticText" Name="ShadowModeValueLabel" >
+                <Property Name="Text" Value="0" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.80,0},{0.95,0},{0.849,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            
+            <Window Type="GlossySerpent/StaticText" Name="ShadowCameraTextLabel" >
+                <Property Name="Text" Value="Shadow Camera (keys M, N) : " />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="WordWrapLeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.05,0},{0.85,0},{0.85,0},{0.929,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            <Window Type="GlossySerpent/StaticText" Name="ShadowCameraValueLabel" >
+                <Property Name="Text" Value="0" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="RightAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0.15,0},{0.93,0},{0.95,0},{0.989,0}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+            
+          <Window Type="GlossySerpent/Button32_4C" Name="ButtonSubMenu" >
+              <Property Name="Text" Value="Submenu" />
+              <Property Name="InheritsAlpha" Value="False" />
+              <Property Name="UnifiedAreaRect" Value="{{0.30,0},{0.87,0},{0.70,0},{0.96,0}}" />
+              <Property Name="Tooltip" Value="Show a context menu." />
+              <Property Name="GlyphImage" Value="set:GlossySerpent image:GlyphShield" />
+          </Window>
+        </Window>
+    </Window>
+    
+</GUILayout>

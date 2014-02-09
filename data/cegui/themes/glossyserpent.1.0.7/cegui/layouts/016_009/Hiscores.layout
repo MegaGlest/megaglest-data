@@ -1,0 +1,240 @@
+
+<!--
+Glossy Serpent is a free theme for CEGUI, based on the Taharez Look theme.
+Glossy Serpent is licensed under the terms of the MIT license.
+
+Copyright (c) 2012 Augustin Preda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
+and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!--
+version:      0.5
+Last change:	$LastChangedDate: 2012-04-10 10:17:53 +0300 (Ma, 10 apr. 2012) $
+-->
+
+<GUILayout version="4" >
+
+    <Window type="GlossySerpent/StaticImage" name="HiscoresRootItem" >
+        <Property name="FrameEnabled" value="False" />
+        <Property name="InheritsAlpha" value="False" />
+        <Property name="Area" value="{{0,0},{-0,0},{1,0},{1,0}}" />
+        <Property name="BackgroundEnabled" value="False" />
+
+
+        
+        <!-- The top left area semi-transparent button panel -->
+        <Window type="GlossySerpent/SimplePanel" name="HighscoreListPanel">
+            <Property name="UnifiedPosition" value="{{0.3,0},{0.1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="MinSize" value="{{0,001},{0,001}}" />
+            <Property name="UnifiedSize" value="{{0.4,0},{0.59,0}}" />
+            <Property name="BackgroundPictureColour" value="AFFFFFFFF" />
+            <Property name="Alpha" value="1.0" />
+<!--            <Property name="TooltipText" value="[colour='FFFFFFFF']Window shows a simple
+[colour='FFFFF000'](semi)[colour='FFFFFFFF']transparent panel." />
+-->
+            <Window type="GlossySerpent/Editbox" name="Score_01_Label" >
+                <Property name="Text" value="999" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.01,0},{0.4,0},{0.07,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_01_Label" >
+                <Property name="Text" value="Score_01" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.01,0},{0.90,0},{0.07,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_02_Label" >
+                <Property name="Text" value="Score_02" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.10,0},{0.08,0},{0.40,0},{0.14,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_02_Label" >
+                <Property name="Text" value="Score_02" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.08,0},{0.90,0},{0.14,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_03_Label" >
+                <Property name="Text" value="Score_03" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.15,0},{0.40,0},{0.21,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_03_Label" >
+                <Property name="Text" value="Score_03" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.15,0},{0.90,0},{0.21,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_04_Label" >
+                <Property name="Text" value="Score_04" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.22,0},{0.4,0},{0.28,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_04_Label" >
+                <Property name="Text" value="Score_04" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.22,0},{0.90,0},{0.28,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_05_Label" >
+                <Property name="Text" value="Score_05" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.29,0},{0.4,0},{0.35,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_05_Label" >
+                <Property name="Text" value="Score_05" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.29,0},{0.90,0},{0.35,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_06_Label" >
+                <Property name="Text" value="Score_06" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.36,0},{0.4,0},{0.41,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_06_Label" >
+                <Property name="Text" value="Score_06" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.36,0},{0.90,0},{0.41,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_07_Label" >
+                <Property name="Text" value="Score_07" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.42,0},{0.4,0},{0.48,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_07_Label" >
+                <Property name="Text" value="Score_07" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.42,0},{0.90,0},{0.48,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_08_Label" >
+                <Property name="Text" value="Score_08" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.49,0},{0.4,0},{0.55,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_08_Label" >
+                <Property name="Text" value="Score_08" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.49,0},{0.90,0},{0.55,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_09_Label" >
+                <Property name="Text" value="Score_09" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.56,0},{0.4,0},{0.62,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_09_Label" >
+                <Property name="Text" value="Score_09" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.56,0},{0.90,0},{0.62,0}}" />
+            </Window>
+
+            <Window type="GlossySerpent/Editbox" name="Score_10_Label" >
+                <Property name="Text" value="Score_10" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.1,0},{0.63,0},{0.4,0},{0.69,0}}" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="Name_10_Label" >
+                <Property name="Text" value="Score_10" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="Alpha" value="0.75" />
+                <Property name="Area" value="{{0.45,0},{0.63,0},{0.90,0},{0.69,0}}" />
+            </Window>
+
+            <!-- The bottom area semi-transparent button panel -->
+            <Window type="GlossySerpent/SimplePanel" name="_AnonFrameBottom">
+                <Property name="UnifiedPosition" value="{{0,0},{0.88,0}}" />
+<!--                <Property name="MaxSize" value="{{1.1,0},{1.1,0}}" />
+                <Property name="MinSize" value="{{0,001},{0,001}}" />-->
+                <Property name="UnifiedSize" value="{{1.0,0},{0.12,0}}" />
+                <Property name="BackgroundPictureColour" value="AFFFFFFFF" />
+                <Property name="Alpha" value="0.0" />
+                
+              <Window type="GlossySerpent/Button32_4C" name="ButtonBack" >
+                  <Property name="Text" value="Back" />
+                  <Property name="InheritsAlpha" value="False" />
+                  <Property name="Area" value="{{0.8,0},{0.1,0},{0.98,0},{0.9,0}}" />
+                  <Property name="TooltipText" value="Go back to the main menu..." />
+                  <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                  <Property name="TextUsesGlyph" value="True" />
+              </Window>
+            </Window>
+        </Window>
+        
+        <Window type="GlossySerpent/SimplePanel" name="NameInputPanel">
+            <Property name="UnifiedPosition" value="{{0.32,0},{0.42,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <!--<Property name="MinSize" value="{{0,001},{0,001}}" />-->
+            <Property name="UnifiedSize" value="{{0.36,0},{0.16,0}}" />
+            <Property name="Visible" value="False" />
+            <Property name="BackgroundPictureColour" value="AFFFFFFFF" />
+            <Property name="Alpha" value="0.84" />
+<!--            <Property name="TooltipText" value="[colour='FFFFFFFF']Window shows a simple
+[colour='FFFFF000'](semi)[colour='FFFFFFFF']transparent panel." />
+-->
+            <Window type="GlossySerpent/StaticText" name="NameHintLabel" >
+                <Property name="Text" value="Please enter your name..." />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.05,0},{0.13,0},{0.8,0},{0.41,0}}" />
+                <Property name="FrameEnabled" value="False" />
+                <Property name="BackgroundEnabled" value="False" />
+                <Property name="Alpha" value="1.0" />
+            </Window>
+            <Window type="GlossySerpent/Editbox" name="NameInputField" >
+                <Property name="Text" value="(Your name here)" />
+                <Property name="ReadOnly" value="True" />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Alpha" value="1.0" />
+                <Property name="Area" value="{{0.05,0},{0.50,0},{0.78,0},{0.87,0}}" />
+                <Property name="Font" value="DejaVuSerif-HD-14" />
+                <Property name="TooltipText" value="You made it. Really.
+Now add your name here." />
+            </Window>
+            
+            <Window type="GlossySerpent/Button32_4C" name="ButtonTakeName" >
+                <Property name="Text" value="OK" />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Alpha" value="1.0" />
+                <Property name="Area" value="{{0.80,0},{0.50,0},{0.98,0},{0.87,0}}" />
+                <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                <!--<Property name="TextUsesGlyph" value="1" />-->
+                <Property name="TooltipText" value="Use the name entered to the left." />
+            </Window>
+        </Window>
+    </Window>
+
+    
+</GUILayout>

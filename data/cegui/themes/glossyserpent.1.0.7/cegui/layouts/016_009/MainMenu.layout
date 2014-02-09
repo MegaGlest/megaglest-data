@@ -1,0 +1,74 @@
+
+
+<GUILayout version="4" >
+
+    <Window type="GlossySerpent/StaticImage" name="MainMenuRootItem" >
+        <Property name="FrameEnabled" value="False" />
+        <Property name="InheritsAlpha" value="False" />
+        <Property name="Area" value="{{0,0},{-0,0},{1,0},{1,0}}" />
+        <Property name="BackgroundEnabled" value="False" />
+
+        <!-- The top left area semi-transparent button panel -->
+        <Window type="GlossySerpent/SimplePanel" name="HighscoreListPanel">
+            <Property name="UnifiedPosition" value="{{0.3,0},{0.1,0}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="MinSize" value="{{0,001},{0,001}}" />
+            <Property name="UnifiedSize" value="{{0.4,0},{0.59,0}}" />
+            <Property name="BackgroundPictureColour" value="AFFFFFFFF" />
+            <Property name="Alpha" value="1.0" />
+
+            <Window type="GlossySerpent/Button32_4C" name="ButtonQuickGame" >
+                <Property name="Text" value="[colour='FFFFF000']Q[colour='FFFFFFFF']uick Game" />
+                <Property name="TooltipText" value="[colour='FFFFF000']Quick Game
+
+[colour='FFFFFFFF']Start a quick game on a random map." />
+
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.1,0},{0.1,0},{0.4,0},{0.19,0}}" />
+                <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                <!--<Property name="TextUsesGlyph" value="True" />-->
+            </Window>
+
+            <Window type="GlossySerpent/Button32_4C" name="ButtonNewGame" >
+                <Property name="Text" value="[colour='FFFFF000']N[colour='FFFFFFFF']ew Game..." />
+                <Property name="TooltipText" value="[colour='FFFFF000']New Game
+
+[colour='FFFFFFFF']Start a new game...
+Select the map to play on." />
+                <Property name="Disabled" value="True" />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.1,0},{0.2,0},{0.4,0},{0.29,0}}" />
+                <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                <!--<Property name="TextUsesGlyph" value="True" />-->
+            </Window>
+
+            <Window type="GlossySerpent/Button32_4C" name="ButtonOptions" >
+                <Property name="Text" value="[colour='FFFFF000']O[colour='FFFFFFFF']ptions..." />
+                <Property name="TooltipText" value="[colour='FFFFF000']Options[colour='FFFFFFFF']
+
+View and edit the
+game options." />
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.1,0},{0.3,0},{0.4,0},{0.39,0}}" />
+                <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                <!--<Property name="TextUsesGlyph" value="True" />-->
+            </Window>
+
+            <Window type="GlossySerpent/Button32_4C" name="ButtonExit" >
+                <Property name="Text" value="[colour='FFFFFFFF']E[colour='FFFFF000']x[colour='FFFFFFFF']it" />
+                <Property name="TooltipText" value="[colour='FFFFF000']Exit
+
+[colour='FFFFFFFF']Exit the game." />
+
+                <Property name="InheritsAlpha" value="False" />
+                <Property name="Area" value="{{0.8,0},{0.9,0},{0.98,0},{0.99,0}}" />
+                <!--<Property name="GlyphImage" value="set:KeyboardGlyphs image:GlyphKeyEsc" />-->
+                <Property name="TextUsesGlyph" value="True" />
+            </Window>
+        </Window>
+
+    </Window> <!-- root item-->
+    
+
+    
+</GUILayout>
