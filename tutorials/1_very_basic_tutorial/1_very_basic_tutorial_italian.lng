@@ -1,30 +1,30 @@
 TUTORIAL_NAME=Tutorial Base #1
 ;message headers
-GlestBasicTutorial=Tutorial Base di MegaGlest
+GlestBasicTutorial=Tutorial base di MegaGlest
 WellDone=Ben fatto!
 Resources=Risorse
-Combat=Combattimento
-Buildings=Costruzioni
+Combat=Battaglia
+Buildings=Edifici
 Tricks=Trucchi
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
 Welcome=Benvenuto al tutorial base di MegaGlest.
 
-FirstThing=Visuale: Per spostare l'angolo visuale muovi il puntatore del mouse sui bordi dello schermo, o usa i tasti cursore. Puoi anche cliccare sulla mini mappa (in alto a sinistra sullo schermo).
+FirstThing=Visuale: Per spostare l'angolo della visuale muovi il puntatore del mouse sui bordi dello schermo, o usa i tasti cursore, puoi anche cliccare sulla mini mappa (in alto a sinistra sullo schermo).
 
 WillBeUsingIndian=In questa introduzione comanderai gli indiani. La fazione degli indiani combatte soprattutto con archi e armi semplici.
 
-NeedWorkers=Per prima cosa abbiamo bisogno di un lavoratore. Per crearne fai click sinistro sul Grande Tepee, e dai il comando cliccando sull'icona del lavoratore.
+NeedWorkers=Per prima cosa abbiamo bisogno di un operaio. Per crearne fai click sinistro sul Grande Tepee, e clicca sull'icona dell'operaio.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Adesso seleziona il Lavoratore cliccandoci su. Potrai vedere varie informazioni sull'unità: nome, punti vita (HP), armatura e, tra parentesi, tipo di armatura e raggio visivo (vista).
-Select2=Se si tratta di un'unità da combattimento, è indicato anche il numero di nemici distrutti. Se consuma risorse, anche queste vengono elencate. Per ultimo, c'è scritto quello che l'unità sta facendo.
+Select=Ora fai click sinistro sull'operaio. Adesso puoi vedere le informazioni sull'unità in alto a destra: punti vita (HP), armatura e tra parentesi il tipo dell'armatura e il raggio visivo (vista).
+Select2=Se l'unità è da combattimento, potrai vedere quante unità ha già distrutto. Potrai vedere se consuma risorse nello spazio adiacente e nello spazio sottostante potrai vedere cosa sta facendo in questo momento.
 
 ExampleWorker=Per esempio, il tuo lavoratore ha 600 HP, armatura di cuoio 0 e raggio visuale 9. Il suo stato attuale è "stop", quindi non sta facendo niente.
 
-Command=Le abilità delle unità sono mostrate più in basso. Adesso impararemo tutti i comandi che si possono impartire a un lavoratore.
+Command=Le abilità dell'unità sono scritte in basso. Ora impareremo tutti i comandi che un operaio può eseguire.
 
 FirstCommand=La prima icona di comando è 'stop'. Se ci clicchi sopra il lavoratore si fermerà immediatamente. Tutte le unità (tranne le costruzioni) hanno questo comando.
 
@@ -35,10 +35,10 @@ TestSecondCommand=Prova il comando 'vai': porta il tuo lavoratore vicino all'alt
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-MoveBack=Bene. Ora fai tornare entrambi i lavoratori al Grande Teepee. Per selezionare più unità, premi shift mentre disegni un rettangolo di selezione intorno alle tue unità, OPPURE..
-MoveBack2=... tieni premuto shift e con il mouse clicca su ogni unità che vuoi includere, OPPURE...
-MoveBack3=... fai doppio click su una unità per selezionare tutte le unità vicine del suo stesso tipo, (in questo caso lavoratori).
-HarvestGoldandStone=Quando le tue unità hanno raggiunto la base, useremo la quarta icona di comando cioè quella per raccogliere oro e pietra.
+MoveBack=Bene. Ora fai tornare i due operai al Grande Tepee. Per selezionare pìù unità tieni premuto shift e delinea un rettangolo attorno alle unità OPPURE...
+MoveBack2=...tieni premuto shift e fai click sulle unità che vuoi selezionare OPPURE...
+MoveBack3=...fai doppio click su una unità per selezionare tutte le unità dello stesso tipo nelle vicinanze (operai in questo caso).
+HarvestGoldandStone=Quando le tue unità avrannno raggiunto la base, useremo la quarta icona di comando che servirà per la raccolta di oro e pietra.
 HarvestGoldandStone2=Passa il puntatore sopra l'icona per vedere quanto veloce i lavoratori riescono a raccogliere la risorsa, e quanto sono veloci a portarla alla base, e anche il tipo di risorsa che possono raccogliere.
 UseHarvestGoldandStone=Per usare questo comando, prima clicca sull'icona, poi sulla risorsa che vorresti raccogliere. I massi grigi con dei punti gialli sono l'oro, quelli senza sono le pietre.
 HarvestGoldandStone3=Ora raccogli oro e pietra, finché non hai da parte 600 oro e 550 pietra. Più lavoratori raccolgono più in fretta,ma hanno un costo in oro a loro volta. Controlla in alto sullo schermo quante risorse hai da parte.

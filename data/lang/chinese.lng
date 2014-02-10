@@ -25,6 +25,8 @@ All=所有
 AllowObservers=允许观察
 # AllowPlayerJoinTeam=Allow player [%s] to join your team (changing from team# %d to team# %d)?
 AllowInGameJoinPlayer=允许玩家加入游戏
+# AllowTeamUnitSharing=Shared Team Units
+# AllowTeamResourceSharing=Shared Team Resources
 AmbientVolume=环境音量
 Amount=总量
 # AnimatedTilesetObjects=Animated tileset objects
@@ -550,7 +552,7 @@ IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
-ISO639-1=zh
+ISO639-1=zh-cn
 NativeLanguageName=中文 (Zhōngwén), 汉语, 漢語
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
 MEGAGLEST_FONT_FAMILY=WenQuanYi Zen Hei:style=Regular

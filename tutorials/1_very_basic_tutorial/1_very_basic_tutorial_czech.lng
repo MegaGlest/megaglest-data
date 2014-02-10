@@ -1,6 +1,6 @@
 # TUTORIAL_NAME=#1 Basic Tutorial
 ;message headers
-GlestBasicTutorial=MegaGlest základní tutorial
+GlestBasicTutorial=MegaGlest základní tutoriál
 WellDone=Výborně!
 Resources=Zdroje
 Combat=Boj
@@ -9,69 +9,69 @@ Tricks=Triky
 
 ;message strings
 ;------------------------------------------Start------------------------------------------------
-Welcome=Vítejte v základním MegaGlest tutorialu.
+Welcome=Vítejte v základním MegaGlest tutoriálu.
 
-# FirstThing=View: To adjust the visible area, move your mouse pointer to the edges of your screen, or use cursor keys. Another way to do this is to left click on the mini map (upper left corner of your screen).
+FirstThing=Chcete-li nastavit viditelnou oblast, přesuňte ukazatel myši na okraj obrazovky, nebo použijte kurzorové klávesy. Dalším způsobem, jak to udělat, je kliknout levým tlačítkem myši na mini mapě (levý horní roh obrazovky).
 
-# WillBeUsingIndian=In this introduction, you command the indians. The indian faction fights with archers and simple weapons.
+WillBeUsingIndian=V tomto úvodu budete velet indiánům. Indiánská frakce bojuje lukostřelci a jednoduchými zbraněmi.
 
-# NeedWorkers=First we need a worker. To get one, left-click on the Mainteepee and start training your worker. To do so, use the 'Produce Worker' command by clicking on the worker icon.
+NeedWorkers=Nejprve potřebujete dělníka. Chcete-li jednoho získat, klikněte levým tlačítkem myši na hlavní týpí a začněte trénovat svého dělníka. K tomu použijte příkaz "Produkovat dělníka" kliknutím na ikonu dělníka.
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-# Select=Now left-click your worker. Details on the selected unit, namely the unit name and an image, are now displayed in the top right corner of your screen. Below this health points (HP), armor, and, in brackets, armor type and view range (sight) are listed.
-# Select2=If this is a battle unit, the number of enemy units it has already destroyed is listed next. If it consumes resources, this is displayed in the following field. Below this, it says what this unit is currently doing.
+Select=Nyní klikněte levým tlačítkem myši na svého dělníka. Podrobnosti o vybrané jednotce, a to jméno jednotky a obrázek, jsou nyní zobrazeny v pravém horním rohu obrazovky. Pod tímto jsou uvedeny body zdraví (HP), brnění, v závorkách typ brnění, a rádius rozhledu (zrak).
+Select2=Pokud je to bitevní jednotka, je dále uveden počet nepřátelských jednotek, které již bojovník zničil. Pokud spotřebovává zdroje, zobrazí se to v následujícím políčku. Pod tímto se oznamí, co tato jednotka v současné době dělá.
 
-# ExampleWorker=For example, your worker has 600 HP, 0 leather armor and a view range of 9. His current state is "stop", so he is not doing anything.
+ExampleWorker=Například, váš dělník má 600 HP, kožené brnění o hodnotě 0, a rádius rozhledu o hodnotě 9. Jeho současný stav je "zastavit", a tak nedělá nic.
 
-# Command=The units' abilities are listed further below. We will now learn all commands the worker can execute.
+Command=Schopnosti jednotek jsou uvedeny níže. Nyní se naučte všechny povely, které dělník může vykonat.
 
-# FirstCommand=The first command icon is 'stop'. If you click on this icon, the worker will immediately stop what he is currently doing. All units (which are not buildings) provide this command.
+FirstCommand=První ikona s příkazem je "zastavit". Pokud kliknete na tuto ikonu, dělník okamžitě zastaví, a to už v současné době dělá. Všechny jednotky (které nejsou budovami) poskytují tento příkaz.
 
-# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
-# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+SecondCommand=Druhá ikona s příkazem je "přesunout". Pokud na ni kliknete, budete muset kliknout ještě na zemi nebo na jiné okolní jednotky a definovat tak cíl. Zkratka pro tento příkaz je kliknutí pravým tlačítkem myši na cílovou pozici.
+SecondCommand2=Pokud podržíte ukazatel myši nad ikonou "přesunout", zobrazí se rychlost pohybu dělníků. Tento příkaz je k dispozici na všech jednotkách (kromě budov).
 
-# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+TestSecondCommand=Nyní si příkaz "přesunout" vyzkoušejte. Přesuňte dělníka k druhému dělníkovi, který čeká mimo váš tábor. Tento druhý dělník je zobrazen na mini mapě (vlevo nahoře) jako červená tečka. Bílý trojúhelník na mini mapě označuje současnou pozici vaší obrazovky. Velká červená tečka je vaše hlavní týpí.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
-# MoveBack=Good. Now make both workers return to the Mainteepee. To select multiple units, press shift and draw a selection box around your units OR ...
-# MoveBack2=... hold down shift, then use your mouse to click on every unit you want to include OR ...
-# MoveBack3=... double-click on a unit to select all nearby units of the same type (workers in this case).
-# HarvestGoldandStone=When your units have reached your home, we will use the fourth command icon which is meant for harvesting gold and stone.
-# HarvestGoldandStone2=Hover this command icon with your mouse pointer to see how fast your workers can harvest, how much each worker can harvest, how fast they can walk when carrying resources and which resources they can harvest at all.
-# UseHarvestGoldandStone=To use this command, first click on the command icon, then on the resource you would like to harvest. The grey piles with yellow dots are gold, those without are stone.
-# HarvestGoldandStone3=Now dig gold and stone until you have a total of 600 gold and 550 stone. You can also build new workers to do so (but they will cost you gold, too). Check the top of the screen to learn how many resources you have currently in store.
+MoveBack=Dobře. Nyní, vraťte oba dělníky k hlavnímu týpí. Chcete-li vybrat více jednotek, stiskněte klávesu SHIFT a nakreslete výběrové okno okolo vašich jednotek nebo...
+MoveBack2=...podržte klávesu SHIFT a poté pomocí myši klikněte na každou jednotku, kterou chcete zahrnout, nebo...
+MoveBack3=...poklepejte na jednotku a vyberte všechny blízké jednotky stejného typu (dělníků v tomto případě).
+HarvestGoldandStone=Když se vaše jednotky vrátily domů, budeme používat čtvrtou ikonu příkaz, která je určena k získávání zlata a kamene.
+HarvestGoldandStone2=Pokud podržíte ukazatel myši nad touto ikonou příkazu, uvidíte, jak rychle může váš dělník sklízet, kolik každý dělník může sklízet, jak rychle může chodit, když nosí zdroje, a které zdroje může sklízet.
+UseHarvestGoldandStone=Chcete-li použít tento příkaz, nejprve klikněte na ikonu příkazu, pak na zdroj, který chcete sklízet. Šedé hromady s žlutými tečkami jsou zlato, ty bez jsou kameny.
+HarvestGoldandStone3=Nyní kopejte zlato a kámen, dokud nebudete mít celkem 600 jednotek zlata a 550 jednotek kamene. Můžete si také k tomu vytvořit nové dělníky (ale oni vás také budou stát zlato). Podívejte se na horní část obrazovky a dozvíte se, kolik zdrojů máte v současné době na skladě.
 
 ;------------------------------------------Get Wood------------------------------------------
 
-# HarvestGoldAndStoneDone=Now all you need is a little bit of wood. To get some, use the fifth command icon. This is also a harvesting command so you can use it the same way as the ones for gold and stone.
-# ResourceInformation=By the way, the indian faction mostly needs gold and wood.
+HarvestGoldAndStoneDone=Nyní vše, co potřebujete, je trochu dřeva. Chcete-li nějaké získat, použijte pátou ikonu s příkazem. To je také příkaz pro sklizeň, takže jej můžete použít stejným způsobem jako ty pro zlato a kámen.
+ResourceInformation=Mimochodem, indiánská frakce povětšinou potřebuje zlato a dřevo.
 # GetWood=For another hint, you can shortcut any harvesting command by selecting your worker, then right-clicking on a location where this resource is available (so on the woods in this case). In case of success, a yellow arrow will appear.Now harvest wood until you have 550 in store.
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-# MeetingPoint=When you select a building, a blue arrow is displayed. This arrow points to the so-called "assembly point". All units you produce in this building will move to this place as soon as they appear.
-# UseMeetingPoint=You can move the assembly point, too. Click on the flag icon, then on the position where the new meeting point should be located. Here, too, you can shortcut this by simply right-clicking at the new location (just as you can do for walking).
+MeetingPoint=Když vyberete budovu, zobrazí se modrá šipka. Tato šipka ukazuje na tzv. "shromaždiště". Všechny jednotky, které produkujete v této budově, půjdou na toto místo, jakmile se objeví.
+UseMeetingPoint=Můžete shromaždiště také přesunout. Klikněte na ikonu vlajky, poté na pozici, kde by mělo být umístěno nové místo setkávání. Zde také můžete použít zkratku, jednoduše klikněte pravým tlačítkem myši na novém místě (stejně jako to můžete udělat pro chůzi).
 # MeetingPoint2=If you place the assembly point on a resource, newly produced workers will immediately start to harvest there. Make sure you hit the right spot, though, or your workers will just stand around and get in the way.
-# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
-# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
-# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
-# Thirdcommand4=Let's build a tent now. Click on the build menu, then on the tent, and place it on an empty spot.
+Thirdcommand=Nyní třetí ikona příkazů pro dělníka - to je příkaz "stavět".
+Thirdcommand2=Kliknutím zvolíte nabídku pro stavění. Pokud podržíte nad některou z ikon budov ukazatel myši, uvidíte níže, jaké jsou požadavky na zdroje a prostředky, které pro ni potřebujete.
+Thirdcommand3=Pokud umístíte kurzor myši nad stan, uvidíte, že potřebuje 30 jednotek zlata, 50 dřeva a hlavní týpí. "-10" u bydlení znamená, že když postavíte stan, získáte ubytování pro dalších deset jednotek (i když některé jednotky mohou potřebovat více než jen jeden).
+Thirdcommand4=Teď postavte stan. Klikněte na menu stavět, pak na stan, a umístěte jej na prázdném místě.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-# ProduceStickfighter=You can now train a stick fighter in your new tent.
+ProduceStickfighter=Nyní můžete trénovat bojovníka s holí ve svém novém stanu.
 
 ;objective strings
-# ProduceWorker=Objective: Train one worker.
-# ProduceStickfighter2=Objective: Train one stick fighter.
-# MoveWorker=Objective: Move your newly produced worker to the other worker who is waiting outside of your camp.
-HarvestGoldandStoneobjective=Cíl: Těžit zlato a kamení, dokud nebudete mít celkem 600 zlata a 550 kamene.
-GetWoodob=Cíl: Těžit dřevo, dokud nebudete mít 550.
-# UseThirdCommand=Objective: Build a tent. Hint: If the tent turns red, this means that this spot is currently (or generally) taken (such as by another unit or a tree).
+ProduceWorker=Úkol: Trénujte jednoho dělníka.
+ProduceStickfighter2=Úkol: Trénujte jednoho bojovníka s holí.
+MoveWorker=Úkol: Přesuňte nově produkovaného dělníka k jinému dělníkovi, který čeká mimo váš tábor.
+HarvestGoldandStoneobjective=Úkol: Sbírejte zlato a kámen, dokud nezískáte celkem 600 jednotek zlata a 550 jednotek kamene.
+GetWoodob=Úkol: Sklízejte dřevo, dokud nebudete mít 550 jednotek.
+UseThirdCommand=Úkol: Postavte stan. Nápověda: Když stan zčervená, znamená to, že toto místo je v současné době (nebo obecně) obsazeno (například další jednotkou nebo stromem).
 
 ;end
 
-WellDoneNextTutorial=Dobrá práce! Nyní můžete pokračovat na další tutorial »»
+WellDoneNextTutorial=Dobrá práce! Nyní můžete pokračovat na další tutoriál »»

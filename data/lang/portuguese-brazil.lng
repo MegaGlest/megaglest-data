@@ -25,6 +25,8 @@ AllowNativeLanguageTechtree=Árvore tecnológica traduzida
 AllowObservers=Permitir Observadores
 AllowPlayerJoinTeam=Permito ao jogador [%s] entrar no seu time\n(trocando do time #%d para o time#%d)?
 AllowInGameJoinPlayer=Jogadores podem entrar no jogo
+# AllowTeamUnitSharing=Shared Team Units
+# AllowTeamResourceSharing=Shared Team Resources
 AmbientVolume=Volume Ambiente:
 Amount=Quantidade
 AnimatedTilesetObjects=Jogo de Imagens
@@ -50,7 +52,7 @@ BuildingNoReqs=Você não tem os requerimentos para construir a edificação
 BuildingNoRes=Você não tem recursos os suficiente para construir a edificação
 Built=Construido
 CameraModeSet=Modo da câmera:
-# CameraMoveSpeed=Camera Move Speed
+CameraMoveSpeed=Velocidade_da_Câmera
 CanRepair=Pode Reparar
 Cancel=Cancelar
 CancelDownloads=Cancelar download(s)
@@ -298,7 +300,7 @@ MGGameStatus3=Jogo terminado
 MGJoinGameSlots=Entrar no Jogo
 MGPlatform=Platforma
 MGVersion=Versão do Jogo
-Misc=Miscelâneo
+Misc=Display
 
 MismatchedFactions=As seguintes facções estão diferentes:
 MismatchedFactionsMissing=(faltando)
@@ -550,7 +552,7 @@ IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
-ISO639-1=pt_BR
+ISO639-1=pt
 NativeLanguageName=Português Brasileiro
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
 MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
