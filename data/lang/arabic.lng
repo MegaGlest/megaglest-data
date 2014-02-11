@@ -25,6 +25,8 @@ AllowNativeLanguageTechtree=السماح بأنماط اللعبة المترج�
 AllowObservers=السماح للمراقبين
 AllowPlayerJoinTeam=السماح للاّعب [%s] بالانضمام إلى فريقك\n(تغيير من فريق# %d إلى فريق# %d)؟
 AllowInGameJoinPlayer=يمكن للاعبين الانضمام إلى اللعبة
+# AllowTeamUnitSharing=Shared Team Units
+# AllowTeamResourceSharing=Shared Team Resources
 AmbientVolume=حجم المحيط:
 Amount=كمية\n
 AnimatedTilesetObjects=كائنات الأرضية المتحركة

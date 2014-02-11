@@ -3,9 +3,9 @@ SCENARIO_NAME=Vpád
 Storming=Vpád
 
 ;message strings
-Brief1=Pomozte Kouzelnici zaútočit na všechny nepřátelské vesnice; ona musí přežít.
+Brief1=Pomozte přivolávačce zaútočit na všechny nepřátelské vesnice; ona musí přežít.
 
 ;objective strings
-ObjectiveWest=Úkol: Zničte západní vesnici Magiků; Kouzelnice musí přežít.
-ObjectiveNorthEast=ÚÚkol: Zničte severovýchodní vesnici Techniků; Kouzelnice musí přežít.
-ObjectiveSouthEast=Úkol: Úkol: Zničte východní vesnici; Kouzelnice musí přežít.
+ObjectiveWest=Úkol: Zničte západní vesnici mágů; přivolávačka musí přežít.
+ObjectiveNorthEast=Úkol: Zničte severovýchodní vesnici techniků; přivolávačka musí přežít.
+ObjectiveSouthEast=Úkol: Zničte jihovýchodní vesnici; přivolávačka musí přežít.

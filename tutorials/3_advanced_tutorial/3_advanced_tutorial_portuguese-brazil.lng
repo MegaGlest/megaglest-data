@@ -11,7 +11,7 @@ Armies=Exércitos
 ;message strings
 Welcome=Bem-vindo ao Tutorial Avançado MegaGlest, aqui você vai aprender a alguns dos recursos mais avançados do jogo.
 MagicBrief=Você está no comando da facção dos Mágicos, que usa magos e evoca criaturas para lutar.
-InitiateBrief=Iiniciantes são as unidades básica dos mágicos, eles podem colher recursos e construir estruturas.
+InitiateBrief=Iniciantes são as unidades báse dos mágicos, eles podem colher recursos e construir estruturas.
 InitiatePromotion=Iniciantes podem ser evoluídos para magos de batalha, para fazer isso, selecione um Iniciante, e usar o comando "Evoluír a Mago de Batalha".
 BattlemageBrief=Magos de Batalha são os guerreiros mágicos essenciais, eles têm poderosos ataques à distância e de velocidade, também são bons em resistência.
 EnergyBrief=Unidades de magia geralmente precisam de energia para ser produzido, energia não é consumida como alimento, mas é só requerido quando a unidade é criada. Ela é produzida por fontes de energia.
@@ -35,5 +35,5 @@ ProduceSummoner=Objetivo: Construir uma Irmandade das Summoners, em seguida, pro
 ProduceDaemon=Objetivo: Evocar um Dêmonio.
 ProduceGhostArmor=Objetivo: Pesquise a Magia Antiga, em seguida, evocar um Ghost Armor.
 BuildEnergySource=Objetivo: Construir uma fonte de energia.
-ProduceGolem=Objetivo: Construir Library, em seguida, usar um Initiate para realizar um ritual para construir um Golem.
+ProduceGolem=Objetivo: Construir Bíblioteca, em seguida, usar um Iniciante para realizar um ritual para construir um Golem.
 DefeatEnemy=Objetivo: Construir um exército, localizar e derrotar seu inimigo.
