@@ -2,31 +2,31 @@
 
 <GUILayout version="4" >
     <Window type="DefaultWindow" name="MainWindow" >
-        <Property name="Area" value="{{0,327},{0,279},{1,377},{1,771}}" />
+        <Property name="Area" value="{{0,1},{0,0},{1,51},{1,102}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
-        <Window type="GlossySerpent/Button" name="ButtonExit" >
-            <Property name="Area" value="{{0,129},{0,462},{0,345},{0,494}}" />
-            <Property name="Text" value="Exit" />
-        </Window>
-        <Window type="GlossySerpent/Button" name="ButtonAbout" >
-            <Property name="Area" value="{{0,125},{0,403},{0,341},{0,435}}" />
-            <Property name="Text" value="About" />
-        </Window>
-        <Window type="GlossySerpent/Button" name="ButtonOptions" >
-            <Property name="Area" value="{{0,125},{0,349},{0,341},{0,381}}" />
-            <Property name="Text" value="Options" />
-        </Window>
-        <Window type="GlossySerpent/Button" name="ButtonMods" >
-            <Property name="Area" value="{{0,125},{0,296},{0,341},{0,328}}" />
-            <Property name="Text" value="Mods" />
+        <Window type="GlossySerpent/Button" name="ButtonNewGame" >
+            <Property name="Area" value="{{0.2915,0},{0.4447,0},{0.4224,0},{0.4752,0}}" />
+            <Property name="Text" value="New Game" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonLoadGame" >
-            <Property name="Area" value="{{0,127},{0,242},{0,343},{0,274}}" />
+            <Property name="Area" value="{{0.2915,0},{0.499,0},{0.4224,0},{0.5295,0}}" />
             <Property name="Text" value="Load Saved Game" />
         </Window>
-        <Window type="GlossySerpent/Button" name="ButtonNewGame" >
-            <Property name="Area" value="{{0,129},{0,191},{0,345},{0,223}}" />
-            <Property name="Text" value="New Game" />
+        <Window type="GlossySerpent/Button" name="ButtonMods" >
+            <Property name="Area" value="{{0.2915,0},{0.5504,0},{0.4212,0},{0.5809,0}}" />
+            <Property name="Text" value="Mods" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonOptions" >
+            <Property name="Area" value="{{0.2915,0},{0.6091,0},{0.4224,0},{0.6323,0}}" />
+            <Property name="Text" value="Options" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonAbout" >
+            <Property name="Area" value="{{0.2915,0},{0.6533,0},{0.4236,0},{0.6838,0}}" />
+            <Property name="Text" value="About" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonExit" >
+            <Property name="Area" value="{{0.2915,0},{0.70633,0},{0.423,0},{0.7371,0}}" />
+            <Property name="Text" value="Exit" />
         </Window>
     </Window>
 </GUILayout>
