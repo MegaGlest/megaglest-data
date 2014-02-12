@@ -2,8 +2,21 @@
 
 <GUILayout version="4" >
     <Window type="DefaultWindow" name="MainWindow" >
-        <Property name="Area" value="{{0,1},{0,0},{1,51},{1,102}}" />
+        <Property name="Area" value="{{0,1},{0,-1},{1,51},{1,101}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="GlossySerpent/StaticImage" name="GameLogo" >
+            <Property name="Area" value="{{0.2915,-351},{0.4447,-261},{0.4224,-133},{0.4752,-80}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="GameVersion" >
+            <Property name="Area" value="{{0.2915,-115},{0.4447,-42},{0.4224,392},{0.4752,-42}}" />
+            <Property name="Text" value="MegaGlest Version" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
         <Window type="GlossySerpent/Button" name="ButtonNewGame" >
             <Property name="Area" value="{{0.2915,0},{0.4447,0},{0.4224,0},{0.4752,0}}" />
             <Property name="Text" value="New Game" />

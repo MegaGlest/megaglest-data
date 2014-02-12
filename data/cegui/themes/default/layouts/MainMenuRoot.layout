@@ -2,15 +2,27 @@
 
 <GUILayout version="4" >
     <Window type="DefaultWindow" name="MainWindow" >
-        <Property name="Area" value="{{0,1},{0,0},{1,51},{1,102}}" />
+        <Property name="Area" value="{{0,1},{0,-1},{1,51},{1,101}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
-
+        <Window type="TaharezLook/StaticImage" name="GameLogo" >
+            <Property name="Area" value="{{0.2915,-351},{0.4447,-261},{0.4224,-133},{0.4752,-80}}" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="TaharezLook/StaticText" name="GameVersion" >
+            <Property name="Area" value="{{0.2915,-115},{0.4447,-42},{0.4224,392},{0.4752,-42}}" />
+            <Property name="Text" value="MegaGlest Version" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
         <Window type="TaharezLook/Button" name="ButtonNewGame" >
             <Property name="Area" value="{{0.2915,0},{0.4447,0},{0.4224,0},{0.4752,0}}" />
             <Property name="Text" value="New Game" />
         </Window>
         <Window type="TaharezLook/Button" name="ButtonLoadGame" >
-            <Property name="Area" value="{{0.2915,0},{0.4990,0},{0.4224,0},{0.5295,0}}" />
+            <Property name="Area" value="{{0.2915,0},{0.499,0},{0.4224,0},{0.5295,0}}" />
             <Property name="Text" value="Load Saved Game" />
         </Window>
         <Window type="TaharezLook/Button" name="ButtonMods" >
@@ -26,9 +38,8 @@
             <Property name="Text" value="About" />
         </Window>
         <Window type="TaharezLook/Button" name="ButtonExit" >
-            <Property name="Area" value="{{0.2915,0},{0.70633,0},{0.4230,0},{0.7371,0}}" />
+            <Property name="Area" value="{{0.2915,0},{0.70633,0},{0.423,0},{0.7371,0}}" />
             <Property name="Text" value="Exit" />
         </Window>
     </Window>
 </GUILayout>
-
