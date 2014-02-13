@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <GUILayout version="4" >
-    <Window type="GlossySerpent/StaticImage" name="MainWindowMessageBox" >
+    <Window type="GlossySerpent/StaticImage" name="MainWindowErrorMessageBox" >
         <Property name="Area" value="{{0,0},{0,-1},{1,0},{1,-1}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Property name="FrameEnabled" value="False" />
         <Property name="BackgroundEnabled" value="False" />
-        <Window type="GlossySerpent/FrameWindow" name="MessageBox" >
+        <Window type="GlossySerpent/FrameWindow" name="ErrorMessageBox" >
             <Property name="Area" value="{{0.5,-280},{0.5,-200},{0.8,-262},{1,-276}}" />
-            <Property name="Text" value="MessageBox Title" />
+            <Property name="Text" value="Error MessageBox Title" />
             <Property name="MaxSize" value="{{0.8,0},{0.8,0}}" />
             <Property name="MinSize" value="{{0.2,0},{0.2,0}}" />
             <Property name="CloseButtonEnabled" value="False" />
@@ -24,17 +24,10 @@
                 <Property name="TextParsingEnabled" value="False" />
             </Window>
             <Window type="GlossySerpent/Button" name="ButtonOk" >
-                <Property name="Area" value="{{0,85},{0,-8},{0,217},{0,22}}" />
+                <Property name="Area" value="{{0,136},{0,-9},{0,268},{0,21}}" />
                 <Property name="Text" value="Okay" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="VerticalAlignment" value="Bottom" />
-            </Window>
-            <Window type="GlossySerpent/Button" name="ButtonCancel" >
-                <Property name="Area" value="{{0,-78},{0,-8},{0,50},{0,22}}" />
-                <Property name="Text" value="Cancel" />
-                <Property name="MaxSize" value="{{1,0},{1,0}}" />
-                <Property name="VerticalAlignment" value="Bottom" />
-                <Property name="HorizontalAlignment" value="Right" />
             </Window>
         </Window>
     </Window>
