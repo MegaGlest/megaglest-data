@@ -12,7 +12,7 @@
             <Property name="CloseButtonEnabled" value="False" />
             <Property name="TextParsingEnabled" value="False" />
             <Window type="GlossySerpent/StaticText" name="MessageText" >
-                <Property name="Area" value="{{0.0122739,0},{0.0119635,0},{0.983958,0},{0.820697,0}}" />
+                <Property name="Area" value="{{0.0122739,0.723022},{0.0119635,1.42967},{0.983958,0.723022},{0.820697,1.42967}}" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="FrameEnabled" value="False" />
                 <Property name="HorzScrollbar" value="True" />

@@ -5,41 +5,41 @@
         <Property name="Area" value="{{0,1},{0,-1},{1,51},{1,101}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="GlossySerpent/StaticImage" name="GameLogo" >
-            <Property name="Area" value="{{0.369682,0},{0.202107,0},{0.632712,0},{0.400256,0}}" />
+            <Property name="Area" value="{{0.36,0},{0.202107,0},{0.62303,0},{0.400256,0}}" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="FrameEnabled" value="False" />
             <Property name="BackgroundEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/StaticText" name="GameVersion" >
-            <Property name="Area" value="{{0.347258,0},{0.408589,0},{0.785439,0},{0.439144,0}}" />
+            <Property name="Area" value="{{0.27,0},{0.408589,1.20364},{0.708181,60.5922},{0.439144,1.20364}}" />
             <Property name="Text" value="MegaGlest Version" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="FrameEnabled" value="False" />
+            <Property name="HorzFormatting" value="CentreAligned" />
             <Property name="BackgroundEnabled" value="False" />
-            <Property name="TextParsingEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonNewGame" >
-            <Property name="Area" value="{{0.427273,0},{0.462963,0},{0.427273,216},{0.462963,33}}" />
+            <Property name="Area" value="{{0.42,0},{0.462963,0},{0.42,216},{0.462963,33}}" />
             <Property name="Text" value="New Game" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonLoadGame" >
-            <Property name="Area" value="{{0.427273,0},{0.513889,0},{0.427273,216},{0.513889,33}}" />
+            <Property name="Area" value="{{0.42,0},{0.513889,0.333252},{0.42,216},{0.513889,33.3333}}" />
             <Property name="Text" value="Load Saved Game" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonMods" >
-            <Property name="Area" value="{{0.427273,0},{0.564815,0},{0.427273,216},{0.564815,33}}" />
+            <Property name="Area" value="{{0.42,0},{0.564815,0},{0.42,216},{0.564815,33}}" />
             <Property name="Text" value="Mods" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonOptions" >
-            <Property name="Area" value="{{0.427273,0},{0.615741,0},{0.427273,216},{0.615741,33}}" />
+            <Property name="Area" value="{{0.42,0},{0.615741,0},{0.42,216},{0.615741,33}}" />
             <Property name="Text" value="Options" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonAbout" >
-            <Property name="Area" value="{{0.427273,0},{0.666667,0},{0.427273,216},{0.666667,33}}" />
+            <Property name="Area" value="{{0.42,0},{0.666667,0},{0.42,216},{0.666667,33}}" />
             <Property name="Text" value="About" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonExit" >
-            <Property name="Area" value="{{0.427273,0},{0.717593,0},{0.427273,216},{0.717593,33}}" />
+            <Property name="Area" value="{{0.42,0},{0.717593,0},{0.42,216},{0.717593,33}}" />
             <Property name="Text" value="Exit" />
         </Window>
         <Window type="GlossySerpent/StaticImage" name="ExtraLogo1" >
