@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <GUILayout version="4" >
-    <Window type="GlossySerpent/StaticImage" name="MainWindowErrorMessageBox" >
-        <Property name="Area" value="{{0,0},{0,-1},{1,0},{1,-1}}" />
+    <Window type="DefaultWindow" name="MainWindowErrorMessageBox" >
+        <Property name="Area" value="{{0,0},{-0.00651042,0},{1,0},{0.99349,0}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
-        <Property name="FrameEnabled" value="False" />
-        <Property name="BackgroundEnabled" value="False" />
         <Window type="GlossySerpent/FrameWindow" name="ErrorMessageBox" >
-            <Property name="Area" value="{{0.5,-280},{0.5,-200},{0.8,-262},{1,-276}}" />
+            <Property name="Area" value="{{0.353,0},{0.3,0},{0.670383,0},{0.701042,0}}" />
             <Property name="Text" value="Error MessageBox Title" />
             <Property name="MaxSize" value="{{0.8,0},{0.8,0}}" />
             <Property name="MinSize" value="{{0.2,0},{0.2,0}}" />
@@ -24,10 +22,11 @@
                 <Property name="TextParsingEnabled" value="False" />
             </Window>
             <Window type="GlossySerpent/Button" name="ButtonOk" >
-                <Property name="Area" value="{{0,136},{0,-9},{0,268},{0,21}}" />
+                <Property name="Area" value="{{0.00321562,0},{-0.0789464,0},{0.429012,0},{0.0338356,0}}" />
                 <Property name="Text" value="Okay" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />
                 <Property name="VerticalAlignment" value="Bottom" />
+                <Property name="HorizontalAlignment" value="Centre" />
             </Window>
         </Window>
     </Window>

@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project CEGUIDefaultResolution="1280x720" CEGUIVersion="1.0" baseDirectory="." fontsPath="fonts" imagesetsPath="imagesets" layoutsPath="layouts" looknfeelsPath="looknfeel" schemesPath="schemes" version="CEED Project 1" xmlSchemasPath="xml_schemas">
-    <Items />
+    <Items>
+        <Item path="layouts/EmptyRoot.layout" type="file" />
+        <Item path="layouts/ErrorMessageBox.layout" type="file" />
+        <Item path="layouts/MainMenuRoot.layout" type="file" />
+        <Item path="layouts/MessageBox.layout" type="file" />
+        <Item path="imagesets/GlossySerpent.imageset" type="file" />
+        <Item path="imagesets/GlossySerpent.png" type="file" />
+        <Item path="imagesets/GlossySerpentCursors.imageset" type="file" />
+        <Item path="imagesets/GlossySerpentCursors.png" type="file" />
+        <Item path="looknfeel/GlossySerpent.looknfeel" type="file" />
+        <Item path="schemes/GlossySerpent.scheme" type="file" />
+    </Items>
 </Project>
