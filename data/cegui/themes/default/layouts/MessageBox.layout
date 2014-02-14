@@ -5,12 +5,14 @@
         <Property name="Area" value="{{0,1},{0,-1},{1,51},{1,101}}" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
         <Window type="GlossySerpent/FrameWindow" name="MessageBox" >
-            <Property name="Area" value="{{0.353,0},{0.3,0},{0.653,18},{0.8,-77}}" />
+            <Property name="Area" value="{{0,0},{0,0},{0.3,18},{0.5,-77}}" />
             <Property name="Text" value="MessageBox Title" />
             <Property name="MaxSize" value="{{0.8,0},{0.8,0}}" />
             <Property name="MinSize" value="{{0.2,0},{0.2,0}}" />
+            <Property name="VerticalAlignment" value="Centre" />
             <Property name="CloseButtonEnabled" value="False" />
             <Property name="TextParsingEnabled" value="False" />
+            <Property name="HorizontalAlignment" value="Centre" />
             <Window type="GlossySerpent/StaticText" name="MessageText" >
                 <Property name="Area" value="{{0.0122739,0.723022},{0.0119635,1.42967},{0.983958,0.723022},{0.820697,1.42967}}" />
                 <Property name="MaxSize" value="{{1,0},{1,0}}" />

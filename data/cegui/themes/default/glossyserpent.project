@@ -11,5 +11,7 @@
         <Item path="imagesets/GlossySerpentCursors.png" type="file" />
         <Item path="looknfeel/GlossySerpent.looknfeel" type="file" />
         <Item path="schemes/GlossySerpent.scheme" type="file" />
+        <Item path="layouts/OptionsMenuRoot.layout" type="file" />
+        <Item path="layouts/OptionsMenuMisc.layout" type="file" />
     </Items>
 </Project>
