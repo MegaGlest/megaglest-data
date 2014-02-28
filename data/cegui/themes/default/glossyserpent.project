@@ -3,15 +3,19 @@
     <Items>
         <Item path="layouts/EmptyRoot.layout" type="file" />
         <Item path="layouts/ErrorMessageBox.layout" type="file" />
-        <Item path="layouts/MainMenuRoot.layout" type="file" />
-        <Item path="layouts/MessageBox.layout" type="file" />
         <Item path="imagesets/GlossySerpent.imageset" type="file" />
+        <Item path="looknfeel/GlossySerpent.looknfeel" type="file" />
         <Item path="imagesets/GlossySerpent.png" type="file" />
+        <Item path="schemes/GlossySerpent.scheme" type="file" />
         <Item path="imagesets/GlossySerpentCursors.imageset" type="file" />
         <Item path="imagesets/GlossySerpentCursors.png" type="file" />
-        <Item path="looknfeel/GlossySerpent.looknfeel" type="file" />
-        <Item path="schemes/GlossySerpent.scheme" type="file" />
-        <Item path="layouts/OptionsMenuRoot.layout" type="file" />
+        <Item path="layouts/MainMenuRoot.layout" type="file" />
+        <Item path="layouts/MessageBox.layout" type="file" />
         <Item path="layouts/OptionsMenuMisc.layout" type="file" />
+        <Item path="layouts/OptionsMenuRoot.layout" type="file" />
+        <Item path="layouts/OptionsMenuAudio.layout" type="file" />
+        <Item path="layouts/OptionsMenuKeyboard.layout" type="file" />
+        <Item path="layouts/OptionsMenuNetwork.layout" type="file" />
+        <Item path="layouts/OptionsMenuVideo.layout" type="file" />
     </Items>
 </Project>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="Audio" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="Text" value="Audio Settings" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+    </Window>
+</GUILayout>
