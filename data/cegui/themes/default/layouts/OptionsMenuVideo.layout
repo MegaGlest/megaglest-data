@@ -2,8 +2,434 @@
 
 <GUILayout version="4" >
     <Window type="DefaultWindow" name="Video" >
-        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="Area" value="{{0,0},{0,-1},{1,0},{1,-1}}" />
         <Property name="Text" value="Video" />
         <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="GlossySerpent/StaticText" name="LabelResolution" >
+            <Property name="Area" value="{{0.0121212,0},{0.0138889,0},{0.212121,0},{0.0638889,0}}" />
+            <Property name="Text" value="Resolution:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Combobox" name="ComboBoxResolution" >
+            <Property name="Area" value="{{0.212121,0},{0.0236111,0},{0.477746,0},{0.263889,0}}" />
+            <Property name="ReadOnly" value="True" />
+            <Property name="AutoSizeListHeight" value="True" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="ReadOnly" value="True" />
+                <Property name="SelectedTextColour" value="FFFFFFDD" />
+                <Property name="ActiveSelectionColour" value="FFFFB080" />
+                <Property name="InactiveSelectionColour" value="FFB18A50" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_droplist__" >
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelBrightness" >
+            <Property name="Area" value="{{0.0121212,0},{0.114352,0},{0.212121,0},{0.164352,0}}" />
+            <Property name="Text" value="Brightness" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Spinner" name="SpinnerBrightness" >
+            <Property name="Area" value="{{0.212,0},{0.115741,0},{0.212,64},{0.115741,33}}" />
+            <Property name="Text" value="0" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelFilter" >
+            <Property name="Area" value="{{0.0121212,0},{0.165278,0},{0.212121,0},{0.215278,0}}" />
+            <Property name="Text" value="Filter:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Combobox" name="ComboBoxFilter" >
+            <Property name="Area" value="{{0.212121,0},{0.175,0},{0.476965,0},{0.334722,0}}" />
+            <Property name="ReadOnly" value="True" />
+            <Property name="AutoSizeListHeight" value="True" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="ReadOnly" value="True" />
+                <Property name="SelectedTextColour" value="FFFFFFDD" />
+                <Property name="ActiveSelectionColour" value="FFFFB080" />
+                <Property name="InactiveSelectionColour" value="FFB18A50" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_droplist__" >
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelWindowed" >
+            <Property name="Area" value="{{0.0121212,0},{0.0606485,0},{0.212121,0},{0.110649,0}}" />
+            <Property name="Text" value="Windowed" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxWindowed" >
+            <Property name="Area" value="{{0.21,0},{0.0620374,0},{0.245156,0},{0.117593,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelUnitSelectionType" >
+            <Property name="Area" value="{{0.0121212,0},{0.216667,0},{0.212121,0},{0.266667,0}}" />
+            <Property name="Text" value="Unit selection type:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Combobox" name="ComboBoxUnitSelectionType" >
+            <Property name="Area" value="{{0.212121,0},{0.226389,0},{0.476965,0},{0.393056,0}}" />
+            <Property name="ReadOnly" value="True" />
+            <Property name="AutoSizeListHeight" value="True" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="ReadOnly" value="True" />
+                <Property name="SelectedTextColour" value="FFFFFFDD" />
+                <Property name="ActiveSelectionColour" value="FFFFB080" />
+                <Property name="InactiveSelectionColour" value="FFB18A50" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_droplist__" >
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelShadowType" >
+            <Property name="Area" value="{{0.0121212,0},{0.268056,0},{0.212121,0},{0.318056,0}}" />
+            <Property name="Text" value="Shadows:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Combobox" name="ComboBoxShadowType" >
+            <Property name="Area" value="{{0.212121,0},{0.279167,0},{0.476964,0},{0.445833,0}}" />
+            <Property name="ReadOnly" value="True" />
+            <Property name="AutoSizeListHeight" value="True" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="ReadOnly" value="True" />
+                <Property name="SelectedTextColour" value="FFFFFFDD" />
+                <Property name="ActiveSelectionColour" value="FFFFB080" />
+                <Property name="InactiveSelectionColour" value="FFB18A50" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_droplist__" >
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelShadowTextureSize" >
+            <Property name="Area" value="{{0.0121212,0},{0.319445,0},{0.212121,0},{0.369445,0}}" />
+            <Property name="Text" value="Shadow Texture Size::" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Combobox" name="ComboBoxShadowTextureSize" >
+            <Property name="Area" value="{{0.212121,0},{0.329167,0},{0.476965,0},{0.495833,0}}" />
+            <Property name="ReadOnly" value="True" />
+            <Property name="AutoSizeListHeight" value="True" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="ReadOnly" value="True" />
+                <Property name="SelectedTextColour" value="FFFFFFDD" />
+                <Property name="ActiveSelectionColour" value="FFFFB080" />
+                <Property name="InactiveSelectionColour" value="FFB18A50" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_droplist__" >
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelShadowIntensity" >
+            <Property name="Area" value="{{0.0121212,0},{0.372685,0},{0.212121,0},{0.422685,0}}" />
+            <Property name="Text" value="Shadow Intensity" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Spinner" name="SpinnerShadowIntensity" >
+            <Property name="Area" value="{{0.212,0},{0.374074,0},{0.262,0},{0.419907,0}}" />
+            <Property name="Text" value="0" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="0.5" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="Text" value="0.5" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="Label3dTextures" >
+            <Property name="Area" value="{{0.0121212,0},{0.424537,0},{0.212121,0},{0.474537,0}}" />
+            <Property name="Text" value="3D Textures:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="Checkbox3dTextures" >
+            <Property name="Area" value="{{0.21,0},{0.425926,0},{0.245156,0},{0.481482,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelMaxLights" >
+            <Property name="Area" value="{{0.0121212,0},{0.476852,0},{0.212121,0},{0.526852,0}}" />
+            <Property name="Text" value="Max Lights:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Spinner" name="SpinnerMaxLights" >
+            <Property name="Area" value="{{0.212,0},{0.478241,0},{0.262,0},{0.524074,0}}" />
+            <Property name="Text" value="0" />
+            <Property name="CurrentValue" value="1" />
+            <Property name="MaximumValue" value="8" />
+            <Property name="MinimumValue" value="1" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="Text" value="1" />
+                <Property name="ValidationString" value="-?\d*" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelUnitParticles" >
+            <Property name="Area" value="{{0.0121212,0},{0.527315,0},{0.212121,0},{0.577315,0}}" />
+            <Property name="Text" value="Unit Particles:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxUnitParticles" >
+            <Property name="Area" value="{{0.21,0},{0.528704,0},{0.245156,0},{0.58426,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelTilesetParticles" >
+            <Property name="Area" value="{{0.0121212,0},{0.578704,0},{0.212121,0},{0.628704,0}}" />
+            <Property name="Text" value="Tileset Particles:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxTilesetParticles" >
+            <Property name="Area" value="{{0.21,0},{0.580093,0},{0.245156,0},{0.635649,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelAnimatedTilesetObjects" >
+            <Property name="Area" value="{{0.0121212,0},{0.628241,0},{0.212121,0},{0.678241,0}}" />
+            <Property name="Text" value="Animated tileset objects" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Spinner" name="SpinnerAnimatedTilesetObjects" >
+            <Property name="Area" value="{{0.212,0},{0.62963,0},{0.262,0},{0.675463,0}}" />
+            <Property name="Text" value="0" />
+            <Property name="StepSize" value="10" />
+            <Property name="MaximumValue" value="10000" />
+            <Property name="MinimumValue" value="0" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="Text" value="0" />
+                <Property name="ValidationString" value="-?\d*" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelMapPreview" >
+            <Property name="Area" value="{{0.0121212,0},{0.680093,0},{0.212121,0},{0.730093,0}}" />
+            <Property name="Text" value="Map Preview" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxMapPreview" >
+            <Property name="Area" value="{{0.21,0},{0.681482,0},{0.245156,0},{0.737037,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelTextureCompression" >
+            <Property name="Area" value="{{0.0121212,0},{0.731482,0},{0.212121,0},{0.781482,0}}" />
+            <Property name="Text" value="Texture Compression" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxTextureCompression" >
+            <Property name="Area" value="{{0.21,0},{0.732871,0},{0.245156,0},{0.788426,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelRainEffect" >
+            <Property name="Area" value="{{0.0121212,0},{0.781482,0},{0.212121,0},{0.831482,0}}" />
+            <Property name="Text" value="Rain effect (Menu/Game)" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxRainEffectMenu" >
+            <Property name="Area" value="{{0.21,0},{0.782871,0},{0.245156,0},{0.838426,0}}" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxRainEffectGame" >
+            <Property name="Area" value="{{0.21,0},{0.782871,0},{0.245157,0},{0.838426,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelVideoPlayback" >
+            <Property name="Area" value="{{0.0121212,0},{0.83426,0},{0.212121,0},{0.88426,0}}" />
+            <Property name="Text" value="Enabled Video Playback" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxVideoPlayback" >
+            <Property name="Area" value="{{0.21,0},{0.835649,0},{0.245156,0},{0.891204,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelVideoInfo" >
+            <Property name="Area" value="{{0.494934,0},{0.00648183,0},{0.983996,0},{0.0564818,0}}" />
+            <Property name="Text" value="Video Info" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="HorzFormatting" value="CentreAligned" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/MultiLineEditbox" name="EditboxVideoInfo" >
+            <Property name="Area" value="{{0.495313,0},{0.0583333,0},{0.985157,0},{0.984722,0}}" />
+            <Property name="Text" >
+</Property>
+            <Property name="ReadOnly" value="True" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonSave" >
+            <Property name="Area" value="{{0.0121212,0},{0.94213,0},{0.151184,0},{0.987963,0}}" />
+            <Property name="Text" value="Save" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonReturn" >
+            <Property name="Area" value="{{0.163636,0},{0.940741,0},{0.302698,0},{0.986574,0}}" />
+            <Property name="Text" value="Return" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonAutoConfig" >
+            <Property name="Area" value="{{0.341027,0},{0.940741,0},{0.48009,0},{0.986574,0}}" />
+            <Property name="Text" value="Auto config" />
+        </Window>
     </Window>
 </GUILayout>
