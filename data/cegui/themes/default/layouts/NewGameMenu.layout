@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="MainWindow" >
+        <Property name="Area" value="{{0,1},{0,-1},{1,51},{1,101}}" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="GlossySerpent/Button" name="ButtonTutorial" >
+            <Property name="Area" value="{{0.42,0},{0.462963,0},{0.42,216},{0.462963,33}}" />
+            <Property name="Text" value="Tutorial" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonScenario" >
+            <Property name="Area" value="{{0.42,0},{0.513889,0.333252},{0.42,216},{0.513889,33.3333}}" />
+            <Property name="Text" value="Scenario" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonCustomGame" >
+            <Property name="Area" value="{{0.42,0},{0.564815,0},{0.42,216},{0.564815,33}}" />
+            <Property name="Text" value="Custom Game" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonInternetGame" >
+            <Property name="Area" value="{{0.42,0},{0.615741,0},{0.42,216},{0.615741,33}}" />
+            <Property name="Text" value="Internet Game" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonLANGame" >
+            <Property name="Area" value="{{0.42,0},{0.666667,0},{0.42,216},{0.666667,33}}" />
+            <Property name="Text" value="LAN Game" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonReturn" >
+            <Property name="Area" value="{{0.42,0},{0.717593,0},{0.42,216},{0.717593,33}}" />
+            <Property name="Text" value="Return" />
+        </Window>
+    </Window>
+</GUILayout>
