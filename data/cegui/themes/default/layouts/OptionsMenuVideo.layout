@@ -56,7 +56,7 @@
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerBrightness" >
             <Property name="Area" value="{{0.212,0},{0.115741,0},{0.212,64},{0.115741,33}}" />
-            <Property name="Text" value="0" />
+            <Property name="Text" value="3" />
             <Property name="StepSize" value="0.1" />
             <Property name="CurrentValue" value="3" />
             <Property name="MaximumValue" value="3" />
@@ -262,7 +262,7 @@
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerShadowIntensity" >
             <Property name="Area" value="{{0.212,0},{0.374074,0},{0.262,0},{0.419907,0}}" />
-            <Property name="Text" value="0" />
+            <Property name="Text" value="0.5" />
             <Property name="StepSize" value="0.1" />
             <Property name="CurrentValue" value="0.5" />
             <Property name="MaximumValue" value="3" />
@@ -300,7 +300,7 @@
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerMaxLights" >
             <Property name="Area" value="{{0.212,0},{0.478241,0},{0.262,0},{0.524074,0}}" />
-            <Property name="Text" value="0" />
+            <Property name="Text" value="1" />
             <Property name="CurrentValue" value="1" />
             <Property name="MaximumValue" value="8" />
             <Property name="MinimumValue" value="1" />
