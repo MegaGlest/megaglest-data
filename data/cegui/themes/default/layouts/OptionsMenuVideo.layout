@@ -394,7 +394,7 @@
             <Property name="Area" value="{{0.21,0},{0.782871,0},{0.245156,0},{0.838426,0}}" />
         </Window>
         <Window type="GlossySerpent/Checkbox" name="CheckboxRainEffectGame" >
-            <Property name="Area" value="{{0.21,0},{0.782871,0},{0.245157,0},{0.838426,0}}" />
+            <Property name="Area" value="{{0.254531,1},{0.782871,0},{0.289687,1},{0.838427,0}}" />
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelVideoPlayback" >
             <Property name="Area" value="{{0.0121212,0},{0.83426,0},{0.212121,0},{0.88426,0}}" />
