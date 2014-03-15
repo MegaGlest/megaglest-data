@@ -156,24 +156,6 @@
             <Property name="FrameEnabled" value="False" />
             <Property name="BackgroundEnabled" value="False" />
         </Window>
-        <Window type="GlossySerpent/Spinner" name="SpinnerCameraMoveSpeed" >
-            <Property name="Area" value="{{0.212,0},{0.322,0},{0.262303,0},{0.368296,0}}" />
-            <Property name="Text" value="0" />
-            <Property name="MaximumValue" value="100" />
-            <Property name="MinimumValue" value="-100" />
-            <AutoWindow namePath="__auto_editbox__" >
-                <Property name="Text" value="0" />
-                <Property name="ValidationString" value="-?\d*" />
-            </AutoWindow>
-            <AutoWindow namePath="__auto_incbtn__" >
-                <Property name="WantsMultiClickEvents" value="False" />
-                <Property name="MouseAutoRepeatEnabled" value="True" />
-            </AutoWindow>
-            <AutoWindow namePath="__auto_decbtn__" >
-                <Property name="WantsMultiClickEvents" value="False" />
-                <Property name="MouseAutoRepeatEnabled" value="True" />
-            </AutoWindow>
-        </Window>
         <Window type="GlossySerpent/StaticText" name="LabelVisibleHUD" >
             <Property name="Area" value="{{0.0121212,0},{0.37037,0},{0.212121,0},{0.42037,0}}" />
             <Property name="Text" value="Visible HUD" />
@@ -279,6 +261,9 @@
         <Window type="GlossySerpent/Button" name="ButtonReturn" >
             <Property name="Area" value="{{0.163636,0},{0.851852,64.9999},{0.30303,0},{0.898148,64.9999}}" />
             <Property name="Text" value="Return" />
+        </Window>
+        <Window type="GlossySerpent/HorizontalScrollbar" name="SliderCameraMoveSpeed" >
+            <Property name="Area" value="{{0.212,0},{0.320611,0},{0.478406,0},{0.366444,0}}" />
         </Window>
     </Window>
 </GUILayout>
