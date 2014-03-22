@@ -13,6 +13,8 @@ do
   # Remove blank space off beginning (behind '=') and end of translated strings because they belong into the code instead, and because Transifex would double them. 
   sed -i \
   -e 's/&quot;/"/g' \
+  -e 's/&bdquo;/„/g' \
+  -e 's/&ldquo;/“/g' \
   -e 's/^\([^=]*\)=\s*/\1=/' \
   -e 's/\s*$//' \
   -e 's/  */ /g' \
