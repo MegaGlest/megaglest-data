@@ -28,7 +28,7 @@
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerServerPortNumber" >
             <Property name="Area" value="{{0.213563,0},{0.0754632,0},{0.314344,0},{0.125463,0}}" />
-            <Property name="Text" value="100" />
+            <Property name="Text" value="9" />
             <Property name="CurrentValue" value="9" />
             <Property name="MaximumValue" value="99999" />
             <Property name="MinimumValue" value="0" />

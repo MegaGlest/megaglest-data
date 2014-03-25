@@ -125,7 +125,7 @@
             <Property name="BackgroundEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/Checkbox" name="CheckboxWindowed" >
-            <Property name="Area" value="{{0.21,0},{0.0620374,0},{0.245156,0},{0.117593,0}}" />
+            <Property name="Area" value="{{0.21,1},{0.0620374,0},{0.245156,1},{0.117593,0}}" />
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelUnitSelectionType" >
             <Property name="Area" value="{{0.0121212,0},{0.216667,0},{0.212121,0},{0.266667,0}}" />
