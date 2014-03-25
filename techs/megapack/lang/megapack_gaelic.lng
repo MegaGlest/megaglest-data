@@ -188,11 +188,11 @@ UnitTypeName_temple=teampaill
 CommandName_produce_priest=dèan sagairt
 CommandName_research_scarab=rannsaich sgarab
 CommandName_research_ibis=rannsaich ìbis
-CommandName_get_power_of_ra=faigh cumachd Rà
+CommandName_get_power_of_ra=faigh cumhachd Rà
 FactionName_indian=Innseanaich
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=biadh tairbh
+UpgradeTypeName_bullfood=biadh sprèidhe
 UpgradeTypeName_iron=iarainn
 UpgradeTypeName_iron_advanced=iarainn adhartach
 UpgradeTypeName_petroleum=ola
@@ -305,7 +305,7 @@ UnitTypeName_reed=cuilc
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=rannsaich biadh tairbh
+CommandName_research_bullfood=rannsaich biadh sprèidhe
 UnitTypeName_roundtent=teanta cruinn
 ; --------------------
 ; Levels for this Unit
@@ -456,7 +456,7 @@ CommandName_stop=stad
 CommandName_move=gluais
 CommandName_breath=anail
 CommandName_hold_position=seas
-CommandName_promote_to_evil_dragon=àrdaich gu dràgon olc
+CommandName_promote_to_evil_dragon=àrdaich gu dràgon feargach
 UnitTypeName_drake_rider=marcaiche dràic
 ; --------------------
 ; Levels for this Unit
@@ -474,7 +474,7 @@ UnitTypeName_energy_source=tobar lùiths
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-UnitTypeName_evil_dragon=dràgon olc
+UnitTypeName_evil_dragon=dràgon feargach
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=eòlaiche
@@ -543,7 +543,7 @@ CommandName_stop=stad
 CommandName_move=gluais
 CommandName_attack=thoir ionnsaigh
 CommandName_hold_position=seas
-UnitTypeName_summoner=taghairmeir
+UnitTypeName_summoner=taghairmear
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -556,12 +556,12 @@ CommandName_summon_daemon=taghairm ifrinneach
 CommandName_summon_ghost_armor=taghairm taibhs-armachd
 CommandName_summon_dragon=taghairm dràgon
 CommandName_summon_drake=taghairm dràc
-UnitTypeName_summoner_guild=comann nan taghairmeirean
+UnitTypeName_summoner_guild=comann nan taghairmearan
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_summoner=dèan taghairmeir
+CommandName_produce_summoner=dèan taghairmear
 CommandName_research_ancient_summoning=rannsaich taghairm àrsaidh
 UnitTypeName_tower_of_souls=tùr nan anman
 ; --------------------
@@ -575,7 +575,7 @@ UnitTypeName_wicker_behemoth=mòr-bhèist shlatach
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_promote_to_behemoth=àrdaich tu mòr-bhèist
+CommandName_promote_to_behemoth=àrdaich gu mòr-bhèist
 FactionName_norsemen=Lochlannaich
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -992,9 +992,9 @@ FactionName_romans=Ròmanaich
 UpgradeTypeName_advanced_architecture=ailtireachd adhartach
 UpgradeTypeName_bless_of_minerva=beannachd Minearbha
 UpgradeTypeName_enlarge_shields=meudaich sgiathan
-UpgradeTypeName_formations=foirmean
+UpgradeTypeName_formations=cumaidhean
 UpgradeTypeName_jupiter=Iupatar
-UpgradeTypeName_reinforce_armor=neartaich armachd
+UpgradeTypeName_reinforce_armor=neartaich an armachd
 UpgradeTypeName_sharpen_points=geuraich bioran
 UpgradeTypeName_sign_of_mars=samhla Mhàirs
 UpgradeTypeName_strengthen_swords=neartaich claidheamhan
@@ -1048,7 +1048,7 @@ UnitTypeName_blacksmith_shop=bùth gobhainn
 ; Types of Commands for this Unit
 CommandName_strengthen_swords=neartaich claidheamhan
 CommandName_sharpen_points=geuraich bioran
-CommandName_reinforce_armor=neartaich armachd
+CommandName_reinforce_armor=neartaich an armachd
 CommandName_enlarge_shields=meudaich sgiathan
 UnitTypeName_catapult=crann-tabhail
 ; --------------------
@@ -1154,11 +1154,11 @@ UnitTypeName_military_camp=campa feachd
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_cavalry=dèan eachraidh
-CommandName_produce_turtle_formation=dèan foirm turtair
+CommandName_produce_turtle_formation=dèan cumadh sligeanach
 CommandName_produce_general=dèan ceann-armailt
 CommandName_produce_mechanic=dèan ceàrd
 CommandName_upgrade_advanced_architecture=àrdaich gu ailtireachd adhartach
-CommandName_upgrade_formations=àrdaich na foirmean
+CommandName_upgrade_formations=àrdaich na cumaidhean
 UnitTypeName_slave=sglàbh
 ; --------------------
 ; Levels for this Unit
@@ -1218,7 +1218,7 @@ CommandName_stop=stad
 CommandName_move=gluais
 CommandName_attack=thoir ionnsaigh
 CommandName_hold_position=seas
-UnitTypeName_turtle_formation=foirm turtair
+UnitTypeName_turtle_formation=cumadh sligeanach
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=uasail
@@ -1421,7 +1421,7 @@ CommandName_molotov=molotobh
 CommandName_build_catapult=tog crann-tabhail
 CommandName_build_battle_machine=tog inneal-catha
 CommandName_build_air_ballista=tog bogha-tilgeil adhair
-UnitTypeName_technodrome=aonadh nan teicneolaichean
+UnitTypeName_technodrome=ceàrdach teicneolach
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------

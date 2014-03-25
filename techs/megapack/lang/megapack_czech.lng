@@ -10,7 +10,7 @@ ArmorTypeName_stone=kámen
 ; Types of Attack
 AttackTypeName_slashing=sekání
 AttackTypeName_piercing=propíchnutí
-# AttackTypeName_impact=impact
+AttackTypeName_impact=náraz
 AttackTypeName_energy=energie
 AttackTypeName_sword=meč
 AttackTypeName_arrow=šíp
@@ -30,13 +30,13 @@ FactionName_egypt=egypťané
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 # UpgradeTypeName_power_of_ra=power_of_ra
-# UpgradeTypeName_spear_weapons=spear_weapons
+UpgradeTypeName_spear_weapons=zbraně_s_kopím
 UpgradeTypeName_speedup_priest_production=urychlit_produkci_kněze
 UpgradeTypeName_summon_ibis=přivolat_ibise
 UpgradeTypeName_summon_scarab=přivolat_skaraba
 ; -------------------------------
 ; Types of Units for this Faction
-# UnitTypeName_air_pyramid=air_pyramid
+UnitTypeName_air_pyramid=vzdušná_pyramida
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -47,7 +47,7 @@ CommandName_attack_on=zaútočit
 UnitTypeName_anubis_warrior=anubisův_bojovník
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=starověký
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
@@ -66,7 +66,7 @@ UnitTypeName_desert_camp=pouštní_tábor
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_spearthrower=produkovat_vrhače_kopí
-CommandName_produce_spearman=produkovat_bojovníka_s_kopím
+CommandName_produce_spearman=produkovat_kopiníka
 CommandName_upgrade_spear_weapons=velepšit_zbraně_s_kopím
 UnitTypeName_farm=farma
 ; --------------------
@@ -83,7 +83,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_mummy=mumie
 ; --------------------
 ; Levels for this Unit
@@ -112,8 +112,8 @@ CommandName_speedup_priest_production=urychlit_produkci_kněze
 CommandName_heal=léčit
 CommandName_produce_mummy=produkovat_mumii
 CommandName_produce_anubis_warrior=produkovat_anubisova_bojovníka
-# CommandName_ice_nova=ice_nova
-CommandName_hold_position=držet pozici
+CommandName_ice_nova=ledový_výbuch
+CommandName_hold_position=držet_pozici
 UnitTypeName_pyramid=pyramida
 ; --------------------
 ; Levels for this Unit
@@ -123,15 +123,15 @@ CommandName_produce_slave=produkovat_otroka
 UnitTypeName_scarab=skarab
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=expert
-LevelName_master=mistr
+LevelName_expert=expertní
+LevelName_master=mistrný
 LevelName_legendary=legendární
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_dung_attack=dung_attack
-CommandName_hold_position=držet pozici
+CommandName_dung_attack=ohození_hnojem
+CommandName_hold_position=držet_pozici
 UnitTypeName_slave=otrok
 ; --------------------
 ; Levels for this Unit
@@ -146,15 +146,15 @@ CommandName_harvest_wood=těžit_dřevo
 UnitTypeName_snake=had
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=expert
-LevelName_master=mistr
+LevelName_expert=expertní
+LevelName_master=mistrný
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_poison_shot=poison_shot
-CommandName_hold_position=držet pozici
-UnitTypeName_spearman=bojovník_s_kopím
+CommandName_poison_shot=otrávená_střela
+CommandName_hold_position=držet_pozici
+UnitTypeName_spearman=kopiník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -172,7 +172,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_sphinx=sfinga
 ; --------------------
 ; Levels for this Unit
@@ -200,7 +200,7 @@ UpgradeTypeName_stables=stáje
 UpgradeTypeName_training_field=výcvikové_pole
 ; -------------------------------
 ; Types of Units for this Faction
-UnitTypeName_archer=lukostřelec
+UnitTypeName_archer=lučištník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -209,7 +209,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_axe_indian=indián_se_sekerou
 ; --------------------
 ; Levels for this Unit
@@ -239,7 +239,7 @@ UnitTypeName_bigtent=velký_stan
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_stickfighter=produkovat_bojovníka_s_holí
-CommandName_produce_archer=produkovat_lukostřelce
+CommandName_produce_archer=produkovat_lučištníka
 UnitTypeName_bull=býk
 ; --------------------
 ; Levels for this Unit
@@ -256,7 +256,7 @@ UnitTypeName_campfire=ohniště
 CommandName_produce_firegolem=produkovat_ohnivého_golema
 CommandName_research_iron=vývoj_železa
 CommandName_research_iron_advanced=vývoj_pokročilého_železa
-UnitTypeName_fire_archer=požární_lukostřelec
+UnitTypeName_fire_archer=požární_lučištník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -265,17 +265,17 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_firegolem=ohnivý_golem
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=starověký
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_horsefarm=koňská_farma
 ; --------------------
 ; Levels for this Unit
@@ -293,7 +293,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_mainteepee=hlavní_týpí
 ; --------------------
 ; Levels for this Unit
@@ -306,15 +306,15 @@ UnitTypeName_reed=rákos
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_research_bullfood=vývoj_býčí_potravy
-# UnitTypeName_roundtent=roundtent
+UnitTypeName_roundtent=kruhový_stan
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_axe_indian=produkovat_indiána_se_sekerou
 CommandName_produce_axe_thrower=produkovat_vrhače_seker
-CommandName_produce_fire_archer=produkovat_požárního_lukostřelce
-CommandName_produce_spearman=produkovat_bojovníka_s_kopím
+CommandName_produce_fire_archer=produkovat_požárního_lučištníka
+CommandName_produce_spearman=produkovat_kopiníka
 CommandName_create_training_field=vytvořit_výcvikové_pole
 UnitTypeName_shaman=šaman
 ; --------------------
@@ -328,7 +328,7 @@ CommandName_heal=léčit
 CommandName_molotov=molotov
 CommandName_produce_thunderbird=produkovat_hromového_ptáka
 CommandName_build_beehive=postavit_úl
-UnitTypeName_spearman=bojovník_s_kopím
+UnitTypeName_spearman=kopiník
 ; --------------------
 ; Levels for this Unit
 LevelName_guardian=ochránce
@@ -347,7 +347,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_tent=stan
 ; --------------------
 ; Levels for this Unit
@@ -357,15 +357,15 @@ CommandName_produce_stickfighter=produkovat_bojovníka_s_holí
 UnitTypeName_thunderbird=hromový_pták
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
-LevelName_expert=expert
+LevelName_ancient=starověký
+LevelName_expert=expertní
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_throw=vrhat
-# CommandName_breath=breath
-CommandName_hold_position=držet pozici
+CommandName_breath=výdech
+CommandName_hold_position=držet_pozici
 UnitTypeName_totem=totem
 ; --------------------
 ; Levels for this Unit
@@ -389,8 +389,8 @@ CommandName_repair=opravovat
 FactionName_magic=mágové
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_ancient_summoning=ancient_summoning
-# UpgradeTypeName_dragon_call=dragon_call
+UpgradeTypeName_ancient_summoning=starověká_přivolávačka
+UpgradeTypeName_dragon_call=volání_draka
 UpgradeTypeName_energy_compression=zhuštění_energie
 UpgradeTypeName_energy_sharpening=vyostření_energie
 UpgradeTypeName_golem_power=síla_golema
@@ -400,39 +400,39 @@ UpgradeTypeName_hell_gate=pekelná_brána
 UnitTypeName_archmage=arcimág
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=expert
-LevelName_master=mistr
+LevelName_expert=expertní
+LevelName_master=mistrný
 LevelName_legendary=legendární
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_ice_nova=ice_nova
-# CommandName_static_fire=static_fire
-CommandName_hold_position=držet pozici
+CommandName_ice_nova=ledový_výbuch
+CommandName_static_fire=statický_oheň
+CommandName_hold_position=držet_pozici
 UnitTypeName_archmage_tower=věž_arcimágů
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_research_dragon_call=research_dragon_call
+CommandName_research_dragon_call=výzkum_volání_draka
 CommandName_golem_power=síla_golema
 UnitTypeName_battlemage=bojový_mág
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=expert
-LevelName_master=mistr
+LevelName_expert=expertní
+LevelName_master=mistrný
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_fire_bolt=ohnivý_blesk
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 CommandName_promote_to_archmage=produkovat_arcimága
 UnitTypeName_behemoth=netvor
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=starověký
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
@@ -449,26 +449,26 @@ CommandName_attack=útok
 UnitTypeName_dragon=drak
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=starověký
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_breath=breath
-CommandName_hold_position=držet pozici
+CommandName_breath=výdech
+CommandName_hold_position=držet_pozici
 CommandName_promote_to_evil_dragon=povýšit_na_zlého_draka
-UnitTypeName_drake_rider=dračí_jezdkyně
+UnitTypeName_drake_rider=ještěří_jezdkyně
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=expert
-LevelName_master=mistr
+LevelName_expert=expertní
+LevelName_master=mistrný
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_fire_breath=fire_breath
-# CommandName_flare=flare
-CommandName_hold_position=držet pozici
+CommandName_fire_breath=ohnivý_výdech
+CommandName_flare=záře
+CommandName_hold_position=držet_pozici
 UnitTypeName_energy_source=zdroj_energie
 ; --------------------
 ; Levels for this Unit
@@ -477,33 +477,33 @@ UnitTypeName_energy_source=zdroj_energie
 UnitTypeName_evil_dragon=zlý_drak
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=expert
+LevelName_expert=expertní
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_breath=breath
-CommandName_hold_position=držet pozici
-# UnitTypeName_ghost_armor=ghost_armor
+CommandName_breath=výdech
+CommandName_hold_position=držet_pozici
+UnitTypeName_ghost_armor=obrněný_přízrak
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=starověký
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_golem=golem
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=starověký
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 CommandName_promote_to_power_golem=povýšit_na_silného_golema
 UnitTypeName_initiate=novic
 ; --------------------
@@ -536,13 +536,13 @@ CommandName_produce_initiate=produkovat_novice
 UnitTypeName_power_golem=silný_golem
 ; --------------------
 ; Levels for this Unit
-# LevelName_ancient=ancient
+LevelName_ancient=starověký
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_summoner=přivolávačka
 ; --------------------
 ; Levels for this Unit
@@ -550,19 +550,19 @@ UnitTypeName_summoner=přivolávačka
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_flare=flare
-CommandName_hold_position=držet pozici
+CommandName_flare=záře
+CommandName_hold_position=držet_pozici
 CommandName_summon_daemon=přivolat_démona
 CommandName_summon_ghost_armor=přivolat_obrněný_přízrak
 CommandName_summon_dragon=přivolat_draka
-# CommandName_summon_drake=summon_drake
+CommandName_summon_drake=přivolat_ještěra
 UnitTypeName_summoner_guild=cech_přivolávaček
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_summoner=produkovat_přivolávačku
-# CommandName_research_ancient_summoning=research_ancient_summoning
+CommandName_research_ancient_summoning=vývoj_starověké_přivolávačky
 UnitTypeName_tower_of_souls=věž_duší
 ; --------------------
 ; Levels for this Unit
@@ -580,14 +580,14 @@ FactionName_norsemen=seveřané
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_iron=pokročilé_železo
-# UpgradeTypeName_arrow=arrow
+UpgradeTypeName_arrow=šíp
 UpgradeTypeName_holy_valkyrie=svatá_valkýra
 UpgradeTypeName_iron=železo
-# UpgradeTypeName_med=med
+UpgradeTypeName_med=medicína
 UpgradeTypeName_root=kořen
 ; -------------------------------
 ; Types of Units for this Faction
-UnitTypeName_archer=lukostřelec
+UnitTypeName_archer=lučištník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -596,7 +596,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_axe_thrower=vrhač_seker
 ; --------------------
 ; Levels for this Unit
@@ -605,7 +605,7 @@ UnitTypeName_axe_thrower=vrhač_seker
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-# UnitTypeName_battleaxe=battleaxe
+UnitTypeName_battleaxe=sekerník
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -613,8 +613,8 @@ CommandName_attack=útok
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-# CommandName_promote_to_battleaxe=promote_to_battleaxe
-# UnitTypeName_battleaxe_berzerk=battleaxe_berzerk
+CommandName_promote_to_battleaxe=povýšit_na_sekerníka
+UnitTypeName_battleaxe_berzerk=povýšit_na_sekerníka_berserka
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -627,20 +627,20 @@ UnitTypeName_blacksmith=kovárna
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_upgrade_iron=upgrade_iron
-# CommandName_upgrade_arrow=upgrade_arrow
-# CommandName_upgrade_advanced_iron=upgrade_advanced_iron
+CommandName_upgrade_iron=povýšit_železo
+CommandName_upgrade_arrow=povýšit_šípy
+CommandName_upgrade_advanced_iron=povýšit_pokročilé_železo
 CommandName_produce_crossbow=produkovat_kuši
-# UnitTypeName_bone_tent=bone_tent
+UnitTypeName_bone_tent=stan_z_kostí
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_swordman=produkovat_šermíře
-CommandName_produce_archer=produkovat_lukostřelce
-# CommandName_produce_battleaxe=produce_battleaxe
+CommandName_produce_archer=produkovat_lučištníka
+CommandName_produce_battleaxe=produkovat_sekerníka
 CommandName_produce_axe_thrower=produkovat_vrhače_seker
-UnitTypeName_castle=zámek
+UnitTypeName_castle=hrad
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -660,16 +660,16 @@ UnitTypeName_crossbow=kuše
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_attack_arrow=attack_arrow
-CommandName_hold_position=držet pozici
-# UnitTypeName_cudgel_lady=cudgel_lady
+CommandName_attack_arrow=útok_šípy
+CommandName_hold_position=držet_pozici
+UnitTypeName_cudgel_lady=dáma_s_palicí
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_cudgel=cudgel
+CommandName_cudgel=palice
 UnitTypeName_farm=farma
 ; --------------------
 ; Levels for this Unit
@@ -685,22 +685,22 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_house=dům
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
-CommandName_produce_spearman=produkovat_bojovníka_s_kopím
-# UnitTypeName_med_bar=med_bar
+CommandName_produce_cudgel_lady=produkovat_dámu_s_palicí
+CommandName_produce_spearman=produkovat_kopiníka
+UnitTypeName_med_bar=výčep_s_medicínou
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
-CommandName_produce_spearman=produkovat_bojovníka_s_kopím
-# CommandName_research_med=research_med
+CommandName_produce_cudgel_lady=produkovat_dámu_s_palicí
+CommandName_produce_spearman=produkovat_kopiníka
+CommandName_research_med=výzkum_medicíny
 # UnitTypeName_mistletree=mistletree
 ; --------------------
 ; Levels for this Unit
@@ -708,9 +708,9 @@ CommandName_produce_spearman=produkovat_bojovníka_s_kopím
 ; Types of Commands for this Unit
 CommandName_air_on=vzdušný_útok
 CommandName_attack_off=zastavit_útok
-# CommandName_research_root=research_root
-# CommandName_resurrect_wild_sow=resurrect_wild_sow
-UnitTypeName_spearman=bojovník_s_kopím
+CommandName_research_root=výzkum_kořene
+CommandName_resurrect_wild_sow=oživit_divokou_svini
+UnitTypeName_spearman=kopiník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -719,9 +719,9 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# CommandName_promote_to_spearman=promote_to_spearman
-# UnitTypeName_spearman_berzerk=spearman_berzerk
+CommandName_hold_position=držet_pozici
+CommandName_promote_to_spearman=povýšit_na_kopiníka
+UnitTypeName_spearman_berzerk=kopiník_berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -730,7 +730,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_swordman=šermíř
 ; --------------------
 ; Levels for this Unit
@@ -740,9 +740,9 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 CommandName_promote_to_swordman=povýšit_na_šermíře
-# UnitTypeName_swordman_berzerk=swordman_berzerk
+UnitTypeName_swordman_berzerk=kopiník_berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -751,8 +751,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# UnitTypeName_thor=thor
+CommandName_hold_position=držet_pozici
+UnitTypeName_thor=thór
 ; --------------------
 ; Levels for this Unit
 LevelName_advanced=pokročilé
@@ -762,13 +762,13 @@ CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
 CommandName_throw=vrhat
-CommandName_hold_position=držet pozici
-# UnitTypeName_thortotem=thortotem
+CommandName_hold_position=držet_pozici
+UnitTypeName_thortotem=totem_thóra
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_build_thor=build_thor
+CommandName_build_thor=stvořit_thóra
 # UnitTypeName_thrull=thrull
 ; --------------------
 ; Levels for this Unit
@@ -797,8 +797,8 @@ CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
 CommandName_airattack=vzdušný_útok
-CommandName_hold_position=držet pozici
-# UnitTypeName_wild_sow=wild_sow
+CommandName_hold_position=držet_pozici
+UnitTypeName_wild_sow=divoká_svině
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -812,7 +812,7 @@ FactionName_persian=peršané
 UpgradeTypeName_corn_and_wicker=kukuřice_a_proutí
 UpgradeTypeName_magic_level_1=kouzla_první_úrovně
 UpgradeTypeName_magic_level_2=kouzla_druhé_úrovně
-# UpgradeTypeName_nails=nails
+UpgradeTypeName_nails=hřebíky
 UpgradeTypeName_shield=štíty
 UpgradeTypeName_weapons=zbraně
 ; -------------------------------
@@ -823,7 +823,7 @@ UnitTypeName_blacksmith=kovárna
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_weapons=vylepšit_zbraně
-# CommandName_upgrade_nails=upgrade_nails
+CommandName_upgrade_nails=povýšit_hřebíky
 CommandName_upgrade_shield=vylepšit_štíty
 UnitTypeName_elephant=slon
 ; --------------------
@@ -834,8 +834,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-# CommandName_attack_arrow=attack_arrow
-CommandName_hold_position=držet pozici
+CommandName_attack_arrow=útok_šípy
+CommandName_hold_position=držet_pozici
 UnitTypeName_elephant_cage=sloní_klec
 ; --------------------
 ; Levels for this Unit
@@ -851,14 +851,14 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_farm=farma
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_sheep=produkovat_ovci
-# CommandName_research_corn_and_wicker=research_corn_and_wicker
+CommandName_research_corn_and_wicker=výzkum_kukuřice_a_proutí
 UnitTypeName_flying_carpet=létající_koberec
 ; --------------------
 ; Levels for this Unit
@@ -868,7 +868,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_magic_attack=magický_útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_genie=džin
 ; --------------------
 ; Levels for this Unit
@@ -878,7 +878,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_house=dům
 ; --------------------
 ; Levels for this Unit
@@ -898,7 +898,7 @@ CommandName_attack=útok
 CommandName_repair=opravovat
 CommandName_build_snake_basket=vytvořit_hadí_košík
 CommandName_heal=léčit
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_minaret=minaret
 ; --------------------
 ; Levels for this Unit
@@ -921,7 +921,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_sheep=ovce
 ; --------------------
 ; Levels for this Unit
@@ -946,7 +946,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_swordman=šermíř
 ; --------------------
 ; Levels for this Unit
@@ -956,7 +956,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_temple=chrám
 ; --------------------
 ; Levels for this Unit
@@ -990,18 +990,18 @@ FactionName_romans=římané
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=pokročilá_architektura
-# UpgradeTypeName_bless_of_minerva=bless_of_minerva
+UpgradeTypeName_bless_of_minerva=požehnání_minervy
 UpgradeTypeName_enlarge_shields=rozšířit_štíty
 UpgradeTypeName_formations=formace
-UpgradeTypeName_jupiter=jupiter
-# UpgradeTypeName_reinforce_armor=reinforce_armor
-# UpgradeTypeName_sharpen_points=sharpen_points
-# UpgradeTypeName_sign_of_mars=sign_of_mars
+UpgradeTypeName_jupiter=Jupiter
+UpgradeTypeName_reinforce_armor=zesílit_brnění
+UpgradeTypeName_sharpen_points=ostré_hroty
+UpgradeTypeName_sign_of_mars=znamení_Marsu
 # UpgradeTypeName_strengthen_swords=strengthen_swords
 UpgradeTypeName_training_field=výcvikové_pole
 ; -------------------------------
 ; Types of Units for this Faction
-UnitTypeName_archer=lukostřelec
+UnitTypeName_archer=lučištník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -1010,9 +1010,9 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# CommandName_get_fire_arrows=get_fire_arrows
-# UnitTypeName_axe_man=axe_man
+CommandName_hold_position=držet_pozici
+CommandName_get_fire_arrows=získat_ohnivé_šípy
+UnitTypeName_axe_man=muž_se_sekerou
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -1021,7 +1021,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_ballista=balista
 ; --------------------
 ; Levels for this Unit
@@ -1040,15 +1040,15 @@ CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack_land=pozemní_útok
 CommandName_attack_air=vzdušný_útok
-CommandName_hold_position=držet pozici
-# UnitTypeName_blacksmith_shop=blacksmith_shop
+CommandName_hold_position=držet_pozici
+UnitTypeName_blacksmith_shop=kovárna
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 # CommandName_strengthen_swords=strengthen_swords
-# CommandName_sharpen_points=sharpen_points
-# CommandName_reinforce_armor=reinforce_armor
+CommandName_sharpen_points=ostré_hroty
+CommandName_reinforce_armor=zesílit_brnění
 CommandName_enlarge_shields=rozšířit_štíty
 UnitTypeName_catapult=katapult
 ; --------------------
@@ -1058,8 +1058,8 @@ UnitTypeName_catapult=katapult
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_fire_ball=ohnivá_koule
-CommandName_hold_position=držet pozici
-UnitTypeName_cavalry=kavalerie
+CommandName_hold_position=držet_pozici
+UnitTypeName_cavalry=kavalerista
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -1068,8 +1068,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# CommandName_promote_to_tribune=promote_to_tribune
+CommandName_hold_position=držet_pozici
+CommandName_promote_to_tribune=povýšit_na_tribuna
 UnitTypeName_cow=kráva
 ; --------------------
 ; Levels for this Unit
@@ -1077,32 +1077,32 @@ UnitTypeName_cow=kráva
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# UnitTypeName_eagle_pillar=eagle_pillar
+UnitTypeName_eagle_pillar=orlí_sloup
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=zastavit_útok
 CommandName_attack_on=zaútočit
-UnitTypeName_fire_archer=požární_lukostřelec
+UnitTypeName_fire_archer=požární_lučištník
 ; --------------------
 ; Levels for this Unit
-# LevelName_accurate=accurate
+LevelName_accurate=precizní
 LevelName_elite=elitní
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# UnitTypeName_forum=forum
+CommandName_hold_position=držet_pozici
+UnitTypeName_forum=fórum
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=produkovat_otroka
 CommandName_produce_cow=produkovat_krávu
-# UnitTypeName_general=general
+UnitTypeName_general=generál
 ; --------------------
 ; Levels for this Unit
 # LevelName_esteemed=esteemed
@@ -1112,7 +1112,7 @@ CommandName_produce_cow=produkovat_krávu
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_gladiator=gladiátor
 ; --------------------
 ; Levels for this Unit
@@ -1123,14 +1123,14 @@ CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack_land=pozemní_útok
 CommandName_attack_air=vzdušný_útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_gladiator_school=škola_gladiátorů
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_train_gladiator=trénovat_gladiátora
-# CommandName_produce_axe_man=produce_axe_man
+CommandName_produce_axe_man=produkovat_muže_se_sekerou
 UnitTypeName_guard=strážce
 ; --------------------
 ; Levels for this Unit
@@ -1140,8 +1140,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# UnitTypeName_guard_tower=guard_tower
+CommandName_hold_position=držet_pozici
+UnitTypeName_guard_tower=obranná_věž
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1153,10 +1153,10 @@ UnitTypeName_military_camp=vojenský_tábor
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_cavalry=produkovat_kavalerii
+CommandName_produce_cavalry=produkovat_kavaleristu
 CommandName_produce_turtle_formation=produkovat_želví_formaci
-# CommandName_produce_general=produce_general
-# CommandName_produce_mechanic=produce_mechanic
+CommandName_produce_general=produkovat_generála
+CommandName_produce_mechanic=produkovat_mechanika
 CommandName_upgrade_advanced_architecture=povýšit_na_pokročilou_architekturu
 CommandName_upgrade_formations=povýšit_formace
 UnitTypeName_slave=otrok
@@ -1166,11 +1166,11 @@ UnitTypeName_slave=otrok
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_build_=build_
+CommandName_build_=stavět_
 CommandName_mine=dobývat
 CommandName_harvest_wood=těžit_dřevo
 CommandName_repair=opravovat
-UnitTypeName_spearman=bojovník_s_kopím
+UnitTypeName_spearman=kopiník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -1179,8 +1179,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# UnitTypeName_swordsman=swordsman
+CommandName_hold_position=držet_pozici
+UnitTypeName_swordsman=šermíř
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -1189,26 +1189,26 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_temple=chrám
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_research_sign_of_mars=research_sign_of_mars
-# CommandName_research_jupiter=research_jupiter
-# CommandName_upgrade_bless_of_minerva=upgrade_bless_of_minerva
+CommandName_research_sign_of_mars=výzkum_znamení_Marsu
+CommandName_research_jupiter=výzkum_Jupiteru
+CommandName_upgrade_bless_of_minerva=povýšit_o_požehnání_minervy
 UnitTypeName_training_camp=výcvikový_tábor
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_produce_spearman=produkovat_bojovníka_s_kopím
-CommandName_produce_archer=produkovat_lukostřelce
+CommandName_produce_spearman=produkovat_kopiníka
+CommandName_produce_archer=produkovat_lučištníka
 CommandName_produce_guard=produkovat_strážce
-# CommandName_produce_swordsman=produce_swordsman
+CommandName_produce_swordsman=produkovat_šermíře
 CommandName_create_training_field=vytvořit_výcvikové_pole
-# UnitTypeName_tribune=tribune
+UnitTypeName_tribune=tribun
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -1217,7 +1217,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_turtle_formation=želví_formace
 ; --------------------
 ; Levels for this Unit
@@ -1227,8 +1227,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
-# UnitTypeName_wartime_mechanic=wartime_mechanic
+CommandName_hold_position=držet_pozici
+UnitTypeName_wartime_mechanic=válečný_mechanik
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1236,7 +1236,7 @@ CommandName_hold_position=držet pozici
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 CommandName_repair=opravovat
 CommandName_heal=léčit
 CommandName_build_catapult=postavit_katapult
@@ -1255,7 +1255,7 @@ UpgradeTypeName_stables=stáje
 UpgradeTypeName_training_field=výcvikové_pole
 ; -------------------------------
 ; Types of Units for this Faction
-# UnitTypeName_aerodrome=aerodrome
+UnitTypeName_aerodrome=aerodrom
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1278,9 +1278,9 @@ LevelName_elite=elitní
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_missile=missile
-CommandName_hold_position=držet pozici
-UnitTypeName_archer=lukostřelec
+CommandName_missile=střely
+CommandName_hold_position=držet_pozici
+UnitTypeName_archer=lučištník
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -1289,14 +1289,14 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_barracks=kasárna
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_swordman=produkovat_šermíře
-CommandName_produce_archer=produkovat_lukostřelce
+CommandName_produce_archer=produkovat_lučištníka
 CommandName_produce_guard=produkovat_strážce
 CommandName_produce_horseman=produkovat_jezdce
 CommandName_create_training_field=vytvořit_výcvikové_pole
@@ -1309,8 +1309,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-# CommandName_attack_arrow=attack_arrow
-CommandName_hold_position=držet pozici
+CommandName_attack_arrow=útok_šípy
+CommandName_hold_position=držet_pozici
 UnitTypeName_blacksmith=kovárna
 ; --------------------
 ; Levels for this Unit
@@ -1320,7 +1320,7 @@ CommandName_upgrade_blade_weapons=povýšit_řezné_zbraně
 CommandName_upgrade_piercing_weapons=povýšit_bodné_zbraně
 CommandName_upgrade_shield=vylepšit_štíty
 CommandName_upgrade_shield=vylepšit_štíty
-UnitTypeName_castle=zámek
+UnitTypeName_castle=hrad
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1334,7 +1334,7 @@ UnitTypeName_catapult=katapult
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_fire_ball=ohnivá_koule
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_cow=kráva
 ; --------------------
 ; Levels for this Unit
@@ -1366,7 +1366,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_horseman=jezdec
 ; --------------------
 ; Levels for this Unit
@@ -1376,7 +1376,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 UnitTypeName_ornithopter=ornitoptéra
 ; --------------------
 ; Levels for this Unit
@@ -1386,8 +1386,8 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_molotov=molotov
-# CommandName_fire_arrow=fire_arrow
-CommandName_hold_position=držet pozici
+CommandName_fire_arrow=ohnivý_šíp
+CommandName_hold_position=držet_pozici
 UnitTypeName_pig=prase
 ; --------------------
 ; Levels for this Unit
@@ -1404,7 +1404,7 @@ LevelName_elite=elitní
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_hold_position=držet pozici
+CommandName_hold_position=držet_pozici
 CommandName_promote_to_guard=povýšit_na_strážce
 UnitTypeName_technician=technik
 ; --------------------
@@ -1413,7 +1413,7 @@ UnitTypeName_technician=technik
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-# CommandName_build_ultimate=build_ultimate
+CommandName_build_ultimate=stavět_vrcholné
 CommandName_repair=opravovat
 CommandName_heal=léčit
 CommandName_mine_gold=dobývat_zlato
