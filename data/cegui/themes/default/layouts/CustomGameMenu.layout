@@ -11,7 +11,6 @@
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="FrameEnabled" value="False" />
             <Property name="BackgroundEnabled" value="False" />
-            <Property name="TextParsingEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelLocalGameIPTitle" >
             <Property name="Area" value="{{0.307434,0},{0.00222222,0},{0.691028,0},{0.0536111,0}}" />
@@ -21,7 +20,7 @@
             <Property name="BackgroundEnabled" value="False" />
             <Property name="TextParsingEnabled" value="False" />
         </Window>
-        <Window type="GlossySerpent/Checkbox" name="CheckboxWindowed" >
+        <Window type="GlossySerpent/Checkbox" name="CheckboxPublishGame" >
             <Property name="Area" value="{{0.0107812,0},{0.105093,0},{0.0459374,0},{0.160649,0}}" />
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelPublishGame" >
@@ -33,7 +32,7 @@
             <Property name="TextParsingEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/Editbox" name="EditboxPublishGameName" >
-            <Property name="Area" value="{{0.0472772,0},{0.112037,0},{0.300402,0},{0.15787,0}}" />
+            <Property name="Area" value="{{0.0472772,1},{0.112037,-1},{0.300402,1},{0.15787,-1}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
         <Window type="GlossySerpent/MultiLineEditbox" name="MultiLineEditboxChatHistory" >
@@ -1621,7 +1620,7 @@
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelMapInfo" >
-            <Property name="Area" value="{{0.202747,0},{0.680555,0},{0.340246,0},{0.786111,0}}" />
+            <Property name="Area" value="{{0.202747,0},{0.66,0},{0.340247,1},{0.765556,-28}}" />
             <Property name="Text" value="Max players: 8" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="FrameEnabled" value="False" />
@@ -1635,7 +1634,7 @@
             <Property name="BackgroundEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/Combobox" name="ComboAIAcceptPercent" >
-            <Property name="Area" value="{{0.344152,0},{0.744444,0},{0.418371,0},{0.829166,0}}" />
+            <Property name="Area" value="{{0.344152,-1},{0.744444,0},{0.418371,-1},{0.829166,0}}" />
             <Property name="ReadOnly" value="True" />
             <Property name="AutoSizeListHeight" value="True" />
             <AutoWindow namePath="__auto_editbox__" >
@@ -1803,6 +1802,16 @@
                     </AutoWindow>
                 </AutoWindow>
             </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxAllowInProgressJoinGame" >
+            <Property name="Area" value="{{0.750781,0},{0.919444,0},{0.785937,0},{0.976389,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelAllowInProgressJoinGame" >
+            <Property name="Area" value="{{0.790781,0},{0.919444,0},{0.986094,0},{0.969444,0}}" />
+            <Property name="Text" value="Allow in progress joining" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
         </Window>
     </Window>
 </GUILayout>
