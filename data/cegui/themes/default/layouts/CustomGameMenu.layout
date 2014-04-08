@@ -58,13 +58,13 @@
             <Property name="TextParsingEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/StaticImage" name="ImagePlayer1Status" >
-            <Property name="Area" value="{{0.0232818,0},{0.168889,0},{0.0514068,0},{0.220278,0}}" />
+            <Property name="Area" value="{{0.0232818,1},{0.168889,0},{0.0514068,1},{0.220278,0}}" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="FrameEnabled" value="False" />
             <Property name="BackgroundEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer1Control" >
-            <Property name="Area" value="{{0.197277,0},{0.176389,0},{0.340246,0},{0.384722,0}}" />
+            <Property name="Area" value="{{0.197277,0},{0.176389,1},{0.340246,0},{0.384722,0}}" />
             <Property name="ReadOnly" value="True" />
             <Property name="AutoSizeListHeight" value="True" />
             <AutoWindow namePath="__auto_editbox__" >
@@ -102,39 +102,25 @@
             <Property name="Area" value="{{0.0511835,0},{0.171759,0},{0.194934,0},{0.217592,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer1Multiplier" >
-            <Property name="Area" value="{{0.341808,0},{0.176389,0},{0.419152,0},{0.384722,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer1Multiplier" >
+            <Property name="Area" value="{{0.341808,0},{0.176389,0},{0.419933,0},{0.222222,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer1Faction" >
@@ -303,39 +289,25 @@
                 </AutoWindow>
             </AutoWindow>
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer2Multiplier" >
-            <Property name="Area" value="{{0.342589,0},{0.230556,0},{0.419933,0},{0.438889,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer2Multiplier" >
+            <Property name="Area" value="{{0.342589,0},{0.230556,0},{0.420714,0},{0.276389,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer2Team" >
@@ -385,39 +357,25 @@
             <Property name="Area" value="{{0.0519647,0},{0.278704,0},{0.195715,0},{0.324537,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer3Multiplier" >
-            <Property name="Area" value="{{0.342589,0},{0.283334,0},{0.419933,0},{0.491667,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer3Multiplier" >
+            <Property name="Area" value="{{0.342589,0},{0.283334,0},{0.420714,0},{0.329167,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticImage" name="ImagePlayer3Status" >
@@ -543,39 +501,25 @@
             <Property name="Area" value="{{0.0519647,0},{0.331482,0},{0.195715,0},{0.377315,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer4Multiplier" >
-            <Property name="Area" value="{{0.342589,0},{0.336112,0},{0.419933,0},{0.544445,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer4Multiplier" >
+            <Property name="Area" value="{{0.342589,0},{0.336112,0},{0.420714,0},{0.381945,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelPlayer4Number" >
@@ -709,39 +653,25 @@
             <Property name="Area" value="{{0.0519647,0},{0.381482,0},{0.195715,0},{0.427315,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer5Multiplier" >
-            <Property name="Area" value="{{0.342589,0},{0.386112,0},{0.419933,0},{0.594445,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer5Multiplier" >
+            <Property name="Area" value="{{0.342589,0},{0.386112,0},{0.420714,0},{0.431945,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelPlayer5Number" >
@@ -875,39 +805,25 @@
             <Property name="Area" value="{{0.0527459,0},{0.431482,0},{0.196496,0},{0.477315,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer6Multiplier" >
-            <Property name="Area" value="{{0.34337,0},{0.436112,0},{0.420714,0},{0.644445,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer6Multiplier" >
+            <Property name="Area" value="{{0.34337,0},{0.436112,0},{0.421495,0},{0.481945,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelPlayer6Number" >
@@ -1041,39 +957,25 @@
             <Property name="Area" value="{{0.0527459,0},{0.48287,0},{0.196496,0},{0.528703,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer7Multiplier" >
-            <Property name="Area" value="{{0.34337,0},{0.4875,0},{0.420714,0},{0.695833,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer7Multiplier" >
+            <Property name="Area" value="{{0.34337,0},{0.4875,0},{0.421495,0},{0.533333,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelPlayer7Number" >
@@ -1207,39 +1109,25 @@
             <Property name="Area" value="{{0.0519647,0},{0.534259,0},{0.195715,0},{0.580092,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboBoxPlayer8Multiplier" >
-            <Property name="Area" value="{{0.342589,0},{0.538889,0},{0.419933,0},{0.747222,0}}" />
-            <Property name="ReadOnly" value="True" />
-            <Property name="AutoSizeListHeight" value="True" />
+        <Window type="GlossySerpent/Spinner" name="SpinnerPlayer8Multiplier" >
+            <Property name="Area" value="{{0.342589,0},{0.538889,0},{0.420714,0},{0.584722,0}}" />
+            <Property name="Text" value="3" />
+            <Property name="StepSize" value="0.1" />
+            <Property name="CurrentValue" value="3" />
+            <Property name="MaximumValue" value="3" />
+            <Property name="MinimumValue" value="0.5" />
+            <Property name="TextInputMode" value="FloatingPoint" />
             <AutoWindow namePath="__auto_editbox__" >
-                <Property name="ReadOnly" value="True" />
-                <Property name="SelectedTextColour" value="FFFFFFDD" />
-                <Property name="ActiveSelectionColour" value="FFFFB080" />
-                <Property name="InactiveSelectionColour" value="FFB18A50" />
+                <Property name="Text" value="3" />
+                <Property name="ValidationString" value="-?\d*\.?\d*" />
             </AutoWindow>
-            <AutoWindow namePath="__auto_droplist__" >
-                <AutoWindow namePath="__auto_hscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
-                <AutoWindow namePath="__auto_vscrollbar__" >
-                    <AutoWindow namePath="__auto_incbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_decbtn__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                    <AutoWindow namePath="__auto_thumb__" >
-                        <Property name="RestoreOldCapture" value="True" />
-                    </AutoWindow>
-                </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelPlayer8Number" >
@@ -1397,7 +1285,7 @@
             <Property name="BackgroundEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/Combobox" name="ComboBoxTechTree" >
-            <Property name="Area" value="{{0.30509,0},{0.116667,0},{0.506652,0},{0.356944,0}}" />
+            <Property name="Area" value="{{0.30509,0},{0.116667,1},{0.506652,0},{0.356944,1}}" />
             <Property name="ReadOnly" value="True" />
             <Property name="AutoSizeListHeight" value="True" />
             <AutoWindow namePath="__auto_editbox__" >
@@ -1542,7 +1430,7 @@
             <Property name="FrameEnabled" value="False" />
             <Property name="BackgroundEnabled" value="False" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboTileset" >
+        <Window type="GlossySerpent/Combobox" name="ComboBoxTileset" >
             <Property name="Area" value="{{0.425403,0},{0.644444,0},{0.579309,0},{0.783333,0}}" />
             <Property name="ReadOnly" value="True" />
             <Property name="AutoSizeListHeight" value="True" />
@@ -1584,7 +1472,7 @@
             <Property name="FrameEnabled" value="False" />
             <Property name="BackgroundEnabled" value="False" />
         </Window>
-        <Window type="GlossySerpent/Combobox" name="ComboFogOfWar" >
+        <Window type="GlossySerpent/Combobox" name="ComboBoxFogOfWar" >
             <Property name="Area" value="{{0.580871,0},{0.645833,0},{0.746496,0},{0.783333,0}}" />
             <Property name="ReadOnly" value="True" />
             <Property name="AutoSizeListHeight" value="True" />
@@ -1761,7 +1649,7 @@
             <Property name="Text" value="Return" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonPlay" >
-            <Property name="Area" value="{{0.452031,0},{0.788427,0},{0.56375,0},{0.83426,0}}" />
+            <Property name="Area" value="{{0.452031,0},{0.788427,-1},{0.56375,0},{0.83426,-1}}" />
             <Property name="Text" value="Play now!" />
         </Window>
         <Window type="GlossySerpent/Button" name="ButtonReloadLastSettings" >
