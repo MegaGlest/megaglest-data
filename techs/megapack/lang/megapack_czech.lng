@@ -755,7 +755,7 @@ CommandName_hold_position=držet_pozici
 UnitTypeName_thor=thór
 ; --------------------
 ; Levels for this Unit
-LevelName_advanced=pokročilé
+LevelName_advanced=pokročilý
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
