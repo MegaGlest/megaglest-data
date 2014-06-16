@@ -194,7 +194,7 @@
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/StaticText" name="LabelPlayer1Version" >
-            <Property name="Area" value="{{0.751965,0},{0.168889,0},{0.998059,0},{0.2175,0}}" />
+            <Property name="Area" value="{{0.751965,0},{0.168889,-1},{0.998059,0},{0.2175,-1}}" />
             <Property name="Text" value="V3.10.0-dev-GNUC: 40801 [64bit]-Rev: 4772.542" />
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="FrameEnabled" value="False" />
@@ -1700,6 +1700,41 @@
             <Property name="MaxSize" value="{{1,0},{1,0}}" />
             <Property name="FrameEnabled" value="False" />
             <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Combobox" name="ComboNetworkScenarios" >
+            <Property name="Area" value="{{0.782434,0},{0.0138883,0},{0.958996,0},{0.155555,0}}" />
+            <Property name="ReadOnly" value="True" />
+            <Property name="AutoSizeListHeight" value="True" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="ReadOnly" value="True" />
+                <Property name="SelectedTextColour" value="FFFFFFDD" />
+                <Property name="ActiveSelectionColour" value="FFFFB080" />
+                <Property name="InactiveSelectionColour" value="FFB18A50" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_droplist__" >
+                <AutoWindow namePath="__auto_hscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+                <AutoWindow namePath="__auto_vscrollbar__" >
+                    <AutoWindow namePath="__auto_incbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_decbtn__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                    <AutoWindow namePath="__auto_thumb__" >
+                        <Property name="RestoreOldCapture" value="True" />
+                    </AutoWindow>
+                </AutoWindow>
+            </AutoWindow>
         </Window>
     </Window>
 </GUILayout>
