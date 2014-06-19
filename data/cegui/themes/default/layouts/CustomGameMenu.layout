@@ -354,7 +354,7 @@
             <Property name="TextParsingEnabled" value="False" />
         </Window>
         <Window type="GlossySerpent/Editbox" name="EditboxPlayer3Name" >
-            <Property name="Area" value="{{0.0519647,0},{0.278704,0},{0.195715,0},{0.324537,0}}" />
+            <Property name="Area" value="{{0.0519647,-1},{0.278704,0},{0.195715,-1},{0.324537,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerPlayer3Multiplier" >
@@ -650,7 +650,7 @@
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/Editbox" name="EditboxPlayer5Name" >
-            <Property name="Area" value="{{0.0519647,0},{0.381482,0},{0.195715,0},{0.427315,0}}" />
+            <Property name="Area" value="{{0.0519647,-1},{0.381482,0},{0.195715,-1},{0.427315,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerPlayer5Multiplier" >
@@ -954,7 +954,7 @@
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/Editbox" name="EditboxPlayer7Name" >
-            <Property name="Area" value="{{0.0527459,0},{0.48287,0},{0.196496,0},{0.528703,0}}" />
+            <Property name="Area" value="{{0.0527459,0},{0.484259,0},{0.196496,0},{0.530092,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerPlayer7Multiplier" >
@@ -1106,7 +1106,7 @@
             </AutoWindow>
         </Window>
         <Window type="GlossySerpent/Editbox" name="EditboxPlayer8Name" >
-            <Property name="Area" value="{{0.0519647,0},{0.534259,0},{0.195715,0},{0.580092,0}}" />
+            <Property name="Area" value="{{0.0511835,0},{0.53287,0},{0.194933,0},{0.578703,0}}" />
             <Property name="MaxTextLength" value="20" />
         </Window>
         <Window type="GlossySerpent/Spinner" name="SpinnerPlayer8Multiplier" >
@@ -1735,6 +1735,42 @@
                     </AutoWindow>
                 </AutoWindow>
             </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer1Block" >
+            <Property name="Area" value="{{0.212188,0},{0.171759,0},{0.297344,0},{0.217592,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer5Block" >
+            <Property name="Area" value="{{0.21375,0},{0.381482,0},{0.298906,0},{0.427315,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer6Block" >
+            <Property name="Area" value="{{0.214531,0},{0.431482,0},{0.299688,0},{0.477316,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer7Block" >
+            <Property name="Area" value="{{0.214531,0},{0.484259,0},{0.299687,0},{0.530092,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer8Block" >
+            <Property name="Area" value="{{0.214531,0},{0.53287,0},{0.299687,0},{0.578703,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer2Block" >
+            <Property name="Area" value="{{0.212188,0},{0.224537,0},{0.297344,0},{0.27037,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer3Block" >
+            <Property name="Area" value="{{0.212188,0},{0.278704,0},{0.297344,0},{0.324537,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonPlayer4Block" >
+            <Property name="Area" value="{{0.212969,0},{0.331482,0},{0.298125,0},{0.377315,0}}" />
+            <Property name="Text" value="Block" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonClearBlockedPlayers" >
+            <Property name="Area" value="{{0.148906,0},{0.0606478,0},{0.302031,0},{0.106481,0}}" />
+            <Property name="Text" value="Clear Blocked Players" />
         </Window>
     </Window>
 </GUILayout>
