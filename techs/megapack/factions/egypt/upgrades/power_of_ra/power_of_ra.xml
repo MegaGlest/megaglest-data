@@ -17,7 +17,7 @@
 		<unit name="ibis"/>
 		<unit name="anubis_warrior"/>
 	</effects>
-	<max-hp value="75"/>
+	<max-hp value="75" start-percentage="1.0" />
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="30"/>

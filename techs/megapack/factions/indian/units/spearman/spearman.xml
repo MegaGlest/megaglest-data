@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="2"/>
+		<max-hp value="700" regeneration="2" start-percentage="1.0" />
 		<max-ep value="0"/>
 		<armor value="10"/>	
 		<armor-type value="leather"/>
@@ -108,7 +108,12 @@
 			<attack-start-time value="0.15"/>
 			<projectile value="false">
 			</projectile>
-			<splash value="true">				<radius value="0"/>				<damage-all value="true"/>				<particle value="true" path="particle_splash.xml"/>			</splash>		</skill>
+			<splash value="true">
+				<radius value="0"/>
+				<damage-all value="true"/>
+				<particle value="true" path="particle_splash.xml"/>
+			</splash>
+		</skill>
 		
 		<skill>
 			<type value="morph"/>

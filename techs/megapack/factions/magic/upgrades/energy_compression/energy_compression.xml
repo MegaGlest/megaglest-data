@@ -15,7 +15,7 @@
 		<unit name="drake_rider"/>
 		<unit name="archmage"/>
 	</effects>
-	<max-hp value="0"/>
+	<max-hp value="0" start-percentage="1.0" />
 	<max-ep value="500"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

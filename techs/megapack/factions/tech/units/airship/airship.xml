@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="3"/>
 		<height value="1"/>
-		<max-hp value="2200" regeneration="2"/>
+		<max-hp value="2200" regeneration="2" start-percentage="1.0" />
 		<max-ep value="0"/>
 		<armor value="20"/>	
 		<armor-type value="leather"/>

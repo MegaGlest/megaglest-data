@@ -5,7 +5,8 @@
 	<image-cancel path="../advanced_iron/images/tech_upgrade_cancel.bmp"/>
 	<time value="300"/>
 	<unit-requirements>
-		<unit name="med_bar"/>	</unit-requirements>
+		<unit name="med_bar"/>
+	</unit-requirements>
 	<upgrade-requirements/>
 	<resource-requirements>
 		<resource name="gold" amount="200"/>
@@ -14,7 +15,7 @@
 	<effects>
 		<unit name="archer"/>
 	</effects>
-	<max-hp value="0"/>
+	<max-hp value="0" start-percentage="1.0" />
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="25"/>

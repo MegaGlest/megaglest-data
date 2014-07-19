@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="3"/>
-		<max-hp value="700" regeneration="0"/>
+		<max-hp value="700" regeneration="0" start-percentage="1.0" />
 		<max-ep value="0"/>
 		<armor value="15"/>	
 		<armor-type value="leather"/>				
@@ -25,7 +25,8 @@
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
-			<unit name="tent"/>                        <unit name="reed"/>
+			<unit name="tent"/>
+                        <unit name="reed"/>
                         <unit name="campfire"/>
 		</unit-requirements>
 		<upgrade-requirements/>

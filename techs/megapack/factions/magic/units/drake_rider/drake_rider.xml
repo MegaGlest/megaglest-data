@@ -5,7 +5,7 @@
 
 		<size value="2"/>
 		<height value="4"/>
-		<max-hp value="1300" regeneration="2"/>
+		<max-hp value="1300" regeneration="2" start-percentage="1.0" />
 		<max-ep value="500" regeneration="5"/>
 		<armor value="50"/>	
 		<armor-type value="organic"/>
