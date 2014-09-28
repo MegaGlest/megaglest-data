@@ -29,7 +29,7 @@ ResourceTypeName_wood=dřevo
 FactionName_egypt=egypťané
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_power_of_ra=power_of_ra
+UpgradeTypeName_power_of_ra=síla_od_Rea
 UpgradeTypeName_spear_weapons=zbraně_s_kopím
 UpgradeTypeName_speedup_priest_production=urychlit_produkci_kněze
 UpgradeTypeName_summon_ibis=přivolat_ibise
@@ -152,7 +152,7 @@ LevelName_master=mistrný
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-CommandName_poison_shot=otrávená_střela
+CommandName_poison_shot=střílet_jed
 CommandName_hold_position=držet_pozici
 UnitTypeName_spearman=kopiník
 ; --------------------
@@ -188,7 +188,7 @@ UnitTypeName_temple=chrám
 CommandName_produce_priest=produkovat_kněze
 CommandName_research_scarab=výzkum_skaraba
 CommandName_research_ibis=výzkum_ibise
-# CommandName_get_power_of_ra=get_power_of_ra
+CommandName_get_power_of_ra=získat_sílu_od_Rea
 FactionName_indian=indiáni
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -583,7 +583,7 @@ UpgradeTypeName_advanced_iron=pokročilé_železo
 UpgradeTypeName_arrow=šíp
 UpgradeTypeName_holy_valkyrie=svatá_valkýra
 UpgradeTypeName_iron=železo
-UpgradeTypeName_med=medicína
+UpgradeTypeName_med=medovina
 UpgradeTypeName_root=kořen
 ; -------------------------------
 ; Types of Units for this Faction
@@ -614,7 +614,7 @@ CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
 CommandName_promote_to_battleaxe=povýšit_na_sekerníka
-UnitTypeName_battleaxe_berzerk=povýšit_na_sekerníka_berserka
+UnitTypeName_battleaxe_berzerk=sekerník_berserk
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -645,7 +645,7 @@ UnitTypeName_castle=hrad
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_thrull=produce_thrull
+CommandName_produce_thrull=produkovat_thrulla
 UnitTypeName_cow=kráva
 ; --------------------
 ; Levels for this Unit
@@ -693,15 +693,15 @@ UnitTypeName_house=dům
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produkovat_dámu_s_palicí
 CommandName_produce_spearman=produkovat_kopiníka
-UnitTypeName_med_bar=výčep_s_medicínou
+UnitTypeName_med_bar=výčep_s_medovinou
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produkovat_dámu_s_palicí
 CommandName_produce_spearman=produkovat_kopiníka
-CommandName_research_med=výzkum_medicíny
-# UnitTypeName_mistletree=mistletree
+CommandName_research_med=výzkum_medoviny
+UnitTypeName_mistletree=strom_se_jmelím
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -769,7 +769,7 @@ UnitTypeName_thortotem=totem_thóra
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_build_thor=stvořit_thóra
-# UnitTypeName_thrull=thrull
+UnitTypeName_thrull=thrull
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -990,14 +990,14 @@ FactionName_romans=římané
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=pokročilá_architektura
-UpgradeTypeName_bless_of_minerva=požehnání_minervy
+UpgradeTypeName_bless_of_minerva=požehnání_Minervy
 UpgradeTypeName_enlarge_shields=rozšířit_štíty
 UpgradeTypeName_formations=formace
 UpgradeTypeName_jupiter=Jupiter
 UpgradeTypeName_reinforce_armor=zesílit_brnění
 UpgradeTypeName_sharpen_points=ostré_hroty
 UpgradeTypeName_sign_of_mars=znamení_Marsu
-# UpgradeTypeName_strengthen_swords=strengthen_swords
+UpgradeTypeName_strengthen_swords=posílit_meče
 UpgradeTypeName_training_field=výcvikové_pole
 ; -------------------------------
 ; Types of Units for this Faction
@@ -1046,7 +1046,7 @@ UnitTypeName_blacksmith_shop=kovárna
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_strengthen_swords=strengthen_swords
+CommandName_strengthen_swords=posílit_meče
 CommandName_sharpen_points=ostré_hroty
 CommandName_reinforce_armor=zesílit_brnění
 CommandName_enlarge_shields=rozšířit_štíty
@@ -1105,8 +1105,8 @@ CommandName_produce_cow=produkovat_krávu
 UnitTypeName_general=generál
 ; --------------------
 ; Levels for this Unit
-# LevelName_esteemed=esteemed
-# LevelName_grand=grand
+LevelName_esteemed=vážený
+LevelName_grand=velkolepý
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
@@ -1197,7 +1197,7 @@ UnitTypeName_temple=chrám
 ; Types of Commands for this Unit
 CommandName_research_sign_of_mars=výzkum_znamení_Marsu
 CommandName_research_jupiter=výzkum_Jupiteru
-CommandName_upgrade_bless_of_minerva=povýšit_o_požehnání_minervy
+CommandName_upgrade_bless_of_minerva=povýšit_o_požehnání_Minervy
 UnitTypeName_training_camp=výcvikový_tábor
 ; --------------------
 ; Levels for this Unit
