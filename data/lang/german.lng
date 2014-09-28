@@ -60,6 +60,7 @@ CancelDownloadsMsg=Spieler %s unterbrach alle Downloads
 Canceled=abgebrochen
 Chat=Chat
 ChatMode=Chat-Modus
+ChatModeDisabledToAvoidCheating=Teamchat ist nicht verfügbar um Cheating zu vermeiden.
 ChatStaysActive=Chat bleibt aktiv
 CheckSumGameLoadError=Checksum-Fehler. Du hast nicht dieselben Daten wie der Server.
 CheckSumGameLoadPlayer=Spieler mit dem Fehler ist:

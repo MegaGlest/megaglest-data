@@ -60,6 +60,7 @@ CancelDownloadsMsg=Player: %s cancelled all file downloads.
 Canceled=Canceled
 Chat=Chat
 ChatMode=Chat mode
+ChatModeDisabledToAvoidCheating=Chat mode disabled to avoid cheating
 ChatStaysActive=Chat remains active
 CheckSumGameLoadError=Checksum error, you don't have the same data as the server
 CheckSumGameLoadPlayer=Player with error is:
