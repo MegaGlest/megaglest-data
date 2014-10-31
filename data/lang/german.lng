@@ -188,6 +188,7 @@ GettingModlistFromMasterserver=Hole Mod Informationen vom Masterserver
 Harvest=Sammeln
 HarvestSpeed=Sammelgeschw.
 HeadlessAdminRequiresMorePlayers=Es müssen mindestens %d Spieler mitspielen, um dieses Spiel zu starten!
+HeadlessServerDoesNotHaveMap=Der Headless-Server hat die Karte nicht und schaltete zur nächsten Karte.
 Hint=Hinweis\n%s
 CellHint=Hinweis Cell
 HostGame=Spiel hosten

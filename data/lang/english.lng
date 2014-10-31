@@ -188,6 +188,7 @@ GettingModlistFromMasterserver=Getting mod list from masterserver
 Harvest=Harvest
 HarvestSpeed=Harvest speed
 HeadlessAdminRequiresMorePlayers=You must have at least %d player(s) connected to start this game!
+HeadlessServerDoesNotHaveMap=Headless server does not have map and switched to next map.
 Hint=Hint:\n%s
 CellHint=Cell hint
 HostGame=Host Game
