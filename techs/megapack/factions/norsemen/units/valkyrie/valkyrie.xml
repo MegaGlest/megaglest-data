@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="800" regeneration="2"/>
+		<max-hp value="800" regeneration="2" start-percentage="1.0" />
 		<max-ep value="0"/>
 		<armor value="80"/>	
 		<armor-type value="leather"/>				
@@ -215,7 +215,7 @@
 			<move-skill value="charge_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-		<command>
+		<command>
 			<type value="attack"/>
 			<name value="airattack"/>
 			<image path="images/air_attack.bmp"/>

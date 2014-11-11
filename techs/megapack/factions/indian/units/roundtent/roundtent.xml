@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="4" />
 		<height value="2" />
-		<max-hp value="6000" regeneration="0"/>
+		<max-hp value="6000" regeneration="0" start-percentage="1.0" />
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="stone"/>
@@ -147,7 +147,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="fire_archer"/>
 		</command>
-		<!-- *** command 5 *** -->
+		<!-- *** command 5 *** -->
 		<command>
 			<type value="produce"/>
 			<name value="produce_spearman" />
@@ -157,7 +157,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="spearman"/>
 		</command>
-		
+		
 		<!-- *** command 6 *** -->
 		<command>
 			<type value="upgrade"/>

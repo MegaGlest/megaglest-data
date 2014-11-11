@@ -72,7 +72,7 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="10"/>
                         	<target value="faction"></target>
-				<max-hp value="0"/>
+				<max-hp value="0" start-percentage="1.0" />
 				<max-ep value="0"/>
 				<sight value="1"/>
 				<attack-strenght value="35" value-percent-multiplier="true"/>
@@ -99,7 +99,7 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="10"/>
                         	<target value="faction"></target>
-				<max-hp value="0"/>
+				<max-hp value="0" start-percentage="1.0" />
 				<max-ep value="0"/>
 				<sight value="1"/>
 				<attack-strenght value="35" value-percent-multiplier="true"/>
@@ -142,7 +142,7 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="10"/>
                         	<target value="faction"></target>
-				<max-hp value="0"/>
+				<max-hp value="0" start-percentage="1.0" />
 				<max-ep value="0"/>
 				<sight value="1"/>
 				<attack-strenght value="35" value-percent-multiplier="true"/>
@@ -194,7 +194,7 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="10"/>
                         	<target value="faction"></target>
-				<max-hp value="0"/>
+				<max-hp value="0" start-percentage="1.0" />
 				<max-ep value="0"/>
 				<sight value="1"/>
 				<attack-strenght value="35" value-percent-multiplier="true"/>

@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="3"/>
-		<max-hp value="2000" regeneration="3"/>
+		<max-hp value="2000" regeneration="3" start-percentage="1.0" />
 		<max-ep value="0"/>
 		<armor value="45"/>	
 		<armor-type value="stone"/>
@@ -158,7 +158,12 @@
 					<sound-file path="$COMMONDATAPATH/sounds/air_hit4.wav"/>
 				</sound>
 			</projectile>
-			<splash value="true">				<radius value="1"/>				<damage-all value="true"/>				<particle value="true" path="air_particle_splash.xml"/>			</splash>		</skill>
+			<splash value="true">
+				<radius value="1"/>
+				<damage-all value="true"/>
+				<particle value="true" path="air_particle_splash.xml"/>
+			</splash>
+		</skill>
 
 		<skill>
 			<type value="die"/>	

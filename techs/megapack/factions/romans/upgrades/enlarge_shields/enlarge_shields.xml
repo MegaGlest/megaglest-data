@@ -21,7 +21,7 @@
 		<unit name="tribune"/>
 		<unit name="spearman"/>
 	</effects>
-	<max-hp value="30"/>
+	<max-hp value="30" start-percentage="1.0" />
 	<max-ep value="0"/>
 	<sight value="0"/>
 	<attack-strenght value="0"/>

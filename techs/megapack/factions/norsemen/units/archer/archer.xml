@@ -7,7 +7,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="2"/>
-		<max-hp value="700" regeneration="1"/>
+		<max-hp value="700" regeneration="1" start-percentage="1.0" />
 		<max-ep value="0"/>
 		<armor value="20"/>	
 		<armor-type value="leather"/>				
@@ -23,7 +23,8 @@
 		</fields>	
 		<properties/>
 		<light enabled="false"/>
-		<unit-requirements>			<unit name="farm"/>
+		<unit-requirements>
+			<unit name="farm"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
