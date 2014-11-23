@@ -3,7 +3,7 @@
 <unit>
 	<parameters>
 		<size value="1"/>
-		<height value="2"/>
+		<height value="1"/>
 		<max-hp value="450" regeneration="5"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="15"/>	

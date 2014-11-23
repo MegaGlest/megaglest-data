@@ -3,7 +3,7 @@
 	<!-- *** parameters *** -->
 	<parameters>
 		<size value="5" />
-		<height value="2" />
+		<height value="3" />
 		<max-hp value="9000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
@@ -93,7 +93,12 @@
 			<animation path="models/temple_destroyed.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
-			</sound>			
+			</sound>
+			<shake enabled="true" intensity="1000" duration="120" start-time="0.0">
+				<self enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
+				<team enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
+				<enemy enabled="true" visible="true" in-camera-view="false" camera-distance-affected="true"/>
+			</shake>
 			<fade value="false"/>
 		</skill>
 

@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="3"/>
 		<height value="2"/>
-		<max-hp value="4000"  regeneration="3"/>
+		<max-hp value="4000"  regeneration="4"/>
 		<max-ep value="0"/>
 		<armor value="60"/>	
 		<armor-type value="wood"/>

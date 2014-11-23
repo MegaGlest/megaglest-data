@@ -94,6 +94,11 @@
 			<sound enabled="true" start-time="0">
 				<sound-file path="../archmage_tower/sounds/magic_building_fall2.wav"/>
 			</sound>			
+			<shake enabled="true" intensity="1000" duration="120" start-time="0.0">
+				<self enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
+				<team enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
+				<enemy enabled="true" visible="true" in-camera-view="false" camera-distance-affected="true"/>
+			</shake>
 			<fade value="false"/>
 		</skill>
 

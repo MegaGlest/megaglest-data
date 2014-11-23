@@ -3,8 +3,8 @@
 <unit>
 	<parameters>
 		<size value="1"/>
-		<height value="3"/>
-		<max-hp value="700" regeneration="0"/>
+		<height value="2"/>
+		<max-hp value="700" regeneration="1"/>
 		<max-ep value="0"/>
 		<armor value="20"/>	
 		<armor-type value="leather"/>				
