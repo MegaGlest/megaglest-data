@@ -26,4 +26,5 @@
 		<unit name="air_pyramid" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/asak-jadeflange.ogg"/>
+	<flat-particle-positions value="true"/>
 </faction>

@@ -3,7 +3,7 @@
     	<texture value="true" path="images/archmage_particle.bmp" luminance="true"/>
     	<model value="false"/>
 	<primitive value="quad"/>
-	<offset x="-0.2" y="-1.2" z="2.0"/>
+	<offset x="-0.2" y="-0.1" z="2.0"/>
 	<color red="0.6" green="0.6" blue="1.0" alpha="0.0" />
 	<color-no-energy red="0.0" green="0.0" blue="1.0" alpha="0.8" />
     	<size value="0.6" />
