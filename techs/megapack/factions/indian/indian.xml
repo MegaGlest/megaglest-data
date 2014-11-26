@@ -30,4 +30,5 @@
 		<unit name="totem" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_indian.ogg"/>
+	<flat-particle-positions value="true"/>
 </faction>
