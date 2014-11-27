@@ -26,4 +26,5 @@
 		<unit name="power_golem" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_magic.ogg"/>
+	<flat-particle-positions value="true"/>
 </faction>

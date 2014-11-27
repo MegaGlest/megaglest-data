@@ -3,7 +3,7 @@
     	<texture value="true" path="images/evil_dragon_particle_proj.bmp" luminance="true"/>
     	<model value="false"/>
 	<primitive value="quad"/>
-	<offset x="-0.3" y="0.5" z="1"/>
+	<offset x="-0.3" y="1" z="1"/>
 	<color red="0.0" green="0.5" blue="1.0" alpha="0.9" />
 	<color-no-energy red="0.0" green="0.0" blue="0.0" alpha="0.0" />
     	<size value="1.6" />

@@ -3,7 +3,7 @@
     	<texture value="true" luminance="true" path="images/catapult_particle_proj.bmp"/>
     	<model value="true" path="models/stone_model.g3d"/>
 	<primitive value="line"/>
-	<offset x="1.5" y="0" z="0"/>
+	<offset x="1.5" y="1" z="2.0"/>
 	<color red="1.0" green="1.0" blue="1.0" alpha="0.05" />
 	<color-no-energy red="0.5" green="0.5" blue="0.5" alpha="0.04" />
     	<size value="8" />

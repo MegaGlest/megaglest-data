@@ -2,7 +2,7 @@
 <unit-particle-system>
     	<texture value="true" path="images/particle.bmp" luminance="true"/>
 	<primitive value="quad"/>
-	<offset x="0" y="0.4" z="0.0"/>
+	<offset x="0" y="0.9" z="0.0"/>
 	<direction x="0" y="0" z="0"/>
 	<color red="1.0" green="0.0" blue="0.0" alpha="0.2" />
 	<color-no-energy red="1.0" green="0.0" blue="0.0" alpha="0.2" />
