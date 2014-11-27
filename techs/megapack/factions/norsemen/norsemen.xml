@@ -35,4 +35,5 @@
 		<unit name="crossbow" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/manolo_camp-medieval.ogg"/>
+	<flat-particle-positions value="true"/>
 </faction>
