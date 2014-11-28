@@ -3,7 +3,7 @@
     	<texture value="true" path="images/particle.bmp" luminance="true"/>
 	<mode value="normal"/>
 	<primitive value="quad"/>
-	<offset x="0" y="0.0" z="-1.2"/>
+	<offset x="0" y="0.5" z="-1.2"/>
 	<direction x="0" y="-0.4" z="-0.3"/>
 	<color red="0.6" green="0.6" blue="0.55" alpha="0.1" />
 	<color-no-energy red="0.4" green="0.4" blue="0.4" alpha="0.01" />

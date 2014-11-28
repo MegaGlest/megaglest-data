@@ -3,7 +3,7 @@
     	<texture value="true" path="images/battlemage_particle.bmp" luminance="true"/>
     	<model value="false"/>
 	<primitive value="quad"/>
-	<offset x="0.0" y="0.5" z="0.0"/>
+	<offset x="0.0" y="2.0" z="0.0"/>
 	<color red="0.4" green="0.0" blue="1.0" alpha="0.5" />
 	<color-no-energy red="1.0" green="1.0" blue="1.0" alpha="0.0" />
     	<size value="0.6" />

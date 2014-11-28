@@ -27,4 +27,5 @@
 		<unit name="fakir" amount="2"/>
 	</starting-units>
 	<music value="true" path="music/aminos-together_together.ogg"/>
+	<flat-particle-positions value="true"/>
 </faction>
