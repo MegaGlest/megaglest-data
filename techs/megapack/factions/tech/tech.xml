@@ -27,4 +27,5 @@
 		<unit name="technodrome" amount="0"/>
 	</starting-units>
 	<music value="true" path="music/music_tech.ogg"/>
+	<flat-particle-positions value="true"/>
 </faction>
