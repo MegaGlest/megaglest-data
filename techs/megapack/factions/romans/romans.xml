@@ -31,6 +31,7 @@
 		<unit name="battering_ram" amount="0"/>
 	</starting-units>	
 	<music value="true" path="music/romans.ogg"/>
+	<flat-particle-positions value="true"/>
 </faction>
 
 
