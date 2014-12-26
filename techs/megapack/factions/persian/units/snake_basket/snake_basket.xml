@@ -5,7 +5,7 @@
 		<size value="2"/>
 		<height value="1"/>
 		<max-hp value="7000" regeneration="0"/>
-		<max-ep value="100" regeneration="0"/>
+		<max-ep value="0" regeneration="0"/>
 		<armor value="20"/>	
 		<armor-type value="wood"/>			
 		<sight value="16"/>
@@ -136,14 +136,6 @@
 	</skills>
 	
 	<commands>
-		<command>
-			<type value="stop"/>
-			<name value="stop"/>
-			<image path="../genie/images/tech_stop.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<stop-skill value="stop_skill"/>
-		</command>
 		<command>
 			<type value="stop"/>
 			<name value="attack_off"/>
