@@ -25,7 +25,7 @@
 			<property value="burnable"/>
 		</properties>
 		<light enabled="false" />
-		<rotationAllowed value="false" />
+		<rotationAllowed value="true" />
 		<unit-requirements>
 			<unit name="house" />
 		</unit-requirements>
