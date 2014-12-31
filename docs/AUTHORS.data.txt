@@ -47,86 +47,93 @@ The Romans faction uses music tracks from Mattias Westlund's album
 
 Tilesets:
 =========
-Autumn     	by Titus Tscharntke(titi)
-Birch Forest 	by Titus Tscharntke(titi) 
-Desert2    	by Idanwin and Titus Tscharntke(titi)
-Desert4    	by Titus Tscharntke(titi)
-Evergreen  	by Titus Tscharntke(titi) 
-Fernland       	by Titus Tscharntke(titi)
-Hell       	by Titus Tscharntke(titi)
-Jungle     	by Titus Tscharntke(titi) & Philipp Tscharntke 
-Karningul  	by Trappin( with help from Omega) based on original imladris by GameBoy
-Meadow         	by Trappin ( with water from madelf )
-Mediterran     	by Titus Tscharntke(titi)
-Pine Peat      	by Trappin modified by Titus Tscharntke(titi). Uses some ground textures from Rhyzom and some models from wciow.
-Scurbland      	by MadElf (improved a bit by titi)
-Spring         	by Philipp Tscharntke
-Winter     	by Titus Tscharntke(titi)
+Autumn         by Titus Tscharntke(titi)
+Birch Forest   by Titus Tscharntke(titi)
+Desert2        by Idanwin and Titus Tscharntke(titi)
+Desert4        by Titus Tscharntke(titi)
+Evergreen      by Titus Tscharntke(titi)
+Fernland       by Titus Tscharntke(titi)
+Hell           by Titus Tscharntke(titi)
+Jungle         by Titus Tscharntke(titi) & Philipp Tscharntke
+Karningul      by Trappin( with help from Omega) based on original imladris by GameBoy
+Meadow         by Trappin ( with water from madelf )
+Mediterran     by Titus Tscharntke(titi)
+Pine Peat      by Trappin modified by Titus Tscharntke(titi). Uses some ground textures from Rhyzom and some models from wciow.
+Pine Rock      by Titus Tscharntke(titi)
+Scrubland      by MadElf (improved a bit by titi)
+Spring         by Philipp Tscharntke
+Winter         by Titus Tscharntke(titi)
 
 
 Maps:
 =====
- 2rivers           	by Titus Tscharntke(titi)
- 4hills8kings      	by Titus Tscharntke(titi)
- 4kingdoms8kings   	by Eliminator ( little changes by titi )
- 6isle         		by Titus Tscharntke(titi)
- 6player		by atze
- ally_resists      	by Trappin tweaked by ultifd
- another_riverside	by atze
- base_it          	by atze
- beat_the_enemy    	by Philipp Tscharntke
- cauldron          	by Wciow
- center_castle     	by Titus Tscharntke(titi)
- clinch			by atze
- conflict          	by ttsmj
- conflict6xtreed  	by Eliminator (based on 'conflict')
- confrontation    	by atze (based on 'conflict')
- coop4_ally_resist 	by Trappin
- domination_isles  	by mapmaker(from the glest forum)
- eight_gradient    	by Trappin
- eight_rivers      	by Eliminator
- end_times         	original by omega modified by Trappin
- fight_4_your_golden_right by atze
- five_on_three     	by Tiger
- forest_divide		by felipeludo2011 / mod Trappin
- four_free		by atze
- fracture          	by wciow
- grandezza		by atze
- hells_clam		by Titus Tscharntke(titi)
- highlands         	by Titus Tscharntke(titi)
- intermezzo		by atze
- kaleidoscope		by Titus Tscharntke(titi)
- lakesway          	by atze
- land_of_plenty2   	by Eliminator ( little changes by titi )
- lau_lagoon        	by Trappin
- loggerheads		by atze
- megakill3vs1      	by Enno Tscharntke
- no_masters		by atze
- one_king_fairplay	by Titus Tscharntke(titi)
- one_king_rules_them_all by Uncle
- one_on_one        	by original glest team ( but no longer in the game yet )
- orlog			by atze
- overgrown_city    	by mapmaker and Titus Tscharntke(titi)
- paraiso_br		by carla
- pentagon		by cavavin
- pot_hole          	original by glest team, improved by Trappin
- ragor			by Titus Tscharntke(titi)
- redoubt           	by Trappin
- renkontre		by atze
- river_raid2	   	by James McCulloch(silnarm)
- showdown_3way     	by atze
- simple_river_8_player	by atze
- swamp_of_hope		by atze
- team_island       	by Titus Tscharntke(titi)
- team_island4      	by Titus Tscharntke(titi)
- teamplay		by Titus Tscharntke(titi)
- tour_de_force		by atze
- tropical4v4       	by Titus Tscharntke(titi)
- tropical_arena    	by mapmaker(from the glest forum)
- tt_goldrush_v2    	by Titus Tscharntke(titi)
- unforgotten		by atze
- wadi_nefud2       	by Trappin
- waterworld       	by Titus Tscharntke(titi)
+ 2rivers                     by Titus Tscharntke(titi)
+ 4hills8kings                by Titus Tscharntke(titi)
+ 4kingdoms8kings             by Eliminator ( little changes by titi )
+ 6isle                       by Titus Tscharntke(titi)
+ 6player                     by atze
+ ally_resists                by Trappin tweaked by ultifd
+ another_riverside           by atze
+ around_the_lake.mgm         by Philipp Tscharntke
+ base_it                     by atze
+ beat_the_enemy              by Philipp Tscharntke
+ cauldron                    by Wciow
+ center_castle               by Titus Tscharntke(titi)
+ clinch                      by atze
+ conflict                    by ttsmj
+ conflict6xtreed             by Eliminator (based on 'conflict')
+ confrontation               by atze (based on 'conflict')
+ coop4_ally_resist           by Trappin
+ domination_isles            by mapmaker(from the glest forum)
+ eight_gradient              by Trappin
+ eight_rivers                by Eliminator
+ end_times                   original by omega modified by Trappin
+ fight_4_your_golden_right   by atze
+ five_on_three               by Tiger
+ forest_divide               by felipeludo2011 / mod Trappin
+ four_free                   by atze
+ fracture                    by wciow
+ grandezza                   by atze
+ hells_clam                  by Titus Tscharntke(titi)
+ highlands                   by Titus Tscharntke(titi)
+ hills                       by Titus Tscharntke(titi)
+ intermezzo                  by atze
+ kaleidoscope                by Titus Tscharntke(titi)
+ lakesway                    by atze
+ land_of_plenty2             by Eliminator ( little changes by titi )
+ lau_lagoon                  by Trappin
+ loggerheads                 by atze
+ megakill3vs1                by Enno Tscharntke
+ no_masters                  by atze
+ one_king_fairplay           by Titus Tscharntke(titi)
+ one_king_rules_them_all     by Uncle
+ one_on_one                  by original glest team
+ orlog                       by atze
+ over_the_bridge.mgm         by atze
+ overgrown_city              by mapmaker and Titus Tscharntke(titi)
+ paraiso_br                  by carla
+ pentagon                    by cavavin
+ pot_hole                    original by glest team, improved by Trappin
+ ragor                       by Titus Tscharntke(titi)
+ redoubt                     by Trappin
+ renkontre                   by atze
+ river_raid2                 by James McCulloch(silnarm)
+ showdown_3way               by atze
+ simple_river_8_player       by atze
+ stone_and_wood              by Enno Tscharntke
+ straight_battle             by Titus Tscharntke(titi)
+ swamp_of_hope               by atze
+ team_island                 by Titus Tscharntke(titi)
+ team_island4                by Titus Tscharntke(titi)
+ teamplay                    by Titus Tscharntke(titi)
+ three_bridges               by atze
+ tour_de_force               by atze
+ tropical4v4                 by Titus Tscharntke(titi)
+ tropical_arena              by mapmaker(from the glest forum)
+ tt_goldrush_v2              by Titus Tscharntke(titi)
+ unforgotten                 by atze
+ wadi_nefud2                 by Trappin
+ waterworld                  by Titus Tscharntke(titi)
 
 
 
