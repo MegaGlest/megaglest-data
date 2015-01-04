@@ -86,7 +86,6 @@ Maps:
  coop4_ally_resist           by Trappin
  domination_isles            by mapmaker(from the glest forum)
  eight_gradient              by Trappin
- eight_rivers                by Eliminator
  end_times                   original by omega modified by Trappin
  fight_4_your_golden_right   by atze
  five_on_three               by Tiger
