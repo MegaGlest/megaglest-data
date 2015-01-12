@@ -160,6 +160,7 @@ FieldLand=Land
 Fields=Fields
 FileDownloadProgress=Player: %s download progress for [%s] is %d %%
 Filter=Filter:
+FilterMaxAnisotropy=Anisotropic filtering
 FindLANGames=Find LAN Games
 FogOfWar=Fog of War
 FontSizeAdjustment=Font Adjustment

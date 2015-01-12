@@ -160,6 +160,7 @@ FieldLand=Land
 Fields=Felder
 FileDownloadProgress=Spieler %s : Downloadstatus für [%s]: %d %%
 Filter=Filter:
+FilterMaxAnisotropy=Anisotropic filtering
 FindLANGames=Suche LAN-Server
 FogOfWar=Kartenverschleierung
 FontSizeAdjustment=Zeichengröße:
