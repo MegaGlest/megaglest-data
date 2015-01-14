@@ -1,0 +1,38 @@
+# TUTORIAL_NAME=#2 Basic Tutorial
+;message headers
+GlestBasicTutorial=游戲基礎教學
+WellDone=幹得好！
+Resources=資源
+Combat=戰鬥
+Buildings=建筑
+
+;message strings
+Welcome=歡迎進入基礎教學,\n稍后你會了解游戲的基本情況。
+WillBeUsingTech=你現在指揮的是”技朮派系“，\n他們擁有中世紀的武士和機械裝置。
+NeedWorkers=為了收集資源，你需要更多工人。\n點擊城堡，選取”生產工人“的選項。
+SelectAndCommand=點擊左鍵選取單位，\n然后點擊右鍵指令他們到達某地。
+HowToMine=要收集黃金，先選取一個工人，\n然后右鍵點擊”黃金“按鈕。
+WorkersKeepOnHarvesting=工人會持續工作，并將資源擺入相應存放的建筑。
+ResourceInformation=資源資訊察看在螢幕頂部，\n左方數目是目前擁有量，\n右方數目是最大儲存量。
+OtherResources=你可以以同樣的方式收集木材和石頭。
+TechResourceNeeds=通常科技派系需要大量的黃金和木材，\n還有少許石頭。
+TechConsumesFood=科技派系的各個單位都會消耗食物，\n沒有食物他們可能死於飢餓。\n畜欄能生產動物，動物可提供食物。
+HaveEnoughAnimals=記住飼養足夠多的動物來補給單位。
+BalanceDisplay=食物的收支情況將會察看在螢幕頂端的括弧裡，\n位於食物欄旁邊。
+TechWarriorsAtBarracks=想要保家衛國就得招兵買馬，兵營可生產武士。
+HowToBuildBarracks=建造兵營：選取一個工人，點擊”基本建筑“ ，\n然后選取 ”兵營“，最后選取一處空地建造。
+RememberToBuildBarracks=謹記及早建造兵營，以快速武裝起來。
+SwordmanBrief=科技戰士的基本兵種是”劍客“，\n有了足夠資源，就點擊”建造劍客“，\n生產一名劍客。
+HaveWarriorsAtBase=最好在主基地駐扎几名戰士，\n他們會自動攻擊視野內的敵人。
+ArcherBrief=弓箭手是科技派系的遠端兵種，\n可在軍營生產。
+ProduceWarriors=多生產几名戰士來防備敵人。
+
+;objective strings
+ProduceWorkers=目標：生產3名工人。
+HarvestWoodAndStone=目標：收集100單位木材，150單位石頭。
+ProduceCow=目標：生產一頭奶牛。
+MineGold=目標：收集100單位黃金。
+BuildBarracks=目標;建造軍營。
+ProduceSwordman=目標：生產一名劍客。
+ProduceArcher=目標:生產一名弓箭手。
+ProduceMoreWarriors=目標：生產更多戰士，\n為即將而來的戰鬥做好准備。

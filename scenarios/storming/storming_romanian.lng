@@ -1,0 +1,11 @@
+SCENARIO_NAME=Asaltul
+;message headers
+Storming=Asaltul
+
+;message strings
+Brief1=Ajută-ți Invocatorul să atace toate orașele inamice, el trebuie să supraviețuiască.
+
+;objective strings
+ObjectiveWest=Obiectiv: Distruge orașul magic din vest, Invocatorul trebuie să supraviețuiască.
+ObjectiveNorthEast=Obiectiv: Distruge orașul Tech din nord-est, Invocatorul trebuie să supraviețuiască.
+ObjectiveSouthEast=Obiectiv: Distruge orașul din sud-est, Invocatorul trebuie să supraviețuiască.

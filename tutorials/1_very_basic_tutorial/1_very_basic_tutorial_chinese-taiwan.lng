@@ -1,0 +1,77 @@
+# TUTORIAL_NAME=#1 Basic Tutorial
+;message headers
+GlestBasicTutorial=游戲基礎教學
+WellDone=幹得好！
+Resources=資源
+Combat=戰鬥
+Buildings=建筑
+Tricks=小技巧
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=歡迎進入 MegaGlest 入門教學。
+
+FirstThing=檢視：將滑鼠移動到螢幕邊緣，\n或靠游標鍵來調整可視區域。\n你也可以用滑鼠左擊螢幕左上方的小地圖。
+
+WillBeUsingIndian=在這裡，你可以排程印第安人，\n印第安派系擁有弓箭手和簡單的武器。
+
+NeedWorkers=首先，我們需要一個工人。\n滑鼠左擊主基地，\n使用“生產工人”指令，\n并在工人圖像上按一下。
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=現在滑鼠左擊你的工人，\n會察看選取單位的詳細資訊。\n螢幕左上角會察看單位的名字和影像。\n下面詳細列出了生命值和裝甲，\n括弧裡有裝甲類別和視野。
+Select2=對於一個戰鬥單位，\n旁邊會列出殺敵數量。\n欄位察看消耗的資源。\n再下面就是單位正在進行的工作。
+
+ExampleWorker=比方說，你的工人有600點生命值，0點護甲和9點視野範圍。\n如果他的狀態是“停止”，那他就會什麼也不做。
+
+Command=下面進一步列舉了單位的更多能力，\n我們現在開始學習工人可執行的所有指令。
+
+FirstCommand=第一個指令按鈕時“停止”，按下這個鍵后，工人會立刻停下手頭工作而處於停止狀態。\n當然，此指令對所有非建筑單位有效。
+
+# SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
+# SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
+
+# TestSecondCommand=Try the &quot;move&quot; command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=很好，現在讓工人們都傳回主帳篷。\n要選取多個單位，按住 shift 鍵，\n滑鼠左鍵拖出一個選項框圈住你的單位。
+MoveBack2=你也可以按住shift鍵，\n滑鼠左擊所有你想選取的單位。
+MoveBack3=你還可以按兩下任意一個單位，\n這時附近所有相同的單位都會被\n圈出來 (比如我們點擊一個工人)。
+HarvestGoldandStone=當你的單位回到主帳篷，\n我們將選取第四個指令圖像來收穫黃金和石頭。
+HarvestGoldandStone2=滑鼠懸浮在此圖像上，\n你可以看見工人的收穫速度，\n可攜帶量和攜帶資源時的行走速度，\n還有總共可收穫食物資源。
+UseHarvestGoldandStone=首先點擊指令圖像，\n然后點擊你想抓取的資源，\n有黃點的灰堆是黃金，\n沒有黃點的是石頭。
+HarvestGoldandStone3=現在你可以開釆黃金和石頭了，\n目標是600黃金和550石頭。\n你也可以多生產几個工人一起\n工作(當然要花費黃金)。\n螢幕頂部察看你目前的資源數量。
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=現在你還需要一些木材。\n使用第五個指令圖像。\n這也是一個收穫的指令，\n你可以用同樣的方式釆集黃金和石頭。
+ResourceInformation=印第安派系主要消耗黃金和木材。
+GetWood=另外，你可以點擊收貨捷徑鍵給工人下達指令，\n然后右擊可獲的資源上(這裡是木材)。\n出現黃色箭號就表示作業成功了。\n收集550的木材。
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=選取一座建筑后，會出現一個藍色箭號，\n箭號所指的地方就是”集結點“，\n這座建筑生產出的單位會自動到達集結點。
+UseMeetingPoint=點擊旗幟圖像，然后在你希望的地點點擊，就能改變集結點。
+MeetingPoint2=如果將集結點設在某一資源上，新生產的工人會立即前去釆集這項資源。\n不要點擊錯了，否則你的工人會在集結點無所事事。
+# Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
+# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under &quot;requirements&quot;, all the resources and achievements you need for it.
+# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. &quot;-10 housing&quot; means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
+Thirdcommand4=建造一個帳篷，選取建筑按鈕，點擊帳篷，選出一塊空地來建造。
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=現在你可以在主帳篷裡生產一名棍棒兵。
+
+;objective strings
+ProduceWorker=目標：生產一名工人。
+ProduceStickfighter2=目標：生產一名棍棒兵。
+MoveWorker=目標：移動你的新生產的工人，\n和帳篷外面的工人集合。
+HarvestGoldandStoneobjective=目標：收集600黃金，550石頭。
+GetWoodob=目標：收集550木材。
+UseThirdCommand=目標：建造一個帳篷。輔助說明：如果建筑察看紅色，\n就意味着該處被其他單位占據(如樹和人)。
+
+;end
+
+WellDoneNextTutorial=很好，你可以進入下一個教學了。

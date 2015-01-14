@@ -1,0 +1,39 @@
+TUTORIAL_NAME=Tutorial Avansat
+;message headers
+GlestAdvancedTutorial=Tutorial Avansat MegaGlest
+Promoting=Promovarea Unităților
+WellDone=Bine făcut!
+Summoning=Invocare
+Energy=Energie
+Ritual=Ritual
+Armies=Armate
+
+;message strings
+Welcome=Bun venit la Tutorialul Avansat MegaGlest. Aici vei învăța câteva dintre caracteristicile avansate ale jocului.
+MagicBrief=Ești la comanda facțiunii Magic, ce folosesc magi și creaturi invocate pentru a lupta.
+InitiateBrief=Inițiații sunt unitățile de bază Magic, ei pot colecta resurse și pot construi structuri.
+InitiatePromotion=Inițiații pot fi promovați la Magi Luptători, pentru a face aceasta, selectează un Inițiat, și folosește comanda &quot;Promovează la Mag Luptător&quot;
+BattlemageBrief=Magii Luptători sunt nucleul războinicilor Magic, ei lansează atacuri puternice cu rază lungă de acțiune, având de altfel viteză bună și rezistență.
+EnergyBrief=Unitățile Magic au de obicei nevoie de Energie pentru a fi produși, Energia nu este consumată precum Hrana, dar este necesară numai atunci când unitatea este creată. Este produsă de Surse de Energie.
+EnergyBrief2=Asigură-te că ai mereu destulă Energie pentru a produce unități noi.
+SummonedUnitsBrief=O altă cale prin care facțiunea Magic poate produce unități este prin invocarea lor. Pentru aceasta vei avea nevoie de un Invocator, ei sunt produși în Breasla Invocatorilor.
+SummonerBrief=Invocatorii pot crea câteva tipuri de creaturi, iar cea mai de bază este Demonul.
+DaemonBrief=Demonii sunt foarte slabi dar și foarte ieftini, ei sunt utilizați ca și războinici de bază pentru lupta corp-la-corp și sunt de asemenea utili pentru misiuni de cercetare.
+OtherSummonedCreatures=Invocatorii pot crea creaturi mai avansate precum Armuri Fantomă și Dragoni, cu toate acestea ele necesită ca tu să înveți avansările corecte.
+GhostArmorRequirements=Armurile Fantomă necesită o avansare a Inițierii Antice, ce poate fi studiată la Breasla Inițiatorilor.
+GhostArmorBrief=Armurile Fantomă sunt unități medii de luptă corp-la-corp , utile pentru a ține inamicii departe de Magii Luptători.
+RitualBrief=Inițiații dețin o comandă secundară de construire, numită Ritual, folosită pentru construirea structurilor avansate, și de asemenea pentru creaturi puternice precum Golem. Vei avea nevoie de o Bibliotecă pentru a le accesa.
+GolemBrief=Golemii sunt unități defensive foarte puternice, ei lansează atacuri puternice și o foarte bună rezistență, dar se pot mișca atât timp cât au destule puncte de energie.
+ArmyManagement=Cu cât produci un număr mai mare de unități, ar putea fi dificil să le gestionezi.
+DoubleClickBrief=Prin clic-dublu pe o unitate, poți selecta toate unitățile de același tip, din apropiere.
+GroupSelectBrief=Poți defini grupuri de unități prin selectarea lor și apăsând apoi pe Ctrl și pe o tastă numerică, apoi poți rechema grupurile apăsând iar tasta numerică.
+FinalMission=Ca și un test final, acum va trebui să construiești o armată și să îți înfrângi inamicul.
+
+;objective strings
+PromoteInitiate=Obiectiv: Promovează un Inițiat la Mag Luptător.
+ProduceSummoner=Obiectiv: Construiește o Breasla de Invocatori, apoi crează un Invocator.
+ProduceDaemon=Obiectiv: Invocă un Demon.
+ProduceGhostArmor=Obiectiv: Deprinde Invocarea Antică, apoi invocă o Armură Fantomă.
+BuildEnergySource=Obiectiv: Construiește o Sursă de Energie.
+ProduceGolem=Obiectiv: Construiește o Bibliotecă apoi folosește un Inițiat pentru a face un ritual de creare a unui Golem.
+DefeatEnemy=Obiectiv: Construiește o armată, localizează și înfrânge-ți inamicul.

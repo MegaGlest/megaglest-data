@@ -1,0 +1,1443 @@
+TechTreeName=megapack
+; --------------
+; Types of Armor
+ArmorTypeName_organic=organic
+ArmorTypeName_leather=piele
+ArmorTypeName_wood=lemn
+ArmorTypeName_metal=metal
+ArmorTypeName_stone=piatră
+; --------------
+; Types of Attack
+AttackTypeName_slashing=ciopârțire
+AttackTypeName_piercing=străpungere
+AttackTypeName_impact=impact
+AttackTypeName_energy=energie
+AttackTypeName_sword=spadă
+AttackTypeName_arrow=săgeată
+AttackTypeName_magic=magie
+AttackTypeName_beat=lovitură
+; ------------------
+; Types of Resources
+ResourceTypeName_energy=energie
+ResourceTypeName_food=hrană
+ResourceTypeName_gold=aur
+ResourceTypeName_housing=cazare
+ResourceTypeName_stone=piatră
+ResourceTypeName_wood=lemn
+; -----------------
+; Types of Factions
+FactionName_egypt=egipt
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=puterea_lui_ra
+UpgradeTypeName_spear_weapons=arme_suliță
+UpgradeTypeName_speedup_priest_production=accelerare_producere_preot
+UpgradeTypeName_summon_ibis=invocare_ibis
+UpgradeTypeName_summon_scarab=invocare_scarabeu
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_air_pyramid=piramidă_aer
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_anubis_warrior=războinic_anubis
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_chicken=pui
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+UnitTypeName_desert_camp=tabără_deșert
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearthrower=produ_aruncător_de_suliță
+CommandName_produce_spearman=produ_sulițaș
+CommandName_upgrade_spear_weapons=modernizează_arme_suliță
+UnitTypeName_farm=fermă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_chicken=produ_pui
+UnitTypeName_ibis=ibis
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_mummy=mumie
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_obelisk=obelisc
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_scarab=produ_scarabeu
+CommandName_produce_snake=produ_șarpe
+CommandName_produce_ibis=produ_ibis
+UnitTypeName_priest=preot
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_speedup_priest_production=accelerează_producție_preot
+CommandName_heal=vindecare
+CommandName_produce_mummy=produ_mumie
+CommandName_produce_anubis_warrior=produ_războinic_anubis
+CommandName_ice_nova=gheață_nova
+CommandName_hold_position=menține_poziția
+UnitTypeName_pyramid=piramidă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=produ_sclav
+UnitTypeName_scarab=scarabeu
+; --------------------
+; Levels for this Unit
+LevelName_expert=expert
+LevelName_master=stăpân
+LevelName_legendary=legendar
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_dung_attack=atac_murdar
+CommandName_hold_position=menține_poziția
+UnitTypeName_slave=sclav
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_build_basic=construcție_de_bază
+CommandName_repair=reparare
+CommandName_mine=mină
+CommandName_harvest_wood=colectare_lemn
+UnitTypeName_snake=șarpe
+; --------------------
+; Levels for this Unit
+LevelName_expert=expert
+LevelName_master=stăpân
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_poison_shot=încărcătură_otravă
+CommandName_hold_position=menține_poziția
+UnitTypeName_spearman=sulițaș
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_spearthrower=aruncător de suliță
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_sphinx=sfinx
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_temple=templu
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_priest=produ_preot
+CommandName_research_scarab=cercetare_scarabeu
+CommandName_research_ibis=cercetare_ibis
+CommandName_get_power_of_ra=obține_puterea_lui_ra
+FactionName_indian=indian
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_bullfood=hrană_vită
+UpgradeTypeName_iron=fier
+UpgradeTypeName_iron_advanced=fier_avansat
+UpgradeTypeName_petroleum=petrol
+UpgradeTypeName_stables=grajduri
+UpgradeTypeName_training_field=câmp_antrenament
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=arcaș
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_axe_indian=indian_cu_topor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_axe_thrower=aruncător_de_topor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_beehive=stup
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_bigtent=cort_mare
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=produ_luptător_cu_băț
+CommandName_produce_archer=produ_arcaș
+UnitTypeName_bull=taur
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_campfire=foc_de_tabără
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_firegolem=produ_golem_foc
+CommandName_research_iron=studiează_fierul
+CommandName_research_iron_advanced=studiează_fierul_avansat
+UnitTypeName_fire_archer=arcaș_foc
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_firegolem=golem_foc
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_horsefarm=fermă_cai
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_horseman=produ_călăreț
+CommandName_produce_bull=produ_taur
+CommandName_research_stables=studiează_grajduri
+UnitTypeName_horseman=călăreț
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_mainteepee=cort_principal
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=produ_muncitor
+UnitTypeName_reed=stuf
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_bullfood=studiează_hrană_vită
+UnitTypeName_roundtent=cort_rotund
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_axe_indian=produ_indian_cu_topor
+CommandName_produce_axe_thrower=produ_aruncător_de_topor
+CommandName_produce_fire_archer=produ_arcaș_foc
+CommandName_produce_spearman=produ_sulițaș
+CommandName_create_training_field=crează_câmp_antrenament
+UnitTypeName_shaman=șaman
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_repair=reparare
+CommandName_heal=vindecare
+CommandName_molotov=molotov
+CommandName_produce_thunderbird=produ_pasăre_tunet
+CommandName_build_beehive=construiește-stup_albine
+UnitTypeName_spearman=sulițaș
+; --------------------
+; Levels for this Unit
+LevelName_guardian=gardian
+LevelName_chief=șef
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_stickfighter=luptător_cu_băț
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_tent=cort
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=produ_luptător_cu_băț
+UnitTypeName_thunderbird=pasăre_tunet
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+LevelName_expert=expert
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_throw=aruncă
+CommandName_breath=răsuflare
+CommandName_hold_position=menține_poziția
+UnitTypeName_totem=totem
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_air_on=aer_pornit
+CommandName_research_petroleum=studiează_petrolul
+CommandName_produce_shaman=produ_șaman
+UnitTypeName_worker=muncitor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_build_basic=construcție_de_bază
+CommandName_mine=mină
+CommandName_harvest_wood=colectare_lemn
+CommandName_repair=reparare
+FactionName_magic=magie
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=invocare_antică
+UpgradeTypeName_dragon_call=apel_dragon
+UpgradeTypeName_energy_compression=compresie_energie
+UpgradeTypeName_energy_sharpening=ascuțire_energie
+UpgradeTypeName_golem_power=putere_golem
+UpgradeTypeName_hell_gate=poartă_infern
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archmage=mag_arc
+; --------------------
+; Levels for this Unit
+LevelName_expert=expert
+LevelName_master=stăpân
+LevelName_legendary=legendar
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_ice_nova=gheață_nova
+CommandName_static_fire=foc_static
+CommandName_hold_position=menține_poziția
+UnitTypeName_archmage_tower=turn_mag_arc
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_dragon_call=studiează_apel_dragon
+CommandName_golem_power=putere_golem
+UnitTypeName_battlemage=mag_luptător
+; --------------------
+; Levels for this Unit
+LevelName_expert=expert
+LevelName_master=stăpân
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_fire_bolt=boltă_foc
+CommandName_hold_position=menține_poziția
+CommandName_promote_to_archmage=promovează_la_mag_arc
+UnitTypeName_behemoth=creatură_gigant
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_daemon=demon
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_dragon=dragon
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_breath=răsuflare
+CommandName_hold_position=menține_poziția
+CommandName_promote_to_evil_dragon=promovează_la_dragon_malefic
+UnitTypeName_drake_rider=călăreț_gâscan
+; --------------------
+; Levels for this Unit
+LevelName_expert=expert
+LevelName_master=stăpân
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_fire_breath=suflu_foc
+CommandName_flare=rafală_foc
+CommandName_hold_position=menține_poziția
+UnitTypeName_energy_source=sursă_energie
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+UnitTypeName_evil_dragon=dragon_malefic
+; --------------------
+; Levels for this Unit
+LevelName_expert=expert
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_breath=răsuflare
+CommandName_hold_position=menține_poziția
+UnitTypeName_ghost_armor=armură_fantomă
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_golem=golem
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+CommandName_promote_to_power_golem=promovează_la_golem_putere
+UnitTypeName_initiate=inițiere
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_repair=reparare
+CommandName_build=construire
+CommandName_ritual=ritual
+CommandName_mine=mină
+CommandName_harvest=colectare
+CommandName_promote_to_battlemage=promovare_la_mag_luptător
+UnitTypeName_library=bibliotecă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_energy_compression=studiează_compresie_energie
+CommandName_research_energy_sharpening=studiează_focalizare_energie
+CommandName_research_hell_gate=studiează_poartă_infern
+UnitTypeName_mage_tower=turn_mag
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_initiate=produ_inițiat
+UnitTypeName_power_golem=putere_golem
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_summoner=invocator
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_flare=rafală_foc
+CommandName_hold_position=menține_poziția
+CommandName_summon_daemon=invocă_dragon
+CommandName_summon_ghost_armor=invocare_armură_fantomă
+CommandName_summon_dragon=invocare_dragon
+CommandName_summon_drake=invocare_drake
+UnitTypeName_summoner_guild=breaslă_invocator
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_summoner=produ_invocator
+CommandName_research_ancient_summoning=studiează_invocare_antică
+UnitTypeName_tower_of_souls=turnul_sufletelor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_wicker_behemoth=creatură_răchită
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_promote_to_behemoth=promovare_la_creatură
+FactionName_norsemen=scandinav
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=fier_avansat
+UpgradeTypeName_arrow=săgeată
+UpgradeTypeName_holy_valkyrie=valkyrie_sfânt
+UpgradeTypeName_iron=fier
+UpgradeTypeName_med=medicament
+UpgradeTypeName_root=rădăcină
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=arcaș
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_axe_thrower=aruncător_de_topor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_battleaxe=topor_de_luptă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_promote_to_battleaxe=promovare_la_topor_de_luptă
+UnitTypeName_battleaxe_berzerk=topor_luptă_berzek
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+UnitTypeName_blacksmith=fierar
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_iron=modernizare_fier
+CommandName_upgrade_arrow=modernizare_săgeată
+CommandName_upgrade_advanced_iron=modernizare_fier_avansat
+CommandName_produce_crossbow=produ_arbaletă
+UnitTypeName_bone_tent=cort_de_os
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=produ_spadasin
+CommandName_produce_archer=produ_arcaș
+CommandName_produce_battleaxe=produ_topor_de_luptă
+CommandName_produce_axe_thrower=produ_aruncător_de_topor
+UnitTypeName_castle=castel
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_thrull=produ_thrull
+UnitTypeName_cow=vacă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+UnitTypeName_crossbow=arbaletă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack_arrow=atac_săgeată
+CommandName_hold_position=menține_poziția
+UnitTypeName_cudgel_lady=femeie_măciucă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_cudgel=măciucă
+UnitTypeName_farm=fermă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cow=produ_vacă
+UnitTypeName_flyingvalkyrie=valkyrie_zburător
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_house=casă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=produ_femeie_măciucă
+CommandName_produce_spearman=produ_sulițaș
+UnitTypeName_med_bar=bufet_medicamente
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=produ_femeie_măciucă
+CommandName_produce_spearman=produ_sulițaș
+CommandName_research_med=studiează_medicamente
+UnitTypeName_mistletree=arbore_de_vâsc
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_air_on=aer_pornit
+CommandName_attack_off=stop_atac
+CommandName_research_root=studiează_rădăcină
+CommandName_resurrect_wild_sow=reînviere_scroafă_sălbatică
+UnitTypeName_spearman=sulițaș
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+CommandName_promote_to_spearman=promovare_la_sulițaș
+UnitTypeName_spearman_berzerk=sulițaș_berzek
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_swordman=spadasin
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+CommandName_promote_to_swordman=promovare_la_spadasin
+UnitTypeName_swordman_berzerk=spadasin_berzek
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_thor=thor
+; --------------------
+; Levels for this Unit
+LevelName_advanced=avansat
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_throw=aruncă
+CommandName_hold_position=menține_poziția
+UnitTypeName_thortotem=totem_thor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_build_thor=construire_thor
+UnitTypeName_thrull=thrull
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_build_basic=construcție_de_bază
+CommandName_mine=mină
+CommandName_harvest_wood=colectare_lemn
+CommandName_repair=reparare
+UnitTypeName_valhalla=valhalla
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_flyingvalkyrie=produ_valkyrie_zburător
+CommandName_produce_valkyrie=produ_valkyrie
+CommandName_research_holy_valkyrie=studiează_valkyrie_sfânt
+UnitTypeName_valkyrie=valkyrie
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_airattack=atac_din_aer
+CommandName_hold_position=menține_poziția
+UnitTypeName_wild_sow=scroafă_sălbatică
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+FactionName_persian=persan
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=porumb_și_răchită
+UpgradeTypeName_magic_level_1=magie_nivel_1
+UpgradeTypeName_magic_level_2=magie_nivel_2
+UpgradeTypeName_nails=cuie
+UpgradeTypeName_shield=scut
+UpgradeTypeName_weapons=arme
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_blacksmith=fierar
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_weapons=modernizare_arme
+CommandName_upgrade_nails=modernizare_cuie
+CommandName_upgrade_shield=modernizare_scut
+UnitTypeName_elephant=elefant
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_attack_arrow=atac_săgeată
+CommandName_hold_position=menține_poziția
+UnitTypeName_elephant_cage=cușcă_elefant
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_elephant=produ_elefant
+UnitTypeName_fakir=fachir
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_farm=fermă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_sheep=produ_oaie
+CommandName_research_corn_and_wicker=studiează_porumbul_și_răchita
+UnitTypeName_flying_carpet=covor_zburător
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_magic_attack=atac_magie
+CommandName_hold_position=menține_poziția
+UnitTypeName_genie=genie
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_house=casă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_fakir=produ_fachir
+CommandName_produce_stickfighter=produ_luptător_cu_băț
+UnitTypeName_magician=magician
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_repair=reparare
+CommandName_build_snake_basket=construiește_coș_șerpi
+CommandName_heal=vindecare
+CommandName_hold_position=menține_poziția
+UnitTypeName_minaret=minaretă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_palace=palat
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=produ_muncitor
+UnitTypeName_princess=prințesă
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_sheep=oaie
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+UnitTypeName_snake_basket=coș_șerpi
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_stickfighter=luptător_cu_băț
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_swordman=spadasin
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_temple=templu
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_princess=produ_prințesă
+CommandName_produce_swordman=produ_spadasin
+UnitTypeName_tent=cort
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_genie=produ_genie
+CommandName_produce_flying_carpet=produ_covor_zburător
+CommandName_produce_magician=produ_magician
+CommandName_upgrade_magic_level_1=actualizare_magie_nivel_1
+CommandName_upgrade_magic_level_2=actualizare_magie_nivel_2
+UnitTypeName_worker=muncitor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_attack=atacă
+CommandName_move=mișcă
+CommandName_build_basic=construcție_de_bază
+CommandName_mine=mină
+CommandName_harvest_wood=colectare_lemn
+CommandName_repair=reparare
+FactionName_romans=romani
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=arhitectură_avansată
+UpgradeTypeName_bless_of_minerva=binecuvântarea_minervei
+UpgradeTypeName_enlarge_shields=mărire_scuturi
+UpgradeTypeName_formations=formații
+UpgradeTypeName_jupiter=jupiter
+UpgradeTypeName_reinforce_armor=fortificare_armură
+UpgradeTypeName_sharpen_points=puncte_ascuțite
+UpgradeTypeName_sign_of_mars=semnul_lui_marte
+UpgradeTypeName_strengthen_swords=consolidare_spade
+UpgradeTypeName_training_field=câmp_antrenament
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=arcaș
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+CommandName_get_fire_arrows=obține_săgeți_de_foc
+UnitTypeName_axe_man=om_topor
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_ballista=ballista
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_battering_ram=berbec
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack_land=atac_la_sol
+CommandName_attack_air=atac_din_aer
+CommandName_hold_position=menține_poziția
+UnitTypeName_blacksmith_shop=magazin_fierar
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_strengthen_swords=consolidare_spade
+CommandName_sharpen_points=puncte_ascuțite
+CommandName_reinforce_armor=fortificare_armură
+CommandName_enlarge_shields=mărire_scuturi
+UnitTypeName_catapult=catapultă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_fire_ball=minge_de_foc
+CommandName_hold_position=menține_poziția
+UnitTypeName_cavalry=cavalerie
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+CommandName_promote_to_tribune=promovare_la_tribună
+UnitTypeName_cow=vacă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+UnitTypeName_eagle_pillar=stâlp_vultur
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_fire_archer=arcaș_foc
+; --------------------
+; Levels for this Unit
+LevelName_accurate=acuratețe
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_forum=forum
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=produ_sclav
+CommandName_produce_cow=produ_vacă
+UnitTypeName_general=general
+; --------------------
+; Levels for this Unit
+LevelName_esteemed=onorat
+LevelName_grand=grandios
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_gladiator=gladiator
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack_land=atac_la_sol
+CommandName_attack_air=atac_din_aer
+CommandName_hold_position=menține_poziția
+UnitTypeName_gladiator_school=școală_gladiatori
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_train_gladiator=antrenează_gladiator
+CommandName_produce_axe_man=produ_om_cu_topor
+UnitTypeName_guard=gardă
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_guard_tower=turn_gardă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_military_camp=tabără_militară
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cavalry=produ_cavalerie
+CommandName_produce_turtle_formation=produ_formație_țestoasă
+CommandName_produce_general=produ_general
+CommandName_produce_mechanic=produ_mecanic
+CommandName_upgrade_advanced_architecture=modernizare_arhitectură_avansată
+CommandName_upgrade_formations=modernizare_formații
+UnitTypeName_slave=sclav
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_build_=construire_
+CommandName_mine=mină
+CommandName_harvest_wood=colectare_lemn
+CommandName_repair=reparare
+UnitTypeName_spearman=sulițaș
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_swordsman=spadasin
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_temple=templu
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_sign_of_mars=studiează_semnului_lui_marte
+CommandName_research_jupiter=studiează_jupiter
+CommandName_upgrade_bless_of_minerva=modernizare_binecuvântarea_minervei
+UnitTypeName_training_camp=tabără_antrenament
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearman=produ_sulițaș
+CommandName_produce_archer=produ_arcaș
+CommandName_produce_guard=produ_gardian
+CommandName_produce_swordsman=produ_spadasin
+CommandName_create_training_field=crează_câmp_antrenament
+UnitTypeName_tribune=tribună
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_turtle_formation=formație_țestoasă
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_wartime_mechanic=mecanic_de_război
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+CommandName_repair=reparare
+CommandName_heal=vindecare
+CommandName_build_catapult=construire_catapultă
+CommandName_build_battering_ram=construire_berbec
+CommandName_build_ballista=construire_balista
+FactionName_tech=tech
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=arhitectură_avansată
+UpgradeTypeName_blade_weapons=arme_cu_lamă
+UpgradeTypeName_piercing_weapons=arme_de_străpungere
+UpgradeTypeName_robotics=robotizare
+UpgradeTypeName_shield_level_1=scut_nivel_1
+UpgradeTypeName_shield_level_2=scut_nivel_2
+UpgradeTypeName_stables=grajduri
+UpgradeTypeName_training_field=câmp_antrenament
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_aerodrome=aerodrom
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_ornithopter=produ_ornithopter
+CommandName_produce_airship=produ_arcă_zburătoare
+UnitTypeName_air_ballista=balistă_aer
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_airship=arcă_zburătoare
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_missile=rachetă
+CommandName_hold_position=menține_poziția
+UnitTypeName_archer=arcaș
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_barracks=cazarme
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=produ_spadasin
+CommandName_produce_archer=produ_arcaș
+CommandName_produce_guard=produ_gardian
+CommandName_produce_horseman=produ_călăreț
+CommandName_create_training_field=crează_câmp_antrenament
+UnitTypeName_battle_machine=mașină_de_luptă
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_attack_arrow=atac_săgeată
+CommandName_hold_position=menține_poziția
+UnitTypeName_blacksmith=fierar
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_blade_weapons=modernizare_arme_cu_lamă
+CommandName_upgrade_piercing_weapons=modernizare_arme_de_străpungere
+CommandName_upgrade_shield=modernizare_scut
+CommandName_upgrade_shield=modernizare_scut
+UnitTypeName_castle=castel
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=produ_muncitor
+UnitTypeName_catapult=catapultă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_fire_ball=minge_de_foc
+CommandName_hold_position=menține_poziția
+UnitTypeName_cow=vacă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+UnitTypeName_defense_tower=turn_de_apărare
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=stop_atac
+CommandName_attack_on=pornire_atac
+UnitTypeName_farm=fermă
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_pig=produ_porc
+CommandName_produce_cow=produ_vacă
+CommandName_research_stables=studiează_grajduri
+UnitTypeName_guard=gardă
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_horseman=călăreț
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+UnitTypeName_ornithopter=ornitopter
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_molotov=molotov
+CommandName_fire_arrow=săgeată_de_foc
+CommandName_hold_position=menține_poziția
+UnitTypeName_pig=porc
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+UnitTypeName_swordman=spadasin
+; --------------------
+; Levels for this Unit
+LevelName_elite=elită
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_attack=atacă
+CommandName_hold_position=menține_poziția
+CommandName_promote_to_guard=promovere_la_gardian
+UnitTypeName_technician=tehnician
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_build_ultimate=construire_extrem
+CommandName_repair=reparare
+CommandName_heal=vindecare
+CommandName_mine_gold=mină_de_aur
+CommandName_molotov=molotov
+CommandName_build_catapult=construire_catapultă
+CommandName_build_battle_machine=construire_mașină_de_luptă
+CommandName_build_air_ballista=construire_balistă_aer
+UnitTypeName_technodrome=tehnodrom
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_technician=produ_tehnician
+CommandName_research_advanced_architecture=studiează_arhitectură_avansată
+CommandName_research_robotics=studiează_robotizare
+UnitTypeName_worker=muncitor
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_build_basic=construcție_de_bază
+CommandName_build_advanced=construiește_avansat
+CommandName_mine=mină
+CommandName_harvest_wood=colectare_lemn
+CommandName_repair=reparare

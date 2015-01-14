@@ -1,0 +1,18 @@
+SCENARIO_NAME=Capturează steagul
+;message headers
+CaptureFlag=Capturează steagul
+Warning=Atenție
+Crisis=Alertă Roșie!
+
+;message strings
+Brief1=Capturează steagul inamicului tău, atingându-l și apoi retrage-ți acea unitate la bază de acasă! Steagul inamicului strălucește intermitent pe mini hartă. Steagul tău pulsa în culoarea echipei tale. Ferește-te de surprizele ce pot apare de-a lungul drumului.
+Player2InFlagZoneWarning=Jucătorul 2 este în zona steagului tău, ai grijă!
+Player3InFlagZoneWarning=Jucătorul 3 este în zona steagului tău, ai grijă!
+Player2HasFlagWarning=Jucătorul 2 ARE STEAGUL TĂU, prinde-l!!
+Player3HasFlagWarning=Jucătorul 3 ARE STEAGUL TĂU, prinde-l!!
+
+;objective strings
+Player2HeadHome=Acum jucătorul 2 v-a ajunge viu acasă și va câștiga! Purtătorul tău de steag este evidențiat în culoarea echipei tale, nu-l lăsa să moară.
+Player3HeadHome=Acum jucătorul 3 v-a ajunge viu acasă și va câștiga! Purtătorul tău de steag este evidențiat în culoarea echipei tale, nu-l lăsa să moară.
+PlayerWins=Felicitări, ai câștigat!
+PlayerLoses=Păcat, ai pierdut!

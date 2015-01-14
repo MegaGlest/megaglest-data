@@ -1,0 +1,11 @@
+# SCENARIO_NAME=Storming
+;message headers
+Storming=攻堅戰
+
+;message strings
+Brief1=讓法師攻擊敵人所有的村莊，法師必須存活。
+
+;objective strings
+ObjectiveWest=目標：摧毀西方魔法村莊，法師必須活着。
+ObjectiveNorthEast=目標：摧毀東北角科技村莊，法師必須活着。
+ObjectiveSouthEast=目標：摧毀東南方的村莊，法師必須活着。

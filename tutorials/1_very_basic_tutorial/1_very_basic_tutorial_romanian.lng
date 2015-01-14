@@ -1,0 +1,77 @@
+TUTORIAL_NAME=#1 Tutorial de Bază
+;message headers
+GlestBasicTutorial=Tutorial de bază MegaGlest
+WellDone=Bine făcut!
+Resources=Resurse
+Combat=Luptă
+Buildings=Clădiri
+Tricks=Șmecherii
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Bun venit la tutorialul de bază MegaGlest.
+
+FirstThing=Vizualizare: Pentru a ajusta zona vizibilă, mută cursorul mouse-ului la marginea ecranului tău, sau folosește tastele cursorului. O altă cale pentru acest lucru este să faci clic pe mini hartă (colțul din stânga sus a ecranului tău).
+
+WillBeUsingIndian=În această introducere, ești conducătorul indienilor. Gruparea indiană luptă cu arcuri și arme simple.
+
+NeedWorkers=Întâi avem nevoie de un muncitori. Pentru a obține unul, clic-stânga pe Cortul-Principal și începe antrenarea muncitorului tău. Pentru acest lucru, folosește comanda 'Produce Muncitor' apăsând pe pictograma muncitorului.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Acum clic-stânga pe muncitorul tău. Detaliile despre unitatea selectată, și anume numele unității și o imagine, sunt acum afișate în colțul superior din dreapta a ecranului tău. Dedesubt sunt listate punctele de sănătate (HP), armura și, în paranteze, tipul armurii și orizontul de vizualizare (raza de acțiune).
+Select2=Dacă aceasta este o unitate de luptă, numărul unităților inamice pe care le-au distrus deja, se află listate lângă. Dacă consumă resurse, aceasta este afișată în următorul câmp. Mai jos e specificat ce face în prezent această unitate.
+
+ExampleWorker=De exemplu, muncitorul tău are 600 HP, 0 armură de piele și o rază de acțiune de 9. Statusul său curent este &quot;stop&quot;, deci el nu face nimic.
+
+Command=Abilitățile unității sunt listate în continuare mai jos. Acum vom învăța toate comenzile ce pot fi executate de către muncitor.
+
+FirstCommand=Prima pictogramă de comandă este 'stop'. Dacă apeși pe această pictogramă, muncitorul se va opri imediat din ceea ce face curent. Toate unitățile (ce nu reprezintă clădiri) oferă această comandă.
+
+SecondCommand=A doua pictogramă de comandă este 'mută'. Dacă o apeși, trebuie să apeși pe pământ sau pe o altă unitate pentru a-i defini destinația. O prescurtare pentru această comandă este doar să apeși pe poziția de destinație.
+SecondCommand2=Când ți deasupra cursorul mouse-ului pe pictograma comenzii &quot;mergi&quot;, se afișează viteza de deplasare a muncitorului. Această comandă, de asemenea, este disponibilă pentru toate unitățile (exceptând clădirile).
+
+TestSecondCommand=Încearcă acum comanda &quot;mergi&quot;. Mută-ți muncitorul lângă alt muncitori ce așteaptă în afara taberei. Acest alt muncitori este afișat în (stânga sus) mini hartă, ca și un punct roșu. Triunghiul alb din mini hartă indică poziția curentă a vizualizării/camerei tale. Punctele roșii mari reprezintă Corturile tale Principale
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Perfect. Acum fă-i pe ambii muncitori să se întoarcă la Cortul Principal. Pentru a selecta unități multiple, apasă shift și desenează o casetă de selecție în jurul unității tale SAU ...
+MoveBack2=... menține apăsată tasta shift, apoi folosește mouse-ul pentru a apăsa pe fiecare unitate pe care dorești să o incluzi SAU ...
+MoveBack3=... dublu-clic pe o unitate pentru a selecta toate unitățile vecine de același tip (muncitori în acest caz).
+HarvestGoldandStone=Când unitățile tale au ajuns acasă, vom folosi a patra pictogramă de comandă, ce este destinată pentru colectarea de aur și pietre.
+HarvestGoldandStone2=Acoperă pictograma acestei comenzi cu cursorul mouse-ului pentru a vedea cât de rapid pot recolta muncitorii tăi, cât de mult poate recolta fiecare muncitori, cât de rapid pot ei merge când cară resursele și ce fel de resurse pot ei strânge.
+UseHarvestGoldandStone=Pentru a folosi această comandă, apasă întâi pe pictograma comenzii, apoi pe ce fel de resurse dorești să colectezi. Grămezile gri cu puncte galbene reprezintă aurul, iar cele fără puncte galbene sunt pietre.
+HarvestGoldandStone3=Acum sapă după aur și pietre până vei avea un total de 600 aur și 550 pietre, De asemenea poți construi noi muncitori pentru a face aceasta (dar ei vor costa de asemena aur). Verifică partea superioară a ecranului pentru a învăța cât de multe resurse deții curent în posesie.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Acum tot ceea ce ai nevoie, este puțin lemn, Pentru a obține lemn, folosește pictograma celei de-a cincea comandă. Aceasta este tot o comandă de colectare, deci o poți folosi în același mod ca și cele pentru aur și pietre.
+ResourceInformation=Apropo, facțiunea indiană are cel mai adesea nevoie de aur și lemn.
+GetWood=Pentru un alt indiciu, poți crea orice comandă de colectare selectând muncitorul, apoi clic-dreapta pe o locație unde această resursă este diponibilă (deci în păduri în acest acest caz). În cazul unui succes, va apare o săgeată galbenă. Acum recolteză lemn până vei avea 550 în depozitul tău.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Când selectezi o clădire, se afișează o săgeată albastră. Această săgeată îndică către așa-numitul &quot;punct de asamblare&quot;. Toate unitățile pe care le produci în această clădire se vor muta în acest loc, imediat de vor apare.
+UseMeetingPoint=Poți muta, de asemena, și punctul de asamblare. Apasă pe pictograma fanion, apoi pe poziția în care va fi noul punct de întâlnire. Aici, de asemenea, poți scurta aceasta în mod simplu, apăsând-dreapta pe noua locație (la fel cum poți face pentru mers).
+MeetingPoint2=Dacă plasezi punctul de asamblare pe o resursă, noii muncitori produși vor începe imediat să colecteze acolo. Asigură-te că nimerești punctul corect, altfel, muncitorii tăi vor sta doar pe lângă și îți vor sta în cale.
+Thirdcommand=Acum pentru pentru pictograma celei de-a treia comenzi pentru muncitor -aceasta este comanda 'construiește'
+Thirdcommand2=Apăsând-o, vei accesa meniul de construire. Dacă menții cursorul pe una din pictogramele de construire, vei vedea în continuare mai jos, listat sub ''cerințe&quot;, toate resursele și realizările de care ai nevoie.
+Thirdcommand3=Dacă menții cursorul pe cort, vei vedea că necesită 30 aur, 50 lemn, -10 cazare și de un cort principal. &quot;-10 cazare&quot; înseamnă că, construiești un cort, obții locuri de cazare pentru încă 10 corturi adiționale (deși anumite unități pot avea nevoie de mai mult de unul).
+Thirdcommand4=Hai să construim acum un cort nou. Apasă pe meniul de construire, apoi pe cort, și plasează-l într-un punct gol.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=Acum poți antrena un luptător cu bățul în noul tău cort.
+
+;objective strings
+ProduceWorker=Obiectiv: Antrenează un muncitor.
+ProduceStickfighter2=Obiectiv: Antrenează un luptător cu bățul.
+MoveWorker=Obiectiv: Mută-ți noul muncitor produs, lângă alt muncitori ce așteaptă în afara taberei tale.
+HarvestGoldandStoneobjective=Obiectiv: Colectează aur și piatră până vei avea un total de 600 aur și 550 pietre.
+GetWoodob=Obiectiv: Colectează lemn până vei avea 550.
+UseThirdCommand=Obiectiv: Construiește un cort. Indiciu: Dacă cortul se colorează în roșu, aceasta înseamnă că acest punct este curent (sau în general) ocupat (de exemplu de o altă unitate sau de un copac).
+
+;end
+
+WellDoneNextTutorial=Bună treabă! Acum poți trece la următorul tutorial.

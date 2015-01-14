@@ -1,0 +1,1443 @@
+# TechTreeName=megapack
+; --------------
+; Types of Armor
+ArmorTypeName_organic=有機
+ArmorTypeName_leather=皮革
+ArmorTypeName_wood=木材
+ArmorTypeName_metal=金屬
+ArmorTypeName_stone=石頭
+; --------------
+; Types of Attack
+AttackTypeName_slashing=削減
+AttackTypeName_piercing=沖孔
+AttackTypeName_impact=碰撞
+AttackTypeName_energy=敵人
+AttackTypeName_sword=劍
+AttackTypeName_arrow=弓箭
+AttackTypeName_magic=魔法
+AttackTypeName_beat=打敗
+; ------------------
+; Types of Resources
+ResourceTypeName_energy=能量
+ResourceTypeName_food=食物
+ResourceTypeName_gold=黃金
+ResourceTypeName_housing=住房
+ResourceTypeName_stone=石頭
+ResourceTypeName_wood=木材
+; -----------------
+; Types of Factions
+FactionName_egypt=埃及
+; ----------------------------------
+; Types of Upgrades for this Faction
+# UpgradeTypeName_power_of_ra=power_of_ra
+# UpgradeTypeName_spear_weapons=spear_weapons
+UpgradeTypeName_speedup_priest_production=加快生產牧師
+# UpgradeTypeName_summon_ibis=summon_ibis
+UpgradeTypeName_summon_scarab=招喚聖甲蟲
+; -------------------------------
+; Types of Units for this Faction
+# UnitTypeName_air_pyramid=air_pyramid
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_anubis_warrior=阿努比斯戰士
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_chicken=逃命
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+UnitTypeName_desert_camp=沙漠營地
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearthrower=生產擲矛兵
+CommandName_produce_spearman=生產矛兵
+CommandName_upgrade_spear_weapons=升級矛兵武器
+UnitTypeName_farm=農場
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_chicken=生產雞
+# UnitTypeName_ibis=ibis
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_mummy=木乃伊
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_obelisk=方尖碑
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_scarab=生產聖甲蟲
+CommandName_produce_snake=生產毒蛇
+# CommandName_produce_ibis=produce_ibis
+UnitTypeName_priest=牧師
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_speedup_priest_production=加快生產牧師
+CommandName_heal=治療
+CommandName_produce_mummy=生產木乃伊
+CommandName_produce_anubis_warrior=生產阿努比斯戰士
+CommandName_ice_nova=冰之新星
+CommandName_hold_position=停在原地
+UnitTypeName_pyramid=金字塔
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=生產奴隸
+UnitTypeName_scarab=聖甲蟲
+; --------------------
+; Levels for this Unit
+LevelName_expert=專家級
+LevelName_master=大師級
+LevelName_legendary=傳奇
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_dung_attack=糞便攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_slave=奴隸
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_build_basic=建造
+CommandName_repair=修復
+CommandName_mine=採礦
+CommandName_harvest_wood=收穫木材
+UnitTypeName_snake=毒蛇
+; --------------------
+; Levels for this Unit
+LevelName_expert=專家級
+LevelName_master=大師級
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_poison_shot=射擊毒藥
+CommandName_hold_position=停在原地
+UnitTypeName_spearman=矛兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_spearthrower=擲矛兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_sphinx=獅身人面像
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_temple=神廟
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_priest=生產牧師
+CommandName_research_scarab=研究聖甲蟲
+# CommandName_research_ibis=research_ibis
+# CommandName_get_power_of_ra=get_power_of_ra
+FactionName_indian=印第安人
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_bullfood=牛糧食
+UpgradeTypeName_iron=鐵
+UpgradeTypeName_iron_advanced=精鐵
+UpgradeTypeName_petroleum=石油
+UpgradeTypeName_stables=馬厩
+UpgradeTypeName_training_field=訓練場
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=弓箭手
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_axe_indian=斧頭兵
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_axe_thrower=擲斧兵
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_beehive=蜂巢
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_bigtent=大帳篷
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=生產棍棒兵
+CommandName_produce_archer=生產弓箭手
+UnitTypeName_bull=公牛
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_campfire=營火
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_firegolem=生產火焰石魔
+CommandName_research_iron=研究鐵
+CommandName_research_iron_advanced=研究精鐵
+UnitTypeName_fire_archer=火焰弓箭手
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_firegolem=火焰石魔
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_horsefarm=馬匹牧場
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_horseman=生產騎兵
+CommandName_produce_bull=生產牛
+CommandName_research_stables=研究馬厩
+UnitTypeName_horseman=騎兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_mainteepee=主帳篷
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=生產工人
+UnitTypeName_reed=蘆葦
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_bullfood=研究牛糧食
+UnitTypeName_roundtent=圓形帳篷
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_axe_indian=生產斧頭兵
+CommandName_produce_axe_thrower=生產擲斧兵
+CommandName_produce_fire_archer=生產火焰弓箭手
+CommandName_produce_spearman=生產矛兵
+CommandName_create_training_field=建立訓練場
+UnitTypeName_shaman=巫師
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_repair=修復
+CommandName_heal=治療
+# CommandName_molotov=molotov
+CommandName_produce_thunderbird=生產雷鳥
+CommandName_build_beehive=建造主帳篷
+UnitTypeName_spearman=矛兵
+; --------------------
+; Levels for this Unit
+LevelName_guardian=護衛隊
+LevelName_chief=首領
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_stickfighter=棍棒兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_tent=帳篷
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=生產棍棒兵
+UnitTypeName_thunderbird=雷鳥
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+LevelName_expert=專家級
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_throw=投擲
+CommandName_breath=喘息
+CommandName_hold_position=停在原地
+UnitTypeName_totem=圖騰
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+# CommandName_air_on=air_on
+CommandName_research_petroleum=提煉石油
+CommandName_produce_shaman=生產巫師
+UnitTypeName_worker=工人
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_build_basic=建造
+CommandName_mine=採礦
+CommandName_harvest_wood=收穫木材
+CommandName_repair=修復
+FactionName_magic=魔法
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=遠古招喚術
+UpgradeTypeName_dragon_call=龍招喚術
+UpgradeTypeName_energy_compression=能量壓縮
+UpgradeTypeName_energy_sharpening=能量銳化
+UpgradeTypeName_golem_power=傀儡動力
+UpgradeTypeName_hell_gate=地獄門
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archmage=大法師
+; --------------------
+; Levels for this Unit
+LevelName_expert=專家級
+LevelName_master=大師級
+LevelName_legendary=傳奇
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_ice_nova=冰之新星
+CommandName_static_fire=靜態火
+CommandName_hold_position=停在原地
+UnitTypeName_archmage_tower=大法師塔
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_dragon_call=研究龍招喚術
+CommandName_golem_power=傀儡動力
+UnitTypeName_battlemage=戰鬥法師
+; --------------------
+; Levels for this Unit
+LevelName_expert=專家級
+LevelName_master=大師級
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_fire_bolt=防火栓
+CommandName_hold_position=停在原地
+CommandName_promote_to_archmage=升級到大法師
+UnitTypeName_behemoth=巨獸
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_daemon=魔鬼
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_dragon=龍戰士
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_breath=喘息
+CommandName_hold_position=停在原地
+CommandName_promote_to_evil_dragon=升級到邪惡之龍
+UnitTypeName_drake_rider=龍獸騎士
+; --------------------
+; Levels for this Unit
+LevelName_expert=專家級
+LevelName_master=大師級
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+# CommandName_fire_breath=fire_breath
+CommandName_flare=火炬
+CommandName_hold_position=停在原地
+UnitTypeName_energy_source=能量泉
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+UnitTypeName_evil_dragon=邪惡之龍
+; --------------------
+; Levels for this Unit
+LevelName_expert=專家級
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_breath=喘息
+CommandName_hold_position=停在原地
+UnitTypeName_ghost_armor=護甲幽靈
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_golem=傀儡
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+CommandName_promote_to_power_golem=升級為動力傀儡
+UnitTypeName_initiate=魔法師
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_repair=修復
+CommandName_build=建造
+CommandName_ritual=儀式
+CommandName_mine=採礦
+CommandName_harvest=收割
+CommandName_promote_to_battlemage=升級為戰鬥法師
+UnitTypeName_library=圖書館
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_energy_compression=研究能量壓縮
+CommandName_research_energy_sharpening=研究能量銳化
+CommandName_research_hell_gate=研究地獄門
+UnitTypeName_mage_tower=大法師塔
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_initiate=生產魔法師
+UnitTypeName_power_golem=動力傀儡
+; --------------------
+; Levels for this Unit
+LevelName_ancient=遠古
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_summoner=招喚師
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_flare=火炬
+CommandName_hold_position=停在原地
+CommandName_summon_daemon=招喚魔鬼
+CommandName_summon_ghost_armor=招喚護甲幽靈
+CommandName_summon_dragon=招喚龍戰士
+CommandName_summon_drake=招喚龍獸
+UnitTypeName_summoner_guild=招喚師公會
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_summoner=招喚師
+CommandName_research_ancient_summoning=研究遠古招喚術
+UnitTypeName_tower_of_souls=靈魂之塔
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_wicker_behemoth=柳條巨獸
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_promote_to_behemoth=提昇為巨獸
+FactionName_norsemen=挪威人
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=精鐵
+UpgradeTypeName_arrow=弓箭
+UpgradeTypeName_holy_valkyrie=聖戰武神
+UpgradeTypeName_iron=鐵
+# UpgradeTypeName_med=med
+# UpgradeTypeName_root=root
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=弓箭手
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_axe_thrower=擲斧兵
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_battleaxe=斧頭戰士
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_promote_to_battleaxe=升級為戰斧
+# UnitTypeName_battleaxe_berzerk=battleaxe_berzerk
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+UnitTypeName_blacksmith=鐵匠
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_iron=升級鐵
+CommandName_upgrade_arrow=升級弓箭
+CommandName_upgrade_advanced_iron=升級精鐵
+CommandName_produce_crossbow=升級十字弓
+UnitTypeName_bone_tent=骨頭帳篷
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=生產劍士
+CommandName_produce_archer=生產弓箭手
+CommandName_produce_battleaxe=生產戰斧
+CommandName_produce_axe_thrower=生產擲斧兵
+UnitTypeName_castle=城堡
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_thrull=生產索爾獸
+UnitTypeName_cow=乳牛
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+UnitTypeName_crossbow=十字弓
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack_arrow=攻擊箭頭
+CommandName_hold_position=停在原地
+UnitTypeName_cudgel_lady=棍棒女
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_cudgel=棍棒
+UnitTypeName_farm=農場
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cow=生產牛
+UnitTypeName_flyingvalkyrie=飛行女武神
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_house=房子
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=生產棍棒女兵
+CommandName_produce_spearman=生產矛兵
+# UnitTypeName_med_bar=med_bar
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=生產棍棒女兵
+CommandName_produce_spearman=生產矛兵
+# CommandName_research_med=research_med
+# UnitTypeName_mistletree=mistletree
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+# CommandName_air_on=air_on
+CommandName_attack_off=停止攻擊
+# CommandName_research_root=research_root
+CommandName_resurrect_wild_sow=復活野豬
+UnitTypeName_spearman=矛兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+CommandName_promote_to_spearman=升級為矛兵
+# UnitTypeName_spearman_berzerk=spearman_berzerk
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_swordman=劍士
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+CommandName_promote_to_swordman=提昇為劍士
+# UnitTypeName_swordman_berzerk=swordman_berzerk
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_thor=雷神
+; --------------------
+; Levels for this Unit
+LevelName_advanced=進階
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_throw=投擲
+CommandName_hold_position=停在原地
+UnitTypeName_thortotem=雷神圖騰
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_build_thor=建造雷神
+UnitTypeName_thrull=索爾獸
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_build_basic=建造
+CommandName_mine=採礦
+CommandName_harvest_wood=收穫木材
+CommandName_repair=修復
+UnitTypeName_valhalla=英靈殿
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_flyingvalkyrie=生產飛行女武神
+CommandName_produce_valkyrie=生產女武神
+CommandName_research_holy_valkyrie=研究女武神聖戰士
+UnitTypeName_valkyrie=女武神
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_airattack=空中攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_wild_sow=野豬
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+FactionName_persian=波斯人
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=玉米和柳條
+UpgradeTypeName_magic_level_1=魔法等級1
+UpgradeTypeName_magic_level_2=魔法等級2
+UpgradeTypeName_nails=釘
+UpgradeTypeName_shield=防護
+UpgradeTypeName_weapons=武器
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_blacksmith=鐵匠
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_weapons=升級武器
+# CommandName_upgrade_nails=upgrade_nails
+CommandName_upgrade_shield=防護升級
+UnitTypeName_elephant=大象
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_attack_arrow=攻擊箭頭
+CommandName_hold_position=停在原地
+UnitTypeName_elephant_cage=大象籠子
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_elephant=生產大象
+UnitTypeName_fakir=苦行僧
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_farm=農場
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_sheep=生產羊
+CommandName_research_corn_and_wicker=研究玉米和柳條
+UnitTypeName_flying_carpet=飛毯
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_magic_attack=魔法攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_genie=精靈
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_house=房子
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_fakir=生產苦行僧
+CommandName_produce_stickfighter=生產棍棒兵
+UnitTypeName_magician=魔法師
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_repair=修復
+CommandName_build_snake_basket=建造蛇籠
+CommandName_heal=治療
+CommandName_hold_position=停在原地
+UnitTypeName_minaret=尖塔
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_palace=宮殿
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=生產工人
+UnitTypeName_princess=王妃
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_sheep=羊
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+UnitTypeName_snake_basket=蛇籠
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_stickfighter=棍棒兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_swordman=劍士
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_temple=神廟
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_princess=生產王妃
+CommandName_produce_swordman=生產劍士
+UnitTypeName_tent=帳篷
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_genie=生產精靈
+CommandName_produce_flying_carpet=生產飛毯
+CommandName_produce_magician=生產魔法師
+CommandName_upgrade_magic_level_1=升級魔法師等級1
+CommandName_upgrade_magic_level_2=升級魔法師等級2
+UnitTypeName_worker=工人
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_attack=攻擊
+CommandName_move=移動
+CommandName_build_basic=建造
+CommandName_mine=採礦
+CommandName_harvest_wood=收穫木材
+CommandName_repair=修復
+FactionName_romans=羅馬人
+; ----------------------------------
+; Types of Upgrades for this Faction
+# UpgradeTypeName_advanced_architecture=advanced_architecture
+# UpgradeTypeName_bless_of_minerva=bless_of_minerva
+# UpgradeTypeName_enlarge_shields=enlarge_shields
+# UpgradeTypeName_formations=formations
+# UpgradeTypeName_jupiter=jupiter
+# UpgradeTypeName_reinforce_armor=reinforce_armor
+# UpgradeTypeName_sharpen_points=sharpen_points
+# UpgradeTypeName_sign_of_mars=sign_of_mars
+# UpgradeTypeName_strengthen_swords=strengthen_swords
+UpgradeTypeName_training_field=訓練場
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=弓箭手
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+# CommandName_get_fire_arrows=get_fire_arrows
+# UnitTypeName_axe_man=axe_man
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+# UnitTypeName_ballista=ballista
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+# UnitTypeName_battering_ram=battering_ram
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack_land=地面攻擊
+CommandName_attack_air=空中攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_blacksmith_shop=鐵匠鋪
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+# CommandName_strengthen_swords=strengthen_swords
+# CommandName_sharpen_points=sharpen_points
+# CommandName_reinforce_armor=reinforce_armor
+# CommandName_enlarge_shields=enlarge_shields
+# UnitTypeName_catapult=catapult
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_fire_ball=火球
+CommandName_hold_position=停在原地
+UnitTypeName_cavalry=騎兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+CommandName_promote_to_tribune=升級為護民官
+UnitTypeName_cow=乳牛
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+# UnitTypeName_eagle_pillar=eagle_pillar
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_fire_archer=火焰弓箭手
+; --------------------
+; Levels for this Unit
+# LevelName_accurate=accurate
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_forum=論壇
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=生產奴隸
+CommandName_produce_cow=生產牛
+UnitTypeName_general=將軍
+; --------------------
+; Levels for this Unit
+# LevelName_esteemed=esteemed
+# LevelName_grand=grand
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+# UnitTypeName_gladiator=gladiator
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack_land=地面攻擊
+CommandName_attack_air=空中攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_gladiator_school=鬥士學校
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_train_gladiator=訓練鬥士
+CommandName_produce_axe_man=生產斧兵
+UnitTypeName_guard=衛兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_guard_tower=守衛塔
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+# UnitTypeName_military_camp=military_camp
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+# CommandName_produce_cavalry=produce_cavalry
+# CommandName_produce_turtle_formation=produce_turtle_formation
+# CommandName_produce_general=produce_general
+# CommandName_produce_mechanic=produce_mechanic
+# CommandName_upgrade_advanced_architecture=upgrade_advanced_architecture
+# CommandName_upgrade_formations=upgrade_formations
+UnitTypeName_slave=奴隸
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_build_=建造
+CommandName_mine=採礦
+CommandName_harvest_wood=收穫木材
+CommandName_repair=修復
+UnitTypeName_spearman=矛兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_swordsman=劍士
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_temple=神廟
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+# CommandName_research_sign_of_mars=research_sign_of_mars
+# CommandName_research_jupiter=research_jupiter
+# CommandName_upgrade_bless_of_minerva=upgrade_bless_of_minerva
+# UnitTypeName_training_camp=training_camp
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearman=生產矛兵
+CommandName_produce_archer=生產弓箭手
+CommandName_produce_guard=衛兵
+CommandName_produce_swordsman=生產劍士
+CommandName_create_training_field=建立訓練場
+# UnitTypeName_tribune=tribune
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+# UnitTypeName_turtle_formation=turtle_formation
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+# UnitTypeName_wartime_mechanic=wartime_mechanic
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+CommandName_repair=修復
+CommandName_heal=治療
+# CommandName_build_catapult=build_catapult
+# CommandName_build_battering_ram=build_battering_ram
+# CommandName_build_ballista=build_ballista
+FactionName_tech=科技
+; ----------------------------------
+; Types of Upgrades for this Faction
+# UpgradeTypeName_advanced_architecture=advanced_architecture
+# UpgradeTypeName_blade_weapons=blade_weapons
+# UpgradeTypeName_piercing_weapons=piercing_weapons
+# UpgradeTypeName_robotics=robotics
+# UpgradeTypeName_shield_level_1=shield_level_1
+# UpgradeTypeName_shield_level_2=shield_level_2
+UpgradeTypeName_stables=馬厩
+UpgradeTypeName_training_field=訓練場
+; -------------------------------
+; Types of Units for this Faction
+# UnitTypeName_aerodrome=aerodrome
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+# CommandName_produce_ornithopter=produce_ornithopter
+# CommandName_produce_airship=produce_airship
+# UnitTypeName_air_ballista=air_ballista
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+# UnitTypeName_airship=airship
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+# CommandName_missile=missile
+CommandName_hold_position=停在原地
+UnitTypeName_archer=弓箭手
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_barracks=軍營
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=生產劍士
+CommandName_produce_archer=生產弓箭手
+CommandName_produce_guard=衛兵
+CommandName_produce_horseman=生產騎兵
+CommandName_create_training_field=建立訓練場
+# UnitTypeName_battle_machine=battle_machine
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_attack_arrow=攻擊箭頭
+CommandName_hold_position=停在原地
+UnitTypeName_blacksmith=鐵匠
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+# CommandName_upgrade_blade_weapons=upgrade_blade_weapons
+# CommandName_upgrade_piercing_weapons=upgrade_piercing_weapons
+CommandName_upgrade_shield=防護升級
+CommandName_upgrade_shield=防護升級
+UnitTypeName_castle=城堡
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=生產工人
+# UnitTypeName_catapult=catapult
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_fire_ball=火球
+CommandName_hold_position=停在原地
+UnitTypeName_cow=乳牛
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+# UnitTypeName_defense_tower=defense_tower
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=停止攻擊
+CommandName_attack_on=攻擊(開)
+UnitTypeName_farm=農場
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+# CommandName_produce_pig=produce_pig
+CommandName_produce_cow=生產牛
+CommandName_research_stables=研究馬厩
+UnitTypeName_guard=衛兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+UnitTypeName_horseman=騎兵
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+# UnitTypeName_ornithopter=ornithopter
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+# CommandName_molotov=molotov
+# CommandName_fire_arrow=fire_arrow
+CommandName_hold_position=停在原地
+# UnitTypeName_pig=pig
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+UnitTypeName_swordman=劍士
+; --------------------
+; Levels for this Unit
+LevelName_elite=精英
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_attack=攻擊
+CommandName_hold_position=停在原地
+# CommandName_promote_to_guard=promote_to_guard
+UnitTypeName_technician=工程師
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+# CommandName_build_ultimate=build_ultimate
+CommandName_repair=修復
+CommandName_heal=治療
+CommandName_mine_gold=採金礦
+# CommandName_molotov=molotov
+# CommandName_build_catapult=build_catapult
+# CommandName_build_battle_machine=build_battle_machine
+# CommandName_build_air_ballista=build_air_ballista
+# UnitTypeName_technodrome=technodrome
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_technician=生產工程師
+# CommandName_research_advanced_architecture=research_advanced_architecture
+# CommandName_research_robotics=research_robotics
+UnitTypeName_worker=工人
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移動
+CommandName_build_basic=建造
+# CommandName_build_advanced=build_advanced
+CommandName_mine=採礦
+CommandName_harvest_wood=收穫木材
+CommandName_repair=修復

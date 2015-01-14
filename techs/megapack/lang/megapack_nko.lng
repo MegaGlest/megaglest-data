@@ -1,0 +1,1443 @@
+TechTreeName=ߝߐߛߐ߲ߣߍ߲ߓߊ
+; --------------
+; Types of Armor
+ArmorTypeName_organic=ߞߍ߲ߘߍߟߞߊ
+ArmorTypeName_leather=ߟߏߞߌ
+ArmorTypeName_wood=ߟߐ߭
+ArmorTypeName_metal=ߣߍ߱
+ArmorTypeName_stone=ߞߓߊ
+; --------------
+; Types of Attack
+AttackTypeName_slashing=ߘߊߘߌߡߊ߲
+AttackTypeName_piercing=ߛߐ߰ߟߊ߲
+AttackTypeName_impact=ߡߊ߲߬ߕߙߐ
+AttackTypeName_energy=ߜߟߐߡߌ߲
+AttackTypeName_sword=ߝߊ߲߭
+AttackTypeName_arrow=ߕߊ߲߬ߓߊ
+AttackTypeName_magic=ߥߊ߬ߦߌ߬ߡߊ
+AttackTypeName_beat=ߞߟߍ߬
+; ------------------
+; Types of Resources
+ResourceTypeName_energy=ߜߟߐߡߌ߲
+ResourceTypeName_food=ߓߊߟߏ
+ResourceTypeName_gold=ߛߊߣߌ߲
+ResourceTypeName_housing=ߖߌ߬ߦߊ߬ߘߊ
+ResourceTypeName_stone=ߞߓߊ
+ResourceTypeName_wood=ߟߐ߭
+; -----------------
+; Types of Factions
+FactionName_egypt=ߡߌߛߌ߬ߙߊ߲߬
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=ߙߊ_ߟߊ߫_ߛߋ
+UpgradeTypeName_spear_weapons=ߟߊ߬ߛߋ߬ߙߌ߬ߟߌ߬_ߞߟߍߟߊ߲_ߠߎ߬
+UpgradeTypeName_speedup_priest_production=ߕߎ߬ߡߏ߬ߙߌ߬_ߟߊߥߟߏ_ߟߊߜߘߏ߫
+UpgradeTypeName_summon_ibis=ߞߐ߬ߣߐߛߍ߬ߙߍ_ߘߊߟߌ߫
+UpgradeTypeName_summon_scarab=ߓߏ߬ߕߊ߬ߞߓߐ_ߘߊߟߌ߫
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_air_pyramid=ߞߌߙߌ߲ߓߏ߲_ߜߊ߲ߠߌ߲ߠߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_anubis_warrior=ߊߣߎ߳ߓߌߛ_ߞߟߍ߬ߘߋ߲
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_chicken=ߛߌ߬ߛߍ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+UnitTypeName_desert_camp=ߕߌ߬ߢߍ߬ߞߏ߲ߞߏ_ߘߊ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearthrower=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_upgrade_spear_weapons=ߟߊ߬ߛߋ߬ߙߌ߬ߟߌ߬_ߞߟߍߟߊ߲_ߟߊߢߊ߬
+UnitTypeName_farm=ߛߣߍ߬ߘߎ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_chicken=ߛߌ߬ߛߍ_ߟߊߥߟߏ߫
+UnitTypeName_ibis=ߞߐ߬ߣߐߛߍ߬ߙߍ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_mummy=ߛߎ߬ߖߊߙߊ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_obelisk=ߟߞߋߟߞߋߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_scarab=ߓߏ߬ߕߊ߬ߞߓߐ_ߟߊߥߟߏ߫
+CommandName_produce_snake=ߛߊ߭_ߟߊߥߟߏ߫
+CommandName_produce_ibis=ߞߐ߬ߣߐߛߍ߬ߙߍ_ߟߊߥߟߏ߫
+UnitTypeName_priest=ߕߎ߬ߡߏߙߌ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_speedup_priest_production=ߕߎ߬ߡߏ߬ߙߌ߬_ߟߊߥߟߏ߫_ߘߐߜߊ߬
+CommandName_heal=ߊ߬_ߘߊ߲ߘߊ߫
+CommandName_produce_mummy=ߛߎ߬ߖߊߙߊ߲_ߠߊߥߟߏ߫
+CommandName_produce_anubis_warrior=ߞߐ߬ߢߍ߲߬_ߞߟߍߘߋ߲_ߠߊߥߟߏ߫
+CommandName_ice_nova=ߟߏ߬ߟߏ߬ߓߊ_ߖߌߞߓߊ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_pyramid=ߞߌߙߌ߲ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=ߖߐ߲߭_ߠߊߥߟߏ߫
+UnitTypeName_scarab=ߓߏ߬ߕߊ߬ߞߓߐ
+; --------------------
+; Levels for this Unit
+LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
+LevelName_master=ߞߎ߲߬ߕߌ߮
+LevelName_legendary=ߡߍ߲ߢߐ߲߯ߠߊߟߞߊ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_dung_attack=ߓߐߒߣߘߐߟߌ_ߡߊ߬ߓߏ߲߬ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_slave=ߖߐ߲߭
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_build_basic=ߘߎ߰ߟߊ߬_ߓߏ߲_ߟߐ߬
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+CommandName_mine=ߘߊ߬ߡߊ߲
+CommandName_harvest_wood=ߟߐ߮_ߕߍ߰
+UnitTypeName_snake=ߛߊ߭
+; --------------------
+; Levels for this Unit
+LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
+LevelName_master=ߞߎ߲߬ߕߌ߮
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_poison_shot=ߓߊ߭_ߘߊߣߐ߮
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_spearthrower=ߕߎ߲߬ߕߎ߲߬ߠߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_sphinx=ߥߘߊߡߐ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_temple=ߓߊ߬ߕߏ߬ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_priest=ߕߎ߬ߡߏߙߌ_ߟߊߥߟߏ߫
+CommandName_research_scarab=ߓߏ߬ߕߊ߬ߞߓߐ_ߢߌߣߌ߲߫
+CommandName_research_ibis=ߞߐ߬ߣߐߛߍ߬ߙߌ_ߢߌߣߌ߲߫
+CommandName_get_power_of_ra=ߙߊ_ߟߊ߫_ߛߋ_ߛߋ߬ߘߐ߲߬
+FactionName_indian=ߌ߲ߘߎߞߊ
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_bullfood=ߕߎߙߓߊߟߏ
+UpgradeTypeName_iron=ߣߍ߱
+UpgradeTypeName_iron_advanced=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲
+UpgradeTypeName_petroleum=ߕߟߎ
+UpgradeTypeName_stables=ߛߏ߬ߛߟߎ ߟߎ߬
+UpgradeTypeName_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬ ߘߊ߮
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=ߞߟߊߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_axe_indian=ߌ߲ߘߎߞߊ_ߣߌ߫_ߕߋ߰ߙߊ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_axe_thrower=ߕߋ߰ߙߊ߲߬_ߝߟߌ߬ߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_beehive=ߜߏ߬ߞߊ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_bigtent=ߕߝߊߟߓߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=ߞߟߋ߬ߘߋ߲߬_ߣߙߊߣߍ߲ߢߐ߲߰ߡߊ_ߟߊߥߟߏ߫
+CommandName_produce_archer=ߞߟߊߕߌ߮_ߟߊߥߟߏ߫
+UnitTypeName_bull=ߕߎߙߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_campfire=ߘߊ߯ߕߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_firegolem=ߕߟߊߞߛߌ_ߟߊߥߟߏ߫
+CommandName_research_iron=ߣߍ߱_ߢߌߣߌ߲߫
+CommandName_research_iron_advanced=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲_ߢߌߣߌ߲߫
+UnitTypeName_fire_archer=ߞߟߊߕߌ߮_ߕߊߕߊ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_firegolem=ߕߟߊߞߛߌ
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_horsefarm=ߢߐ߯ߡߍ߫_ߞߟߏߟߌ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_horseman=ߛߏ߬ߟߊ_ߟߊߥߟߏ߫
+CommandName_produce_bull=ߕߎߙߊ_ߟߊߥߟߏ߫
+CommandName_research_stables=ߛߏ߬ߛߟߎ_ߢߌߣߌ߲߫
+UnitTypeName_horseman=ߛߏ߬ߟߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_mainteepee=ߕߙߏ߬ߞߋ߬ߕߝߊߟߊ_ߓߘߍ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=ߓߊ߯ߙߟߊ_ߟߊߥߟߏ߫
+UnitTypeName_reed=ߜߊ߬ߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_bullfood=ߕߎߙߊ_ߓߊߟߏ_ߢߌߣߌ߲߫
+UnitTypeName_roundtent=ߕߙߏ߬ߞߋ߬ߕߝߊߟߊ_ߞߏ߰ߙߌ߬ߟߊ߬ߡߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_axe_indian=ߌ߲ߘߎߞߊ_ߕߋ߰ߙߊ߲߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_axe_thrower=ߕߋ߰ߙߊ߲߬_ߝߟߌ߬ߟߊ_ߟߊߥߟߏ߫
+CommandName_produce_fire_archer=ߞߟߊߕߌ߮_ߕߊߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_create_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬_ߘߊ߮_ߛߌ߲ߘߌ߫
+UnitTypeName_shaman=ߡߐ߰ߘߐ߬ߜߍ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+CommandName_heal=ߊ߬_ߘߊ߲ߘߊ߫
+CommandName_molotov=ߡߟߏߕߏߝ߭
+CommandName_produce_thunderbird=ߛߊ߲ߞߟߎߞߣߐ_ߟߊߥߟߏ߫
+CommandName_build_beehive=ߜߏ߲߬ߞߊ߲_ߟߐ߬
+UnitTypeName_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_guardian=ߞߣߐ߬ߜߍ߲߬ߠߊ
+LevelName_chief=ߢߍߡߐ߮
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_stickfighter=ߞߟߍ߬ߘߋ߲߬_ߣߙߊߣߍ߲ߢߐ߲߰ߠߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_tent=ߕߙߏ߬ߞߋ߬ߕߝߊߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=ߞߟߋ߬ߘߋ߲߬_ߣߙߊߣߍ߲ߢߐ߲߰ߡߊ_ߟߊߥߟߏ߫
+UnitTypeName_thunderbird=ߛߊ߲ߞߟߎߞߣߐ
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_throw=ߛߊߙߌ
+CommandName_breath=ߝߢߐ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_totem=ߕߊ߬ߣߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_air_on=ߝߢߐ_ߘߐ߫
+CommandName_research_petroleum=ߕߟߎ_ߢߌߣߌ߲߫
+CommandName_produce_shaman=ߡߐ߰ߘߐ߬ߜߍ_ߟߊߥߟߏ߫
+UnitTypeName_worker=ߓߊ߯ߙߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_build_basic=ߘߎ߰ߟߊ߬_ߓߏ߲_ߟߐ߬
+CommandName_mine=ߘߊ߬ߡߊ߲
+CommandName_harvest_wood=ߟߐ߮_ߕߍ߰
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+FactionName_magic=ߥߊ߬ߦߌ߬ߡߊ߬ߦߊ
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=ߞߊ߬ߞߘߐ߬_ߡߊ߰ߙߌ߬ߕߙߊ
+UpgradeTypeName_dragon_call=ߣߊ߲߬ߞߌ߲_ߞߟߌ߫
+UpgradeTypeName_energy_compression=ߜߟߐߡߌ߲_ߟߊߛߘߌ߬ߟߌ
+UpgradeTypeName_energy_sharpening=ߜߟߐߡߌ߲_ߖߛߐߟߌ
+UpgradeTypeName_golem_power=ߟߊߞߛߌ_ߛߋߕߌ߮
+UpgradeTypeName_hell_gate=ߡߍ߲ߜߏߦߊ߫_ߘߏ߲߬ߘߊ
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archmage=ߊߙߛߌߡߊߖ߭
+; --------------------
+; Levels for this Unit
+LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
+LevelName_master=ߞߎ߲߬ߕߌ߮
+LevelName_legendary=ߡߍ߲ߢߐ߲߯ߠߊߟߞߊ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_ice_nova=ߟߏ߬ߟߏ߬ߓߊ_ߖߌߞߓߊ
+CommandName_static_fire=ߕߊ߫_ߡߝߊߣߍ߲
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_archmage_tower=ߊߙߛߌߡߊߖ߭_ߓߏ߲ߖߊ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_dragon_call=ߣߊ߲߬ߞߌ߲߬_ߞߟߌ_ߢߌߣߌ߲߫
+CommandName_golem_power=ߟߊߞߛߌ_ߛߋߕߌ߮
+UnitTypeName_battlemage=ߛߙߍߥߊ
+; --------------------
+; Levels for this Unit
+LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
+LevelName_master=ߞߎ߲߬ߕߌ߮
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_fire_bolt=ߦߋߟߋ߲_ߓߟߌߓߟߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_archmage=ߊߙߛߌߡߊߖ߭_ߟߊߥߟߏ߫
+UnitTypeName_behemoth=ߓߤߋߡߐߕ
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_daemon=ߜߍ߬ߘߍ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_dragon=ߣߊ߲߬ߞߌ߲
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_breath=ߝߢߐ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_evil_dragon=ߊ߬_ߞߏߝߐ߫_ߣߊ߲߬ߞߌ߲߫_ߣߙߐ߬ߖߎ߮_ߘߌ߫
+UnitTypeName_drake_rider=ߘߏ߬ߞߎ߫_ߕߣߍ߬ߣߍ߬ߟߌ߬ߟߊ
+; --------------------
+; Levels for this Unit
+LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
+LevelName_master=ߞߎ߲߬ߕߌ߮
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_fire_breath=ߕߊ_ߟߊ߫_ߝߢߐ
+CommandName_flare=ߕߊ߫_ߝߙߍߢߍ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_energy_source=ߜߟߐߡߌ߲_ߛߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+UnitTypeName_evil_dragon=ߣߊ߲߬ߞߌ߲߫_ߣߙߐ߬ߖߎ߮
+; --------------------
+; Levels for this Unit
+LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_breath=ߝߢߐ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_ghost_armor=ߛߎߜߏ߰ߙߏ߬_ߞߟߍߟߊ߲
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_golem=ߟߊߞߛߌ
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_power_golem=ߊ߬_ߛߘߊߟߊ߫_ߟߊߞߛߌ_ߛߋ_ߟߊ߫
+UnitTypeName_initiate=ߗߍ߬ߓߦߊ߬ߣߍ߲߬
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+CommandName_build=ߓߏ߲ߟߐ
+CommandName_ritual=ߥߎ߬ߘߎ
+CommandName_mine=ߘߊ߬ߡߊ߲
+CommandName_harvest=ߊ߬ ߟߊߘߊ߲߫
+CommandName_promote_to_battlemage=ߊ߬_ߞߍ߫_ߛߙߍߥߊ_ߘߌ߫
+UnitTypeName_library=ߟߍߙߊߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_energy_compression=ߜߟߐߡߌ߲߫_ߕߢߐ߬ߣߍ߲_ߢߌߣߌ߲߫
+CommandName_research_energy_sharpening=ߜߟߐߡߌ߲߫_ߢߌߣߌ߲߫_ߘߊߘߌߦߊߟߌ
+CommandName_research_hell_gate=ߡߍ߲ߜߏߦߊ_ߘߊ_ߢߌߣߌ߲߫
+UnitTypeName_mage_tower=ߥߊ߬ߦߌ߲߬_ߖߌ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_initiate=ߗߍ߬ߓߦߊ߬ߣߍ߲_ߠߊߥߟߏ߫
+UnitTypeName_power_golem=ߟߊߞߛߌߟߊ߫_ߛߋߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_summoner=ߘߊߟߌߟߌߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_flare=ߕߊ߫_ߝߙߍߢߍ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_summon_daemon=ߜߍ߬ߘߍ_ߘߊߟߌ߫
+CommandName_summon_ghost_armor=ߛߎ߬ߜߏ߯ߙߏ_ߟߊ߫_ߞߟߍ߬ߟߊ߲_ߘߊߟߌ߫
+CommandName_summon_dragon=ߣߊ߲߬ߞߌ߲_ߘߊߟߌ߫
+CommandName_summon_drake=ߘߏ߬ߞߎ_ߘߊߟߌ߫
+UnitTypeName_summoner_guild=ߕߋߙߌߦߊ_ߘߊߟߌߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_summoner=ߘߊߟߌߟߌߟߊ_ߟߊߥߟߏ߫
+CommandName_research_ancient_summoning=ߘߊߟߌߟߌߟߊ_ߟߊߥߟߏ߫
+UnitTypeName_tower_of_souls=ߣߌ_ߟߎ߬_ߟߊ߫_ߓߏ߲ߖߊ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_wicker_behemoth=ߘߊ߬ߟߋ߲_ߓߤߋߡߎ߫
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_promote_to_behemoth=ߓߤߋߡߎ_ߟߊߥߊ߲߬ߞߊ߬
+FactionName_norsemen=ߞߐ߰ߘߎ߰ߡߐ߮
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲
+UpgradeTypeName_arrow=ߕߊ߲߬ߓߊ
+UpgradeTypeName_holy_valkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߞߣߍߡߊ
+UpgradeTypeName_iron=ߣߍ߱
+UpgradeTypeName_med=ߟߖߌ
+UpgradeTypeName_root=ߟߌߟߌ߲
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=ߞߟߊߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_axe_thrower=ߕߋ߰ߙߊ߲߬_ߝߟߌ߬ߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_battleaxe=ߞߟߍ߬ߘߋ߲߬ߓߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_promote_to_battleaxe=ߞߟߍ߬ߘߋ߲߬ߓߊ_ߟߊߥߊ߲߬ߞߊ߬
+UnitTypeName_battleaxe_berzerk=ߞߟߍ߬ߘߋ߲߬ߓߊ_ߓߍߙߑߖ߭ߍߞ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+UnitTypeName_blacksmith=ߣߎ߬ߡߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_iron=ߣߍ߱_ߟߊߢߊ߬
+CommandName_upgrade_arrow=ߕߊ߲߬ߓߊ_ߟߊߢߊ߬
+CommandName_upgrade_advanced_iron=ߣߍ߰_ߘߐߓߍ߲߬ߣߍ߲_ߟߊߢߊ߬
+CommandName_produce_crossbow=ߘߎ߰ߓߌߢߍ_ߟߊߥߟߏ߫
+UnitTypeName_bone_tent=ߞߟߏ߫_ߕߝߊߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=ߝߊ߲߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_archer=ߞߟߊߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_battleaxe=ߞߟߍ߬ߘߋ߲_ߠߊߥߟߏ߫
+CommandName_produce_axe_thrower=ߕߋ߰ߙߊ߲߬_ߝߟߌ߬ߟߊ_ߟߊߥߟߏ߫
+UnitTypeName_castle=ߖߌ߲߱
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_thrull=ߕߙߎߟ_ߟߊߥߟߏ߫
+UnitTypeName_cow=ߡߌ߬ߛߌ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+UnitTypeName_crossbow=ߘߎ߰ߓߌߢߍ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack_arrow=ߕߊ߲߬ߓߊ߬_ߟߊ߬ߝߟߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_cudgel_lady=ߓߐ߬ߟߐ߲߬ߞߊ_ߜߟߋ߬ߞߋ߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_cudgel=ߜߟߋ߬ߞߋ
+UnitTypeName_farm=ߛߣߍ߬ߘߎ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cow=ߡߌ߬ߛߌ_ߟߊߥߟߏ߫
+UnitTypeName_flyingvalkyrie=ߝߊ߭ߞߙߌ߫_ߜߊ߲ߣߌ߲ߠߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_house=ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=ߓߐ߬ߟߐ߲߬ߞߊ_ߜߟߋ߬ߞߋ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߟߏ߫
+UnitTypeName_med_bar=ߟߌߡߌ߲ߝߋ߲_ߡߌ߲߬ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=ߓߐ߬ߟߐ߲߬ߞߊ_ߜߟߋ߬ߞߋ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_research_med=ߟߌߡߌ߲ߝߋ߲_ߢߌߣߌ߲߫
+UnitTypeName_mistletree=ߣߎ߬ߡߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_air_on=ߝߢߐ_ߘߐ߫
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_research_root=ߟߌߟߌ߲_ߢߌߣߌ߲߫
+CommandName_resurrect_wild_sow=ߞߏ߲ߞߏ_ߞߐ߬ߛߍ߬_ߡߛߏ_ߟߊߣߌߡߦߊ߫
+UnitTypeName_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߊ߲߬ߞߊ߬
+UnitTypeName_spearman_berzerk=ߓߍߙߑߖ߭ߍߞ_ߕߊ߲߬ߓߊ߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_swordman=ߝߊ߲߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_swordman=ߝߊ߲߬ߕߌ߮_ߟߊߥߊ߲߬ߞߊ߬
+UnitTypeName_swordman_berzerk=ߝߊ߲߬ߓߌ߮_ߓߍߙߑߖ߭ߍߞ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_thor=ߕߐߙ
+; --------------------
+; Levels for this Unit
+LevelName_advanced=ߢߍߕߊ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_throw=ߛߊߙߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_thortotem=ߕߐߙ_ߕߊ߬ߣߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_build_thor=ߕߐߙ_ߟߐ߬
+UnitTypeName_thrull=ߕߙߎߟ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_build_basic=ߘߎ߰ߟߊ߬_ߓߏ߲_ߟߐ߬
+CommandName_mine=ߘߊ߬ߡߊ߲
+CommandName_harvest_wood=ߟߐ߮_ߕߍ߰
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+UnitTypeName_valhalla=ߝ߭ߊߟߑߤߟߊ߫
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_flyingvalkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߜߊ߲ߠߌ߲ߠߊ_ߟߊߥߟߏ߫
+CommandName_produce_valkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߟߊߥߟߏ߫
+CommandName_research_holy_valkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߞߍ߲ߘߍ_ߢߌߣߌ߲߫
+UnitTypeName_valkyrie=ߝ߭ߊߟߑߞߙߌ߫
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_airattack=ߛߊ߲ߡߊ߫_ߞߟߍ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_wild_sow=ߞߏ߲ߞߏ_ߞߐ߬ߛߍ߬ߡߛߏ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+FactionName_persian=ߞߍߙߑߛߌ
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=ߢߐ߱_ߣߌ߫_ߘߊ߬ߟߋ߲
+UpgradeTypeName_magic_level_1=ߥߊ߬ߦߌ߬ߡߊ߬ߦߊ_ߞߊߓߋ߫_߁߭
+UpgradeTypeName_magic_level_2=ߥߊ߬ߦߌ߬ߡߊ߬ߦߊ_ߞߊߓߋ߫_߂߲
+UpgradeTypeName_nails=ߛߏ߬ߙߌ߲_ߠߎ߬
+UpgradeTypeName_shield=ߞߐ߬ߘߙߍ
+UpgradeTypeName_weapons=ߞߟߍ߬ߟߊ߲ ߠߎ߬
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_blacksmith=ߣߎ߬ߡߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_weapons=ߞߟߍ߬ߟߊ߲_ߘߟߊߛߋ߫
+CommandName_upgrade_nails=ߛߏ߬ߙߌ߲_ߘߟߊߛߋ߫
+CommandName_upgrade_shield=ߞߐ߬ߘߙߍ_ߘߟߊߛߋ߫
+UnitTypeName_elephant=ߛߋ߲߬ߓߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_attack_arrow=ߕߊ߲߬ߓߊ߬_ߟߊ߬ߝߟߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_elephant_cage=ߛߋ߲߬ߓߊ_ߟߊ߫_ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_elephant=ߛߋ߲߬ߓߊ_ߟߊߥߟߏ߫
+UnitTypeName_fakir=ߝߊߞߌߙ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_farm=ߛߣߍ߬ߘߎ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_sheep=ߛߊ߱_ߟߊߥߟߏ߫
+CommandName_research_corn_and_wicker=ߢߐ߱_ߣߌ߫_ߘߊ߬ߟߋ߲_ߢߌߣߌ߲߫
+UnitTypeName_flying_carpet=ߘߎ߰ߓߍ߲߬_ߜߊ߲ߠߌ߲ߠߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_magic_attack=ߥߊ߬ߦߌ߬ߡߊ߬_ߞߟߍ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_genie=ߛߟߐߡߌ߲
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_house=ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_fakir=ߝߊߞߌߙ_ߟߊߥߟߏ߫
+CommandName_produce_stickfighter=ߞߟߋ߬ߘߋ߲߬_ߣߙߊߣߍ߲ߢߐ߲߰ߡߊ_ߟߊߥߟߏ߫
+UnitTypeName_magician=ߥߊ߬ߦߌ߲߬ߡߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+CommandName_build_snake_basket=ߛߊ߬_ߛߊߦߌ_ߘߐߓߍ߲߬
+CommandName_heal=ߊ߬_ߘߊ߲ߘߊ߫
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_minaret=ߛߙߐߕߐ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_palace=ߝߡߊ߬ߖߌߦߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=ߓߊ߯ߙߟߊ_ߟߊߥߟߏ߫
+UnitTypeName_princess=ߡߊ߲߬ߛߊ߬ߘߋ߲߬ ߡߛߏ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_sheep=ߛߊ߱
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+UnitTypeName_snake_basket=ߛߊ߬_ߛߊߦߌ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_stickfighter=ߞߟߍ߬ߘߋ߲߬_ߣߙߊߣߍ߲ߢߐ߲߰ߠߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_swordman=ߝߊ߲߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_temple=ߓߊ߬ߕߏ߬ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_princess=ߡߊ߬ߛߊ߬ߘߋ߲_ߠߊߥߟߏ߫
+CommandName_produce_swordman=ߝߊ߲߬ߕߌ߮_ߟߊߥߟߏ߫
+UnitTypeName_tent=ߕߙߏ߬ߞߋ߬ߕߝߊߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_genie=ߥߐ߬ߞߎߟߐ_ߟߊߥߟߏ߫
+CommandName_produce_flying_carpet=ߘߎ߰ߓߍ߲߬_ߜߊ߲ߠߌ߲ߠߊ_ߟߊߥߟߏ߫
+CommandName_produce_magician=ߥߊ߬ߦߌ߬ߡߊ_ߟߊߥߟߏ߫
+CommandName_upgrade_magic_level_1=ߥߊ߬ߦߌ߬ߡߊ߬ߦߊ_ߞߊߓߋ_߁߭_ߟߊߢߊ߬
+CommandName_upgrade_magic_level_2=ߥߊ߬ߦߌ߬ߡߊ߬ߦߊ_ߞߊߓߋ_߂߲_ߠߊߢߊ߬
+UnitTypeName_worker=ߓߊ߯ߙߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_build_basic=ߘߎ߰ߟߊ߬_ߓߏ߲_ߟߐ߬
+CommandName_mine=ߘߊ߬ߡߊ߲
+CommandName_harvest_wood=ߟߐ߮_ߕߍ߰
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+FactionName_romans=ߙߏ߬ߡߎ߲߬ߞߊ_ߟߎ߬
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=ߟߐ߬ߒߡߊ_ߢߝߍߕߊ
+UpgradeTypeName_bless_of_minerva=ߞߎ߲߬ߘߐ߬ߡߌߣߊ_ߟߊ߫_ߕߌ߲ߞߌ
+UpgradeTypeName_enlarge_shields=ߞߐ߬ߘߙߍ_ߟߊߓߏ߲߬ߧߊ߬
+UpgradeTypeName_formations=ߟߊ߬ߘߊ߲߬ߠߌ ߟߎ߬
+UpgradeTypeName_jupiter=ߝߌ߲߬ߕߐ߲
+UpgradeTypeName_reinforce_armor=ߞߟߍ߬ߟߊ߲_ߞߐߞߘߐߘߏ߲߬
+UpgradeTypeName_sharpen_points=ߜߊ߲ߜߊ߲ߠߊ_ߣߎ߲ߠߊߓߐ߫
+UpgradeTypeName_sign_of_mars=ߤߐߞߎ_ߕߐ߬ߡߊ߬ߛߙߋ
+UpgradeTypeName_strengthen_swords=ߝߊ߲߭_ߟߊߢߊ߬
+UpgradeTypeName_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬ ߘߊ߮
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_archer=ߞߟߊߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_get_fire_arrows=ߕߊ߲߬ߓߊ߬_ߕߡߊ_ߛߐ߬ߘߐ߲߬
+UnitTypeName_axe_man=ߕߊ߲ߓߊ߲_ߡߐ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_ballista=ߓߊ߰ߖߍ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_battering_ram=ߛߍ߬ߡߍ_ߛߊ߰ߖߌ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack_land=ߘߎ߰ߡߊ߬_ߞߟߍ
+CommandName_attack_air=ߛߊ߲ߡߊ߫_ߞߟߍ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_blacksmith_shop=ߝߊ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_strengthen_swords=ߝߊ߲߭_ߘߐߜߟߌߦߊ߫
+CommandName_sharpen_points=ߜߊ߲ߜߊ߲ߠߊ_ߣߎ߲ߠߊߓߐ߫
+CommandName_reinforce_armor=ߞߟߍ߬ߝߋ߲_ߘߐߜߟߌߦߊ߫
+CommandName_enlarge_shields=ߞߐ߬ߘߙߍ_ߟߊߓߏ߲߬ߧߊ߬
+UnitTypeName_catapult=ߡߎ߯ߞߎߟߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_fire_ball=ߕߊ߫_ߞߘߎ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_cavalry=ߛߏ߬ߟߊ߬ߦߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_tribune=ߊ߬_ߦߟߍ߬ߡߊ߲߬_ߡߊ߬ߞߊ߲߬ߞߊ߲߬ߠߊ_ߘߌ߫
+UnitTypeName_cow=ߡߌ߬ߛߌ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+UnitTypeName_eagle_pillar=ߓߌߓߌ߫_ߓߟߋߓߟߋ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_fire_archer=ߞߟߊߕߌ߮_ߕߊߕߊ߮
+; --------------------
+; Levels for this Unit
+LevelName_accurate=ߖߐ߲ߖߐ߲
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_forum=ߞߎ߲߬ߜߙߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=ߖߐ߲߭_ߠߊߥߟߏ߫
+CommandName_produce_cow=ߡߌ߬ߛߌ_ߟߊߥߟߏ߫
+UnitTypeName_general=ߝߘߏ߬ߓߊ
+; --------------------
+; Levels for this Unit
+LevelName_esteemed=ߖߌ߰ߣߍ߲
+LevelName_grand=ߓߏ߲߬ߓߊ߬ߓߊ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_gladiator=ߥߘߊߞߟߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack_land=ߘߎ߰ߡߊ߬_ߞߟߍ
+CommandName_attack_air=ߛߊ߲ߡߊ߫_ߞߟߍ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_gladiator_school=ߥߘߊߞߟߊ_ߞߊ߬ߙߊ߲߬ߕߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_train_gladiator=ߥߘߊߞߟߊ_ߡߊߞߊ߬ߙߊ߲߬ߢߊ߬
+CommandName_produce_axe_man=ߕߊ߲ߓߊ߲_ߡߐ߮_ߟߊߥߟߏ߫
+UnitTypeName_guard=ߞߣߐ߬ߜߍ߲߬ߘߋ߲
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_guard_tower=ߞߣߐ߬ߜߍ߲߬ߘߋ߲_ߠߊ߫_ߖߌ߲߭
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_military_camp=ߛߏ߬ߙߌ߬ߡߊ߬ߘߋ߲߬_ߘߊ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_cavalry=ߛߏ߬ߟߊ߬ߡߛߏ_ߟߊߥߟߏ߫
+CommandName_produce_turtle_formation=ߞߏ߲߬ߞߏ߲߬ߛߏ߬ߘߊ߬_ߟߊߘߊ߲_ߠߊߥߟߏ߫
+CommandName_produce_general=ߞߟߍ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_mechanic=ߕߙߏ߬ߞߏ߬_ߛߋߒߞߏߟߊ_ߟߊߥߟߏ߫
+CommandName_upgrade_advanced_architecture=ߟߐ߬ߒߡߊ_ߢߝߍߕߊ_ߟߏ߲ߘߐߦߊ߫
+CommandName_upgrade_formations=ߟߊ߬ߞߐ߰ߟߌ_ߟߊߢߊ߬
+UnitTypeName_slave=ߖߐ߲߭
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_build_=ߊ߬_ߟߐ߬_
+CommandName_mine=ߘߊ߬ߡߊ߲
+CommandName_harvest_wood=ߟߐ߮_ߕߍ߰
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+UnitTypeName_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_swordsman=ߝߊ߲߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_temple=ߓߊ߬ߕߏ߬ߓߏ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_research_sign_of_mars=ߤߐߞߎ_ߕߐ߬ߡߊ߬ߛߙߋ_ߢߌߣߌ߲߫
+CommandName_research_jupiter=ߝߌ߲߬ߕߐ߲_ߢߌߣߌ߲߫
+CommandName_upgrade_bless_of_minerva=ߞߎ߲߬ߘߐ߬ߡߌߘߊ_ߟߊ߫_ߕߌ߲ߞߌ_ߟߊߢߊ߬
+UnitTypeName_training_camp=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬_ߘߊ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_archer=ߞߟߊߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_guard=ߞߣߐ߬ߜߍ߲߬ߘߋ߲_ߠߊߥߟߏ߫
+CommandName_produce_swordsman=ߝߊ߲߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_create_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬_ߘߊ߮_ߛߌ߲ߘߌ߫
+UnitTypeName_tribune=ߓߊ߲ߓߋ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_turtle_formation=ߞߏ߲߬ߞߏ߬ߛߏߘߊ_ߟߊߘߊ߲߫
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_wartime_mechanic=ߕߙߏ߬ߞߏ߬_ߛߋߒߞߏߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+CommandName_heal=ߊ߬_ߘߊ߲ߘߊ߫
+CommandName_build_catapult=ߡߎ߯ߞߎߟߎ߲_ߟߐ߬
+CommandName_build_battering_ram=ߛߍ߬ߡߍ_ߛߊ߰ߖߌ_ߟߊߘߊ߲߫
+CommandName_build_ballista=ߓߊ߰ߖߍ߮_ߟߊߘߊ߲߫
+FactionName_tech=ߛߋߒߞߏߟߦߊ
+; ----------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=ߟߐ߬ߒߡߊ_ߢߝߍߕߊ
+UpgradeTypeName_blade_weapons=ߞߟߍ߬ߟߊ߲߬_ߘߡߊ
+UpgradeTypeName_piercing_weapons=ߛߐ߰ߟߌ߬_ߞߟߍߟߊ߲
+UpgradeTypeName_robotics=ߡߐ߰ߡߐ߰ߟߡߊ
+UpgradeTypeName_shield_level_1=ߞߐ߬ߘߙߍ_ߞߊߓߋ߫_ߝߟߐ߫
+UpgradeTypeName_shield_level_2=ߞߐ߬ߘߙߍ_ߞߊߓߋ߫_߂߲
+UpgradeTypeName_stables=ߛߏ߬ߛߟߎ ߟߎ߬
+UpgradeTypeName_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬ ߘߊ߮
+; -------------------------------
+; Types of Units for this Faction
+UnitTypeName_aerodrome=ߛߊ߲ߡߊߘߊ߲ߣߍ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_ornithopter=ߣߊ߯ߣߊ߯ߣߍ߲_ߠߊߥߟߏ߫
+CommandName_produce_airship=ߝߙߎߝߙߎߟߊ_ߟߊߥߟߏ߫
+UnitTypeName_air_ballista=ߓߊ߰ߖߍ߮_ߝߢߐ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_airship=ߝߙߎߝߙߎߟߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_missile=ߝߏ߬ߦߌ߬ߕߊ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_archer=ߞߟߊߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_barracks=ߞߟߍ߬ߘߋ߲߬ߓߏ߲ ߠߎ߬
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=ߝߊ߲߬ߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_archer=ߞߟߊߕߌ߮_ߟߊߥߟߏ߫
+CommandName_produce_guard=ߞߣߐ߬ߜߍ߲߬ߘߋ߲_ߠߊߥߟߏ߫
+CommandName_produce_horseman=ߛߏ߬ߟߊ_ߟߊߥߟߏ߫
+CommandName_create_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬_ߘߊ߮_ߛߌ߲ߘߌ߫
+UnitTypeName_battle_machine=ߞߟߍ߬ߞߍ߬_ߕߙߏߞߏ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_attack_arrow=ߕߊ߲߬ߓߊ߬_ߟߊ߬ߝߟߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_blacksmith=ߣߎ߬ߡߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_upgrade_blade_weapons=ߞߟߍ߬ߟߊ߲߬_ߡߍߣߍ߲ߡߊ_ߟߎ߬_ߘߊߘߌߦߊ߫
+CommandName_upgrade_piercing_weapons=ߛߐ߰ߟߌ߬_ߞߟߍߟߊ߲_ߣߎ߲ߠߊߓߐ߫
+CommandName_upgrade_shield=ߞߐ߬ߘߙߍ_ߘߟߊߛߋ߫
+CommandName_upgrade_shield=ߞߐ߬ߘߙߍ_ߘߟߊߛߋ߫
+UnitTypeName_castle=ߖߌ߲߱
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=ߓߊ߯ߙߟߊ_ߟߊߥߟߏ߫
+UnitTypeName_catapult=ߡߎ߯ߞߎߟߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_fire_ball=ߕߊ߫_ߞߘߎ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_cow=ߡߌ߬ߛߌ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+UnitTypeName_defense_tower=ߟߊ߬ߞߣߊ߬ߟߌ߬_ߓߏ߲ߖߊ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
+UnitTypeName_farm=ߛߣߍ߬ߘߎ߮
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_pig=ߞߐ߬ߛߍ_ߟߊߥߟߏ߫
+CommandName_produce_cow=ߡߌ߬ߛߌ_ߟߊߥߟߏ߫
+CommandName_research_stables=ߛߏ߬ߛߟߎ_ߢߌߣߌ߲߫
+UnitTypeName_guard=ߞߣߐ߬ߜߍ߲߬ߘߋ߲
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_horseman=ߛߏ߬ߟߊ
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_ornithopter=ߣߊ߯ߣߊ߯ߣߍ߲
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_molotov=ߡߟߏߕߏߝ߭
+CommandName_fire_arrow=ߕߊ߲߬ߓߊ߬_ߕߡߊ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+UnitTypeName_pig=ߞߐ߬ߛߍ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+UnitTypeName_swordman=ߝߊ߲߬ߕߌ߮
+; --------------------
+; Levels for this Unit
+LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_attack=ߞߍߒߞߊ߲ߠߌ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_guard=ߟߊ߬ߞߣߊ߬ߟߌ_ߟߊߥߊ߲߬ߞߊ߬
+UnitTypeName_technician=ߛߋߒߞߏߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_build_ultimate=ߟߐ߬ߟߌ߬_ߓߟߋߓߟߋ
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬
+CommandName_heal=ߊ߬_ߘߊ߲ߘߊ߫
+CommandName_mine_gold=ߛߊߣߌ߲߫_ߘߊߡߊ߲
+CommandName_molotov=ߡߟߏߕߏߝ߭
+CommandName_build_catapult=ߡߎ߯ߞߎߟߎ߲_ߟߐ߬
+CommandName_build_battle_machine=ߞߙߍ߬ߞߍ߬_ߕߙߏߞߏ_ߟߊߘߊ߲߫
+CommandName_build_air_ballista=ߛߊ߲ߘߐߟߊ_ߓߊ߰ߖߍ߮_ߟߊߘߊ߲߫
+UnitTypeName_technodrome=ߘߎ߰ߘߐ߬ߞߎߟߎ߲
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_produce_technician=ߛߋߒߞߏߟߊ_ߟߊߥߟߏ߫
+CommandName_research_advanced_architecture=ߟߐ߬ߒߡߊ_ߢߝߍߕߊ_ߢߌߣߌ߲߫
+CommandName_research_robotics=ߡߐ߰ߡߐ߮_ߟߎ߬_ߢߌߣߌ߲߫
+UnitTypeName_worker=ߓߊ߯ߙߟߊ
+; --------------------
+; Levels for this Unit
+; -------------------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_build_basic=ߘߎ߰ߟߊ߬_ߓߏ߲_ߟߐ߬
+CommandName_build_advanced=ߟߐ߬ߟߌ_ߢߝߍߕߊ
+CommandName_mine=ߘߊ߬ߡߊ߲
+CommandName_harvest_wood=ߟߐ߮_ߕߍ߰
+CommandName_repair=ߊ߬_ߘߐߓߍ߲߬

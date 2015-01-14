@@ -1,0 +1,38 @@
+TUTORIAL_NAME=#2 Tutorial de Bază
+;message headers
+GlestBasicTutorial=Tutorial de Bază MegaGlest
+WellDone=Bine făcut!
+Resources=Resurse
+Combat=Luptă
+Buildings=Clădiri
+
+;message strings
+Welcome=Bun venit la Tutorialul de Bază MegaGlest. Aici vom învăța bazele jocului.
+WillBeUsingTech=Ești la comanda facțiunii Tech, ce folosește luptători medievali și diapozitive de mecanice pentru a lupta.
+NeedWorkers=Pentru a colecta resurse, vei avea nevoie de Muncitori. Pentru a produce unii, selecteză mai întâi Castelul apoi folosește comanda &quot;Produce Muncitori&quot;
+SelectAndCommand=Unitățile sunt selectate prin apăsarea-stânga pe ei, comenzile sunt date fie prin apăsare-dreapta pe o țintă sau pe teren.
+HowToMine=Pentru mina de Aur, întâi selectează un Muncitorim apoi clic-dreapta pe un petic de Aur.
+WorkersKeepOnHarvesting=Muncitorii vor continua colectarea și vor duce resursele într-o clădire ce poate stoca tipul de resursă pe care o cară ei.
+ResourceInformation=Informațiile despre resurse sunt afișate în partea superioară a ecranului, numărul din partea stângă este cantitatea curentă, numărul din partea dreaptă este capacitatea de stocare.
+OtherResources=Alte resurse precum Lemnul sau Piatra sunt colectate în același mod ca și Aurul.
+TechResourceNeeds=Facțiunea Tech are de obicei nevoie de mult Aur și Lemn, și puțină Piatră.
+TechConsumesFood=Fiecare unitate din gruparea Tech consumă Hrană. Fără Hrană, unitățile se vor degrada și vor muri. Hrana poate fi produsă de fermele de animale. Animalele sunt produse la Fermă.
+HaveEnoughAnimals=Întotdeauna asigură-te că deții destule animale pentru a-ți hrăni unitățile.
+BalanceDisplay=Balanța dintre consumul de Hrană și productivitate este afișată în paranteze lângă magazia de Hrană, în partea superioară a ecranului.
+TechWarriorsAtBarracks=Pentru a-ți înfrânge inamicii vei avea nevoie de niște luptători, iar majoritatea luptătorilor Tech sunt produși în Cazarme.
+HowToBuildBarracks=Pentru a construi o Cazarmă selectează un Muncitor, apasă pe &quot;Construcție Primară&quot; > &quot;Cazarme&quot; și apoi selectează un punct pentru clădire.
+RememberToBuildBarracks=Reține ca întotdeauna să construiești Cazarmele la început, aceasta îți va permite să produci rapid luptători.
+SwordmanBrief=Luptătorul de bază Tech, este Spadasinul, selectează Cazarma, apoi apasă pe &quot;Produce Spadasin&quot; pentru a produce unul. Asigură-te că deții destule resurse.
+HaveWarriorsAtBase=Ar trebui ca întotdeauna să ai câțiva luptători la baza ta, ei vor ataca automat orice inamic din apropiere.
+ArcherBrief=Arcașii reprezintă unitatea de bază pentru raza lungă de acțiune a facțiunii Tech. Ei sunt de asemenea produși în Cazarme.
+ProduceWarriors=Produ câțiva luptători în plus pentru a-ți apăra baza de atacurile inamice.
+
+;objective strings
+ProduceWorkers=Obiectiv: Produ 3 Muncitori.
+HarvestWoodAndStone=Obiectiv: Colectează 100 unități de lemn și 150 de unități de piatră
+ProduceCow=Obiectiv: Produ o Vacă.
+MineGold=Obiectiv: Colectează 100 de unități de Aur.
+BuildBarracks=Obiectiv: Construiește Cazarme.
+ProduceSwordman=Obiectiv: Produ un Spadasin.
+ProduceArcher=Obiectiv: Produ un Arcaș
+ProduceMoreWarriors=Obiectiv: Produ mai mulți luptători pentru a face față atacurilor ce vor urma.

@@ -1,0 +1,39 @@
+# TUTORIAL_NAME=Advanced Tutorial
+;message headers
+GlestAdvancedTutorial=高階教學
+Promoting=單位升級
+WellDone=幹得好！
+Summoning=招喚
+Energy=能量
+Ritual=儀式
+Armies=軍隊
+
+;message strings
+Welcome=歡迎來到游戲的高階教學，\n在這裡你能學到本游戲的更多功能。
+MagicBrief=你現在使用的是魔法派系，\n他們使用魔法師招喚生物來戰鬥。
+InitiateBrief=初級法師是魔法派系最基本的單位，\n他們可以收集資源和建造。
+InitiatePromotion=初級法師可以升級到戰鬥法師，\n做法是選取初級法師，\n點擊“升級到戰鬥法師”按鈕。
+BattlemageBrief=戰鬥法師是魔法派系的核心兵種，\n他們的攻擊範圍很廣，\n力度很強，速度也很快。
+EnergyBrief=通常魔法單位生產依靠能量。\n能源不像食物一樣一直消耗，\n它只在生產單位時需要。\n青春泉(能量泉)可提供能源。
+EnergyBrief2=時刻保證你有足夠的能量去生產新的單位。
+SummonedUnitsBrief=你也可以使用招喚師來招喚單位。\n招喚師公會可生產招喚師。
+SummonerBrief=招喚師可以生產几種物種，\n其中最基本的是魔鬼。
+DaemonBrief=魔鬼可謂是低價低防，\n但他們是最基本的近戰兵種，\n也擅長偵查。
+OtherSummonedCreatures=招喚師可以招喚更進階的物種，\n像護甲幽靈和龍戰士，\n但是之前需要你升級。
+GhostArmorRequirements=護甲幽靈需要”遠古招喚術“來升級，\n可以在招喚師公會研究。
+GhostArmorBrief=護甲幽靈是中級近戰單位，\n可以保護你的戰鬥法師。
+RitualBrief=初級法師有第二項建筑技能——儀式。\n儀式可以建造進階建筑，還有進階生物，\n比如傀儡，需要去圖書館生產。
+GolemBrief=傀儡是出色的防守單位，攻防俱佳。\n不過要是沒有足夠能量的話很難移動。
+ArmyManagement=生產較多的單位后，\n記得統籌管理。
+DoubleClickBrief=按兩下一個單位，可以選取\n附近所有相同類別的單位。
+GroupSelectBrief=Ctrl + 數字鍵 可以編組，\n編組以后按數字鍵可以指揮組。
+FinalMission=最后，我們要建立一支軍隊，打敗敵人。
+
+;objective strings
+PromoteInitiate=目標：將初級法師升級到戰鬥法師。
+ProduceSummoner=目標：建造一所招喚師公會，\n生產一名招喚師。
+ProduceDaemon=目標：招喚一個魔鬼。
+ProduceGhostArmor=目標：研究“古代招喚術”，\n招喚出一名護甲幽靈。
+BuildEnergySource=目標：建造一所能量泉。
+ProduceGolem=目標：建造一所圖書館，使用初級法師啟動”儀式“，生產一名傀儡。
+DefeatEnemy=目標：武裝一支軍隊，擊敗敵人。

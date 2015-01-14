@@ -1,0 +1,18 @@
+# SCENARIO_NAME=Capture the flag
+;message headers
+CaptureFlag=奪旗行動
+Warning=警告
+Crisis=紅色警報
+
+;message strings
+Brief1=敵人的旗幟會在小地圖上閃現，通過觸碰建筑奪得旗幟，然后傳回主基地。旗幟與隊伍同色，注意沿途的驚險。
+Player2InFlagZoneWarning=當心，玩家2抵達你的旗幟附近。
+Player3InFlagZoneWarning=當心，玩家3抵達你的旗幟附近。
+Player2HasFlagWarning=玩家2奪得我方旗幟，幹掉他們！
+Player3HasFlagWarning=玩家3奪得我方旗幟，幹掉他們！
+
+;objective strings
+Player2HeadHome=玩家2現在你必須讓他活著回家並取得勝利,您的旗手在你的團隊高亮顯示的顏色, 注意不要讓他死了。
+Player3HeadHome=玩家3現在你必須讓他活著回家並取得勝利,您的旗手在你的團隊高亮顯示的顏色, 注意不要讓他死了。
+PlayerWins=祝賀你贏得勝利！
+PlayerLoses=慘了，我們輸了！
