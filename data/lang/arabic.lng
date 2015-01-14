@@ -60,6 +60,7 @@ CancelDownloadsMsg=اللاعب: %s ألغى جميع ملفات التحميل
 Canceled=ألغي
 Chat=محادثة
 ChatMode=وضع المحادثة
+# ChatModeDisabledToAvoidCheating=Chat mode disabled to avoid cheating
 ChatStaysActive=المحادثة لا تزال نشطة
 CheckSumGameLoadError=خطأ التدقيق، لا تملك نفس البيانات مثل الخادم
 CheckSumGameLoadPlayer=اللاعب مع الخطأ هو:
@@ -159,6 +160,7 @@ FieldLand=أرض
 Fields=حقول
 FileDownloadProgress=اللاعب: %s تقدم التحميل لـ [%s] هو %d %%
 Filter=تصفية:
+# FilterMaxAnisotropy=Anisotropic filtering
 FindLANGames=البحث عن الألعاب في الشبكة المحلية
 FogOfWar=ضباب الحرب
 FontSizeAdjustment=ضبط الخط
@@ -187,6 +189,14 @@ GettingModlistFromMasterserver=جلب قائمة الوحدات من الخاد�
 Harvest=المحصول
 HarvestSpeed=سرعة الحصاد
 HeadlessAdminRequiresMorePlayers=يجب أن يكون لديك على الأقل%d لاعب(ين) متصل(ين) لبدء هذه اللعبة!
+# HeadlessServerDoesNotHaveMap=Headless server does not have map and switched to next map.
+# Healthbar=Health bar
+# HealthbarsAlways=Always
+# HealthbarsFactionDefault=Faction default
+# HealthbarsOff=Off
+# HealthbarsIfNeeded=If needed
+# HealthbarsSelected=If selected
+# HealthbarsSelectedOrNeeded=If selected or needed
 Hint=تلميح:\n%s
 CellHint=تلميح
 HostGame=إنشاء لعبة
@@ -237,7 +247,7 @@ LeftAt=غادر اللاعب على:
 Limits=الحدود:
 LoadGameDeletingFile=يحاول حذف الملف: '%s'
 LoadGameLoadingFile=يحاول جلب الملف: '%s'
-SavedGameBadVersion=إصدار اللعبة المخزنة لا يتناسب مع إصدار تطبيقك:\n[%s] --> [%s]
+# SavedGameBadVersion=Saved game version does not match your application version:\n[%s] --> [%s]
 LoadSavedGameInfo=خريطة: %s\nأرضية: %s\nفصيلة: %s\nسيناريو: %s\n# لاعبين: %d\nفصيلة: %s
 LoadedSpeed=تحميل السرعة
 Loading=جاري التحميل
@@ -384,6 +394,7 @@ Normal=عادي
 Observer=مُشاهد
 Off=معطل
 Ok=موافق
+# OpenANetworkSLot=Open at least one network slot for other players!
 OpenGlInfo=معلومات OpenGL
 OpenGlVersion=إصدار OpenGL
 OpenGlRenderer=عارض OpenGL
@@ -430,7 +441,7 @@ PublishServerExternalPort=المنفذ الخارجي#
 PublishDisabled=(تعطيل النشر)
 Question=سؤال
 QuitGame=اختار ترك اللعبة!
-RainEffectMenuGame=تأثير المطر (قائمة\اللعبة)
+RainEffectMenuGame=تأثير المطر (قائمة\\اللعبة)
 Random=عشوائي
 ReactionSpeed=سرعة رد الفعل
 RefreshList=تحديث القائمة
@@ -479,6 +490,7 @@ Stop=توقف
 Store=مخزن
 SystemUser=رسالة النظام
 SwitchTeams=تبديل الفرق
+# TagDesc=Tag:
 Team=فريق
 TechTree=شجرة الفصائل
 TechTitle1=شجرة الفصائل
@@ -522,8 +534,9 @@ VideoInfo=معلومات الفيديو
 VisibleHUD=HUD مرئي
 WalkSpeed=سرعة السير
 WaitingHost=في انتظار الخادم لإطلاق اللعبة
+# WaitingForPlayers=Wait at least for one more player!
 Windowed=وضع النوافذ
-WrongRouterSetup=جدار الحماية أو جهاز التوجيه خاصتك ليس معد بشكل صحيح\nمعد لإستضافة الألعاب.
+# WrongRouterSetup=Your firewall or router is not properly configured to host games.\n\nTo fix it you can:\n- Simply use a headless server in the internet menu\n- Or visit faqs.megaglest.org to read how to setup your router
 Yes=نعم
 YouLose=أنت الخاسر!
 YouWin=أنت الفائز

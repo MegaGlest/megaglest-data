@@ -1,0 +1,18 @@
+SCENARIO_NAME=Erobring af flaget
+;message headers
+CaptureFlag=Erobring af flaget
+Warning=Advarsel
+Crisis=Rød alarm!
+
+;message strings
+Brief1=Du erobrer fjendens flag ved at røre ved det og returnere den enhed til din hjemmebase! Fjendens flag blinker på minikortet. Dit flag vil blinke med dit holds fare. Se efter overraskelser på vejen.
+Player2InFlagZoneWarning=Pas på! Spiller 2 er i din flagzone.
+Player3InFlagZoneWarning=Pas på! Spiller 3 er i din flagzone.
+Player2HasFlagWarning=Spiller 2 HAR DIT FLAG! Fang ham!!
+Player3HasFlagWarning=Spiller 3 HAR DIT FLAG! Fang ham!!
+
+;objective strings
+Player2HeadHome=Ok, spiller 2, nu skal du bare hjem uden at dø for at vinde! Din flagbærer bliver fremhævet med din holdfarve - pas på han ikke dør.
+Player3HeadHome=Ok, spiller 3, nu skal du bare hjem uden at dø for at vinde! Din flagbærer bliver fremhævet med din holdfarve - pas på han ikke dør.
+PlayerWins=Tillykke, du vandt!
+PlayerLoses=Synd, du tabte!

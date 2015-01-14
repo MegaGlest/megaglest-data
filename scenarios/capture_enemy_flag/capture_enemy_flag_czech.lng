@@ -2,17 +2,17 @@ SCENARIO_NAME=Ukořistění vlajky
 ;message headers
 CaptureFlag=Ukořistění vlajky
 Warning=Varování
-Crisis=Červený alarm!
+Crisis=Červený poplach!
 
 ;message strings
-Brief1=Ukořistěte nepřátelskou vlajku tak, že se jí dotknete při vracení se do vaší základny. Nepřátelská vlajka bliká na minimapě. Vaše vlajka bude blikat ve vaší týmové barvě. Dávejte pozor na překvapení na cestě.
+Brief1=Dotekem ukořistěte nepřátelskou vlajku, poté vraťte do své základny jednotku, která se vlajky dotkla. Nepřátelská vlajka bliká na minimapě. Vaše vlajka bude blikat ve vaší týmové barvě. Dávejte si pozor na překvapení na cestě.
 Player2InFlagZoneWarning=Pozor, hráč 2 je ve vaší zóně s vlajkou!
 Player3InFlagZoneWarning=Pozor, hráč 3 je ve vaší zóně s vlajkou!
 Player2HasFlagWarning=Hráč 2 MÁ VAŠI VLAJKU, dostaňte jej!
 Player3HasFlagWarning=Hráč 3 MÁ VAŠI VLAJKU, dostaňte jej!
 
 ;objective strings
-Player2HeadHome=Nyní, hráči 2, jste se dostal do v pořádku základny a vyhrál. Váš nosič vlajky je zvýrazněný ve vaší týmové barvě, nenechte jej zemřít.
-Player3HeadHome=Nyní, hráči 3, jste se dostal do v pořádku základny a vyhrál. Váš nosič vlajky je zvýrazněný ve vaší týmové barvě, nenechte jej zemřít.
-PlayerWins=Gratulujeme vám, vyhráli jste!
+Player2HeadHome=Nyní se snažte vrátit živý zpět do své základny a můžete vyhrát! Váš vlajkonoš je zvýrazněný ve vaší týmové barvě, nenechte ho zemřít.
+Player3HeadHome=Nyní se snažte vrátit živý zpět do své základny a můžete vyhrát! Váš vlajkonoš je zvýrazněný ve vaší týmové barvě, nenechte ho zemřít.
+PlayerWins=Gratulujeme, vyhráli jste!
 PlayerLoses=Smůla, prohráli jste!
