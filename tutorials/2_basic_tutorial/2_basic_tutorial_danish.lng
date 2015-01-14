@@ -1,4 +1,4 @@
-# TUTORIAL_NAME=#2 Basic Tutorial
+TUTORIAL_NAME=#2 Begynderkursus
 ;message headers
 GlestBasicTutorial=Megaglest begynderkursus
 WellDone=Godt gået!
@@ -7,32 +7,32 @@ Combat=Kamp
 Buildings=Bygninger
 
 ;message strings
-# Welcome=Welcome to the MegaGlest Basic Tutorial. Here you will learn the basics of the game.
-# WillBeUsingTech=You are in command of the Tech faction, which uses medieval warriors and mechanical devices to fight.
-# NeedWorkers=To harvest resources you will need Workers. To produce some first select the Castle then use the "Produce Worker" command.
-# SelectAndCommand=Units are selected by left clicking on them, commands are given by either right clicking on a target or at the terrain.
-# HowToMine=To mine Gold, first select a Worker, then right click on a Gold patch.
-# WorkersKeepOnHarvesting=Workers will keep on harvesting and taking resources to a building that can store the type of resource they are carrying.
-# ResourceInformation=Resource information is displayed at the top of the screen, the number on the left is the current amount, the number on the right is the storage capacity.
-# OtherResources=Other resources like Wood or Stone are harvested in the same way as Gold.
-# TechResourceNeeds=The Tech faction usually needs a lot of Gold and Wood, and a bit of Stone.
-# TechConsumesFood=Every unit in the Tech faction consumes Food. Without Food units will take damage and die. Food can be produced by farm animals. Animals are produced at the Farm.
-# HaveEnoughAnimals=Always remember to have enough animals to feed your units.
-# BalanceDisplay=The balance between Food consumption and production is displayed in brackets next to the Food storage at the top of the screen.
-# TechWarriorsAtBarracks=To defeat your enemy you will need some warriors, most Tech warriors are produced at the Barracks.
-# HowToBuildBarracks=To build a Barracks select a Worker, click on "Build Basic" > "Barracks" and then select a spot for the building.
-# RememberToBuildBarracks=Remember to always build a Barracks at the beginning, this will allow you to quickly produce warriors.
-# SwordmanBrief=The basic Tech warrior is the Swordman, select the Barracks, then click on "Produce Swordman" to produce one. Make sure you have enough resources.
-# HaveWarriorsAtBase=You should always have some warriors at your base, they will automatically attack any enemies in range.
-# ArcherBrief=Archers are the basic ranged unit of the Tech faction. They are also produced at the Barracks.
-# ProduceWarriors=Produce a few more warriors to defend your base from enemy attacks.
+Welcome=Velkommen til MegaGlest begynderkursus. Her vil du lære de basale elementer i spillet.
+WillBeUsingTech=Du kontrollerer Tek-fraktionen, som bruger middelalderlige krigere og mekaniske instrumenter i kamp.
+NeedWorkers=For at høste ressourcer skal du bruge Arbejdere. For at producere nogen skal du vælge slottet og bruge "Producer Arbejder" kommandoen.
+SelectAndCommand=Enheder bliver valgt ved at venstreklikke på dem. Kommandoer bliver givet ved at højreklikke på enten et mål eller et sted i terrænet.
+HowToMine=For at grave guld skal du vælge en arbejder, derefter højreklikke på et guldområde.
+WorkersKeepOnHarvesting=Arbejdere bliver ved med at høste og hjemtage ressourcer til en bygning som kan opbevare den slags ressourcer de kommer med.
+ResourceInformation=Resourceinformation bliver vist øverst på skærmen. Tallet til venstre er det nuværende antal, tallet til højre er lagerkapaciteten.
+OtherResources=Andre ressourcer som træ eller sten bliver høstet på samme måde som guld.
+TechResourceNeeds=Tek-fraktionen skal om regel bruge meget guld og træ, og en lille smule sten.
+TechConsumesFood=Hver enhed i tek-fraktionen konsumerer mad. Uden mad vil enheder blive skadet og dø. Mad kan produceres af husdyr. Husdyr laves på gården.
+HaveEnoughAnimals=Husk altid at have nok dyr til at brødføde dine enheder.
+BalanceDisplay=Balancen mellem mad-konsumering og -produktion bliver vist i kantede parenteser ved siden af mad indikatoren øverst på skærmen.
+TechWarriorsAtBarracks=For at slå din fjende har du brug for nogle krigere. De fleste tek-krigere bliver produceret af barrakkerne.
+HowToBuildBarracks=For at bygge barrakker, vælg en kriger, klik på "Byg basal" > "Barrakker" og vælg så et sted til bygningen.
+RememberToBuildBarracks=Husk altid at bygge barrakker i begyndelsen. Det vil gøre det muligt for dig at producere krigere hurtigt.
+SwordmanBrief=Den basale tek-kriger er sværdmanden. Vælg barrakerne og klik på "Producer Sværdmand" for at lave en. Husk at se efter om du har nok ressourcer.
+HaveWarriorsAtBase=Du bør altid have nogle krigere ved din base. De vil automatisk angribe fjender der kommer tæt nok på.
+ArcherBrief=Bueskytter er den basale enhed der angriber på afstand i tek-fraktionen. De bliver også lavet i barrakkerne.
+ProduceWarriors=Lav et par krigere mere, for at forsvare din base mod et fjendtligt angreb.
 
 ;objective strings
-# ProduceWorkers=Objective: Produce 3 Workers.
-# HarvestWoodAndStone=Objective: Harvest 100 wood and 150 stone units.
-# ProduceCow=Objective: Produce a Cow.
-# MineGold=Objective: Mine 100 Gold units.
-# BuildBarracks=Objective: Build Barracks.
-# ProduceSwordman=Objective: Produce a Swordman.
-# ProduceArcher=Objective: Produce an Archer.
-# ProduceMoreWarriors=Objective: Produce more warriors to deal with the upcoming attack.
+ProduceWorkers=Opgave: Producer 3 krigere.
+HarvestWoodAndStone=Opgave: Høst 100 træ og 150 sten
+ProduceCow=Opgave: Producer en ko.
+MineGold=Opgave: Udvind 100 guld
+BuildBarracks=Opgave: Byg en barrak
+ProduceSwordman=Opgave: Producer en sværdmand.
+ProduceArcher=Opgave: Producer en bueskytte.
+ProduceMoreWarriors=Opgave: Producer flere krigere for at håndtere det kommende angreb.

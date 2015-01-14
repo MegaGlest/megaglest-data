@@ -11,7 +11,7 @@ Tricks=Triky
 ;------------------------------------------Start------------------------------------------------
 Welcome=Vítejte v základním MegaGlest tutoriálu.
 
-FirstThing=Chcete-li nastavit viditelnou oblast, přesuňte ukazatel myši na okraj obrazovky, nebo použijte kurzorové klávesy. Dalším způsobem, jak to udělat, je kliknout levým tlačítkem myši na minimapě (levý horní roh obrazovky).
+FirstThing=Chcete-li nastavit viditelnou oblast, přesuňte ukazatel myši na okraj obrazovky nebo použijte kurzorové klávesy. Dalším způsobem, jak to udělat, je kliknout levým tlačítkem myši na minimapě (levý horní roh obrazovky).
 
 WillBeUsingIndian=V tomto úvodu budete velet indiánům. Indiánská frakce bojuje lukostřelci a jednoduchými zbraněmi.
 
@@ -19,10 +19,10 @@ NeedWorkers=Nejprve potřebujete dělníka. Chcete-li jednoho získat, klikněte
 
 ;------------------------------------------After produce Worker------------------------------------------------
 
-Select=Nyní klikněte levým tlačítkem myši na svého dělníka. Podrobnosti o vybrané jednotce, a to jméno jednotky a obrázek, jsou nyní zobrazeny v pravém horním rohu obrazovky. Pod tímto jsou uvedeny body zdraví (HP), brnění, v závorkách typ brnění, a rádius rozhledu (zrak).
+Select=Nyní klikněte levým tlačítkem myši na svého dělníka. Podrobnosti o vybrané jednotce, a to jméno jednotky a obrázek, jsou nyní zobrazeny v pravém horním rohu obrazovky. Pod tímto jsou uvedeny body zdraví (HP), brnění, v závorkách typ brnění a rádius rozhledu (zrak).
 Select2=Pokud je to bitevní jednotka, je dále uveden počet nepřátelských jednotek, které již bojovník zničil. Pokud spotřebovává zdroje, zobrazí se to v následujícím políčku. Pod tímto se oznamí, co tato jednotka v současné době dělá.
 
-ExampleWorker=Například, váš dělník má 600 HP, kožené brnění o hodnotě 0, a rádius rozhledu o hodnotě 9. Jeho současný stav je "zastavit", a tak nedělá nic.
+ExampleWorker=Například váš dělník má 600 HP, kožené brnění o hodnotě 0 a rádius rozhledu o hodnotě 9. Jeho současný stav je "zastavit", a tak nedělá nic.
 
 Command=Schopnosti jednotek jsou uvedeny níže. Nyní se naučte všechny povely, které dělník může vykonat.
 
@@ -53,11 +53,11 @@ GetWood=Další tip, můžete použít zkratku pro libovolný příkaz sklizně,
 
 MeetingPoint=Když vyberete budovu, zobrazí se modrá šipka. Tato šipka ukazuje na tzv. "shromaždiště". Všechny jednotky, které produkujete v této budově, půjdou na toto místo, jakmile se objeví.
 UseMeetingPoint=Můžete shromaždiště také přesunout. Klikněte na ikonu vlajky, poté na pozici, kde by mělo být umístěno nové místo setkávání. Zde také můžete použít zkratku, jednoduše klikněte pravým tlačítkem myši na novém místě (stejně jako to můžete udělat pro chůzi).
-MeetingPoint2=Pokud umístíte místo setkávání na zdroj, začnou tam nově produkovaní dělníci ihned sklízet. Ujistěte se, že jste se trefili na správné místo, nebo budou vaši dělníci pouze postávat nebo zavazet v cestě.
+MeetingPoint2=Pokud umístíte místo setkávání na zdroj, začnou tam nově produkovaní dělníci ihned sklízet. Ujistěte se, že jste se trefili na správné místo, jinak budou vaši dělníci pouze postávat nebo překážet v cestě.
 Thirdcommand=Nyní třetí ikona příkazů pro dělníka - to je příkaz "stavět".
 Thirdcommand2=Kliknutím zvolíte nabídku pro stavění. Pokud podržíte nad některou z ikon budov ukazatel myši, uvidíte níže, jaké jsou požadavky na zdroje a prostředky, které pro ni potřebujete.
 Thirdcommand3=Pokud umístíte kurzor myši nad stan, uvidíte, že potřebuje 30 jednotek zlata, 50 dřeva a hlavní týpí. "-10" u bydlení znamená, že když postavíte stan, získáte ubytování pro dalších deset jednotek (i když některé jednotky mohou potřebovat více než jen jeden).
-Thirdcommand4=Teď postavte stan. Klikněte na menu stavět, pak na stan, a umístěte jej na prázdném místě.
+Thirdcommand4=Teď postavte stan. Klikněte na menu stavět, pak na stan a umístěte jej na prázdném místě.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 

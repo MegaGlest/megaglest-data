@@ -3,9 +3,9 @@ SCENARIO_NAME=סוער
 Storming=סוער
 
 ;message strings
-Brief1=עזור לSummoner שלך לתקוף את כל הכפרים האויבים, היא חייבת לשרוד.
+Brief1=עזור למזמנת שלך לתקוף את כל הכפרים האויבים, היא חייבת לשרוד.
 
 ;objective strings
-ObjectiveWest=מטרה: השמד את כפר הקוסמים המערבי, הSummoner חייבת לשרוד.
-ObjectiveNorthEast=מטרה: השמד את הכפר הטכנולוגי הצפוני, הSummoner חייבת לשרוד.
-ObjectiveSouthEast=מטרה: השמד את הכפר הדרום מזרחי, הSummoner חייבת לשרוד.
+ObjectiveWest=מטרה: השמד את כפר הקוסמים המערבי, המזמנת חייבת לשרוד.
+ObjectiveNorthEast=מטרה: השמד את הכפר הטכנולוגי הצפוני, המזמנת חייבת לשרוד.
+ObjectiveSouthEast=מטרה: השמד את הכפר הדרום מזרחי, המזמנת חייבת לשרוד.

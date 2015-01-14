@@ -22,16 +22,16 @@ NeedWorkers=Întâi avem nevoie de un muncitori. Pentru a obține unul, clic-st�
 Select=Acum clic-stânga pe muncitorul tău. Detaliile despre unitatea selectată, și anume numele unității și o imagine, sunt acum afișate în colțul superior din dreapta a ecranului tău. Dedesubt sunt listate punctele de sănătate (HP), armura și, în paranteze, tipul armurii și orizontul de vizualizare (raza de acțiune).
 Select2=Dacă aceasta este o unitate de luptă, numărul unităților inamice pe care le-au distrus deja, se află listate lângă. Dacă consumă resurse, aceasta este afișată în următorul câmp. Mai jos e specificat ce face în prezent această unitate.
 
-ExampleWorker=De exemplu, muncitorul tău are 600 HP, 0 armură de piele și o rază de acțiune de 9. Statusul său curent este &quot;stop&quot;, deci el nu face nimic.
+ExampleWorker=De exemplu, muncitorul tău are 600 HP, 0 armură de piele și o rază de acțiune de 9. Statusul său curent este "stop", deci el nu face nimic.
 
 Command=Abilitățile unității sunt listate în continuare mai jos. Acum vom învăța toate comenzile ce pot fi executate de către muncitor.
 
 FirstCommand=Prima pictogramă de comandă este 'stop'. Dacă apeși pe această pictogramă, muncitorul se va opri imediat din ceea ce face curent. Toate unitățile (ce nu reprezintă clădiri) oferă această comandă.
 
 SecondCommand=A doua pictogramă de comandă este 'mută'. Dacă o apeși, trebuie să apeși pe pământ sau pe o altă unitate pentru a-i defini destinația. O prescurtare pentru această comandă este doar să apeși pe poziția de destinație.
-SecondCommand2=Când ți deasupra cursorul mouse-ului pe pictograma comenzii &quot;mergi&quot;, se afișează viteza de deplasare a muncitorului. Această comandă, de asemenea, este disponibilă pentru toate unitățile (exceptând clădirile).
+SecondCommand2=Când ți deasupra cursorul mouse-ului pe pictograma comenzii "mergi", se afișează viteza de deplasare a muncitorului. Această comandă, de asemenea, este disponibilă pentru toate unitățile (exceptând clădirile).
 
-TestSecondCommand=Încearcă acum comanda &quot;mergi&quot;. Mută-ți muncitorul lângă alt muncitori ce așteaptă în afara taberei. Acest alt muncitori este afișat în (stânga sus) mini hartă, ca și un punct roșu. Triunghiul alb din mini hartă indică poziția curentă a vizualizării/camerei tale. Punctele roșii mari reprezintă Corturile tale Principale
+TestSecondCommand=Încearcă acum comanda "mergi". Mută-ți muncitorul lângă alt muncitori ce așteaptă în afara taberei. Acest alt muncitori este afișat în (stânga sus) mini hartă, ca și un punct roșu. Triunghiul alb din mini hartă indică poziția curentă a vizualizării/camerei tale. Punctele roșii mari reprezintă Corturile tale Principale
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -51,12 +51,12 @@ GetWood=Pentru un alt indiciu, poți crea orice comandă de colectare selectând
 
 ;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
 
-MeetingPoint=Când selectezi o clădire, se afișează o săgeată albastră. Această săgeată îndică către așa-numitul &quot;punct de asamblare&quot;. Toate unitățile pe care le produci în această clădire se vor muta în acest loc, imediat de vor apare.
+MeetingPoint=Când selectezi o clădire, se afișează o săgeată albastră. Această săgeată îndică către așa-numitul "punct de asamblare". Toate unitățile pe care le produci în această clădire se vor muta în acest loc, imediat de vor apare.
 UseMeetingPoint=Poți muta, de asemena, și punctul de asamblare. Apasă pe pictograma fanion, apoi pe poziția în care va fi noul punct de întâlnire. Aici, de asemenea, poți scurta aceasta în mod simplu, apăsând-dreapta pe noua locație (la fel cum poți face pentru mers).
 MeetingPoint2=Dacă plasezi punctul de asamblare pe o resursă, noii muncitori produși vor începe imediat să colecteze acolo. Asigură-te că nimerești punctul corect, altfel, muncitorii tăi vor sta doar pe lângă și îți vor sta în cale.
 Thirdcommand=Acum pentru pentru pictograma celei de-a treia comenzi pentru muncitor -aceasta este comanda 'construiește'
-Thirdcommand2=Apăsând-o, vei accesa meniul de construire. Dacă menții cursorul pe una din pictogramele de construire, vei vedea în continuare mai jos, listat sub ''cerințe&quot;, toate resursele și realizările de care ai nevoie.
-Thirdcommand3=Dacă menții cursorul pe cort, vei vedea că necesită 30 aur, 50 lemn, -10 cazare și de un cort principal. &quot;-10 cazare&quot; înseamnă că, construiești un cort, obții locuri de cazare pentru încă 10 corturi adiționale (deși anumite unități pot avea nevoie de mai mult de unul).
+Thirdcommand2=Apăsând-o, vei accesa meniul de construire. Dacă menții cursorul pe una din pictogramele de construire, vei vedea în continuare mai jos, listat sub ''cerințe", toate resursele și realizările de care ai nevoie.
+Thirdcommand3=Dacă menții cursorul pe cort, vei vedea că necesită 30 aur, 50 lemn, -10 cazare și de un cort principal. "-10 cazare" înseamnă că, construiești un cort, obții locuri de cazare pentru încă 10 corturi adiționale (deși anumite unități pot avea nevoie de mai mult de unul).
 Thirdcommand4=Hai să construim acum un cort nou. Apasă pe meniul de construire, apoi pe cort, și plasează-l într-un punct gol.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------

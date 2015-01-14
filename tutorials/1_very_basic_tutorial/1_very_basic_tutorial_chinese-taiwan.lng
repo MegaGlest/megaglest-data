@@ -31,7 +31,7 @@ FirstCommand=第一個指令按鈕時“停止”，按下這個鍵后，工人�
 # SecondCommand=The second command icon is 'move'. If you click it, you will need to click on the ground or another unit next to define the destination. A shorthand for this command is to just right-click at the target position.
 # SecondCommand2=When you hover your mouse pointer over the 'move' command icon, the workers' movement speed is displayed. This command, too, is available to all units (but buildings).
 
-# TestSecondCommand=Try the &quot;move&quot; command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
+# TestSecondCommand=Try the "move" command now. Move your worker to the other worker who is waiting outside of your camp. This other worker is displayed on the (top left) mini map as a red dot. The white triangle on the mini map indicates your curent view/camera position. The big red dot is your Mainteepee.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -55,8 +55,8 @@ MeetingPoint=選取一座建筑后，會出現一個藍色箭號，\n箭號所�
 UseMeetingPoint=點擊旗幟圖像，然后在你希望的地點點擊，就能改變集結點。
 MeetingPoint2=如果將集結點設在某一資源上，新生產的工人會立即前去釆集這項資源。\n不要點擊錯了，否則你的工人會在集結點無所事事。
 # Thirdcommand=Now for the worker's third command icon - this is the 'build' command.
-# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under &quot;requirements&quot;, all the resources and achievements you need for it.
-# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. &quot;-10 housing&quot; means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
+# Thirdcommand2=By clicking it you enter the build menu. If you hover one of the building icons with your mouse pointer you get to see, further below, listed under "requirements", all the resources and achievements you need for it.
+# Thirdcommand3=If you hover over the tent, you will see that it takes 30 gold, 50 wood, -10 housing and a main teepee. "-10 housing" means that by building a tent, you get accomodation good for ten additional units (though some units may need more than just one).
 Thirdcommand4=建造一個帳篷，選取建筑按鈕，點擊帳篷，選出一塊空地來建造。
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------

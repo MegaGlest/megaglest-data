@@ -187,7 +187,7 @@ UnitTypeName_temple=Tempel
 ; Types of Commands for this Unit
 CommandName_produce_priest=produziere Priester
 CommandName_research_scarab=Skarabäus erforschen
-CommandName_research_ibis=erforsche Ibis
+CommandName_research_ibis=Ibis erforschen
 CommandName_get_power_of_ra=Macht des Ra entwickeln
 FactionName_indian=Indianer
 ; ----------------------------------
@@ -645,7 +645,7 @@ UnitTypeName_castle=Schloss
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_thrull=produce_thrull
+CommandName_produce_thrull=Thrull produzieren
 UnitTypeName_cow=Kuh
 ; --------------------
 ; Levels for this Unit
@@ -662,7 +662,7 @@ CommandName_stop=Stop
 CommandName_move=Bewegen
 CommandName_attack_arrow=Angriff Pfeil
 CommandName_hold_position=halte_Position
-# UnitTypeName_cudgel_lady=cudgel_lady
+UnitTypeName_cudgel_lady=Knüppeldame
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -691,14 +691,14 @@ UnitTypeName_house=Haus
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
+CommandName_produce_cudgel_lady=Knüppeldame produzieren
 CommandName_produce_spearman=Speerkrieger produzieren
-# UnitTypeName_med_bar=med_bar
+UnitTypeName_med_bar=Medizinriegel
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce_cudgel_lady
+CommandName_produce_cudgel_lady=Knüppeldame produzieren
 CommandName_produce_spearman=Speerkrieger produzieren
 CommandName_research_med=Medizinforschung
 UnitTypeName_mistletree=Mistelbaum
@@ -708,8 +708,8 @@ UnitTypeName_mistletree=Mistelbaum
 ; Types of Commands for this Unit
 CommandName_air_on=Luftangriff an
 CommandName_attack_off=Angriff_aus
-# CommandName_research_root=research_root
-# CommandName_resurrect_wild_sow=resurrect_wild_sow
+CommandName_research_root=Forschungswurzel
+CommandName_resurrect_wild_sow=Bache wiederbeleben
 UnitTypeName_spearman=Speerkämpfer ausbilden
 ; --------------------
 ; Levels for this Unit
@@ -721,7 +721,7 @@ CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_hold_position=halte_Position
 CommandName_promote_to_spearman=Zu Speerkämpfer aufwerten
-# UnitTypeName_spearman_berzerk=spearman_berzerk
+UnitTypeName_spearman_berzerk=Speerkampfberserker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite
@@ -742,7 +742,7 @@ CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_hold_position=halte_Position
 CommandName_promote_to_swordman=Zu Schwertkämpfer aufwerten
-# UnitTypeName_swordman_berzerk=swordman_berzerk
+UnitTypeName_swordman_berzerk=Schwertkampfberserker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite
@@ -763,13 +763,13 @@ CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_throw=Wegwerfen
 CommandName_hold_position=halte_Position
-# UnitTypeName_thortotem=thortotem
+UnitTypeName_thortotem=Thor-Totem
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_build_thor=Thorstatue erschaffen
-# UnitTypeName_thrull=thrull
+UnitTypeName_thrull=Thrull
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -785,8 +785,8 @@ UnitTypeName_valhalla=Valhalla
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_flyingvalkyrie=produce_flyingvalkyrie
-# CommandName_produce_valkyrie=produce_valkyrie
+CommandName_produce_flyingvalkyrie=Fliegende Valkyre produzieren
+CommandName_produce_valkyrie=Valkyre produzieren
 CommandName_research_holy_valkyrie=Heilige Valkyren erforschen
 UnitTypeName_valkyrie=Valkyre
 ; --------------------
@@ -809,7 +809,7 @@ CommandName_attack=Angreifen
 FactionName_persian=persisch
 ; ----------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_corn_and_wicker=corn_and_wicker
+UpgradeTypeName_corn_and_wicker=Korn und Weide
 UpgradeTypeName_magic_level_1=Magie Level 1
 UpgradeTypeName_magic_level_2=Magie Level 2
 UpgradeTypeName_nails=Nägel
@@ -858,7 +858,7 @@ UnitTypeName_farm=Farm
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_sheep=Schafe züchten
-# CommandName_research_corn_and_wicker=research_corn_and_wicker
+CommandName_research_corn_and_wicker=Korn und Weide erforschen
 UnitTypeName_flying_carpet=fliegender Teppich
 ; --------------------
 ; Levels for this Unit
@@ -972,8 +972,8 @@ UnitTypeName_tent=Zelt
 CommandName_produce_genie=Erstelle_Flaschengeist
 CommandName_produce_flying_carpet=Erstelle_fliegenden_Teppich
 CommandName_produce_magician=Erstelle_Magier
-# CommandName_upgrade_magic_level_1=upgrade_magic_level_1
-# CommandName_upgrade_magic_level_2=upgrade_magic_level_2
+CommandName_upgrade_magic_level_1=Zauberstufe 1 aufrüsten
+CommandName_upgrade_magic_level_2=Zauberstufe 2 aufrüsten
 UnitTypeName_worker=Arbeiter
 ; --------------------
 ; Levels for this Unit
@@ -990,14 +990,14 @@ FactionName_romans=Römer
 ; ----------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=Fortschrittliche Architektur
-# UpgradeTypeName_bless_of_minerva=bless_of_minerva
-# UpgradeTypeName_enlarge_shields=enlarge_shields
+UpgradeTypeName_bless_of_minerva=Segen der Minerva
+UpgradeTypeName_enlarge_shields=Schilde vergrößern
 UpgradeTypeName_formations=Formationen
 UpgradeTypeName_jupiter=Jupiter
 UpgradeTypeName_reinforce_armor=Verstärke_Rüstung
 UpgradeTypeName_sharpen_points=Spitzen schärfen
-# UpgradeTypeName_sign_of_mars=sign_of_mars
-# UpgradeTypeName_strengthen_swords=strengthen_swords
+UpgradeTypeName_sign_of_mars=Zeichen des Mars
+UpgradeTypeName_strengthen_swords=Verstärke_Schwerter
 UpgradeTypeName_training_field=Trainingsfeld
 ; -------------------------------
 ; Types of Units for this Faction
@@ -1030,7 +1030,7 @@ LevelName_elite=Elite
 ; Types of Commands for this Unit
 CommandName_attack_off=Angriff_aus
 CommandName_attack_on=Angriff_ein
-# UnitTypeName_battering_ram=battering_ram
+UnitTypeName_battering_ram=Belagerungsramme
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite
@@ -1048,8 +1048,8 @@ UnitTypeName_blacksmith_shop=Schmiedladen
 ; Types of Commands for this Unit
 CommandName_strengthen_swords=Verstärke_Schwerter
 CommandName_sharpen_points=Spitzen schärfen
-# CommandName_reinforce_armor=reinforce_armor
-# CommandName_enlarge_shields=enlarge_shields
+CommandName_reinforce_armor=Rüstung verstärken
+CommandName_enlarge_shields=Schilde vergrößen
 UnitTypeName_catapult=Katapult
 ; --------------------
 ; Levels for this Unit
@@ -1077,7 +1077,7 @@ UnitTypeName_cow=Kuh
 ; Types of Commands for this Unit
 CommandName_stop=Stop
 CommandName_move=Bewegen
-# UnitTypeName_eagle_pillar=eagle_pillar
+UnitTypeName_eagle_pillar=Adlersäule
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1095,7 +1095,7 @@ CommandName_stop=Stop
 CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_hold_position=halte_Position
-# UnitTypeName_forum=forum
+UnitTypeName_forum=Forum
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1105,7 +1105,7 @@ CommandName_produce_cow=Kühe züchten
 UnitTypeName_general=General
 ; --------------------
 ; Levels for this Unit
-# LevelName_esteemed=esteemed
+LevelName_esteemed=angesehen
 LevelName_grand=groß
 ; -------------------------------
 ; Types of Commands for this Unit
@@ -1130,7 +1130,7 @@ UnitTypeName_gladiator_school=Gladiatorenschule
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_train_gladiator=trainiere Gladiator
-# CommandName_produce_axe_man=produce_axe_man
+CommandName_produce_axe_man=Axtkämpfer produzieren
 UnitTypeName_guard=Wächter
 ; --------------------
 ; Levels for this Unit
@@ -1154,9 +1154,9 @@ UnitTypeName_military_camp=Militärcamp
 ; -------------------------------
 ; Types of Commands for this Unit
 CommandName_produce_cavalry=produziere Kavallerie
-# CommandName_produce_turtle_formation=produce_turtle_formation
-# CommandName_produce_general=produce_general
-# CommandName_produce_mechanic=produce_mechanic
+CommandName_produce_turtle_formation=Schildkrötenformation produzieren
+CommandName_produce_general=General produzieren
+CommandName_produce_mechanic=Mechaniker produzieren
 CommandName_upgrade_advanced_architecture=Fortschrittliche Architektur
 CommandName_upgrade_formations=Upgrade_Formationen
 UnitTypeName_slave=Sklave
@@ -1195,9 +1195,9 @@ UnitTypeName_temple=Tempel
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_research_sign_of_mars=research_sign_of_mars
-CommandName_research_jupiter=Erforsche_Jupiter
-# CommandName_upgrade_bless_of_minerva=upgrade_bless_of_minerva
+CommandName_research_sign_of_mars=Zeichen des Mars erforschen
+CommandName_research_jupiter=Jupiter erforschen
+CommandName_upgrade_bless_of_minerva=Segen der Minerva aufrüsten
 UnitTypeName_training_camp=Trainingscamp
 ; --------------------
 ; Levels for this Unit
@@ -1206,7 +1206,7 @@ UnitTypeName_training_camp=Trainingscamp
 CommandName_produce_spearman=Speerkrieger produzieren
 CommandName_produce_archer=produziere Bogenschütze
 CommandName_produce_guard=Wächter produzieren
-CommandName_produce_swordsman=produziere Schwertkämpfer
+CommandName_produce_swordsman=Schwertkämpfer produzieren
 CommandName_create_training_field=kreiere Trainingsfeld
 UnitTypeName_tribune=Tribun
 ; --------------------
@@ -1228,7 +1228,7 @@ CommandName_stop=Stop
 CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_hold_position=halte_Position
-# UnitTypeName_wartime_mechanic=wartime_mechanic
+UnitTypeName_wartime_mechanic=Kriegsmechaniker
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1241,7 +1241,7 @@ CommandName_repair=Reparieren
 CommandName_heal=heilen
 CommandName_build_catapult=Katapult konstruieren
 CommandName_build_battering_ram=Rammbock konstruieren
-CommandName_build_ballista=Balliste konstruieren
+CommandName_build_ballista=Ballista konstruieren
 FactionName_tech=Tech
 ; ----------------------------------
 ; Types of Upgrades for this Faction
@@ -1260,9 +1260,9 @@ UnitTypeName_aerodrome=Aerodrome
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_ornithopter=produce_ornithopter
-CommandName_produce_airship=Erstelle_Luftschiff
-# UnitTypeName_air_ballista=air_ballista
+CommandName_produce_ornithopter=Ornithopter produzieren
+CommandName_produce_airship=Luftschiff produzieren
+UnitTypeName_air_ballista=Luft-Ballista
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite
@@ -1300,7 +1300,7 @@ CommandName_produce_archer=produziere Bogenschütze
 CommandName_produce_guard=Wächter produzieren
 CommandName_produce_horseman=Reiter produzieren
 CommandName_create_training_field=kreiere Trainingsfeld
-# UnitTypeName_battle_machine=battle_machine
+UnitTypeName_battle_machine=Kampfmaschine
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite
@@ -1316,8 +1316,8 @@ UnitTypeName_blacksmith=Schmiede
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_upgrade_blade_weapons=upgrade_blade_weapons
-CommandName_upgrade_piercing_weapons=upgrade Stichwaffen
+CommandName_upgrade_blade_weapons=Klingenwaffen aufrüsten
+CommandName_upgrade_piercing_weapons=Stichwaffen aufrüsten
 CommandName_upgrade_shield=upgrade Schild
 CommandName_upgrade_shield=upgrade Schild
 UnitTypeName_castle=Schloss
@@ -1377,7 +1377,7 @@ CommandName_stop=Stop
 CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_hold_position=halte_Position
-# UnitTypeName_ornithopter=ornithopter
+UnitTypeName_ornithopter=Ornithopter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite
@@ -1416,7 +1416,7 @@ CommandName_move=Bewegen
 CommandName_build_ultimate=Komplexe Gebäude
 CommandName_repair=Reparieren
 CommandName_heal=heilen
-# CommandName_mine_gold=mine_gold
+CommandName_mine_gold=Gold_abtragen
 CommandName_molotov=Molotov
 CommandName_build_catapult=Katapult konstruieren
 CommandName_build_battle_machine=Kampfmaschine konstruieren
@@ -1426,7 +1426,7 @@ UnitTypeName_technodrome=Technodrome
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-# CommandName_produce_technician=produce_technician
+CommandName_produce_technician=Techniker produzieren
 CommandName_research_advanced_architecture=Fortschrittliche Architektur erforschen
 CommandName_research_robotics=Erforsche_Roboter
 UnitTypeName_worker=Arbeiter

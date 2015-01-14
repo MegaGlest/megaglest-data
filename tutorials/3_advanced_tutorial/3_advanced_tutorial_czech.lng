@@ -16,18 +16,18 @@ InitiatePromotion=Novicové mohou být povýšeni na bojové mágy. K tomuto pov
 BattlemageBrief=Bojoví mágové jsou základními bojovými jednotkami frakce mágů, mají silné útoky na dálku a také dobrou rychlost a odolnost.
 EnergyBrief=Jednotky mágů obvykle k produkci potřebují energii, energie se nespotřebovává jako potraviny, ale je nutná pouze tehdy, když je tvořena jednotka. Produkují ji zdroje energie.
 EnergyBrief2=Vždy se ujistěte, že máte dostatek energie pro produkci nových jednotek.
-SummonedUnitsBrief=Jiný způsob, jak frakce mágů produkuje jednotky je, že je přivolá. K tomuto budete potřebovat přivolávačku, ty jsou produkovány v cechu přivolávaček.
+SummonedUnitsBrief=Jiný způsob, jak frakce mágů produkuje jednotky, je, že je přivolá. K tomuto budete potřebovat přivolávačku, ty jsou produkovány v cechu přivolávaček.
 SummonerBrief=Přivolávačky mohou produkovat několik typů stvoření, nejzákladnější z nich je démon.
 DaemonBrief=Démoni jsou opravdu slabí, ale i velmi levní, jsou vhodní jako základní bojovníci k boji na blízko a jsou také dobří pro průzkum.
 OtherSummonedCreatures=Přivolávačky mohou produkovat i další pokročilá stvoření, jako jsou obrněné přízraky a draci, která však vyžadují výzkum správných povýšení.
 GhostArmorRequirements=Obrněné přízraky vyžadují povýšení na starověkou přivolávačku, ta může být vyvinuta v cechu přivolávaček.
 GhostArmorBrief=Obrněné přízraky jsou střední jednotka pro boj na blízko, vhodná k ochraně bojových mágů před nepřátelskými bojovníky.
-RitualBrief=Novicové mají druhý příkaz pro stavění s názvem rituál, který se používá k vytvoření pokročilých struktur a také mocných stvoření jako je golem. Pro přístup k nim budete potřebovat knihovnu.
-GolemBrief=Golemové jsou velmi silné obranné jednotky, které mají silný útok a velmi dobrou odolnost, ale mohou pohybovat pouze tak dlouho, dokud mají dostatek bodů energie.
+RitualBrief=Novicové mají druhý příkaz pro stavění s názvem rituál, který se používá k vytvoření pokročilých struktur a také mocných stvoření, jako je golem. Pro přístup k nim budete potřebovat knihovnu.
+GolemBrief=Golemové jsou velmi silné obranné jednotky, které mají silný útok a velmi dobrou odolnost, ale mohou se pohybovat pouze tak dlouho, dokud mají dostatek bodů energie.
 ArmyManagement=Když vyprodukujete větší počet jednotek, mohou být obtížně zvládnutelné.
-DoubleClickBrief=Dvojitým kliknutím na jednotku, můžete vybrat všechny jednotky stejného typu v okolí.
+DoubleClickBrief=Dvojitým kliknutím na jednotku můžete vybrat všechny jednotky stejného typu v okolí.
 GroupSelectBrief=Můžete definovat skupiny jednotek jejich výběrem a stisknutím klávesy Ctrl a klávesy s číslem, poté můžete skupiny vyvolat opětovným stisknutím číselné klávesy.
-FinalMission=Jako závěrečný test, nyní budete muset vybudovat armádu a porazit svého nepřítele.
+FinalMission=Jako závěrečný test nyní budete muset vybudovat armádu a porazit svého nepřítele.
 
 ;objective strings
 PromoteInitiate=Úkol: Povyšte novice na bojového mága.

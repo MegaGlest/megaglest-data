@@ -14,7 +14,7 @@ AttackTypeName_impact=התנגשות
 AttackTypeName_energy=אנרגיה
 AttackTypeName_sword=חרב
 AttackTypeName_arrow=חץ
-AttackTypeName_magic=קסם
+AttackTypeName_magic=קוסמים
 AttackTypeName_beat=היכה
 ; ------------------
 ; Types of Resources
@@ -47,10 +47,10 @@ CommandName_attack_on=התקפה_דלוקה
 UnitTypeName_anubis_warrior=לוחם_אנוביס
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
+LevelName_ancient=עתיק
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_chicken=תרנגולת
@@ -58,7 +58,7 @@ UnitTypeName_chicken=תרנגולת
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 UnitTypeName_desert_camp=מחנה_מדבר
 ; --------------------
@@ -80,7 +80,7 @@ UnitTypeName_ibis=מגלן
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -89,7 +89,7 @@ UnitTypeName_mummy=מומיה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_obelisk=אובליסק
@@ -106,7 +106,7 @@ UnitTypeName_priest=כומר
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_speedup_priest_production=ממהיר_ייצור_כמרים
 CommandName_heal=מרפא
@@ -123,12 +123,12 @@ CommandName_produce_slave=מייצר_עבד
 UnitTypeName_scarab=עקרב
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=מומחה
-LevelName_master=שולט
+LevelName_expert=מנוסה
+LevelName_master=מומחה
 LevelName_legendary=אגדה
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_dung_attack=התקפת_ברווז
 CommandName_hold_position=שמור_על_עמדתך
@@ -137,7 +137,7 @@ UnitTypeName_slave=עבד
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_build_basic=בניין_בסיסי
 CommandName_repair=תקן
@@ -146,11 +146,11 @@ CommandName_harvest_wood=חטוב_עצים
 UnitTypeName_snake=נחש
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=מומחה
-LevelName_master=שולט
+LevelName_expert=מנוסה
+LevelName_master=מומחה
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_poison_shot=יריית_ארס
 CommandName_hold_position=שמור_על_עמדתך
@@ -160,7 +160,7 @@ UnitTypeName_spearman=לוחם_רומח
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_spearthrower=מטיל_חנית
@@ -169,7 +169,7 @@ UnitTypeName_spearthrower=מטיל_חנית
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -206,7 +206,7 @@ UnitTypeName_archer=קשת
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -215,7 +215,7 @@ UnitTypeName_axe_indian=גרזן_אינדיאני
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_axe_thrower=מטיל_גרזנים
@@ -223,7 +223,7 @@ UnitTypeName_axe_thrower=מטיל_גרזנים
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_beehive=כוורת
@@ -245,7 +245,7 @@ UnitTypeName_bull=שור
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_campfire=מדורה
@@ -262,17 +262,17 @@ UnitTypeName_fire_archer=קשת_אש
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 UnitTypeName_firegolem=גולם_אש
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
+LevelName_ancient=עתיק
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -290,7 +290,7 @@ UnitTypeName_horseman=פרש
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -321,7 +321,7 @@ UnitTypeName_shaman=שאמאן
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_repair=תקן
 CommandName_heal=מרפא
@@ -335,7 +335,7 @@ LevelName_guardian=שומר
 LevelName_chief=מנהיג
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_stickfighter=לוחם_סכינים
@@ -344,7 +344,7 @@ UnitTypeName_stickfighter=לוחם_סכינים
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -357,11 +357,11 @@ CommandName_produce_stickfighter=מייצר_לוחם_סכינים
 UnitTypeName_thunderbird=ציפור_הרעם
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
-LevelName_expert=מומחה
+LevelName_ancient=עתיק
+LevelName_expert=מנוסה
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_throw=זרוק
 CommandName_breath=נשימה
@@ -380,7 +380,7 @@ UnitTypeName_worker=פועל
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_build_basic=בניין_בסיסי
 CommandName_mine=מכרה
@@ -400,12 +400,12 @@ UpgradeTypeName_hell_gate=שער_גהנום
 UnitTypeName_archmage=מכשף
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=מומחה
-LevelName_master=שולט
+LevelName_expert=מנוסה
+LevelName_master=מומחה
 LevelName_legendary=אגדה
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_ice_nova=נובת_קרח
 CommandName_static_fire=אש_סטטית
@@ -420,11 +420,11 @@ CommandName_golem_power=גולם_מחוזק
 UnitTypeName_battlemage=לוחם_קסמים
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=מומחה
-LevelName_master=שולט
+LevelName_expert=מנוסה
+LevelName_master=מומחה
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_bolt=חזיז_אש
 CommandName_hold_position=שמור_על_עמדתך
@@ -432,10 +432,10 @@ CommandName_promote_to_archmage=קדם_למכשף
 UnitTypeName_behemoth=בהמות
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
+LevelName_ancient=עתיק
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_daemon=שד
@@ -443,16 +443,16 @@ UnitTypeName_daemon=שד
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_dragon=דרקון
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
+LevelName_ancient=עתיק
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_breath=נשימה
 CommandName_hold_position=שמור_על_עמדתך
@@ -460,11 +460,11 @@ CommandName_promote_to_evil_dragon=קדם_לדרקון_מרושע
 UnitTypeName_drake_rider=רוכב_דרקונים
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=מומחה
-LevelName_master=שולט
+LevelName_expert=מנוסה
+LevelName_master=מומחה
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_breath=נשימת_אש
 CommandName_flare=להבה
@@ -477,30 +477,30 @@ UnitTypeName_energy_source=מקור_אנרגיה
 UnitTypeName_evil_dragon=דרקון_מרושע
 ; --------------------
 ; Levels for this Unit
-LevelName_expert=מומחה
+LevelName_expert=מנוסה
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_breath=נשימה
 CommandName_hold_position=שמור_על_עמדתך
 UnitTypeName_ghost_armor=שד_משורין
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
+LevelName_ancient=עתיק
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 UnitTypeName_golem=גולם
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
+LevelName_ancient=עתיק
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -510,7 +510,7 @@ UnitTypeName_initiate=טירון
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_repair=תקן
@@ -536,10 +536,10 @@ CommandName_produce_initiate=מייצר_טירון
 UnitTypeName_power_golem=מגדל_קסמים
 ; --------------------
 ; Levels for this Unit
-LevelName_ancient=ישן
+LevelName_ancient=עתיק
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -548,7 +548,7 @@ UnitTypeName_summoner=מזמנת
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_flare=להבה
 CommandName_hold_position=שמור_על_עמדתך
@@ -593,7 +593,7 @@ UnitTypeName_archer=קשת
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -602,7 +602,7 @@ UnitTypeName_axe_thrower=מטיל_גרזנים
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_battleaxe=גרזן_קרב
@@ -610,7 +610,7 @@ UnitTypeName_battleaxe=גרזן_קרב
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_promote_to_battleaxe=קדם_לגרזן_קרב
@@ -619,7 +619,7 @@ UnitTypeName_battleaxe_berzerk=גרזן_קרבי_מטורף
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 UnitTypeName_blacksmith=נפחיה
@@ -651,14 +651,14 @@ UnitTypeName_cow=פרה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 UnitTypeName_crossbow=קשת_מוצלבת
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack_arrow=תקיפת_חיצים
 CommandName_hold_position=שמור_על_עמדתך
@@ -667,7 +667,7 @@ UnitTypeName_cudgel_lady=אשת_אלה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_cudgel=אלה
 UnitTypeName_farm=חווה
@@ -682,7 +682,7 @@ UnitTypeName_flyingvalkyrie=ואלקירי_מכונפת
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -716,7 +716,7 @@ UnitTypeName_spearman=לוחם_רומח
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -727,7 +727,7 @@ UnitTypeName_spearman_berzerk=לוחם_רומח_מטורף
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -737,7 +737,7 @@ UnitTypeName_swordman=לוחם_חרבות
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -748,7 +748,7 @@ UnitTypeName_swordman_berzerk=לוחם_חרב_מטורף
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -758,7 +758,7 @@ UnitTypeName_thor=תור
 LevelName_advanced=מתקדם
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_throw=זרוק
@@ -774,7 +774,7 @@ UnitTypeName_thrull=טרו
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_build_basic=בניין_בסיסי
 CommandName_mine=מכרה
@@ -793,7 +793,7 @@ UnitTypeName_valkyrie=ואלקירי
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_airattack=התקפה_אווירי
@@ -803,7 +803,7 @@ UnitTypeName_wild_sow=חזיר_בר
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 FactionName_persian=פרסים
@@ -831,7 +831,7 @@ UnitTypeName_elephant=פיל
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_attack_arrow=תקיפת_חיצים
@@ -848,7 +848,7 @@ UnitTypeName_fakir=פאקיר
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -865,7 +865,7 @@ UnitTypeName_flying_carpet=שטיח_מעופף
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_magic_attack=התקפת_קסמי
 CommandName_hold_position=שמור_על_עמדתך
@@ -875,7 +875,7 @@ UnitTypeName_genie=ג'יני
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -892,7 +892,7 @@ UnitTypeName_magician=קוסם
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_repair=תקן
@@ -918,7 +918,7 @@ UnitTypeName_princess=נסיכה
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -927,14 +927,14 @@ UnitTypeName_sheep=כבש
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 UnitTypeName_snake_basket=סלסלת_נחשים
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
 UnitTypeName_stickfighter=לוחם_סכינים
@@ -943,7 +943,7 @@ UnitTypeName_stickfighter=לוחם_סכינים
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -953,7 +953,7 @@ UnitTypeName_swordman=לוחם_חרבות
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -979,7 +979,7 @@ UnitTypeName_worker=פועל
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_attack=תקוף
 CommandName_move=נוע
 CommandName_build_basic=בניין_בסיסי
@@ -1007,7 +1007,7 @@ UnitTypeName_archer=קשת
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1018,7 +1018,7 @@ UnitTypeName_axe_man=נושא_גרזן
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1036,7 +1036,7 @@ UnitTypeName_battering_ram=איל_ניגוח
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack_land=התקפה_קרקעית
 CommandName_attack_air=התקפה_אווירית
@@ -1055,7 +1055,7 @@ UnitTypeName_catapult=בליסטראה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_ball=כדור_אש
 CommandName_hold_position=שמור_על_עמדתך
@@ -1065,7 +1065,7 @@ UnitTypeName_cavalry=פרש
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1075,7 +1075,7 @@ UnitTypeName_cow=פרה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 UnitTypeName_eagle_pillar=עמוד_העיט
 ; --------------------
@@ -1091,7 +1091,7 @@ LevelName_accurate=מדויק
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1109,7 +1109,7 @@ LevelName_esteemed=מכובד
 LevelName_grand=מכובד
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1119,7 +1119,7 @@ UnitTypeName_gladiator=גלאדיאטור
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack_land=התקפה_קרקעית
 CommandName_attack_air=התקפה_אווירית
@@ -1137,7 +1137,7 @@ UnitTypeName_guard=שומר
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1164,7 +1164,7 @@ UnitTypeName_slave=עבד
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_build_=בנה_
 CommandName_mine=מכרה
@@ -1176,7 +1176,7 @@ UnitTypeName_spearman=לוחם_רומח
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1186,7 +1186,7 @@ UnitTypeName_swordsman=לוחם_חרב
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1214,7 +1214,7 @@ UnitTypeName_tribune=טריבון
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1224,7 +1224,7 @@ UnitTypeName_turtle_formation=מערך_צב
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1233,7 +1233,7 @@ UnitTypeName_wartime_mechanic=מכונאי_מלחמה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1276,7 +1276,7 @@ UnitTypeName_airship=ספינת_אוויר
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_missile=טיל
 CommandName_hold_position=שמור_על_עמדתך
@@ -1286,7 +1286,7 @@ UnitTypeName_archer=קשת
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1306,7 +1306,7 @@ UnitTypeName_battle_machine=מכונה_קרבית
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_attack_arrow=תקיפת_חיצים
@@ -1331,7 +1331,7 @@ UnitTypeName_catapult=בליסטראה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_ball=כדור_אש
 CommandName_hold_position=שמור_על_עמדתך
@@ -1340,7 +1340,7 @@ UnitTypeName_cow=פרה
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 UnitTypeName_defense_tower=צריח_הגנה
 ; --------------------
@@ -1363,7 +1363,7 @@ UnitTypeName_guard=שומר
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1373,7 +1373,7 @@ UnitTypeName_horseman=פרש
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1383,7 +1383,7 @@ UnitTypeName_ornithopter=דאון
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_molotov=בקבוק_תבערה
 CommandName_fire_arrow=חץ_אש
@@ -1393,7 +1393,7 @@ UnitTypeName_pig=חזיר
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 UnitTypeName_swordman=לוחם_חרבות
 ; --------------------
@@ -1401,7 +1401,7 @@ UnitTypeName_swordman=לוחם_חרבות
 LevelName_elite=מובחר
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
@@ -1411,7 +1411,7 @@ UnitTypeName_technician=טכנאי
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_build_ultimate=בנה_אולטימטום
 CommandName_repair=תקן
@@ -1421,7 +1421,7 @@ CommandName_molotov=בקבוק_תבערה
 CommandName_build_catapult=בנה_קאטאפולטה
 CommandName_build_battle_machine=בונה_מכונה_קרבית
 CommandName_build_air_ballista=בונה_בליסטראה_אווירית
-UnitTypeName_technodrome=מעוף_טכני
+UnitTypeName_technodrome=מרכז טכנולוגי
 ; --------------------
 ; Levels for this Unit
 ; -------------------------------
@@ -1434,7 +1434,7 @@ UnitTypeName_worker=פועל
 ; Levels for this Unit
 ; -------------------------------
 ; Types of Commands for this Unit
-CommandName_stop=עצוב
+CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_build_basic=בניין_בסיסי
 CommandName_build_advanced=מבנים_מתקדמים
