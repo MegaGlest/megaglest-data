@@ -190,7 +190,7 @@ Harvest=Sammeln
 HarvestSpeed=Sammelgeschw.
 HeadlessAdminRequiresMorePlayers=Es müssen mindestens %d Spieler mitspielen, um dieses Spiel zu starten!
 HeadlessServerDoesNotHaveMap=Der Headless-Server hat die Karte nicht und schaltete zur nächsten Karte.
-Healthbar=Heilungsbalken
+Healthbar=Schadens-/Fortschrittsleiste
 HealthbarsAlways=Immer
 HealthbarsFactionDefault=Fraktion (Voreinstellung)
 HealthbarsOff=Aus
@@ -538,8 +538,8 @@ WaitingForPlayers=Warten Sie mindestens auf einen weiteren Spieler!
 Windowed=Im Fenster:
 WrongRouterSetup=Firewall- oder Router-Konfigurationsprobleme lassen ein Hosten nicht zu.\n\nUm dies zu beheben kannst du:\n- Einfach einen der Headless-Server im Internetmenü verwenden\n- Oder du siehst dir die Routerkofiguration auf faqs.megaglest.org an
 Yes=Ja
-YouLose=Verloren
-YouWin=Du hast gewonnen
+YouLose=Verloren!
+YouWin=Du hast gewonnen!
 
 ;-------------------------------- Intro Text Start
 IntroText1=Als Weiterentwicklung des preisgekrönten Spiels Glest
