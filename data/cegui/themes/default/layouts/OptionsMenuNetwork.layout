@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+    <Window type="DefaultWindow" name="Network" >
+        <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property name="Text" value="Network" />
+        <Property name="MaxSize" value="{{1,0},{1,0}}" />
+        <Window type="GlossySerpent/StaticText" name="LabelExternalPortNumber" >
+            <Property name="Area" value="{{0.0129025,0},{0.0157409,0},{0.212903,0},{0.0657409,0}}" />
+            <Property name="Text" value="External Port #:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelExternalPortNumberValue" >
+            <Property name="Area" value="{{0.215246,0},{0.0157409,0},{0.415246,0},{0.0657409,0}}" />
+            <Property name="Text" value="---" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelServerPortNumber" >
+            <Property name="Area" value="{{0.0129025,0},{0.0754631,0},{0.212903,0},{0.125463,0}}" />
+            <Property name="Text" value="Server Port#" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Spinner" name="SpinnerServerPortNumber" >
+            <Property name="Area" value="{{0.213563,0},{0.0754632,0},{0.314344,0},{0.125463,0}}" />
+            <Property name="Text" value="9" />
+            <Property name="CurrentValue" value="9" />
+            <Property name="MaximumValue" value="99999" />
+            <Property name="MinimumValue" value="0" />
+            <AutoWindow namePath="__auto_editbox__" >
+                <Property name="Text" value="9" />
+                <Property name="ValidationString" value="-?\d*" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_incbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+            <AutoWindow namePath="__auto_decbtn__" >
+                <Property name="WantsMultiClickEvents" value="False" />
+                <Property name="MouseAutoRepeatEnabled" value="True" />
+            </AutoWindow>
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelEnableFTPServer" >
+            <Property name="Area" value="{{0.0136837,0},{0.252315,0},{0.213684,0},{0.302315,0}}" />
+            <Property name="Text" value="Enable FTP Server" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxEnableFTPServer" >
+            <Property name="Area" value="{{0.211562,0},{0.253704,0},{0.246719,0},{0.30926,0}}" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonSave" >
+            <Property name="Area" value="{{0.0121212,0},{0.94213,0},{0.151184,0},{0.987963,0}}" />
+            <Property name="Text" value="Save" />
+        </Window>
+        <Window type="GlossySerpent/Button" name="ButtonReturn" >
+            <Property name="Area" value="{{0.163636,0},{0.940741,0},{0.302698,0},{0.986574,0}}" />
+            <Property name="Text" value="Return" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelFTPServerPortNumber" >
+            <Property name="Area" value="{{0.0129025,0},{0.132408,0},{0.212903,0},{0.182408,0}}" />
+            <Property name="Text" value="FTP Server Port #:" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelFTPServerPortNumberValue" >
+            <Property name="Area" value="{{0.215246,0},{0.132408,0},{0.415246,0},{0.182408,0}}" />
+            <Property name="Text" value="61358" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelFTPServerDataPorts" >
+            <Property name="Area" value="{{0.0136837,0},{0.190741,0},{0.213684,0},{0.240741,0}}" />
+            <Property name="Text" value="FTP Server Data Ports" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelFTPServerDataPortsValue" >
+            <Property name="Area" value="{{0.216028,0},{0.190741,0},{0.416028,0},{0.240741,0}}" />
+            <Property name="Text" value="61359-61366" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelEnableFTPFileXfer" >
+            <Property name="Area" value="{{0.0136837,0},{0.310649,0},{0.213684,0},{0.360649,0}}" />
+            <Property name="Text" value="Enable FTP file transfers" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxEnableFTPFileXfer" >
+            <Property name="Area" value="{{0.211562,0},{0.312037,0},{0.246719,0},{0.367593,0}}" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxEnableFTPTilesetFileXferInternet" >
+            <Property name="Area" value="{{0.211562,0},{0.370371,0},{0.246719,0},{0.425926,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelEnableFTPTilesetFileXferInternet" >
+            <Property name="Area" value="{{0.0136837,0},{0.368982,0},{0.213684,0},{0.418982,0}}" />
+            <Property name="Text" value="Transfer tilesets over Internet" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelEnableFTPTechtreeFileXferInternet" >
+            <Property name="Area" value="{{0.0136837,0},{0.427315,0},{0.213684,0},{0.477315,0}}" />
+            <Property name="Text" value="Transfer techtrees over Internet" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxEnableFTPTechtreeFileXferInternet" >
+            <Property name="Area" value="{{0.211562,0},{0.428704,0},{0.246719,0},{0.48426,0}}" />
+        </Window>
+        <Window type="GlossySerpent/StaticText" name="LabelEnablePrivacy" >
+            <Property name="Area" value="{{0.0129025,0},{0.485649,0},{0.212902,0},{0.535649,0}}" />
+            <Property name="Text" value="Enable Privacy" />
+            <Property name="MaxSize" value="{{1,0},{1,0}}" />
+            <Property name="FrameEnabled" value="False" />
+            <Property name="BackgroundEnabled" value="False" />
+        </Window>
+        <Window type="GlossySerpent/Checkbox" name="CheckboxEnablePrivacy" >
+            <Property name="Area" value="{{0.210781,0},{0.487037,0},{0.245937,0},{0.542593,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

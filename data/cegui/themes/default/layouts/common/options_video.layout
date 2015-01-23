@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <!-- This is the options window -->
+    <Window Type="GlossySerpent/StaticImage" Name="OptionsWindowVideoHolder" >
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="Area" Value="{{0,0},{-0,0},{1,0},{1,0}}" />
+        <Property Name="BackgroundEnabled" Value="False" />
+<!--    <Window Type="GlossySerpent/SimplePanel" Name="OptionsWindowVideoHolder">
+        <Property Name="Area" Value="{{0.0,0},{0.0,0},{1.0,0},{1.0,0}}" />
+        <Property Name="Visible" Value="False" />
+        <Property Name="InheritsAlpha" Value="False" />
+        <Property Name="BackgroundPictureColour" Value="AFFFFFFFF" />
+-->
+        <Window Type="GlossySerpent/StaticText" Name="VideoDriver" >
+            <Property Name="Text" Value="Video Driver" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.02,0},{0.16,0},{0.34,0},{0.35,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        
+        <Window Type="GlossySerpent/Combobox" Name="VideoDriverBox" >
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.35,0},{0.16,0},{0.98,0},{0.35,0}}" />
+            <Property Name="UnifiedSize" Value="{{0.5,0},{0.25,0}}" />
+        </Window>
+        
+        <Window Type="GlossySerpent/StaticText" Name="DisplayMode" >
+            <Property Name="Text" Value="Display Mode" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.02,0},{0.36,0},{0.34,0},{0.55,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        
+        <Window Type="GlossySerpent/Combobox" Name="DisplayModeBox" >
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.35,0},{0.36,0},{0.98,0},{0.55,0}}" />
+            <Property Name="UnifiedSize" Value="{{0.5,0},{0.35,0}}" />
+        </Window>
+        
+        <Window Type="GlossySerpent/StaticText" Name="Resolution" >
+            <Property Name="Text" Value="Resolution" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.02,0},{0.56,0},{0.34,0},{0.75,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        
+        <Window Type="GlossySerpent/Combobox" Name="ResolutionBox" >
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.35,0},{0.56,0},{0.98,0},{0.75,0}}" />
+            <Property Name="UnifiedSize" Value="{{0.5,0},{0.4,0}}" />
+        </Window>
+
+    </Window>
+</GUILayout>

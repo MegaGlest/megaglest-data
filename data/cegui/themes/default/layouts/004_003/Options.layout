@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+
+    <!-- This is the options window -->
+    <Window Type="GlossySerpent/SimplePanel" Name="OptionsWindow">
+<!--      <Property Name="UnifiedPosition" Value="{{0.3,0},{0.3,0}}" />
+        <Property Name="MaxSize" Value="{{1.1,0},{1.1,0}}" />
+        <Property Name="UnifiedMinSize" Value="{{0,001},{0,001}}" />
+        <Property Name="UnifiedSize" Value="{{0.4,0},{0.4,0}}" />-->
+        <Property Name="Area" Value="{{0.25,0},{0.2,0},{0.75,0},{0.75,0}}" />
+    
+        <Property Name="Visible" Value="False" />
+        <!--<Property Name="FrameEnabled" Value="False" />-->
+        <Property Name="InheritsAlpha" Value="False" />
+            
+        <Window Type="GlossySerpent/Button32_4C" Name="BtnOptCancel" >
+            <Property Name="Text" Value="[colour='FFFFFFFF']Cancel[colour='FFFFF000'](Esc)[colour='FFFFFFFF']" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.7,0},{0.88,0},{0.99,0},{0.98,0}}" />
+            <Property Name="Tooltip" Value="Cancel any changes to the options
+and go back to the menu" />
+            <!--<Property Name="GlyphImage" Value="GlossySerpent/GlyphShield" />-->
+        </Window>
+
+        <Window Type="GlossySerpent/Button32_4C" Name="BtnOptOk" >
+            <Property Name="Text" Value="[colour='FFFFFFFF']O[colour='FFFFF000']k" />
+            <Property Name="InheritsAlpha" Value="False" />
+            <Property Name="Area" Value="{{0.4,0},{0.88,0},{0.65,0},{0.98,0}}" />
+            <Property Name="Tooltip" Value="Cancel any changes to the options
+and go back to the menu" />
+            <!--<Property Name="GlyphImage" Value="GlossySerpent/GlyphShield" />-->
+        </Window>
+
+        <Window Type="GlossySerpent/TabControl" Name="OptionsWindowTab" >
+            <Property Name="Alpha" Value="1.0" />
+            <Property Name="TabHeight" Value="{0.15,0}" />
+            <Property Name="TCScrollLRatio" Value="0.45" />
+            <Property Name="TabHeight" Value="{0,31.1724}" />
+            <Property Name="TabPanePosition" Value="Top" />
+            <Property Name="Area" Value="{{0.01,0},{0.01,0},{0.99,0},{0.82,0}}" />
+            
+            <Window Type="GlossySerpent/TabContentPane" Name="Tab_Video" >
+                <Property Name="Text" Value="Video" />
+                <Property Name="Alpha" Value="0.0" />
+                <Property Name="Visible" Value="True" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="Area" Value="{{0,0},{0,0},{1.0,0},{1.0,0}}" />
+
+            </Window> <!-- tab -->
+        </Window> <!-- tab control -->
+
+    </Window>
+</GUILayout>
