@@ -1,7 +1,7 @@
 Description=Conflict
 MapFilterIndex=0
 Map=conflict
-Tileset=desert2
+Tileset=desert4
 TechTree=megapack
 DefaultUnits=1
 DefaultResources=1
