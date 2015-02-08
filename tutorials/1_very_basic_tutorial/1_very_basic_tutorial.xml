@@ -1,23 +1,23 @@
-<?xml version="1.0" standalone="yes" ?> 
+<?xml version="1.0" standalone="yes" ?>
 <scenario>
 	<difficulty value="0"/>
 	<players>
 		<player control="human" faction="indian" team="1"/>
 		<player control="cpu" faction="magic" team="2"/>
 		<player control="closed"/>
-		<player control="closed"/>		
+		<player control="closed"/>
 	</players>
 	<map value="conflict"/>
 	<tileset value="evergreen"/>
 	<tech-tree value="megapack"/>
 	<default-resources value="true"/>
 	<default-units value="false"/>
-	<default-victory-conditions value="true"/>
+	<default-victory-conditions value="false"/>
 	<scripts>
 		<startup>
 			disableAi(1)
-			createUnit('mainteepee', 0, startLocation(0))			
-			createUnit('mage_tower', 1, startLocation(1))			
+			createUnit('mainteepee', 0, startLocation(0))
+			createUnit('mage_tower', 1, startLocation(1))
 			showMessage('Welcome', 'GlestBasicTutorial')
 			showMessage('FirstThing', 'GlestBasicTutorial')
 			showMessage('WillBeUsingIndian', 'GlestBasicTutorial')
@@ -31,57 +31,54 @@
 				showMessage('ResourceInformation', 'Resources')
 				showMessage('GetWood', 'Resources')
 				setDisplayText('GetWoodob')
-				objective= 'harvest_wood'			
-			end	
+				objective= 'harvest_wood'
+			end
 			if objective=='harvest_wood' and resourceAmount('wood', 0)>=550 then
 				showMessage('MeetingPoint', 'WellDone')
-				showMessage('UseMeetingPoint', 'GlestBasicTutorial')	
+				showMessage('UseMeetingPoint', 'GlestBasicTutorial')
 				showMessage('MeetingPoint2', 'Tricks')
-				showMessage('Thirdcommand', 'Buildings')	
-				showMessage('Thirdcommand2', 'Buildings')	
-				showMessage('Thirdcommand3', 'Buildings')	
-				showMessage('Thirdcommand4', 'Buildings')	
+				showMessage('Thirdcommand', 'Buildings')
+				showMessage('Thirdcommand2', 'Buildings')
+				showMessage('Thirdcommand3', 'Buildings')
+				showMessage('Thirdcommand4', 'Buildings')
 				setDisplayText('UseThirdCommand')
-				objective= 'produce_tent'			
-			end				
+				objective= 'produce_tent'
+			end
 		</resourceHarvested>
 		<unitCreatedOfType type="worker">
 			if objective=='produce_worker' then
 				WorkerUnit=lastCreatedUnit()
-<!--Messages-->
-				showMessage('Select', 'WellDone')			
+				showMessage('Select', 'WellDone')
 				showMessage('Select2', 'GlestBasicTutorial')
-				showMessage('ExampleWorker', 'GlestBasicTutorial')			
-				showMessage('Command', 'GlestBasicTutorial')			
-				showMessage('FirstCommand', 'GlestBasicTutorial')			
-				showMessage('SecondCommand', 'GlestBasicTutorial')			
-				showMessage('SecondCommand2', 'GlestBasicTutorial')			
-				showMessage('TestSecondCommand', 'GlestBasicTutorial')			
+				showMessage('ExampleWorker', 'GlestBasicTutorial')
+				showMessage('Command', 'GlestBasicTutorial')
+				showMessage('FirstCommand', 'GlestBasicTutorial')
+				showMessage('SecondCommand', 'GlestBasicTutorial')
+				showMessage('SecondCommand2', 'GlestBasicTutorial')
+				showMessage('TestSecondCommand', 'GlestBasicTutorial')
 				setDisplayText('MoveWorker')
 				objective= 'move_worker'
-<!--Set Worker-->
+				<!--Set Worker-->
 				createUnit('worker', 0, {80,70})
 				SecondWorkerUnit=lastCreatedUnit()
 				cell_event1 = registerCellTriggerEventForUnitToUnit(WorkerUnit,SecondWorkerUnit)
-
-			end		
-		</unitCreatedOfType>	
+			end
+		</unitCreatedOfType>
 		<unitCreatedOfType type="tent">
 			if objective=='produce_tent' then
-<!--Messages-->
-				showMessage('ProduceStickfighter', 'WellDone')	
+				showMessage('ProduceStickfighter', 'WellDone')
 				setDisplayText('ProduceStickfighter2')
 				objective= 'stickfighter'
-			end		
-		</unitCreatedOfType>	
+			end
+		</unitCreatedOfType>
 		<unitCreatedOfType type="stickfighter">
 			if objective=='stickfighter' then
-<!--Messages-->
 				setDisplayText('WellDoneNextTutorial')
 				setPlayerAsWinner(0)
-				endGame()
-			end		
-		</unitCreatedOfType>	
+				timer_event1 = startTimerEvent()
+				objective= 'end'
+			end
+		</unitCreatedOfType>
 		<cellTriggerEvent>
 			--print('Cell Event ' .. triggeredCellEventId() )
 			if triggeredCellEventId() == cell_event1 then
@@ -98,5 +95,13 @@
 				objective= 'Harvest_Gold_And_Stone'
 			end
 		</cellTriggerEvent>
+		<timerTriggerEvent>
+			if triggeredTimerEventId() == timer_event1 then
+				if timerEventSecondsElapsed(triggeredTimerEventId()) >= 9 then
+					endGame()
+					stopTimerEvent(triggeredTimerEventId())
+				end
+			end
+		</timerTriggerEvent>
 	</scripts>
 </scenario>
