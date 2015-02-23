@@ -1,4 +1,4 @@
-TUTORIAL_NAME=3 Samouczek - Zaaw.
+TUTORIAL_NAME=3, Zaawansowany Samouczek
 ;message headers
 GlestAdvancedTutorial=Samouczek. Poziom zaawansowany.
 Promoting=Ulepszanie jednostek
@@ -37,3 +37,6 @@ ProduceGhostArmor=Twój Cel: Odkryj Starożytne Przyzywanie ('Ancient Summoning'
 BuildEnergySource=Twój Cel: Zbuduj źródło energii ('Energy Source').
 ProduceGolem=Twój Cel: Wybuduj bibliotekę ('Library') a następnie wykorzystaj Adepta ('Initiate') aby przeprowadził rytuał ('Ritual') i zbudował Golema.
 DefeatEnemy=Twój Cel: Stwórz armię, zlokalizuj i pokonaj wroga.\n\nKiedy tego dokonasz ukończysz samouczek, a wówczas najlepiej abyś rozpoczął swoją przygodę z MegaGlest grając w scenariusze o coraz większym poziomie trudności.
+
+;end
+WellDoneNextScenarios=Świetna robota! Możesz teraz bez obaw przejść do scenariuszy o niskim poziomie trudności. Miłej zabawy.

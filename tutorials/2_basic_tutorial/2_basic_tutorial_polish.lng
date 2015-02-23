@@ -1,6 +1,6 @@
-TUTORIAL_NAME=2 Samouczek - Śred.
+TUTORIAL_NAME=2, Podstawowy Samouczek
 ;message headers
-GlestBasicTutorial=Samouczek. Poziom średni 2.
+GlestBasicTutorial=Samouczek 2. Poziom podstawowy.
 WellDone=Doskonale!
 Resources=Surowce
 Combat=Bitwa
@@ -36,3 +36,6 @@ BuildBarracks=Twój Cel: Zbuduj koszary ('Barracks').
 ProduceSwordman=Twój Cel: Stwórz miecznika ('Swordman').
 ProduceArcher=Twój Cel: Stwórz łucznika ('Archer').
 ProduceMoreWarriors=Twój Cel: Stwórz więcej wojowników by poradzić sobie z nadchodzącym atakiem.\n\nKiedy pokonasz przeciwnika będziesz mógł przejść do następnego samouczka. (nr. 3)
+
+;end
+WellDoneNextTutorial=Świetna robota! Możesz teraz przejść do następnego samouczka.

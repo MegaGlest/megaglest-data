@@ -36,3 +36,6 @@ BuildBarracks=Цель: Построить казарму (Barracks).
 ProduceSwordman=Цель: Произвести воина Swordman.
 ProduceArcher=Цель: Произвести лучника Archer.
 ProduceMoreWarriors=Цель: Производить больше воинов, чтобы справиться с предстоящей атакой.
+
+;end
+WellDoneNextTutorial=Хорошая работа! Теперь можно приступить к следующему уроку.

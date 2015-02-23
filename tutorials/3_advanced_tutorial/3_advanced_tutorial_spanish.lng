@@ -37,3 +37,6 @@ ProduceGhostArmor=Objetivo: Investiga la Invocación Arcana (Ancient Summoning) 
 BuildEnergySource=Objetivo: Produce una Fuente de Energía (Energy Source).
 ProduceGolem=Objetivo: Construye una Biblioteca (Library) y luego usa un Iniciado (Initiate) para construir un Gólem.
 DefeatEnemy=Objetivo: Construye un ejército, busca y derrota al enemigo.
+
+;end
+WellDoneNextScenarios=¡Perfecto! Ahora puedes proceder a probar escenarios fáciles. Que te diviertas.
