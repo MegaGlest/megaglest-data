@@ -12,7 +12,7 @@ Player2HasFlagWarning=玩家 2 夺走了你的旗帜，干掉他！！！
 Player3HasFlagWarning=玩家 3 夺走了你的旗帜，干掉他！！！
 
 ;objective strings
-# Player2HeadHome=Now player 2 you make it home alive and win! Your flag bearer is highlighted in your team color, don't let him die.
-# Player3HeadHome=Now player 3 you make it home alive and win! Your flag bearer is highlighted in your team color, don't let him die.
+Player2HeadHome=现在，你必须让玩家 2 存活并取得胜利！你的旗帜被标记为你团队的颜色，不要让他死掉。
+Player3HeadHome=现在，你必须让玩家 3 存活并取得胜利！你的旗帜被标记为你团队的颜色，不要让他死掉。
 PlayerWins=祝贺你赢得胜利！
 PlayerLoses=惨了，我们输了！
