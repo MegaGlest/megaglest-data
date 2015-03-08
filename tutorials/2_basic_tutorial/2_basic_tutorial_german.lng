@@ -36,3 +36,6 @@ BuildBarracks=Deine Aufgabe: Baue Baracken.
 ProduceSwordman=Deine Aufgabe: Bilde einen Schwertkämpfer (Swordman) aus.
 ProduceArcher=Deine Aufgabe: Bilde einen Bogenschützen (Archer) aus.
 ProduceMoreWarriors=Deine Aufgabe: Bilde mehr Krieger für den bevorstehenden Angriff aus.
+
+;end
+WellDoneNextTutorial=Gut Gemacht! Du kannst jetzt die nächste Einführung spielen.

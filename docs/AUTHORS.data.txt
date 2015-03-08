@@ -156,6 +156,7 @@ basic_tutorial2      by Philipp Tscharntke
 
 Translations:
 =============
+Albanian             by Alket Rexhep Rexhepi
 Catalan              by Miguel Verdú
 Chinese              by James
 Czech                by Uncle

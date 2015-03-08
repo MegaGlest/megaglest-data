@@ -1,11 +1,11 @@
-<?xml version="1.0" standalone="yes" ?> 
+<?xml version="1.0" standalone="yes" ?>
 <scenario>
 	<difficulty value="1"/>
 	<players>
 		<player control="cpu" faction="tech" team="1"/>
 		<player control="human" faction="magic" team="2"/>
 		<player control="closed"/>
-		<player control="closed"/>		
+		<player control="closed"/>
 	</players>
 	<map value="valley_of_death"/>
 	<tileset value="spring"/>
@@ -21,16 +21,16 @@
 			createUnit('energy_source', 1, startLocation(1))
 			createUnit('initiate', 1, startLocation(1))
 			createUnit('initiate', 1, startLocation(1))
-			giveResource('gold', 1, 500);
-			giveResource('stone', 1, 500);
-			giveResource('wood', 1, 500);			
+			giveResource('gold', 1, 500)
+			giveResource('stone', 1, 500)
+			giveResource('wood', 1, 500)
 			showMessage('Welcome', 'GlestAdvancedTutorial')
 			showMessage('MagicBrief', 'GlestAdvancedTutorial')
 			showMessage('InitiateBrief', 'GlestAdvancedTutorial')
 			showMessage('InitiatePromotion', 'Promoting')
 			setDisplayText('PromoteInitiate')
 			objective= 'produce_battlemage'
-			combatUnitCount= 0;		
+			combatUnitCount= 0
 		</startup>
 		<unitCreated>
 		</unitCreated>
@@ -38,65 +38,73 @@
 			if objective=='produce_battlemage' then
 				showMessage('BattlemageBrief', 'WellDone')
 				showMessage('EnergyBrief', 'Energy')
-				setDisplayText('BuildEnergySource')	
-				objective= 'build_energy_source'						
-		
+				setDisplayText('BuildEnergySource')
+				objective= 'build_energy_source'
 			end
 		</unitCreatedOfType>
 		<unitCreatedOfType type="energy_source">
 			if objective=='build_energy_source' then
-				showMessage('EnergyBrief2', 'WellDone')	
+				showMessage('EnergyBrief2', 'WellDone')
 				showMessage('SummonedUnitsBrief', 'Summoning')
 				setDisplayText('ProduceSummoner')
-				objective= 'produce_summoner'						
+				objective= 'produce_summoner'
 			end
-		</unitCreatedOfType>			
+		</unitCreatedOfType>
 		<unitCreatedOfType type="summoner">
 			if objective=='produce_summoner' then
-				showMessage('SummonerBrief', 'WellDone')	
+				showMessage('SummonerBrief', 'WellDone')
 				setDisplayText('ProduceDaemon')
-				objective= 'produce_daemon'					
+				objective= 'produce_daemon'
 			end
-		</unitCreatedOfType>	
+		</unitCreatedOfType>
 		<unitCreatedOfType type="daemon">
 			if objective=='produce_daemon' then
-				showMessage('DaemonBrief', 'WellDone')	
-				showMessage('OtherSummonedCreatures', 'Summoning')	
-				showMessage('GhostArmorRequirements', 'Summoning')	
+				showMessage('DaemonBrief', 'WellDone')
+				showMessage('OtherSummonedCreatures', 'Summoning')
+				showMessage('GhostArmorRequirements', 'Summoning')
 				setDisplayText('ProduceGhostArmor')
-				objective= 'produce_ghost_armor'	
+				objective= 'produce_ghost_armor'
 			end
-		</unitCreatedOfType>	
+		</unitCreatedOfType>
 		<unitCreatedOfType type="ghost_armor">
 			if objective=='produce_ghost_armor' then
-				showMessage('GhostArmorBrief', 'WellDone')	
+				showMessage('GhostArmorBrief', 'WellDone')
 				showMessage('RitualBrief', 'Ritual')
 				setDisplayText('ProduceGolem')
-				objective= 'produce_golem'	
+				objective= 'produce_golem'
 			end
-		</unitCreatedOfType>			
+		</unitCreatedOfType>
 		<unitCreatedOfType type="golem">
 			if objective=='produce_golem' then
-				showMessage('GolemBrief', 'WellDone')		
-				showMessage('ArmyManagement', 'Armies')		
-				showMessage('DoubleClickBrief', 'Armies')		
-				showMessage('GroupSelectBrief', 'Armies')	
-				showMessage('FinalMission', 'Armies')	
-				objective= 'defeat_enemy'	
+				showMessage('GolemBrief', 'WellDone')
+				showMessage('ArmyManagement', 'Armies')
+				showMessage('DoubleClickBrief', 'Armies')
+				showMessage('GroupSelectBrief', 'Armies')
+				showMessage('FinalMission', 'Armies')
+				objective= 'defeat_enemy'
 				setDisplayText('DefeatEnemy')
 				createUnit('farm', 0, startLocation(0))
 				createUnit('barracks', 0, startLocation(0))
-				createUnit('swordman', 0, startLocation(0))	
-				createUnit('swordman', 0, startLocation(0))	
-				createUnit('archer', 0, startLocation(0))					
+				createUnit('swordman', 0, startLocation(0))
+				createUnit('swordman', 0, startLocation(0))
+				createUnit('archer', 0, startLocation(0))
 			end
-		</unitCreatedOfType>	
+		</unitCreatedOfType>
 		<unitDied>
 			if objective=='defeat_enemy' and unitCount(0)==0 then
-				clearDisplayText()
+				setDisplayText('WellDoneNextScenarios')
 				setPlayerAsWinner(1)
-				endGame()
+				timer_event1 = startTimerEvent()
+				objective= 'end'
 			end
 		</unitDied>
+		<timerTriggerEvent>
+			if triggeredTimerEventId() == timer_event1 then
+				if timerEventSecondsElapsed(triggeredTimerEventId()) >= 5 then
+					endGame()
+					stopTimerEvent(triggeredTimerEventId())
+				end
+			end
+		</timerTriggerEvent>
 	</scripts>
 </scenario>

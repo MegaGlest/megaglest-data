@@ -565,7 +565,7 @@ IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
-ISO639-1=zh-tw
+ISO639-1=zh_TW
 NativeLanguageName=正體中文 (Chinese Traditional), 漢語
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/wqy-zenhei.ttc
 MEGAGLEST_FONT_FAMILY=WenQuanYi Zen Hei:style=Regular

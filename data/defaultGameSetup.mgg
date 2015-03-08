@@ -1,7 +1,7 @@
 Description=Conflict
 MapFilterIndex=0
 Map=conflict
-Tileset=autumn
+Tileset=birch_forest
 TechTree=megapack
 DefaultUnits=1
 DefaultResources=1

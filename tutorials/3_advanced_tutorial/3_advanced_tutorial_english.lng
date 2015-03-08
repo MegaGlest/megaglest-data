@@ -37,3 +37,6 @@ ProduceGhostArmor=Objective: Research Ancient Summoning, then summon a Ghost Arm
 BuildEnergySource=Objective: Build an Energy Source.
 ProduceGolem=Objective: Build Library and then use an Initiate to perform a ritual to build a Golem.
 DefeatEnemy=Objective: Build an army, locate and defeat your enemy.
+
+;end
+WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.
