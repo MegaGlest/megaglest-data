@@ -1,0 +1,816 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<title>Egypt Techtree of Glest - Version 0.8 beta
+ (Megapack) </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- stuff for table-sorting, see jquery.com and datatables.net for details
+-->
+<script type="text/javascript" language="javascript" src="js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+<!--
+<script type="text/javascript" language="javascript" src="js/TableTools.min.js"></script>
+-->
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+
+		$('#table_all').dataTable( {
+			'bAutoWidth': false,
+			"bPaginate": false,
+			"bSortClasses": false,
+			"sDom": '<"top"iflp>rt<"bottom"><"clear">',
+		<!--
+			"oTableTools": {
+				"sSwfPath": "js/copy_cvs_xls_pdf.swf"
+			},
+		-->
+			"aaSorting": [[ 1, "asc" ]]
+			});
+	});
+</script>
+</head>
+
+<body>
+
+ <!-- start header -->
+    <div id="header">
+
+      <!-- Contain the right and left header images -->
+      <div id="header_left"></div>
+      <div id="header_right"></div>
+      <div id="logo"><a href="/"><img src="http://megaglest.org/uploads/megaglest2011/logo/logo.png" alt="MegaGlest logo" /></a></div>
+    </div>
+    <!-- end header -->
+
+    <!-- start content -->
+    <div id="content">
+      <div id="article">
+
+
+<h1>Egypt Techtree of Glest - Version 0.8 beta
+ (Megapack) </h1>
+<p>
+<h4><a href="index.html">Home</a></h4><p><H4>Choose faction: &nbsp;<A HREF=egypt_overview.html><I>Egypt</I></a> |&nbsp;
+&nbsp;<A HREF=indian_overview.html>Indian</a> |&nbsp;
+&nbsp;<A HREF=magic_overview.html>Magic</a> |&nbsp;
+&nbsp;<A HREF=norsemen_overview.html>Norsemen</a> |&nbsp;
+&nbsp;<A HREF=persian_overview.html>Persian</a> |&nbsp;
+&nbsp;<A HREF=romans_overview.html>Romans</a> |&nbsp;
+&nbsp;<A HREF=tech_overview.html>Tech</a>
+ </H4><P>
+<P>
+<H4>Techtree Diagrams: <a href="egypt_techtree_clickable_map_buildings.html">Buildings</a> |
+<a href="egypt_techtree_clickable_map_buildings_units.html">Buildings Units</a> |
+<a href="egypt_techtree_clickable_map_all.html">All</a></H4>
+<P>
+<H1>Overview for Faction: Egypt</H1>
+
+<H3>Combat Units</H3> <TABLE BORDER=1 WIDTH="100%"><TR> <TH> Name 
+						<TH> Total Cost
+						<TH> Hit Points 
+						<TH> Rege- nerate 
+						<TH> Armor Strength 
+						<TH> Armor Type 
+						<TH> Sight Range 
+					 
+					<TH> Move Speed
+					<TH> Air / Ground
+					<TH> Attack Strength Land 
+					<TH> Attack Strength Air 
+					<TH> Attack Range
+				<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/air_pyramid/images/air_pyramid.bmp" HEIGHT=32 WIDTH=32 ALT="Air Pyramid"><A HREF="egypt_air_pyramid_full.html">Air Pyramid</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">150</NOBR>&nbsp;
+<TD ALIGN=CENTER>3000</TD><TD ALIGN=CENTER>5</TD><TD ALIGN=CENTER>20</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#wood">Wood</A></TD><TD ALIGN=CENTER>15</TD><TD ALIGN=CENTER>--
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>--
+</TD><TD ALIGN=CENTER>200&nbsp;+-&nbsp;75</TD><TD ALIGN=CENTER>15</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/anubis_warrior/images/anubis.bmp" HEIGHT=32 WIDTH=32 ALT="Anubis Warrior"><A HREF="egypt_anubis_warrior_full.html">Anubis Warrior</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TD ALIGN=CENTER>900</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>40</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#metal">Metal</A></TD><TD ALIGN=CENTER>11</TD><TD ALIGN=CENTER>250
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>130&nbsp;+-&nbsp;40</TD><TD ALIGN=CENTER>--
+</TD><TD ALIGN=CENTER>1</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/ibis/images/ibis.bmp" HEIGHT=32 WIDTH=32 ALT="Ibis"><A HREF="egypt_ibis_full.html">Ibis</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">250</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">2</NOBR>&nbsp;
+<TD ALIGN=CENTER>1300</TD><TD ALIGN=CENTER>3</TD><TD ALIGN=CENTER>10</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#leather">Leather</A></TD><TD ALIGN=CENTER>15</TD><TD ALIGN=CENTER>250
+<TD ALIGN=CENTER>Air</TD>
+<TD ALIGN=CENTER>170&nbsp;+-&nbsp;50</TD><TD ALIGN=CENTER>170&nbsp;+-&nbsp;50</TD><TD ALIGN=CENTER>8</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/mummy/images/daemon.bmp" HEIGHT=32 WIDTH=32 ALT="Mummy"><A HREF="egypt_mummy_full.html">Mummy</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">&nbsp;&nbsp;45</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TD ALIGN=CENTER>600</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>10</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#organic">Organic</A></TD><TD ALIGN=CENTER>12</TD><TD ALIGN=CENTER>250
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>70&nbsp;+-&nbsp;40</TD><TD ALIGN=CENTER>--
+</TD><TD ALIGN=CENTER>1</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/priest/images/priest.bmp" HEIGHT=32 WIDTH=32 ALT="Priest"><A HREF="egypt_priest_full.html">Priest</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;&nbsp;90</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TD ALIGN=CENTER>700</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>20</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#leather">Leather</A></TD><TD ALIGN=CENTER>10</TD><TD ALIGN=CENTER>210
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>85&nbsp;+-&nbsp;25</TD><TD ALIGN=CENTER>85&nbsp;+-&nbsp;25</TD><TD ALIGN=CENTER>9</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/scarab/images/scarab.bmp" HEIGHT=32 WIDTH=32 ALT="Scarab"><A HREF="egypt_scarab_full.html">Scarab</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">2</NOBR>&nbsp;
+<TD ALIGN=CENTER>1400</TD><TD ALIGN=CENTER>5</TD><TD ALIGN=CENTER>23</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#leather">Leather</A></TD><TD ALIGN=CENTER>12</TD><TD ALIGN=CENTER>140
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>180&nbsp;+-&nbsp;90</TD><TD ALIGN=CENTER>--
+</TD><TD ALIGN=CENTER>4</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/snake/images/snake.bmp" HEIGHT=32 WIDTH=32 ALT="Snake"><A HREF="egypt_snake_full.html">Snake</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">140</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TD ALIGN=CENTER>450</TD><TD ALIGN=CENTER>5</TD><TD ALIGN=CENTER>15</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#leather">Leather</A></TD><TD ALIGN=CENTER>12</TD><TD ALIGN=CENTER>140
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>140&nbsp;+-&nbsp;30</TD><TD ALIGN=CENTER>140&nbsp;+-&nbsp;30</TD><TD ALIGN=CENTER>9</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/spearman/images/swordman.bmp" HEIGHT=32 WIDTH=32 ALT="Spearman"><A HREF="egypt_spearman_full.html">Spearman</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;&nbsp;25</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TD ALIGN=CENTER>530</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>16</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#leather">Leather</A></TD><TD ALIGN=CENTER>10</TD><TD ALIGN=CENTER>220
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>80&nbsp;+-&nbsp;30</TD><TD ALIGN=CENTER>--
+</TD><TD ALIGN=CENTER>1</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/spearthrower/images/archer.bmp" HEIGHT=32 WIDTH=32 ALT="Spearthrower"><A HREF="egypt_spearthrower_full.html">Spearthrower</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TD ALIGN=CENTER>700</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>20</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#leather">Leather</A></TD><TD ALIGN=CENTER>15</TD><TD ALIGN=CENTER>220
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>95&nbsp;+-&nbsp;65</TD><TD ALIGN=CENTER>95&nbsp;+-&nbsp;65</TD><TD ALIGN=CENTER>9</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/sphinx/images/sphinx.bmp" HEIGHT=32 WIDTH=32 ALT="Sphinx"><A HREF="egypt_sphinx_full.html">Sphinx</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">250</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">250</NOBR>&nbsp;
+<TD ALIGN=CENTER>7000</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER>20</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#wood">Wood</A></TD><TD ALIGN=CENTER>16</TD><TD ALIGN=CENTER>--
+<TD ALIGN=CENTER>Ground</TD>
+<TD ALIGN=CENTER>120&nbsp;+-&nbsp;50</TD><TD ALIGN=CENTER>120&nbsp;+-&nbsp;50</TD><TD ALIGN=CENTER>12</TD>
+</TABLE>
+<H3>Worker Units</H3> <TABLE BORDER=1 WIDTH="100%"><TR> <TH> Name 
+						<TH> Total Cost
+						<TH> Hit Points 
+						<TH> Rege- nerate 
+						<TH> Armor Strength 
+						<TH> Armor Type 
+						<TH> Sight Range 
+					
+					<TH> Move Speed
+					<TH> Air / Ground
+				<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/chicken/images/chicken.bmp" HEIGHT=32 WIDTH=32 ALT="Chicken"><A HREF="egypt_chicken_full.html">Chicken</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">-5</NOBR>&nbsp;
+<TD ALIGN=CENTER>300</TD><TD ALIGN=CENTER>2</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#organic">Organic</A></TD><TD ALIGN=CENTER>10</TD><TD ALIGN=CENTER>100</TD>
+<TD ALIGN=CENTER>Ground</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/slave/images/worker.bmp" HEIGHT=32 WIDTH=32 ALT="Slave"><A HREF="egypt_slave_full.html">Slave</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">&nbsp;&nbsp;75</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TD ALIGN=CENTER>600</TD><TD ALIGN=CENTER>1</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#leather">Leather</A></TD><TD ALIGN=CENTER>9</TD><TD ALIGN=CENTER>190</TD>
+<TD ALIGN=CENTER>Ground</TD>
+</TABLE>
+<H3>Buildings</H3> <TABLE BORDER=1 WIDTH="100%"><TR> <TH> Name 
+						<TH> Total Cost
+						<TH> Hit Points 
+						<TH> Rege- nerate 
+						<TH> Armor Strength 
+						<TH> Armor Type 
+						<TH> Sight Range 
+					
+					<TH>Storage
+				<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/air_pyramid/images/air_pyramid.bmp" HEIGHT=32 WIDTH=32 ALT="Air Pyramid"><A HREF="egypt_air_pyramid_full.html">Air Pyramid</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">150</NOBR>&nbsp;
+<TD ALIGN=CENTER>3000</TD><TD ALIGN=CENTER>5</TD><TD ALIGN=CENTER>20</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#wood">Wood</A></TD><TD ALIGN=CENTER>15</TD><TD></TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/desert_camp/images/barracks.bmp" HEIGHT=32 WIDTH=32 ALT="Desert Camp"><A HREF="egypt_desert_camp_full.html">Desert Camp</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">150</NOBR>&nbsp;
+<TD ALIGN=CENTER>6000</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#stone">Stone</A></TD><TD ALIGN=CENTER>6</TD><TD></TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/farm/images/farm.bmp" HEIGHT=32 WIDTH=32 ALT="Farm"><A HREF="egypt_farm_full.html">Farm</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">-10</NOBR>&nbsp;
+<TD ALIGN=CENTER>3000</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#wood">Wood</A></TD><TD ALIGN=CENTER>5</TD><TD><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">&nbsp;20&nbsp;</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/obelisk/images/obelisk.bmp" HEIGHT=32 WIDTH=32 ALT="Obelisk"><A HREF="egypt_obelisk_full.html">Obelisk</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">200</NOBR>&nbsp;
+<TD ALIGN=CENTER>6000</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#wood">Wood</A></TD><TD ALIGN=CENTER>5</TD><TD></TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/pyramid/images/pyramid.bmp" HEIGHT=32 WIDTH=32 ALT="Pyramid"><A HREF="egypt_pyramid_full.html">Pyramid</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">300</NOBR>&nbsp;
+<TD ALIGN=CENTER>9000</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#stone">Stone</A></TD><TD ALIGN=CENTER>15</TD><TD><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">&nbsp;2000&nbsp;<IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;1200&nbsp;<IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">&nbsp;1500&nbsp;<IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">&nbsp;150&nbsp;</TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/sphinx/images/sphinx.bmp" HEIGHT=32 WIDTH=32 ALT="Sphinx"><A HREF="egypt_sphinx_full.html">Sphinx</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">250</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">250</NOBR>&nbsp;
+<TD ALIGN=CENTER>7000</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER>20</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#wood">Wood</A></TD><TD ALIGN=CENTER>16</TD><TD></TD>
+<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/units/temple/images/temple.bmp" HEIGHT=32 WIDTH=32 ALT="Temple"><A HREF="egypt_temple_full.html">Temple</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">150</NOBR>&nbsp;
+<TD ALIGN=CENTER>6000</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER>-</TD><TD ALIGN=CENTER><a href="attack_and_armor_types.html#stone">Stone</A></TD><TD ALIGN=CENTER>6</TD><TD><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;200&nbsp;</TD>
+</TABLE>
+<H3>Upgrades</H3><TABLE BORDER=1><TR> <TH WIDTH=200> Name 
+						<TH> Cost
+						<TH> Increases
+						<TH> Affects
+						<TH> Enables to build
+					<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/upgrades/power_of_ra/images/ra.bmp" HEIGHT=32 WIDTH=32 ALT="Power Of Ra"><A HREF="egypt_power_of_ra_full.html">Power Of Ra</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">&nbsp;&nbsp;50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;&nbsp;25</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">200</NOBR>&nbsp;
+<TD ALIGN=CENTER   >&nbsp;Hitpoints:&nbsp;+75, 
+Attack&nbsp;Strength:&nbsp;+30, 
+Armor:&nbsp;+10<TD ALIGN=CENTER>&nbsp;<A HREF="egypt_scarab_full.html">Scarab</A>, <A HREF="egypt_snake_full.html">Snake</A>, <A HREF="egypt_ibis_full.html">Ibis</A>, <A HREF="egypt_anubis_warrior_full.html">Anubis Warrior</A>
+<TD>&nbsp;<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/upgrades/spear_weapons/images/piercing.bmp" HEIGHT=32 WIDTH=32 ALT="Spear Weapons"><A HREF="egypt_spear_weapons_full.html">Spear Weapons</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TD ALIGN=CENTER   >&nbsp;Attack&nbsp;Strength:&nbsp;+40, 
+Armor:&nbsp;+5<TD ALIGN=CENTER>&nbsp;<A HREF="egypt_spearman_full.html">Spearman</A>, <A HREF="egypt_spearthrower_full.html">Spearthrower</A>
+<TD>&nbsp;<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/upgrades/speedup_priest_production/images/stables.bmp" HEIGHT=32 WIDTH=32 ALT="Speedup Priest Production"><A HREF="egypt_speedup_priest_production_full.html">Speedup Priest Production</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TD ALIGN=CENTER   >&nbsp;Production&nbsp;Speed:&nbsp;+150<TD ALIGN=CENTER>&nbsp;<A HREF="egypt_priest_full.html">Priest</A>
+<TD>&nbsp;<TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/upgrades/summon_ibis/images/stables.bmp" HEIGHT=32 WIDTH=32 ALT="Summon Ibis"><A HREF="egypt_summon_ibis_full.html">Summon Ibis</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TD ALIGN=CENTER   >&nbsp;<TD ALIGN=CENTER>&nbsp;
+<TD><TD><A HREF="egypt_ibis_full.html">Ibis</A>Enables command <i>Get Power Of Ra</i> for: <A HREF="egypt_temple_full.html">Temple</A><TR><TD> <IMG SRC="../../techs/megapack/factions/egypt/upgrades/summon_scarab/images/stables.bmp" HEIGHT=32 WIDTH=32 ALT="Summon Scarab"><A HREF="egypt_summon_scarab_full.html">Summon Scarab</A></TD><TD><NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TD ALIGN=CENTER   >&nbsp;<TD ALIGN=CENTER>&nbsp;
+<TD><TD><A HREF="egypt_scarab_full.html">Scarab</A>Enables command <i>Research Ibis</i> for: <A HREF="egypt_temple_full.html">Temple</A></TABLE>
+<P>&nbsp;<P><HR><H1>Unit Details for Faction Egypt</H1>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="air_pyramid_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/air_pyramid/images/air_pyramid.bmp" HEIGHT=64 WIDTH=64 ALT="Air Pyramid"></TD><TD WIDTH=500> <B>Air Pyramid</B></TD></TR>
+<TR><TD>Type:</TD><TD>Building</TD></TR>
+<TR><TD>Creation:</TD><TD>Built by <A HREF="egypt_slave_full.html">Slave</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">150</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>150</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>3000</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>5</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>20</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#wood">Wood</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>15</TD></TR>
+<TR><TD>Needed to build Air Pyramid:</TD><TD><A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD>Attack Command: Attack On<IMG SRC="../../techs/megapack/factions/egypt/units/air_pyramid/images/airpyramid_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Attack On"></TD><TD>
+Target: Only air units<BR>
+Strength: 200+-75<BR>
+Range: 15<BR>
+Splash-Radius: 1<BR>
+Splash also damages own units!<BR>
+Type: <a href="attack_and_armor_types.html#piercing">Piercing</A> <BR>
+Attack Speed: 180<BR>
+Start Time: 0.0<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Elite</b> at 10 kills<BR>
+Hitpoints: 3000 -> 4500<BR>
+Armor Strength: 20 -> 30<BR>
+Sight: 15 -> 18<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="anubis_warrior_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/anubis_warrior/images/anubis.bmp" HEIGHT=64 WIDTH=64 ALT="Anubis Warrior"></TD><TD WIDTH=500> <B>Anubis Warrior</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_priest_full.html">Priest</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>110</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>900</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>2</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>40</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#metal">Metal</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>11</TD></TR>
+<TR><TD>Needed to build Anubis Warrior:</TD><TD><A HREF="egypt_temple_full.html">Temple</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 250</TD></TR>
+<TR><TD>Attack Command: Attack<IMG SRC="../../techs/megapack/factions/egypt/units/anubis_warrior/images/anubis_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Attack"></TD><TD>
+Target: Only ground units<BR>
+Strength: 130+-40<BR>
+Range: 1<BR>
+Type: <a href="attack_and_armor_types.html#slashing">Slashing</A> <BR>
+Attack Speed: 100<BR>
+Start Time: 0.3<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Ancient</b> at 5 kills<BR>
+Hitpoints: 900 -> 1350<BR>
+Armor Strength: 40 -> 60<BR>
+Sight: 11 -> 13<BR>
+</TD></TR>
+<TR><TD>Upgrades Available:</TD><TD><A HREF="egypt_power_of_ra_full.html">Power Of Ra</A> (Hitpoints:&nbsp;+75, 
+Attack&nbsp;Strength:&nbsp;+30, 
+Armor:&nbsp;+10)<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="chicken_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/chicken/images/chicken.bmp" HEIGHT=64 WIDTH=64 ALT="Chicken"></TD><TD WIDTH=500> <B>Chicken</B></TD></TR>
+<TR><TD>Type:</TD><TD>Worker Unit<br>
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_farm_full.html">Farm</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">-5</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>20</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>300</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>2</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#organic">Organic</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>10</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 100</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="desert_camp_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/desert_camp/images/barracks.bmp" HEIGHT=64 WIDTH=64 ALT="Desert Camp"></TD><TD WIDTH=500> <B>Desert Camp</B></TD></TR>
+<TR><TD>Type:</TD><TD>Building</TD></TR>
+<TR><TD>Creation:</TD><TD>Built by <A HREF="egypt_slave_full.html">Slave</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">150</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>100</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>6000</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#stone">Stone</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>6</TD></TR>
+<TR><TD>Desert Camp is able to Produce:</TD><TD><A HREF="egypt_spearthrower_full.html">Spearthrower</A><br>
+<A HREF="egypt_spearman_full.html">Spearman</A><br>
+</TD></TR>
+<TR><TD>Desert Camp is able to Upgrade:</TD><TD><A HREF="egypt_spear_weapons_full.html">Spear Weapons</A><br>
+</TD></TR>
+<TR><TD>Desert Camp is a Requirement for:</TD><TD><A HREF="egypt_spearman_full.html">Spearman</A><br>
+<A HREF="egypt_spearthrower_full.html">Spearthrower</A><br>
+<A HREF="egypt_temple_full.html">Temple</A><br>
+</TD></TR>
+<TR><TD>Needed to build Desert Camp:</TD><TD><A HREF="egypt_pyramid_full.html">Pyramid</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="farm_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/farm/images/farm.bmp" HEIGHT=64 WIDTH=64 ALT="Farm"></TD><TD WIDTH=500> <B>Farm</B></TD></TR>
+<TR><TD>Type:</TD><TD>Building</TD></TR>
+<TR><TD>Creation:</TD><TD>Built by <A HREF="egypt_slave_full.html">Slave</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">-10</NOBR>&nbsp;
+<TR><TD>Storage:</TD><TD><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">&nbsp;20&nbsp;
+</TD></TR>
+<TR><TD>Production Time:</TD><TD>50</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>3000</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#wood">Wood</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>5</TD></TR>
+<TR><TD>Farm is able to Produce:</TD><TD><A HREF="egypt_chicken_full.html">Chicken</A><br>
+</TD></TR>
+<TR><TD>Farm is a Requirement for:</TD><TD><A HREF="egypt_ibis_full.html">Ibis</A><br>
+</TD></TR>
+<TR><TD>Needed to build Farm:</TD><TD><A HREF="egypt_pyramid_full.html">Pyramid</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="ibis_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/ibis/images/ibis.bmp" HEIGHT=64 WIDTH=64 ALT="Ibis"></TD><TD WIDTH=500> <B>Ibis</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_obelisk_full.html">Obelisk</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">250</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">2</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>250</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>1300</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>3</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>10</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#leather">Leather</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>15</TD></TR>
+<TR><TD>Needed to build Ibis:</TD><TD><A HREF="egypt_farm_full.html">Farm</A><br>
+<A HREF="egypt_summon_ibis_full.html">Summon Ibis</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Air Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 250</TD></TR>
+<TR><TD>Attack Command: Attack<IMG SRC="../../techs/megapack/factions/egypt/units/ibis/images/ibis_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Attack"></TD><TD>
+Target: Ground and air units<BR>
+Strength: 170+-50<BR>
+Range: 8<BR>
+Splash-Radius: 1<BR>
+Splash also damages own units!<BR>
+Type: <a href="attack_and_armor_types.html#energy">Energy</A> <BR>
+Attack Speed: 100<BR>
+Start Time: 0.3<BR>
+This Attack Skill is used on "Hold Position"<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Elite</b> at 6 kills<BR>
+Hitpoints: 1300 -> 1950<BR>
+Armor Strength: 10 -> 15<BR>
+Sight: 15 -> 18<BR>
+</TD></TR>
+<TR><TD>Upgrades Available:</TD><TD><A HREF="egypt_power_of_ra_full.html">Power Of Ra</A> (Hitpoints:&nbsp;+75, 
+Attack&nbsp;Strength:&nbsp;+30, 
+Armor:&nbsp;+10)<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="mummy_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/mummy/images/daemon.bmp" HEIGHT=64 WIDTH=64 ALT="Mummy"></TD><TD WIDTH=500> <B>Mummy</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_priest_full.html">Priest</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">45</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>25</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>600</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>1</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>10</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#organic">Organic</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>12</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 250</TD></TR>
+<TR><TD>Attack Command: Attack<IMG SRC="../../techs/megapack/factions/egypt/units/mummy/images/mummy_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Attack"></TD><TD>
+Target: Only ground units<BR>
+Strength: 70+-40<BR>
+Range: 1<BR>
+Type: <a href="attack_and_armor_types.html#slashing">Slashing</A> <BR>
+Attack Speed: 100<BR>
+Start Time: 0.3<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="obelisk_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/obelisk/images/obelisk.bmp" HEIGHT=64 WIDTH=64 ALT="Obelisk"></TD><TD WIDTH=500> <B>Obelisk</B></TD></TR>
+<TR><TD>Type:</TD><TD>Building</TD></TR>
+<TR><TD>Creation:</TD><TD>Built by <A HREF="egypt_slave_full.html">Slave</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">200</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>150</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>6000</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#wood">Wood</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>5</TD></TR>
+<TR><TD>Obelisk is able to Produce:</TD><TD><A HREF="egypt_scarab_full.html">Scarab</A><br>
+<A HREF="egypt_snake_full.html">Snake</A><br>
+<A HREF="egypt_ibis_full.html">Ibis</A><br>
+</TD></TR>
+<TR><TD>Obelisk is a Requirement for:</TD><TD><A HREF="egypt_air_pyramid_full.html">Air Pyramid</A><br>
+<A HREF="egypt_sphinx_full.html">Sphinx</A><br>
+</TD></TR>
+<TR><TD>Needed to build Obelisk:</TD><TD><A HREF="egypt_pyramid_full.html">Pyramid</A><br>
+<A HREF="egypt_temple_full.html">Temple</A><br>
+<A HREF="egypt_priest_full.html">Priest</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="power_of_ra_full"></A><IMG SRC="../../techs/megapack/factions/egypt/upgrades/power_of_ra/images/ra.bmp" HEIGHT=64 WIDTH=64 ALT="Power Of Ra"></TD><TD WIDTH=500> <B>Power Of Ra</B></TD></TR>
+<TR><TD>Type:</TD><TD>Upgrade</TD></TR>
+<TR><TD>Creation:</TD><TD>Upgraded by <A HREF="egypt_temple_full.html">Temple</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">25</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">200</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>600</TD></TR>
+<TR><TD>Increase Hitpoints:&nbsp;</TD><TD>+75</TD></TR>
+<TR><TD>Increase Attack&nbsp;Strength:&nbsp;</TD><TD>+30</TD></TR>
+<TR><TD>Increase Armor:&nbsp;</TD><TD>+10</TD></TR>
+<TR><TD>Affects Units:</TD><TD> <A HREF="egypt_scarab_full.html">Scarab</A>, <A HREF="egypt_snake_full.html">Snake</A>, <A HREF="egypt_ibis_full.html">Ibis</A>, <A HREF="egypt_anubis_warrior_full.html">Anubis Warrior</A></TD></TR>
+<TR><TD>Needed to build Power Of Ra:</TD><TD><A HREF="egypt_temple_full.html">Temple</A><br>
+<A HREF="egypt_summon_ibis_full.html">Summon Ibis</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="priest_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/priest/images/priest.bmp" HEIGHT=64 WIDTH=64 ALT="Priest"></TD><TD WIDTH=500> <B>Priest</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_temple_full.html">Temple</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">90</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>120</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>700</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>1</TD></TR>
+<TR><TD>Maximum Energy Points:</TD><TD>500</TD></TR>
+<TR><TD>Regeneration Energy Points:</TD><TD>5</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>20</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#leather">Leather</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>10</TD></TR>
+<TR><TD>Priest is able to Produce:</TD><TD><A HREF="egypt_mummy_full.html">Mummy</A><br>
+<A HREF="egypt_anubis_warrior_full.html">Anubis Warrior</A><br>
+</TD></TR>
+<TR><TD>Priest is able to Upgrade:</TD><TD><A HREF="egypt_speedup_priest_production_full.html">Speedup Priest Production</A><br>
+</TD></TR>
+<TR><TD>Priest is a Requirement for:</TD><TD><A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 210</TD></TR>
+<TR><TD>Attack Command: Ice Nova<IMG SRC="../../techs/megapack/factions/egypt/units/priest/images/priest_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Ice Nova"></TD><TD>
+Target: Ground and air units<BR>
+Strength: 85+-25<BR>
+Range: 9<BR>
+Splash-Radius: 4<BR>
+Splash also damages own units!<BR>
+Type: <a href="attack_and_armor_types.html#energy">Energy</A> <BR>
+Attack Speed: 250<BR>
+Start Time: 0.5<BR>
+Energy-Cost: 15<BR>
+This Attack Skill is used on "Hold Position"<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Elite</b> at 3 kills<BR>
+Hitpoints: 700 -> 1050<BR>
+Energy Points: 500 -> 750<BR>
+Armor Strength: 20 -> 30<BR>
+Sight: 10 -> 12<BR>
+</TD></TR>
+<TR><TD>Upgrades Available:</TD><TD><A HREF="egypt_speedup_priest_production_full.html">Speedup Priest Production</A> (Production&nbsp;Speed:&nbsp;+150)<BR>
+</TD></TR>
+<TR><TD> Repair/Heal Skill: Heal </TD><TD>Healing: <A HREF="egypt_mummy_full.html">Mummy</A>, <A HREF="egypt_anubis_warrior_full.html">Anubis Warrior</A>, <A HREF="egypt_chicken_full.html">Chicken</A>, <A HREF="egypt_priest_full.html">Priest</A>, <A HREF="egypt_slave_full.html">Slave</A>, <A HREF="egypt_snake_full.html">Snake</A>, <A HREF="egypt_spearman_full.html">Spearman</A>, <A HREF="egypt_spearthrower_full.html">Spearthrower</A>, <A HREF="egypt_scarab_full.html">Scarab</A><BR>
+Repair/Heal Speed: 210<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="pyramid_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/pyramid/images/pyramid.bmp" HEIGHT=64 WIDTH=64 ALT="Pyramid"></TD><TD WIDTH=500> <B>Pyramid</B></TD></TR>
+<TR><TD>Type:</TD><TD>Building</TD></TR>
+<TR><TD>Creation:</TD><TD>Built by <A HREF="egypt_slave_full.html">Slave</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">300</NOBR>&nbsp;
+<TR><TD>Storage:</TD><TD><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">&nbsp;2000&nbsp;<IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;1200&nbsp;<IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">&nbsp;1500&nbsp;<IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">&nbsp;150&nbsp;
+</TD></TR>
+<TR><TD>Production Time:</TD><TD>300</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>9000</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#stone">Stone</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>15</TD></TR>
+<TR><TD>Pyramid is able to Produce:</TD><TD><A HREF="egypt_slave_full.html">Slave</A><br>
+</TD></TR>
+<TR><TD>Pyramid is a Requirement for:</TD><TD><A HREF="egypt_farm_full.html">Farm</A><br>
+<A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+<A HREF="egypt_desert_camp_full.html">Desert Camp</A><br>
+<A HREF="egypt_temple_full.html">Temple</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="scarab_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/scarab/images/scarab.bmp" HEIGHT=64 WIDTH=64 ALT="Scarab"></TD><TD WIDTH=500> <B>Scarab</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_obelisk_full.html">Obelisk</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">2</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>90</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>1400</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>5</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>23</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#leather">Leather</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>12</TD></TR>
+<TR><TD>Needed to build Scarab:</TD><TD><A HREF="egypt_summon_scarab_full.html">Summon Scarab</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 140</TD></TR>
+<TR><TD>Attack Command: Dung Attack<IMG SRC="../../techs/megapack/factions/egypt/units/scarab/images/scarab_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Dung Attack"></TD><TD>
+Target: Only ground units<BR>
+Strength: 180+-90<BR>
+Range: 4<BR>
+Splash-Radius: 2<BR>
+Splash also damages own units!<BR>
+Type: <a href="attack_and_armor_types.html#energy">Energy</A> <BR>
+Attack Speed: 75<BR>
+Start Time: 0.2<BR>
+This Attack Skill is used on "Hold Position"<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Expert</b> at 5 kills<BR>
+Hitpoints: 1400 -> 2100<BR>
+Armor Strength: 23 -> 34<BR>
+Sight: 12 -> 14<BR>
+<B>Master</b> at 15 kills<BR>
+Hitpoints: 2100 -> 3150<BR>
+Armor Strength: 34 -> 51<BR>
+Sight: 14 -> 17<BR>
+<B>Legendary</b> at 30 kills<BR>
+Hitpoints: 3150 -> 4725<BR>
+Armor Strength: 51 -> 77<BR>
+Sight: 17 -> 20<BR>
+</TD></TR>
+<TR><TD>Upgrades Available:</TD><TD><A HREF="egypt_power_of_ra_full.html">Power Of Ra</A> (Hitpoints:&nbsp;+75, 
+Attack&nbsp;Strength:&nbsp;+30, 
+Armor:&nbsp;+10)<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="slave_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/slave/images/worker.bmp" HEIGHT=64 WIDTH=64 ALT="Slave"></TD><TD WIDTH=500> <B>Slave</B></TD></TR>
+<TR><TD>Type:</TD><TD>Worker Unit<br>
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_pyramid_full.html">Pyramid</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">75</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>40</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>600</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>1</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#leather">Leather</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>9</TD></TR>
+<TR><TD>Slave is able to Build:</TD><TD><A HREF="egypt_farm_full.html">Farm</A><br>
+<A HREF="egypt_desert_camp_full.html">Desert Camp</A><br>
+<A HREF="egypt_temple_full.html">Temple</A><br>
+<A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+<A HREF="egypt_air_pyramid_full.html">Air Pyramid</A><br>
+<A HREF="egypt_sphinx_full.html">Sphinx</A><br>
+<A HREF="egypt_pyramid_full.html">Pyramid</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 190</TD></TR>
+<TR><TD> Repair/Heal Skill: Repair </TD><TD>Repairing: <A HREF="egypt_farm_full.html">Farm</A>, <A HREF="egypt_desert_camp_full.html">Desert Camp</A>, <A HREF="egypt_temple_full.html">Temple</A>, <A HREF="egypt_sphinx_full.html">Sphinx</A>, <A HREF="egypt_pyramid_full.html">Pyramid</A>, <A HREF="egypt_air_pyramid_full.html">Air Pyramid</A>, <A HREF="egypt_obelisk_full.html">Obelisk</A><BR>
+Repair/Heal Speed: 40<BR>
+</TD></TR>
+<TR><TD> Harvest/Mine Skill: Mine </TD><TD><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=32 WIDTH=32 ALT="Gold"><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=32 WIDTH=32 ALT="Stone"><BR>
+Speed: 225<BR>
+Max Load: 25<BR>
+Hits per Unit: 1<BR>
+</TD></TR>
+<TR><TD> Harvest/Mine Skill: Harvest Wood </TD><TD><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=32 WIDTH=32 ALT="Wood"><BR>
+Speed: 150<BR>
+Max Load: 20<BR>
+Hits per Unit: 1<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="snake_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/snake/images/snake.bmp" HEIGHT=64 WIDTH=64 ALT="Snake"></TD><TD WIDTH=500> <B>Snake</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_obelisk_full.html">Obelisk</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">140</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>70</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>450</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>5</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>15</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#leather">Leather</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>12</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 140</TD></TR>
+<TR><TD>Attack Command: Poison Shot<IMG SRC="../../techs/megapack/factions/egypt/units/snake/images/snake_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Poison Shot"></TD><TD>
+Target: Ground and air units<BR>
+Strength: 140+-30<BR>
+Range: 9<BR>
+Splash-Radius: 3<BR>
+Splash also damages own units!<BR>
+Type: <a href="attack_and_armor_types.html#energy">Energy</A> <BR>
+Attack Speed: 75<BR>
+Start Time: 0.5<BR>
+This Attack Skill is used on "Hold Position"<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Expert</b> at 5 kills<BR>
+Hitpoints: 450 -> 675<BR>
+Armor Strength: 15 -> 22<BR>
+Sight: 12 -> 14<BR>
+<B>Master</b> at 15 kills<BR>
+Hitpoints: 675 -> 1012<BR>
+Armor Strength: 22 -> 33<BR>
+Sight: 14 -> 17<BR>
+</TD></TR>
+<TR><TD>Upgrades Available:</TD><TD><A HREF="egypt_power_of_ra_full.html">Power Of Ra</A> (Hitpoints:&nbsp;+75, 
+Attack&nbsp;Strength:&nbsp;+30, 
+Armor:&nbsp;+10)<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="spear_weapons_full"></A><IMG SRC="../../techs/megapack/factions/egypt/upgrades/spear_weapons/images/piercing.bmp" HEIGHT=64 WIDTH=64 ALT="Spear Weapons"></TD><TD WIDTH=500> <B>Spear Weapons</B></TD></TR>
+<TR><TD>Type:</TD><TD>Upgrade</TD></TR>
+<TR><TD>Creation:</TD><TD>Upgraded by <A HREF="egypt_desert_camp_full.html">Desert Camp</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">150</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>200</TD></TR>
+<TR><TD>Increase Attack&nbsp;Strength:&nbsp;</TD><TD>+40</TD></TR>
+<TR><TD>Increase Armor:&nbsp;</TD><TD>+5</TD></TR>
+<TR><TD>Affects Units:</TD><TD> <A HREF="egypt_spearman_full.html">Spearman</A>, <A HREF="egypt_spearthrower_full.html">Spearthrower</A></TD></TR>
+<TR><TD>Needed to build Spear Weapons:</TD><TD><A HREF="egypt_desert_camp_full.html">Desert Camp</A><br>
+<A HREF="egypt_temple_full.html">Temple</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="spearman_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/spearman/images/swordman.bmp" HEIGHT=64 WIDTH=64 ALT="Spearman"></TD><TD WIDTH=500> <B>Spearman</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_desert_camp_full.html">Desert Camp</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">25</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>35</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>530</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>1</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>16</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#leather">Leather</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>10</TD></TR>
+<TR><TD>Needed to build Spearman:</TD><TD><A HREF="egypt_desert_camp_full.html">Desert Camp</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 220</TD></TR>
+<TR><TD>Attack Command: Attack<IMG SRC="../../techs/megapack/factions/egypt/units/spearman/images/swordman_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Attack"></TD><TD>
+Target: Only ground units<BR>
+Strength: 80+-30<BR>
+Range: 1<BR>
+Type: <a href="attack_and_armor_types.html#slashing">Slashing</A> <BR>
+Attack Speed: 100<BR>
+Start Time: 0<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Elite</b> at 3 kills<BR>
+Hitpoints: 530 -> 795<BR>
+Armor Strength: 16 -> 24<BR>
+Sight: 10 -> 12<BR>
+</TD></TR>
+<TR><TD>Upgrades Available:</TD><TD><A HREF="egypt_spear_weapons_full.html">Spear Weapons</A> (Attack&nbsp;Strength:&nbsp;+40, 
+Armor:&nbsp;+5)<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="spearthrower_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/spearthrower/images/archer.bmp" HEIGHT=64 WIDTH=64 ALT="Spearthrower"></TD><TD WIDTH=500> <B>Spearthrower</B></TD></TR>
+<TR><TD>Type:</TD><TD>Combat Unit
+</TD></TR>
+<TR><TD>Creation:</TD><TD>Produced by <A HREF="egypt_desert_camp_full.html">Desert Camp</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">50</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/food/images/food.bmp" HEIGHT=16 WIDTH=16 ALT="Food">1</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>60</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>700</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>1</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>20</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#leather">Leather</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>15</TD></TR>
+<TR><TD>Needed to build Spearthrower:</TD><TD><A HREF="egypt_desert_camp_full.html">Desert Camp</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD> Move Command: Move </TD><TD> Speed: 220</TD></TR>
+<TR><TD>Attack Command: Attack<IMG SRC="../../techs/megapack/factions/egypt/units/spearthrower/images/archer_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Attack"></TD><TD>
+Target: Ground and air units<BR>
+Strength: 95+-65<BR>
+Range: 9<BR>
+Type: <a href="attack_and_armor_types.html#piercing">Piercing</A> <BR>
+Attack Speed: 50<BR>
+Start Time: 0.5<BR>
+This Attack Skill is used on "Hold Position"<BR>
+</TD></TR>
+<TR><TD>Level(s):</TD><TD>
+<B>Elite</b> at 5 kills<BR>
+Hitpoints: 700 -> 1050<BR>
+Armor Strength: 20 -> 30<BR>
+Sight: 15 -> 18<BR>
+</TD></TR>
+<TR><TD>Upgrades Available:</TD><TD><A HREF="egypt_spear_weapons_full.html">Spear Weapons</A> (Attack&nbsp;Strength:&nbsp;+40, 
+Armor:&nbsp;+5)<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="speedup_priest_production_full"></A><IMG SRC="../../techs/megapack/factions/egypt/upgrades/speedup_priest_production/images/stables.bmp" HEIGHT=64 WIDTH=64 ALT="Speedup Priest Production"></TD><TD WIDTH=500> <B>Speedup Priest Production</B></TD></TR>
+<TR><TD>Type:</TD><TD>Upgrade</TD></TR>
+<TR><TD>Creation:</TD><TD>Upgraded by <A HREF="egypt_priest_full.html">Priest</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>100</TD></TR>
+<TR><TD>Increase Production&nbsp;Speed:&nbsp;</TD><TD>+150</TD></TR>
+<TR><TD>Affects Units:</TD><TD> <A HREF="egypt_priest_full.html">Priest</A></TD></TR>
+<TR><TD>Needed to build Speedup Priest Production:</TD><TD><A HREF="egypt_priest_full.html">Priest</A><br>
+<A HREF="egypt_temple_full.html">Temple</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="sphinx_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/sphinx/images/sphinx.bmp" HEIGHT=64 WIDTH=64 ALT="Sphinx"></TD><TD WIDTH=500> <B>Sphinx</B></TD></TR>
+<TR><TD>Type:</TD><TD>Building</TD></TR>
+<TR><TD>Creation:</TD><TD>Built by <A HREF="egypt_slave_full.html">Slave</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">250</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">250</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>140</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>7000</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>20</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#wood">Wood</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>16</TD></TR>
+<TR><TD>Needed to build Sphinx:</TD><TD><A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+</TD></TR>
+<TR><TD>Movement Type:</TD><TD>Ground Unit</TD>
+<TR><TD>Attack Command: Attack On<IMG SRC="../../techs/megapack/factions/egypt/units/sphinx/images/sphinx_attack.bmp" HEIGHT=32 WIDTH=32 ALT="Attack On"></TD><TD>
+Target: Ground and air units<BR>
+Strength: 120+-50<BR>
+Range: 12<BR>
+Splash-Radius: 4<BR>
+Splash also damages own units!<BR>
+Type: <a href="attack_and_armor_types.html#piercing">Piercing</A> <BR>
+Attack Speed: 80<BR>
+Start Time: 0.3<BR>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="summon_ibis_full"></A><IMG SRC="../../techs/megapack/factions/egypt/upgrades/summon_ibis/images/stables.bmp" HEIGHT=64 WIDTH=64 ALT="Summon Ibis"></TD><TD WIDTH=500> <B>Summon Ibis</B></TD></TR>
+<TR><TD>Type:</TD><TD>Upgrade</TD></TR>
+<TR><TD>Creation:</TD><TD>Upgraded by <A HREF="egypt_temple_full.html">Temple</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>200</TD></TR>
+<TR><TD>Summon Ibis is a Upgrade-Requirement for:</TD><TD><A HREF="egypt_ibis_full.html">Ibis</A><br>
+</TD></TR>
+<TR><TD>Summon Ibis enables commands:</TD><TD>Get Power Of Ra : <A HREF="egypt_temple_full.html">Temple</A><br>
+</TD></TR>
+<TR><TD>Needed to build Summon Ibis:</TD><TD><A HREF="egypt_temple_full.html">Temple</A><br>
+<A HREF="egypt_summon_scarab_full.html">Summon Scarab</A><br>
+<A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="summon_scarab_full"></A><IMG SRC="../../techs/megapack/factions/egypt/upgrades/summon_scarab/images/stables.bmp" HEIGHT=64 WIDTH=64 ALT="Summon Scarab"></TD><TD WIDTH=500> <B>Summon Scarab</B></TD></TR>
+<TR><TD>Type:</TD><TD>Upgrade</TD></TR>
+<TR><TD>Creation:</TD><TD>Upgraded by <A HREF="egypt_temple_full.html">Temple</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">150</NOBR>&nbsp;
+<TR><TD>Production Time:</TD><TD>200</TD></TR>
+<TR><TD>Summon Scarab is a Upgrade-Requirement for:</TD><TD><A HREF="egypt_scarab_full.html">Scarab</A><br>
+</TD></TR>
+<TR><TD>Summon Scarab enables commands:</TD><TD>Research Ibis : <A HREF="egypt_temple_full.html">Temple</A><br>
+</TD></TR>
+<TR><TD>Needed to build Summon Scarab:</TD><TD><A HREF="egypt_temple_full.html">Temple</A><br>
+<A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+</TD></TR>
+</TABLE><P>
+
+<TABLE BORDER=1><TR><TD WIDTH=250><A NAME="temple_full"></A><IMG SRC="../../techs/megapack/factions/egypt/units/temple/images/temple.bmp" HEIGHT=64 WIDTH=64 ALT="Temple"></TD><TD WIDTH=500> <B>Temple</B></TD></TR>
+<TR><TD>Type:</TD><TD>Building</TD></TR>
+<TR><TD>Creation:</TD><TD>Built by <A HREF="egypt_slave_full.html">Slave</A><BR>
+</TD></TR>
+<TR><TD>Total Cost: </TD><TD> <NOBR><IMG SRC="../../techs/megapack/resources/gold/images/gold.bmp" HEIGHT=16 WIDTH=16 ALT="Gold">200</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">100</NOBR>&nbsp;<NOBR><IMG SRC="../../techs/megapack/resources/stone/images/stone.bmp" HEIGHT=16 WIDTH=16 ALT="Stone">150</NOBR>&nbsp;
+<TR><TD>Storage:</TD><TD><IMG SRC="../../techs/megapack/resources/wood/images/wood.bmp" HEIGHT=16 WIDTH=16 ALT="Wood">&nbsp;200&nbsp;
+(Hint: This also means a worker can drop of his harvested wood into this building so it's useful to build it near trees.)</TD></TR>
+<TR><TD>Production Time:</TD><TD>100</TD></TR>
+<TR><TD>Maximum Hitpoints:</TD><TD>6000</TD></TR>
+<TR><TD>Regeneration of Hitpoints:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Strength:</TD><TD>-</TD></TR>
+<TR><TD>Armor-Type:</TD><TD><a href="attack_and_armor_types.html#stone">Stone</A></TD></TR>
+<TR><TD>Sight-Range:</TD><TD>6</TD></TR>
+<TR><TD>Temple is able to Produce:</TD><TD><A HREF="egypt_priest_full.html">Priest</A><br>
+</TD></TR>
+<TR><TD>Temple is able to Upgrade:</TD><TD><A HREF="egypt_summon_scarab_full.html">Summon Scarab</A><br>
+<A HREF="egypt_summon_ibis_full.html">Summon Ibis</A><br>
+<A HREF="egypt_power_of_ra_full.html">Power Of Ra</A><br>
+</TD></TR>
+<TR><TD>Temple is a Requirement for:</TD><TD><A HREF="egypt_anubis_warrior_full.html">Anubis Warrior</A><br>
+<A HREF="egypt_obelisk_full.html">Obelisk</A><br>
+</TD></TR>
+<TR><TD>Needed to build Temple:</TD><TD><A HREF="egypt_pyramid_full.html">Pyramid</A><br>
+<A HREF="egypt_desert_camp_full.html">Desert Camp</A><br>
+</TD></TR>
+</TABLE><P>
+<!-- start footer -->
+This page was generated by <I><A HREF="http://rupp.de/glest/">convert_faction_xml2html.pl</A></I> version <I>0.8 beta</I> using config-file <I>megapack-temp.ini</I> on <I>Fri Mar 20 17:52:57 2015</I>  
+<br>
+
+<div id="footer">
+	<div id="footer_left"></div>
+	<div id="footer_right"></div>
+	<ul>
+		<li><a href="/privacy.html">Privacy</a></li>
+		<li><a href="/license.html"><img src="http://megaglest.org/uploads/megaglest2011/logo/gpl_osi.png" alt="GNU GPL and OSI logos" /></a></li>
+		<li><a href="/credits.html">Credits</a></li>
+	</ul>
+</div>
+</body>
+</html>
+<!-- end footer -->

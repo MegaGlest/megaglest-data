@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<title>Clickable Techtree Diagram for Norsemen - Buildings (Megapack) </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- stuff for table-sorting, see jquery.com and datatables.net for details
+-->
+<script type="text/javascript" language="javascript" src="js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+<!--
+<script type="text/javascript" language="javascript" src="js/TableTools.min.js"></script>
+-->
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+
+		$('#table_all').dataTable( {
+			'bAutoWidth': false,
+			"bPaginate": false,
+			"bSortClasses": false,
+			"sDom": '<"top"iflp>rt<"bottom"><"clear">',
+		<!--
+			"oTableTools": {
+				"sSwfPath": "js/copy_cvs_xls_pdf.swf"
+			},
+		-->
+			"aaSorting": [[ 1, "asc" ]]
+			});
+	});
+</script>
+</head>
+
+<body>
+
+ <!-- start header -->
+    <div id="header">
+
+      <!-- Contain the right and left header images -->
+      <div id="header_left"></div>
+      <div id="header_right"></div>
+      <div id="logo"><a href="/"><img src="http://megaglest.org/uploads/megaglest2011/logo/logo.png" alt="MegaGlest logo" /></a></div>
+    </div>
+    <!-- end header -->
+
+    <!-- start content -->
+    <div id="content">
+      <div id="article">
+
+
+<h1>Clickable Techtree Diagram for Norsemen - Buildings (Megapack) </h1>
+<p>
+<h4><a href="index.html">Home</a></h4><p><H4>Choose faction: &nbsp;<A HREF=egypt_overview.html>Egypt</a> |&nbsp;
+&nbsp;<A HREF=indian_overview.html>Indian</a> |&nbsp;
+&nbsp;<A HREF=magic_overview.html>Magic</a> |&nbsp;
+&nbsp;<A HREF=norsemen_overview.html><I>Norsemen</I></a> |&nbsp;
+&nbsp;<A HREF=persian_overview.html>Persian</a> |&nbsp;
+&nbsp;<A HREF=romans_overview.html>Romans</a> |&nbsp;
+&nbsp;<A HREF=tech_overview.html>Tech</a>
+ </H4><P>
+<P>
+<H4>Techtree Diagrams: <a href="norsemen_techtree_clickable_map_buildings.html">Buildings</a> |
+<a href="norsemen_techtree_clickable_map_buildings_units.html">Buildings Units</a> |
+<a href="norsemen_techtree_clickable_map_all.html">All</a></H4>
+<P>
+<img src="images/norsemen/norsemen_techtree_graph_buildings.png" usemap=#test>
+<map id="test" name="test">
+<area shape="poly" id="node1" href="norsemen_thortotem_full.html" title="Thortotem" alt="" coords="164,22,85,5,5,22,5,49,164,49"/>
+<area shape="poly" id="node2" href="norsemen_house_full.html" title="House" alt="" coords="233,118,178,101,123,118,123,145,233,145"/>
+<area shape="poly" id="node4" href="norsemen_med_bar_full.html" title="Med\nBar" alt="" coords="138,365,89,334,40,365,40,414,137,414"/>
+<area shape="poly" id="node6" href="norsemen_bone_tent_full.html" title="Bone\nTent" alt="" coords="230,228,178,197,125,228,126,277,230,277"/>
+<area shape="poly" id="node8" href="norsemen_blacksmith_full.html" title="Blacksmith" alt="" coords="341,371,257,354,172,371,172,398,341,398"/>
+<area shape="poly" id="node3" href="norsemen_farm_full.html" title="Farm" alt="" coords="355,118,306,101,257,118,257,145,355,145"/>
+<area shape="poly" id="node7" href="norsemen_mistletree_full.html" title="Mistletree" alt="" coords="250,487,173,470,95,487,96,514,250,514"/>
+<area shape="poly" id="node9" href="norsemen_valhalla_full.html" title="Valhalla" alt="" coords="239,583,173,566,106,583,106,610,239,610"/>
+<area shape="poly" id="node5" href="norsemen_castle_full.html" title="Castle" alt="" coords="295,22,242,5,188,22,188,49,295,49"/>
+</map>
+<h4>Arrow Styles:</h4>
+<ul>
+<li>Bold: Unit creates building
+<li>Solid: Building produces unit or upgrade
+<li>Dashed: Units morphs/upgrades to other unit
+<li>Dotted: Unit or Upgrade is a requirement
+</ul>

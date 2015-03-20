@@ -1,308 +1,379 @@
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<title>Glest Autodocumentation Summary (Megapack) </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- stuff for table-sorting, see jquery.com and datatables.net for details
+-->
+<script type="text/javascript" language="javascript" src="js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+<!--
+<script type="text/javascript" language="javascript" src="js/TableTools.min.js"></script>
+-->
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+
+		$('#table_all').dataTable( {
+			'bAutoWidth': false,
+			"bPaginate": false,
+			"bSortClasses": false,
+			"sDom": '<"top"iflp>rt<"bottom"><"clear">',
+		<!--
+			"oTableTools": {
+				"sSwfPath": "js/copy_cvs_xls_pdf.swf"
+			},
+		-->
+			"aaSorting": [[ 1, "asc" ]]
+			});
+	});
+</script>
+</head>
+
 <body>
-<center>  <h1>Magitech Tech Tree</h1></center>
-<center>
-<a href="../../techs/megapack/megapack.xml">XML</a>
-</center>
-<hr/>
-<center>  <h2>Magic</h2></center>
-<table cellpadding="7" align="center"><tr>
-<th>
-<center>  <h3>Units</h3></center>
-</th>
-<th>
-<center>  <h3>Upgrades</h3></center>
-</th>
-</tr>
-<tr>
-<td>
-<table cellpadding="2" align="center"><tr>
-<th>
-Workers
-</th>
-<th>
-Attackers
-</th>
-<th>
-Constructions
-</th>
-<th>
-Other
-</th>
-</tr>
-<tr>
-<td>
-<ul>
-<li>
-<img src="../../techs/megapack/factions/magic/units/initiate/images/initiate.bmp" width="24" height="24""/>
-<a href="initiate.html">Initiate</a>
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-<img src="../../techs/megapack/factions/magic/units/daemon/images/daemon.bmp" width="24" height="24""/>
-<a href="daemon.html">Daemon</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/behemoth/images/behemoth.bmp" width="24" height="24""/>
-<a href="behemoth.html">Behemoth</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/battlemage/images/battlemage.bmp" width="24" height="24""/>
-<a href="battlemage.html">Battlemage</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/ghost_armor/images/ghost_armor.bmp" width="24" height="24""/>
-<a href="ghost_armor.html">Ghost Armor</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/summoner/images/summoner.bmp" width="24" height="24""/>
-<a href="summoner.html">Summoner</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/drake_rider/images/drake_rider.bmp" width="24" height="24""/>
-<a href="drake_rider.html">Drake Rider</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/dragon/images/dragon.bmp" width="24" height="24""/>
-<a href="dragon.html">Dragon</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/golem/images/golem.bmp" width="24" height="24""/>
-<a href="golem.html">Golem</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/archmage/images/archmage.bmp" width="24" height="24""/>
-<a href="archmage.html">Archmage</a>
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-<img src="../../techs/megapack/factions/magic/units/energy_source/images/energy_source.bmp" width="24" height="24""/>
-<a href="energy_source.html">Energy Source</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/summoner_guild/images/summoner_guild.bmp" width="24" height="24""/>
-<a href="summoner_guild.html">Summoner Guild</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/wicker_behemoth/images/wicker_behemoth.bmp" width="24" height="24""/>
-<a href="wicker_behemoth.html">Wicker Behemoth</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/library/images/library.bmp" width="24" height="24""/>
-<a href="library.html">Library</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/tower_of_souls/images/tower_of_souls.bmp" width="24" height="24""/>
-<a href="tower_of_souls.html">Tower Of Souls</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/archmage_tower/images/archmage_tower.bmp" width="24" height="24""/>
-<a href="archmage_tower.html">Archmage Tower</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/units/mage_tower/images/mage_tower.bmp" width="24" height="24""/>
-<a href="mage_tower.html">Mage Tower</a>
-</li>
-</ul>
-</td>
-<td>
-<ul>
-</ul>
-</td>
-</tr>
-</table>
-</td>
-<td>
-<li>
-<img src="../../techs/megapack/factions/magic/upgrades/ancient_summoning/images/ancient_summoning.bmp" width="24" height="24""/>
-<a href="ancient_summoning.html">Ancient Summoning</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/upgrades/energy_compression/images/energy_compression.bmp" width="24" height="24""/>
-<a href="energy_compression.html">Energy Compression</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/upgrades/hell_gate/images/hell_gate.bmp" width="24" height="24""/>
-<a href="hell_gate.html">Hell Gate</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/upgrades/dragon_call/images/dragon_call.bmp" width="24" height="24""/>
-<a href="dragon_call.html">Dragon Call</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/magic/upgrades/energy_sharpening/images/energy_sharpening.bmp" width="24" height="24""/>
-<a href="energy_sharpening.html">Energy Sharpening</a>
-</li>
-</td>
-</tr>
-</table>
-<hr/>
-<center>  <h2>Tech</h2></center>
-<table cellpadding="7" align="center"><tr>
-<th>
-<center>  <h3>Units</h3></center>
-</th>
-<th>
-<center>  <h3>Upgrades</h3></center>
-</th>
-</tr>
-<tr>
-<td>
-<table cellpadding="2" align="center"><tr>
-<th>
-Workers
-</th>
-<th>
-Attackers
-</th>
-<th>
-Constructions
-</th>
-<th>
-Other
-</th>
-</tr>
-<tr>
-<td>
-<ul>
-<li>
-<img src="../../techs/megapack/factions/tech/units/worker/images/worker.bmp" width="24" height="24""/>
-<a href="worker.html">Worker</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/technician/images/technician.bmp" width="24" height="24""/>
-<a href="technician.html">Technician</a>
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-<img src="../../techs/megapack/factions/tech/units/swordman/images/swordman.bmp" width="24" height="24""/>
-<a href="swordman.html">Swordman</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/archer/images/archer.bmp" width="24" height="24""/>
-<a href="archer.html">Archer</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/guard/images/guard.bmp" width="24" height="24""/>
-<a href="guard.html">Guard</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/catapult/images/catapult.bmp" width="24" height="24""/>
-<a href="catapult.html">Catapult</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/horseman/images/horseman.bmp" width="24" height="24""/>
-<a href="horseman.html">Horseman</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/battle_machine/images/battle_machine.bmp" width="24" height="24""/>
-<a href="battle_machine.html">Battle Machine</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/ornithopter/images/ornithopter.bmp" width="24" height="24""/>
-<a href="ornithopter.html">Ornithopter</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/air_ballista/images/air_ballista.bmp" width="24" height="24""/>
-<a href="air_ballista.html">Air Ballista</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/airship/images/airship.bmp" width="24" height="24""/>
-<a href="airship.html">Airship</a>
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-<img src="../../techs/megapack/factions/tech/units/farm/images/farm.bmp" width="24" height="24""/>
-<a href="farm.html">Farm</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/barracks/images/barracks.bmp" width="24" height="24""/>
-<a href="barracks.html">Barracks</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/aerodrome/images/aerodrome.bmp" width="24" height="24""/>
-<a href="aerodrome.html">Aerodrome</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/blacksmith/images/blacksmith.bmp" width="24" height="24""/>
-<a href="blacksmith.html">Blacksmith</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/defense_tower/images/defense_tower.bmp" width="24" height="24""/>
-<a href="defense_tower.html">Defense Tower</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/technodrome/images/technodrome.bmp" width="24" height="24""/>
-<a href="technodrome.html">Technodrome</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/castle/images/castle.bmp" width="24" height="24""/>
-<a href="castle.html">Castle</a>
-</li>
-</ul>
-</td>
-<td>
-<ul>
-<li>
-<img src="../../techs/megapack/factions/tech/units/cow/images/cow.bmp" width="24" height="24""/>
-<a href="cow.html">Cow</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/units/pig/images/pig.bmp" width="24" height="24""/>
-<a href="pig.html">Pig</a>
-</li>
-</ul>
-</td>
-</tr>
-</table>
-</td>
-<td>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/advanced_architecture/images/advanced_architecture.bmp" width="24" height="24""/>
-<a href="advanced_architecture.html">Advanced Architecture</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/stables/images/stables.bmp" width="24" height="24""/>
-<a href="stables.html">Stables</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/robotics/images/robotics.bmp" width="24" height="24""/>
-<a href="robotics.html">Robotics</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/shield_level_1/images/shield1.bmp" width="24" height="24""/>
-<a href="shield_level_1.html">Shield Level 1</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/training_field/images/training_field.bmp" width="24" height="24""/>
-<a href="training_field.html">Training Field</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/blade_weapons/images/blade.bmp" width="24" height="24""/>
-<a href="blade_weapons.html">Blade Weapons</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/piercing_weapons/images/piercing.bmp" width="24" height="24""/>
-<a href="piercing_weapons.html">Piercing Weapons</a>
-</li>
-<li>
-<img src="../../techs/megapack/factions/tech/upgrades/shield_level_2/images/shield2.bmp" width="24" height="24""/>
-<a href="shield_level_2.html">Shield Level 2</a>
-</li>
-</td>
-</tr>
-</table>
+
+ <!-- start header -->
+    <div id="header">
+
+      <!-- Contain the right and left header images -->
+      <div id="header_left"></div>
+      <div id="header_right"></div>
+      <div id="logo"><a href="/"><img src="http://megaglest.org/uploads/megaglest2011/logo/logo.png" alt="MegaGlest logo" /></a></div>
+    </div>
+    <!-- end header -->
+
+    <!-- start content -->
+    <div id="content">
+      <div id="article">
+
+
+<h1>Glest Autodocumentation Summary (Megapack) </h1>
+<p>
+<h4><a href="index.html">Home</a></h4><p><H4>Choose faction: &nbsp;<A HREF=egypt_overview.html>Egypt</a> |&nbsp;
+&nbsp;<A HREF=indian_overview.html>Indian</a> |&nbsp;
+&nbsp;<A HREF=magic_overview.html>Magic</a> |&nbsp;
+&nbsp;<A HREF=norsemen_overview.html>Norsemen</a> |&nbsp;
+&nbsp;<A HREF=persian_overview.html>Persian</a> |&nbsp;
+&nbsp;<A HREF=romans_overview.html>Romans</a> |&nbsp;
+&nbsp;<A HREF=tech_overview.html>Tech</a>
+ </H4><P>
+<P>
+<H4>Special Pages: <A HREF="compare.html">Compare Units</a> |
+<A HREF="attack_and_armor_types.html">Damage Multipliers for Attack Types versus Armor Types</a></H4><P>
+<A NAME=factions></a><H2>Factions:</H2>
+<A NAME=egypt></a>
+<H3>Egypt:</H3>
+<B>Overview:</B> <a href="egypt_overview.html">Egypt Overview
+</a><BR>
+<B>All in one Page:</B> <a href="egypt_techtree.html">Egypt Techtree of Glest - Version 0.8 beta
+</a><BR>
+<H4>Techtree Diagrams:</H4>
+<UL>
+<LI><a href="egypt_techtree_clickable_map_all.html">Clickable Techtree Diagram for Egypt - All</a>
+<LI><a href="egypt_techtree_clickable_map_buildings.html">Clickable Techtree Diagram for Egypt - Buildings</a>
+<LI><a href="egypt_techtree_clickable_map_buildings_units.html">Clickable Techtree Diagram for Egypt - Buildings Units</a>
+</UL>
+<H4>Units, Buildings & Upgrades:</H4>
+<UL>
+<LI><a href="egypt_air_pyramid_full.html">Air Pyramid  - of the Egypt Faction</a>
+<LI><a href="egypt_anubis_warrior_full.html">Anubis Warrior  - of the Egypt Faction</a>
+<LI><a href="egypt_chicken_full.html">Chicken  - of the Egypt Faction</a>
+<LI><a href="egypt_desert_camp_full.html">Desert Camp  - of the Egypt Faction</a>
+<LI><a href="egypt_farm_full.html">Farm  - of the Egypt Faction</a>
+<LI><a href="egypt_ibis_full.html">Ibis  - of the Egypt Faction</a>
+<LI><a href="egypt_mummy_full.html">Mummy  - of the Egypt Faction</a>
+<LI><a href="egypt_obelisk_full.html">Obelisk  - of the Egypt Faction</a>
+<LI><a href="egypt_power_of_ra_full.html">Power Of Ra  - of the Egypt Faction</a>
+<LI><a href="egypt_priest_full.html">Priest  - of the Egypt Faction</a>
+<LI><a href="egypt_pyramid_full.html">Pyramid  - of the Egypt Faction</a>
+<LI><a href="egypt_scarab_full.html">Scarab  - of the Egypt Faction</a>
+<LI><a href="egypt_slave_full.html">Slave  - of the Egypt Faction</a>
+<LI><a href="egypt_snake_full.html">Snake  - of the Egypt Faction</a>
+<LI><a href="egypt_spear_weapons_full.html">Spear Weapons  - of the Egypt Faction</a>
+<LI><a href="egypt_spearman_full.html">Spearman  - of the Egypt Faction</a>
+<LI><a href="egypt_spearthrower_full.html">Spearthrower  - of the Egypt Faction</a>
+<LI><a href="egypt_speedup_priest_production_full.html">Speedup Priest Production  - of the Egypt Faction</a>
+<LI><a href="egypt_sphinx_full.html">Sphinx  - of the Egypt Faction</a>
+<LI><a href="egypt_summon_ibis_full.html">Summon Ibis  - of the Egypt Faction</a>
+<LI><a href="egypt_summon_scarab_full.html">Summon Scarab  - of the Egypt Faction</a>
+<LI><a href="egypt_temple_full.html">Temple  - of the Egypt Faction</a>
+</UL>
+<A NAME=indian></a>
+<H3>Indian:</H3>
+<B>Overview:</B> <a href="indian_overview.html">Indian Overview
+</a><BR>
+<B>All in one Page:</B> <a href="indian_techtree.html">Indian Techtree of Glest - Version 0.8 beta
+</a><BR>
+<H4>Techtree Diagrams:</H4>
+<UL>
+<LI><a href="indian_techtree_clickable_map_all.html">Clickable Techtree Diagram for Indian - All</a>
+<LI><a href="indian_techtree_clickable_map_buildings.html">Clickable Techtree Diagram for Indian - Buildings</a>
+<LI><a href="indian_techtree_clickable_map_buildings_units.html">Clickable Techtree Diagram for Indian - Buildings Units</a>
+</UL>
+<H4>Units, Buildings & Upgrades:</H4>
+<UL>
+<LI><a href="indian_archer_full.html">Archer  - of the Indian Faction</a>
+<LI><a href="indian_axe_indian_full.html">Axe Indian  - of the Indian Faction</a>
+<LI><a href="indian_axe_thrower_full.html">Axe Thrower  - of the Indian Faction</a>
+<LI><a href="indian_beehive_full.html">Beehive  - of the Indian Faction</a>
+<LI><a href="indian_bigtent_full.html">Bigtent  - of the Indian Faction</a>
+<LI><a href="indian_bull_full.html">Bull  - of the Indian Faction</a>
+<LI><a href="indian_bullfood_full.html">Bullfood  - of the Indian Faction</a>
+<LI><a href="indian_campfire_full.html">Campfire  - of the Indian Faction</a>
+<LI><a href="indian_fire_archer_full.html">Fire Archer  - of the Indian Faction</a>
+<LI><a href="indian_firegolem_full.html">Firegolem  - of the Indian Faction</a>
+<LI><a href="indian_horsefarm_full.html">Horsefarm  - of the Indian Faction</a>
+<LI><a href="indian_horseman_full.html">Horseman  - of the Indian Faction</a>
+<LI><a href="indian_iron_full.html">Iron  - of the Indian Faction</a>
+<LI><a href="indian_iron_advanced_full.html">Iron Advanced  - of the Indian Faction</a>
+<LI><a href="indian_mainteepee_full.html">Mainteepee  - of the Indian Faction</a>
+<LI><a href="indian_petroleum_full.html">Petroleum  - of the Indian Faction</a>
+<LI><a href="indian_reed_full.html">Reed  - of the Indian Faction</a>
+<LI><a href="indian_roundtent_full.html">Roundtent  - of the Indian Faction</a>
+<LI><a href="indian_shaman_full.html">Shaman  - of the Indian Faction</a>
+<LI><a href="indian_spearman_full.html">Spearman  - of the Indian Faction</a>
+<LI><a href="indian_stables_full.html">Stables  - of the Indian Faction</a>
+<LI><a href="indian_stickfighter_full.html">Stickfighter  - of the Indian Faction</a>
+<LI><a href="indian_tent_full.html">Tent  - of the Indian Faction</a>
+<LI><a href="indian_thunderbird_full.html">Thunderbird  - of the Indian Faction</a>
+<LI><a href="indian_totem_full.html">Totem  - of the Indian Faction</a>
+<LI><a href="indian_training_field_full.html">Training Field  - of the Indian Faction</a>
+<LI><a href="indian_worker_full.html">Worker  - of the Indian Faction</a>
+</UL>
+<A NAME=magic></a>
+<H3>Magic:</H3>
+<B>Overview:</B> <a href="magic_overview.html">Magic Overview
+</a><BR>
+<B>All in one Page:</B> <a href="magic_techtree.html">Magic Techtree of Glest - Version 0.8 beta
+</a><BR>
+<H4>Techtree Diagrams:</H4>
+<UL>
+<LI><a href="magic_techtree_clickable_map_all.html">Clickable Techtree Diagram for Magic - All</a>
+<LI><a href="magic_techtree_clickable_map_buildings.html">Clickable Techtree Diagram for Magic - Buildings</a>
+<LI><a href="magic_techtree_clickable_map_buildings_units.html">Clickable Techtree Diagram for Magic - Buildings Units</a>
+</UL>
+<H4>Units, Buildings & Upgrades:</H4>
+<UL>
+<LI><a href="magic_ancient_summoning_full.html">Ancient Summoning  - of the Magic Faction</a>
+<LI><a href="magic_archmage_full.html">Archmage  - of the Magic Faction</a>
+<LI><a href="magic_archmage_tower_full.html">Archmage Tower  - of the Magic Faction</a>
+<LI><a href="magic_battlemage_full.html">Battlemage  - of the Magic Faction</a>
+<LI><a href="magic_behemoth_full.html">Behemoth  - of the Magic Faction</a>
+<LI><a href="magic_daemon_full.html">Daemon  - of the Magic Faction</a>
+<LI><a href="magic_dragon_full.html">Dragon  - of the Magic Faction</a>
+<LI><a href="magic_dragon_call_full.html">Dragon Call  - of the Magic Faction</a>
+<LI><a href="magic_drake_rider_full.html">Drake Rider  - of the Magic Faction</a>
+<LI><a href="magic_energy_compression_full.html">Energy Compression  - of the Magic Faction</a>
+<LI><a href="magic_energy_sharpening_full.html">Energy Sharpening  - of the Magic Faction</a>
+<LI><a href="magic_energy_source_full.html">Energy Source  - of the Magic Faction</a>
+<LI><a href="magic_evil_dragon_full.html">Evil Dragon  - of the Magic Faction</a>
+<LI><a href="magic_ghost_armor_full.html">Ghost Armor  - of the Magic Faction</a>
+<LI><a href="magic_golem_full.html">Golem  - of the Magic Faction</a>
+<LI><a href="magic_golem_power_full.html">Golem Power  - of the Magic Faction</a>
+<LI><a href="magic_hell_gate_full.html">Hell Gate  - of the Magic Faction</a>
+<LI><a href="magic_initiate_full.html">Initiate  - of the Magic Faction</a>
+<LI><a href="magic_library_full.html">Library  - of the Magic Faction</a>
+<LI><a href="magic_mage_tower_full.html">Mage Tower  - of the Magic Faction</a>
+<LI><a href="magic_power_golem_full.html">Power Golem  - of the Magic Faction</a>
+<LI><a href="magic_summoner_full.html">Summoner  - of the Magic Faction</a>
+<LI><a href="magic_summoner_guild_full.html">Summoner Guild  - of the Magic Faction</a>
+<LI><a href="magic_tower_of_souls_full.html">Tower Of Souls  - of the Magic Faction</a>
+<LI><a href="magic_wicker_behemoth_full.html">Wicker Behemoth  - of the Magic Faction</a>
+</UL>
+<A NAME=norsemen></a>
+<H3>Norsemen:</H3>
+<B>Overview:</B> <a href="norsemen_overview.html">Norsemen Overview
+</a><BR>
+<B>All in one Page:</B> <a href="norsemen_techtree.html">Norsemen Techtree of Glest - Version 0.8 beta
+</a><BR>
+<H4>Techtree Diagrams:</H4>
+<UL>
+<LI><a href="norsemen_techtree_clickable_map_all.html">Clickable Techtree Diagram for Norsemen - All</a>
+<LI><a href="norsemen_techtree_clickable_map_buildings.html">Clickable Techtree Diagram for Norsemen - Buildings</a>
+<LI><a href="norsemen_techtree_clickable_map_buildings_units.html">Clickable Techtree Diagram for Norsemen - Buildings Units</a>
+</UL>
+<H4>Units, Buildings & Upgrades:</H4>
+<UL>
+<LI><a href="norsemen_advanced_iron_full.html">Advanced Iron  - of the Norsemen Faction</a>
+<LI><a href="norsemen_archer_full.html">Archer  - of the Norsemen Faction</a>
+<LI><a href="norsemen_arrow_full.html">Arrow  - of the Norsemen Faction</a>
+<LI><a href="norsemen_axe_thrower_full.html">Axe Thrower  - of the Norsemen Faction</a>
+<LI><a href="norsemen_battleaxe_full.html">Battleaxe  - of the Norsemen Faction</a>
+<LI><a href="norsemen_battleaxe_berzerk_full.html">Battleaxe Berzerk  - of the Norsemen Faction</a>
+<LI><a href="norsemen_blacksmith_full.html">Blacksmith  - of the Norsemen Faction</a>
+<LI><a href="norsemen_bone_tent_full.html">Bone Tent  - of the Norsemen Faction</a>
+<LI><a href="norsemen_castle_full.html">Castle  - of the Norsemen Faction</a>
+<LI><a href="norsemen_cow_full.html">Cow  - of the Norsemen Faction</a>
+<LI><a href="norsemen_crossbow_full.html">Crossbow  - of the Norsemen Faction</a>
+<LI><a href="norsemen_cudgel_lady_full.html">Cudgel Lady  - of the Norsemen Faction</a>
+<LI><a href="norsemen_farm_full.html">Farm  - of the Norsemen Faction</a>
+<LI><a href="norsemen_flyingvalkyrie_full.html">Flyingvalkyrie  - of the Norsemen Faction</a>
+<LI><a href="norsemen_holy_valkyrie_full.html">Holy Valkyrie  - of the Norsemen Faction</a>
+<LI><a href="norsemen_house_full.html">House  - of the Norsemen Faction</a>
+<LI><a href="norsemen_iron_full.html">Iron  - of the Norsemen Faction</a>
+<LI><a href="norsemen_med_full.html">Med  - of the Norsemen Faction</a>
+<LI><a href="norsemen_med_bar_full.html">Med Bar  - of the Norsemen Faction</a>
+<LI><a href="norsemen_mistletree_full.html">Mistletree  - of the Norsemen Faction</a>
+<LI><a href="norsemen_root_full.html">Root  - of the Norsemen Faction</a>
+<LI><a href="norsemen_spearman_full.html">Spearman  - of the Norsemen Faction</a>
+<LI><a href="norsemen_spearman_berzerk_full.html">Spearman Berzerk  - of the Norsemen Faction</a>
+<LI><a href="norsemen_swordman_full.html">Swordman  - of the Norsemen Faction</a>
+<LI><a href="norsemen_swordman_berzerk_full.html">Swordman Berzerk  - of the Norsemen Faction</a>
+<LI><a href="norsemen_thor_full.html">Thor  - of the Norsemen Faction</a>
+<LI><a href="norsemen_thortotem_full.html">Thortotem  - of the Norsemen Faction</a>
+<LI><a href="norsemen_thrull_full.html">Thrull  - of the Norsemen Faction</a>
+<LI><a href="norsemen_valhalla_full.html">Valhalla  - of the Norsemen Faction</a>
+<LI><a href="norsemen_valkyrie_full.html">Valkyrie  - of the Norsemen Faction</a>
+<LI><a href="norsemen_wild_sow_full.html">Wild Sow  - of the Norsemen Faction</a>
+</UL>
+<A NAME=persian></a>
+<H3>Persian:</H3>
+<B>Overview:</B> <a href="persian_overview.html">Persian Overview
+</a><BR>
+<B>All in one Page:</B> <a href="persian_techtree.html">Persian Techtree of Glest - Version 0.8 beta
+</a><BR>
+<H4>Techtree Diagrams:</H4>
+<UL>
+<LI><a href="persian_techtree_clickable_map_all.html">Clickable Techtree Diagram for Persian - All</a>
+<LI><a href="persian_techtree_clickable_map_buildings.html">Clickable Techtree Diagram for Persian - Buildings</a>
+<LI><a href="persian_techtree_clickable_map_buildings_units.html">Clickable Techtree Diagram for Persian - Buildings Units</a>
+</UL>
+<H4>Units, Buildings & Upgrades:</H4>
+<UL>
+<LI><a href="persian_blacksmith_full.html">Blacksmith  - of the Persian Faction</a>
+<LI><a href="persian_corn_and_wicker_full.html">Corn And Wicker  - of the Persian Faction</a>
+<LI><a href="persian_elephant_full.html">Elephant  - of the Persian Faction</a>
+<LI><a href="persian_elephant_cage_full.html">Elephant Cage  - of the Persian Faction</a>
+<LI><a href="persian_fakir_full.html">Fakir  - of the Persian Faction</a>
+<LI><a href="persian_farm_full.html">Farm  - of the Persian Faction</a>
+<LI><a href="persian_flying_carpet_full.html">Flying Carpet  - of the Persian Faction</a>
+<LI><a href="persian_genie_full.html">Genie  - of the Persian Faction</a>
+<LI><a href="persian_house_full.html">House  - of the Persian Faction</a>
+<LI><a href="persian_magic_level_1_full.html">Magic Level 1  - of the Persian Faction</a>
+<LI><a href="persian_magic_level_2_full.html">Magic Level 2  - of the Persian Faction</a>
+<LI><a href="persian_magician_full.html">Magician  - of the Persian Faction</a>
+<LI><a href="persian_minaret_full.html">Minaret  - of the Persian Faction</a>
+<LI><a href="persian_nails_full.html">Nails  - of the Persian Faction</a>
+<LI><a href="persian_palace_full.html">Palace  - of the Persian Faction</a>
+<LI><a href="persian_princess_full.html">Princess  - of the Persian Faction</a>
+<LI><a href="persian_sheep_full.html">Sheep  - of the Persian Faction</a>
+<LI><a href="persian_shield_full.html">Shield  - of the Persian Faction</a>
+<LI><a href="persian_snake_basket_full.html">Snake Basket  - of the Persian Faction</a>
+<LI><a href="persian_stickfighter_full.html">Stickfighter  - of the Persian Faction</a>
+<LI><a href="persian_swordman_full.html">Swordman  - of the Persian Faction</a>
+<LI><a href="persian_temple_full.html">Temple  - of the Persian Faction</a>
+<LI><a href="persian_tent_full.html">Tent  - of the Persian Faction</a>
+<LI><a href="persian_weapons_full.html">Weapons  - of the Persian Faction</a>
+<LI><a href="persian_worker_full.html">Worker  - of the Persian Faction</a>
+</UL>
+<A NAME=romans></a>
+<H3>Romans:</H3>
+<B>Overview:</B> <a href="romans_overview.html">Romans Overview
+</a><BR>
+<B>All in one Page:</B> <a href="romans_techtree.html">Romans Techtree of Glest - Version 0.8 beta
+</a><BR>
+<H4>Techtree Diagrams:</H4>
+<UL>
+<LI><a href="romans_techtree_clickable_map_all.html">Clickable Techtree Diagram for Romans - All</a>
+<LI><a href="romans_techtree_clickable_map_buildings.html">Clickable Techtree Diagram for Romans - Buildings</a>
+<LI><a href="romans_techtree_clickable_map_buildings_units.html">Clickable Techtree Diagram for Romans - Buildings Units</a>
+</UL>
+<H4>Units, Buildings & Upgrades:</H4>
+<UL>
+<LI><a href="romans_advanced_architecture_full.html">Advanced Architecture  - of the Romans Faction</a>
+<LI><a href="romans_archer_full.html">Archer  - of the Romans Faction</a>
+<LI><a href="romans_axe_man_full.html">Axe Man  - of the Romans Faction</a>
+<LI><a href="romans_ballista_full.html">Ballista  - of the Romans Faction</a>
+<LI><a href="romans_battering_ram_full.html">Battering Ram  - of the Romans Faction</a>
+<LI><a href="romans_blacksmith_shop_full.html">Blacksmith Shop  - of the Romans Faction</a>
+<LI><a href="romans_bless_of_minerva_full.html">Bless Of Minerva  - of the Romans Faction</a>
+<LI><a href="romans_catapult_full.html">Catapult  - of the Romans Faction</a>
+<LI><a href="romans_cavalry_full.html">Cavalry  - of the Romans Faction</a>
+<LI><a href="romans_cow_full.html">Cow  - of the Romans Faction</a>
+<LI><a href="romans_eagle_pillar_full.html">Eagle Pillar  - of the Romans Faction</a>
+<LI><a href="romans_enlarge_shields_full.html">Enlarge Shields  - of the Romans Faction</a>
+<LI><a href="romans_fire_archer_full.html">Fire Archer  - of the Romans Faction</a>
+<LI><a href="romans_formations_full.html">Formations  - of the Romans Faction</a>
+<LI><a href="romans_forum_full.html">Forum  - of the Romans Faction</a>
+<LI><a href="romans_general_full.html">General  - of the Romans Faction</a>
+<LI><a href="romans_gladiator_full.html">Gladiator  - of the Romans Faction</a>
+<LI><a href="romans_gladiator_school_full.html">Gladiator School  - of the Romans Faction</a>
+<LI><a href="romans_guard_full.html">Guard  - of the Romans Faction</a>
+<LI><a href="romans_guard_tower_full.html">Guard Tower  - of the Romans Faction</a>
+<LI><a href="romans_jupiter_full.html">Jupiter  - of the Romans Faction</a>
+<LI><a href="romans_military_camp_full.html">Military Camp  - of the Romans Faction</a>
+<LI><a href="romans_reinforce_armor_full.html">Reinforce Armor  - of the Romans Faction</a>
+<LI><a href="romans_sharpen_points_full.html">Sharpen Points  - of the Romans Faction</a>
+<LI><a href="romans_sign_of_mars_full.html">Sign Of Mars  - of the Romans Faction</a>
+<LI><a href="romans_slave_full.html">Slave  - of the Romans Faction</a>
+<LI><a href="romans_spearman_full.html">Spearman  - of the Romans Faction</a>
+<LI><a href="romans_strengthen_swords_full.html">Strengthen Swords  - of the Romans Faction</a>
+<LI><a href="romans_swordsman_full.html">Swordsman  - of the Romans Faction</a>
+<LI><a href="romans_temple_full.html">Temple  - of the Romans Faction</a>
+<LI><a href="romans_training_camp_full.html">Training Camp  - of the Romans Faction</a>
+<LI><a href="romans_training_field_full.html">Training Field  - of the Romans Faction</a>
+<LI><a href="romans_tribune_full.html">Tribune  - of the Romans Faction</a>
+<LI><a href="romans_turtle_formation_full.html">Turtle Formation  - of the Romans Faction</a>
+<LI><a href="romans_wartime_mechanic_full.html">Wartime Mechanic  - of the Romans Faction</a>
+</UL>
+<A NAME=tech></a>
+<H3>Tech:</H3>
+<B>Overview:</B> <a href="tech_overview.html">Tech Overview
+</a><BR>
+<B>All in one Page:</B> <a href="tech_techtree.html">Tech Techtree of Glest - Version 0.8 beta
+</a><BR>
+<H4>Techtree Diagrams:</H4>
+<UL>
+<LI><a href="tech_techtree_clickable_map_all.html">Clickable Techtree Diagram for Tech - All</a>
+<LI><a href="tech_techtree_clickable_map_buildings.html">Clickable Techtree Diagram for Tech - Buildings</a>
+<LI><a href="tech_techtree_clickable_map_buildings_units.html">Clickable Techtree Diagram for Tech - Buildings Units</a>
+</UL>
+<H4>Units, Buildings & Upgrades:</H4>
+<UL>
+<LI><a href="tech_advanced_architecture_full.html">Advanced Architecture  - of the Tech Faction</a>
+<LI><a href="tech_aerodrome_full.html">Aerodrome  - of the Tech Faction</a>
+<LI><a href="tech_air_ballista_full.html">Air Ballista  - of the Tech Faction</a>
+<LI><a href="tech_airship_full.html">Airship  - of the Tech Faction</a>
+<LI><a href="tech_archer_full.html">Archer  - of the Tech Faction</a>
+<LI><a href="tech_barracks_full.html">Barracks  - of the Tech Faction</a>
+<LI><a href="tech_battle_machine_full.html">Battle Machine  - of the Tech Faction</a>
+<LI><a href="tech_blacksmith_full.html">Blacksmith  - of the Tech Faction</a>
+<LI><a href="tech_blade_weapons_full.html">Blade Weapons  - of the Tech Faction</a>
+<LI><a href="tech_castle_full.html">Castle  - of the Tech Faction</a>
+<LI><a href="tech_catapult_full.html">Catapult  - of the Tech Faction</a>
+<LI><a href="tech_cow_full.html">Cow  - of the Tech Faction</a>
+<LI><a href="tech_defense_tower_full.html">Defense Tower  - of the Tech Faction</a>
+<LI><a href="tech_farm_full.html">Farm  - of the Tech Faction</a>
+<LI><a href="tech_guard_full.html">Guard  - of the Tech Faction</a>
+<LI><a href="tech_horseman_full.html">Horseman  - of the Tech Faction</a>
+<LI><a href="tech_ornithopter_full.html">Ornithopter  - of the Tech Faction</a>
+<LI><a href="tech_piercing_weapons_full.html">Piercing Weapons  - of the Tech Faction</a>
+<LI><a href="tech_pig_full.html">Pig  - of the Tech Faction</a>
+<LI><a href="tech_robotics_full.html">Robotics  - of the Tech Faction</a>
+<LI><a href="tech_shield_level_1_full.html">Shield Level 1  - of the Tech Faction</a>
+<LI><a href="tech_shield_level_2_full.html">Shield Level 2  - of the Tech Faction</a>
+<LI><a href="tech_stables_full.html">Stables  - of the Tech Faction</a>
+<LI><a href="tech_swordman_full.html">Swordman  - of the Tech Faction</a>
+<LI><a href="tech_technician_full.html">Technician  - of the Tech Faction</a>
+<LI><a href="tech_technodrome_full.html">Technodrome  - of the Tech Faction</a>
+<LI><a href="tech_training_field_full.html">Training Field  - of the Tech Faction</a>
+<LI><a href="tech_worker_full.html">Worker  - of the Tech Faction</a>
+</UL>
+<!-- start footer -->
+This page was generated by <I><A HREF="http://rupp.de/glest/">convert_faction_xml2html.pl</A></I> version <I>0.8 beta</I> using config-file <I>megapack-temp.ini</I> on <I>Fri Mar 20 17:52:57 2015</I>  
+<br>
+
+<div id="footer">
+	<div id="footer_left"></div>
+	<div id="footer_right"></div>
+	<ul>
+		<li><a href="/privacy.html">Privacy</a></li>
+		<li><a href="/license.html"><img src="http://megaglest.org/uploads/megaglest2011/logo/gpl_osi.png" alt="GNU GPL and OSI logos" /></a></li>
+		<li><a href="/credits.html">Credits</a></li>
+	</ul>
+</div>
 </body>
 </html>
+<!-- end footer -->

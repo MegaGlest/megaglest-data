@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+          "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+<title>Clickable Techtree Diagram for Indian - Buildings (Megapack) </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+<!-- stuff for table-sorting, see jquery.com and datatables.net for details
+-->
+<script type="text/javascript" language="javascript" src="js/jquery-1.11.2.min.js" ></script>
+<script type="text/javascript" language="javascript" src="js/jquery.dataTables.min.js"></script>
+<!--
+<script type="text/javascript" language="javascript" src="js/TableTools.min.js"></script>
+-->
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+
+		$('#table_all').dataTable( {
+			'bAutoWidth': false,
+			"bPaginate": false,
+			"bSortClasses": false,
+			"sDom": '<"top"iflp>rt<"bottom"><"clear">',
+		<!--
+			"oTableTools": {
+				"sSwfPath": "js/copy_cvs_xls_pdf.swf"
+			},
+		-->
+			"aaSorting": [[ 1, "asc" ]]
+			});
+	});
+</script>
+</head>
+
+<body>
+
+ <!-- start header -->
+    <div id="header">
+
+      <!-- Contain the right and left header images -->
+      <div id="header_left"></div>
+      <div id="header_right"></div>
+      <div id="logo"><a href="/"><img src="http://megaglest.org/uploads/megaglest2011/logo/logo.png" alt="MegaGlest logo" /></a></div>
+    </div>
+    <!-- end header -->
+
+    <!-- start content -->
+    <div id="content">
+      <div id="article">
+
+
+<h1>Clickable Techtree Diagram for Indian - Buildings (Megapack) </h1>
+<p>
+<h4><a href="index.html">Home</a></h4><p><H4>Choose faction: &nbsp;<A HREF=egypt_overview.html>Egypt</a> |&nbsp;
+&nbsp;<A HREF=indian_overview.html><I>Indian</I></a> |&nbsp;
+&nbsp;<A HREF=magic_overview.html>Magic</a> |&nbsp;
+&nbsp;<A HREF=norsemen_overview.html>Norsemen</a> |&nbsp;
+&nbsp;<A HREF=persian_overview.html>Persian</a> |&nbsp;
+&nbsp;<A HREF=romans_overview.html>Romans</a> |&nbsp;
+&nbsp;<A HREF=tech_overview.html>Tech</a>
+ </H4><P>
+<P>
+<H4>Techtree Diagrams: <a href="indian_techtree_clickable_map_buildings.html">Buildings</a> |
+<a href="indian_techtree_clickable_map_buildings_units.html">Buildings Units</a> |
+<a href="indian_techtree_clickable_map_all.html">All</a></H4>
+<P>
+<img src="images/indian/indian_techtree_graph_buildings.png" usemap=#test>
+<map id="test" name="test">
+<area shape="poly" id="node1" href="indian_roundtent_full.html" title="Roundtent" alt="" coords="408,214,330,197,252,214,252,241,408,241"/>
+<area shape="poly" id="node3" href="indian_campfire_full.html" title="Campfire" alt="" coords="397,310,324,293,252,310,252,337,397,337"/>
+<area shape="poly" id="node8" href="indian_horsefarm_full.html" title="Horsefarm" alt="" coords="582,310,502,293,421,310,422,337,582,337"/>
+<area shape="poly" id="node2" href="indian_mainteepee_full.html" title="Mainteepee" alt="" coords="299,22,214,5,128,22,128,49,299,49"/>
+<area shape="poly" id="node4" href="indian_reed_full.html" title="Reed" alt="" coords="100,406,52,389,5,406,5,433,100,433"/>
+<area shape="poly" id="node6" href="indian_bigtent_full.html" title="Bigtent" alt="" coords="176,214,116,197,56,214,57,241,176,241"/>
+<area shape="poly" id="node7" href="indian_tent_full.html" title="Tent" alt="" coords="258,118,214,101,170,118,170,145,258,145"/>
+<area shape="poly" id="node9" href="indian_totem_full.html" title="Totem" alt="" coords="271,406,214,389,157,406,157,433,271,433"/>
+<area shape="poly" id="node5" href="indian_beehive_full.html" title="Beehive" alt="" coords="198,502,132,485,67,502,67,529,198,529"/>
+</map>
+<h4>Arrow Styles:</h4>
+<ul>
+<li>Bold: Unit creates building
+<li>Solid: Building produces unit or upgrade
+<li>Dashed: Units morphs/upgrades to other unit
+<li>Dotted: Unit or Upgrade is a requirement
+</ul>
