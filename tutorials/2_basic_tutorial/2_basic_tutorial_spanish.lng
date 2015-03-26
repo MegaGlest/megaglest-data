@@ -36,3 +36,6 @@ BuildBarracks=Objetivo: Construye un Cuartel (Barracks).
 ProduceSwordman=Objetivo: Produce un Espadachin.
 ProduceArcher=Objetivo: Produce un Arquero.
 ProduceMoreWarriors=Objetivo: Produce más guerreros para enfrentarte al ataque.
+
+;end
+WellDoneNextTutorial=¡Buen trabajo! Puedes ahora seguir con el siguiente tutorial.
