@@ -36,3 +36,6 @@ BuildBarracks=Úkol: Postavte kasárna.
 ProduceSwordman=Úkol: Produkujte šermíře.
 ProduceArcher=Úkol: Produkujte lučištníka.
 ProduceMoreWarriors=Úkol: Produkujte více bojovníků, abyste se mohli vypořádat s blížícím se útokem.
+
+;end
+WellDoneNextTutorial=Dobrá práce! Nyní můžete pokračovat na další tutoriál.
