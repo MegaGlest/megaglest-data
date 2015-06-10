@@ -1,5 +1,5 @@
 ###########################
-# Megaglest Data          #
+# MegaGlest Data          #
 ###########################
 
 Factions:
