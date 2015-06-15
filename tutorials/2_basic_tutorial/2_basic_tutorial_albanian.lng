@@ -36,3 +36,6 @@ NeedWorkers=Per te mbledhur resurse juve ju duhen Punetore. Per te prodhuar disa
 # ProduceSwordman=Objective: Produce a Swordman.
 # ProduceArcher=Objective: Produce an Archer.
 # ProduceMoreWarriors=Objective: Produce more warriors to deal with the upcoming attack.
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

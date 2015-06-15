@@ -37,3 +37,6 @@ ProduceGhostArmor=Obiectiv: Deprinde Invocarea Antică, apoi invocă o Armură F
 BuildEnergySource=Obiectiv: Construiește o Sursă de Energie.
 ProduceGolem=Obiectiv: Construiește o Bibliotecă apoi folosește un Inițiat pentru a face un ritual de creare a unui Golem.
 DefeatEnemy=Obiectiv: Construiește o armată, localizează și înfrânge-ți inamicul.
+
+;end
+# WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.

@@ -1,12 +1,13 @@
+; TechTree
 TechTreeName=megapack
-; --------------
+; -------------------------------------
 ; Types of Armor
 ArmorTypeName_organic=organisch
 ArmorTypeName_leather=leer
 ArmorTypeName_wood=hout
 ArmorTypeName_metal=metaal
 ArmorTypeName_stone=steen
-; --------------
+; --------------------
 ; Types of Attack
 AttackTypeName_slashing=verpletterend
 AttackTypeName_piercing=doordringend
@@ -16,7 +17,7 @@ AttackTypeName_sword=zwaard
 AttackTypeName_arrow=pijl
 AttackTypeName_magic=magie
 AttackTypeName_beat=slaan
-; ------------------
+; --------------------
 ; Types of Resources
 ResourceTypeName_energy=energie
 ResourceTypeName_food=voedsel
@@ -24,87 +25,103 @@ ResourceTypeName_gold=goud
 ResourceTypeName_housing=huisvesting
 ResourceTypeName_stone=steen
 ResourceTypeName_wood=hout
-; -----------------
-; Types of Factions
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_egypt=Egypte
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_power_of_ra=macht van ra
 UpgradeTypeName_spear_weapons=speer wapens
 UpgradeTypeName_speedup_priest_production=versnel productie van priester
 UpgradeTypeName_summon_ibis=ontbied ibis
 UpgradeTypeName_summon_scarab=sommeer scarabee
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_air_pyramid=lucht piramide
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_anubis_warrior=anubis krijger
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_chicken=kip
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
+; -------------------------------------
+; Unit
 UnitTypeName_desert_camp=woestijn kamp
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_spearthrower=produceer speerwerper
 CommandName_produce_spearman=produceer speerdrager
 CommandName_upgrade_spear_weapons=waardeer speer wapens op
+; -------------------------------------
+; Unit
 UnitTypeName_farm=boerderĳ
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_chicken=produceer kip
+; -------------------------------------
+; Unit
 UnitTypeName_ibis=ibis
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_mummy=mummie
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_obelisk=obelisk
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_scarab=produceer scarabee
 CommandName_produce_snake=produceer slang
 CommandName_produce_ibis=produceer ibis
+; -------------------------------------
+; Unit
 UnitTypeName_priest=priester
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -114,28 +131,34 @@ CommandName_produce_mummy=produceer mummie
 CommandName_produce_anubis_warrior=produceer anubis krijger
 CommandName_ice_nova=ijs nova
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_pyramid=piramide
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=produceer slaaf
+; -------------------------------------
+; Unit
 UnitTypeName_scarab=scarabee
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
 LevelName_master=meester
 LevelName_legendary=legendarisch
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_dung_attack=mest aanval
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_slave=slaaf
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -143,54 +166,66 @@ CommandName_build_basic=bouw elementair
 CommandName_repair=repareren
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel hout
+; -------------------------------------
+; Unit
 UnitTypeName_snake=slang
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
 LevelName_master=meester
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_poison_shot=gif shot
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=speerman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_spearthrower=speerwerper
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_sphinx=sphinx
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_temple=tempel
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_priest=produceer priester
 CommandName_research_scarab=onderzoek scarabee
 CommandName_research_ibis=onderzoek ibis
 CommandName_get_power_of_ra=krijg macht van ra
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_indian=indiaan
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bullfood=stieren voedsel
 UpgradeTypeName_iron=ijzer
@@ -198,128 +233,156 @@ UpgradeTypeName_iron_advanced=geavanceerd ijzer
 UpgradeTypeName_petroleum=petroleum
 UpgradeTypeName_stables=stallen
 UpgradeTypeName_training_field=oefen veld
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archer=boogschutter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_axe_indian=bijl indiaan
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_axe_thrower=bijl werper
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_beehive=bijenkorf
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_bigtent=grote tent
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_stickfighter=produceer stokvechter
 CommandName_produce_archer=produceer boogschutter
+; -------------------------------------
+; Unit
 UnitTypeName_bull=stier
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_campfire=kampvuur
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_firegolem=produceer vuurgolem
 CommandName_research_iron=onderzoek ijzer
 CommandName_research_iron_advanced=onderzoek ijzer geavanceerd
+; -------------------------------------
+; Unit
 UnitTypeName_fire_archer=vuur boogschutter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_firegolem=vuurgolem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_horsefarm=manege
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_horseman=produceer ruiter
 CommandName_produce_bull=produceer stier
 CommandName_research_stables=onderzoek stallen
+; -------------------------------------
+; Unit
 UnitTypeName_horseman=ruiter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_mainteepee=hoofd tipi
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_worker=produceer arbeider
+; -------------------------------------
+; Unit
 UnitTypeName_reed=riet
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_bullfood=onderzoek stierenvoedsel
+; -------------------------------------
+; Unit
 UnitTypeName_roundtent=ronde tent
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_axe_indian=produceer bijl indiaan
 CommandName_produce_axe_thrower=produceeer vuurwerper
 CommandName_produce_fire_archer=produceer vuurboogschieter
 CommandName_produce_spearman=produceer speerdrager
 CommandName_create_training_field=creëer trainingsveld
+; -------------------------------------
+; Unit
 UnitTypeName_shaman=sjamaan
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -328,57 +391,69 @@ CommandName_heal=genezen
 CommandName_molotov=molotovcocktail
 CommandName_produce_thunderbird=produceer dondervogel
 CommandName_build_beehive=bouw bijenkorf
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=speerman
 ; --------------------
 ; Levels for this Unit
 LevelName_guardian=bewaker
 LevelName_chief=hoofdman
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_stickfighter=stokvechter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_tent=tent
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_stickfighter=produceer stokvechter
+; -------------------------------------
+; Unit
 UnitTypeName_thunderbird=thunderbird
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
 LevelName_expert=expert
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_throw=werpen
 CommandName_breath=ademen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_totem=totem
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_air_on=lucht aan
 CommandName_research_petroleum=onderzoek olie
 CommandName_produce_shaman=produceer sjamaan
+; -------------------------------------
+; Unit
 UnitTypeName_worker=arbeider
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -386,8 +461,10 @@ CommandName_build_basic=bouw elementair
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel hout
 CommandName_repair=repareren
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_magic=magie
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_ancient_summoning=oudheidkundig ontbieden
 UpgradeTypeName_dragon_call=drakenroep
@@ -395,120 +472,142 @@ UpgradeTypeName_energy_compression=energie compensatie
 UpgradeTypeName_energy_sharpening=energie bundelen
 UpgradeTypeName_golem_power=golem kracht
 UpgradeTypeName_hell_gate=hellepoort
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archmage=oppertovenaar
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
 LevelName_master=meester
 LevelName_legendary=legendarisch
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_ice_nova=ijs nova
 CommandName_static_fire=statisch vuur
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_archmage_tower=oppertovenaar toren
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_dragon_call=onderzoek drakenroep
 CommandName_golem_power=golem kracht
+; -------------------------------------
+; Unit
 UnitTypeName_battlemage=strijdmagier
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
 LevelName_master=meester
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_fire_bolt=vuur tong
 CommandName_hold_position=houd positie
 CommandName_promote_to_archmage=promoveer tot oppertovenaar
+; -------------------------------------
+; Unit
 UnitTypeName_behemoth=behemoth
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_daemon=demon
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_dragon=draak
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_breath=ademen
 CommandName_hold_position=houd positie
 CommandName_promote_to_evil_dragon=promoveer tot wreede draak
+; -------------------------------------
+; Unit
 UnitTypeName_drake_rider=eenden rijder
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
 LevelName_master=meester
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_fire_breath=vuur adem
 CommandName_flare=gloed
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_energy_source=energiebron
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
+; -------------------------------------
+; Unit
 UnitTypeName_evil_dragon=kwaadaardige draak
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_breath=ademen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_ghost_armor=geest pantser
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_golem=golem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
 CommandName_promote_to_power_golem=promoveer tot macht golem
+; -------------------------------------
+; Unit
 UnitTypeName_initiate=initiëren
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -519,34 +618,42 @@ CommandName_ritual=ritueel
 CommandName_mine=mijn
 CommandName_harvest=oogsten
 CommandName_promote_to_battlemage=promoveer tot strijdtovenaar
+; -------------------------------------
+; Unit
 UnitTypeName_library=bibliotheek
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_energy_compression=onderzoek energie compensatie
 CommandName_research_energy_sharpening=onderzoek energie bundeling
 CommandName_research_hell_gate=onderzoek hellepoort
+; -------------------------------------
+; Unit
 UnitTypeName_mage_tower=tovenaarstoren
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_initiate=produceer beginner
+; -------------------------------------
+; Unit
 UnitTypeName_power_golem=macht golem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=antiek
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_summoner=oproeper
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -556,28 +663,36 @@ CommandName_summon_daemon=ontbied demon
 CommandName_summon_ghost_armor=ontbied geest pantser
 CommandName_summon_dragon=ontbied draak
 CommandName_summon_drake=ontbied draak
+; -------------------------------------
+; Unit
 UnitTypeName_summoner_guild=ontbieder gilde
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_summoner=produceer ontbieder
 CommandName_research_ancient_summoning=onderzoek oudheidkundig ontbieden
+; -------------------------------------
+; Unit
 UnitTypeName_tower_of_souls=toren van zielen
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_wicker_behemoth=rieten behemoth
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_promote_to_behemoth=promoveer tot behemoth
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_norsemen=Noormannen
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_iron=geavanceerd ijzer
 UpgradeTypeName_arrow=pijl
@@ -585,194 +700,236 @@ UpgradeTypeName_holy_valkyrie=heilige walkure
 UpgradeTypeName_iron=ijzer
 UpgradeTypeName_med=honingdrank
 UpgradeTypeName_root=wortel
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archer=boogschutter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_axe_thrower=bijl werper
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_battleaxe=strijdbijl
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_promote_to_battleaxe=promoveer tot strijdbijl
+; -------------------------------------
+; Unit
 UnitTypeName_battleaxe_berzerk=waanzinnig strijdbijl
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith=smid
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_iron=waardeer ijzer op
 CommandName_upgrade_arrow=waardeer pijl op
 CommandName_upgrade_advanced_iron=waardeer geavanceerd ijzer op
 CommandName_produce_crossbow=produceer kruisboog
+; -------------------------------------
+; Unit
 UnitTypeName_bone_tent=botten tent
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_swordman=produceer zwaardman
 CommandName_produce_archer=produceer boogschutter
 CommandName_produce_battleaxe=produceer strijdbijl
 CommandName_produce_axe_thrower=produceeer vuurwerper
+; -------------------------------------
+; Unit
 UnitTypeName_castle=kasteel
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_thrull=produceer troll
+; -------------------------------------
+; Unit
 UnitTypeName_cow=koe
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
+; -------------------------------------
+; Unit
 UnitTypeName_crossbow=kruisboog
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack_arrow=aanvalspijl
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_cudgel_lady=knuppel vrouw
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_cudgel=knuppel
+; -------------------------------------
+; Unit
 UnitTypeName_farm=boerderĳ
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cow=produceer koe
+; -------------------------------------
+; Unit
 UnitTypeName_flyingvalkyrie=vliegende walkure
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_house=huis
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produceer knuppel dame
 CommandName_produce_spearman=produceer speerdrager
+; -------------------------------------
+; Unit
 UnitTypeName_med_bar=honingdrank bar
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produceer knuppel dame
 CommandName_produce_spearman=produceer speerdrager
 CommandName_research_med=onderzoek honingdrank
+; -------------------------------------
+; Unit
 UnitTypeName_mistletree=mistboom
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_air_on=lucht aan
 CommandName_attack_off=aanvallen uit
 CommandName_research_root=onderzoek wortel
 CommandName_resurrect_wild_sow=herrijs wilde zeug
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=speerman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
 CommandName_promote_to_spearman=promoot tot speerman
+; -------------------------------------
+; Unit
 UnitTypeName_spearman_berzerk=waanzinnige speerman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_swordman=zwaardvechter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
 CommandName_promote_to_swordman=promoveer tot zwaardman
+; -------------------------------------
+; Unit
 UnitTypeName_swordman_berzerk=waanzinnige zwaardman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_thor=Donar
 ; --------------------
 ; Levels for this Unit
 LevelName_advanced=geavanceerd
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_throw=werpen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_thortotem=thor totem
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_build_thor=bouw thor
+; -------------------------------------
+; Unit
 UnitTypeName_thrull=thrull
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -780,34 +937,42 @@ CommandName_build_basic=bouw elementair
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel hout
 CommandName_repair=repareren
+; -------------------------------------
+; Unit
 UnitTypeName_valhalla=walhalla
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_flyingvalkyrie=produceer vliegendewalkure\n
 CommandName_produce_valkyrie=produceer walkure
 CommandName_research_holy_valkyrie=onderzoek heilige walkure
+; -------------------------------------
+; Unit
 UnitTypeName_valkyrie=Walkure
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_airattack=luchtaanval
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_wild_sow=wilde zeug
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_persian=Pers
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_corn_and_wicker=mais en riet
 UpgradeTypeName_magic_level_1=magisch niveau 1
@@ -815,82 +980,98 @@ UpgradeTypeName_magic_level_2=magisch niveau 2
 UpgradeTypeName_nails=spijkers
 UpgradeTypeName_shield=schild
 UpgradeTypeName_weapons=wapens
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith=smid
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_weapons=waardeer wapens op
 CommandName_upgrade_nails=waardeer nagels op
 CommandName_upgrade_shield=waardeer schild op
+; -------------------------------------
+; Unit
 UnitTypeName_elephant=olifant
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_attack_arrow=aanvalspijl
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_elephant_cage=olifanten kooi
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_elephant=produceer olifant
+; -------------------------------------
+; Unit
 UnitTypeName_fakir=fakir
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_farm=boerderĳ
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_sheep=produceer schaap
 CommandName_research_corn_and_wicker=onderzoek mais en riet
+; -------------------------------------
+; Unit
 UnitTypeName_flying_carpet=vliegend tapijt
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_magic_attack=magische aanval
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_genie=geest
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_house=huis
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_fakir=produceer fakir
 CommandName_produce_stickfighter=produceer stokvechter
+; -------------------------------------
+; Unit
 UnitTypeName_magician=magiër
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -899,85 +1080,104 @@ CommandName_repair=repareren
 CommandName_build_snake_basket=bouw slangenmand
 CommandName_heal=genezen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_minaret=minaret
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_palace=paleis
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_worker=produceer arbeider
+; -------------------------------------
+; Unit
 UnitTypeName_princess=prinses
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_sheep=schaap
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
+; -------------------------------------
+; Unit
 UnitTypeName_snake_basket=slangenmand
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
-CommandName_stop=stop
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_stickfighter=stokvechter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_swordman=zwaardvechter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_temple=tempel
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_princess=produceer prinses
 CommandName_produce_swordman=produceer zwaardman
+; -------------------------------------
+; Unit
 UnitTypeName_tent=tent
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_genie=produceer geest
 CommandName_produce_flying_carpet=produceer vliegend tapijt
 CommandName_produce_magician=produceer magiër
 CommandName_upgrade_magic_level_1=waardeer toto magie niveau 1 op
 CommandName_upgrade_magic_level_2=waardeer toto magie niveau 2 op
+; -------------------------------------
+; Unit
 UnitTypeName_worker=arbeider
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_attack=aanvallen
@@ -986,8 +1186,10 @@ CommandName_build_basic=bouw elementair
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel hout
 CommandName_repair=repareren
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_romans=Romeinen
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=geavanceerde architectuur
 UpgradeTypeName_bless_of_minerva=zegen van minerva
@@ -999,159 +1201,191 @@ UpgradeTypeName_sharpen_points=bundel punten
 UpgradeTypeName_sign_of_mars=tekens van mars
 UpgradeTypeName_strengthen_swords=versterk zwaarden
 UpgradeTypeName_training_field=oefen veld
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archer=boogschutter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
 CommandName_get_fire_arrows=haal vuurpijlen
+; -------------------------------------
+; Unit
 UnitTypeName_axe_man=bijlman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_ballista=ballista
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_battering_ram=stormram
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack_land=land aanval
 CommandName_attack_air=lucht aanval
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith_shop=smidse
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_strengthen_swords=versterk zwaarden
 CommandName_sharpen_points=bundel punten
 CommandName_reinforce_armor=versterk pantser
 CommandName_enlarge_shields=vergoot schilden
+; -------------------------------------
+; Unit
 UnitTypeName_catapult=katapult
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_fire_ball=vuurbal
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_cavalry=cavalerie
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
 CommandName_promote_to_tribune=promoveer tot beschermer
+; -------------------------------------
+; Unit
 UnitTypeName_cow=koe
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
+; -------------------------------------
+; Unit
 UnitTypeName_eagle_pillar=arend pilaar
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_fire_archer=vuur boogschutter
 ; --------------------
 ; Levels for this Unit
 LevelName_accurate=nauwkeurig
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_forum=forum
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=produceer slaaf
 CommandName_produce_cow=produceer koe
+; -------------------------------------
+; Unit
 UnitTypeName_general=algemeen
 ; --------------------
 ; Levels for this Unit
 LevelName_esteemed=gewaardeerd
 LevelName_grand=groots
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_gladiator=gladiator
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack_land=land aanval
 CommandName_attack_air=lucht aanval
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_gladiator_school=gladiator school
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_train_gladiator=train gladiator
 CommandName_produce_axe_man=produceer bijlman
+; -------------------------------------
+; Unit
 UnitTypeName_guard=bewaker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_guard_tower=bewaak toren
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_military_camp=miltair kamp
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cavalry=produceer cavalerie
 CommandName_produce_turtle_formation=produceer schildpadden formatie
@@ -1159,10 +1393,12 @@ CommandName_produce_general=produceer generaal
 CommandName_produce_mechanic=produceer werktuigbouwkundige
 CommandName_upgrade_advanced_architecture=waardeer geavanceerd architectuur op
 CommandName_upgrade_formations=waardeer formaties op
+; -------------------------------------
+; Unit
 UnitTypeName_slave=slaaf
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -1170,68 +1406,82 @@ CommandName_build_=bouw
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel hout
 CommandName_repair=repareren
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=speerman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_swordsman=zwaardvechter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_temple=tempel
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_sign_of_mars=onderzoek tekens van mars
 CommandName_research_jupiter=onderzoek jupiter
 CommandName_upgrade_bless_of_minerva=opwaarderen tot zegen van minerva
+; -------------------------------------
+; Unit
 UnitTypeName_training_camp=trainingskamp
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_spearman=produceer speerdrager
 CommandName_produce_archer=produceer boogschutter
 CommandName_produce_guard=produceer wacht
 CommandName_produce_swordsman=produceer zwaardman
 CommandName_create_training_field=creëer trainingsveld
+; -------------------------------------
+; Unit
 UnitTypeName_tribune=tribune
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_turtle_formation=schildpadden formatie
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_wartime_mechanic=oorlogs werktuigbouwkundige
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -1242,8 +1492,10 @@ CommandName_heal=genezen
 CommandName_build_catapult=bouw katapult
 CommandName_build_battering_ram=bouw stormram
 CommandName_build_ballista=bouw trebucket
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_tech=tech
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=geavanceerde architectuur
 UpgradeTypeName_blade_weapons=lemmet wapens
@@ -1253,163 +1505,197 @@ UpgradeTypeName_shield_level_1=schild niveau 1
 UpgradeTypeName_shield_level_2=schild niveau 2
 UpgradeTypeName_stables=stallen
 UpgradeTypeName_training_field=oefen veld
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_aerodrome=luchthaven
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_ornithopter=produceer ornitopter
 CommandName_produce_airship=produceer luchtschip
+; -------------------------------------
+; Unit
 UnitTypeName_air_ballista=lucht trebucket
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_airship=luchtschip
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_missile=raket
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_archer=boogschutter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_barracks=barakken
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_swordman=produceer zwaardman
 CommandName_produce_archer=produceer boogschutter
 CommandName_produce_guard=produceer wacht
 CommandName_produce_horseman=produceer ruiter
 CommandName_create_training_field=creëer trainingsveld
+; -------------------------------------
+; Unit
 UnitTypeName_battle_machine=strijd machine
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_attack_arrow=aanvalspijl
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith=smid
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_blade_weapons=waardeer lemmet wapens op
 CommandName_upgrade_piercing_weapons=waardeer steekwapens op
 CommandName_upgrade_shield=waardeer schild op
 CommandName_upgrade_shield=waardeer schild op
+; -------------------------------------
+; Unit
 UnitTypeName_castle=kasteel
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_worker=produceer arbeider
+; -------------------------------------
+; Unit
 UnitTypeName_catapult=katapult
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_fire_ball=vuurbal
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_cow=koe
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
+; -------------------------------------
+; Unit
 UnitTypeName_defense_tower=defensieve toren
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
+; -------------------------------------
+; Unit
 UnitTypeName_farm=boerderĳ
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_pig=produceer varken
 CommandName_produce_cow=produceer koe
 CommandName_research_stables=onderzoek stallen
+; -------------------------------------
+; Unit
 UnitTypeName_guard=bewaker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_horseman=ruiter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_ornithopter=ornitopter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_molotov=molotovcocktail
 CommandName_fire_arrow=vuurpijl
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
 UnitTypeName_pig=varken
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
+; -------------------------------------
+; Unit
 UnitTypeName_swordman=zwaardvechter
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
 CommandName_promote_to_guard=promoveer tot wachter
+; -------------------------------------
+; Unit
 UnitTypeName_technician=technicus
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -1421,18 +1707,22 @@ CommandName_molotov=molotovcocktail
 CommandName_build_catapult=bouw katapult
 CommandName_build_battle_machine=bouw strijd machine
 CommandName_build_air_ballista=bouw lucht trebuchet
+; -------------------------------------
+; Unit
 UnitTypeName_technodrome=technovliegveld
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_technician=produceer technicus
 CommandName_research_advanced_architecture=onderzoek geavanceerde architectuur
 CommandName_research_robotics=onderzoek robotica
+; -------------------------------------
+; Unit
 UnitTypeName_worker=arbeider
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
@@ -1441,3 +1731,4 @@ CommandName_build_advanced=geavanceerd bouwen
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel hout
 CommandName_repair=repareren
+; -------------------------------------

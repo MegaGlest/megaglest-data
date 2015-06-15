@@ -36,3 +36,6 @@ BuildBarracks=Objectif : Construisez une caserne ('Barracks').
 ProduceSwordman=Objectif : Produisez un Épéiste ('Swordman') .
 ProduceArcher=Objectif : Produisez un Archer.
 ProduceMoreWarriors=Objectif : Produisez plus de guerriers pour vous préparer à la prochaine attaque.
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

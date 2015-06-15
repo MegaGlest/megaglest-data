@@ -37,3 +37,6 @@ ProduceGhostArmor=Objetivo: Pesquise a Magia Antiga, em seguida, evocar um Ghost
 BuildEnergySource=Objetivo: Construir uma fonte de energia.
 ProduceGolem=Objetivo: Construir Bíblioteca, em seguida, usar um Iniciante para realizar um ritual para construir um Golem.
 DefeatEnemy=Objetivo: Construir um exército, localizar e derrotar seu inimigo.
+
+;end
+# WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.

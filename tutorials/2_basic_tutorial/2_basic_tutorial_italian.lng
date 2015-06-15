@@ -36,3 +36,6 @@ BuildBarracks=Obiettivo: Fonda una Caserma.
 ProduceSwordman=Obiettivo: Crea 1 Fante.
 ProduceArcher=Obiettivo: Crea 1 Arciere.
 ProduceMoreWarriors=Obiettivo: Crea più guerrieri per affrontare l'attacco imminente.
+
+;end
+WellDoneNextTutorial=Ben fatto! Adesso puoi procedere con il prossimo tutorial.

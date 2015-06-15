@@ -37,3 +37,6 @@ ProduceGhostArmor=الهدف: ترقية الإستدعاء القديم، ثم 
 BuildEnergySource=الهدف: بناء مصدر للطاقة.
 ProduceGolem=الهدف: بناء مكتبة ومن ثم استخدام مستهل لأداء الطقوس لبناء Golem.
 DefeatEnemy=الهدف: بناء جيش، حدد موقع واهزم عدوك.
+
+;end
+# WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.

@@ -37,3 +37,6 @@ ProduceGhostArmor=Obiettivo: Ricerca Antiche Evocazioni, poi evoca Armatura Fant
 BuildEnergySource=Obiettivo: Costruisci una Fonte di Energia.
 ProduceGolem=Obiettivo: Costruisci una Biblioteca e poi con un Novizio esegui il rituale per creare un Golem.
 DefeatEnemy=Obiettivo: Costruisci un esercito, scova e sconfiggi il tuo nemico.
+
+;end
+WellDoneNextScenarios=Ben fatto! Adesso puoi procedere senza indugi agli scenari con livello di difficoltà basso. Divertiti.

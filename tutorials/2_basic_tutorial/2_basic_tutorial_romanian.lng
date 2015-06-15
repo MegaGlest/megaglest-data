@@ -36,3 +36,6 @@ BuildBarracks=Obiectiv: Construiește Cazarme.
 ProduceSwordman=Obiectiv: Produ un Spadasin.
 ProduceArcher=Obiectiv: Produ un Arcaș
 ProduceMoreWarriors=Obiectiv: Produ mai mulți luptători pentru a face față atacurilor ce vor urma.
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

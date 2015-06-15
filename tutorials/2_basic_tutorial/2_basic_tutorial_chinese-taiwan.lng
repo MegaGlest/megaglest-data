@@ -36,3 +36,6 @@ BuildBarracks=目標;建造軍營。
 ProduceSwordman=目標：生產一名劍客。
 ProduceArcher=目標:生產一名弓箭手。
 ProduceMoreWarriors=目標：生產更多戰士，\n為即將而來的戰鬥做好准備。
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

@@ -36,3 +36,6 @@ BuildBarracks=מטרה: בנה קסרקטין.
 ProduceSwordman=מטרה: יצר Swordman (איש חרב)
 ProduceArcher=מטרה: יצר קשת.
 ProduceMoreWarriors=מטרה: יצר עוד לוחמים על מנת להתמודד עם ההתקפה הבאה.
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

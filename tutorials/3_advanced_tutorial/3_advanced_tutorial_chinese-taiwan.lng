@@ -37,3 +37,6 @@ ProduceGhostArmor=目標：研究“古代招喚術”，\n招喚出一名護甲
 BuildEnergySource=目標：建造一所能量泉。
 ProduceGolem=目標：建造一所圖書館，使用初級法師啟動”儀式“，生產一名傀儡。
 DefeatEnemy=目標：武裝一支軍隊，擊敗敵人。
+
+;end
+# WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.

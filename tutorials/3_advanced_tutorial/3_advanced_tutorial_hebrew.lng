@@ -37,3 +37,6 @@ ProduceGhostArmor=מטרה: שדרג את השדרוג Ancient Summoning, לאח
 BuildEnergySource=מטרה: בנה מקור אנרגיה.
 ProduceGolem=מטרה: בנה סיפריה ולאחר מכן השתמש בטירון לבנות עוד גולם.
 DefeatEnemy=מטרה: בנה צבא, מצא והשמד את אויבך.
+
+;end
+# WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.

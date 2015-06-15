@@ -37,3 +37,6 @@ ProduceGhostArmor=Doel: Onderzoek een oudheidkundige oproep, roep daarna een Spo
 BuildEnergySource=Doel: Bouw een Energiebron.
 ProduceGolem=Doel: Bouw een Bibliotheek en gebruik een nieuweling om een ritueel voor te voeren om een Golem te bouwen.
 DefeatEnemy=Doel: Bouw een leger, plaats en overwin je vijand.
+
+;end
+# WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.

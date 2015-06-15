@@ -37,3 +37,6 @@ ProduceGhostArmor=Objectif : Recherchez "Ancient Summoning", puis invoquez un Fa
 BuildEnergySource=Objectif : Construisez une source d'énergie.
 ProduceGolem=Objectif : Construisez une bibliothèque ('Library'), puis utilisez un Initié pour effectuer un rituel servant à créer un Golem.
 DefeatEnemy=Objectif : Construisez une armée, trouvez et détruisez votre ennemi.
+
+;end
+# WellDoneNextScenarios=Good job! Now you can without having to worry proceed to scenarios with low difficulty level. Have fun.

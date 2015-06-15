@@ -1,12 +1,13 @@
+; TechTree
 TechTreeName=megapack
-; --------------
+; -------------------------------------
 ; Types of Armor
 ArmorTypeName_organic=אורגני
 ArmorTypeName_leather=עור
 ArmorTypeName_wood=עץ
 ArmorTypeName_metal=ברזל
 ArmorTypeName_stone=אבן
-; --------------
+; --------------------
 ; Types of Attack
 AttackTypeName_slashing=מנקב
 AttackTypeName_piercing=מנקב
@@ -16,7 +17,7 @@ AttackTypeName_sword=חרב
 AttackTypeName_arrow=חץ
 AttackTypeName_magic=קוסמים
 AttackTypeName_beat=היכה
-; ------------------
+; --------------------
 ; Types of Resources
 ResourceTypeName_energy=אנרגיה
 ResourceTypeName_food=מזון
@@ -24,87 +25,103 @@ ResourceTypeName_gold=זהב
 ResourceTypeName_housing=מגורים
 ResourceTypeName_stone=אבן
 ResourceTypeName_wood=עץ
-; -----------------
-; Types of Factions
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_egypt=מצרים
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_power_of_ra=כוחו_של_רע
 UpgradeTypeName_spear_weapons=נשקי_חנית
 UpgradeTypeName_speedup_priest_production=מהר_את_ייצור_הכמרים
 UpgradeTypeName_summon_ibis=זמן_מגלן
 UpgradeTypeName_summon_scarab=זימון_עקרב
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_air_pyramid=פירמידת_אוויר
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_anubis_warrior=לוחם_אנוביס
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_chicken=תרנגולת
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
+; -------------------------------------
+; Unit
 UnitTypeName_desert_camp=מחנה_מדבר
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_spearthrower=מייצר_מטיל_חנית
 CommandName_produce_spearman=מייצר_לוחם_רומח
 CommandName_upgrade_spear_weapons=משדרג_נשקי_חנית
+; -------------------------------------
+; Unit
 UnitTypeName_farm=חווה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_chicken=מייצר_תרנגולת
+; -------------------------------------
+; Unit
 UnitTypeName_ibis=מגלן
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_mummy=מומיה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_obelisk=אובליסק
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_scarab=מייצר_עקרב
 CommandName_produce_snake=מייצר_נחש
 CommandName_produce_ibis=מייצר_מגלן
+; -------------------------------------
+; Unit
 UnitTypeName_priest=כומר
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -114,28 +131,34 @@ CommandName_produce_mummy=מייצר_מומיה
 CommandName_produce_anubis_warrior=מייצר_לוחם_אנוביס
 CommandName_ice_nova=נובת_קרח
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_pyramid=פירמידה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=מייצר_עבד
+; -------------------------------------
+; Unit
 UnitTypeName_scarab=עקרב
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=מנוסה
 LevelName_master=מומחה
 LevelName_legendary=אגדה
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_dung_attack=התקפת_ברווז
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_slave=עבד
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -143,54 +166,66 @@ CommandName_build_basic=בניין_בסיסי
 CommandName_repair=תקן
 CommandName_mine=מכרה
 CommandName_harvest_wood=חטוב_עצים
+; -------------------------------------
+; Unit
 UnitTypeName_snake=נחש
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=מנוסה
 LevelName_master=מומחה
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_poison_shot=יריית_ארס
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=לוחם_רומח
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_spearthrower=מטיל_חנית
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_sphinx=ספינקס
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_temple=מקדש
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_priest=מייצר_כומר
 CommandName_research_scarab=חקור_עקרב
 CommandName_research_ibis=חקור_מגלן
 CommandName_get_power_of_ra=קבל את כוחו של רע
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_indian=אינדיאנים
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bullfood=מזון_שוורים
 UpgradeTypeName_iron=ברזל
@@ -198,128 +233,156 @@ UpgradeTypeName_iron_advanced=ברזל_מתקדם
 UpgradeTypeName_petroleum=נפט
 UpgradeTypeName_stables=אורוות
 UpgradeTypeName_training_field=שדה_אימונים
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archer=קשת
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_axe_indian=גרזן_אינדיאני
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_axe_thrower=מטיל_גרזנים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_beehive=כוורת
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_bigtent=אוהל_גדול
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_stickfighter=מייצר_לוחם_סכינים
 CommandName_produce_archer=מייצר_קשת
+; -------------------------------------
+; Unit
 UnitTypeName_bull=שור
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_campfire=מדורה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_firegolem=מייצר_גולם_אש
 CommandName_research_iron=חוקר_מתכת
 CommandName_research_iron_advanced=חוקר_מתכת_מתקדמת
+; -------------------------------------
+; Unit
 UnitTypeName_fire_archer=קשת_אש
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_firegolem=גולם_אש
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_horsefarm=אורווה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_horseman=מייצר_פרש
 CommandName_produce_bull=מייצר_שור
 CommandName_research_stables=חקור_אורוות
+; -------------------------------------
+; Unit
 UnitTypeName_horseman=פרש
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_mainteepee=טיפי_ראשי
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_worker=מייצר_פועל
+; -------------------------------------
+; Unit
 UnitTypeName_reed=קנים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_bullfood=חקור_מזון_שוורים
+; -------------------------------------
+; Unit
 UnitTypeName_roundtent=אוהל_מוקף
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_axe_indian=מייצר_גרזן_אינדיאני
 CommandName_produce_axe_thrower=מייצר_מטיל_גרזנים
 CommandName_produce_fire_archer=מייצר_קשת_אש
 CommandName_produce_spearman=מייצר_לוחם_רומח
 CommandName_create_training_field=מייצר_אזור_אימונים
+; -------------------------------------
+; Unit
 UnitTypeName_shaman=שאמאן
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -328,57 +391,69 @@ CommandName_heal=מרפא
 CommandName_molotov=בקבוק_תבערה
 CommandName_produce_thunderbird=מייצר_ציפור_רעם
 CommandName_build_beehive=בנה כוורת
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=לוחם_רומח
 ; --------------------
 ; Levels for this Unit
 LevelName_guardian=שומר
 LevelName_chief=מנהיג
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_stickfighter=לוחם_סכינים
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_tent=אוהל
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_stickfighter=מייצר_לוחם_סכינים
+; -------------------------------------
+; Unit
 UnitTypeName_thunderbird=ציפור_הרעם
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
 LevelName_expert=מנוסה
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_throw=זרוק
 CommandName_breath=נשימה
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_totem=גולם
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_air_on=הפעל_אוויר
 CommandName_research_petroleum=חקור_משמרות
 CommandName_produce_shaman=מייצר_שאמאן
+; -------------------------------------
+; Unit
 UnitTypeName_worker=פועל
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -386,8 +461,10 @@ CommandName_build_basic=בניין_בסיסי
 CommandName_mine=מכרה
 CommandName_harvest_wood=חטוב_עצים
 CommandName_repair=תקן
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_magic=קסם
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_ancient_summoning=זימון_עתיק
 UpgradeTypeName_dragon_call=קרא_לדרקון
@@ -395,120 +472,142 @@ UpgradeTypeName_energy_compression=דוחס_אנרגיה
 UpgradeTypeName_energy_sharpening=אנרגיה_מושחזת
 UpgradeTypeName_golem_power=גולם_מחוזק
 UpgradeTypeName_hell_gate=שער_גהנום
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archmage=מכשף
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=מנוסה
 LevelName_master=מומחה
 LevelName_legendary=אגדה
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_ice_nova=נובת_קרח
 CommandName_static_fire=אש_סטטית
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_archmage_tower=צריח_המכשפים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_dragon_call=חקור_קריאה_לדרקון
 CommandName_golem_power=גולם_מחוזק
+; -------------------------------------
+; Unit
 UnitTypeName_battlemage=לוחם_קסמים
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=מנוסה
 LevelName_master=מומחה
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_bolt=חזיז_אש
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_archmage=קדם_למכשף
+; -------------------------------------
+; Unit
 UnitTypeName_behemoth=בהמות
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_daemon=שד
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_dragon=דרקון
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_breath=נשימה
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_evil_dragon=קדם_לדרקון_מרושע
+; -------------------------------------
+; Unit
 UnitTypeName_drake_rider=רוכב_דרקונים
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=מנוסה
 LevelName_master=מומחה
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_breath=נשימת_אש
 CommandName_flare=להבה
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_energy_source=מקור_אנרגיה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
+; -------------------------------------
+; Unit
 UnitTypeName_evil_dragon=דרקון_מרושע
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=מנוסה
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_breath=נשימה
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_ghost_armor=שד_משורין
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_golem=גולם
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_power_golem=קדם_לגולם_חזק
+; -------------------------------------
+; Unit
 UnitTypeName_initiate=טירון
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -519,34 +618,42 @@ CommandName_ritual=חזרה
 CommandName_mine=מכרה
 CommandName_harvest=איסו
 CommandName_promote_to_battlemage=קדם_ללוחם_קסמים
+; -------------------------------------
+; Unit
 UnitTypeName_library=ספריה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_energy_compression=חקור_דחיסת_אנרגיה
 CommandName_research_energy_sharpening=חקור_אנרגיה_מושחזת
 CommandName_research_hell_gate=חקור_שער_הגהינום
+; -------------------------------------
+; Unit
 UnitTypeName_mage_tower=מגדל_קסמים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_initiate=מייצר_טירון
+; -------------------------------------
+; Unit
 UnitTypeName_power_golem=מגדל_קסמים
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=עתיק
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_summoner=מזמנת
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -556,28 +663,36 @@ CommandName_summon_daemon=מזמנת_שד
 CommandName_summon_ghost_armor=מזמן_שד_משורין
 CommandName_summon_dragon=מזמנת_דרקון
 CommandName_summon_drake=זמן_ברווז
+; -------------------------------------
+; Unit
 UnitTypeName_summoner_guild=מדריך_המזמנות
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_summoner=מייצר_מזמנת
 CommandName_research_ancient_summoning=חקור_זימון_עתיק
+; -------------------------------------
+; Unit
 UnitTypeName_tower_of_souls=צריח_הנשמות
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_wicker_behemoth=שתיל_בהמות
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_promote_to_behemoth=קדם_לבהמות
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_norsemen=אנשי_הצפון
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_iron=ברזל_מתקדם
 UpgradeTypeName_arrow=חץ
@@ -585,194 +700,236 @@ UpgradeTypeName_holy_valkyrie=ואלקירי_קדושה
 UpgradeTypeName_iron=ברזל
 UpgradeTypeName_med=מעד
 UpgradeTypeName_root=שורש
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archer=קשת
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_axe_thrower=מטיל_גרזנים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_battleaxe=גרזן_קרב
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_promote_to_battleaxe=קדם_לגרזן_קרב
+; -------------------------------------
+; Unit
 UnitTypeName_battleaxe_berzerk=גרזן_קרבי_מטורף
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith=נפחיה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_iron=שדרג_ברזל
 CommandName_upgrade_arrow=שדרג_חיצים
 CommandName_upgrade_advanced_iron=שדרג_ברזל_מתקדם
 CommandName_produce_crossbow=מייצר_קשת_מוצלבת
+; -------------------------------------
+; Unit
 UnitTypeName_bone_tent=אוהל_עצמות
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_swordman=מייצר_לוחם_חרבות
 CommandName_produce_archer=מייצר_קשת
 CommandName_produce_battleaxe=מייצר_גרזן_קרב
 CommandName_produce_axe_thrower=מייצר_מטיל_גרזנים
+; -------------------------------------
+; Unit
 UnitTypeName_castle=טירה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_thrull=מייצר_טרול
+; -------------------------------------
+; Unit
 UnitTypeName_cow=פרה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
+; -------------------------------------
+; Unit
 UnitTypeName_crossbow=קשת_מוצלבת
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack_arrow=תקיפת_חיצים
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_cudgel_lady=אשת_אלה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_cudgel=אלה
+; -------------------------------------
+; Unit
 UnitTypeName_farm=חווה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cow=מייצר_פרה
+; -------------------------------------
+; Unit
 UnitTypeName_flyingvalkyrie=ואלקירי_מכונפת
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_house=בית
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=מייצר_אשת_אלה
 CommandName_produce_spearman=מייצר_לוחם_רומח
+; -------------------------------------
+; Unit
 UnitTypeName_med_bar=מזנון_מעד
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=מייצר_אשת_אלה
 CommandName_produce_spearman=מייצר_לוחם_רומח
 CommandName_research_med=חפש_מעד
+; -------------------------------------
+; Unit
 UnitTypeName_mistletree=עץ_טילים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_air_on=הפעל_אוויר
 CommandName_attack_off=התקפה_מכובה
 CommandName_research_root=חקור_שורש
 CommandName_resurrect_wild_sow=חקור_חזיר_בר
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=לוחם_רומח
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_spearman=קדם_ללוחם_רומח
+; -------------------------------------
+; Unit
 UnitTypeName_spearman_berzerk=לוחם_רומח_מטורף
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_swordman=לוחם_חרבות
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_swordman=קדם_ללוחם_חרבות
+; -------------------------------------
+; Unit
 UnitTypeName_swordman_berzerk=לוחם_חרב_מטורף
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_thor=תור
 ; --------------------
 ; Levels for this Unit
 LevelName_advanced=מתקדם
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_throw=זרוק
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_thortotem=קמיע_תור
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_build_thor=בנה_תור
+; -------------------------------------
+; Unit
 UnitTypeName_thrull=טרו
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -780,34 +937,42 @@ CommandName_build_basic=בניין_בסיסי
 CommandName_mine=מכרה
 CommandName_harvest_wood=חטוב_עצים
 CommandName_repair=תקן
+; -------------------------------------
+; Unit
 UnitTypeName_valhalla=ולהלה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_flyingvalkyrie=מייצר_ואלקירי_מכונ
 CommandName_produce_valkyrie=מייצר_ואלקירי
 CommandName_research_holy_valkyrie=חקור_ואלקירי_קדושה
+; -------------------------------------
+; Unit
 UnitTypeName_valkyrie=ואלקירי
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_airattack=התקפה_אווירי
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_wild_sow=חזיר_בר
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_persian=פרסים
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_corn_and_wicker=תירס_ומקלעת
 UpgradeTypeName_magic_level_1=קסם_רמה_1
@@ -815,82 +980,98 @@ UpgradeTypeName_magic_level_2=קסם_רמה_2
 UpgradeTypeName_nails=מסמרים
 UpgradeTypeName_shield=מגן
 UpgradeTypeName_weapons=נשקים
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith=נפחיה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_weapons=שדרג_נשקים
 CommandName_upgrade_nails=שדרג_מסמרים
 CommandName_upgrade_shield=שדרג_שריון
+; -------------------------------------
+; Unit
 UnitTypeName_elephant=פיל
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_attack_arrow=תקיפת_חיצים
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_elephant_cage=מכלאת_פילים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_elephant=מייצר_פיל
+; -------------------------------------
+; Unit
 UnitTypeName_fakir=פאקיר
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_farm=חווה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_sheep=מייצר_כבש
 CommandName_research_corn_and_wicker=חקור_תירס_ומקלעת
+; -------------------------------------
+; Unit
 UnitTypeName_flying_carpet=שטיח_מעופף
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_magic_attack=התקפת_קסמי
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_genie=ג'יני
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_house=בית
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_fakir=מייצר_פאקיר
 CommandName_produce_stickfighter=מייצר_לוחם_סכינים
+; -------------------------------------
+; Unit
 UnitTypeName_magician=קוסם
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -899,85 +1080,104 @@ CommandName_repair=תקן
 CommandName_build_snake_basket=בנה_סל_נחשים
 CommandName_heal=מרפא
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_minaret=מינארט
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_palace=ארמון
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_worker=מייצר_פועל
+; -------------------------------------
+; Unit
 UnitTypeName_princess=נסיכה
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_sheep=כבש
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
+; -------------------------------------
+; Unit
 UnitTypeName_snake_basket=סלסלת_נחשים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
-CommandName_stop=עוצר
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_stickfighter=לוחם_סכינים
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_swordman=לוחם_חרבות
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_temple=מקדש
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_princess=מייצר_נסיכה
 CommandName_produce_swordman=מייצר_לוחם_חרבות
+; -------------------------------------
+; Unit
 UnitTypeName_tent=אוהל
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_genie=מייצר_ג'יני
 CommandName_produce_flying_carpet=מייצר_שטיח_מעופף
 CommandName_produce_magician=מייצר_קוסם
 CommandName_upgrade_magic_level_1=שדרג_קסם_רמה_1
 CommandName_upgrade_magic_level_2=שדרג_קסם_רמה_2
+; -------------------------------------
+; Unit
 UnitTypeName_worker=פועל
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_attack=תקוף
@@ -986,8 +1186,10 @@ CommandName_build_basic=בניין_בסיסי
 CommandName_mine=מכרה
 CommandName_harvest_wood=חטוב_עצים
 CommandName_repair=תקן
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_romans=רומאים
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=אדריכלות_מתקדמת
 UpgradeTypeName_bless_of_minerva=ברכת_מינרווה
@@ -999,159 +1201,191 @@ UpgradeTypeName_sharpen_points=עוקצים_מחודדים
 UpgradeTypeName_sign_of_mars=סימנו_של_מארס
 UpgradeTypeName_strengthen_swords=חרב_מחוזקת
 UpgradeTypeName_training_field=שדה_אימונים
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_archer=קשת
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_get_fire_arrows=השג_חץ_בוער
+; -------------------------------------
+; Unit
 UnitTypeName_axe_man=נושא_גרזן
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_ballista=בליסטיקה
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_battering_ram=איל_ניגוח
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack_land=התקפה_קרקעית
 CommandName_attack_air=התקפה_אווירית
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith_shop=נפחיה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_strengthen_swords=חרב_מחוזקת
 CommandName_sharpen_points=עוקצים_מחודדים
 CommandName_reinforce_armor=תגבר_שריון
 CommandName_enlarge_shields=מגינים_רחבים
+; -------------------------------------
+; Unit
 UnitTypeName_catapult=בליסטראה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_ball=כדור_אש
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_cavalry=פרש
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_tribune=קדם_לטריבון
+; -------------------------------------
+; Unit
 UnitTypeName_cow=פרה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
+; -------------------------------------
+; Unit
 UnitTypeName_eagle_pillar=עמוד_העיט
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_fire_archer=קשת_אש
 ; --------------------
 ; Levels for this Unit
 LevelName_accurate=מדויק
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_forum=פורום
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=מייצר_עבד
 CommandName_produce_cow=מייצר_פרה
+; -------------------------------------
+; Unit
 UnitTypeName_general=גנרל
 ; --------------------
 ; Levels for this Unit
 LevelName_esteemed=מכובד
 LevelName_grand=מכובד
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_gladiator=גלאדיאטור
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack_land=התקפה_קרקעית
 CommandName_attack_air=התקפה_אווירית
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_gladiator_school=בית_ספר_גלדיאטורים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_train_gladiator=אמן_גלדיאטור
 CommandName_produce_axe_man=מייצר_נושא_גרזן
+; -------------------------------------
+; Unit
 UnitTypeName_guard=שומר
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_guard_tower=מגדל_שמירה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_military_camp=מחנה_צבאי
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cavalry=ייצר_פרש
 CommandName_produce_turtle_formation=מייצר_מערך_צב
@@ -1159,10 +1393,12 @@ CommandName_produce_general=ייצר_גנרל
 CommandName_produce_mechanic=ייצר_מכונאי
 CommandName_upgrade_advanced_architecture=שדרג_אדריכלות_מתקדמת
 CommandName_upgrade_formations=שדרג_מערך
+; -------------------------------------
+; Unit
 UnitTypeName_slave=עבד
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -1170,68 +1406,82 @@ CommandName_build_=בנה_
 CommandName_mine=מכרה
 CommandName_harvest_wood=חטוב_עצים
 CommandName_repair=תקן
+; -------------------------------------
+; Unit
 UnitTypeName_spearman=לוחם_רומח
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_swordsman=לוחם_חרב
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_temple=מקדש
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_research_sign_of_mars=חקור_סימנו_של_מארס
 CommandName_research_jupiter=חקור_יופיטר
 CommandName_upgrade_bless_of_minerva=חקור_ברכת_מינרווה
+; -------------------------------------
+; Unit
 UnitTypeName_training_camp=מחנה_אימונים
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_spearman=מייצר_לוחם_רומח
 CommandName_produce_archer=מייצר_קשת
 CommandName_produce_guard=ייצר_שומר
 CommandName_produce_swordsman=מייצר_לוחם_חרב
 CommandName_create_training_field=מייצר_אזור_אימונים
+; -------------------------------------
+; Unit
 UnitTypeName_tribune=טריבון
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_turtle_formation=מערך_צב
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_wartime_mechanic=מכונאי_מלחמה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -1242,8 +1492,10 @@ CommandName_heal=מרפא
 CommandName_build_catapult=בנה_קאטאפולטה
 CommandName_build_battering_ram=בנה_איל_ניגוח
 CommandName_build_ballista=בנה_בליסטראה
+; -----------------------------------------------------------------------------
+; Faction
 FactionName_tech=טכנולוגי
-; ----------------------------------
+; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=אדריכלות_מתקדמת
 UpgradeTypeName_blade_weapons=נשקי_להב
@@ -1253,163 +1505,197 @@ UpgradeTypeName_shield_level_1=שריון_רמה_1
 UpgradeTypeName_shield_level_2=שריון_רמה_2
 UpgradeTypeName_stables=אורוות
 UpgradeTypeName_training_field=שדה_אימונים
-; -------------------------------
-; Types of Units for this Faction
+; -------------------------------------
+; Unit
 UnitTypeName_aerodrome=שדה_תעופה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_ornithopter=מייצר_דאון
 CommandName_produce_airship=מייצר_ספינת_אוויר
+; -------------------------------------
+; Unit
 UnitTypeName_air_ballista=בליסטראה_אווירית
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_airship=ספינת_אוויר
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_missile=טיל
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_archer=קשת
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_barracks=קסרקטין
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_swordman=מייצר_לוחם_חרבות
 CommandName_produce_archer=מייצר_קשת
 CommandName_produce_guard=ייצר_שומר
 CommandName_produce_horseman=מייצר_פרש
 CommandName_create_training_field=מייצר_אזור_אימונים
+; -------------------------------------
+; Unit
 UnitTypeName_battle_machine=מכונה_קרבית
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_attack_arrow=תקיפת_חיצים
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_blacksmith=נפחיה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_upgrade_blade_weapons=משדרג_נשקי_להב
 CommandName_upgrade_piercing_weapons=משדרג_נשקי_דקירה
 CommandName_upgrade_shield=שדרג_שריון
 CommandName_upgrade_shield=שדרג_שריון
+; -------------------------------------
+; Unit
 UnitTypeName_castle=טירה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_worker=מייצר_פועל
+; -------------------------------------
+; Unit
 UnitTypeName_catapult=בליסטראה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_fire_ball=כדור_אש
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_cow=פרה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
+; -------------------------------------
+; Unit
 UnitTypeName_defense_tower=צריח_הגנה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
+; -------------------------------------
+; Unit
 UnitTypeName_farm=חווה
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_pig=מייצר_חזיר
 CommandName_produce_cow=מייצר_פרה
 CommandName_research_stables=חקור_אורוות
+; -------------------------------------
+; Unit
 UnitTypeName_guard=שומר
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_horseman=פרש
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_ornithopter=דאון
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_molotov=בקבוק_תבערה
 CommandName_fire_arrow=חץ_אש
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
 UnitTypeName_pig=חזיר
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
+; -------------------------------------
+; Unit
 UnitTypeName_swordman=לוחם_חרבות
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_guard=קדם_לשומר
+; -------------------------------------
+; Unit
 UnitTypeName_technician=טכנאי
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -1421,18 +1707,22 @@ CommandName_molotov=בקבוק_תבערה
 CommandName_build_catapult=בנה_קאטאפולטה
 CommandName_build_battle_machine=בונה_מכונה_קרבית
 CommandName_build_air_ballista=בונה_בליסטראה_אווירית
+; -------------------------------------
+; Unit
 UnitTypeName_technodrome=מרכז טכנולוגי
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_technician=מייצר_טכנאי
 CommandName_research_advanced_architecture=חקור_אדריכלות_מתקדמת
 CommandName_research_robotics=חקור_רובוטיק
+; -------------------------------------
+; Unit
 UnitTypeName_worker=פועל
 ; --------------------
 ; Levels for this Unit
-; -------------------------------
+; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
@@ -1441,3 +1731,4 @@ CommandName_build_advanced=מבנים_מתקדמים
 CommandName_mine=מכרה
 CommandName_harvest_wood=חטוב_עצים
 CommandName_repair=תקן
+; -------------------------------------

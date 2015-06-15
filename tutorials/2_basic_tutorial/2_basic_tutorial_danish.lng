@@ -36,3 +36,6 @@ BuildBarracks=Opgave: Byg en barrak
 ProduceSwordman=Opgave: Producer en sværdmand.
 ProduceArcher=Opgave: Producer en bueskytte.
 ProduceMoreWarriors=Opgave: Producer flere krigere for at håndtere det kommende angreb.
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

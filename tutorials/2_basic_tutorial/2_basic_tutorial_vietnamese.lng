@@ -36,3 +36,6 @@ TechWarriorsAtBarracks=Để có thể đánh bại kẻ thù bạn cần thêm 
 # ProduceSwordman=Objective: Produce a Swordman.
 # ProduceArcher=Objective: Produce an Archer.
 # ProduceMoreWarriors=Objective: Produce more warriors to deal with the upcoming attack.
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

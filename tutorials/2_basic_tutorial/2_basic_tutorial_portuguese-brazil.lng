@@ -36,3 +36,6 @@ BuildBarracks=Objetivo: Construir Barracks.
 ProduceSwordman=Objetivo: Produzir um Espadachim.
 ProduceArcher=Objetivo: Produzir um Arqueiro.
 ProduceMoreWarriors=Objective: Produzir mais guerreiros para lidar com o próximo ataque.
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.

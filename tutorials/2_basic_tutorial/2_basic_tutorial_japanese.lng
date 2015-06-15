@@ -36,3 +36,6 @@ BuildBarracks=目標: 兵舎を建てる。
 ProduceSwordman=目標: 剣士を生産する。
 ProduceArcher=目標: 弓兵を生産する。
 ProduceMoreWarriors=目標: 敵の攻撃に備える為に、 さらに多くの戦士を生産する。
+
+;end
+# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.
