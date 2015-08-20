@@ -21,10 +21,10 @@ AttackTypeName_beat=de golpes
 ; Types of Resources
 ResourceTypeName_energy=energía
 ResourceTypeName_food=comida
-ResourceTypeName_gold=oro
+ResourceTypeName_gold=de Oro
 ResourceTypeName_housing=alojamiento
-ResourceTypeName_stone=piedra
-ResourceTypeName_wood=madera
+ResourceTypeName_stone=de Piedra
+ResourceTypeName_wood=de Madera
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_egypt=egipto
@@ -164,7 +164,7 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_build_basic=construcciones básicas
 CommandName_repair=reparar
-CommandName_mine=mina
+CommandName_mine=Extrayendo mineral
 CommandName_harvest_wood=recolectar madera
 ; -------------------------------------
 ; Unit
@@ -458,7 +458,7 @@ UnitTypeName_worker=trabajador
 CommandName_stop=parar
 CommandName_move=mover
 CommandName_build_basic=construcciones básicas
-CommandName_mine=mina
+CommandName_mine=Extrayendo mineral
 CommandName_harvest_wood=recolectar madera
 CommandName_repair=reparar
 ; -----------------------------------------------------------------------------
@@ -615,7 +615,7 @@ CommandName_attack=atacar
 CommandName_repair=reparar
 CommandName_build=construir
 CommandName_ritual=ritual
-CommandName_mine=mina
+CommandName_mine=Extrayendo mineral
 CommandName_harvest=cosechar
 CommandName_promote_to_battlemage=mejorar a mago de batalla
 ; -------------------------------------
@@ -934,7 +934,7 @@ UnitTypeName_thrull=thrull
 CommandName_stop=parar
 CommandName_move=mover
 CommandName_build_basic=construcciones básicas
-CommandName_mine=mina
+CommandName_mine=Extrayendo mineral
 CommandName_harvest_wood=recolectar madera
 CommandName_repair=reparar
 ; -------------------------------------
@@ -1183,7 +1183,7 @@ CommandName_stop=parar
 CommandName_attack=atacar
 CommandName_move=mover
 CommandName_build_basic=construcciones básicas
-CommandName_mine=mina
+CommandName_mine=Extrayendo mineral
 CommandName_harvest_wood=recolectar madera
 CommandName_repair=reparar
 ; -----------------------------------------------------------------------------
@@ -1357,7 +1357,7 @@ UnitTypeName_gladiator_school=escuela de gladiadores
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_train_gladiator=entrenar gladiador
+CommandName_train_gladiator=reclutar gladiador
 CommandName_produce_axe_man=producir hacheros
 ; -------------------------------------
 ; Unit
@@ -1403,7 +1403,7 @@ UnitTypeName_slave=esclavo
 CommandName_stop=parar
 CommandName_move=mover
 CommandName_build_=construir
-CommandName_mine=mina
+CommandName_mine=Extrayendo mineral
 CommandName_harvest_wood=recolectar madera
 CommandName_repair=reparar
 ; -------------------------------------
@@ -1562,7 +1562,7 @@ CommandName_produce_horseman=producir jinete
 CommandName_create_training_field=crear campo de entrenamiento
 ; -------------------------------------
 ; Unit
-UnitTypeName_battle_machine=máquina de batalla
+UnitTypeName_battle_machine=máquina bélica
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -1705,7 +1705,7 @@ CommandName_heal=curar
 CommandName_mine_gold=mina de oro
 CommandName_molotov=molotov
 CommandName_build_catapult=construir catapulta
-CommandName_build_battle_machine=construir máquina de batalla
+CommandName_build_battle_machine=construir máquina bélica
 CommandName_build_air_ballista=construir balista aérea
 ; -------------------------------------
 ; Unit
@@ -1728,7 +1728,7 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_build_basic=construcciones básicas
 CommandName_build_advanced=construcción avanzada
-CommandName_mine=mina
+CommandName_mine=Extrayendo mineral
 CommandName_harvest_wood=recolectar madera
 CommandName_repair=reparar
 ; -------------------------------------
