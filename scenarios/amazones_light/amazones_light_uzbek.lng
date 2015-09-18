@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazonkaliklar (osonroq)
+;message headers
+Amazones=Amazonkaliklar
+
+;message strings
+Brief1=Iffifoqdosh qasri sizniki bilan birga saqlab qolinishi kerak!
+
+;objective strings
+Firstwave=Nishon: yashil ayollar.
+Secondwave=Nishon: ko‘plab ayollar.
+Thirdwave=Nishon: juda ko‘p ayollar
+Fourthwave=Nishon: yoqimli, ammo xavfli ;-)
+Lastwave=Nishon: So‘nggi hayqiriq!
