@@ -47,6 +47,7 @@ $RECYCLE.BIN/
 *.jar
 *.rar
 *.tar
+*.tar.xz
 *.zip
 *.bz2
 
@@ -75,5 +76,7 @@ $RECYCLE.BIN/
 *.map
 *.dmp
 *.dat
+*.ipdb
+*.iobj
 /lua/
 #

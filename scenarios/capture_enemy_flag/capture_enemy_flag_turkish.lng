@@ -1,0 +1,18 @@
+SCENARIO_NAME=Bayrağı yakala
+;message headers
+CaptureFlag=Bayrağı yakala
+Warning=Uyarı
+Crisis=Kırmızı Alarm!
+
+;message strings
+Brief1=Düşman bayrağını dokunarak ele geçirin ve ana kampınıza kadar getirin! Düşman bayrağı küçük haritada parlamaktadır.Sizin bayrağınız takımınızın renginde görünecek.Yol boyunca sürprizlere dikkat edin.
+Player2InFlagZoneWarning=2 numaralı oyuncu senin bölgende dikkatli ol!
+Player3InFlagZoneWarning=3 numaralı oyuncu senin bölgende dikkatli ol!
+Player2HasFlagWarning=2 numaralı oyuncu BAYRAĞINIZI ELE GEÇİRDİ, onu yakala!!
+Player3HasFlagWarning=3 numaralı oyuncu BAYRAĞINIZI ELE GEÇİRDİ, onu yakala!!
+
+;objective strings
+Player2HeadHome=2 numaralı oyuncu evine kadar ulaştırmayı başardın ve kazandın! Bayrak taşıyıcın takımının rengiyle işaretli,ölmesine izin verme.
+Player3HeadHome=3 numaralı oyuncu evine kadar ulaştırmayı başardın ve kazandın! Bayrak taşıyıcın takımının rengiyle işaretli,ölmesine izin verme.
+PlayerWins=Tebrikler, kazandın!
+PlayerLoses=Çok kötü,kaybettin!

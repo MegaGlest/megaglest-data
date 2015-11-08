@@ -113,7 +113,7 @@ UnitTypeName_obelisk=Obelisco
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_scarab=Produzir escaravelho sagrado
-CommandName_produce_snake=produzit Naja
+CommandName_produce_snake=produzir Cobra
 CommandName_produce_ibis=produzir íbis
 ; -------------------------------------
 ; Unit
@@ -168,7 +168,7 @@ CommandName_mine=Mina
 CommandName_harvest_wood=recoletar madeira
 ; -------------------------------------
 ; Unit
-UnitTypeName_snake=Naja
+UnitTypeName_snake=Cobra
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=Perito
@@ -281,7 +281,7 @@ UnitTypeName_bigtent=Tenda
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-# CommandName_produce_stickfighter=produce stickfighter
+CommandName_produce_stickfighter=produzir Índio
 CommandName_produce_archer=produzir Arqueiro
 ; -------------------------------------
 ; Unit
@@ -405,7 +405,7 @@ CommandName_move=mover
 CommandName_attack=atacar
 ; -------------------------------------
 ; Unit
-# UnitTypeName_stickfighter=stickfighter
+UnitTypeName_stickfighter=Índio
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -422,7 +422,7 @@ UnitTypeName_tent=Tipi
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-# CommandName_produce_stickfighter=produce stickfighter
+CommandName_produce_stickfighter=produzir Índio
 ; -------------------------------------
 ; Unit
 UnitTypeName_thunderbird=Pássaro do Trovão
@@ -463,7 +463,7 @@ CommandName_harvest_wood=recoletar madeira
 CommandName_repair=reparar
 ; -----------------------------------------------------------------------------
 ; Faction
-FactionName_magic=Mágica
+FactionName_magic=Mágicos
 ; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_ancient_summoning=Magia Antiga
@@ -474,7 +474,7 @@ UpgradeTypeName_golem_power=gólem nivel 2
 UpgradeTypeName_hell_gate=portal infernal
 ; -------------------------------------
 ; Unit
-UnitTypeName_archmage=archimago
+UnitTypeName_archmage=Mago
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=Perito
@@ -489,7 +489,7 @@ CommandName_static_fire=fogo estático
 CommandName_hold_position=Mantenha a Posição
 ; -------------------------------------
 ; Unit
-UnitTypeName_archmage_tower=Torre do archimago
+UnitTypeName_archmage_tower=Torre dos Magos
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -498,7 +498,7 @@ CommandName_research_dragon_call=procurar grito do dragão
 CommandName_golem_power=gólem nivel 2
 ; -------------------------------------
 ; Unit
-UnitTypeName_battlemage=mago de batalla
+UnitTypeName_battlemage=Mago de Batalha
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=Perito
@@ -630,7 +630,7 @@ CommandName_research_energy_sharpening=procurar energía nível 2
 CommandName_research_hell_gate=procurar portal do inferno
 ; -------------------------------------
 ; Unit
-UnitTypeName_mage_tower=Torre dos magos
+UnitTypeName_mage_tower=Torre da Magia
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -650,7 +650,7 @@ CommandName_attack=atacar
 CommandName_hold_position=Mantenha a Posição
 ; -------------------------------------
 ; Unit
-UnitTypeName_summoner=Invocador
+UnitTypeName_summoner=Bruxa
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -665,7 +665,7 @@ CommandName_summon_dragon=Evocar dragão
 CommandName_summon_drake=Evocar drake
 ; -------------------------------------
 ; Unit
-UnitTypeName_summoner_guild=Irmandade das Summoners
+UnitTypeName_summoner_guild=Torre das Bruxas\n
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -1064,10 +1064,10 @@ UnitTypeName_house=Cavalo
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_fakir=produzir Faquir
-# CommandName_produce_stickfighter=produce stickfighter
+CommandName_produce_stickfighter=produzir Índio
 ; -------------------------------------
 ; Unit
-UnitTypeName_magician=mágico
+UnitTypeName_magician=Bruxo
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1129,7 +1129,7 @@ CommandName_attack_off=ataque desativado
 CommandName_attack_on=ataque ativado
 ; -------------------------------------
 ; Unit
-# UnitTypeName_stickfighter=stickfighter
+UnitTypeName_stickfighter=Índio
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1169,7 +1169,7 @@ UnitTypeName_tent=Tipi
 ; Types of Commands for this Unit
 CommandName_produce_genie=produzir Genio
 CommandName_produce_flying_carpet=produzir Tapete Voador
-CommandName_produce_magician=produzir mágico
+CommandName_produce_magician=produzir Bruxo
 CommandName_upgrade_magic_level_1=atualizar magia nível 1
 CommandName_upgrade_magic_level_2=atualizar magia nível 2
 ; -------------------------------------
@@ -1361,7 +1361,7 @@ CommandName_train_gladiator=Treinar Gladiador
 CommandName_produce_axe_man=produzir Axeman
 ; -------------------------------------
 ; Unit
-UnitTypeName_guard=Vanguarda
+UnitTypeName_guard=Cavaleiro\n
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1449,7 +1449,7 @@ UnitTypeName_training_camp=Campo de trainamento
 ; Types of Commands for this Unit
 CommandName_produce_spearman=produzir Lanceiros
 CommandName_produce_archer=produzir Arqueiro
-CommandName_produce_guard=produzir Vanguarda
+CommandName_produce_guard=produzir Cavaleiro
 CommandName_produce_swordsman=produzir Guerreiro
 CommandName_create_training_field=criar campo de treinamento
 ; -------------------------------------
@@ -1557,7 +1557,7 @@ UnitTypeName_barracks=Quartel
 ; Types of Commands for this Unit
 CommandName_produce_swordman=produzir guerreiro
 CommandName_produce_archer=produzir Arqueiro
-CommandName_produce_guard=produzir Vanguarda
+CommandName_produce_guard=produzir Cavaleiro
 CommandName_produce_horseman=produzir Cavaleiro
 CommandName_create_training_field=criar campo de treinamento
 ; -------------------------------------
@@ -1633,7 +1633,7 @@ CommandName_produce_cow=produzir vaca
 CommandName_research_stables=procurar estábulo
 ; -------------------------------------
 ; Unit
-UnitTypeName_guard=Vanguarda
+UnitTypeName_guard=Cavaleiro\n
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1689,7 +1689,7 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=Mantenha a Posição
-CommandName_promote_to_guard=promover à Vanguarda
+CommandName_promote_to_guard=promover à Cavaleiro
 ; -------------------------------------
 ; Unit
 UnitTypeName_technician=Tecnólogo

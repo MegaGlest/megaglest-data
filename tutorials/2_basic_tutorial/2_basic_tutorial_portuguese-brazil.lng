@@ -33,9 +33,9 @@ HarvestWoodAndStone=Objetivo: Colher de madeira 100 e 150 unidades de pedra.
 ProduceCow=Objetivo: Produzir uma vaca.
 MineGold=Objetivo:Na Mina busque 100 unidades de ouro.
 BuildBarracks=Objetivo: Construir Barracks.
-ProduceSwordman=Objetivo: Produzir um Espadachim.
+ProduceSwordman=Objetivo: Produzir um Guerreiro.
 ProduceArcher=Objetivo: Produzir um Arqueiro.
 ProduceMoreWarriors=Objective: Produzir mais guerreiros para lidar com o próximo ataque.
 
 ;end
-# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.
+WellDoneNextTutorial=Bom trabalho! Agora você pode avançar para o próximo tutorial.

@@ -1,0 +1,1734 @@
+; TechTree
+TechTreeName=Dev paket
+; -------------------------------------
+; Types of Armor
+ArmorTypeName_organic=organik
+ArmorTypeName_leather=deri
+ArmorTypeName_wood=kereste
+ArmorTypeName_metal=metal
+ArmorTypeName_stone=taş
+; --------------------
+; Types of Attack
+AttackTypeName_slashing=dilme
+AttackTypeName_piercing=delici
+AttackTypeName_impact=vuruş
+AttackTypeName_energy=enerji
+AttackTypeName_sword=kılıç
+AttackTypeName_arrow=ok
+AttackTypeName_magic=büyü
+AttackTypeName_beat=dayak
+; --------------------
+; Types of Resources
+ResourceTypeName_energy=enerji
+ResourceTypeName_food=besin
+ResourceTypeName_gold=altın
+ResourceTypeName_housing=konut
+ResourceTypeName_stone=taş
+ResourceTypeName_wood=ahşap
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_egypt=mısır
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=ra'nın gücü
+UpgradeTypeName_spear_weapons=mızrak silahlar
+UpgradeTypeName_speedup_priest_production=keşiş üretimini hızlandır
+UpgradeTypeName_summon_ibis=ibis çağır
+UpgradeTypeName_summon_scarab=mayıs böceği çağır
+; -------------------------------------
+; Unit
+UnitTypeName_air_pyramid=piramit
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_anubis_warrior=ölüler tanrısı savaşçısı
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_chicken=piliç
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+; -------------------------------------
+; Unit
+UnitTypeName_desert_camp=çöl kampı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_spearthrower=mızrak atıcısı üret
+CommandName_produce_spearman=mızrakçı üret
+CommandName_upgrade_spear_weapons=Mızrak silahlarını yükselt
+; -------------------------------------
+; Unit
+UnitTypeName_farm=çiftlik
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_chicken=piliç üret
+; -------------------------------------
+; Unit
+# UnitTypeName_ibis=ibis
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_mummy=mumya
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_obelisk=dikilitaş
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_scarab=bokböceği üretme
+CommandName_produce_snake=yılan üretme
+# CommandName_produce_ibis=produce ibis
+; -------------------------------------
+; Unit
+UnitTypeName_priest=keşiş
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_speedup_priest_production=keşiş üretimini hızlandır
+CommandName_heal=iyileşmek
+CommandName_produce_mummy=mumya üretme
+CommandName_produce_anubis_warrior=ölüler tanrısı savaşçısı üretme
+# CommandName_ice_nova=ice nova
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_pyramid=piramit
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=köle üretme
+; -------------------------------------
+; Unit
+UnitTypeName_scarab=bokböceği
+; --------------------
+; Levels for this Unit
+LevelName_expert=uzman
+LevelName_master=Usta
+LevelName_legendary=efsanevi
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_dung_attack=tezek saldırısı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_slave=köle
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_build_basic=temeli yapmak
+CommandName_repair=Onarma
+CommandName_mine=maden
+CommandName_harvest_wood=odun toplama
+; -------------------------------------
+; Unit
+UnitTypeName_snake=yılan
+; --------------------
+; Levels for this Unit
+LevelName_expert=uzman
+LevelName_master=Usta
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_poison_shot=zehir atışı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=mızrakçı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_spearthrower=Mızrak atıcısı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_sphinx=sfenks
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_temple=tapınak
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_priest=keşiş üretme
+CommandName_research_scarab=mayıs böceği araştır
+# CommandName_research_ibis=research ibis
+CommandName_get_power_of_ra=ra'nın gücünü elde et
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_indian=kızılderili
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_bullfood=Boğa yemi
+UpgradeTypeName_iron=demir
+UpgradeTypeName_iron_advanced=gelişmiş demir
+UpgradeTypeName_petroleum=petrol
+UpgradeTypeName_stables=ahırlar
+UpgradeTypeName_training_field=eğitim alanı
+; -------------------------------------
+; Unit
+UnitTypeName_archer=okçu
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_axe_indian=baltalı kızılderili
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_axe_thrower=balta sallayan
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_beehive=arı kovanı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_bigtent=büyük çadır
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=sopalı dövüşçü üret
+CommandName_produce_archer=okçu üretme
+; -------------------------------------
+; Unit
+UnitTypeName_bull=boğa
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_campfire=kamp ateşi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+# CommandName_produce_firegolem=produce firegolem
+CommandName_research_iron=demir araştır
+CommandName_research_iron_advanced=gelişmiş demir araştır
+; -------------------------------------
+; Unit
+UnitTypeName_fire_archer=ateş okçusu
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+# UnitTypeName_firegolem=firegolem
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_horsefarm=at çiftliği
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_horseman=atlı üretme
+CommandName_produce_bull=boğa üret
+CommandName_research_stables=ahır araştır
+; -------------------------------------
+; Unit
+UnitTypeName_horseman=atlı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_mainteepee=kızılderili otağı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=işçi üret
+; -------------------------------------
+; Unit
+UnitTypeName_reed=kamış
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_research_bullfood=boğa yemi araştır
+; -------------------------------------
+; Unit
+UnitTypeName_roundtent=yuvarlak çadır
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_axe_indian=baltalı kızılderili üret
+CommandName_produce_axe_thrower=balta sallayan üret
+CommandName_produce_fire_archer=ateş okçusu üret
+CommandName_produce_spearman=mızrakçı üret
+CommandName_create_training_field=eğitim alanı oluştur
+; -------------------------------------
+; Unit
+UnitTypeName_shaman=şaman
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_repair=Onarma
+CommandName_heal=iyileşmek
+CommandName_molotov=molotof
+CommandName_produce_thunderbird=yıldırımkuşu üret
+CommandName_build_beehive=arı kovanı yap
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=mızrakçı
+; --------------------
+; Levels for this Unit
+LevelName_guardian=gardiyan
+LevelName_chief=şef/baş
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_stickfighter=dövüşçü sopası
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_tent=çadır
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=sopalı dövüşçü üret
+; -------------------------------------
+; Unit
+UnitTypeName_thunderbird=yıldırım
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+LevelName_expert=uzman
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_throw=atmak
+CommandName_breath=nefes
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_totem=totem
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+# CommandName_air_on=air on
+CommandName_research_petroleum=petrol araştır
+CommandName_produce_shaman=şaman üret
+; -------------------------------------
+; Unit
+UnitTypeName_worker=işçi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_build_basic=temeli yapmak
+CommandName_mine=maden
+CommandName_harvest_wood=odun toplama
+CommandName_repair=Onarma
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_magic=büyü
+; -------------------------------------
+; Types of Upgrades for this Faction
+# UpgradeTypeName_ancient_summoning=ancient summoning
+UpgradeTypeName_dragon_call=ejderha çağrısı
+UpgradeTypeName_energy_compression=enerji sıkıştırma
+UpgradeTypeName_energy_sharpening=enerji bileme
+# UpgradeTypeName_golem_power=golem power
+UpgradeTypeName_hell_gate=cehennem kapısı
+; -------------------------------------
+; Unit
+UnitTypeName_archmage=başbüyücü
+; --------------------
+; Levels for this Unit
+LevelName_expert=uzman
+LevelName_master=Usta
+LevelName_legendary=efsanevi
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+# CommandName_ice_nova=ice nova
+# CommandName_static_fire=static fire
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_archmage_tower=başbüyücü kulesi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_research_dragon_call=ejderha çağrısı araştır
+# CommandName_golem_power=golem power
+; -------------------------------------
+; Unit
+UnitTypeName_battlemage=savaş büyücüsü
+; --------------------
+; Levels for this Unit
+LevelName_expert=uzman
+LevelName_master=Usta
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+# CommandName_fire_bolt=fire bolt
+CommandName_hold_position=tutma pozisyonu
+CommandName_promote_to_archmage=başbüyücüyü teşvik etme
+; -------------------------------------
+; Unit
+UnitTypeName_behemoth=dev yaratık
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_daemon=şeytan
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=ejderha
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_breath=nefes
+CommandName_hold_position=tutma pozisyonu
+CommandName_promote_to_evil_dragon=kötü ejderhayı teşvik etme
+; -------------------------------------
+; Unit
+# UnitTypeName_drake_rider=drake rider
+; --------------------
+; Levels for this Unit
+LevelName_expert=uzman
+LevelName_master=Usta
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+# CommandName_fire_breath=fire breath
+CommandName_flare=işaret fişeği
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_energy_source=enerji kaynağı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+; -------------------------------------
+; Unit
+UnitTypeName_evil_dragon=kötü ejderha
+; --------------------
+; Levels for this Unit
+LevelName_expert=uzman
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_breath=nefes
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_ghost_armor=hayalet zırhı
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_golem=golem
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+# CommandName_promote_to_power_golem=promote to power golem
+; -------------------------------------
+; Unit
+UnitTypeName_initiate=Başlatma
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_repair=Onarma
+CommandName_build=yapı
+CommandName_ritual=Ayin
+CommandName_mine=maden
+CommandName_harvest=hasat
+# CommandName_promote_to_battlemage=promote to battlemage
+; -------------------------------------
+; Unit
+UnitTypeName_library=kitaplık
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+# CommandName_research_energy_compression=research energy compression
+# CommandName_research_energy_sharpening=research energy sharpening
+CommandName_research_hell_gate=cehennem kapısını araştır
+; -------------------------------------
+; Unit
+UnitTypeName_mage_tower=büyücü kulesi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+# CommandName_produce_initiate=produce initiate
+; -------------------------------------
+; Unit
+# UnitTypeName_power_golem=power golem
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_summoner=Ulak
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_flare=işaret fişeği
+CommandName_hold_position=tutma pozisyonu
+CommandName_summon_daemon=şeytan çağır
+CommandName_summon_ghost_armor=hayalet zırhı çağır
+CommandName_summon_dragon=ejderha çağır
+CommandName_summon_drake=ördek çağır
+; -------------------------------------
+; Unit
+UnitTypeName_summoner_guild=birlik çağır
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_summoner=Ulak üretimi
+CommandName_research_ancient_summoning=antik çağrı araştır
+; -------------------------------------
+; Unit
+UnitTypeName_tower_of_souls=ruhların kulesi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_wicker_behemoth=dallardan örülmüş dev yaratık
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_promote_to_behemoth=dev yaratığı teşvik et
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_norsemen=iskandinav adamlar
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=gelişmiş demir
+UpgradeTypeName_arrow=ok
+UpgradeTypeName_holy_valkyrie=kutsal kadın savaşçı
+UpgradeTypeName_iron=demir
+# UpgradeTypeName_med=med
+UpgradeTypeName_root=kök
+; -------------------------------------
+; Unit
+UnitTypeName_archer=okçu
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_axe_thrower=balta sallayan
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_battleaxe=savaş baltası
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_promote_to_battleaxe=savaş baltasını teşvik etme
+; -------------------------------------
+; Unit
+# UnitTypeName_battleaxe_berzerk=battleaxe berzerk
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith=demirci
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_upgrade_iron=demiri yükselt
+CommandName_upgrade_arrow=oku yükselt
+CommandName_upgrade_advanced_iron=gelişmiş demiri yükselt
+CommandName_produce_crossbow=yaylı tüfek üretme
+; -------------------------------------
+; Unit
+UnitTypeName_bone_tent=kemik çadırı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=kılıç ustası üret
+CommandName_produce_archer=okçu üretme
+CommandName_produce_battleaxe=savaş baltası üret
+CommandName_produce_axe_thrower=balta sallayan üret
+; -------------------------------------
+; Unit
+UnitTypeName_castle=kale
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+# CommandName_produce_thrull=produce thrull
+; -------------------------------------
+; Unit
+UnitTypeName_cow=inek
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+; -------------------------------------
+; Unit
+UnitTypeName_crossbow=Yaylı tüfek
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack_arrow=saldırı oku
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+# UnitTypeName_cudgel_lady=cudgel lady
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_cudgel=sopa
+; -------------------------------------
+; Unit
+UnitTypeName_farm=çiftlik
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cow=sığır üret
+; -------------------------------------
+; Unit
+UnitTypeName_flyingvalkyrie=uçan kadın savaşçı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_house=ev
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=sopalı kadın üretimi
+CommandName_produce_spearman=mızrakçı üret
+; -------------------------------------
+; Unit
+# UnitTypeName_med_bar=med bar
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=sopalı kadın üretimi
+CommandName_produce_spearman=mızrakçı üret
+# CommandName_research_med=research med
+; -------------------------------------
+; Unit
+# UnitTypeName_mistletree=mistletree
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+# CommandName_air_on=air on
+CommandName_attack_off=saldırı kapalı
+CommandName_research_root=kök araştır
+CommandName_resurrect_wild_sow=yaban domuzunu dirilt
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=mızrakçı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+CommandName_promote_to_spearman=mızrakçıyı teşvik
+; -------------------------------------
+; Unit
+UnitTypeName_spearman_berzerk=çılgınca hareket eden mızrakçı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_swordman=kılıç ustası
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+CommandName_promote_to_swordman=kılıç ustasını teşvik
+; -------------------------------------
+; Unit
+UnitTypeName_swordman_berzerk=çılgınca hareket eden kılıç ustası
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+# UnitTypeName_thor=thor
+; --------------------
+; Levels for this Unit
+LevelName_advanced=gelişmiş
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_throw=atmak
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+# UnitTypeName_thortotem=thortotem
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+# CommandName_build_thor=build thor
+; -------------------------------------
+; Unit
+# UnitTypeName_thrull=thrull
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_build_basic=temeli yapmak
+CommandName_mine=maden
+CommandName_harvest_wood=odun toplama
+CommandName_repair=Onarma
+; -------------------------------------
+; Unit
+# UnitTypeName_valhalla=valhalla
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_flyingvalkyrie=uçan kadın savaşçı üret
+CommandName_produce_valkyrie=savaşçı kadın üret
+CommandName_research_holy_valkyrie=kutsal kadın savaşçı araştır
+; -------------------------------------
+; Unit
+UnitTypeName_valkyrie=savaşçı kadın
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_airattack=hava saldırısı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_wild_sow=yaban domuzu
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_persian=farsça
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=mısır ve sepet
+UpgradeTypeName_magic_level_1=büyü düzeyi 1
+UpgradeTypeName_magic_level_2=büyü düzeyi 2
+UpgradeTypeName_nails=çivi
+UpgradeTypeName_shield=kalkan
+UpgradeTypeName_weapons=silahlar
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith=demirci
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_upgrade_weapons=silahları yükselt
+CommandName_upgrade_nails=çivileri yükselt
+CommandName_upgrade_shield=kalkanı yükselt
+; -------------------------------------
+; Unit
+UnitTypeName_elephant=fil
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_attack_arrow=saldırı oku
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_elephant_cage=fil kafesi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_elephant=fil üret
+; -------------------------------------
+; Unit
+UnitTypeName_fakir=derviş
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_farm=çiftlik
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_sheep=koyun üret
+CommandName_research_corn_and_wicker=mısır ve sepet araştır
+; -------------------------------------
+; Unit
+UnitTypeName_flying_carpet=uçan halı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_magic_attack=büyü saldırısı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_genie=cin
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_house=ev
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_fakir=derviş üretme
+CommandName_produce_stickfighter=sopalı dövüşçü üret
+; -------------------------------------
+; Unit
+UnitTypeName_magician=büyücü
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_repair=Onarma
+CommandName_build_snake_basket=yılan sepeti yap
+CommandName_heal=iyileşmek
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_minaret=minare
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_palace=saray
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=işçi üret
+; -------------------------------------
+; Unit
+UnitTypeName_princess=prenses
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_sheep=koyun
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+; -------------------------------------
+; Unit
+UnitTypeName_snake_basket=yılan sepeti
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_stickfighter=dövüşçü sopası
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_swordman=kılıç ustası
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_temple=tapınak
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_princess=prenses üret
+CommandName_produce_swordman=kılıç ustası üret
+; -------------------------------------
+; Unit
+UnitTypeName_tent=çadır
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_genie=cin üret
+CommandName_produce_flying_carpet=uçan halı üret
+CommandName_produce_magician=büyücü üret
+CommandName_upgrade_magic_level_1=büyü düzeyi 1'i yükselt
+CommandName_upgrade_magic_level_2=büyü düzeyi 2'yi yükselt
+; -------------------------------------
+; Unit
+UnitTypeName_worker=işçi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_attack=Saldırı
+CommandName_move=taşı
+CommandName_build_basic=temeli yapmak
+CommandName_mine=maden
+CommandName_harvest_wood=odun toplama
+CommandName_repair=Onarma
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_romans=romalılar
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=gelişmiş mimari
+UpgradeTypeName_bless_of_minerva=Zeka tanrıçasını kutsa
+UpgradeTypeName_enlarge_shields=kalkanları büyüt
+UpgradeTypeName_formations=oluşumlar
+UpgradeTypeName_jupiter=jüpiter
+UpgradeTypeName_reinforce_armor=zırh güçlendirme
+UpgradeTypeName_sharpen_points=noktaları netleştirme
+# UpgradeTypeName_sign_of_mars=sign of mars
+UpgradeTypeName_strengthen_swords=kılıçları güçlendirme
+UpgradeTypeName_training_field=eğitim alanı
+; -------------------------------------
+; Unit
+UnitTypeName_archer=okçu
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+CommandName_get_fire_arrows=ateş okları al
+; -------------------------------------
+; Unit
+UnitTypeName_axe_man=baltacı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_ballista=mancınık
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_battering_ram=koçbaşı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack_land=arazi saldırısı
+CommandName_attack_air=hava saldırısı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith_shop=demirci dükkanı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_strengthen_swords=kılıçları güçlendirme
+CommandName_sharpen_points=noktaları netleştirme
+CommandName_reinforce_armor=zırh güçlendirme
+CommandName_enlarge_shields=kalkanları büyüt
+; -------------------------------------
+; Unit
+UnitTypeName_catapult=küçük mancınık
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_fire_ball=ateş topu
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_cavalry=süvari
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+# CommandName_promote_to_tribune=promote to tribune
+; -------------------------------------
+; Unit
+UnitTypeName_cow=inek
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+; -------------------------------------
+; Unit
+UnitTypeName_eagle_pillar=kartal ayağı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_fire_archer=ateş okçusu
+; --------------------
+; Levels for this Unit
+LevelName_accurate=özenli
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_forum=forum
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=köle üretme
+CommandName_produce_cow=sığır üret
+; -------------------------------------
+; Unit
+UnitTypeName_general=genel
+; --------------------
+; Levels for this Unit
+LevelName_esteemed=saygın
+LevelName_grand=büyük
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_gladiator=gladyatör
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack_land=arazi saldırısı
+CommandName_attack_air=hava saldırısı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_gladiator_school=gladyatör okulu
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_train_gladiator=gladyatör eğitme
+CommandName_produce_axe_man=baltacı üret
+; -------------------------------------
+; Unit
+UnitTypeName_guard=bekçi
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_guard_tower=nöbetçi kulesi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_military_camp=askeri kamp
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cavalry=süvari üret
+CommandName_produce_turtle_formation=kaplumbağa oluşumu üret
+# CommandName_produce_general=produce general
+# CommandName_produce_mechanic=produce mechanic
+CommandName_upgrade_advanced_architecture=gelişmiş mimariyi yükselt
+CommandName_upgrade_formations=oluşumları yükselt
+; -------------------------------------
+; Unit
+UnitTypeName_slave=köle
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_build_=yapı
+CommandName_mine=maden
+CommandName_harvest_wood=odun toplama
+CommandName_repair=Onarma
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=mızrakçı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_swordsman=kılıç ustası
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_temple=tapınak
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+# CommandName_research_sign_of_mars=research sign of mars
+# CommandName_research_jupiter=research jupiter
+CommandName_upgrade_bless_of_minerva=zeka tanrıçasının kutsamasını yükselt
+; -------------------------------------
+; Unit
+UnitTypeName_training_camp=eğitim kampı
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_spearman=mızrakçı üret
+CommandName_produce_archer=okçu üretme
+CommandName_produce_guard=koruma üret
+CommandName_produce_swordsman=kılıç ustası üret
+CommandName_create_training_field=eğitim alanı oluştur
+; -------------------------------------
+; Unit
+UnitTypeName_tribune=tribün
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_turtle_formation=kaplumbağa oluşumu
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+# UnitTypeName_wartime_mechanic=wartime mechanic
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+CommandName_repair=Onarma
+CommandName_heal=iyileşmek
+CommandName_build_catapult=küçük mancınık yap
+# CommandName_build_battering_ram=build battering ram
+CommandName_build_ballista=mancınık yap
+; -----------------------------------------------------------------------------
+; Faction
+# FactionName_tech=tech
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=gelişmiş mimari
+UpgradeTypeName_blade_weapons=kesici silahlar
+UpgradeTypeName_piercing_weapons=delici silahlar
+UpgradeTypeName_robotics=robotik
+UpgradeTypeName_shield_level_1=kalkan düzeyi 1
+UpgradeTypeName_shield_level_2=kalkan düzeyi 2
+UpgradeTypeName_stables=ahırlar
+UpgradeTypeName_training_field=eğitim alanı
+; -------------------------------------
+; Unit
+UnitTypeName_aerodrome=hangar
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_ornithopter=ornithopter üret
+CommandName_produce_airship=zeplin üret
+; -------------------------------------
+; Unit
+UnitTypeName_air_ballista=hava mancınığı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_airship=zeplin
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_missile=füze
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_archer=okçu
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_barracks=barakalar
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=kılıç ustası üret
+CommandName_produce_archer=okçu üretme
+CommandName_produce_guard=koruma üret
+CommandName_produce_horseman=atlı üretme
+CommandName_create_training_field=eğitim alanı oluştur
+; -------------------------------------
+; Unit
+UnitTypeName_battle_machine=savaş makinesi
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_attack_arrow=saldırı oku
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith=demirci
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_upgrade_blade_weapons=kesici silahları yükselt
+CommandName_upgrade_piercing_weapons=delici silahları yükselt
+CommandName_upgrade_shield=kalkanı yükselt
+CommandName_upgrade_shield=kalkanı yükselt
+; -------------------------------------
+; Unit
+UnitTypeName_castle=kale
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=işçi üret
+; -------------------------------------
+; Unit
+UnitTypeName_catapult=küçük mancınık
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_fire_ball=ateş topu
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_cow=inek
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+; -------------------------------------
+; Unit
+UnitTypeName_defense_tower=savunma kulesi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=saldırı kapalı
+CommandName_attack_on=saldırı
+; -------------------------------------
+; Unit
+UnitTypeName_farm=çiftlik
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_pig=domuz üret
+CommandName_produce_cow=sığır üret
+CommandName_research_stables=ahır araştır
+; -------------------------------------
+; Unit
+UnitTypeName_guard=bekçi
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_horseman=atlı
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_ornithopter=ornithopter
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_molotov=molotof
+CommandName_fire_arrow=ateş oku
+CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_pig=domuz
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+; -------------------------------------
+; Unit
+UnitTypeName_swordman=kılıç ustası
+; --------------------
+; Levels for this Unit
+LevelName_elite=seçkin
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_attack=Saldırı
+CommandName_hold_position=tutma pozisyonu
+CommandName_promote_to_guard=korumayı teşvik etme
+; -------------------------------------
+; Unit
+UnitTypeName_technician=teknisyen
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_build_ultimate=son yapı
+CommandName_repair=Onarma
+CommandName_heal=iyileşmek
+CommandName_mine_gold=altın madeni
+CommandName_molotov=molotof
+CommandName_build_catapult=küçük mancınık yap
+CommandName_build_battle_machine=savaş makinesi yapma
+CommandName_build_air_ballista=mancınık yapma
+; -------------------------------------
+; Unit
+# UnitTypeName_technodrome=technodrome
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_technician=teknisyen üretme
+CommandName_research_advanced_architecture=gelişmiş mimari araştır
+# CommandName_research_robotics=research robotics
+; -------------------------------------
+; Unit
+UnitTypeName_worker=işçi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_build_basic=temeli yapmak
+CommandName_build_advanced=gelişmiş yapı
+CommandName_mine=maden
+CommandName_harvest_wood=odun toplama
+CommandName_repair=Onarma
+; -------------------------------------

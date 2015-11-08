@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazonlar Hafif
+;message headers
+Amazones=Amazonlar
+
+;message strings
+Brief1=Müttefikinin kalesi ayakta kalmalı!
+
+;objective strings
+Firstwave=Amaç: Çimende kadınlar
+Secondwave=Amaç: Daha çok Kadın.
+Thirdwave=Amaç:muhtemelen çok fazla kadın...
+Fourthwave=Amaç: Güzel fakat tehlikeli ;-)
+Lastwave=Amaç: Son dalga!!

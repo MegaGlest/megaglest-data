@@ -29,9 +29,9 @@ Command=Capacidades das unidades estão listados adiante. Vamos agora aprender t
 FirstCommand=O ícone do primeiro comando é "pare". Se você clicar neste ícone, o trabalhador vai parar imediatamente o que ele está fazendo atualmente. Todas as unidades (que não são edifícios) fornecer este comando.
 
 SecondCommand=O ícone do segundo comando é "mover-se". Se você clicar nele, você terá que clicar no chão ou outra unidade próxima para definir o destino. Um atalho para este comando é só clicar no botão direito do mouse na posição de destino.
-SecondCommand2=Quando você passar o ponteiro do mouse sobre o ícone do comando 'move', a velocidade do movimento dos trabalhadores é exibida. Este comando também está disponível para todas as unidades.
+SecondCommand2=Quando você passar o ponteiro do mouse sobre o ícone do comando 'mover-se', a velocidade do movimento dos trabalhadores é exibida. Este comando também está disponível para todas as unidades.
 
-TestSecondCommand=Experimente o comando "move" agora. Mova o trabalhador para o outro trabalhador que está esperando fora do seu campo. Esse outro trabalhador é exibido no mini mapa (canto superior esquerdo) como um ponto vermelho. O triângulo branco no mini mapa indica sua localização/posição da câmera. O grande ponto vermelho é o seu Mainteepee.
+TestSecondCommand=Experimente o comando "mover-se" agora. Mova o trabalhador para o outro trabalhador que está esperando fora do seu campo. Esse outro trabalhador é exibido no mini mapa (canto superior esquerdo) como um ponto vermelho. O triângulo branco no mini mapa indica sua localização/posição da câmera. O grande ponto vermelho é o seu Mainteepee.
 
 ;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
 
@@ -54,20 +54,20 @@ GetWood=Uma outra sugestão, você pode usar o comando de atalho para a colheita
 MeetingPoint=Quando você seleciona um edifício, uma seta azul é exibida. Esta seta aponta para o "ponto de encontro" chamado. Todas as unidades que você produz neste edifício irá se mover para este lugar assim que elas aparecerem.
 UseMeetingPoint=Você pode mover o ponto de encontro, também. Clique no ícone da bandeira, em seguida, na posição em que o novo ponto de encontro deve ser localizado. Aqui, também, você pode usar atalho, simplesmente clique no botão direito do mouse no novo local (assim como você pode fazer para andar).
 MeetingPoint2=Se você colocar o ponto de encontro em um recurso, os trabalhadores recém-produzidos vão começar imediatamente a colher lá. Certifique-se de acertar o ponto certo, porém, ou os seus trabalhadores vão apenas ficar ao redor e ficar no caminho.
-Thirdcommand=Agora vá para o ícone do trabalhador use o terceiro comando - este é o 'build' comando.
+Thirdcommand=Agora vá para o ícone do trabalhador use o terceiro comando - este é o 'construir' comando.
 Thirdcommand2=Clicando nele você entrar no menu de construção. Se você passar por um dos ícones de construção com o ponteiro do mouse você começa a ver, mais abaixo, listadas em "requisitos", todos os recursos e as realizações que você precisa para isso.
-Thirdcommand3=Se você verificar sua loja acima, você vai ver que ela tem 30 de ouro, 50 madeira, -10 de Moradia (ao lado da tenda na sua loja). "-10 de Moradia" significa que a construção de uma tenda, você tem boa acomodação para dez unidades adicionais (embora algumas unidades podem precisar de mais do que apenas uma).
-Thirdcommand4=Vamos construir uma tenda agora. Clique no menu build, em seguida, na tenda, e colocá-lo em um local vazio.
+Thirdcommand3=Se você verificar sua loja acima, você vai ver que ela tem 30 de ouro, 50 madeira, -10 de Moradia (ao lado da tenda na sua loja). "-10 de Moradia" significa que precisa construir uma tenda, você tem boa acomodação para dez unidades adicionais (embora algumas unidades podem precisar de mais do que apenas uma).
+Thirdcommand4=Vamos construir uma tenda agora. Clique no menu construir, em seguida, na tenda, e colocá-lo em um local vazio.
 
 ;--------------------------------------------------stickfighter----------------------------------------------------------------
 
 
-ProduceStickfighter=You can now train a stick fighter in your new tent.
+ProduceStickfighter=Agora você pode treinar um índio em sua nova tenda.
 
 ;objective strings
 ProduceWorker=Objetivo: treinar um trabalhador.
 ProduceStickfighter2=Objetivo: treinar um para a batalha.
-MoveWorker=Objetivo: Mova o trabalhador recém-produzido com o outro trabalhador que está esperando fora do seu campo.
+MoveWorker=Objetivo: Mova o trabalhador recém-produzido para o outro trabalhador que está esperando fora do seu campo.
 HarvestGoldandStoneobjective=Objetivo: Colha ouro e pedra até que você tenha um total de 600 de ouro e 550 de pedra.
 GetWoodob=Objetivo: Colha madeira até que você tenha 550.
 UseThirdCommand=Objetivo: Construa uma tenda. Dica: Se a tenda fica vermelha, isso significa que este local é atualmente (em geral), ocupado (como por outra unidade ou uma árvore).
