@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Player #%d [%s] has disconnected, but player was on
 GameTime=Game:
 GammaCorrection=Brightness:
 GettingModlistFromMasterserver=Getting mod list from masterserver
+GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Harvest
 HarvestSpeed=Harvest speed
 HeadlessAdminRequiresMorePlayers=You must have at least %d player(s) connected to start this game!
