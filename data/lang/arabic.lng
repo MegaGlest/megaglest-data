@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=اللاعب #%d [%s] قطع اتصاله، لكن 
 GameTime=اللعبة:
 GammaCorrection=الإضاءة
 GettingModlistFromMasterserver=جلب قائمة الوحدات من الخادم الرئيسي
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=المحصول
 HarvestSpeed=سرعة الحصاد
 HeadlessAdminRequiresMorePlayers=يجب أن يكون لديك على الأقل%d لاعب(ين) متصل(ين) لبدء هذه اللعبة!

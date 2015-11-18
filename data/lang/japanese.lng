@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=プレイヤー #%d [%s] は切断されました�
 GameTime=ゲーム:
 GammaCorrection=輝度
 GettingModlistFromMasterserver=マスターサーバーからモッドのリストを得る
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=資源収集
 HarvestSpeed=収集速度
 HeadlessAdminRequiresMorePlayers=ゲームを開始するには少なくとも %d 人のプレイヤー(s) が必要です。

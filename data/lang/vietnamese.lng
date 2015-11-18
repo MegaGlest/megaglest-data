@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Người chơi #%d [%s] đã ngưng kết nối, nh
 GameTime=Màn chơi:
 GammaCorrection=Độ sáng
 GettingModlistFromMasterserver=Đang nhận danh sách người điều hành màn chơi từ máy chủ
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Thu hoạch
 HarvestSpeed=Tốc độ thu hoạch
 HeadlessAdminRequiresMorePlayers=Bạn phải có ít nhất %d người chơi đã kết nối thì mới có thể bắt đầu trò chơi!
@@ -569,8 +570,8 @@ IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
-ISO639-1=en
-NativeLanguageName=tiếng Anh
+ISO639-1=vi
+NativeLanguageName=Tiếng Việt
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
 MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold
 FONT_SCALE_SIZE=$USE_DEFAULT_LANGUAGE_VALUE

@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Joueur #%d [%s] s'est déconnecté, mais n'était q
 GameTime=Partie :
 GammaCorrection=Luminosité
 GettingModlistFromMasterserver=Récupération de la liste des mods sur le serveur principal
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Récolter
 HarvestSpeed=Vitesse de récolte
 HeadlessAdminRequiresMorePlayers=Il vous faut au moins %d joueur(s) connectés pour lancer cette partie !

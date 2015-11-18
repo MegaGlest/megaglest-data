@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=#%d [%s] nomli o‘yinchi aloqani uzdi. Ammo o‘yi
 GameTime=O'yin:
 GammaCorrection=Yorqinlik:
 GettingModlistFromMasterserver=Masterserverdan mod ro‘yxatini olish
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Hosil yig‘ish
 HarvestSpeed=Hosil yig‘ish tezligi
 HeadlessAdminRequiresMorePlayers=O‘yinni boshlashingiz uchun kamida %d ta o‘yinchi ulanishi kerak!

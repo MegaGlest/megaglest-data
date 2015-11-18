@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Jogador #%d [%s] disconectou, mas o jogador era só
 GameTime=Jogo:
 GammaCorrection=Brilho
 GettingModlistFromMasterserver=Obtendo lista do mod no servidor mestre
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Colher
 HarvestSpeed=Velocidade de Coleta
 HeadlessAdminRequiresMorePlayers=Você precisa ter pelo menos %d jogadore(s) conectados para começar.

@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Gracz %d - [%s] rozłączył się, ale był tylko o
 GameTime=Godzina w grze:
 GammaCorrection=Jasność obrazu (1.50):
 GettingModlistFromMasterserver=Pobieranie listy modyfikacji z głównego serwera
+GroupAssignFailed=Nie udało się przydzielenie jednostki/jednostek do grupy!
 Harvest=Zbiera
 HarvestSpeed=Prędkość zbierania
 HeadlessAdminRequiresMorePlayers=Musi być co najmniej %d podłączonych graczy by rozpocząć tą grę!

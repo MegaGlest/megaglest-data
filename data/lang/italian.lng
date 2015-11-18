@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Il Giocatore #%d [%s] si è disconnesso, era un oss
 GameTime=Gioco:
 GammaCorrection=Luminosità
 GettingModlistFromMasterserver=Recupero la mod list dal server centrale
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Raccogli
 HarvestSpeed=Velocità di Raccolta
 HeadlessAdminRequiresMorePlayers=Servono almeno %d giocatori connessi per iniziare la partita!

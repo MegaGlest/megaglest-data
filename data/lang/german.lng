@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Spieler %d [%s] (Zuschauer) hat die Verbindung getr
 GameTime=Spiel:
 GammaCorrection=Helligkeit
 GettingModlistFromMasterserver=Hole Mod Informationen vom Masterserver
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Sammeln
 HarvestSpeed=Sammelgeschw.
 HeadlessAdminRequiresMorePlayers=Es müssen mindestens %d Spieler mitspielen, um dieses Spiel zu starten!

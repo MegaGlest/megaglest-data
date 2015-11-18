@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Igralec #%d [%s] je prekinil povezavo kot opazovale
 GameTime=Igra:
 GammaCorrection=Svetlost
 GettingModlistFromMasterserver=Pobiranje seznama modov iz glavnega strežnika
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Pobiraj
 HarvestSpeed=Hitrost pobiranja
 HeadlessAdminRequiresMorePlayers=Za začetek igre moraš imeti vsaj %d povezanih igral(e)c(ev)!
@@ -569,7 +570,7 @@ IntroTextureStartMilliseconds=$USE_DEFAULT_LANGUAGE_VALUE
 
 ; Font configuration for FTGL
 ; Before using an alternative font, please verify license compatibility
-ISO639-1=si
+ISO639-1=sl
 NativeLanguageName=slovensko
 MEGAGLEST_FONT=$APPLICATIONDATAPATH/data/core/fonts/LinBiolinum_RB.ttf
 MEGAGLEST_FONT_FAMILY=Linux Biolinum O:style=Bold

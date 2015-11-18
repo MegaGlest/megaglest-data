@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Speler #%d [%s] heeft verlaten, maar was slechts aa
 GameTime=Spel:
 GammaCorrection=Helderheid
 GettingModlistFromMasterserver=Ophalen mod-lijst van de hoofdserver
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Oogsten
 HarvestSpeed=Oogst-snelheid
 HeadlessAdminRequiresMorePlayers=Er moeten minimaal %d speler(s) verbonden zijn om het spel te kunnen beginnen!

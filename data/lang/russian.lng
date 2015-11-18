@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Игрок #%d [%s] отключился, но он
 GameTime=Игра:
 GammaCorrection=Яркость
 GettingModlistFromMasterserver=Получение списка модов с сервера
+GroupAssignFailed=Не удалось назначить юнита(ов) в Группу!
 Harvest=Собирать
 HarvestSpeed=Скорость сбора
 HeadlessAdminRequiresMorePlayers=Нужно не менее %d игроков, чтобы начать игру!

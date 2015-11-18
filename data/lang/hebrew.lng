@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=השחקן #%d [%s] התנתק, אבל השחקן �
 GameTime=משחק:
 GammaCorrection=בהירות
 GettingModlistFromMasterserver=מקבל רשימת הרחבות מהשרת הראשי
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=איסוף
 HarvestSpeed=מהירות איסוף
 HeadlessAdminRequiresMorePlayers=אתה זקוק לפחות ל %d שחקנים מחוברים על מנת להתחיל משחק זה!

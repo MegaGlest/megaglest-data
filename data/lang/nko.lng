@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=ߕߏߟߏ߲ߠߊ #%d [%s] ߓߘߴߊ߬ ߜߊ߲߬ߞߎ߲߬
 GameTime=ߕߏߟߏ߲:
 GammaCorrection=ߦߋߟߋ߲ߦߊߟߌ
 GettingModlistFromMasterserver=ߞߙߊߞߏ ߟߎ߬ ߛߙߍߘߍ ߢߌߣߌ߲߫ ߛߐߘߊ߫ ߓߘߍ ߟߊ߫
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=ߞߵߊ߬ ߓߐ߫
 HarvestSpeed=ߓߐߟߌ ߓߏ߬ߙߌ߬ߛߋ߲
 HeadlessAdminRequiresMorePlayers=ߌ ߣߌ߫ ߕߏߟߏ߲ߠߊ߫ ߜߊ߲߬ߞߎ߲߬ߣߍ߲ %d ߟߋ߬ ߦߊ߫ ߞߊ߲߫ ߦߊ߬ߣߌ߫ ߕߏߟߏ߲ ߣߌ߲߬ ߦߋ߫ ߘߊߡߌ߬ߣߊ߬߹

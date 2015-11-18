@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Ο παίκτης #%d [%s] αποσυνδέθηκε
 GameTime=Παιχνίδι:
 GammaCorrection=Φωτεινότητα
 GettingModlistFromMasterserver=Λήψη λίστας των mods από κεντρικό διακομιστή
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Συγκομιδή
 HarvestSpeed=Ταχύτητα συγκομιδής
 HeadlessAdminRequiresMorePlayers=Θα πρέπει να υπάρχουν τουλάχιστον %d συνδεδεμένοι παίκτη(ες) για να ξεκινήσετε αυτό το παιχνίδι

@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Dhì-cheangail an cluicheadair %d [%s], ach chan e 
 GameTime=Geama:
 GammaCorrection=Soilleireachd
 GettingModlistFromMasterserver=A' faighinn liosta nan tuilleadan on fhrithealaiche
+GroupAssignFailed=Dh’fhàillig le aonad a chur ris a bhuidheann!
 Harvest=Buain
 HarvestSpeed=Luaths na buana
 HeadlessAdminRequiresMorePlayers=Feumaidh co-dhiù %d cluicheadair(ean) a bhith ceangailte gus an geama seo a thòiseachadh!

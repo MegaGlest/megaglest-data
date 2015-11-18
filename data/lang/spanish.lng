@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Jugador #%d [%s] se ha desconectado, ¡Sólo era un
 GameTime=Juego:
 GammaCorrection=Brillo:
 GettingModlistFromMasterserver=Obteniendo la lista de mods desde el servidor principal
+GroupAssignFailed=No se pudieron asignar las unidades al grupo.
 Harvest=Recolectar
 HarvestSpeed=Velocidad de recolección
 HeadlessAdminRequiresMorePlayers=¡Debes tener por lo menos %d jugadores conectados para iniciar este juego!

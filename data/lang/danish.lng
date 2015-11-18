@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Spiller #%d [%s] har afbrudt, men spilleren var kun
 GameTime=Spil:
 GammaCorrection=Lysstyrke
 GettingModlistFromMasterserver=Henter mod liste fra mesterserveren
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Høst
 HarvestSpeed=Høst hastighed
 HeadlessAdminRequiresMorePlayers=Du skal have mindst %d (spillere) for at starte et dette spil

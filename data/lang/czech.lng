@@ -188,6 +188,7 @@ GameSwitchPlayerObserverToAI=Hráč #%d [%s] se odpojil, ale byl jen divákem!
 GameTime=Hra:
 GammaCorrection=Jas
 GettingModlistFromMasterserver=Získání mod seznamu z masterserveru
+# GroupAssignFailed=Couldn't assign unit(s) to Group!
 Harvest=Těžit
 HarvestSpeed=Rychlost těžby
 HeadlessAdminRequiresMorePlayers=Musíte mít nejméně %d připojených hráč(ů), abyste mohli spustit hru!
