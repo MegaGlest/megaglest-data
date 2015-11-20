@@ -528,6 +528,7 @@ UnitReady=Unidade Pronta
 UnitsProduced=Unidades Produzidas
 UnitType=Tipo de Unidade
 Upgrade=Pesquisa
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=A pesquisa não satisfaz os requerimentos
 UpgradeNoRes=Você não tem recursos os suficientes para pesquisar
 UpgradeSpeed=Velocidade de Pesquisa

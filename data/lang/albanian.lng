@@ -528,6 +528,7 @@ UnitReady=Njesiti eshte i gatshem
 UnitsProduced=Njesite te prodhuara
 UnitType=Tipi i njesitit:
 Upgrade=Perforco
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Perforcimi nuk i ploteson kushtet
 UpgradeNoRes=Nuk keni resurse te mjaftueshme per perforcim
 UpgradeSpeed=Shpejtesia e perforcimit

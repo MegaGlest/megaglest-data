@@ -528,6 +528,7 @@ UnitReady=Jednostka gotowa
 UnitsProduced=Jedn. wyprodukowano
 UnitType=Typ jednostki:
 Upgrade=Ulepsz
+UpgradeFinished=Ulepszanie zakończone
 UpgradeNoReqs=Ulepszenie nie spełnia wymogów
 UpgradeNoRes=Zbyt mało surowców do tego ulepszenia
 UpgradeSpeed=Szybkość ulepszania

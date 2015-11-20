@@ -528,6 +528,7 @@ UnitReady=وحدة جاهزة
 UnitsProduced=وحدات منجزة
 UnitType=نوع الوحدة:
 Upgrade=ترقية
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=الترقية لا تلبي الاحتياجات
 UpgradeNoRes=الموارد غير كافية لإحداث ترقية
 UpgradeSpeed=سرعة الترقية

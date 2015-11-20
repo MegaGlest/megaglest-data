@@ -528,6 +528,7 @@ UnitReady=Η μονάδα είναι έτοιμη
 UnitsProduced=Μονάδες που παράχθηκαν
 UnitType=Τύπος μονάδας:
 Upgrade=Αναβάθμιση
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Η αναβάθμιση δεν πληρεί τις προϋποθέσεις
 UpgradeNoRes=Δεν υπάρχουν αρκετοί πόροι για την πραγματοποίηση της αναβάθμισης
 UpgradeSpeed=Ταχύτητα αναβάθμισης

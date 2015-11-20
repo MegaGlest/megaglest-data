@@ -528,6 +528,7 @@ UnitReady=部隊准備好了
 UnitsProduced=生產部隊數
 UnitType=部隊類別:
 Upgrade=升級
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=不滿足升級條件
 UpgradeNoRes=無足夠資源升級
 UpgradeSpeed=升級速度

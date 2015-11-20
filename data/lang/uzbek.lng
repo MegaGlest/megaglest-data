@@ -528,6 +528,7 @@ UnitReady=Qism tayyor
 UnitsProduced=Qism ishlab chiqildi
 UnitType=Qism turi:
 Upgrade=Yangilash
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Yangilash talablarga javob bermaydi
 UpgradeNoRes=Yangilashni ishlab chiqarish uchun manbalar yetmaydi
 UpgradeSpeed=Yangilash tezligi

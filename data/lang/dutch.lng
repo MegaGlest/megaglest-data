@@ -528,6 +528,7 @@ UnitReady=Eenheid gereed
 UnitsProduced=Eenheden geproduceerd
 UnitType=Eenheid type:
 Upgrade=Opwaarderen
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Opwaardering voldoet niet aan eisen
 UpgradeNoRes=Niet genoeg middelen om op te waarderen
 UpgradeSpeed=Opwaardeersnelheid

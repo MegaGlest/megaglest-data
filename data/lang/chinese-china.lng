@@ -528,6 +528,7 @@ UnitReady=单位准备好了
 UnitsProduced=生产的单位总数
 UnitType=单位类型：
 Upgrade=升级
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=不满足升级条件
 UpgradeNoRes=无足够资源升级
 UpgradeSpeed=升级速度

@@ -528,6 +528,7 @@ UnitReady=Birim Hazır
 UnitsProduced=Üretilen birimler
 UnitType=Birim biçimi:
 Upgrade=Yükseltme
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Yükseltme gereksinimlerini karşılamıyor
 UpgradeNoRes=Ürünü yükseltme için kaynaklar yetersiz
 UpgradeSpeed=Yükseltme hızı

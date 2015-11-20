@@ -528,6 +528,7 @@ UnitReady=יחידה מוכנה
 UnitsProduced=יחידות שיוצרו
 UnitType=סוג יחידה:
 Upgrade=שדרוג
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=חלק מדרישות השדרוג חסרות
 UpgradeNoRes=אין מספיק משאבים לשדרוג
 UpgradeSpeed=מהירות שדרוג

@@ -528,6 +528,7 @@ UnitReady=Unitate pregătită
 UnitsProduced=Unități produse
 UnitType=Tip unitate:
 Upgrade=Actualizare
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Actualizarea nu satisface cerințele
 UpgradeNoRes=Nu există destule resurse pentru a face o actualizare
 UpgradeSpeed=Viteză actualizare

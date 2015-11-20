@@ -528,6 +528,7 @@ UnitReady=Enhed klar
 UnitsProduced=Enheder producerede
 UnitType=Enheds type:
 Upgrade=Opgrader
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Opgradering opfylder ikke krav
 UpgradeNoRes=Ikke nok Resourcer til at producere opgradering
 UpgradeSpeed=Opgraderings Hastighed

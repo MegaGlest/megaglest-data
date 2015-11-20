@@ -528,6 +528,7 @@ UnitReady=Jednotka je připravena
 UnitsProduced=Vyprodukováno jednotek
 UnitType=Typ jednotky:
 Upgrade=Vylepšení
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Vylepšení nesplňuje požadavky
 UpgradeNoRes=Nedostatek zdrojů pro vylepšení
 UpgradeSpeed=Rychlost vylepšování

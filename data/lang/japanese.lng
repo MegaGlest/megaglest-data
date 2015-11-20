@@ -528,6 +528,7 @@ UnitReady=ユニット準備完了
 UnitsProduced=ユニット生産
 UnitType=ユニット種類:
 Upgrade=アップグレード
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=アップグレードに必要な条件を満たしていません
 UpgradeNoRes=アップグレードに必要な資源が足りません
 UpgradeSpeed=アップグレード速度

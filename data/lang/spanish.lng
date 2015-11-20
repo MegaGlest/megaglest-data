@@ -528,6 +528,7 @@ UnitReady=La unidad está lista
 UnitsProduced=Unidades producidas
 UnitType=Tipo de unidad:
 Upgrade=Mejorar
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=No se cumplen los requisitos de la mejora
 UpgradeNoRes=No hay recursos suficientes para producir la mejora
 UpgradeSpeed=Velocidad de mejora

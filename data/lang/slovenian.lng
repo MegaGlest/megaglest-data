@@ -528,6 +528,7 @@ UnitReady=Enota pripravljena
 UnitsProduced=Producirane enote
 UnitType=Tip enote:
 Upgrade=Nadgradnja
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Nadgradnja ne izpolnjuje nekaterih pogojev
 UpgradeNoRes=Premalo surovin za nadgradnjo
 UpgradeSpeed=Hitrost nadgradnje

@@ -528,6 +528,7 @@ UnitReady=Đơn vị đã sẵn sàng
 UnitsProduced=Đơn vị đã tạo ra
 UnitType=Thể loại đơn vị:
 Upgrade=Nâng cấp
+# UpgradeFinished=Upgrade finished
 UpgradeNoReqs=Không đủ yêu cầu nâng cấp
 UpgradeNoRes=Không đủ tài nguyên để nâng cấp
 UpgradeSpeed=Tốc độ nâng cấp
