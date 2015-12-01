@@ -10,18 +10,18 @@ Armies=Exércitos
 
 ;message strings
 Welcome=Bem-vindo ao Tutorial Avançado MegaGlest, aqui você vai aprender a alguns dos recursos mais avançados do jogo.
-MagicBrief=Você está no comando da facção dos Mágicos, que usa magos e evoca criaturas para lutar.
-InitiateBrief=Iniciantes são as unidades báse dos mágicos, eles podem colher recursos e construir estruturas.
-InitiatePromotion=Iniciantes podem ser evoluídos para magos de batalha, para fazer isso, selecione um Iniciante, e usar o comando "Evoluír a Mago de Batalha".
-BattlemageBrief=Magos de Batalha são os guerreiros mágicos essenciais, eles têm poder e velocidade nos ataques à distância, também são bons em resistência.
-EnergyBrief=Unidades de magia geralmente precisam de energia para ser produzido, energia não é consumida como alimento, mas é só requerido quando a unidade é criada. Ela é produzida por fontes de energia.
+MagicBrief=Você está no comando da facção da Mágia, que usa magos e evoca criaturas para lutar.
+InitiateBrief=Iniciantes são as unidades báse da mágia, eles podem colher recursos e construir estruturas.
+InitiatePromotion=Iniciantes podem ser evoluídos para magos de batalha, para fazer isso, selecione um Iniciante, e usar o comando "Evoluír a Mago da Batalha".
+BattlemageBrief=Magos da Batalha são os guerreiros mágicos essenciais, eles têm poder e velocidade nos ataques à distância, também são bons em resistência.
+EnergyBrief=Unidades de magia geralmente precisam de energia para serem produzidos, energia não é consumida como alimento, mas é só requerido quando a unidade é criada. Ela é produzida por fontes de energia.
 EnergyBrief2=Certifique-se de sempre ter energia suficiente para produzir novas unidades.
 SummonedUnitsBrief=A outra maneira da facção Magia produzir unidades é com a evocação deles. Você vai precisar de uma Bruxa para isso, elas são produzidas na Torre Das Bruxas.
 SummonerBrief=Bruxas podem criar vários tipos de criaturas, o mais fraco é o demônio.
 DaemonBrief=Demônios são realmente fracos, mas também muito baratos, eles são úteis como guerreiros corpo a corpo básicos e também são bons para perfuração.
-OtherSummonedCreatures=Bruxas podem criar criaturas mais avançadas, como Ghost Armors e Dragões, porém eles exigem que você pesquise as atualizações corretas.
-GhostArmorRequirements=Ghost Armors exigem atualizar a Magia Antiga, que pode ser encontrada na Torre das Bruxas.
-GhostArmorBrief=Ghost Armors são uma unidade de Esgrima nível médio, útil para manter guerreiros inimigos longe de seus Magos de Batalha.
+OtherSummonedCreatures=Bruxas podem criar criaturas mais avançadas, como Cavaleiros Fantasmas e Dragões, porém eles exigem que você pesquise as atualizações corretas.
+GhostArmorRequirements=Cavaleiros Fantasmas exigem atualizar a Magia Antiga, que pode ser encontrada na Torre das Bruxas.
+GhostArmorBrief=Cavaleiros Fantasmas são uma unidade de Esgrima nível médio, útil para manter guerreiros inimigos longe de seus Magos da Batalha.
 RitualBrief=Iniciantes têm um segundo comando Construir, chamado Ritual, usado para construir estruturas avançadas e criaturas poderosas também, como o Golem. Você vai precisar de uma Biblioteca para acessá-los.
 GolemBrief=Golems são muito potentes unidades defensivas, eles têm um ataque poderoso e muito boa resistência, mas só podem se mover contanto que eles têm pontos de energia suficiente.
 ArmyManagement=À medida que você produz um maior número de unidades, pode se tornar difícil de gerenciar.
@@ -30,10 +30,10 @@ GroupSelectBrief=Você pode definir grupos de unidades, selecionando-os e pressi
 FinalMission=Como um teste final, agora você terá que construir um exército e derrotar seu inimigo.
 
 ;objective strings
-PromoteInitiate=Objetivo: Evoluir um iniciado para Mago de Batalha.
+PromoteInitiate=Objetivo: Evoluir um iniciado para Mago da Batalha.
 ProduceSummoner=Objetivo: Construir uma Torre das Bruxas, em seguida, produzir uma Bruxa.
 ProduceDaemon=Objetivo: Evocar um Dêmonio.
-ProduceGhostArmor=Objetivo: Pesquise a Magia Antiga, em seguida, evocar um Ghost Armor.
+ProduceGhostArmor=Objetivo: Pesquise a Magia Antiga, em seguida, evocar um Cavaleiros Fantasmas.
 BuildEnergySource=Objetivo: Construir uma fonte de energia.
 ProduceGolem=Objetivo: Construir Bíblioteca, em seguida, usar um Iniciante para realizar um ritual para construir um Golem.
 DefeatEnemy=Objetivo: Construir um exército, localizar e derrotar seu inimigo.

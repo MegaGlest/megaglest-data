@@ -129,7 +129,7 @@ CommandName_speedup_priest_production=keşiş üretimini hızlandır
 CommandName_heal=iyileşmek
 CommandName_produce_mummy=mumya üretme
 CommandName_produce_anubis_warrior=ölüler tanrısı savaşçısı üretme
-# CommandName_ice_nova=ice nova
+CommandName_ice_nova=ice nova
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
 ; Unit
@@ -351,7 +351,7 @@ CommandName_attack=Saldırı
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
 ; Unit
-UnitTypeName_mainteepee=kızılderili otağı
+UnitTypeName_mainteepee=büyük çadır
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -405,7 +405,7 @@ CommandName_move=taşı
 CommandName_attack=Saldırı
 ; -------------------------------------
 ; Unit
-UnitTypeName_stickfighter=dövüşçü sopası
+UnitTypeName_stickfighter=sopalı dövüşçü
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=seçkin
@@ -466,7 +466,7 @@ CommandName_repair=Onarma
 FactionName_magic=büyü
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_ancient_summoning=ancient summoning
+UpgradeTypeName_ancient_summoning=Eski çağırma
 UpgradeTypeName_dragon_call=ejderha çağrısı
 UpgradeTypeName_energy_compression=enerji sıkıştırma
 UpgradeTypeName_energy_sharpening=enerji bileme
@@ -484,7 +484,7 @@ LevelName_legendary=efsanevi
 ; Types of Commands for this Unit
 CommandName_stop=Dur
 CommandName_move=taşı
-# CommandName_ice_nova=ice nova
+CommandName_ice_nova=ice nova
 # CommandName_static_fire=static fire
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
@@ -635,7 +635,7 @@ UnitTypeName_mage_tower=büyücü kulesi
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-# CommandName_produce_initiate=produce initiate
+CommandName_produce_initiate=Başlatmayı sağla
 ; -------------------------------------
 ; Unit
 # UnitTypeName_power_golem=power golem
@@ -795,7 +795,7 @@ CommandName_attack_arrow=saldırı oku
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
 ; Unit
-# UnitTypeName_cudgel_lady=cudgel lady
+UnitTypeName_cudgel_lady=sopalı kadın
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -844,7 +844,7 @@ CommandName_produce_spearman=mızrakçı üret
 # CommandName_research_med=research med
 ; -------------------------------------
 ; Unit
-# UnitTypeName_mistletree=mistletree
+UnitTypeName_mistletree=Ökse ağacı
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -1129,7 +1129,7 @@ CommandName_attack_off=saldırı kapalı
 CommandName_attack_on=saldırı
 ; -------------------------------------
 ; Unit
-UnitTypeName_stickfighter=dövüşçü sopası
+UnitTypeName_stickfighter=sopalı dövüşçü
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=seçkin

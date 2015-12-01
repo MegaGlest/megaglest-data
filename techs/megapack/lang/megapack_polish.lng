@@ -31,8 +31,8 @@ FactionName_egypt=Egipcjanie
 ; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_power_of_ra=moc Ra ('Power of Ra')
-UpgradeTypeName_spear_weapons=włócznie ('Spear weapons')\n
-UpgradeTypeName_speedup_priest_production=szybka produkcja u kapłanów\n('Fast priest's production')\n
+UpgradeTypeName_spear_weapons=włócznie ('Spear weapons')
+UpgradeTypeName_speedup_priest_production=szybka produkcja u kapłanów ('Fast priest's production')
 UpgradeTypeName_summon_ibis=ptak ibis ('Ibis')
 UpgradeTypeName_summon_scarab=skarabeusz ('Scarab')
 ; -------------------------------------
@@ -227,12 +227,12 @@ CommandName_get_power_of_ra=odkrycie mocy Ra\n('Research power of Ra')
 FactionName_indian=Indianie
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=karma dla byków\n('Bull food')
+UpgradeTypeName_bullfood=karma dla byków ('Bull food')
 UpgradeTypeName_iron=Żelazo ('Iron')
-UpgradeTypeName_iron_advanced=zaawansowane Żelazo\n('Advanced iron')
-UpgradeTypeName_petroleum=nafta ('Petroleum')\n
+UpgradeTypeName_iron_advanced=zaawansowane Żelazo ('Advanced iron')
+UpgradeTypeName_petroleum=nafta ('Petroleum')
 UpgradeTypeName_stables=stajnie ('Stables')
-UpgradeTypeName_training_field=plac treningowy ('Training field')\n
+UpgradeTypeName_training_field=plac treningowy ('Training field')
 ; -------------------------------------
 ; Unit
 UnitTypeName_archer=Łucznik ('Archer')
@@ -466,12 +466,12 @@ CommandName_repair=naprawianie ('Repair')
 FactionName_magic=Magicy
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_ancient_summoning=starożytne przywoływanie\n('Ancient summoning')
-UpgradeTypeName_dragon_call=przywoływanie smoka\n('Dragon call')
-UpgradeTypeName_energy_compression=skondensowana energia\n('Condensed energy')
-UpgradeTypeName_energy_sharpening=gwałtowna magia ('Sharp magic')\n
-UpgradeTypeName_golem_power=potężny golem\n('Power golem')
-UpgradeTypeName_hell_gate=wrota piekła ('Hell gate')\n
+UpgradeTypeName_ancient_summoning=starożytne przywoływanie ('Ancient summoning')
+UpgradeTypeName_dragon_call=przywoływanie smoka ('Dragon call')
+UpgradeTypeName_energy_compression=skondensowana energia ('Condensed energy')
+UpgradeTypeName_energy_sharpening=gwałtowna magia ('Sharp magic')
+UpgradeTypeName_golem_power=potężny golem ('Power golem')
+UpgradeTypeName_hell_gate=wrota piekła ('Hell gate')
 ; -------------------------------------
 ; Unit
 UnitTypeName_archmage=arcymag ('Archmage')
@@ -694,9 +694,9 @@ CommandName_promote_to_behemoth=transformacja do potwora\n('Transform to behemot
 FactionName_norsemen=Normanowie
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_iron=zaawansowane Żelazo\n('Advanced iron')
+UpgradeTypeName_advanced_iron=zaawansowane Żelazo ('Advanced iron')
 UpgradeTypeName_arrow=strzały ('Arrows')
-UpgradeTypeName_holy_valkyrie=Święta walkiria ('Holy valkyrie')\n
+UpgradeTypeName_holy_valkyrie=Święta walkiria ('Holy valkyrie')
 UpgradeTypeName_iron=Żelazo ('Iron')
 UpgradeTypeName_med=miód pitny ('Mead')
 UpgradeTypeName_root=korzeń ('Root')
@@ -974,9 +974,9 @@ CommandName_attack=atak ('Attack')
 FactionName_persian=Persowie
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_corn_and_wicker=kukurydza i wikliny\n('Corn and wicker')
-UpgradeTypeName_magic_level_1=1 poziom magiczny\n('Magic level 1')
-UpgradeTypeName_magic_level_2=2 poziom magiczny\n('Magic level 2')
+UpgradeTypeName_corn_and_wicker=kukurydza i wikliny ('Corn and wicker')
+UpgradeTypeName_magic_level_1=1 poziom magiczny ('Magic level 1')
+UpgradeTypeName_magic_level_2=2 poziom magiczny ('Magic level 2')
 UpgradeTypeName_nails=gwoździe ('Nails')
 UpgradeTypeName_shield=tarcze ('Shields')
 UpgradeTypeName_weapons=broń ('Weapons')
@@ -1191,16 +1191,16 @@ CommandName_repair=naprawianie ('Repair')
 FactionName_romans=Rzymianie
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_architecture=zaawansowana architektura\n('Advanced architecture')
-UpgradeTypeName_bless_of_minerva=przychylność minewry\n('The favor of minerva')
-UpgradeTypeName_enlarge_shields=duże tarcze ('Large shields')\n
+UpgradeTypeName_advanced_architecture=zaawansowana architektura ('Advanced architecture')
+UpgradeTypeName_bless_of_minerva=przychylność minewry ('The favor of minerva')
+UpgradeTypeName_enlarge_shields=duże tarcze ('Large shields')
 UpgradeTypeName_formations=formacje ('Formations')
-UpgradeTypeName_jupiter=przychylność jowisza\n('The favor of jupiter')
-UpgradeTypeName_reinforce_armor=wytrzymały pancerz\n('Strength armor')
-UpgradeTypeName_sharpen_points=ostre groty ('Sharp points')\n
-UpgradeTypeName_sign_of_mars=przychylność marsa\n('The favor of mars')
-UpgradeTypeName_strengthen_swords=wytrzymałe miecze\n('Strength swords')
-UpgradeTypeName_training_field=plac treningowy ('Training field')\n
+UpgradeTypeName_jupiter=przychylność jowisza ('The favor of jupiter')
+UpgradeTypeName_reinforce_armor=wytrzymały pancerz ('Strength armor')
+UpgradeTypeName_sharpen_points=ostre groty ('Sharp points')
+UpgradeTypeName_sign_of_mars=przychylność marsa ('The favor of mars')
+UpgradeTypeName_strengthen_swords=wytrzymałe miecze ('Strength swords')
+UpgradeTypeName_training_field=plac treningowy ('Training field')
 ; -------------------------------------
 ; Unit
 UnitTypeName_archer=Łucznik ('Archer')
@@ -1497,14 +1497,14 @@ CommandName_build_ballista=transformacja do balisty\n('Transform to ballista')
 FactionName_tech=Technicy
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_architecture=zaawansowana architektura\n('Advanced architecture')
-UpgradeTypeName_blade_weapons=broń biała ('Blade weapons')\n
-UpgradeTypeName_piercing_weapons=broń przeszywająca\n('Piercing weapons')
+UpgradeTypeName_advanced_architecture=zaawansowana architektura ('Advanced architecture')
+UpgradeTypeName_blade_weapons=broń biała ('Blade weapons')
+UpgradeTypeName_piercing_weapons=broń przeszywająca ('Piercing weapons')
 UpgradeTypeName_robotics=robotyzacja ('Robotics')
-UpgradeTypeName_shield_level_1=1 poziom tarcz ('Shields Level 1')\n
-UpgradeTypeName_shield_level_2=2 poziom tarcz ('Shields Level 2')\n
+UpgradeTypeName_shield_level_1=1 poziom tarcz ('Shields Level 1')
+UpgradeTypeName_shield_level_2=2 poziom tarcz ('Shields Level 2')
 UpgradeTypeName_stables=stajnie ('Stables')
-UpgradeTypeName_training_field=plac treningowy ('Training field')\n
+UpgradeTypeName_training_field=plac treningowy ('Training field')
 ; -------------------------------------
 ; Unit
 UnitTypeName_aerodrome=lądowisko ('Aerodrome')

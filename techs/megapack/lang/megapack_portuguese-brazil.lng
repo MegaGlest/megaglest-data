@@ -15,7 +15,7 @@ AttackTypeName_impact=Impacto
 AttackTypeName_energy=Energia
 AttackTypeName_sword=Espada
 AttackTypeName_arrow=flecha
-AttackTypeName_magic=Magicos
+AttackTypeName_magic=Magia
 AttackTypeName_beat=choque
 ; --------------------
 ; Types of Resources
@@ -463,7 +463,7 @@ CommandName_harvest_wood=recoletar madeira
 CommandName_repair=reparar
 ; -----------------------------------------------------------------------------
 ; Faction
-FactionName_magic=Mágicos
+FactionName_magic=Mágia
 ; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_ancient_summoning=Magia Antiga
@@ -498,7 +498,7 @@ CommandName_research_dragon_call=procurar grito do dragão
 CommandName_golem_power=gólem nivel 2
 ; -------------------------------------
 ; Unit
-UnitTypeName_battlemage=Mago de Batalha
+UnitTypeName_battlemage=Mago da Batalha
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=Perito
@@ -617,7 +617,7 @@ CommandName_build=construir
 CommandName_ritual=ritual
 CommandName_mine=Mina
 CommandName_harvest=colheita
-CommandName_promote_to_battlemage=Evoluir à Mago de Batalha
+CommandName_promote_to_battlemage=Evoluir à Mago da Batalha
 ; -------------------------------------
 ; Unit
 UnitTypeName_library=Bíblioteca
@@ -660,7 +660,7 @@ CommandName_move=mover
 CommandName_flare=chama
 CommandName_hold_position=Mantenha a Posição
 CommandName_summon_daemon=Evocar dêmonio
-CommandName_summon_ghost_armor=Evocar Cavaleiro fantasma
+CommandName_summon_ghost_armor=Invocar Cavaleiro fantasma
 CommandName_summon_dragon=Evocar dragão
 CommandName_summon_drake=Evocar drake
 ; -------------------------------------
@@ -670,7 +670,7 @@ UnitTypeName_summoner_guild=Torre das Bruxas\n
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_summoner=produzir summoner
+CommandName_produce_summoner=Produzir bruxa
 CommandName_research_ancient_summoning=procurar Magia Antiga
 ; -------------------------------------
 ; Unit
@@ -975,8 +975,8 @@ FactionName_persian=Persas
 ; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_corn_and_wicker=milho e vime
-UpgradeTypeName_magic_level_1=Magica nível 1
-UpgradeTypeName_magic_level_2=Magica nível 2
+UpgradeTypeName_magic_level_1=Magia nível 1
+UpgradeTypeName_magic_level_2=Magia nível 2
 UpgradeTypeName_nails=Pregos
 UpgradeTypeName_shield=Escudo
 UpgradeTypeName_weapons=Armas
@@ -1042,7 +1042,7 @@ LevelName_elite=elite
 ; Types of Commands for this Unit
 CommandName_stop=parar
 CommandName_move=mover
-CommandName_magic_attack=Ataque Magico
+CommandName_magic_attack=Ataque da Magia
 CommandName_hold_position=Mantenha a Posição
 ; -------------------------------------
 ; Unit
