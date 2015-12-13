@@ -15,12 +15,13 @@ echo -e "\n Use this script to facilitate most common jobs related with transife
                         (is worth to use it e.g. just before new release),
     '... --push'      - push to transifex new version of sources,
     '... --push-all'  - push to transifex new version of sources and also improved
-                        translations,
+                        translations (before this step it's very recommended to use
+                        '... --release' first),
     '... --help'      - this text.\n"
     exit 0
 elif [ "$1" = "--release" ]; then
-    find . -name "*.lng" -type f -not -name "*_english.lng" -not -name "*_default.lng" \
-		-not -wholename "./data/lang/*.lng" | xargs rm -f
+    find . -name "*.lng" -type f -not -name "english.lng" -not -name "*_english.lng" \
+	    -not -name "*_default.lng" | xargs rm -f
 fi
 
 tx_cl="$(which tx)"
@@ -58,8 +59,8 @@ elif [ "$1" = "" ] || [ "$1" = "--release" ]; then
     # with Copyright (c) 2012 Tom Reynolds under GNU GPL v3.0
     files="$(find . -type f -name *.lng | sort -u | xargs)"
 	for file in $files; do
-		sed -i -e 's/&quot;/"/g' -e 's/&bdquo;/„/g' -e 's/&ldquo;/“/g' -e 's/[ \t]*$//' \
-			-e 's/^\([^=]*\)=\s*/\1=/' -e 's/  */ /g' -e 's/ \\n/\\n/g' -e 's/\\n /\\n/g' "$file"
+		sed -i -e 's/&quot;/"/g' -e 's/&bdquo;/„/g' -e 's/&ldquo;/“/g' -e 's/[ \t]*$//' -e 's/^\([^=]*\)=\s*/\1=/' \
+			-e 's/  */ /g' -e 's/ \\n/\\n/g' -e 's/\\n /\\n/g' -e 's/\\n\\n\\n/\\n\\n/g' -e 's/\\n\\n$/\\n/g' "$file"
 		sed -i -e '$a\' "$file"
 	done
     # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

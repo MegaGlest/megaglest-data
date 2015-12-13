@@ -25,8 +25,8 @@ AllowNativeLanguageTechtree=السماح بأنماط اللعبة المترج�
 AllowObservers=السماح للمراقبين
 AllowPlayerJoinTeam=السماح للاّعب [%s] بالانضمام إلى فريقك\n(تغيير من فريق# %d إلى فريق# %d)؟
 AllowInGameJoinPlayer=يمكن للاعبين الانضمام إلى اللعبة
-# AllowTeamUnitSharing=Shared Team Units
-# AllowTeamResourceSharing=Shared Team Resources
+AllowTeamUnitSharing=وحدات الفريق المشتركة
+AllowTeamResourceSharing=موارد الفريق المشتركة
 AmbientVolume=حجم المحيط:
 Amount=كمية\n
 AnimatedTilesetObjects=كائنات الأرضية المتحركة
@@ -52,7 +52,7 @@ BuildingNoReqs=البناء لا يلبي الإحتياجات
 BuildingNoRes=الموارد غير كافية لإنشاء بناء
 Built=بنيت
 CameraModeSet=تعيين وضع الكاميرا إلى
-# CameraMoveSpeed=Camera Move Speed:
+CameraMoveSpeed=سرعة تحرك الكاميرا:
 CanRepair=يمكن الإصلاح
 Cancel=إلغاء
 CancelDownloads=إلغاء التحميل
@@ -60,7 +60,7 @@ CancelDownloadsMsg=اللاعب: %s ألغى جميع ملفات التحميل
 Canceled=ألغي
 Chat=محادثة
 ChatMode=وضع المحادثة
-# ChatModeDisabledToAvoidCheating=Chat mode disabled to avoid cheating
+ChatModeDisabledToAvoidCheating=عطّل وضع المحادثة لتجنب الغش
 ChatStaysActive=المحادثة لا تزال نشطة
 CheckSumGameLoadError=خطأ التدقيق، لا تملك نفس البيانات مثل الخادم
 CheckSumGameLoadPlayer=اللاعب مع الخطأ هو:
@@ -119,7 +119,7 @@ Difficulty3=صعب
 Difficulty4=صعب جدا
 Difficulty5=مجنون
 Disabled=تم التعطيل
-# Disabled2=Disabled
+Disabled2=معطل
 Disable=تعطيل
 Disconnect=قطع الإتصال
 DisconnectNetorkPlayer=قطع
@@ -149,10 +149,10 @@ EpCost=ثمن EP
 ErrorBindingPort=خطأ، تعذر الربط بمنفذ الشبكة
 ErrorFromMasterserver=خطأ من الخادم الرئيسي
 Exit=خروج
-# ExitGameQuestion=Would you like to close the game?
-# ExitGameMenu=Exit Current Game
-# ExitBattleQuestion=Exit current game?
-# ExitBattleServerQuestion=Exit current game? (this will end the game for all other connected players)
+ExitGameQuestion=هل ترغب في إنهاء اللعبة؟
+ExitGameMenu=إنهاء اللعبة الحالية
+ExitBattleQuestion=إنهاء اللعبة الحالية؟
+ExitBattleServerQuestion=إنهاء اللعبة الحالية؟ (هذا سينهي اللعبة لدى جميع اللاعبين المتصلين)
 Explored=مستكشفة
 Faction=قبيلة
 FallbackCpuMultiplier=إستبدال مضاعف
@@ -162,7 +162,7 @@ FieldLand=أرض
 Fields=حقول
 FileDownloadProgress=اللاعب: %s تقدم التحميل لـ [%s] هو %d %%
 Filter=تصفية:
-# FilterMaxAnisotropy=Anisotropic filtering x:
+FilterMaxAnisotropy=الترشيح المتباين س:
 FindLANGames=البحث عن الألعاب في الشبكة المحلية
 FogOfWar=ضباب الحرب
 FontSizeAdjustment=ضبط الخط
@@ -188,18 +188,18 @@ GameSwitchPlayerObserverToAI=اللاعب #%d [%s] قطع اتصاله، لكن 
 GameTime=اللعبة:
 GammaCorrection=الإضاءة
 GettingModlistFromMasterserver=جلب قائمة الوحدات من الخادم الرئيسي
-# GroupAssignFailed=Couldn't assign unit(s) to Group!
+GroupAssignFailed=تعذر ضم الوحدات إلى المجموعة!
 Harvest=المحصول
 HarvestSpeed=سرعة الحصاد
 HeadlessAdminRequiresMorePlayers=يجب أن يكون لديك على الأقل%d لاعب(ين) متصل(ين) لبدء هذه اللعبة!
 # HeadlessServerDoesNotHaveMap=Headless server does not have map and switched to next map.
-# Healthbar=Health bar:
-# HealthbarsAlways=Always
-# HealthbarsFactionDefault=Faction default
-# HealthbarsOff=Off
-# HealthbarsIfNeeded=If needed
-# HealthbarsSelected=If selected
-# HealthbarsSelectedOrNeeded=If selected or needed
+Healthbar=الحالة الصحية:
+HealthbarsAlways=دائما
+HealthbarsFactionDefault=الفصيلة الافتراضية
+HealthbarsOff=معطل
+HealthbarsIfNeeded=إذا تطلب الأمر
+HealthbarsSelected=إذا تم الإختيار
+HealthbarsSelectedOrNeeded=إذا حددت أو طلبت
 Hint=تلميح:\n%s
 CellHint=تلميح
 HostGame=إنشاء لعبة
@@ -213,7 +213,7 @@ InvalidOrder=الأمر غير صالح
 InvalidPosition=الموضع غير صالح
 IRCPeopleOnline=آي آر سي الناس على الخط:
 Keyboardsetup=إعداد لوحة المفاتيح
-# KeyboardsetupL=Keyboard Setup
+KeyboardsetupL=إعداد لوحة المفاتيح
 KeyboardsetupTest=تجربة عرض لوحة المفاتيح
 Kills=يقتل
 JoinGame=لعبة محلية
@@ -398,7 +398,7 @@ Normal=عادي
 Observer=مُشاهد
 Off=معطل
 Ok=موافق
-# OpenANetworkSLot=Open at least one network slot for other players!
+OpenANetworkSLot=إفتح على الأقل منفذ شبكة واحد لإنضمام لاعبين آخرين
 OpenGlInfo=معلومات OpenGL
 OpenGlVersion=إصدار OpenGL
 OpenGlRenderer=عارض OpenGL
@@ -487,7 +487,7 @@ Size=الحجم
 Slow=بطيئ
 SomeOrdersFailed=لا يمكن أن تعطى بعض الأوامر
 SoundAndMusic=الصوت والموسيقى
-# SoundAndMusic2=Sound and music:
+SoundAndMusic2=الصوت والموسيقى:
 SplashRadius=Splash radius
 StandardPort=المنفذ الإفتراضي
 StartingToUpgrade=بدأت الترقية
@@ -495,7 +495,7 @@ Stop=توقف
 Store=مخزن
 SystemUser=رسالة النظام
 SwitchTeams=تبديل الفرق
-# TagDesc=Tag:
+TagDesc=وسم:
 Team=فريق
 TechTree=شجرة الفصائل
 TechTitle1=شجرة الفصائل
@@ -528,7 +528,7 @@ UnitReady=وحدة جاهزة
 UnitsProduced=وحدات منجزة
 UnitType=نوع الوحدة:
 Upgrade=ترقية
-# UpgradeFinished=Upgrade finished
+UpgradeFinished=تمت الترقية
 UpgradeNoReqs=الترقية لا تلبي الاحتياجات
 UpgradeNoRes=الموارد غير كافية لإحداث ترقية
 UpgradeSpeed=سرعة الترقية
@@ -540,7 +540,7 @@ VideoInfo=معلومات الفيديو
 VisibleHUD=HUD مرئي
 WalkSpeed=سرعة السير
 WaitingHost=في انتظار الخادم لإطلاق اللعبة
-# WaitingForPlayers=Wait at least for one more player!
+WaitingForPlayers=إنتظر على الأقل إنضمام لاعب أو أكثر!
 Windowed=وضع النوافذ
 # WrongRouterSetup=Your firewall or router is not properly configured to host games.\n\nTo fix it you can:\n- Simply use a headless server in the internet menu\n- Or visit faqs.megaglest.org to read how to setup your router
 Yes=نعم

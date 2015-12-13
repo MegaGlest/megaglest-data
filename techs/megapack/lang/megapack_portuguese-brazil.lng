@@ -439,7 +439,7 @@ CommandName_breath=fôlego
 CommandName_hold_position=Mantenha a Posição
 ; -------------------------------------
 ; Unit
-UnitTypeName_totem=Totem\n\n
+UnitTypeName_totem=Totem
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -724,7 +724,7 @@ CommandName_move=mover
 CommandName_attack=atacar
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe=Viking\n\n\n
+UnitTypeName_battleaxe=Viking
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -1013,7 +1013,7 @@ UnitTypeName_elephant_cage=Tablado
 CommandName_produce_elephant=produzir Elefante
 ; -------------------------------------
 ; Unit
-UnitTypeName_fakir=Faquir\n\n
+UnitTypeName_fakir=Faquir
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1361,7 +1361,7 @@ CommandName_train_gladiator=Treinar Gladiador
 CommandName_produce_axe_man=produzir Axeman
 ; -------------------------------------
 ; Unit
-UnitTypeName_guard=Cavaleiro\n
+UnitTypeName_guard=Cavaleiro
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1614,7 +1614,7 @@ CommandName_stop=parar
 CommandName_move=mover
 ; -------------------------------------
 ; Unit
-UnitTypeName_defense_tower=Torre de defesa\n\n
+UnitTypeName_defense_tower=Torre de defesa
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -1633,7 +1633,7 @@ CommandName_produce_cow=produzir vaca
 CommandName_research_stables=procurar estábulo
 ; -------------------------------------
 ; Unit
-UnitTypeName_guard=Cavaleiro\n
+UnitTypeName_guard=Cavaleiro
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite

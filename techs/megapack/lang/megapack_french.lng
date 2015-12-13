@@ -445,7 +445,7 @@ UnitTypeName_totem=totem
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=ne pas attaquer
-# CommandName_air_on=air on
+CommandName_air_on=Sur l'air
 CommandName_research_petroleum=rechercher huile
 CommandName_produce_shaman=produire shaman
 ; -------------------------------------
@@ -849,7 +849,7 @@ UnitTypeName_mistletree=boules de gui
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-# CommandName_air_on=air on
+CommandName_air_on=Sur l'air
 CommandName_attack_off=ne pas attaquer
 CommandName_research_root=rechercher racine
 CommandName_resurrect_wild_sow=ressusciter truie sauvage
@@ -1216,7 +1216,7 @@ CommandName_hold_position=tenir la position
 CommandName_get_fire_arrows=obtenir flèches enflammées
 ; -------------------------------------
 ; Unit
-# UnitTypeName_axe_man=axe man
+UnitTypeName_axe_man=Homme avec une hache
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -1330,7 +1330,7 @@ UnitTypeName_general=général
 ; --------------------
 ; Levels for this Unit
 LevelName_esteemed=estimé
-# LevelName_grand=grand
+LevelName_grand=Grandiose
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_stop=stop
@@ -1358,7 +1358,7 @@ UnitTypeName_gladiator_school=école de gladiateurs
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_train_gladiator=entraîner gladiateur
-# CommandName_produce_axe_man=produce axe man
+CommandName_produce_axe_man=Produire un homme avec une hache
 ; -------------------------------------
 ; Unit
 UnitTypeName_guard=garde
@@ -1494,7 +1494,7 @@ CommandName_build_battering_ram=contruire bélier de siège
 CommandName_build_ballista=contruire balliste
 ; -----------------------------------------------------------------------------
 ; Faction
-# FactionName_tech=tech
+FactionName_tech=tech
 ; -------------------------------------
 ; Types of Upgrades for this Faction
 UpgradeTypeName_advanced_architecture=architecture avancée
