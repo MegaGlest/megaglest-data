@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2015 MegaGlest Team <contact_at_megaglest.org> -->
+<component type="desktop">
+ <id>megaglest.desktop</id>
+ <metadata_license>CC-BY-SA-4.0</metadata_license>
+ <project_license>GPL-3.0+ and CC-BY-SA-3.0</project_license>
+ <name>MegaGlest</name>
+ <summary>Real time strategy game (RTS)</summary>
+ <description>
+  <p>
+    MegaGlest is a 3D real-time strategy game (RTS) with medieval and magic character which offers tutorials, scenarios but also customizable single-player and multi-player skirmishes.
+  </p>
+  <p>
+    Multi-player mode supports cross-platform matches up to 8 players over the Internet or LAN against human opponents, or in cooperation against CPU (A.I.) players of various difficulty levels.
+  </p>
+  <p>
+    From within the game you can download a lot of additional game data (e.g. other maps) at no cost.
+  </p>
+ </description>
+ <screenshots>
+  <screenshot type="default">
+   <image>https://megaglest.org/uploads/images/appdata/game1.png</image>
+  </screenshot>
+  <screenshot>
+   <image>https://megaglest.org/uploads/images/appdata/game2.png</image>
+  </screenshot>
+  <screenshot>
+   <image>https://megaglest.org/uploads/images/appdata/game3.png</image>
+  </screenshot>
+  <screenshot>
+   <image>https://megaglest.org/uploads/images/appdata/game4.png</image>
+  </screenshot>
+  <screenshot>
+   <image>https://megaglest.org/uploads/images/appdata/game5.png</image>
+  </screenshot>
+ </screenshots>
+ <url type="homepage">https://megaglest.org</url>
+ <url type="donation">https://megaglest.org/donations</url>
+ <developer_name>The MegaGlest Team</developer_name>
+ <update_contact>contact_at_megaglest.org</update_contact>
+</component>

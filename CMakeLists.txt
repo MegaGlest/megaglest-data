@@ -1,26 +1,86 @@
-#########################################################################################
+##################################################################################
 # Game data
-CMAKE_MINIMUM_REQUIRED( VERSION 2.6.2 )
+CMAKE_MINIMUM_REQUIRED( VERSION 2.8.2 )
 PROJECT( MegaGlest )
 
+OPTION(WANT_INSTALL_DATA "Install MegaGlest's data" ON)
+
 # Requires an install prefix for the items below to work
-IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "")
-        MESSAGE(STATUS "**Data package INSTALL triggered.")
+IF(NOT CMAKE_INSTALL_PREFIX STREQUAL "" AND WANT_INSTALL_DATA)
+	MESSAGE(STATUS "**Data package INSTALL triggered.")
 
-        IF(NOT MEGAGLEST_DATA_INSTALL_PATH)
-	        SET(MEGAGLEST_DATA_INSTALL_PATH "share/megaglest/" CACHE STRING "The installation path for data files (this is appended to the CMAKE_INSTALL_PREFIX)")
-        ENDIF()
+	IF(NOT MEGAGLEST_DATA_INSTALL_PATH)
+		SET(MEGAGLEST_DATA_INSTALL_PATH "share/megaglest/" CACHE STRING "The installation path for data files (this is appended to the CMAKE_INSTALL_PREFIX)")
+	ENDIF()
+	IF(NOT MEGAGLEST_APPDATA_INSTALL_PATH AND NOT WANT_SINGLE_INSTALL_DIRECTORY)
+		SET(MEGAGLEST_APPDATA_INSTALL_PATH "share/appdata/" CACHE STRING "The installation path for appdata files (this is appended to the CMAKE_INSTALL_PREFIX)")
+	ENDIF()
+	IF(NOT MEGAGLEST_DESKTOP_INSTALL_PATH)
+		SET(MEGAGLEST_DESKTOP_INSTALL_PATH "share/applications/" CACHE STRING "The installation path for desktop files (this is appended to the CMAKE_INSTALL_PREFIX)")
+	ENDIF()
+	IF(NOT MEGAGLEST_ICON_INSTALL_PATH)
+		SET(MEGAGLEST_ICON_INSTALL_PATH "share/pixmaps/" CACHE STRING "The installation path for icon files (this is appended to the CMAKE_INSTALL_PREFIX)")
+	ENDIF()
+	IF(NOT MEGAGLEST_BIN_INSTALL_PATH)
+		SET(MEGAGLEST_BIN_INSTALL_PATH "bin/" CACHE STRING "The installation path for binaries (this is appended to the CMAKE_INSTALL_PREFIX)")
+	ENDIF()
+	IF(NOT MEGAGLEST_MENU_INSTALL_PATH AND NOT WANT_SINGLE_INSTALL_DIRECTORY)
+		SET(MEGAGLEST_MENU_INSTALL_PATH "share/menu/" CACHE STRING "The installation path for menu file (this is appended to the CMAKE_INSTALL_PREFIX)")
+	ENDIF()
 
-        # Installation of the data
-        install(
-          DIRECTORY "${PROJECT_SOURCE_DIR}/data" 
-	            "${PROJECT_SOURCE_DIR}/docs" 
-	            "${PROJECT_SOURCE_DIR}/maps"
-	            "${PROJECT_SOURCE_DIR}/scenarios"
-	            "${PROJECT_SOURCE_DIR}/techs"
-	            "${PROJECT_SOURCE_DIR}/tilesets"
-	            "${PROJECT_SOURCE_DIR}/tutorials"
-          DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH}
-          OPTIONAL REGEX "/.git" EXCLUDE)
+	CONFIGURE_FILE("${PROJECT_SOURCE_DIR}/others/menu/megaglest.menu.in"
+		"${PROJECT_BINARY_DIR}/others/menu/megaglest.menu.in" COPYONLY)
+	IF(BUILD_MEGAGLEST_MAP_EDITOR OR NOT DEFINED BUILD_MEGAGLEST_MAP_EDITOR)
+		FILE(READ "${PROJECT_SOURCE_DIR}/others/menu/megaglest_editor.menu.in" EDITOR_MENU)
+		FILE(APPEND "${PROJECT_BINARY_DIR}/others/menu/megaglest.menu.in" "${EDITOR_MENU}")
+	ENDIF()
+	CONFIGURE_FILE("${PROJECT_BINARY_DIR}/others/menu/megaglest.menu.in"
+		"${PROJECT_BINARY_DIR}/others/menu/megaglest")
 
+	# Installation of the data
+	INSTALL(DIRECTORY "${PROJECT_SOURCE_DIR}/data"
+			"${PROJECT_SOURCE_DIR}/docs"
+			"${PROJECT_SOURCE_DIR}/maps"
+			"${PROJECT_SOURCE_DIR}/scenarios"
+			"${PROJECT_SOURCE_DIR}/techs"
+			"${PROJECT_SOURCE_DIR}/tilesets"
+			"${PROJECT_SOURCE_DIR}/tutorials"
+			DESTINATION ${MEGAGLEST_DATA_INSTALL_PATH}
+			OPTIONAL REGEX "/.git" EXCLUDE)
+
+	IF(UNIX AND NOT "${MEGAGLEST_APPDATA_INSTALL_PATH}" STREQUAL "")
+		INSTALL(FILES "${PROJECT_SOURCE_DIR}/others/appdata/megaglest.appdata.xml"
+			DESTINATION ${MEGAGLEST_APPDATA_INSTALL_PATH})
+
+		IF(BUILD_MEGAGLEST_MAP_EDITOR OR NOT DEFINED BUILD_MEGAGLEST_MAP_EDITOR)
+			INSTALL(FILES "${PROJECT_SOURCE_DIR}/others/appdata/megaglest_editor.appdata.xml"
+				DESTINATION ${MEGAGLEST_APPDATA_INSTALL_PATH})
+		ENDIF()
+	ENDIF()
+	IF(UNIX AND NOT "${MEGAGLEST_MENU_INSTALL_PATH}" STREQUAL "")
+		INSTALL(FILES
+			"${PROJECT_BINARY_DIR}/others/menu/megaglest"
+			DESTINATION ${MEGAGLEST_MENU_INSTALL_PATH})
+	ENDIF()
+
+	IF(UNIX AND NOT APPLE)
+		INSTALL(FILES
+			"${PROJECT_SOURCE_DIR}/others/icons/megaglest.png"
+			"${PROJECT_SOURCE_DIR}/others/icons/megaglest.xpm"
+			DESTINATION ${MEGAGLEST_ICON_INSTALL_PATH})
+
+		INSTALL(FILES
+			"${PROJECT_SOURCE_DIR}/others/desktop/megaglest.desktop"
+			DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
+		IF(BUILD_MEGAGLEST_MAP_EDITOR OR NOT DEFINED BUILD_MEGAGLEST_MAP_EDITOR)
+			INSTALL(FILES
+				"${PROJECT_SOURCE_DIR}/others/desktop/megaglest_editor.desktop"
+				DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
+		ENDIF()
+		IF(BUILD_MEGAGLEST_MODEL_VIEWER OR NOT DEFINED BUILD_MEGAGLEST_MODEL_VIEWER)
+			INSTALL(FILES
+				"${PROJECT_SOURCE_DIR}/others/desktop/megaglest_g3dviewer.desktop"
+				DESTINATION ${MEGAGLEST_DESKTOP_INSTALL_PATH})
+		ENDIF()
+	ENDIF()
 ENDIF()

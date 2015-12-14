@@ -1,0 +1,8 @@
+?package(megaglest-data,megaglest): \
+    needs="X11" \
+    hints="editor,maps" \
+    section="Games/Tools" \
+    title="MegaGlest Map Editor" \
+    longtitle="MegaGlest Map Editor, a game tool for 3D real time strategy game: MegaGlest." \
+    command="@CMAKE_INSTALL_PREFIX@/@MEGAGLEST_BIN_INSTALL_PATH@megaglest_editor" \
+    icon="@CMAKE_INSTALL_PREFIX@/@MEGAGLEST_ICON_INSTALL_PATH@megaglest.xpm"

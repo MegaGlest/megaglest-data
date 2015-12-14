@@ -66,6 +66,7 @@ $RECYCLE.BIN/
 !.tx/
 *.blend
 *.blend1
+/build/
 
 # Windows_build
 *.dll

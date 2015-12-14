@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2015 MegaGlest Team <contact_at_megaglest.org> -->
+<component type="desktop">
+ <id>megaglest_editor.desktop</id>
+ <metadata_license>CC-BY-SA-4.0</metadata_license>
+ <project_license>GPL-3.0+</project_license>
+ <name>MegaGlest Map Editor</name>
+ <summary>Game tool from MegaGlest game</summary>
+ <description>
+  <p>
+     MegaGlest Map Editor allows to create new and edit existing maps for MegaGlest / Glest game and for games based on MegaGlest too.
+  </p>
+  <p>
+    MegaGlest is a customizable 3D real-time strategy game (RTS).
+  </p>
+ </description>
+ <screenshots>
+  <screenshot type="default">
+   <image>https://megaglest.org/uploads/images/appdata/mapeditor1.png</image>
+  </screenshot>
+ </screenshots>
+ <url type="homepage">https://megaglest.org</url>
+ <url type="donation">https://megaglest.org/donations</url>
+ <developer_name>The MegaGlest Team</developer_name>
+ <update_contact>contact_at_megaglest.org</update_contact>
+</component>

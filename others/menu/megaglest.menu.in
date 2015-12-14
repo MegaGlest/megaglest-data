@@ -1,0 +1,8 @@
+?package(megaglest-data,megaglest): \
+    needs="X11" \
+    hints="RTS,rts" \
+    section="Games/Strategy" \
+    title="MegaGlest" \
+    longtitle="MegaGlest, a 3D real time strategy game." \
+    command="@CMAKE_INSTALL_PREFIX@/@MEGAGLEST_BIN_INSTALL_PATH@megaglest" \
+    icon="@CMAKE_INSTALL_PREFIX@/@MEGAGLEST_ICON_INSTALL_PATH@megaglest.xpm"
