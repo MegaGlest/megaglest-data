@@ -546,7 +546,7 @@ CommandName_hold_position=坚守阵地
 CommandName_promote_to_evil_dragon=进化为邪龙
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=龙骑兵
+UnitTypeName_draco_rider=龙骑兵
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=专家级
@@ -662,7 +662,7 @@ CommandName_hold_position=坚守阵地
 CommandName_summon_daemon=召唤妖魔
 CommandName_summon_ghost_armor=召唤幽灵铠甲
 CommandName_summon_dragon=召唤神龙
-CommandName_summon_drake=召唤龙兽
+CommandName_summon_draco=召唤龙兽
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=召唤师协会

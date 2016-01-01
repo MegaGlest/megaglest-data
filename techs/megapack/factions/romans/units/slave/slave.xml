@@ -241,7 +241,7 @@
 
 		<command>
 			<type value= "build"/>
-			<name value="build_"/>
+			<name value="build"/>
 			<image path="images/worker_build_basic.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>

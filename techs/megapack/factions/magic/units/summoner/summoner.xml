@@ -249,12 +249,12 @@
 
                 <command>
 			<type value="morph"/>
-			<name value="summon_drake"/>
-			<image path="../drake_rider/images/drake_rider.bmp"/>
+			<name value="summon_draco"/>
+			<image path="../draco_rider/images/drake_rider.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name= "drake_rider"/>
+			<morph-unit name= "draco_rider"/>
 			<discount value="0"/>
 		</command>
 

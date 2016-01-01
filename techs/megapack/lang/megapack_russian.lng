@@ -546,7 +546,7 @@ CommandName_hold_position=занять позицию
 CommandName_promote_to_evil_dragon=преобразить в зловещего дракона
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=оседлавший ящера
+UnitTypeName_draco_rider=оседлавший ящера
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=эксперт
@@ -662,7 +662,7 @@ CommandName_hold_position=занять позицию
 CommandName_summon_daemon=призвать демона
 CommandName_summon_ghost_armor=призвать призрак в доспехах
 CommandName_summon_dragon=призвать дракона
-CommandName_summon_drake=вызвать ящера
+CommandName_summon_draco=вызвать ящера
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=гильдия суммонеров

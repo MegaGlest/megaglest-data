@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=get power of ra
 FactionName_indian=indian
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bull_food=bullfood
+UpgradeTypeName_advanced_iron=advanced iron
+UpgradeTypeName_bull_food=bull food
 UpgradeTypeName_iron=iron
-UpgradeTypeName_advanced_iron=iron advanced
 UpgradeTypeName_petroleum=petroleum
 UpgradeTypeName_stables=stables
 UpgradeTypeName_training_field=training field
@@ -276,7 +276,7 @@ CommandName_attack_off=attack off
 CommandName_attack_on=attack on
 ; -------------------------------------
 ; Unit
-UnitTypeName_big_tent=bigtent
+UnitTypeName_big_tent=big tent
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -300,9 +300,9 @@ UnitTypeName_campfire=campfire
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_fire_golem=produce firegolem
+CommandName_produce_fire_golem=produce fire golem
 CommandName_research_iron=research iron
-CommandName_research_advanced_iron=research iron advanced
+CommandName_research_advanced_iron=research advanced iron
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=fire archer
@@ -317,7 +317,7 @@ CommandName_attack=attack
 CommandName_hold_position=hold position
 ; -------------------------------------
 ; Unit
-UnitTypeName_fire_golem=firegolem
+UnitTypeName_fire_golem=fire golem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=ancient
@@ -329,7 +329,7 @@ CommandName_attack=attack
 CommandName_hold_position=hold position
 ; -------------------------------------
 ; Unit
-UnitTypeName_horse_farm=horsefarm
+UnitTypeName_horse_farm=horse farm
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -351,7 +351,7 @@ CommandName_attack=attack
 CommandName_hold_position=hold position
 ; -------------------------------------
 ; Unit
-UnitTypeName_main_teepee=mainteepee
+UnitTypeName_main_teepee=main teepee
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -364,10 +364,10 @@ UnitTypeName_reed=reed
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bull_food=research bullfood
+CommandName_research_bull_food=research bull food
 ; -------------------------------------
 ; Unit
-UnitTypeName_round_tent=roundtent
+UnitTypeName_round_tent=round tent
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -533,20 +533,7 @@ CommandName_move=move
 CommandName_attack=attack
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=dragon
-; --------------------
-; Levels for this Unit
-LevelName_ancient=ancient
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=move
-CommandName_breath=breath
-CommandName_hold_position=hold position
-CommandName_promote_to_evil_dragon=promote to evil dragon
-; -------------------------------------
-; Unit
-UnitTypeName_drake_rider=drake rider
+UnitTypeName_draco_rider=draco rider
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
@@ -558,6 +545,19 @@ CommandName_move=move
 CommandName_fire_breath=fire breath
 CommandName_flare=flare
 CommandName_hold_position=hold position
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=dragon
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ancient
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=move
+CommandName_breath=breath
+CommandName_hold_position=hold position
+CommandName_promote_to_evil_dragon=promote to evil dragon
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=energy source
@@ -662,7 +662,7 @@ CommandName_hold_position=hold position
 CommandName_summon_daemon=summon daemon
 CommandName_summon_ghost_armor=summon ghost armor
 CommandName_summon_dragon=summon dragon
-CommandName_summon_drake=summon drake
+CommandName_summon_draco=summon draco
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=summoner guild
@@ -844,7 +844,7 @@ CommandName_produce_spearman=produce spearman
 CommandName_research_mead=research mead
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletoe_tree=mistletree
+UnitTypeName_mistletoe_tree=mistletoe tree
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -918,7 +918,7 @@ CommandName_throw=throw
 CommandName_hold_position=hold position
 ; -------------------------------------
 ; Unit
-UnitTypeName_thor_totem=thortotem
+UnitTypeName_thor_totem=thor totem
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=slave
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=move
-CommandName_build_=build
+CommandName_build=build
 CommandName_mine=mine
 CommandName_harvest_wood=harvest wood
 CommandName_repair=repair

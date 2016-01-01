@@ -546,7 +546,7 @@ CommandName_hold_position=Mantenha a Posição
 CommandName_promote_to_evil_dragon=Evoluir à Dragão Negro
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=Cavaleira Drake
+UnitTypeName_draco_rider=Cavaleira Drake
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=Perito
@@ -662,7 +662,7 @@ CommandName_hold_position=Mantenha a Posição
 CommandName_summon_daemon=Evocar dêmonio
 CommandName_summon_ghost_armor=Invocar Cavaleiro fantasma
 CommandName_summon_dragon=Evocar dragão
-CommandName_summon_drake=Evocar drake
+CommandName_summon_draco=Evocar drake
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=Irmandade das Bruxas

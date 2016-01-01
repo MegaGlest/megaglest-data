@@ -546,7 +546,7 @@ CommandName_hold_position=halte Position
 CommandName_promote_to_evil_dragon=Zu Teufelsdrachen aufwerten
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=Drachenreiter
+UnitTypeName_draco_rider=Drachenreiter
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=Experte
@@ -662,7 +662,7 @@ CommandName_hold_position=halte Position
 CommandName_summon_daemon=Dämon beschwören
 CommandName_summon_ghost_armor=Geisterrüstung beschwören
 CommandName_summon_dragon=Drachen beschwören
-CommandName_summon_drake=Laufdrachen beschwören
+CommandName_summon_draco=Laufdrachen beschwören
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=Gilde der Beschwörer

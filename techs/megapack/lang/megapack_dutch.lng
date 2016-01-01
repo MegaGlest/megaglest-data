@@ -546,7 +546,7 @@ CommandName_hold_position=houd positie
 CommandName_promote_to_evil_dragon=promoveer tot wreede draak
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=eenden rijder
+UnitTypeName_draco_rider=eenden rijder
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
@@ -662,7 +662,7 @@ CommandName_hold_position=houd positie
 CommandName_summon_daemon=ontbied demon
 CommandName_summon_ghost_armor=ontbied geest pantser
 CommandName_summon_dragon=ontbied draak
-CommandName_summon_drake=ontbied draak
+CommandName_summon_draco=ontbied draak
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=ontbieder gilde

@@ -546,7 +546,7 @@ CommandName_hold_position=mantener la posición
 CommandName_promote_to_evil_dragon=mejorar a dragón maléfico
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=jinete de draco
+UnitTypeName_draco_rider=jinete de draco
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=experto
@@ -662,7 +662,7 @@ CommandName_hold_position=mantener la posición
 CommandName_summon_daemon=invocar demonio
 CommandName_summon_ghost_armor=invocar armadura fantasma
 CommandName_summon_dragon=invocar dragón
-CommandName_summon_drake=invocar draco
+CommandName_summon_draco=invocar draco
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=hermandad de invocadores

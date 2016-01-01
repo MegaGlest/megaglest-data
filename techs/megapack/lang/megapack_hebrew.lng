@@ -546,7 +546,7 @@ CommandName_hold_position=שמור_על_עמדתך
 CommandName_promote_to_evil_dragon=קדם_לדרקון_מרושע
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=רוכב_דרקונים
+UnitTypeName_draco_rider=רוכב_דרקונים
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=מנוסה
@@ -662,7 +662,7 @@ CommandName_hold_position=שמור_על_עמדתך
 CommandName_summon_daemon=מזמנת_שד
 CommandName_summon_ghost_armor=מזמן_שד_משורין
 CommandName_summon_dragon=מזמנת_דרקון
-CommandName_summon_drake=זמן_ברווז
+CommandName_summon_draco=זמן_ברווז
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=מדריך_המזמנות

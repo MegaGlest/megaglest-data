@@ -546,7 +546,7 @@ CommandName_hold_position=seas
 CommandName_promote_to_evil_dragon=àrdaich gu dràgon feargach
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=marcaiche dràic
+UnitTypeName_draco_rider=marcaiche dràic
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=eòlaiche
@@ -662,7 +662,7 @@ CommandName_hold_position=seas
 CommandName_summon_daemon=taghairm ifrinneach
 CommandName_summon_ghost_armor=taghairm taibhs-armachd
 CommandName_summon_dragon=taghairm dràgon
-CommandName_summon_drake=taghairm dràc
+CommandName_summon_draco=taghairm dràc
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=comann nan taghairmearan

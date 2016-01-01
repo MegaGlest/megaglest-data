@@ -546,7 +546,7 @@ CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
 CommandName_promote_to_evil_dragon=ߊ߬_ߞߏߝߐ߫_ߣߊ߲߬ߞߌ߲߫_ߣߙߐ߬ߖߎ߮_ߘߌ߫
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=ߘߏ߬ߞߎ߫_ߕߣߍ߬ߣߍ߬ߟߌ߬ߟߊ
+UnitTypeName_draco_rider=ߘߏ߬ߞߎ߫_ߕߣߍ߬ߣߍ߬ߟߌ߬ߟߊ
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=ߞߟߊ߬ߡߊ߬ߓߊ߮
@@ -662,7 +662,7 @@ CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
 CommandName_summon_daemon=ߜߍ߬ߘߍ_ߘߊߟߌ߫
 CommandName_summon_ghost_armor=ߛߎ߬ߜߏ߯ߙߏ_ߟߊ߫_ߞߟߍ߬ߟߊ߲_ߘߊߟߌ߫
 CommandName_summon_dragon=ߣߊ߲߬ߞߌ߲_ߘߊߟߌ߫
-CommandName_summon_drake=ߘߏ߬ߞߎ_ߘߊߟߌ߫
+CommandName_summon_draco=ߘߏ߬ߞߎ_ߘߊߟߌ߫
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=ߕߋߙߌߦߊ_ߘߊߟߌߟߊ

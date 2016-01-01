@@ -546,7 +546,7 @@ CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_evil_dragon=awans do złego smoka\n('Promote to evil dragon')
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=jaszczurza jeźdźczyni\n('Draco rider')
+UnitTypeName_draco_rider=jaszczurza jeźdźczyni\n('Draco rider')
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=ekspercki-
@@ -662,7 +662,7 @@ CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_summon_daemon=przyzywanie demona\n('Summon daemon')
 CommandName_summon_ghost_armor=przyzywanie zbrojnego ducha\n('Summon ghost armor')
 CommandName_summon_dragon=przyzywanie smoka\n('Summon dragon')
-CommandName_summon_drake=transf. do jaszcz. jeźdźczyni\n('Transform to draco rider')
+CommandName_summon_draco=transf. do jaszcz. jeźdźczyni\n('Transform to draco rider')
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=gildia przywoływaczek\n('Summoners' guild')

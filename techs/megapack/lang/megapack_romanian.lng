@@ -546,7 +546,7 @@ CommandName_hold_position=menține poziția
 CommandName_promote_to_evil_dragon=promovează la dragon malefic
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=călăreț gâscan
+UnitTypeName_draco_rider=călăreț gâscan
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=expert
@@ -662,7 +662,7 @@ CommandName_hold_position=menține poziția
 CommandName_summon_daemon=invocă dragon
 CommandName_summon_ghost_armor=invocare armură fantomă
 CommandName_summon_dragon=invocare dragon
-CommandName_summon_drake=invocare drake
+CommandName_summon_draco=invocare drake
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=breaslă invocator

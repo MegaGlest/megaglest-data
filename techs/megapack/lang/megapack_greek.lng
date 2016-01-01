@@ -546,7 +546,7 @@ CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_evil_dragon=προώθηση στον κακό δράκο
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=Ντρέικ αναβάτης
+UnitTypeName_draco_rider=Ντρέικ αναβάτης
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=ειδικός
@@ -662,7 +662,7 @@ CommandName_hold_position=θέση αναμονής
 CommandName_summon_daemon=κλήτευση δαίμονα
 CommandName_summon_ghost_armor=κλήτευση πανοπλίας
 CommandName_summon_dragon=κλήτευση δράκου
-CommandName_summon_drake=κλήτευση του Ντρέικ
+CommandName_summon_draco=κλήτευση του Ντρέικ
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=κλήτευση τάγματος

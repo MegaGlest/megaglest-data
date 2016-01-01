@@ -546,7 +546,7 @@ CommandName_hold_position=drži položaj
 CommandName_promote_to_evil_dragon=povišaj v zlobnega zmaja
 ; -------------------------------------
 ; Unit
-UnitTypeName_drake_rider=jahačica kuščarjev
+UnitTypeName_draco_rider=jahačica kuščarjev
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=izkušen
@@ -662,7 +662,7 @@ CommandName_hold_position=drži položaj
 CommandName_summon_daemon=pozovi demona
 CommandName_summon_ghost_armor=pozovi oklep duhov
 CommandName_summon_dragon=pozovi zmaja
-CommandName_summon_drake=pozovi kuščarja
+CommandName_summon_draco=pozovi kuščarja
 ; -------------------------------------
 ; Unit
 UnitTypeName_summoner_guild=ceh pozivalcev
