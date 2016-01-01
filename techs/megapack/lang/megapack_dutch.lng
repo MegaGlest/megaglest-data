@@ -276,7 +276,7 @@ CommandName_attack_off=aanvallen uit
 CommandName_attack_on=aanvallen aan
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=grote tent
+UnitTypeName_big_tent=grote tent
 ; --------------------
 ; Levels for this Unit
 ; --------------------

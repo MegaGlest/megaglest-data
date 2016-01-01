@@ -276,7 +276,7 @@ CommandName_attack_off=attacco disattivo
 CommandName_attack_on=attacco attivo
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=grande tenda
+UnitTypeName_big_tent=grande tenda
 ; --------------------
 ; Levels for this Unit
 ; --------------------

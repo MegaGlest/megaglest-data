@@ -276,7 +276,7 @@ CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
 CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=wielki namiot ('Big tent')
+UnitTypeName_big_tent=wielki namiot ('Big tent')
 ; --------------------
 ; Levels for this Unit
 ; --------------------

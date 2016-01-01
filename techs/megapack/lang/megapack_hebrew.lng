@@ -276,7 +276,7 @@ CommandName_attack_off=התקפה_מכובה
 CommandName_attack_on=התקפה_דלוקה
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=אוהל_גדול
+UnitTypeName_big_tent=אוהל_גדול
 ; --------------------
 ; Levels for this Unit
 ; --------------------

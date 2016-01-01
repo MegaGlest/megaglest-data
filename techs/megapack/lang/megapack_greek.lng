@@ -276,7 +276,7 @@ CommandName_attack_off=τερματισμος επίθεσης
 CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=μεγάλη σκηνή
+UnitTypeName_big_tent=μεγάλη σκηνή
 ; --------------------
 ; Levels for this Unit
 ; --------------------

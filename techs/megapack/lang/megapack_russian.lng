@@ -276,7 +276,7 @@ CommandName_attack_off=остановить атаку
 CommandName_attack_on=атаковать
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=большая палатка
+UnitTypeName_big_tent=большая палатка
 ; --------------------
 ; Levels for this Unit
 ; --------------------

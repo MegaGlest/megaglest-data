@@ -276,7 +276,7 @@ CommandName_attack_off=saldırı kapalı
 CommandName_attack_on=saldırı
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=büyük çadır
+UnitTypeName_big_tent=büyük çadır
 ; --------------------
 ; Levels for this Unit
 ; --------------------

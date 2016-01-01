@@ -276,7 +276,7 @@ CommandName_attack_off=攻击停止
 CommandName_attack_on=攻击发动
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=大帐篷
+UnitTypeName_big_tent=大帐篷
 ; --------------------
 ; Levels for this Unit
 ; --------------------

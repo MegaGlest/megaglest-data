@@ -240,7 +240,7 @@
 			<build-skill value="build_skill"/>
 			<buildings>
                                 <building name="tent"/>
-                                <building name="bigtent"/>
+                                <building name="big_tent"/>
                                 <building name="roundtent"/>
 				<building name="campfire"/>
 				<building name="reed"/>
@@ -302,7 +302,7 @@
 			<repaired-units>
 				<unit name="roundtent"/>
 				<unit name="tent"/>
-				<unit name="bigtent"/>
+				<unit name="big_tent"/>
 				<unit name="totem"/>
 				<unit name="mainteepee"/>
 				<unit name="horsefarm"/>

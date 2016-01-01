@@ -276,7 +276,7 @@ CommandName_attack_off=stop atac
 CommandName_attack_on=pornire atac
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=cort mare
+UnitTypeName_big_tent=cort mare
 ; --------------------
 ; Levels for this Unit
 ; --------------------

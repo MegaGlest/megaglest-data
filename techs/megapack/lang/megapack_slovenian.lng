@@ -276,7 +276,7 @@ CommandName_attack_off=napad onemogočen
 CommandName_attack_on=napad omogočen
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=veliki šotor
+UnitTypeName_big_tent=veliki šotor
 ; --------------------
 ; Levels for this Unit
 ; --------------------

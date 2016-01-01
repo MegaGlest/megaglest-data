@@ -276,7 +276,7 @@ CommandName_attack_off=zastavit útok
 CommandName_attack_on=zaútočit
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=velký stan
+UnitTypeName_big_tent=velký stan
 ; --------------------
 ; Levels for this Unit
 ; --------------------

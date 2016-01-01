@@ -276,7 +276,7 @@ CommandName_attack_off=Angriff aus
 CommandName_attack_on=Angriff ein
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=Großzelt
+UnitTypeName_big_tent=Großzelt
 ; --------------------
 ; Levels for this Unit
 ; --------------------

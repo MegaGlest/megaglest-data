@@ -276,7 +276,7 @@ CommandName_attack_off=ne pas attaquer
 CommandName_attack_on=attaque à vue
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=grand tipi
+UnitTypeName_big_tent=grand tipi
 ; --------------------
 ; Levels for this Unit
 ; --------------------

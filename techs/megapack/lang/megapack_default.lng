@@ -276,7 +276,7 @@ CommandName_attack_off=attack off
 CommandName_attack_on=attack on
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=bigtent
+UnitTypeName_big_tent=bigtent
 ; --------------------
 ; Levels for this Unit
 ; --------------------

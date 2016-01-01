@@ -276,7 +276,7 @@ CommandName_attack_off=ionnsaighean dheth
 CommandName_attack_on=ionnsaighean air
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=mòr-theanta
+UnitTypeName_big_tent=mòr-theanta
 ; --------------------
 ; Levels for this Unit
 ; --------------------

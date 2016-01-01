@@ -276,7 +276,7 @@ CommandName_attack_off=ߌ_ߞߴߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
 CommandName_attack_on=ߌ_ߞߍ߫_ߊ߬_ߞߊ߲߬
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=ߕߝߊߟߓߊ
+UnitTypeName_big_tent=ߕߝߊߟߓߊ
 ; --------------------
 ; Levels for this Unit
 ; --------------------

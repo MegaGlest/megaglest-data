@@ -276,7 +276,7 @@ CommandName_attack_off=ataque desativado
 CommandName_attack_on=ataque ativado
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=Tenda
+UnitTypeName_big_tent=Tenda
 ; --------------------
 ; Levels for this Unit
 ; --------------------

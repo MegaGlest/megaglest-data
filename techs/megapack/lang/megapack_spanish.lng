@@ -276,7 +276,7 @@ CommandName_attack_off=ataque desactivado
 CommandName_attack_on=ataque activado
 ; -------------------------------------
 ; Unit
-UnitTypeName_bigtent=gran tienda
+UnitTypeName_big_tent=gran tienda
 ; --------------------
 ; Levels for this Unit
 ; --------------------
