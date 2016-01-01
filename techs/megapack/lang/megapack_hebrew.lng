@@ -844,7 +844,7 @@ CommandName_produce_spearman=מייצר_לוחם_רומח
 CommandName_research_mead=חפש_מעד
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=עץ_טילים
+UnitTypeName_mistletoe_tree=עץ_טילים
 ; --------------------
 ; Levels for this Unit
 ; --------------------

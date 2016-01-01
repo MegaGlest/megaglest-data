@@ -844,7 +844,7 @@ CommandName_produce_spearman=produzir Lanceiros
 CommandName_research_mead=procurar medicina
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=Visco\n
+UnitTypeName_mistletoe_tree=Visco\n
 ; --------------------
 ; Levels for this Unit
 ; --------------------

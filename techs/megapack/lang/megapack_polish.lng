@@ -844,7 +844,7 @@ CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
 CommandName_research_mead=odkrycie miodu pitnego\n('Research mead')
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=jemiołowe drzewo\n('Mistletoe tree')
+UnitTypeName_mistletoe_tree=jemiołowe drzewo\n('Mistletoe tree')
 ; --------------------
 ; Levels for this Unit
 ; --------------------

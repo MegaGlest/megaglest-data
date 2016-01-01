@@ -844,7 +844,7 @@ CommandName_produce_spearman=обучить копьеносца
 CommandName_research_mead=узнать рецепт медовухи
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=туманное дерево
+UnitTypeName_mistletoe_tree=туманное дерево
 ; --------------------
 ; Levels for this Unit
 ; --------------------

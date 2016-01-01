@@ -844,7 +844,7 @@ CommandName_produce_spearman=生产长矛兵
 CommandName_research_mead=研究药物
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=米索树
+UnitTypeName_mistletoe_tree=米索树
 ; --------------------
 ; Levels for this Unit
 ; --------------------

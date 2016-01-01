@@ -844,7 +844,7 @@ CommandName_produce_spearman=naredi suličarja
 # CommandName_research_mead=research med
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=mistletree
+UnitTypeName_mistletoe_tree=mistletree
 ; --------------------
 ; Levels for this Unit
 ; --------------------

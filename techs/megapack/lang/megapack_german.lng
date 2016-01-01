@@ -844,7 +844,7 @@ CommandName_produce_spearman=produziere Speerkrieger
 CommandName_research_mead=erfinde Met
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=Mistelbaum
+UnitTypeName_mistletoe_tree=Mistelbaum
 ; --------------------
 ; Levels for this Unit
 ; --------------------

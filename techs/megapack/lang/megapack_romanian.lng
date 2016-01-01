@@ -844,7 +844,7 @@ CommandName_produce_spearman=produ sulițaș
 CommandName_research_mead=studiează medicamente
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=arbore de vâsc
+UnitTypeName_mistletoe_tree=arbore de vâsc
 ; --------------------
 ; Levels for this Unit
 ; --------------------

@@ -844,7 +844,7 @@ CommandName_produce_spearman=produire lancier
 CommandName_research_mead=rechercher hydromel
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=boules de gui
+UnitTypeName_mistletoe_tree=boules de gui
 ; --------------------
 ; Levels for this Unit
 ; --------------------

@@ -844,7 +844,7 @@ CommandName_produce_spearman=mızrakçı üret
 # CommandName_research_mead=research med
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=Ökse ağacı
+UnitTypeName_mistletoe_tree=Ökse ağacı
 ; --------------------
 ; Levels for this Unit
 ; --------------------

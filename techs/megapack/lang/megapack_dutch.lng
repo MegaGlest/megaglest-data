@@ -844,7 +844,7 @@ CommandName_produce_spearman=produceer speerdrager
 CommandName_research_mead=onderzoek honingdrank
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=mistboom
+UnitTypeName_mistletoe_tree=mistboom
 ; --------------------
 ; Levels for this Unit
 ; --------------------

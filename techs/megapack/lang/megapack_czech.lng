@@ -844,7 +844,7 @@ CommandName_produce_spearman=produkovat kopiníka
 CommandName_research_mead=výzkum medoviny
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=strom se jmelím
+UnitTypeName_mistletoe_tree=strom se jmelím
 ; --------------------
 ; Levels for this Unit
 ; --------------------

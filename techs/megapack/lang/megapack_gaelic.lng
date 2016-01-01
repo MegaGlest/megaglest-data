@@ -844,7 +844,7 @@ CommandName_produce_spearman=dèan sleaghadair
 CommandName_research_mead=rannsaich mil-dheoch
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=craobh uile-ìce
+UnitTypeName_mistletoe_tree=craobh uile-ìce
 ; --------------------
 ; Levels for this Unit
 ; --------------------

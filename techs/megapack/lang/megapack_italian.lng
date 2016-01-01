@@ -844,7 +844,7 @@ CommandName_produce_spearman=produci lancere
 CommandName_research_mead=ricerca med
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=mistletree
+UnitTypeName_mistletoe_tree=mistletree
 ; --------------------
 ; Levels for this Unit
 ; --------------------

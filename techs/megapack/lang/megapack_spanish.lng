@@ -844,7 +844,7 @@ CommandName_produce_spearman=producir lancero
 CommandName_research_mead=investigar medicina
 ; -------------------------------------
 ; Unit
-UnitTypeName_mistletree=muérdago
+UnitTypeName_mistletoe_tree=muérdago
 ; --------------------
 ; Levels for this Unit
 ; --------------------

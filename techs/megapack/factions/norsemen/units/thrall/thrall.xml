@@ -247,7 +247,7 @@
 				<building name="valhalla"/>
 				<building name="thor_totem"/>
 				<building name="castle"/>
-				<building name="mistletree"/>
+				<building name="mistletoe_tree"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
@@ -328,7 +328,7 @@
 				<unit name="thor_totem"/>
 				<unit name="castle"/>
                                 <unit name="valhalla"/>
-				<unit name="mistletree"/>
+				<unit name="mistletoe_tree"/>
 			</repaired-units>
 		</command>
 
