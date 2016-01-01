@@ -16,7 +16,7 @@
 	<scripts>
 		<startup>
 			disableAi(1)
-			createUnit('mainteepee', 0, startLocation(0))
+			createUnit('main_teepee', 0, startLocation(0))
 			createUnit('mage_tower', 1, startLocation(1))
 			showMessage('Welcome', 'GlestBasicTutorial')
 			showMessage('FirstThing', 'GlestBasicTutorial')

@@ -27,7 +27,7 @@
 		</properties>
 		<light enabled="false" />
 		<unit-requirements>
-			<unit name="mainteepee"/>
+			<unit name="main_teepee"/>
 		</unit-requirements>
 		<upgrade-requirements />
 		<resource-requirements>

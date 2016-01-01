@@ -8,7 +8,7 @@
 		<resource name="housing" amount="9"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="mainteepee" amount="1"/>
+		<unit name="main_teepee" amount="1"/>
 		<unit name="worker" amount="3"/>
 		<unit name="axe_thrower" amount="1"/>
 		<unit name="stickfighter" amount="2"/>

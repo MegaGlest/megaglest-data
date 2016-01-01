@@ -36,7 +36,7 @@
 		<image path="images/campfire.bmp"/>
 
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
-		<meeting-point value="true" image-path="../mainteepee/images/meeting_point.bmp"/>
+		<meeting-point value="true" image-path="../main_teepee/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</selection-sounds>

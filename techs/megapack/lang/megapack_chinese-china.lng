@@ -351,7 +351,7 @@ CommandName_attack=攻击
 CommandName_hold_position=坚守阵地
 ; -------------------------------------
 ; Unit
-UnitTypeName_mainteepee=主帐篷
+UnitTypeName_main_teepee=主帐篷
 ; --------------------
 ; Levels for this Unit
 ; --------------------

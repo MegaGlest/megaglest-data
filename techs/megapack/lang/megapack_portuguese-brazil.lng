@@ -351,7 +351,7 @@ CommandName_attack=atacar
 CommandName_hold_position=Mantenha a Posição
 ; -------------------------------------
 ; Unit
-UnitTypeName_mainteepee=Tipi "Principal"
+UnitTypeName_main_teepee=Tipi "Principal"
 ; --------------------
 ; Levels for this Unit
 ; --------------------
