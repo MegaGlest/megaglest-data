@@ -124,7 +124,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="45"/>
-			<animation path="../battleaxe_berzerk/models/axeman_morphing.g3d"/>
+			<animation path="../battleaxe_berserk/models/axeman_morphing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -180,12 +180,12 @@
 
 		<command>
 			<type value="morph"/>
-			<name value="promote_to_battleaxe"/>
-			<image path="../battleaxe_berzerk/images/battleaxe_berzerk.bmp"/>
+			<name value="promote_to_battleaxe_berserk"/>
+			<image path="../battleaxe_berserk/images/battleaxe_berzerk.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name= "battleaxe_berzerk"/>
+			<morph-unit name= "battleaxe_berserk"/>
 			<discount value="60"/>
 		</command>
 

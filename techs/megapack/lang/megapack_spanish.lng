@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=hacha de batalla
 CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
-CommandName_promote_to_battleaxe=mejorar a hacha de batalla
+CommandName_promote_to_battleaxe_berserk=mejorar a hacha de batalla
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=hacha de batalla berseker
+UnitTypeName_battleaxe_berserk=hacha de batalla berseker
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=mantener la posición
-CommandName_promote_to_spearman=mejorar a lancero
+CommandName_promote_to_spearman_berserk=mejorar a lancero
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=mejorar a berseker
+UnitTypeName_spearman_berserk=mejorar a berseker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -890,10 +890,10 @@ CommandName_stop=parar
 CommandName_move=mover
 CommandName_attack=atacar
 CommandName_hold_position=mantener la posición
-CommandName_promote_to_swordman=mejorar a espadachín
+CommandName_promote_to_swordman_berserk=mejorar a espadachín
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=espadachín berseker
+UnitTypeName_swordman_berserk=espadachín berseker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite

@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=guerrier viking
 CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
-CommandName_promote_to_battleaxe=promouvoir en guerrier
+CommandName_promote_to_battleaxe_berserk=promouvoir en guerrier
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=guerrier berserk
+UnitTypeName_battleaxe_berserk=guerrier berserk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
 CommandName_hold_position=tenir la position
-CommandName_promote_to_spearman=promouvoir en lancier
+CommandName_promote_to_spearman_berserk=promouvoir en lancier
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=lancier berzerk
+UnitTypeName_spearman_berserk=lancier berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -890,10 +890,10 @@ CommandName_stop=stop
 CommandName_move=déplacement
 CommandName_attack=attaque
 CommandName_hold_position=tenir la position
-CommandName_promote_to_swordman=promouvoir en épéiste
+CommandName_promote_to_swordman_berserk=promouvoir en épéiste
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=épéiste berzerk
+UnitTypeName_swordman_berserk=épéiste berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite

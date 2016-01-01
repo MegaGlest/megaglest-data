@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=גרזן_קרב
 CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
-CommandName_promote_to_battleaxe=קדם_לגרזן_קרב
+CommandName_promote_to_battleaxe_berserk=קדם_לגרזן_קרב
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=גרזן_קרבי_מטורף
+UnitTypeName_battleaxe_berserk=גרזן_קרבי_מטורף
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
-CommandName_promote_to_spearman=קדם_ללוחם_רומח
+CommandName_promote_to_spearman_berserk=קדם_ללוחם_רומח
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=לוחם_רומח_מטורף
+UnitTypeName_spearman_berserk=לוחם_רומח_מטורף
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
@@ -890,10 +890,10 @@ CommandName_stop=עוצר
 CommandName_move=נוע
 CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
-CommandName_promote_to_swordman=קדם_ללוחם_חרבות
+CommandName_promote_to_swordman_berserk=קדם_ללוחם_חרבות
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=לוחם_חרב_מטורף
+UnitTypeName_swordman_berserk=לוחם_חרב_מטורף
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר

@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=strijdbijl
 CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
-CommandName_promote_to_battleaxe=promoveer tot strijdbijl
+CommandName_promote_to_battleaxe_berserk=promoveer tot strijdbijl
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=waanzinnig strijdbijl
+UnitTypeName_battleaxe_berserk=waanzinnig strijdbijl
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
-CommandName_promote_to_spearman=promoot tot speerman
+CommandName_promote_to_spearman_berserk=promoot tot speerman
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=waanzinnige speerman
+UnitTypeName_spearman_berserk=waanzinnige speerman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -890,10 +890,10 @@ CommandName_stop=stop
 CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
-CommandName_promote_to_swordman=promoveer tot zwaardman
+CommandName_promote_to_swordman_berserk=promoveer tot zwaardman
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=waanzinnige zwaardman
+UnitTypeName_swordman_berserk=waanzinnige zwaardman
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite

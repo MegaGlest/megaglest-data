@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=battleaxe
 CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
-# CommandName_promote_to_battleaxe=promote to battleaxe
+# CommandName_promote_to_battleaxe_berserk=promote to battleaxe
 ; -------------------------------------
 ; Unit
-# UnitTypeName_battleaxe_berzerk=battleaxe berzerk
+# UnitTypeName_battleaxe_berserk=battleaxe berzerk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
 CommandName_hold_position=drži položaj
-# CommandName_promote_to_spearman=promote to spearman
+# CommandName_promote_to_spearman_berserk=promote to spearman
 ; -------------------------------------
 ; Unit
-# UnitTypeName_spearman_berzerk=spearman berzerk
+# UnitTypeName_spearman_berserk=spearman berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -890,10 +890,10 @@ CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
 CommandName_hold_position=drži položaj
-# CommandName_promote_to_swordman=promote to swordman
+# CommandName_promote_to_swordman_berserk=promote to swordman
 ; -------------------------------------
 ; Unit
-# UnitTypeName_swordman_berzerk=swordman berzerk
+# UnitTypeName_swordman_berserk=swordman berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite

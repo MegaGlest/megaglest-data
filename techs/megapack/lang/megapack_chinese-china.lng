@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=战斧兵
 CommandName_stop=停止
 CommandName_move=移动
 CommandName_attack=攻击
-CommandName_promote_to_battleaxe=进化为战斧兵
+CommandName_promote_to_battleaxe_berserk=进化为战斧兵
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=战斧兵狂战士
+UnitTypeName_battleaxe_berserk=战斧兵狂战士
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=停止
 CommandName_move=移动
 CommandName_attack=攻击
 CommandName_hold_position=坚守阵地
-CommandName_promote_to_spearman=进化为长矛兵
+CommandName_promote_to_spearman_berserk=进化为长矛兵
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=长矛兵狂战士
+UnitTypeName_spearman_berserk=长矛兵狂战士
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -890,10 +890,10 @@ CommandName_stop=停止
 CommandName_move=移动
 CommandName_attack=攻击
 CommandName_hold_position=坚守阵地
-CommandName_promote_to_swordman=进化为剑士
+CommandName_promote_to_swordman_berserk=进化为剑士
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=剑士狂战士
+UnitTypeName_swordman_berserk=剑士狂战士
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英

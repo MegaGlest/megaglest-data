@@ -13,7 +13,7 @@
 	<effects>
 		<unit name="battleaxe"/>
 		<unit name="valkyrie"/>
-		<unit name="battleaxe_berzerk"/>
+		<unit name="battleaxe_berserk"/>
 		<unit name="axe_thrower"/>
 	</effects>
 	<max-hp value="0"/>

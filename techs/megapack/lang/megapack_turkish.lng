@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=savaş baltası
 CommandName_stop=Dur
 CommandName_move=taşı
 CommandName_attack=Saldırı
-CommandName_promote_to_battleaxe=savaş baltasını teşvik etme
+CommandName_promote_to_battleaxe_berserk=savaş baltasını teşvik etme
 ; -------------------------------------
 ; Unit
-# UnitTypeName_battleaxe_berzerk=battleaxe berzerk
+# UnitTypeName_battleaxe_berserk=battleaxe berzerk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=Dur
 CommandName_move=taşı
 CommandName_attack=Saldırı
 CommandName_hold_position=tutma pozisyonu
-CommandName_promote_to_spearman=mızrakçıyı teşvik
+CommandName_promote_to_spearman_berserk=mızrakçıyı teşvik
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=çılgınca hareket eden mızrakçı
+UnitTypeName_spearman_berserk=çılgınca hareket eden mızrakçı
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=seçkin
@@ -890,10 +890,10 @@ CommandName_stop=Dur
 CommandName_move=taşı
 CommandName_attack=Saldırı
 CommandName_hold_position=tutma pozisyonu
-CommandName_promote_to_swordman=kılıç ustasını teşvik
+CommandName_promote_to_swordman_berserk=kılıç ustasını teşvik
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=çılgınca hareket eden kılıç ustası
+UnitTypeName_swordman_berserk=çılgınca hareket eden kılıç ustası
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=seçkin

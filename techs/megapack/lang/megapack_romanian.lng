@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=topor de luptă
 CommandName_stop=stop
 CommandName_move=mișcă
 CommandName_attack=atacă
-CommandName_promote_to_battleaxe=promovare la topor de luptă
+CommandName_promote_to_battleaxe_berserk=promovare la topor de luptă
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=topor luptă berzek
+UnitTypeName_battleaxe_berserk=topor luptă berzek
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=stop
 CommandName_move=mișcă
 CommandName_attack=atacă
 CommandName_hold_position=menține poziția
-CommandName_promote_to_spearman=promovare la sulițaș
+CommandName_promote_to_spearman_berserk=promovare la sulițaș
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=sulițaș berzek
+UnitTypeName_spearman_berserk=sulițaș berzek
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elită
@@ -890,10 +890,10 @@ CommandName_stop=stop
 CommandName_move=mișcă
 CommandName_attack=atacă
 CommandName_hold_position=menține poziția
-CommandName_promote_to_swordman=promovare la spadasin
+CommandName_promote_to_swordman_berserk=promovare la spadasin
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=spadasin berzek
+UnitTypeName_swordman_berserk=spadasin berzek
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elită

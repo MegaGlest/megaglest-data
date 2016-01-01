@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=Axtkämpfer
 CommandName_stop=Stop
 CommandName_move=Bewegen
 CommandName_attack=Angreifen
-CommandName_promote_to_battleaxe=Zu Axtkämpfer aufwerten
+CommandName_promote_to_battleaxe_berserk=Zu Axtkämpfer aufwerten
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=Axtkampfberserker
+UnitTypeName_battleaxe_berserk=Axtkampfberserker
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=Stop
 CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_hold_position=halte Position
-CommandName_promote_to_spearman=Zu Speerkämpfer aufwerten
+CommandName_promote_to_spearman_berserk=Zu Speerkämpfer aufwerten
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=Speerkampfberserker
+UnitTypeName_spearman_berserk=Speerkampfberserker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite
@@ -890,10 +890,10 @@ CommandName_stop=Stop
 CommandName_move=Bewegen
 CommandName_attack=Angreifen
 CommandName_hold_position=halte Position
-CommandName_promote_to_swordman=Zu Schwertkämpfer aufwerten
+CommandName_promote_to_swordman_berserk=Zu Schwertkämpfer aufwerten
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=Schwertkampfberserker
+UnitTypeName_swordman_berserk=Schwertkampfberserker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=Elite

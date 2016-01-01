@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=τσεκούρι μάχης
 CommandName_stop=σταμάτημα
 CommandName_move=κίνηση
 CommandName_attack=επίθεση
-CommandName_promote_to_battleaxe=προώθηση τσεκούριου μάχης
+CommandName_promote_to_battleaxe_berserk=προώθηση τσεκούριου μάχης
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=τσεκούρι μάχης Berzerk
+UnitTypeName_battleaxe_berserk=τσεκούρι μάχης Berzerk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=σταμάτημα
 CommandName_move=κίνηση
 CommandName_attack=επίθεση
 CommandName_hold_position=θέση αναμονής
-CommandName_promote_to_spearman=προώθηση στον ακοντιστή
+CommandName_promote_to_spearman_berserk=προώθηση στον ακοντιστή
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=ακοντιστής berzerk
+UnitTypeName_spearman_berserk=ακοντιστής berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=ελίτ
@@ -890,10 +890,10 @@ CommandName_stop=σταμάτημα
 CommandName_move=κίνηση
 CommandName_attack=επίθεση
 CommandName_hold_position=θέση αναμονής
-CommandName_promote_to_swordman=προώθηση στον ξιφομάχο
+CommandName_promote_to_swordman_berserk=προώθηση στον ξιφομάχο
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=ξιφομάχος berzerk
+UnitTypeName_swordman_berserk=ξιφομάχος berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=ελίτ

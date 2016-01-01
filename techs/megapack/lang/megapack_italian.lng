@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=ascia da battaglia
 CommandName_stop=fermo
 CommandName_move=sposta
 CommandName_attack=attacca
-CommandName_promote_to_battleaxe=promuovi ad ascia da battaglia
+CommandName_promote_to_battleaxe_berserk=promuovi ad ascia da battaglia
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=ascia da battaglia berserker
+UnitTypeName_battleaxe_berserk=ascia da battaglia berserker
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=fermo
 CommandName_move=sposta
 CommandName_attack=attacca
 CommandName_hold_position=mantieni posizione
-CommandName_promote_to_spearman=promuovi a lanciere
+CommandName_promote_to_spearman_berserk=promuovi a lanciere
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=lanciere berserker
+UnitTypeName_spearman_berserk=lanciere berserker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -890,10 +890,10 @@ CommandName_stop=fermo
 CommandName_move=sposta
 CommandName_attack=attacca
 CommandName_hold_position=mantieni posizione
-CommandName_promote_to_swordman=promuovi a spadaccino
+CommandName_promote_to_swordman_berserk=promuovi a spadaccino
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=spadaccino berserker
+UnitTypeName_swordman_berserk=spadaccino berserker
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite

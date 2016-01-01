@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=sekerník
 CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
-CommandName_promote_to_battleaxe=povýšit na sekerníka
+CommandName_promote_to_battleaxe_berserk=povýšit na sekerníka
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=sekerník berserk
+UnitTypeName_battleaxe_berserk=sekerník berserk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
 CommandName_hold_position=držet pozici
-CommandName_promote_to_spearman=povýšit na kopiníka
+CommandName_promote_to_spearman_berserk=povýšit na kopiníka
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=kopiník berserk
+UnitTypeName_spearman_berserk=kopiník berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -890,10 +890,10 @@ CommandName_stop=zastavit
 CommandName_move=přesunout
 CommandName_attack=útok
 CommandName_hold_position=držet pozici
-CommandName_promote_to_swordman=povýšit na šermíře
+CommandName_promote_to_swordman_berserk=povýšit na šermíře
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=kopiník berserk
+UnitTypeName_swordman_berserk=kopiník berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní

@@ -129,7 +129,7 @@
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="80"/>
-			<animation path="../swordman_berzerk/models/armored_swordman_morphing.g3d"/>
+			<animation path="../swordman_berserk/models/armored_swordman_morphing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -198,12 +198,12 @@
 
 		<command>
 			<type value="morph"/>
-			<name value="promote_to_swordman"/>
-			<image path="../swordman_berzerk/images/swordman.bmp"/>
+			<name value="promote_to_swordman_berserk"/>
+			<image path="../swordman_berserk/images/swordman.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name= "swordman_berzerk"/>
+			<morph-unit name= "swordman_berserk"/>
 			<discount value="60"/>
 		</command>
 	</commands>

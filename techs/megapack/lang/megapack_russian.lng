@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=боевой топор
 CommandName_stop=стоп
 CommandName_move=перемещение
 CommandName_attack=атака
-CommandName_promote_to_battleaxe=назначить боевым топором
+CommandName_promote_to_battleaxe_berserk=назначить боевым топором
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=боевой топор берсерк
+UnitTypeName_battleaxe_berserk=боевой топор берсерк
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=стоп
 CommandName_move=перемещение
 CommandName_attack=атака
 CommandName_hold_position=занять позицию
-CommandName_promote_to_spearman=произвести в копьеносцы
+CommandName_promote_to_spearman_berserk=произвести в копьеносцы
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=копьеносец берсерк
+UnitTypeName_spearman_berserk=копьеносец берсерк
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=элита
@@ -890,10 +890,10 @@ CommandName_stop=стоп
 CommandName_move=перемещение
 CommandName_attack=атака
 CommandName_hold_position=занять позицию
-CommandName_promote_to_swordman=произвести в меченосцы
+CommandName_promote_to_swordman_berserk=произвести в меченосцы
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=меченосец берсерк
+UnitTypeName_swordman_berserk=меченосец берсерк
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=элита

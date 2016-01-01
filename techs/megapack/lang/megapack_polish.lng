@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=topornik ('Battleaxe')
 CommandName_stop=stop ('Stop')
 CommandName_move=przesuń się / idź ('Move')
 CommandName_attack=atak ('Attack')
-CommandName_promote_to_battleaxe=awans do oszalałego topornika\n('Promote to battleaxe berserk')\n
+CommandName_promote_to_battleaxe_berserk=awans do oszalałego topornika\n('Promote to battleaxe berserk')\n
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=oszalały topornik\n('Battleaxe berserk')
+UnitTypeName_battleaxe_berserk=oszalały topornik\n('Battleaxe berserk')
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=stop ('Stop')
 CommandName_move=przesuń się / idź ('Move')
 CommandName_attack=atak ('Attack')
 CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-CommandName_promote_to_spearman=awans do oszalałego włócznika\n('Promote to spearman berserk')\n
+CommandName_promote_to_spearman_berserk=awans do oszalałego włócznika\n('Promote to spearman berserk')\n
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=oszalały włócznik\n('Spearman berserk')
+UnitTypeName_spearman_berserk=oszalały włócznik\n('Spearman berserk')
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitarny-
@@ -890,10 +890,10 @@ CommandName_stop=stop ('Stop')
 CommandName_move=przesuń się / idź ('Move')
 CommandName_attack=atak ('Attack')
 CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-CommandName_promote_to_swordman=awans do oszalałego miecznika\n('Promote to swordsman berserk')\n
+CommandName_promote_to_swordman_berserk=awans do oszalałego miecznika\n('Promote to swordsman berserk')\n
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=oszalały miecznik\n('Swordsman berserk')
+UnitTypeName_swordman_berserk=oszalały miecznik\n('Swordsman berserk')
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitarny-

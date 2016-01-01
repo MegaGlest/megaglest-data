@@ -125,7 +125,7 @@
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="80"/>
-			<animation path="../spearman_berzerk/models/spearman_morphing.g3d"/>
+			<animation path="../spearman_berserk/models/spearman_morphing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -190,12 +190,12 @@
 
 		<command>
 			<type value="morph"/>
-			<name value="promote_to_spearman"/>
-			<image path="../spearman_berzerk/images/spearman.bmp"/>
+			<name value="promote_to_spearman_berserk"/>
+			<image path="../spearman_berserk/images/spearman.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<morph-skill value="morph_skill"/>
-			<morph-unit name= "spearman_berzerk"/>
+			<morph-unit name= "spearman_berserk"/>
 			<discount value="60"/>
 		</command>
 

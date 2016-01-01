@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=battleaxe
 CommandName_stop=stop
 CommandName_move=move
 CommandName_attack=attack
-CommandName_promote_to_battleaxe=promote to battleaxe
+CommandName_promote_to_battleaxe_berserk=promote to battleaxe berserk
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=battleaxe berzerk
+UnitTypeName_battleaxe_berserk=battleaxe berserk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=stop
 CommandName_move=move
 CommandName_attack=attack
 CommandName_hold_position=hold position
-CommandName_promote_to_spearman=promote to spearman
+CommandName_promote_to_spearman_berserk=promote to spearman berserk
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=spearman berzerk
+UnitTypeName_spearman_berserk=spearman berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -890,10 +890,10 @@ CommandName_stop=stop
 CommandName_move=move
 CommandName_attack=attack
 CommandName_hold_position=hold position
-CommandName_promote_to_swordman=promote to swordman
+CommandName_promote_to_swordman_berserk=promote to swordman berserk
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=swordman berzerk
+UnitTypeName_swordman_berserk=swordman berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite

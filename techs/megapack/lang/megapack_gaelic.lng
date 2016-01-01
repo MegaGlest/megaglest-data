@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=tuagh catha
 CommandName_stop=stad
 CommandName_move=gluais
 CommandName_attack=thoir ionnsaigh
-CommandName_promote_to_battleaxe=àrdaich gu tuagh catha
+CommandName_promote_to_battleaxe_berserk=àrdaich gu tuagh catha
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=tuagh catha boile
+UnitTypeName_battleaxe_berserk=tuagh catha boile
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=stad
 CommandName_move=gluais
 CommandName_attack=thoir ionnsaigh
 CommandName_hold_position=seas
-CommandName_promote_to_spearman=àrdaich gu sleaghadair
+CommandName_promote_to_spearman_berserk=àrdaich gu sleaghadair
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=sleaghadair boile
+UnitTypeName_spearman_berserk=sleaghadair boile
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=uasail
@@ -890,10 +890,10 @@ CommandName_stop=stad
 CommandName_move=gluais
 CommandName_attack=thoir ionnsaigh
 CommandName_hold_position=seas
-CommandName_promote_to_swordman=àrdaich gu claidheamhair
+CommandName_promote_to_swordman_berserk=àrdaich gu claidheamhair
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=claidheamhair boile
+UnitTypeName_swordman_berserk=claidheamhair boile
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=uasail

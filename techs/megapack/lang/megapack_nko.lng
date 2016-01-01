@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=ߞߟߍ߬ߘߋ߲߬ߓߊ
 CommandName_stop=ߌ_ߟߐ߬
 CommandName_move=ߓߐߒߣߘߐߟߌ
 CommandName_attack=ߞߍߒߞߊ߲ߠߌ
-CommandName_promote_to_battleaxe=ߞߟߍ߬ߘߋ߲߬ߓߊ_ߟߊߥߊ߲߬ߞߊ߬
+CommandName_promote_to_battleaxe_berserk=ߞߟߍ߬ߘߋ߲߬ߓߊ_ߟߊߥߊ߲߬ߞߊ߬
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=ߞߟߍ߬ߘߋ߲߬ߓߊ_ߓߍߙߑߖ߭ߍߞ
+UnitTypeName_battleaxe_berserk=ߞߟߍ߬ߘߋ߲߬ߓߊ_ߓߍߙߑߖ߭ߍߞ
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -865,10 +865,10 @@ CommandName_stop=ߌ_ߟߐ߬
 CommandName_move=ߓߐߒߣߘߐߟߌ
 CommandName_attack=ߞߍߒߞߊ߲ߠߌ
 CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
-CommandName_promote_to_spearman=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߊ߲߬ߞߊ߬
+CommandName_promote_to_spearman_berserk=ߕߊ߲߬ߓߊ߬ߕߌ߮_ߟߊߥߊ߲߬ߞߊ߬
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=ߓߍߙߑߖ߭ߍߞ_ߕߊ߲߬ߓߊ߬ߕߌ߮
+UnitTypeName_spearman_berserk=ߓߍߙߑߖ߭ߍߞ_ߕߊ߲߬ߓߊ߬ߕߌ߮
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
@@ -890,10 +890,10 @@ CommandName_stop=ߌ_ߟߐ߬
 CommandName_move=ߓߐߒߣߘߐߟߌ
 CommandName_attack=ߞߍߒߞߊ߲ߠߌ
 CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
-CommandName_promote_to_swordman=ߝߊ߲߬ߕߌ߮_ߟߊߥߊ߲߬ߞߊ߬
+CommandName_promote_to_swordman_berserk=ߝߊ߲߬ߕߌ߮_ߟߊߥߊ߲߬ߞߊ߬
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=ߝߊ߲߬ߓߌ߮_ߓߍߙߑߖ߭ߍߞ
+UnitTypeName_swordman_berserk=ߝߊ߲߬ߓߌ߮_ߓߍߙߑߖ߭ߍߞ
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
