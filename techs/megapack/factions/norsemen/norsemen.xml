@@ -17,7 +17,7 @@
 		<unit name="spearman_berzerk" amount="0"/>
 		<unit name="cow" amount="1"/>
 		<unit name="wild_sow" amount="0"/>
-		<unit name="med_bar" amount="0"/>
+		<unit name="mead_bar" amount="0"/>
 		<unit name="bone_tent" amount="0"/>
 		<unit name="cudgel_lady" amount="0"/>
 		<unit name="axe_thrower" amount="1"/>

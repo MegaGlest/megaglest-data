@@ -151,7 +151,7 @@ LevelName_legendary=legendaren
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_dung_attack=dung_attack
+# CommandName_dung_attack=dung attack
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
@@ -177,7 +177,7 @@ LevelName_master=mojster
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_poison_shot=poison_shot
+# CommandName_poison_shot=poison shot
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
@@ -445,7 +445,7 @@ UnitTypeName_totem=totem
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_attack_off=napad onemogočen
-CommandName_air_on=air_on
+# CommandName_air_on=air on
 CommandName_research_petroleum=razišči olje
 CommandName_produce_shaman=naredi šamana
 ; -------------------------------------
@@ -555,7 +555,7 @@ LevelName_master=mojster
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_fire_breath=fire_breath
+# CommandName_fire_breath=fire breath
 CommandName_flare=blesk
 CommandName_hold_position=drži položaj
 ; -------------------------------------
@@ -694,11 +694,11 @@ CommandName_promote_to_behemoth=povišaj v velikana
 FactionName_norsemen=nordijci
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_iron=advanced_iron
+# UpgradeTypeName_advanced_iron=advanced iron
 UpgradeTypeName_arrow=arrow
-UpgradeTypeName_holy_valkyrie=holy_valkyrie
+# UpgradeTypeName_holy_valkyrie=holy valkyrie
 UpgradeTypeName_iron=železo
-UpgradeTypeName_med=med
+UpgradeTypeName_mead=med
 UpgradeTypeName_root=root
 ; -------------------------------------
 ; Unit
@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=battleaxe
 CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
-CommandName_promote_to_battleaxe=promote_to_battleaxe
+# CommandName_promote_to_battleaxe=promote to battleaxe
 ; -------------------------------------
 ; Unit
-UnitTypeName_battleaxe_berzerk=battleaxe_berzerk
+# UnitTypeName_battleaxe_berzerk=battleaxe berzerk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -750,20 +750,20 @@ UnitTypeName_blacksmith=blacksmith
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_upgrade_iron=upgrade_iron
-CommandName_upgrade_arrow=upgrade_arrow
-CommandName_upgrade_advanced_iron=upgrade_advanced_iron
-CommandName_produce_crossbow=produce_crossbow
+# CommandName_upgrade_iron=upgrade iron
+# CommandName_upgrade_arrow=upgrade arrow
+# CommandName_upgrade_advanced_iron=upgrade advanced iron
+# CommandName_produce_crossbow=produce crossbow
 ; -------------------------------------
 ; Unit
-UnitTypeName_bone_tent=bone_tent
+# UnitTypeName_bone_tent=bone tent
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_swordman=produce_swordman
+# CommandName_produce_swordman=produce swordman
 CommandName_produce_archer=naredi lokostrelca
-CommandName_produce_battleaxe=produce_battleaxe
+# CommandName_produce_battleaxe=produce battleaxe
 CommandName_produce_axe_thrower=naredi metalca sekire
 ; -------------------------------------
 ; Unit
@@ -772,7 +772,7 @@ UnitTypeName_castle=castle
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_thrull=produce_thrull
+# CommandName_produce_thrull=produce thrull
 ; -------------------------------------
 ; Unit
 UnitTypeName_cow=cow
@@ -791,11 +791,11 @@ UnitTypeName_crossbow=crossbow
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_attack_arrow=attack_arrow
+# CommandName_attack_arrow=attack arrow
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
-UnitTypeName_cudgel_lady=cudgel_lady
+# UnitTypeName_cudgel_lady=cudgel lady
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -810,7 +810,7 @@ UnitTypeName_farm=kmetija
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_cow=produce_cow
+# CommandName_produce_cow=produce cow
 ; -------------------------------------
 ; Unit
 UnitTypeName_flyingvalkyrie=flyingvalkyrie
@@ -830,18 +830,18 @@ UnitTypeName_house=house
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_cudgel_lady=produce_cudgel_lady
+# CommandName_produce_cudgel_lady=produce cudgel lady
 CommandName_produce_spearman=naredi suličarja
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=med_bar
+# UnitTypeName_mead_bar=med bar
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_cudgel_lady=produce_cudgel_lady
+# CommandName_produce_cudgel_lady=produce cudgel lady
 CommandName_produce_spearman=naredi suličarja
-CommandName_research_med=research_med
+# CommandName_research_mead=research med
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=mistletree
@@ -849,10 +849,10 @@ UnitTypeName_mistletree=mistletree
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_air_on=air_on
+# CommandName_air_on=air on
 CommandName_attack_off=napad onemogočen
-CommandName_research_root=research_root
-CommandName_resurrect_wild_sow=resurrect_wild_sow
+# CommandName_research_root=research root
+# CommandName_resurrect_wild_sow=resurrect wild sow
 ; -------------------------------------
 ; Unit
 UnitTypeName_spearman=suličar
@@ -865,10 +865,10 @@ CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
 CommandName_hold_position=drži položaj
-CommandName_promote_to_spearman=promote_to_spearman
+# CommandName_promote_to_spearman=promote to spearman
 ; -------------------------------------
 ; Unit
-UnitTypeName_spearman_berzerk=spearman_berzerk
+# UnitTypeName_spearman_berzerk=spearman berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -890,10 +890,10 @@ CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
 CommandName_hold_position=drži položaj
-CommandName_promote_to_swordman=promote_to_swordman
+# CommandName_promote_to_swordman=promote to swordman
 ; -------------------------------------
 ; Unit
-UnitTypeName_swordman_berzerk=swordman_berzerk
+# UnitTypeName_swordman_berzerk=swordman berzerk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -923,7 +923,7 @@ UnitTypeName_thortotem=thortotem
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_build_thor=build_thor
+# CommandName_build_thor=build thor
 ; -------------------------------------
 ; Unit
 UnitTypeName_thrull=thrull
@@ -1001,7 +1001,7 @@ LevelName_elite=elite
 CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
-CommandName_attack_arrow=attack_arrow
+# CommandName_attack_arrow=attack arrow
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
@@ -1042,7 +1042,7 @@ LevelName_elite=elite
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_magic_attack=magic_attack
+# CommandName_magic_attack=magic attack
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
@@ -1158,8 +1158,8 @@ UnitTypeName_temple=tempelj
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_princess=produce_princess
-CommandName_produce_swordman=produce_swordman
+# CommandName_produce_princess=produce princess
+# CommandName_produce_swordman=produce swordman
 ; -------------------------------------
 ; Unit
 UnitTypeName_tent=šotor
@@ -1213,10 +1213,10 @@ CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
 CommandName_hold_position=drži položaj
-CommandName_get_fire_arrows=get_fire_arrows
+# CommandName_get_fire_arrows=get fire arrows
 ; -------------------------------------
 ; Unit
-UnitTypeName_axe_man=axe_man
+# UnitTypeName_axe_man=axe man
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1246,8 +1246,8 @@ LevelName_elite=elite
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_attack_land=attack_land
-CommandName_attack_air=attack_air
+# CommandName_attack_land=attack land
+# CommandName_attack_air=attack air
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
@@ -1323,7 +1323,7 @@ UnitTypeName_forum=forum
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_slave=naredi sužnja
-CommandName_produce_cow=produce_cow
+# CommandName_produce_cow=produce cow
 ; -------------------------------------
 ; Unit
 UnitTypeName_general=general
@@ -1347,8 +1347,8 @@ LevelName_elite=elite
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_attack_land=attack_land
-CommandName_attack_air=attack_air
+# CommandName_attack_land=attack land
+# CommandName_attack_air=attack air
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
@@ -1357,7 +1357,7 @@ UnitTypeName_gladiator_school=šola za gladiatorje
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_train_gladiator=train_gladiator
+# CommandName_train_gladiator=train gladiator
 CommandName_produce_axe_man=naredi bojevnika s sekiro
 ; -------------------------------------
 ; Unit
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=suženj
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-CommandName_build_=build_
+# CommandName_build_=build
 CommandName_mine=pobiraj
 CommandName_harvest_wood=sekaj drva
 CommandName_repair=popravljaj
@@ -1555,7 +1555,7 @@ UnitTypeName_barracks=kasarna
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_swordman=produce_swordman
+# CommandName_produce_swordman=produce swordman
 CommandName_produce_archer=naredi lokostrelca
 CommandName_produce_guard=naredi stražarja
 CommandName_produce_horseman=naredi konjenika
@@ -1571,7 +1571,7 @@ LevelName_elite=elite
 CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
-CommandName_attack_arrow=attack_arrow
+# CommandName_attack_arrow=attack arrow
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
@@ -1629,7 +1629,7 @@ UnitTypeName_farm=kmetija
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_pig=naredi prašiča
-CommandName_produce_cow=produce_cow
+# CommandName_produce_cow=produce cow
 CommandName_research_stables=razišči konjušnico
 ; -------------------------------------
 ; Unit
@@ -1702,7 +1702,7 @@ CommandName_move=premakni
 CommandName_build_ultimate=zgradi napredno
 CommandName_repair=popravljaj
 CommandName_heal=zdravi
-CommandName_mine_gold=mine_gold
+# CommandName_mine_gold=mine gold
 CommandName_molotov=molotov
 CommandName_build_catapult=zgradi katapult
 CommandName_build_battle_machine=zgradi vojni stroj
@@ -1727,7 +1727,7 @@ UnitTypeName_worker=delavec
 CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_build_basic=zgradi osnovno
-CommandName_build_advanced=build_advanced
+# CommandName_build_advanced=build advanced
 CommandName_mine=pobiraj
 CommandName_harvest_wood=sekaj drva
 CommandName_repair=popravljaj

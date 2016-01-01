@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=fer perfectionné
 UpgradeTypeName_arrow=flèche
 UpgradeTypeName_holy_valkyrie=valkyrie sainte
 UpgradeTypeName_iron=fer
-UpgradeTypeName_med=hydromel
+UpgradeTypeName_mead=hydromel
 UpgradeTypeName_root=racine
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produire dame au gourdin
 CommandName_produce_spearman=produire lancier
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=bar à hydromel
+UnitTypeName_mead_bar=bar à hydromel
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produire dame au gourdin
 CommandName_produce_spearman=produire lancier
-CommandName_research_med=rechercher hydromel
+CommandName_research_mead=rechercher hydromel
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=boules de gui

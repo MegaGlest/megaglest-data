@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=gelişmiş demir
 UpgradeTypeName_arrow=ok
 UpgradeTypeName_holy_valkyrie=kutsal kadın savaşçı
 UpgradeTypeName_iron=demir
-# UpgradeTypeName_med=med
+# UpgradeTypeName_mead=med
 UpgradeTypeName_root=kök
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=sopalı kadın üretimi
 CommandName_produce_spearman=mızrakçı üret
 ; -------------------------------------
 ; Unit
-# UnitTypeName_med_bar=med bar
+# UnitTypeName_mead_bar=med bar
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=sopalı kadın üretimi
 CommandName_produce_spearman=mızrakçı üret
-# CommandName_research_med=research med
+# CommandName_research_mead=research med
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=Ökse ağacı

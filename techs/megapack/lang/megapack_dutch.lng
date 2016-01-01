@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=geavanceerd ijzer
 UpgradeTypeName_arrow=pijl
 UpgradeTypeName_holy_valkyrie=heilige walkure
 UpgradeTypeName_iron=ijzer
-UpgradeTypeName_med=honingdrank
+UpgradeTypeName_mead=honingdrank
 UpgradeTypeName_root=wortel
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produceer knuppel dame
 CommandName_produce_spearman=produceer speerdrager
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=honingdrank bar
+UnitTypeName_mead_bar=honingdrank bar
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produceer knuppel dame
 CommandName_produce_spearman=produceer speerdrager
-CommandName_research_med=onderzoek honingdrank
+CommandName_research_mead=onderzoek honingdrank
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=mistboom

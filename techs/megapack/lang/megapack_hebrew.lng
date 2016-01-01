@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=ברזל_מתקדם
 UpgradeTypeName_arrow=חץ
 UpgradeTypeName_holy_valkyrie=ואלקירי_קדושה
 UpgradeTypeName_iron=ברזל
-UpgradeTypeName_med=מעד
+UpgradeTypeName_mead=מעד
 UpgradeTypeName_root=שורש
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=מייצר_אשת_אלה
 CommandName_produce_spearman=מייצר_לוחם_רומח
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=מזנון_מעד
+UnitTypeName_mead_bar=מזנון_מעד
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=מייצר_אשת_אלה
 CommandName_produce_spearman=מייצר_לוחם_רומח
-CommandName_research_med=חפש_מעד
+CommandName_research_mead=חפש_מעד
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=עץ_טילים

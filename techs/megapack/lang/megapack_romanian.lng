@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=fier avansat
 UpgradeTypeName_arrow=săgeată
 UpgradeTypeName_holy_valkyrie=valkyrie sfânt
 UpgradeTypeName_iron=fier
-UpgradeTypeName_med=medicament
+UpgradeTypeName_mead=medicament
 UpgradeTypeName_root=rădăcină
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produ femeie măciucă
 CommandName_produce_spearman=produ sulițaș
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=bufet medicamente
+UnitTypeName_mead_bar=bufet medicamente
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produ femeie măciucă
 CommandName_produce_spearman=produ sulițaș
-CommandName_research_med=studiează medicamente
+CommandName_research_mead=studiează medicamente
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=arbore de vâsc

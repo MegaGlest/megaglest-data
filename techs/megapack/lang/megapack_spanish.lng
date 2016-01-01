@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=hierro avanzado
 UpgradeTypeName_arrow=flecha
 UpgradeTypeName_holy_valkyrie=valquiria sagrada
 UpgradeTypeName_iron=hierro
-UpgradeTypeName_med=medicina
+UpgradeTypeName_mead=medicina
 UpgradeTypeName_root=raíz
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=producir dama agarrotada
 CommandName_produce_spearman=producir lancero
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=barra de medicina
+UnitTypeName_mead_bar=barra de medicina
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=producir dama agarrotada
 CommandName_produce_spearman=producir lancero
-CommandName_research_med=investigar medicina
+CommandName_research_mead=investigar medicina
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=muérdago

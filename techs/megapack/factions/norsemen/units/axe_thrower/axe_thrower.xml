@@ -23,7 +23,7 @@
 			<light enabled="false"/>
 		<unit-requirements>
 			<unit name="house"/>
-			<unit name="med_bar"/>
+			<unit name="mead_bar"/>
 		</unit-requirements>
 		<upgrade-requirements>
 		</upgrade-requirements>

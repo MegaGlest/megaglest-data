@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=ferro avanzato
 UpgradeTypeName_arrow=freccia
 UpgradeTypeName_holy_valkyrie=valchiria sacra
 UpgradeTypeName_iron=ferro
-UpgradeTypeName_med=med
+UpgradeTypeName_mead=med
 UpgradeTypeName_root=radice
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produci donna con clava
 CommandName_produce_spearman=produci lancere
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=bar med
+UnitTypeName_mead_bar=bar med
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produci donna con clava
 CommandName_produce_spearman=produci lancere
-CommandName_research_med=ricerca med
+CommandName_research_mead=ricerca med
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=mistletree

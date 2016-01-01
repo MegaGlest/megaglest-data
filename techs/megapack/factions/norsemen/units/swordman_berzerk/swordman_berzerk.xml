@@ -25,11 +25,11 @@
 		<light enabled="false"/>
 		<unit-requirements>
 			<unit name="blacksmith"/>
-			<unit name="med_bar"/>
+			<unit name="mead_bar"/>
 		</unit-requirements>
 		<upgrade-requirements>
 			<upgrade name="root"/>
-			<upgrade name="med"/>
+			<upgrade name="mead"/>
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="wood" amount="30"/>
@@ -192,7 +192,8 @@
 			<move-skill value="charge_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-		
+
+		
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>

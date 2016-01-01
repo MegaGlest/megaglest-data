@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=高级钢铁
 UpgradeTypeName_arrow=弓箭
 UpgradeTypeName_holy_valkyrie=圣武神
 UpgradeTypeName_iron=钢铁
-UpgradeTypeName_med=草药
+UpgradeTypeName_mead=草药
 UpgradeTypeName_root=根
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=生产棍棒女士
 CommandName_produce_spearman=生产长矛兵
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=药庐
+UnitTypeName_mead_bar=药庐
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=生产棍棒女士
 CommandName_produce_spearman=生产长矛兵
-CommandName_research_med=研究药物
+CommandName_research_mead=研究药物
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=米索树

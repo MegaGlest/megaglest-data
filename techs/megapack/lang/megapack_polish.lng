@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=zaawansowane Żelazo ('Advanced iron')
 UpgradeTypeName_arrow=strzały ('Arrows')
 UpgradeTypeName_holy_valkyrie=Święta walkiria ('Holy valkyrie')
 UpgradeTypeName_iron=Żelazo ('Iron')
-UpgradeTypeName_med=miód pitny ('Mead')
+UpgradeTypeName_mead=miód pitny ('Mead')
 UpgradeTypeName_root=korzeń ('Root')
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produkcja damy z maczugą\n('Produce cudgel lady
 CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=bar z miodem pitnym\n('Mead bar')
+UnitTypeName_mead_bar=bar z miodem pitnym\n('Mead bar')
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produkcja damy z maczugą\n('Produce cudgel lady')
 CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
-CommandName_research_med=odkrycie miodu pitnego\n('Research mead')
+CommandName_research_mead=odkrycie miodu pitnego\n('Research mead')
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=jemiołowe drzewo\n('Mistletoe tree')

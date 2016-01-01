@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=iarainn adhartach
 UpgradeTypeName_arrow=saighead
 UpgradeTypeName_holy_valkyrie=bailgiridh naomh
 UpgradeTypeName_iron=iarainn
-UpgradeTypeName_med=mil-dheoch
+UpgradeTypeName_mead=mil-dheoch
 UpgradeTypeName_root=freumh
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=dèan bean chuaille
 CommandName_produce_spearman=dèan sleaghadair
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=bàr mil-dhighe
+UnitTypeName_mead_bar=bàr mil-dhighe
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=dèan bean chuaille
 CommandName_produce_spearman=dèan sleaghadair
-CommandName_research_med=rannsaich mil-dheoch
+CommandName_research_mead=rannsaich mil-dheoch
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=craobh uile-ìce

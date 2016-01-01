@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=железные сплавы
 UpgradeTypeName_arrow=стрела
 UpgradeTypeName_holy_valkyrie=праведная валькирия
 UpgradeTypeName_iron=железо
-UpgradeTypeName_med=медовуха
+UpgradeTypeName_mead=медовуха
 UpgradeTypeName_root=корень
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=обучить даму с дубиной
 CommandName_produce_spearman=обучить копьеносца
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=питейное заведение
+UnitTypeName_mead_bar=питейное заведение
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=обучить даму с дубиной
 CommandName_produce_spearman=обучить копьеносца
-CommandName_research_med=узнать рецепт медовухи
+CommandName_research_mead=узнать рецепт медовухи
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=туманное дерево

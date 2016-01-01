@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=ferro avançado
 UpgradeTypeName_arrow=flecha
 UpgradeTypeName_holy_valkyrie=Santa Valquíria
 UpgradeTypeName_iron=Ferro
-UpgradeTypeName_med=medicação
+UpgradeTypeName_mead=medicação
 UpgradeTypeName_root=raiz
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produzir Sra Clava
 CommandName_produce_spearman=produzir Lanceiros
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=Bar de Medicina
+UnitTypeName_mead_bar=Bar de Medicina
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produzir Sra Clava
 CommandName_produce_spearman=produzir Lanceiros
-CommandName_research_med=procurar medicina
+CommandName_research_mead=procurar medicina
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=Visco\n

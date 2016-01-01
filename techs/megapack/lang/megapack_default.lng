@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=advanced iron
 UpgradeTypeName_arrow=arrow
 UpgradeTypeName_holy_valkyrie=holy valkyrie
 UpgradeTypeName_iron=iron
-UpgradeTypeName_med=med
+UpgradeTypeName_mead=mead
 UpgradeTypeName_root=root
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produce cudgel lady
 CommandName_produce_spearman=produce spearman
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=med bar
+UnitTypeName_mead_bar=mead bar
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produce cudgel lady
 CommandName_produce_spearman=produce spearman
-CommandName_research_med=research med
+CommandName_research_mead=research mead
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=mistletree

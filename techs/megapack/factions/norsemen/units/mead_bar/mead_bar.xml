@@ -141,12 +141,12 @@
 		<!-- *** command 2 *** -->
 		<command>
 			<type value="upgrade"/>
-			<name value="research_med"/>
-			<image path="../../upgrades/med/images/med.bmp" />
+			<name value="research_mead"/>
+			<image path="../../upgrades/mead/images/med.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="med"/>
+			<produced-upgrade name="mead"/>
 		</command>				
 
 	</commands>

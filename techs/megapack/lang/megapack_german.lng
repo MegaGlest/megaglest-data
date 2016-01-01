@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=optimiertes Eisen
 UpgradeTypeName_arrow=Pfeil
 UpgradeTypeName_holy_valkyrie=Heilige Walküre
 UpgradeTypeName_iron=Eisen
-UpgradeTypeName_med=Met
+UpgradeTypeName_mead=Met
 UpgradeTypeName_root=Wurzel
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produziere Keulenlady
 CommandName_produce_spearman=produziere Speerkrieger
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=Met Bar
+UnitTypeName_mead_bar=Met Bar
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produziere Keulenlady
 CommandName_produce_spearman=produziere Speerkrieger
-CommandName_research_med=erfinde Met
+CommandName_research_mead=erfinde Met
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=Mistelbaum

@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=προηγμένο σίδερο
 UpgradeTypeName_arrow=βέλος
 UpgradeTypeName_holy_valkyrie=ιερή Βαλκυρία
 UpgradeTypeName_iron=σίδερο
-UpgradeTypeName_med=γιατρος
+UpgradeTypeName_mead=γιατρος
 UpgradeTypeName_root=ρίζα
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=παραγωγή ρόπαλου
 CommandName_produce_spearman=παραγωγή ακοντιστων
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=γιατρος
+UnitTypeName_mead_bar=γιατρος
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=παραγωγή ρόπαλου
 CommandName_produce_spearman=παραγωγή ακοντιστων
-CommandName_research_med=έρευνα γιατρου
+CommandName_research_mead=έρευνα γιατρου
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=δέντρο mistle

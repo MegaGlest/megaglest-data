@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=pokročilé železo
 UpgradeTypeName_arrow=šíp
 UpgradeTypeName_holy_valkyrie=svatá valkýra
 UpgradeTypeName_iron=železo
-UpgradeTypeName_med=medovina
+UpgradeTypeName_mead=medovina
 UpgradeTypeName_root=kořen
 ; -------------------------------------
 ; Unit
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=produkovat dámu s palicí
 CommandName_produce_spearman=produkovat kopiníka
 ; -------------------------------------
 ; Unit
-UnitTypeName_med_bar=výčep s medovinou
+UnitTypeName_mead_bar=výčep s medovinou
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produkovat dámu s palicí
 CommandName_produce_spearman=produkovat kopiníka
-CommandName_research_med=výzkum medoviny
+CommandName_research_mead=výzkum medoviny
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletree=strom se jmelím

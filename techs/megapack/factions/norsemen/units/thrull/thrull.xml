@@ -241,7 +241,7 @@
 			<build-skill value="build_skill"/>
 			<buildings>
                                 <building name="house"/>
-				<building name="med_bar"/>
+				<building name="mead_bar"/>
 				<building name="bone_tent"/>
 				<building name="blacksmith"/>	
 				<building name="farm"/>	
@@ -323,7 +323,7 @@
 			<repaired-units>
 				<unit name="farm"/>		
 				<unit name="bone_tent"/>		
-				<unit name="med_bar"/>						
+				<unit name="mead_bar"/>
 				<unit name="blacksmith"/>		
 				<unit name="house"/>		
 				<unit name="thortotem"/>		

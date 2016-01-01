@@ -11,7 +11,7 @@
 		<resource name="wood" amount="100"/>
 	</resource-requirements>
 	<effects>
-		<unit name="med_bar"/>
+		<unit name="mead_bar"/>
 	</effects>
 	<max-hp value="0"/>
 	<max-ep value="0"/>
