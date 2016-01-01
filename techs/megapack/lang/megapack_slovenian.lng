@@ -300,7 +300,7 @@ UnitTypeName_campfire=taborni ogenj
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_firegolem=naredi ognjenega golema
+CommandName_produce_fire_golem=naredi ognjenega golema
 CommandName_research_iron=razišči železo
 CommandName_research_iron_advanced=razišči napredno železo
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=napadi
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
-UnitTypeName_firegolem=firegolem
+UnitTypeName_fire_golem=firegolem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=starodaven

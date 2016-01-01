@@ -300,7 +300,7 @@ UnitTypeName_campfire=营火
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_firegolem=生产火石魔
+CommandName_produce_fire_golem=生产火石魔
 CommandName_research_iron=研究钢铁
 CommandName_research_iron_advanced=研究高级钢铁
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=攻击
 CommandName_hold_position=坚守阵地
 ; -------------------------------------
 ; Unit
-UnitTypeName_firegolem=火石魔
+UnitTypeName_fire_golem=火石魔
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=远古人

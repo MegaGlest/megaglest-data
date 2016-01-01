@@ -120,12 +120,12 @@
 	<commands>
 		<command>
 			<type value="produce"/>
-			<name value="produce_firegolem" />
-			<image path="../firegolem/images/firegolem.bmp" />
+			<name value="produce_fire_golem" />
+			<image path="../fire_golem/images/firegolem.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="firegolem"/>
+			<produced-unit name="fire_golem"/>
 		</command>
                 <command>
 			<type value="upgrade"/>

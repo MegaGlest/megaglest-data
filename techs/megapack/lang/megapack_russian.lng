@@ -300,7 +300,7 @@ UnitTypeName_campfire=костёр
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_firegolem=создать огненного голема
+CommandName_produce_fire_golem=создать огненного голема
 CommandName_research_iron=исследование железа
 CommandName_research_iron_advanced=исследовать железные сплавы
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=атака
 CommandName_hold_position=занять позицию
 ; -------------------------------------
 ; Unit
-UnitTypeName_firegolem=огненный голем
+UnitTypeName_fire_golem=огненный голем
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=древний

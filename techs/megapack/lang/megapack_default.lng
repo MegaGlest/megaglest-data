@@ -300,7 +300,7 @@ UnitTypeName_campfire=campfire
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_firegolem=produce firegolem
+CommandName_produce_fire_golem=produce firegolem
 CommandName_research_iron=research iron
 CommandName_research_iron_advanced=research iron advanced
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=attack
 CommandName_hold_position=hold position
 ; -------------------------------------
 ; Unit
-UnitTypeName_firegolem=firegolem
+UnitTypeName_fire_golem=firegolem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=ancient

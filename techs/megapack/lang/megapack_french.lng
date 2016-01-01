@@ -300,7 +300,7 @@ UnitTypeName_campfire=feu de camp
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_firegolem=produire golem de feu
+CommandName_produce_fire_golem=produire golem de feu
 CommandName_research_iron=rechercher fer
 CommandName_research_iron_advanced=rechercher fer perfectionné
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=attaque
 CommandName_hold_position=tenir la position
 ; -------------------------------------
 ; Unit
-UnitTypeName_firegolem=golem de feu
+UnitTypeName_fire_golem=golem de feu
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=ancien

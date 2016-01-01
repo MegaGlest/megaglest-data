@@ -300,7 +300,7 @@ UnitTypeName_campfire=ߘߊ߯ߕߊ
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_firegolem=ߕߟߊߞߛߌ_ߟߊߥߟߏ߫
+CommandName_produce_fire_golem=ߕߟߊߞߛߌ_ߟߊߥߟߏ߫
 CommandName_research_iron=ߣߍ߱_ߢߌߣߌ߲߫
 CommandName_research_iron_advanced=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲_ߢߌߣߌ߲߫
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=ߞߍߒߞߊ߲ߠߌ
 CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
 ; -------------------------------------
 ; Unit
-UnitTypeName_firegolem=ߕߟߊߞߛߌ
+UnitTypeName_fire_golem=ߕߟߊߞߛߌ
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=ߞߘߐ߬ߡߊ߲

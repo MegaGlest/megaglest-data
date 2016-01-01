@@ -300,7 +300,7 @@ UnitTypeName_campfire=fogueira
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_firegolem=produzir golem de fogo
+CommandName_produce_fire_golem=produzir golem de fogo
 CommandName_research_iron=estudar ferro
 CommandName_research_iron_advanced=estudar ferro avançado
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=atacar
 CommandName_hold_position=Mantenha a Posição
 ; -------------------------------------
 ; Unit
-UnitTypeName_firegolem=Golem de fogo
+UnitTypeName_fire_golem=Golem de fogo
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=Ancião
