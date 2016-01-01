@@ -329,7 +329,7 @@ CommandName_attack=útok
 CommandName_hold_position=držet pozici
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=koňská farma
+UnitTypeName_horse_farm=koňská farma
 ; --------------------
 ; Levels for this Unit
 ; --------------------

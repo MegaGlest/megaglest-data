@@ -329,7 +329,7 @@ CommandName_attack=attaque
 CommandName_hold_position=tenir la position
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=Elevage de chevaux
+UnitTypeName_horse_farm=Elevage de chevaux
 ; --------------------
 ; Levels for this Unit
 ; --------------------

@@ -329,7 +329,7 @@ CommandName_attack=Angreifen
 CommandName_hold_position=halte Position
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=Pferdefarm
+UnitTypeName_horse_farm=Pferdefarm
 ; --------------------
 ; Levels for this Unit
 ; --------------------

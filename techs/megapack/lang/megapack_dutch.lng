@@ -329,7 +329,7 @@ CommandName_attack=aanvallen
 CommandName_hold_position=houd positie
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=manege
+UnitTypeName_horse_farm=manege
 ; --------------------
 ; Levels for this Unit
 ; --------------------

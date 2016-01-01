@@ -329,7 +329,7 @@ CommandName_attack=תקוף
 CommandName_hold_position=שמור_על_עמדתך
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=אורווה
+UnitTypeName_horse_farm=אורווה
 ; --------------------
 ; Levels for this Unit
 ; --------------------

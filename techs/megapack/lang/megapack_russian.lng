@@ -329,7 +329,7 @@ CommandName_attack=атака
 CommandName_hold_position=занять позицию
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=коневодство
+UnitTypeName_horse_farm=коневодство
 ; --------------------
 ; Levels for this Unit
 ; --------------------

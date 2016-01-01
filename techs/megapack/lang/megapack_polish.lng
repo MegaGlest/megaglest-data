@@ -329,7 +329,7 @@ CommandName_attack=atak ('Attack')
 CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=stadnina koni ('Horse farm')\n
+UnitTypeName_horse_farm=stadnina koni ('Horse farm')\n
 ; --------------------
 ; Levels for this Unit
 ; --------------------

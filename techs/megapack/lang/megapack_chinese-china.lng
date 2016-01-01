@@ -329,7 +329,7 @@ CommandName_attack=攻击
 CommandName_hold_position=坚守阵地
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=马场
+UnitTypeName_horse_farm=马场
 ; --------------------
 ; Levels for this Unit
 ; --------------------

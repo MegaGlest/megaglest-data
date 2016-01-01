@@ -245,7 +245,7 @@
 				<building name="campfire"/>
 				<building name="reed"/>
 				<building name="totem"/>
-				<building name="horsefarm"/>
+				<building name="horse_farm"/>
 				<building name="main_teepee"/>
 			</buildings>
 			<start-sound enabled="false"/>
@@ -305,7 +305,7 @@
 				<unit name="big_tent"/>
 				<unit name="totem"/>
 				<unit name="main_teepee"/>
-				<unit name="horsefarm"/>
+				<unit name="horse_farm"/>
 				<unit name="reed"/>
 				<unit name="campfire"/>
 				<unit name="beehive"/>

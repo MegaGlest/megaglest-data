@@ -329,7 +329,7 @@ CommandName_attack=thoir ionnsaigh
 CommandName_hold_position=seas
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=tuathanas eich
+UnitTypeName_horse_farm=tuathanas eich
 ; --------------------
 ; Levels for this Unit
 ; --------------------

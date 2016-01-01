@@ -329,7 +329,7 @@ CommandName_attack=napadi
 CommandName_hold_position=drži položaj
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=konjska kmetija
+UnitTypeName_horse_farm=konjska kmetija
 ; --------------------
 ; Levels for this Unit
 ; --------------------

@@ -329,7 +329,7 @@ CommandName_attack=atacă
 CommandName_hold_position=menține poziția
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=fermă cai
+UnitTypeName_horse_farm=fermă cai
 ; --------------------
 ; Levels for this Unit
 ; --------------------

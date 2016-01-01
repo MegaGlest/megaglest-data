@@ -329,7 +329,7 @@ CommandName_attack=επίθεση
 CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=φάρμα αλόγων
+UnitTypeName_horse_farm=φάρμα αλόγων
 ; --------------------
 ; Levels for this Unit
 ; --------------------

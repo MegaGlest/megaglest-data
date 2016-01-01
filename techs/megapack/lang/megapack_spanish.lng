@@ -329,7 +329,7 @@ CommandName_attack=atacar
 CommandName_hold_position=mantener la posición
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=caballeriza
+UnitTypeName_horse_farm=caballeriza
 ; --------------------
 ; Levels for this Unit
 ; --------------------

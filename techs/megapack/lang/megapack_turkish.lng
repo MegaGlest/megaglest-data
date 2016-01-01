@@ -329,7 +329,7 @@ CommandName_attack=Saldırı
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
 ; Unit
-UnitTypeName_horsefarm=at çiftliği
+UnitTypeName_horse_farm=at çiftliği
 ; --------------------
 ; Levels for this Unit
 ; --------------------
