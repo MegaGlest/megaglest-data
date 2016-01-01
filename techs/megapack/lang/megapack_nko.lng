@@ -229,7 +229,7 @@ FactionName_indian=ߌ߲ߘߎߞߊ
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=ߕߎߙߓߊߟߏ
 UpgradeTypeName_iron=ߣߍ߱
-UpgradeTypeName_iron_advanced=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲
+UpgradeTypeName_advanced_iron=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲
 UpgradeTypeName_petroleum=ߕߟߎ
 UpgradeTypeName_stables=ߛߏ߬ߛߟߎ ߟߎ߬
 UpgradeTypeName_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬ ߘߊ߮
@@ -302,7 +302,7 @@ UnitTypeName_campfire=ߘߊ߯ߕߊ
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=ߕߟߊߞߛߌ_ߟߊߥߟߏ߫
 CommandName_research_iron=ߣߍ߱_ߢߌߣߌ߲߫
-CommandName_research_iron_advanced=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲_ߢߌߣߌ߲߫
+CommandName_research_advanced_iron=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲_ߢߌߣߌ߲߫
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=ߞߟߊߕߌ߮_ߕߊߕߊ߮

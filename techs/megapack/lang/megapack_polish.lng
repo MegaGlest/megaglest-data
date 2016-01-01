@@ -229,7 +229,7 @@ FactionName_indian=Indianie
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=karma dla byków ('Bull food')
 UpgradeTypeName_iron=Żelazo ('Iron')
-UpgradeTypeName_iron_advanced=zaawansowane Żelazo ('Advanced iron')
+UpgradeTypeName_advanced_iron=zaawansowane Żelazo ('Advanced iron')
 UpgradeTypeName_petroleum=nafta ('Petroleum')
 UpgradeTypeName_stables=stajnie ('Stables')
 UpgradeTypeName_training_field=plac treningowy ('Training field')
@@ -302,7 +302,7 @@ UnitTypeName_campfire=ognisko ('Campfire')
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=produkcja ognistego golema\n('Produce fire golem')
 CommandName_research_iron=odkrycie Żelaza ('Research iron')
-CommandName_research_iron_advanced=odkrycie zaawansow. Żelaza\n('Research advanced iron')
+CommandName_research_advanced_iron=odkrycie zaawansow. Żelaza\n('Research advanced iron')
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=ognisty Łucznik\n('Fire archer')

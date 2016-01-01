@@ -229,7 +229,7 @@ FactionName_indian=Ινδός
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=τροφή ταύρου
 UpgradeTypeName_iron=σίδερο
-UpgradeTypeName_iron_advanced=προηγμένο σίδερο
+UpgradeTypeName_advanced_iron=προηγμένο σίδερο
 UpgradeTypeName_petroleum=πετρέλαιο
 UpgradeTypeName_stables=στάβλοι
 UpgradeTypeName_training_field=χώρος προπονησης
@@ -302,7 +302,7 @@ UnitTypeName_campfire=φωτιά
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=παραγωγή φωτιάς
 CommandName_research_iron=έρευνα σιδήρου
-CommandName_research_iron_advanced=έρευνα προηγμένου σιδήρου
+CommandName_research_advanced_iron=έρευνα προηγμένου σιδήρου
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=φωτιά τοξότη

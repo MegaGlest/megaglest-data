@@ -229,7 +229,7 @@ FactionName_indian=indian
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=hrană vită
 UpgradeTypeName_iron=fier
-UpgradeTypeName_iron_advanced=fier avansat
+UpgradeTypeName_advanced_iron=fier avansat
 UpgradeTypeName_petroleum=petrol
 UpgradeTypeName_stables=grajduri
 UpgradeTypeName_training_field=câmp antrenament
@@ -302,7 +302,7 @@ UnitTypeName_campfire=foc de tabără
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=produ golem foc
 CommandName_research_iron=studiează fierul
-CommandName_research_iron_advanced=studiează fierul avansat
+CommandName_research_advanced_iron=studiează fierul avansat
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=arcaș foc

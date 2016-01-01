@@ -229,7 +229,7 @@ FactionName_indian=Innseanaich
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=biadh sprèidhe
 UpgradeTypeName_iron=iarainn
-UpgradeTypeName_iron_advanced=iarainn adhartach
+UpgradeTypeName_advanced_iron=iarainn adhartach
 UpgradeTypeName_petroleum=ola
 UpgradeTypeName_stables=stàballan
 UpgradeTypeName_training_field=raon trèanaidh
@@ -302,7 +302,7 @@ UnitTypeName_campfire=teine campa
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=dèan gòileam teine
 CommandName_research_iron=rannsaich iarainn
-CommandName_research_iron_advanced=rannsaich iarainn adhartach
+CommandName_research_advanced_iron=rannsaich iarainn adhartach
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=boghadair teine

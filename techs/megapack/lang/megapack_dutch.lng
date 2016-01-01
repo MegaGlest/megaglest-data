@@ -229,7 +229,7 @@ FactionName_indian=indiaan
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=stieren voedsel
 UpgradeTypeName_iron=ijzer
-UpgradeTypeName_iron_advanced=geavanceerd ijzer
+UpgradeTypeName_advanced_iron=geavanceerd ijzer
 UpgradeTypeName_petroleum=petroleum
 UpgradeTypeName_stables=stallen
 UpgradeTypeName_training_field=oefen veld
@@ -302,7 +302,7 @@ UnitTypeName_campfire=kampvuur
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=produceer vuurgolem
 CommandName_research_iron=onderzoek ijzer
-CommandName_research_iron_advanced=onderzoek ijzer geavanceerd
+CommandName_research_advanced_iron=onderzoek ijzer geavanceerd
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=vuur boogschutter

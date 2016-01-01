@@ -229,7 +229,7 @@ FactionName_indian=Indianer
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=Bullenfutter
 UpgradeTypeName_iron=Eisen
-UpgradeTypeName_iron_advanced=optimiertes Eisen
+UpgradeTypeName_advanced_iron=optimiertes Eisen
 UpgradeTypeName_petroleum=Petroleum
 UpgradeTypeName_stables=Stallungen
 UpgradeTypeName_training_field=Trainingsfeld
@@ -302,7 +302,7 @@ UnitTypeName_campfire=Lagerfeuer
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=produziere Feuergolem
 CommandName_research_iron=Eisen erforschen
-CommandName_research_iron_advanced=optimiertes Eisen erforschen
+CommandName_research_advanced_iron=optimiertes Eisen erforschen
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=Brandpfeilschütze

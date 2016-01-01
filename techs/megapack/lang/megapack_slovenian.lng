@@ -229,7 +229,7 @@ FactionName_indian=indijanci
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=bullfood
 UpgradeTypeName_iron=železo
-UpgradeTypeName_iron_advanced=napredno železo
+UpgradeTypeName_advanced_iron=napredno železo
 UpgradeTypeName_petroleum=olje
 UpgradeTypeName_stables=konjušnica
 UpgradeTypeName_training_field=vadbišče
@@ -302,7 +302,7 @@ UnitTypeName_campfire=taborni ogenj
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=naredi ognjenega golema
 CommandName_research_iron=razišči železo
-CommandName_research_iron_advanced=razišči napredno železo
+CommandName_research_advanced_iron=razišči napredno železo
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=ognjeni lokostrelec

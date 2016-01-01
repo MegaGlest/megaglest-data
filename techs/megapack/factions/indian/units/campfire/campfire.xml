@@ -138,12 +138,12 @@
 		</command>
                 <command>
 			<type value="upgrade"/>
-			<name value="research_iron_advanced"/>
-			<image path="../../upgrades/iron_advanced/images/iron_advanced.bmp"/>
+			<name value="research_advanced_iron"/>
+			<image path="../../upgrades/advanced_iron/images/iron_advanced.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="iron_advanced"/>
+			<produced-upgrade name="advanced_iron"/>
 		</command>
 
 	</commands>

@@ -229,7 +229,7 @@ FactionName_indian=indiáni
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=býčí potrava
 UpgradeTypeName_iron=železo
-UpgradeTypeName_iron_advanced=pokročilé železo
+UpgradeTypeName_advanced_iron=pokročilé železo
 UpgradeTypeName_petroleum=ropa
 UpgradeTypeName_stables=stáje
 UpgradeTypeName_training_field=výcvikové pole
@@ -302,7 +302,7 @@ UnitTypeName_campfire=ohniště
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=produkovat ohnivého golema
 CommandName_research_iron=vývoj železa
-CommandName_research_iron_advanced=vývoj pokročilého železa
+CommandName_research_advanced_iron=vývoj pokročilého železa
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=požární lučištník

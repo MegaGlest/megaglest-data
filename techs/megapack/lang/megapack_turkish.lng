@@ -229,7 +229,7 @@ FactionName_indian=kızılderili
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=Boğa yemi
 UpgradeTypeName_iron=demir
-UpgradeTypeName_iron_advanced=gelişmiş demir
+UpgradeTypeName_advanced_iron=gelişmiş demir
 UpgradeTypeName_petroleum=petrol
 UpgradeTypeName_stables=ahırlar
 UpgradeTypeName_training_field=eğitim alanı
@@ -302,7 +302,7 @@ UnitTypeName_campfire=kamp ateşi
 ; Types of Commands for this Unit
 # CommandName_produce_fire_golem=produce firegolem
 CommandName_research_iron=demir araştır
-CommandName_research_iron_advanced=gelişmiş demir araştır
+CommandName_research_advanced_iron=gelişmiş demir araştır
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=ateş okçusu

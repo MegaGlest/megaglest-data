@@ -229,7 +229,7 @@ FactionName_indian=印第安
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=牛饲料
 UpgradeTypeName_iron=钢铁
-UpgradeTypeName_iron_advanced=高级钢铁
+UpgradeTypeName_advanced_iron=高级钢铁
 UpgradeTypeName_petroleum=石油
 UpgradeTypeName_stables=马厩
 UpgradeTypeName_training_field=训练场
@@ -302,7 +302,7 @@ UnitTypeName_campfire=营火
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=生产火石魔
 CommandName_research_iron=研究钢铁
-CommandName_research_iron_advanced=研究高级钢铁
+CommandName_research_advanced_iron=研究高级钢铁
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=火箭射手

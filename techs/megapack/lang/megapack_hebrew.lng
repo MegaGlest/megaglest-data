@@ -229,7 +229,7 @@ FactionName_indian=אינדיאנים
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=מזון_שוורים
 UpgradeTypeName_iron=ברזל
-UpgradeTypeName_iron_advanced=ברזל_מתקדם
+UpgradeTypeName_advanced_iron=ברזל_מתקדם
 UpgradeTypeName_petroleum=נפט
 UpgradeTypeName_stables=אורוות
 UpgradeTypeName_training_field=שדה_אימונים
@@ -302,7 +302,7 @@ UnitTypeName_campfire=מדורה
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=מייצר_גולם_אש
 CommandName_research_iron=חוקר_מתכת
-CommandName_research_iron_advanced=חוקר_מתכת_מתקדמת
+CommandName_research_advanced_iron=חוקר_מתכת_מתקדמת
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=קשת_אש

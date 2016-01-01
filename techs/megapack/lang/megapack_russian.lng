@@ -229,7 +229,7 @@ FactionName_indian=индейцы
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=корм
 UpgradeTypeName_iron=железо
-UpgradeTypeName_iron_advanced=железные сплавы
+UpgradeTypeName_advanced_iron=железные сплавы
 UpgradeTypeName_petroleum=нефть
 UpgradeTypeName_stables=конюшни
 UpgradeTypeName_training_field=тренировочная площадка
@@ -302,7 +302,7 @@ UnitTypeName_campfire=костёр
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=создать огненного голема
 CommandName_research_iron=исследование железа
-CommandName_research_iron_advanced=исследовать железные сплавы
+CommandName_research_advanced_iron=исследовать железные сплавы
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=огненный лучник

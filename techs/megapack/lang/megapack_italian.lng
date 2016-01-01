@@ -229,7 +229,7 @@ FactionName_indian=indiano
 ; Types of Upgrades for this Faction
 UpgradeTypeName_bull_food=carne di toro
 UpgradeTypeName_iron=ferro
-UpgradeTypeName_iron_advanced=ferro avanzato
+UpgradeTypeName_advanced_iron=ferro avanzato
 UpgradeTypeName_petroleum=petrolio
 UpgradeTypeName_stables=stalle
 UpgradeTypeName_training_field=campo di allenamento
@@ -302,7 +302,7 @@ UnitTypeName_campfire=falò
 ; Types of Commands for this Unit
 CommandName_produce_fire_golem=produci golem di fuoco
 CommandName_research_iron=ricerca ferro
-CommandName_research_iron_advanced=ricerca ferro avanzato
+CommandName_research_advanced_iron=ricerca ferro avanzato
 ; -------------------------------------
 ; Unit
 UnitTypeName_fire_archer=arciere con frecce infuocate
