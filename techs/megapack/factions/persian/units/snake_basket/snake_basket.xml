@@ -6,16 +6,16 @@
 		<height value="1"/>
 		<max-hp value="7000" regeneration="0"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="20"/>	
-		<armor-type value="wood"/>			
+		<armor value="20"/>
+		<armor-type value="wood"/>
 		<sight value="16"/>
-		<time value="140"/>	
+		<time value="140"/>
 		<multi-selection value="false"/>
 		<cellmap value="false"/>
-		<levels/>	
+		<levels/>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties>
 			<property value="burnable"/>
 		</properties>
@@ -28,7 +28,7 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="250"/>
-			<resource name="wood" amount="250"/>			
+			<resource name="wood" amount="250"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/defense_tower.bmp"/>
@@ -43,10 +43,10 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="100"/>
@@ -54,21 +54,19 @@
 			<sound enabled="false"/>
 		</skill>
 
-
 		<skill>
 			<type value="move"/>
-			<name value="charge_skill"/>		
+			<name value="charge_skill"/>
 			<ep-cost value="0"/>
 			<speed value="0"/>
 			<anim-speed value="150"/>
 			<animation path="models/snake_basket.g3d"/>
 			<sound enabled="false"/>
-		</skill>	
-                
+		</skill>
 
 		<skill>
 			<type value="be_built"/>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
@@ -78,7 +76,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
@@ -115,10 +113,9 @@
 			</splash>
 		</skill>
 
-			
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
@@ -129,12 +126,12 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
-	
+
 	<commands>
 		<command>
 			<type value="stop"/>

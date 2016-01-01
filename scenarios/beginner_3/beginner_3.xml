@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes" ?> 
+<?xml version="1.0" standalone="yes" ?>
 <scenario>
 	<difficulty value="1"/>
 	<players>
@@ -12,6 +12,6 @@
 	<tech-tree value="megapack"/>
 	<default-resources value="true"/>
 	<default-units value="true"/>
-	<default-victory-conditions value="true"/>	
+	<default-victory-conditions value="true"/>
 	<scripts/>
 </scenario>

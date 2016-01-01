@@ -6,12 +6,12 @@
 		<height value="2"/>
 		<max-hp value="2800"  regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="30"/>	
+		<armor value="30"/>
 		<armor-type value="metal"/>
 		<max-unit-count value="5"/>
 		<sight value="15"/>
-		<time value="80"/>	
-		<multi-selection value="true"/>	
+		<time value="80"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="esteemed" kills="10"/>
@@ -19,7 +19,7 @@
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -87,10 +87,10 @@
                         </attack-boost>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="170"/>
 			<anim-speed value="40"/>
@@ -117,7 +117,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
@@ -137,7 +137,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack12.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
-			</sound> 
+			</sound>
                         <attack-boost>
 				<allow-multiple-boosts value="false" />
 				<radius value="10"/>
@@ -158,7 +158,7 @@
 			<attack-strenght value="170"/>
 			<attack-var value="75"/>
 			<attack-range value="1"/>
-			<attack-type value="slashing"/>	
+			<attack-type value="slashing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -168,8 +168,8 @@
 		</skill>
 
 		<skill>
-			<type value="die"/>	
-			<name value="die_skill"/>		
+			<type value="die"/>
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
@@ -182,10 +182,10 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-		
+
 		<skill>
-			<type value="move"/>		
-			<name value="charge_skill"/>		
+			<type value="move"/>
+			<name value="charge_skill"/>
 			<ep-cost value="0"/>
 			<speed value="170"/>
 			<anim-speed value="40"/>
@@ -207,11 +207,11 @@
 					<affected-particle-file path="glow_particles.xml"/>
 				</particles>
                         </attack-boost>
-			<sound enabled="false"/>			
-		</skill>	
+			<sound enabled="false"/>
+		</skill>
 
 	</skills>
-	
+
 	<commands>
 		<command>
 			<type value="stop"/>

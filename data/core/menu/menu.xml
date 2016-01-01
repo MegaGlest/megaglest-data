@@ -17,7 +17,7 @@
 		<masterserver-position x="4" y="10" z="-14"/>
                 <mods-position x="4" y="10" z="-14"/>
 		<scenario-position x="10" y="13" z="2"/>
-		
+
 		<start-rotation x="0" y="0" z="0"/>
 		<root-rotation x="0" y="-40" z="0"/>
 		<about-rotation x="0" y="-80" z="0"/>
@@ -28,7 +28,7 @@
 		<join-game-rotation x="0" y="12" z="0"/>
 		<masterserver-rotation x="0" y="-18" z="0"/>
                 <mods-rotation x="0" y="-18" z="0"/>
-		<scenario-rotation x="0" y="-10" z="0"/>		
+		<scenario-rotation x="0" y="-10" z="0"/>
 	</camera>
 	<intro>
 

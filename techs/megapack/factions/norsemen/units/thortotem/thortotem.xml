@@ -9,16 +9,16 @@
 		<height value="3"/>
 		<max-hp value="3000" regeneration="0"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
-		<armor-type value="wood"/>			
+		<armor value="20"/>
+		<armor-type value="wood"/>
 		<sight value="16"/>
-		<time value="20"/>	
+		<time value="20"/>
 		<multi-selection value="false"/>
 		<cellmap value="false"/>
-		<levels/>	
+		<levels/>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties>
 			<!--property value="burnable"/-->
 		</properties>
@@ -43,14 +43,13 @@
 		</command-sounds>
 	</parameters>
 
-
 	<!-- *** skills *** -->
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="100"/>
@@ -60,7 +59,7 @@
 
 		<skill>
 			<type value="morph"/>
-			<name value="build_thor"/>		
+			<name value="build_thor"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="0"/>
@@ -68,10 +67,10 @@
 			<sound enabled="false">
 			</sound>
 		</skill>
-		
+
                 <skill>
 			<type value="be_built"/>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="0"/>
@@ -81,7 +80,7 @@
 <!--
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="90"/>
@@ -114,21 +113,21 @@
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
 			<animation path="../castle/destruction_models/castle_destruction.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
 <!--
 		<command>

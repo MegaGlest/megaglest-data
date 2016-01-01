@@ -52,33 +52,33 @@
                         <model path="models/palm2.g3d" />
                         <model path="models/baum2.g3d" />
                         <model path="models/baum2big.g3d" />
-                        <model path="models/baum2.g3d" />	
-		</object>					
+                        <model path="models/baum2.g3d" />
+		</object>
 		<object walkable="false">
-			<model path="models/nettles2.g3d"/>			
-			<model path="models/nettles1.g3d"/>			
-			<model path="models/nettles2.g3d"/>			
+			<model path="models/nettles2.g3d"/>
+			<model path="models/nettles1.g3d"/>
+			<model path="models/nettles2.g3d"/>
 			<model path="models/stump2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
-			
+
 			<model path="models/stone2.g3d"/>
 			<model path="models/stone3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="true">
                         <model path="models/farn.g3d"/>
-		</object>					
+		</object>
                 <object walkable="true">
 			<model path="models/reed.g3d"/>
-		</object>										
+		</object>
 		<object walkable="false">
 			<model path="models/deathtree.g3d"/>
 			<model path="models/deathtree_small.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/hanged.g3d"/>
 			<model path="models/impaled.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/obelisk.g3d"/>
 			<model path="models/statue.g3d"/>
@@ -87,24 +87,24 @@
                         <model path="models/battlemage_statue.g3d"/>
 			<model path="models/swordman_statue.g3d"/>
                         <model path="models/broken_statue2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/big_stone.g3d"/>
 			<model path="models/big_stone2.g3d"/>
 			<model path="models/big_stone3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/none.g3d"/>
-		</object>					
+		</object>
 	</objects>
-	
+
 	<ambient-sounds>
 		<day-sound enabled="true" path="sounds/sunny_day.ogg" play-always="false"/>
 		<night-sound enabled="true" path="sounds/nightime.ogg" play-always="false"/>
 		<rain-sound enabled="true" path="sounds/rain.ogg"/>
-		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="sounds/rooster.ogg"/>	
-		<night-start-sound enabled="true" path="sounds/owl.ogg"/>						
+		<snow-sound enabled="false"/>
+		<day-start-sound enabled="true" path="sounds/rooster.ogg"/>
+		<night-start-sound enabled="true" path="sounds/owl.ogg"/>
 	</ambient-sounds>
 
 	<parameters>
@@ -122,7 +122,7 @@
 		<sun-light red="1" green="1" blue="1"/>
 		<moon-light red="0.2" green="0.2" blue="0.3"/>
 		<day-night value="0.7"/>
-		<weather sun="0.60" rain="0.30" snow="0.10"/> 
+		<weather sun="0.60" rain="0.30" snow="0.10"/>
 	</parameters>
 </tileset>
 

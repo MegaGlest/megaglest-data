@@ -13,8 +13,8 @@
 			<texture path="textures/meadow1.bmp" prob="0.20"/>
 			<texture path="textures/meadow2.bmp" prob="0.20"/>
 			<texture path="textures/meadow3.bmp" prob="0.20"/>
-			<texture path="textures/meadow4.bmp" prob="0.20"/>	
-			<texture path="textures/meadow5.bmp" prob="0.20"/>	
+			<texture path="textures/meadow4.bmp" prob="0.20"/>
+			<texture path="textures/meadow5.bmp" prob="0.20"/>
 		</surface>
 		<surface>
 			<texture path="textures/surface2a.bmp" prob="0.25"/>
@@ -44,66 +44,66 @@
 
 	<objects>
 		<object walkable="false">
-			<model path="models/fir.g3d"/>	
-			<model path="models/fir2.g3d"/>	
-			<model path="models/fir2.g3d"/>	
-			<model path="models/fir3.g3d"/>	
-		</object>					
+			<model path="models/fir.g3d"/>
+			<model path="models/fir2.g3d"/>
+			<model path="models/fir2.g3d"/>
+			<model path="models/fir3.g3d"/>
+		</object>
 		<object walkable="false">
 			<model path="models/swamp_tree_dead.g3d"/>
 			<model path="models/swamp_tree_dead_2.g3d"/>
 			<model path="models/swamp_tree_dead_3.g3d"/>
 			<model path="models/swamp_tree_dead_4.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">]
 			<model path="models/swamp_rock.g3d"/>
 			<model path="models/swamp_rock_1.g3d"/>
 			<model path="models/swamp_rock_2.g3d"/>
 			<model path="models/swamp_rock_3.g3d"/>
 			<model path="models/swamp_rock_4.g3d"/>
-		</object>					
+		</object>
 		<object walkable="true">
 			<model path="models/swamp_bush.g3d"/>
 			<model path="models/swamp_bush2.g3d"/>
 			<model path="models/swamp_bush3.g3d"/>
-		</object>					
+		</object>
                 <object walkable="true">
 			<model path="models/swamp_water_1.g3d"/>
 			<model path="models/swamp_water_2.g3d"/>
 			<model path="models/swamp_water_3.g3d"/>
-		</object>										
+		</object>
 		<object walkable="false">
 			<model path="models/burned1.g3d"/>
 			<model path="models/burned2.g3d"/>
 			<model path="models/burned3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/swamp_mushroom.g3d"/>
 			<model path="models/swamp_mushroom_2.g3d"/>
 			<model path="models/swamp_mushroom_3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/swamp_ruin.g3d"/>
 			<model path="models/swamp_ruin2.g3d"/>
 			<model path="models/swamp_ruin3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/br1.g3d"/>
 			<model path="models/br2.g3d"/>
 			<model path="models/br3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/none.g3d"/>
-		</object>					
+		</object>
 	</objects>
-	
+
 	<ambient-sounds>
 		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
 		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
 		<rain-sound enabled="true" path="sounds/rain.ogg"/>
-		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="sounds/mudchute_cow_1.ogg"/>	
-		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+		<snow-sound enabled="false"/>
+		<day-start-sound enabled="true" path="sounds/mudchute_cow_1.ogg"/>
+		<night-start-sound enabled="true" path="sounds/wolf.wav"/>
 	</ambient-sounds>
 
 	<parameters>
@@ -117,7 +117,7 @@
 			<texture path="textures/water_007.tga"/>
 			<texture path="textures/water_008.tga"/>
 		</water>
-		<fog enabled="false" mode="2" density="0.000" color-red="0.0" color-green="0.3" color-blue="1" /> 
+		<fog enabled="false" mode="2" density="0.000" color-red="0.0" color-green="0.3" color-blue="1" />
 		<sun-light red="1" green="1" blue="1"/>
 		<moon-light red="0.3" green="0.3" blue="1"/>
 		<day-night value="0.7"/>

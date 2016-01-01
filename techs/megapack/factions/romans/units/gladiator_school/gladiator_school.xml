@@ -43,10 +43,10 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
-			<type value="stop"/>	
+			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="50" />
@@ -54,64 +54,64 @@
 			<animation path="models/school.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
-			<type value="be_built" />	
-			<name value="be_built_skill"/>		
+			<type value="be_built" />
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/school_build.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="upgrade"/>	
-			<name value="upgrade_skill"/>	
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/school.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill"/>	
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="280" />
 			<anim-speed value="150" />
 			<animation path="models/school_pruduse.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill2"/>	
+			<name value="produce_skill2"/>
 			<ep-cost value="0" />
 			<speed value="280" />
 			<anim-speed value="50" />
 			<animation path="models/school_pruduse2.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="die" />	
-			<name value="die_skill"/>		
+			<type value="die" />
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/school_die.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
-	
+
 	<commands>
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="train_gladiator" />
@@ -120,8 +120,8 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="gladiator"/>
-		</command>	
-		
+		</command>
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_axe_man" />
@@ -131,6 +131,6 @@
 			<produce-skill value="produce_skill2"/>
 			<produced-unit name="axe_man"/>
 		</command>
-			
+
 	</commands>
 </unit>

@@ -6,18 +6,18 @@
 		<height value="2"/>
 		<max-hp value="1000"  regeneration="2"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
+		<armor value="20"/>
 		<armor-type value="metal"/>
 		<sight value="11"/>
-		<time value="80"/>	
-		<multi-selection value="true"/>	
+		<time value="80"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="4"/>
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -61,10 +61,10 @@
 			<animation path="models/g_stand.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="170"/>
 			<anim-speed value="100"/>
@@ -74,7 +74,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
@@ -94,11 +94,11 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack12.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
-			</sound> 
+			</sound>
 			<attack-strenght value="100"/>
 			<attack-var value="10"/>
 			<attack-range value="2"/>
-			<attack-type value="piercing"/>	
+			<attack-type value="piercing"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>
@@ -109,7 +109,7 @@
 
               	<skill>
 			<type value="attack"/>
-			<name value="attack_air_skill"/>		
+			<name value="attack_air_skill"/>
 			<ep-cost value="0"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
@@ -146,8 +146,8 @@
 		</skill>
 
 		<skill>
-			<type value="die"/>	
-			<name value="die_skill"/>		
+			<type value="die"/>
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="110"/>
@@ -160,19 +160,19 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-		
+
 		<skill>
-			<type value="move"/>		
-			<name value="charge_skill"/>		
+			<type value="move"/>
+			<name value="charge_skill"/>
 			<ep-cost value="0"/>
 			<speed value="250"/>
 			<anim-speed value="130"/>
 			<animation path="models/g_walk.g3d"/>
-			<sound enabled="false"/>			
-		</skill>	
+			<sound enabled="false"/>
+		</skill>
 
 	</skills>
-	
+
 	<commands>
 		<command>
 			<type value="stop"/>

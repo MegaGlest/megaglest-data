@@ -6,11 +6,11 @@
 		<height value="1"/>
 		<max-hp value="1300" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
+		<armor value="20"/>
 		<armor-type value="organic"/>
 		<sight value="15"/>
-		<time value="450"/>	
-		<multi-selection value="true"/>	
+		<time value="450"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="ancient" kills="4"/>
@@ -18,14 +18,14 @@
 		</levels>
 		<fields>
 			<field value="air"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
 			<!--<unit name="archmage_tower"/>-->
-		</unit-requirements> 
+		</unit-requirements>
 		<upgrade-requirements>
-			
+
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="200"/>
@@ -47,24 +47,23 @@
 
 	</parameters>
 
-
 	<!-- *** skills *** -->
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="75"/>
 			<animation path="models/dragon_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="350"/>
 			<anim-speed value="75"/>
@@ -76,7 +75,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_ground_skill"/>		
+			<name value="attack_ground_skill"/>
 			<ep-cost value="0"/>
 			<speed value="40"/>
 			<anim-speed value="70"/>
@@ -104,7 +103,7 @@
 			<splash value="true">				<radius value="1"/>				<damage-all value="true"/>				<particle value="true" path="particle_splash.xml"/>			</splash>		</skill>
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="40"/>
 			<anim-speed value="100"/>
@@ -124,10 +123,9 @@
 			<splash value="false"/>
 		</skill>
 
-	
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
@@ -135,14 +133,14 @@
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/eagle_die1.wav"/>
 				<sound-file path="sounds/eagle_die2.wav"/>
-			</sound>			
+			</sound>
 			<fade value="true"/>
 		</skill>
 
 	</skills>
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -160,7 +158,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 		</command>
-
 
                 <command>
 			<type value="attack"/>

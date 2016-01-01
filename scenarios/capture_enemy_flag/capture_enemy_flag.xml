@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes" ?> 
+<?xml version="1.0" standalone="yes" ?>
 <scenario>
 	<difficulty value="3"/>
 	<players>
@@ -44,32 +44,32 @@
                         disableConsume(2)
 
                         -- create player2 units
-			createUnit('castle', 1, startLocation(1))	
-                        player2_home= lastCreatedUnit()		
+			createUnit('castle', 1, startLocation(1))
+                        player2_home= lastCreatedUnit()
                         createUnit('swordman', 1, startLocation(1))
                         createUnit('archer', 1, startLocation(1))
                         createUnit('battle_machine', 1, startLocation(1))
                         --highlightUnit(lastCreatedUnit(),flag_bearer_selection_radius,flag_bearer_selection_thickness,flag_bearer_selection_color)
 			--player2Unit= lastCreatedUnit()
 
-			giveResource('gold', 1, 250); 
+			giveResource('gold', 1, 250);
 			giveResource('wood', 1, 150);
-			giveResource('food', 1, 100);  
+			giveResource('food', 1, 100);
 
                         -- create player3 units
-			createUnit('bigtent', 2, startLocation(2))	
-                        player3_home= lastCreatedUnit()		
+			createUnit('bigtent', 2, startLocation(2))
+                        player3_home= lastCreatedUnit()
                         createUnit('stickfighter', 2, startLocation(2))
                         createUnit('fire_archer', 2, startLocation(2))
                         createUnit('firegolem', 2, startLocation(2))
-			--player3Unit= lastCreatedUnit()		
+			--player3Unit= lastCreatedUnit()
 
-			giveResource('gold', 2, 250); 
+			giveResource('gold', 2, 250);
 			giveResource('wood', 2, 150);
-			giveResource('food', 2, 100);  
+			giveResource('food', 2, 100);
 
                         -- create player1 units
-			createUnit('forum', 0, startLocation(0))	
+			createUnit('forum', 0, startLocation(0))
                         for i=1, 5 do
                                 createUnit('slave', 0, startLocation(0))
                                 createUnit('spearman', 0, startLocation(0))
@@ -77,10 +77,10 @@
                         createUnit('battering_ram', 0, startLocation(0))
                         createUnit('cow', 0, startLocation(0))
                         createUnit('guard_tower', 0, startLocation(0))
-                
-			giveResource('gold', 0, 250); 
+
+			giveResource('gold', 0, 250);
 			giveResource('wood', 0, 150);
-			giveResource('food', 0, 100);  
+			giveResource('food', 0, 100);
 
                         -- setup the flags
                         addCellMarker(2,'The flag for player 2!','',player2_flag_location)
@@ -105,10 +105,10 @@
                                 showMarker(1000, 2,'The flag for player 3!','',player3_flag_location)
                         end
 		</startup>
-		
-		<unitCreated>		
-		</unitCreated>	
-		
+
+		<unitCreated>
+		</unitCreated>
+
 		<unitDied>
 
                         if lastDeadUnit() == player3_has_flag_unit and player3_has_flag_unit > 0 then
@@ -136,7 +136,7 @@
                                 setPlayerAsWinner(2)
                                 endGame()
                         end
-		</unitDied>		
+		</unitDied>
 
 		<cellTriggerEvent>
                         if debug_print ~= 0 then
@@ -162,7 +162,6 @@
                                 networkShowMessageForFaction('Player3InFlagZoneWarning','Warning',1)
 
                                 unregisterCellTriggerEvent(triggeredCellEventId())
-
 
                         elseif triggeredCellEventId() == player3_enemy_has_flag_event then
 
@@ -214,7 +213,7 @@
                                 player2_has_flag_unit = triggeredCellEventUnitId()
                                 highlightUnit(player2_has_flag_unit,flag_bearer_selection_radius,flag_bearer_selection_thickness,flag_bearer_selection_color)
                                 player2_touch_home_event = registerCellTriggerEventForUnitToUnit(triggeredCellEventUnitId(),player2_home)
-                                
+
                                 if debug_print ~= 0 then
                                         print('triggeredCellEventId() == player2_has_flag_event: ' .. player2_touch_home_event)
                                 end
@@ -257,5 +256,5 @@
 
 		<timerTriggerEvent>
 		</timerTriggerEvent>
-	</scripts>		
+	</scripts>
 </scenario>

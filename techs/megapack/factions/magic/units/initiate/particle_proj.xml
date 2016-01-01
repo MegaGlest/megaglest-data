@@ -13,7 +13,7 @@
     	<emission-rate value="20" />
     	<energy-max value="10" />
     	<energy-var value="2" />
-	
+
 	<trajectory type="linear">
 		<speed value="10.0"/>
 	</trajectory>

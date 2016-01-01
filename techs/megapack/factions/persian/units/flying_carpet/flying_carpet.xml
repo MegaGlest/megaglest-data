@@ -6,18 +6,18 @@
 		<height value="1"/>
 		<max-hp value="900" regeneration="2"/>
 		<max-ep value="0"/>
-		<armor value="15"/>	
+		<armor value="15"/>
 		<armor-type value="organic"/>
 		<sight value="15"/>
-		<time value="240"/>	
-		<multi-selection value="true"/>	
+		<time value="240"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="7"/>
 		</levels>
 		<fields>
 			<field value="air"/>
-		</fields>	
+		</fields>
 		<properties>
 		</properties>
 		<damage-particles value="true">
@@ -33,8 +33,8 @@
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="150"/>
-			<resource name="wood" amount="150"/>	
-			<resource name="food" amount="1"/>				
+			<resource name="wood" amount="150"/>
+			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/flying_carpet.bmp"/>
@@ -49,17 +49,17 @@
 			<sound path="sounds/carpet_ack1.wav"/>
 			<sound path="sounds/carpet_ack2.wav"/>
 			<sound path="sounds/carpet_ack3.wav"/>
-			<sound path="sounds/carpet_ack4.wav"/>		
+			<sound path="sounds/carpet_ack4.wav"/>
 			<sound path="sounds/carpet_ack5.wav"/>
 		</command-sounds>
 
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="35"/>
@@ -68,10 +68,10 @@
 				<sound-file path="$COMMONDATAPATH/sounds/orni_standing.wav"/>
 			</sound>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="250"/>
 			<anim-speed value="75"/>
@@ -84,10 +84,10 @@
 				<sound-file path="$COMMONDATAPATH/sounds/orni_fly.wav"/>
 			</sound>
 		</skill>
-		
+
 		<skill>
 			<type value="attack"/>
-			<name value="molotov_skill"/>		
+			<name value="molotov_skill"/>
 			<ep-cost value="0"/>
 			<speed value="35"/>
 			<anim-speed value="100"/>
@@ -98,7 +98,7 @@
 				<sound-file path="sounds/carpet_attack3.wav"/>
 				<sound-file path="sounds/carpet_attack5.wav"/>
 				<sound-file path="sounds/carpet_attack6.wav"/>
-			</sound> 
+			</sound>
 			<attack-strenght value="150"/>
 			<attack-var value="100"/>
 			<attack-range value="6"/>
@@ -120,13 +120,11 @@
 				<damage-all value="true"/>
 				<particle value="true" path="molotov_particle_splash.xml"/>
 			</splash>
-		</skill>			
-		
-
+		</skill>
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
@@ -152,7 +150,7 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-                
+
 		<command>
 			<type value="move"/>
 			<name value="move"/>
@@ -171,7 +169,7 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="molotov_skill"/>
 		</command>
-		
+
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>

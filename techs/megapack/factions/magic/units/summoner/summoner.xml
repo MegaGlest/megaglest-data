@@ -8,15 +8,15 @@
 		<max-hp value="500" regeneration="4"/>
 		<max-ep value="500" regeneration="5"/>
 		<armor value="0"/>
-		<armor-type value="leather"/>					
+		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="80"/>	
-		<multi-selection value="true"/>	
+		<time value="80"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -61,20 +61,20 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
 			<animation path="models/summoner_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
 			<anim-speed value="120"/>
@@ -84,7 +84,7 @@
 
 		<skill>
 			<type value="produce"/>
-			<name value="summon_skill"/>		
+			<name value="summon_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
 			<anim-speed value="80"/>
@@ -99,7 +99,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="80"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
@@ -141,7 +141,7 @@
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
@@ -151,24 +151,23 @@
 				<sound-file path="sounds/summoner_die2.wav"/>
 				<sound-file path="sounds/summoner_die3.wav"/>
 				<sound-file path="sounds/summoner_die4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
 			<animation path="models/summoner_standing.g3d"/>
-			<sound enabled="false"/>			
+			<sound enabled="false"/>
 		</skill>
 
-                
                 <skill>
 			<type value="morph"/>
-			<name value="morph_skill"/>		
+			<name value="morph_skill"/>
 			<ep-cost value="0"/>
 			<speed value="250"/>
 			<anim-speed value="80"/>
@@ -177,9 +176,9 @@
 		</skill>
 
 	</skills>
-	
+
 	<commands>
-		
+
 		<command>
 			<type value= "stop"/>
 			<name value="stop"/>
@@ -247,7 +246,7 @@
 			<produce-skill value="summon_skill"/>
 			<produced-unit name="dragon"/>
 		</command>
-                
+
                 <command>
 			<type value="morph"/>
 			<name value="summon_drake"/>
@@ -257,7 +256,7 @@
 			<morph-skill value="morph_skill"/>
 			<morph-unit name= "drake_rider"/>
 			<discount value="0"/>
-		</command>	
+		</command>
 
 	</commands>
 </unit>

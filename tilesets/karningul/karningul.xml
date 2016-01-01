@@ -53,37 +53,37 @@
                         <model path="models/tree7.g3d"/>
 			<model path="models/mallorn.g3d"/>
                         <model path="models/dark_tree.g3d"/>
-			<model path="models/brown_tree.g3d"/>			
-		 </object>					
+			<model path="models/brown_tree.g3d"/>
+		 </object>
 		 <object walkable="false">
 			<model path="models/dead_tree.g3d"/>
-		  </object>					
+		  </object>
 		 <object walkable="false">
 			<model path="models/stone1.g3d"/>
 			<model path="models/stone2.g3d"/>
-		  </object>					
+		  </object>
 		 <object walkable="true">
 			<model path="models/atheleas.g3d"/>
             <model path="models/fern.g3d"/>
             <model path="models/flower.g3d"/>
             <model path="models/bush_flower.g3d"/>
             <model path="models/bush5.g3d"/>
-		  </object>					
+		  </object>
          <object walkable="true">
 			<model path="models/riverside_object.g3d"/>
             <model path="models/riverside_object2.g3d"/>
             <model path="models/riverside_object3.g3d"/>
             <model path="models/riverside_object4.g3d"/>
             <model path="models/riverside_object5.g3d"/>
-		  </object>										
+		  </object>
 		 <object walkable="false">
 			<model path="models/big_tree1.g3d"/>
 			<model path="models/big_tree2.g3d"/>
-		  </object>					
+		  </object>
 		 <object walkable="false">
 			<model path="models/hanging_garden.g3d"/>
 			<model path="models/hanging_garden2.g3d"/>
-		  </object>					
+		  </object>
 		 <object walkable="false">
 			<model path="models/birdbath.g3d"/>
 			<model path="models/statue.g3d"/>
@@ -92,24 +92,24 @@
             <model path="models/wise_elf_statue.g3d"/>
 			<model path="models/swordman_statue.g3d"/>
             <model path="models/sword_holder_statue.g3d"/>
-		  </object>					
+		  </object>
 		 <object walkable="false">
 			<model path="models/big_stone.g3d"/>
 			<model path="models/big_stone2.g3d"/>
 			<model path="models/big_stone3.g3d"/>
-		  </object>					
+		  </object>
 		 <object walkable="false">
 			<model path="models/none.g3d"/>
-		  </object>					
+		  </object>
 	</objects>
-	
+
 	<ambient-sounds>
 		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
 		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
 		<rain-sound enabled="true" path="sounds/rain.ogg"/>
-		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="sounds/chicken.wav"/>	
-		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+		<snow-sound enabled="false"/>
+		<day-start-sound enabled="true" path="sounds/chicken.wav"/>
+		<night-start-sound enabled="true" path="sounds/wolf.wav"/>
 	</ambient-sounds>
 
 	<parameters>
@@ -127,6 +127,6 @@
 		<sun-light red="1.0" green="1.0" blue="1.0"/>
 		<moon-light red="0.3" green="0.3" blue="0.4"/>
 		<day-night value="0.7"/>
-		<weather sun="0.7" rain="0.3" snow="0"/> 
+		<weather sun="0.7" rain="0.3" snow="0"/>
 	</parameters>
 </tileset>

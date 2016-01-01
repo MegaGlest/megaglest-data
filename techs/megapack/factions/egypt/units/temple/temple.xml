@@ -47,10 +47,10 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
-			<type value="stop"/>	
+			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="50" />
@@ -58,54 +58,54 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
-			<type value="be_built" />	
-			<name value="be_built_skill"/>		
+			<type value="be_built" />
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="../pyramid/construction_models/barracks_construction.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="upgrade"/>	
-			<name value="upgrade_skill"/>	
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill"/>	
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="die" />	
-			<name value="die_skill"/>		
+			<type value="die" />
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="../pyramid/destruction_models/barracks_destruction.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
-	
+
 	<commands>
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_priest" />
@@ -115,8 +115,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="priest"/>
 		</command>
-		
-		
+
 		<!--command>
 			<type value="produce"/>
 			<name value="produce_ibis" />
@@ -138,7 +137,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="summon_scarab"/>
 		</command>
-				
+
 		<command>
 			<type value="upgrade"/>
 			<name value="research_ibis"/>
@@ -148,13 +147,11 @@
 		</unit-requirements>
 		<upgrade-requirements>
 			<upgrade name="summon_scarab"/>
-		</upgrade-requirements>		
+		</upgrade-requirements>
 		<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="summon_ibis"/>
 		</command>
 
-		
-				
 		<command>
 			<type value="upgrade"/>
 			<name value="get_power_of_ra"/>
@@ -162,9 +159,9 @@
 			<unit-requirements />
 			<upgrade-requirements>
 				<upgrade name="summon_ibis"/>
-			</upgrade-requirements>		
+			</upgrade-requirements>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="power_of_ra"/>
-		</command>				
+		</command>
 	</commands>
 </unit>

@@ -45,10 +45,10 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
-			<type value="stop"/>	
+			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="50" />
@@ -56,40 +56,40 @@
 			<animation path="models/palace.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
-			<type value="be_built" />	
-			<name value="be_built_skill"/>		
+			<type value="be_built" />
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="../palace/construction_models/barracks_construction.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="upgrade"/>	
-			<name value="upgrade_skill"/>	
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/palace.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill"/>	
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/palace.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="die" />	
-			<name value="die_skill"/>		
+			<type value="die" />
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -100,12 +100,12 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
-	
+
 	<commands>
 
 		<command>
@@ -116,7 +116,7 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="princess"/>
-		</command>		
+		</command>
 
 		<command>
 			<type value="produce"/>
@@ -127,7 +127,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="swordman"/>
 		</command>
-		
-		
+
 	</commands>
 </unit>

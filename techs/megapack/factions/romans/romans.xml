@@ -3,9 +3,9 @@
 <faction>
 	<starting-resources>
 		<resource name="gold" amount="500"/>
-		<resource name="wood" amount="500"/>	
-		<resource name="stone" amount="500"/>	
-		<resource name="food" amount="50"/>	
+		<resource name="wood" amount="500"/>
+		<resource name="stone" amount="500"/>
+		<resource name="food" amount="50"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="forum" amount="1"/>
@@ -29,9 +29,8 @@
 		<unit name="ballista" amount="0"/>
 		<unit name="fire_archer" amount="0"/>
 		<unit name="battering_ram" amount="0"/>
-	</starting-units>	
+	</starting-units>
 	<music value="true" path="music/romans.ogg"/>
 	<flat-particle-positions value="true"/>
 </faction>
-
 

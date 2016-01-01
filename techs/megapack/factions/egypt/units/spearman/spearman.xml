@@ -6,18 +6,18 @@
 		<height value="2"/>
 		<max-hp value="530" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="16"/>	
-		<armor-type value="leather"/>				
+		<armor value="16"/>
+		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="35"/>	
-		<multi-selection value="true"/>	
+		<time value="35"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="3"/>
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -27,7 +27,7 @@
 		<resource-requirements>
 			<resource name="wood" amount="25"/>
 			<resource name="gold" amount="50"/>
-			<resource name="food" amount="1"/>						
+			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/swordman.bmp"/>
@@ -50,10 +50,10 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
@@ -63,7 +63,7 @@
 
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="90"/>
@@ -73,7 +73,7 @@
 
 		<skill>
 			<type value="move"/>
-			<name value="charge_skill"/>		
+			<name value="charge_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="125"/>
@@ -83,7 +83,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
@@ -98,7 +98,7 @@
 				<sound-file path="sounds/spearman_attack5.wav"/>
 				<sound-file path="sounds/spearman_attack6.wav"/>
 				<sound-file path="sounds/spearman_attack9.wav"/>
-			</sound> 
+			</sound>
 			<attack-strenght value="80"/>
 			<attack-var value="30"/>
 			<attack-range value="1"/>
@@ -113,17 +113,17 @@
 
 		<skill>
 			<type value="morph"/>
-			<name value="morph_skill"/>		
+			<name value="morph_skill"/>
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="80"/>
 			<animation path="models/spearman_standing.g3d"/>
 			<sound enabled="false"/>
-		</skill>	
+		</skill>
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="40"/>
@@ -132,15 +132,14 @@
 				<sound-file path="sounds/spearman_die1.wav"/>
 				<sound-file path="sounds/spearman_die2.wav"/>
 				<sound-file path="sounds/spearman_die3.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
-
 	</skills>
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -169,7 +168,6 @@
 			<attack-skill value="attack_skill"/>
 		</command>
 
-		
 		<!--command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
@@ -191,7 +189,7 @@
 			<morph-skill value="morph_skill"/>
 			<morph-unit name= "guard"/>
 			<discount value="60"/>
-		</command-->	
+		</command-->
 
 	</commands>
 </unit>

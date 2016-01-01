@@ -7,7 +7,7 @@
 		<max-hp value="9000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="stone"/>				
+		<armor-type value="stone"/>
 		<sight value="15" />
 		<time value="300" />
 		<multi-selection value="false" />
@@ -36,9 +36,9 @@
 		</resource-requirements>
 		<resources-stored>
 			<resource name= "gold" amount="2000"/>
-			<resource name= "wood" amount="1200"/>				
-			<resource name= "stone" amount="1500"/>				
-			<resource name= "food" amount="150"/>	
+			<resource name= "wood" amount="1200"/>
+			<resource name= "stone" amount="1500"/>
+			<resource name= "food" amount="150"/>
 		</resources-stored>
 		<image path="images/castle.bmp" />
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
@@ -50,43 +50,43 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<!-- *** skills *** -->
 	<skills>
 
 		<skill>
 			<type value="stop" />
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="be_built" />
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="construction_models/castle_construction.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="produce" />
-			<name value="produce_skill"/>		
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -97,7 +97,7 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
-			</sound>			
+			</sound>
 			<shake enabled="true" intensity="1000" duration="120" start-time="0.0">
 				<self enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
 				<team enabled="true" visible="false" in-camera-view="false" camera-distance-affected="false"/>
@@ -107,10 +107,10 @@
 		</skill>
 
 	</skills>
-	
+
 	<!-- *** commands *** -->
 	<commands>
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_thrull" />
@@ -119,8 +119,7 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="thrull"/>
-		</command>	
-
+		</command>
 
 	</commands>
 </unit>

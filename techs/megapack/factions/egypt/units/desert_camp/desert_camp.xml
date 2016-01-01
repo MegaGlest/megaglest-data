@@ -43,10 +43,10 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
-			<type value="stop"/>	
+			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="50" />
@@ -54,50 +54,50 @@
 			<animation path="models/desert_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
-			<type value="be_built" />	
-			<name value="be_built_skill"/>		
+			<type value="be_built" />
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/desert_camp_construction.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="upgrade"/>	
-			<name value="upgrade_skill"/>	
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/desert_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="produce"/>
-			<name value="produce_black_skill"/>	
+			<name value="produce_black_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/desert_camp_produce_black.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="produce"/>
-			<name value="produce_white_skill"/>	
+			<name value="produce_white_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="200" />
 			<animation path="models/desert_camp_produce_white.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
-			<type value="die" />	
-			<name value="die_skill"/>		
+			<type value="die" />
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -108,14 +108,14 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
-	
+
 	<commands>
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_spearthrower" />
@@ -125,7 +125,7 @@
 			<produce-skill value="produce_white_skill"/>
 			<produced-unit name="spearthrower"/>
 		</command>
-		
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_spearman" />
@@ -135,7 +135,7 @@
 			<produce-skill value="produce_black_skill"/>
 			<produced-unit name="spearman"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_spear_weapons" />
@@ -147,6 +147,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="spear_weapons"/>
 		</command>
-		
+
 	</commands>
 </unit>

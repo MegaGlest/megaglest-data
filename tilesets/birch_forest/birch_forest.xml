@@ -36,34 +36,34 @@
                         <model path="models/birke4_mush.g3d" anim-speed="19" smoothTwoFrameAnim="true"/>
                         <model path="models/birke3_mush.g3d" anim-speed="20" smoothTwoFrameAnim="true"/>
                         <model path="models/birke5_grass.g3d" anim-speed="17" smoothTwoFrameAnim="true"/>
-		</object>					
+		</object>
 		<object walkable="false">
-			<model path="models/willow7.g3d" anim-speed="17" smoothTwoFrameAnim="true"/>			
-			<model path="models/willow8.g3d" anim-speed="16" smoothTwoFrameAnim="true"/>			
-			<model path="models/willow6.g3d" anim-speed="18" smoothTwoFrameAnim="true"/>			
-			<model path="models/willow8.g3d" anim-speed="19" smoothTwoFrameAnim="true"/>			
-		</object>					
+			<model path="models/willow7.g3d" anim-speed="17" smoothTwoFrameAnim="true"/>
+			<model path="models/willow8.g3d" anim-speed="16" smoothTwoFrameAnim="true"/>
+			<model path="models/willow6.g3d" anim-speed="18" smoothTwoFrameAnim="true"/>
+			<model path="models/willow8.g3d" anim-speed="19" smoothTwoFrameAnim="true"/>
+		</object>
 		<object walkable="false">
-			
+
 			<model path="models/stone2.g3d"/>
 			<model path="models/stone3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="true">
                         <model path="models/fern2.g3d"/>
                         <model path="models/fern3.g3d"/>
-		</object>					
+		</object>
                 <object walkable="true">
 			<model path="models/reed.g3d"/>
-		</object>										
+		</object>
 		<object walkable="false">
 			<model path="models/deadtree.g3d"/>
 			<model path="models/deadtree2.g3d"/>
 			<model path="models/deadtree3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/hanged.g3d"/>
 			<model path="models/impaled.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/obelisk.g3d"/>
 			<model path="models/statue.g3d"/>
@@ -72,24 +72,24 @@
                         <model path="models/battlemage_statue.g3d"/>
 			<model path="models/swordman_statue.g3d"/>
                         <model path="models/broken_statue2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/big_stone.g3d"/>
 			<model path="models/big_stone2.g3d"/>
 			<model path="models/big_stone3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/none.g3d"/>
-		</object>					
+		</object>
 	</objects>
-	
+
 	<ambient-sounds>
 		<day-sound enabled="true" path="sounds/day.ogg" play-always="false"/>
 		<night-sound enabled="true" path="sounds/night.ogg" play-always="false"/>
 		<rain-sound enabled="true" path="sounds/rain.ogg"/>
-		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="sounds/chicken.wav"/>	
-		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+		<snow-sound enabled="false"/>
+		<day-start-sound enabled="true" path="sounds/chicken.wav"/>
+		<night-start-sound enabled="true" path="sounds/wolf.wav"/>
 	</ambient-sounds>
 
 	<parameters>
@@ -108,7 +108,7 @@
 		<moon-light red="0.2" green="0.2" blue="0.3"/>
 		<day-night value="0.7"/>
 		<shadow-intensity value="0.3"/>
-		<weather sun="0.70" rain="0.30" snow="0"/> 
+		<weather sun="0.70" rain="0.30" snow="0"/>
 		<air-height value="5.8"/>
 	</parameters>
 </tileset>

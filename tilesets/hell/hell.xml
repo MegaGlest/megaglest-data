@@ -54,41 +54,41 @@
 		<object walkable="false">
 			<model path="models/bone2.g3d" />
 			<model path="models/bone3.g3d" />
-		</object>					
+		</object>
 		<object walkable="false">
-			<model path="models/sarg_holz.g3d"/>			
-			<model path="models/sarg_stein.g3d"/>			
-			<model path="models/crosses.g3d"/>			
+			<model path="models/sarg_holz.g3d"/>
+			<model path="models/sarg_stein.g3d"/>
 			<model path="models/crosses.g3d"/>
-		</object>					
+			<model path="models/crosses.g3d"/>
+		</object>
 		<object walkable="false">
-			
+
 			<model path="models/stone2.g3d"/>
 			<model path="models/stone3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="true">
                         <model path="models/skullbone.g3d"/>
                         <model path="models/skullbone2.g3d"/>
                         <model path="models/skullbone3.g3d"/>
-		</object>					
+		</object>
                 <object walkable="true">
 			<model path="models/bodypart2.g3d"/>
 			<model path="models/bodypart3.g3d"/>
 			<model path="models/bodypart2.g3d"/>
 			<model path="models/bodypart4.g3d"/>
 			<model path="models/bodypart5.g3d"/>
-		</object>										
+		</object>
 		<object walkable="false">
 			<model path="models/deadtree.g3d"/>
 			<model path="models/deadtree.g3d"/>
 			<model path="models/deathtree_small.g3d"/>
 			<model path="models/deadtree2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/hell1.g3d"/>
 			<model path="models/hell2.g3d"/>
 			<model path="models/hell3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/obelisk.g3d"/>
                         <model path="models/broken_statue.g3d"/>
@@ -96,7 +96,7 @@
                         <model path="models/battlemage_statue.g3d"/>
 			<model path="models/grab.g3d"/>
                         <model path="models/broken_statue2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/vulcano.g3d">
 				<particles value="true">
@@ -121,19 +121,19 @@
 				</particles>
 			</model>
 			<model path="models/vulcano2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/none.g3d"/>
-		</object>					
+		</object>
 	</objects>
-	
+
 	<ambient-sounds>
 		<day-sound enabled="true" path="sounds/hell.ogg" play-always="false"/>
 		<night-sound enabled="true" path="sounds/hell.ogg" play-always="false"/>
 		<rain-sound enabled="true" path="sounds/hell.ogg"/>
-		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="sounds/good_morning.wav"/>	
-		<night-start-sound enabled="true" path="sounds/wolf.wav"/>						
+		<snow-sound enabled="false"/>
+		<day-start-sound enabled="true" path="sounds/good_morning.wav"/>
+		<night-start-sound enabled="true" path="sounds/wolf.wav"/>
 	</ambient-sounds>
 
 	<parameters>
@@ -147,12 +147,12 @@
 			<texture path="textures/water_007.tga"/>
 			<texture path="textures/water_008.tga"/>
 		</water>
-		<fog enabled="false"/> 
+		<fog enabled="false"/>
 		<sun-light red="1" green="1" blue="1"/>
 		<moon-light red="0.05" green="0.1" blue="0.4"/>
 		<day-night value="0.7"/>
 		<shadow-intensity value="0.5"/>
-		<weather sun="1.0" rain="0.0" snow="0"/> 
+		<weather sun="1.0" rain="0.0" snow="0"/>
 	</parameters>
 </tileset>
 

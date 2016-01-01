@@ -9,18 +9,18 @@
 		<height value="2"/>
 		<max-hp value="600" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="35"/>	
-		<armor-type value="leather"/>				
+		<armor value="35"/>
+		<armor-type value="leather"/>
 		<sight value="10"/>
-		<time value="50"/>	
-		<multi-selection value="true"/>	
+		<time value="50"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="4"/>
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -34,7 +34,7 @@
 		<resource-requirements>
 			<resource name="wood" amount="30"/>
 			<resource name="gold" amount="90"/>
-			<resource name="food" amount="1"/>						
+			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/swordman.bmp"/>
@@ -57,25 +57,23 @@
 		</command-sounds>
 	</parameters>
 
-
 	<!-- *** skills *** -->
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
 			<animation path="models/armored_swordman_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
 
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="90"/>
@@ -85,7 +83,7 @@
 
 		<skill>
 			<type value="move"/>
-			<name value="charge_skill"/>		
+			<name value="charge_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="125"/>
@@ -93,10 +91,9 @@
 			<sound enabled="false"/>
 		</skill>
 
-
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="200"/>
 			<anim-speed value="200"/>
@@ -115,7 +112,7 @@
 				<sound-file path="sounds/swordman_attack10.wav"/>
 				<sound-file path="sounds/swordman_attack11.wav"/>
 				<sound-file path="sounds/swordman_attack12.wav"/>
-			</sound> 
+			</sound>
 			<attack-strenght value="110"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
@@ -131,18 +128,18 @@
 		<!-- *** skill 3 *** -->
 		<skill>
 			<type value="morph"/>
-			<name value="morph_skill"/>		
+			<name value="morph_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="80"/>
 			<animation path="models/armored_swordman_standing.g3d"/>
 			<sound enabled="false"/>
-		</skill>	
+		</skill>
 
 		<!-- *** skill 4 *** -->
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
@@ -154,17 +151,16 @@
 				<sound-file path="sounds/swordman_die4.wav"/>
 				<sound-file path="sounds/swordman_die5.wav"/>
 				<sound-file path="sounds/swordman_die6.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
-
 
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -193,7 +189,6 @@
 			<attack-skill value="attack_skill"/>
 		</command>
 
-		
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
@@ -213,6 +208,6 @@
 			<morph-skill value="morph_skill"/>
 			<morph-unit name= "armored_swordman"/>
 			<discount value="60"/>
-		</command-->	
+		</command-->
 	</commands>
 </unit>

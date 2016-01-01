@@ -7,7 +7,7 @@
 		<max-hp value="8000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="stone"/>				
+		<armor-type value="stone"/>
 		<sight value="15" />
 		<time value="150" />
 		<multi-selection value="false" />
@@ -46,33 +46,33 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<!-- *** skills *** -->
 	<skills>
 
 		<skill>
 			<type value="stop" />
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/recruiting_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="be_built" />
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/recruiting_camp_build.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="produce" />
-			<name value="produce_skill"/>		
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="350" />
 			<anim-speed value="75" />
@@ -82,39 +82,39 @@
 
 		<skill>
 			<type value="produce" />
-			<name value="produce_skill2"/>		
+			<name value="produce_skill2"/>
 			<ep-cost value="0" />
 			<speed value="210" />
 			<anim-speed value="75" />
 			<animation path="models/recruiting_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="upgrade" />
-			<name value="upgrade_skill"/>		
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="280" />
 			<anim-speed value="150" />
 			<animation path="models/recruiting_camp.g3d" />
 			<sound enabled="false"/>
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/recruiting_camp_die.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall2.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
-	
+
 	<!-- *** commands *** -->
 	<commands>
 
@@ -126,8 +126,8 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="cavalry"/>
-		</command>	
-	
+		</command>
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_turtle_formation" />
@@ -137,7 +137,7 @@
 			<produce-skill value="produce_skill2"/>
 			<produced-unit name="turtle_formation"/>
 		</command>
-	
+
 		<!--command>
 			<type value="produce"/>
 			<name value="produce_longbowman" />
@@ -147,7 +147,7 @@
 			<produce-skill value="produce_skill2"/>
 			<produced-unit name="longbowman"/>
 		</command-->
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_general" />
@@ -157,7 +157,7 @@
 			<produce-skill value="produce_skill2"/>
 			<produced-unit name="general"/>
 		</command>
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_mechanic" />
@@ -167,7 +167,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="wartime_mechanic"/>
 		</command>
-	
+
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_advanced_architecture"/>
@@ -177,7 +177,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="advanced_architecture"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_formations" />
@@ -187,7 +187,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="formations"/>
 		</command>
-	
 
 	</commands>
 </unit>

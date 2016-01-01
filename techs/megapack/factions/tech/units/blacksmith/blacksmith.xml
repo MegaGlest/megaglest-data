@@ -7,7 +7,7 @@
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="wood"/>		
+		<armor-type value="wood"/>
 		<sight value="12" />
 		<time value="120" />
 		<multi-selection value="false" />
@@ -46,10 +46,10 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -57,10 +57,10 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-		
+
 		<skill>
 			<type value="stop" />
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="50" />
@@ -69,11 +69,11 @@
 				<particle-file path="smoke_particles.xml"/>
 			</particles>
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="upgrade" />
-			<name value="upgrade_skill"/>		
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="150" />
@@ -90,10 +90,10 @@
 				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
 			</sound>
 		</skill>
-		
+
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -104,7 +104,7 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall1.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
@@ -120,7 +120,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="blade_weapons"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_piercing_weapons" />
@@ -130,7 +130,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="piercing_weapons"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_shield" />
@@ -140,7 +140,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="shield_level_1"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_shield" />
@@ -150,6 +150,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="shield_level_2"/>
 		</command>
-		
+
 	</commands>
 </unit>

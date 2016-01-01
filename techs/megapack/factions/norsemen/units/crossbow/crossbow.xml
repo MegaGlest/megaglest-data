@@ -7,15 +7,15 @@
 		<max-hp value="1200" regeneration="3"/>
 		<max-ep value="0"/>
 		<armor value="15"/>
-		<armor-type value="wood"/>					
+		<armor-type value="wood"/>
 		<sight value="15"/>
-		<time value="100"/>	
-		<multi-selection value="true"/>	
+		<time value="100"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties>
 			<property value="rotated_climb"/>
 		</properties>
@@ -40,32 +40,32 @@
 			<sound path="$COMMONDATAPATH/sounds/archer_select1.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/archer_select2.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/archer_select3.wav"/>
-			<sound path="$COMMONDATAPATH/sounds/archer_select4.wav"/>					
+			<sound path="$COMMONDATAPATH/sounds/archer_select4.wav"/>
 		</selection-sounds>
 		<command-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/archer_ack1.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/archer_ack2.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/archer_ack3.wav"/>
-				
+
 		</command-sounds>
 
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
 			<animation path="models/crossbow_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
 			<anim-speed value="60"/>
@@ -77,12 +77,12 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk4.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_walk6.wav"/>
-			</sound> 
+			</sound>
 		</skill>
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
@@ -90,7 +90,7 @@
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_attack2.wav"/>
-			</sound> 
+			</sound>
 			<attack-strenght value="250"/>
 			<attack-var value="90"/>
 			<attack-range value="10"/>
@@ -115,7 +115,7 @@
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
@@ -124,13 +124,13 @@
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_die2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/catapult_die3.wav"/>
-			</sound> 			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
@@ -139,9 +139,9 @@
 		</skill>
 
 	</skills>
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>

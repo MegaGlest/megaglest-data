@@ -7,13 +7,13 @@
 		<max-hp value="7000" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
-		<armor-type value="stone"/>		
+		<armor-type value="stone"/>
 		<sight value="10" />
 		<time value="100" />
 		<multi-selection value="false"/>
 		<cellmap value="true">
-			<row value="101"/> 
-			<row value="000"/> 
+			<row value="101"/>
+			<row value="000"/>
 			<row value="101"/>
 		</cellmap>
 		<levels/>
@@ -47,11 +47,11 @@
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
 		</command-sounds>
 	</parameters>
-	
+
 	<!-- *** skills *** -->
 	<skills>
 		<skill>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -59,20 +59,20 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-		
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="100" />
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="upgrade" />
-			<name value="upgrade_skill"/>		
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -82,31 +82,31 @@
 
 		<skill>
 			<type value="produce" />
-			<name value="produce_skill"/>		
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="../mage_tower/destruction_models/summoner_guild_destruction.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="../archmage_tower/sounds/magic_building_fall5.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
 	<!-- *** commands *** -->
 	<commands>
-	
+
 		<command>
 			<type value="produce"/>
 			<name value="produce_summoner"/>

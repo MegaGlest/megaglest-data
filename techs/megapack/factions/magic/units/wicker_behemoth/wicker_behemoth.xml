@@ -7,7 +7,7 @@
 		<max-hp value="1400" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="wood"/>				
+		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="100" />
 		<multi-selection value="true" />
@@ -41,11 +41,11 @@
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
 			<type value="be_built" />
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="120"/>
 			<speed value="120"/>
@@ -53,20 +53,20 @@
 			<animation path="models/wicker_behemoth_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<skill>
 			<type value="stop" />
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
 			<animation path="models/wicker_behemoth.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -80,10 +80,10 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-                
+
                 <skill>
 			<type value="morph"/>
-			<name value="morph_skill"/>		
+			<name value="morph_skill"/>
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="30"/>
@@ -97,7 +97,7 @@
 		</skill>
 
 	</skills>
-	
+
 	<!-- *** commands *** -->
 
 	<commands>

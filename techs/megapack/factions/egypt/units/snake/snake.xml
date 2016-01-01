@@ -6,11 +6,11 @@
 		<height value="1"/>
 		<max-hp value="450" regeneration="5"/>
 		<max-ep value="0" regeneration="0"/>
-		<armor value="15"/>	
+		<armor value="15"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
 		<time value="70"/>
-		<multi-selection value="true"/>	
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="expert" kills="5"/>
@@ -18,7 +18,7 @@
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -53,7 +53,7 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -63,7 +63,7 @@
 			<animation path="models/snake_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-				
+
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
@@ -76,7 +76,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="poison_shot_skill"/>		
+			<name value="poison_shot_skill"/>
 			<ep-cost value="0"/>
 			<speed value="75"/>
 			<anim-speed value="75"/>
@@ -119,10 +119,9 @@
 			</splash>
 		</skill>
 
-
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>	
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="60"/>
@@ -137,9 +136,9 @@
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>

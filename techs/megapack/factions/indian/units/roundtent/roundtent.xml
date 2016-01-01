@@ -45,12 +45,12 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<!-- *** skills *** -->
 	<skills>
 		<!-- *** skill 0 *** -->
 		<skill>
-			<type value="stop"/>	
+			<type value="stop"/>
 			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="50" />
@@ -58,44 +58,44 @@
 			<animation path="models/roundtent.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<!-- *** skill 1 *** -->
 		<skill>
-			<type value="be_built" />	
-			<name value="be_built_skill"/>		
+			<type value="be_built" />
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/roundtent_construction.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<!-- *** skill 2 *** -->
 		<skill>
-			<type value="upgrade"/>	
-			<name value="upgrade_skill"/>	
+			<type value="upgrade"/>
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/roundtent.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<!-- *** skill 3 *** -->
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill"/>	
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/roundtent.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<!-- *** skill 4 *** -->
 		<skill>
-			<type value="die" />	
-			<name value="die_skill"/>		
+			<type value="die" />
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -106,15 +106,15 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
-	
+
 	<!-- *** commands *** -->
 	<commands>
-			
+
 		<!-- *** command 1 *** -->
 		<command>
 			<type value="produce"/>
@@ -136,7 +136,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="axe_thrower"/>
 		</command>
-		
+
 		<!-- *** command 4 *** -->
 		<command>
 			<type value="produce"/>
@@ -157,7 +157,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="spearman"/>
 		</command>
-		
+
 		<!-- *** command 6 *** -->
 		<command>
 			<type value="upgrade"/>
@@ -167,7 +167,7 @@
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="training_field"/>
-		</command>				
+		</command>
 
 	</commands>
 </unit>

@@ -9,11 +9,11 @@
 		<height value="3"/>
 		<max-hp value="2700" regeneration="4"/>
 		<max-ep value="0"/>
-		<armor value="45"/>	
-		<armor-type value="leather"/>				
+		<armor value="45"/>
+		<armor-type value="leather"/>
 		<sight value="15"/>
-		<time value="120"/>	
-		<multi-selection value="true"/>	
+		<time value="120"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="8"/>
@@ -21,7 +21,7 @@
 		<fields>
 			<field value="land"/>
 			<field value="air"/>
-		</fields>	
+		</fields>
 		<properties>
 			<property value="burnable"/>
 		</properties>
@@ -70,11 +70,10 @@
 
 	</parameters>
 
-
 	<!-- *** skills *** -->
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -84,10 +83,10 @@
 			<animation path="models/battering_ram_idle.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="80"/>
@@ -95,13 +94,13 @@
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_walk1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/golem_walk2.wav"/>
-			</sound> 
+			</sound>
 
 		</skill>
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
 			<anim-speed value="40"/>
@@ -123,7 +122,7 @@
 
               	<skill>
 			<type value="attack"/>
-			<name value="attack_air_skill"/>		
+			<name value="attack_air_skill"/>
 			<ep-cost value="0"/>
 			<speed value="150"/>
 			<anim-speed value="70"/>
@@ -155,8 +154,8 @@
 		</skill>
 
 		<skill>
-			<type value="die"/>	
-			<name value="die_skill"/>		
+			<type value="die"/>
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="100"/>
@@ -165,16 +164,16 @@
 				<sound-file path="$COMMONDATAPATH/sounds/golem_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/golem_die2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/golem_die3.wav"/>
-			</sound> 
+			</sound>
                         <fade value="false"/>
 		</skill>
-		
+
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -212,7 +211,7 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_air_skill"/>
 		</command>
-                
+
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>

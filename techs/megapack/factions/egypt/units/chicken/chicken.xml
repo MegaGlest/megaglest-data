@@ -10,22 +10,22 @@
 		<max-hp value="300" regeneration="2"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
-		<armor-type value="organic"/>					
+		<armor-type value="organic"/>
 		<sight value="10"/>
-		<time value="20"/>	
-		<multi-selection value="true"/>	
+		<time value="20"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="50"/>
-			<resource name="food" amount="-5"/>			
+			<resource name="food" amount="-5"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/chicken.bmp"/>
@@ -46,14 +46,13 @@
 
 	</parameters>
 
-
 	<!-- *** skills *** -->
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="10"/>
@@ -62,23 +61,22 @@
 				<sound-file path="sounds/chicken_standing1.wav"/>
 				<sound-file path="sounds/chicken_standing2.wav"/>
 			</sound>
-			
+
 		</skill>
-		
 
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="150"/>
 			<animation path="models/chicken_walking.g3d"/>
 			<sound enabled="false"/>
-		</skill>	
-                
+		</skill>
+
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="90"/>
 			<anim-speed value="40"/>
@@ -88,16 +86,16 @@
 				<sound-file path="sounds/chicken_die2.wav"/>
 				<sound-file path="sounds/chicken_die3.wav"/>
 				<sound-file path="sounds/chicken_die4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
-		</skill>						
+		</skill>
 
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value= "stop"/>
 			<name value="stop"/>
@@ -116,6 +114,5 @@
 			<move-skill value="move_skill"/>
 		</command>
 
-		
 	</commands>
 </unit>

@@ -7,7 +7,7 @@
 		<max-hp value="11000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="wood"/>				
+		<armor-type value="wood"/>
 		<sight value="19" />
 		<time value="50" />
 		<multi-selection value="false" />
@@ -39,8 +39,6 @@
 		<resources-stored/>
 		<image path="images/totem.bmp" />
 
-
-
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="../mainteepee/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
@@ -50,13 +48,13 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-	
+
 	<!-- *** skills *** -->
 	<skills>
 		<!-- *** skill 0 *** -->
 		<skill>
 			<type value="be_built" />
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="120"/>
 			<speed value="120"/>
@@ -64,22 +62,22 @@
 			<animation path="models/totem_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-		
+
 		<!-- *** skill 1 *** -->
 		<skill>
 			<type value="stop" />
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="0" />
 			<animation path="models/totem.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<!-- *** skill 2 *** -->
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="0" />
@@ -90,13 +88,13 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 		<!-- *** Skill 3 *** -->
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
@@ -134,7 +132,7 @@
 		<!-- *** Skill 4 *** -->
 		<skill>
 			<type value="attack"/>
-			<name value="attack_air_skill"/>		
+			<name value="attack_air_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
@@ -171,7 +169,7 @@
                 </skill>
 		<skill>
 			<type value="produce" />
-			<name value="produce_skill"/>		
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="0" />
@@ -180,19 +178,18 @@
 		</skill>
                 <skill>
 			<type value="upgrade"/>
-			<name value="upgrade_skill"/>		
+			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="0"/>
 			<animation path="models/totem.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
 
 	</skills>
-	
+
 	<!-- *** commands *** -->
-	
+
 	<commands>
 
                 <!-- *** Command 0 *** -->
@@ -206,7 +203,6 @@
 			<stop-skill value="stop_skill"/>
 		</command>
 
-               
 		<!-- *** Command 1 *** -->
                 <!-- no ground attack
 		<command>
@@ -239,7 +235,7 @@
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="petroleum"/>
-		</command>	
+		</command>
 
 		<command>
 			<type value="produce"/>

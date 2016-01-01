@@ -6,11 +6,11 @@
 		<height value="3"/>
 		<max-hp value="900" regeneration="3"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
-		<armor-type value="leather"/>				
+		<armor value="20"/>
+		<armor-type value="leather"/>
 		<sight value="15"/>
-		<time value="60"/>	
-		<multi-selection value="true"/>	
+		<time value="60"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="5"/>
@@ -18,7 +18,7 @@
 		<fields>
 			<field value="land"/>
 			<field value="air"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -31,7 +31,7 @@
 			<resource name="gold" amount="200"/>
 			<resource name="wood" amount="100"/>
 			<resource name="stone" amount="100"/>
-			<resource name="food" amount="1"/>				
+			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/magician.bmp"/>
@@ -54,20 +54,20 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
 			<animation path="models/magician_ambient.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="85"/>
@@ -77,7 +77,7 @@
 
 		<skill>
 			<type value="move"/>
-			<name value="charge_skill"/>		
+			<name value="charge_skill"/>
 			<ep-cost value="0"/>
 			<speed value="250"/>
 			<anim-speed value="90"/>
@@ -85,23 +85,21 @@
 			<sound enabled="false"/>
 		</skill>
 
-
-
 		<skill>
 			<type value="repair"/>
-			<name value="heal"/>		
+			<name value="heal"/>
 			<ep-cost value="0"/>
 			<speed value="210"/>
 			<anim-speed value="50"/>
 			<animation path="models/magician_healing.g3d"/>
 			<sound enabled="true" start-time="0.5">
-				<sound-file path="$COMMONDATAPATH/sounds/shaman_heal1.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/shaman_heal1.wav"/>
 			</sound>
 		</skill>
 
 		<skill>
 			<type value="repair"/>
-			<name value="repair_skill"/>		
+			<name value="repair_skill"/>
 			<ep-cost value="0"/>
 			<speed value="210"/>
 			<anim-speed value="50"/>
@@ -116,13 +114,10 @@
 			</sound>
 
 		</skill>
-                
-
-
 
 		<skill>
 			<type value="build"/>
-			<name value="build_skill"/>		
+			<name value="build_skill"/>
 			<ep-cost value="0"/>
 			<speed value="180"/>
 			<anim-speed value="50"/>
@@ -135,13 +130,11 @@
 				<sound-file path="sounds/shaman_build5.wav"/>
 				<sound-file path="sounds/shaman_build6.wav"/>
 			</sound>
-		</skill>		
-
-
+		</skill>
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
@@ -168,11 +161,11 @@
 				<radius value="0"/>
 				<damage-all value="true"/>
 				<particle value="true" path="particle_splash.xml"/>
-			</splash>		
+			</splash>
 		</skill>
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
@@ -182,17 +175,16 @@
 				<sound-file path="sounds/die2.wav"/>
 				<sound-file path="sounds/die3.wav"/>
 				<sound-file path="sounds/die4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
-
 
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value= "stop"/>
 			<name value="stop"/>
@@ -230,12 +222,12 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
-			<repaired-units>	
-				<!--unit name="catapult"/-->	
+			<repaired-units>
+				<!--unit name="catapult"/-->
 				<unit name="snake_basket"/>
-                                <!--unit name="air_ballista"/>	
-                                <unit name="aerodrome"/-->					
-			</repaired-units>		
+                                <!--unit name="air_ballista"/>
+                                <unit name="aerodrome"/-->
+			</repaired-units>
 		</command>
 
 		<command>
@@ -247,12 +239,12 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-				<building name="snake_basket"/>			
+				<building name="snake_basket"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>		    
-                        </built-sound>	
+				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
+                        </built-sound>
 		</command>
 
 		<command>
@@ -263,20 +255,20 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<repair-skill value="heal"/>
-			<repaired-units>	
-				<unit name="worker"/>	
-				<unit name="magician"/>		
-				<unit name="stickfighter"/>	
-				<unit name="genie"/>		
-				<unit name="princess"/>		
-				<unit name="swordman"/>		
-				<unit name="flying_carpet"/>		
-				<unit name="sheep"/>		
+			<repaired-units>
+				<unit name="worker"/>
+				<unit name="magician"/>
+				<unit name="stickfighter"/>
+				<unit name="genie"/>
+				<unit name="princess"/>
+				<unit name="swordman"/>
+				<unit name="flying_carpet"/>
+				<unit name="sheep"/>
 				<unit name="elephant"/>
-                                <unit name="fakir"/>					
-			</repaired-units>		
+                                <unit name="fakir"/>
+			</repaired-units>
 		</command>
-		
+
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
@@ -287,6 +279,6 @@
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-		
+
 	</commands>
 </unit>

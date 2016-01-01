@@ -6,11 +6,11 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
-		<armor-type value="leather"/>				
+		<armor value="20"/>
+		<armor-type value="leather"/>
 		<sight value="15"/>
-		<time value="60"/>	
-		<multi-selection value="true"/>	
+		<time value="60"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="5"/>
@@ -18,7 +18,7 @@
 		<fields>
 			<field value="land"/>
 			<field value="air"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -28,7 +28,7 @@
 		<resource-requirements>
 			<resource name="wood" amount="50"/>
 			<resource name="gold" amount="100"/>
-			<resource name="food" amount="1"/>				
+			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/archer.bmp"/>
@@ -68,20 +68,20 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
 			<animation path="models/archer_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="125"/>
@@ -91,7 +91,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="50"/>
 			<anim-speed value="50"/>
@@ -123,10 +123,10 @@
 			</projectile>
 			<splash value="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
@@ -136,17 +136,16 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_die2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_die3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_die4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
-
 
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value= "stop"/>
 			<name value="stop"/>
@@ -174,7 +173,7 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-		
+
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
@@ -186,6 +185,6 @@
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-		
+
 	</commands>
 </unit>

@@ -7,7 +7,7 @@
 		<max-hp value="5500" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="stone"/>		
+		<armor-type value="stone"/>
 		<sight value="12" />
 		<time value="120" />
 		<multi-selection value="false" />
@@ -46,10 +46,10 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -57,10 +57,10 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-		
+
 		<skill>
 			<type value="stop" />
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="50" />
@@ -70,11 +70,11 @@
 				<particle-file path="smoke_particles.xml"/>
 			</particles>
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="upgrade" />
-			<name value="upgrade_skill"/>		
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="150" />
@@ -90,17 +90,17 @@
 				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
 			</sound>
 		</skill>
-		
+
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
 			<animation path="models/blacksmith_die.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall1.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
@@ -116,7 +116,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="strengthen_swords"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="sharpen_points" />
@@ -126,7 +126,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="sharpen_points"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="reinforce_armor" />
@@ -136,7 +136,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="reinforce_armor"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="enlarge_shields" />
@@ -146,6 +146,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="enlarge_shields"/>
 		</command>
-		
+
 	</commands>
 </unit>

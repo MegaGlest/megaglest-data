@@ -6,23 +6,23 @@
 		<height value="2"/>
 		<max-hp value="600" regeneration="1"/>
 		<max-ep value="0"/>
-		<armor value="10"/>	
+		<armor value="10"/>
 		<armor-type value="organic"/>
 		<sight value="12"/>
-		<time value="25"/>	
-		<multi-selection value="true"/>	
+		<time value="25"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 			<light enabled="false"/>
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="45"/>
-			<resource name="food" amount="1"/>				
+			<resource name="food" amount="1"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/daemon.bmp"/>
@@ -48,20 +48,20 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
 			<animation path="models/mummy_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="250"/>
 			<anim-speed value="120"/>
@@ -71,7 +71,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="100"/>
@@ -89,9 +89,9 @@
 				<sound-file path="sounds/mummy_attack5.wav"/>
 				<sound-file path="sounds/mummy_attack6.wav"/>
 				<sound-file path="sounds/mummy_attack7.wav"/>
-				<sound-file path="sounds/mummy_attack8.wav"/>	
-				<sound-file path="sounds/mummy_attack9.wav"/-->	
-			</sound> 
+				<sound-file path="sounds/mummy_attack8.wav"/>
+				<sound-file path="sounds/mummy_attack9.wav"/-->
+			</sound>
 			<attack-strenght value="70"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
@@ -103,10 +103,10 @@
 			<projectile value="false"/>
 			<splash value="false"/>
 		</skill>
-	
+
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="20"/>
@@ -116,13 +116,13 @@
 				<sound-file path="sounds/mummy_die2.wav"/>
 				<sound-file path="sounds/mummy_die3.wav"/>
 				<sound-file path="sounds/mummy_die4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 	</skills>
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>

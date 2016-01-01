@@ -6,7 +6,7 @@
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="wood"/>		
+		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="120" />
 		<multi-selection value="false" />
@@ -44,11 +44,11 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 
 		<skill>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
@@ -56,10 +56,10 @@
 			<sound enabled="false"/>
 			<type value="be_built"/>
 		</skill>
-		
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="100"/>
@@ -69,7 +69,7 @@
 
 		<skill>
 			<type value="produce"/>
-			<name value="produce_ornithopter_skill"/>		
+			<name value="produce_ornithopter_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="200"/>
@@ -77,16 +77,16 @@
 			<sound enabled="true" start-time="0.2">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>	
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>									
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 		</skill>
 
 		<skill>
 			<type value="produce"/>
-			<name value="produce_airship_skill"/>		
+			<name value="produce_airship_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="200"/>
@@ -94,16 +94,16 @@
 			<sound enabled="true" start-time="0.2">
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>	
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>									
-				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>	
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build3.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build4.wav"/>
+				<sound-file path="$COMMONDATAPATH/sounds/technician_build5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
-		</skill>		
-		
+		</skill>
+
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300"/>
 			<anim-speed value="300" />
@@ -114,7 +114,7 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
@@ -129,7 +129,7 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_ornithopter_skill"/>
 			<produced-unit name="ornithopter"/>
-			
+
 		</command>
 
                <command>
@@ -140,7 +140,7 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_airship_skill"/>
 			<produced-unit name="airship"/>
-			
+
 		</command>
 	</commands>
 </unit>

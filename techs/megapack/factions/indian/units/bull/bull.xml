@@ -8,16 +8,16 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="4"/>
 		<max-ep value="500" regeneration="80"/>
-		<armor value="3"/>	
+		<armor value="3"/>
 		<armor-type value="organic"/>
 		<sight value="12"/>
-		<time value="30"/>	
-		<multi-selection value="true"/>	
+		<time value="30"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -48,24 +48,23 @@
 
 	</parameters>
 
-
 	<!-- *** skills *** -->
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
 			<animation path="models/bull_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="330"/>
 			<anim-speed value="200"/>
@@ -75,7 +74,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="500"/>
 			<speed value="40"/>
 			<anim-speed value="250"/>
@@ -108,7 +107,7 @@
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="80"/>
@@ -118,16 +117,16 @@
 				<sound-file path="sounds/bull_die2.wav"/>
 				<sound-file path="sounds/bull_die3.wav"/>
 				<sound-file path="sounds/bull_die4.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>

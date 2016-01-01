@@ -9,18 +9,18 @@
 		<height value="2"/>
 		<max-hp value="3000" regeneration="5"/>
 		<max-ep value="0"/>
-		<armor value="20"/>	
-		<armor-type value="wood"/>				
+		<armor value="20"/>
+		<armor-type value="wood"/>
 		<sight value="15"/>
-		<time value="150"/>	
-		<multi-selection value="false"/>	
+		<time value="150"/>
+		<multi-selection value="false"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="elite" kills="10"/>
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -50,40 +50,40 @@
 			<sound path="../technician/sounds/technician_ack1.wav"/>
 			<sound path="../technician/sounds/technician_ack2.wav"/>
 			<sound path="../technician/sounds/technician_ack3.wav"/>
-			<sound path="../technician/sounds/technician_ack4.wav"/>		
+			<sound path="../technician/sounds/technician_ack4.wav"/>
 			<sound path="../technician/sounds/technician_ack5.wav"/>
 			<sound path="../technician/sounds/technician_ack6.wav"/>
 			<sound path="../technician/sounds/technician_ack7.wav"/>
 			<sound path="../technician/sounds/technician_ack8.wav"/>
 			<sound path="../technician/sounds/technician_ack9.wav"/>
 			<sound path="../technician/sounds/technician_ack10.wav"/>
-			<sound path="../technician/sounds/technician_ack11.wav"/>		
+			<sound path="../technician/sounds/technician_ack11.wav"/>
 			<sound path="../technician/sounds/technician_ack12.wav"/>
 			<sound path="../technician/sounds/technician_ack13.wav"/>
 			<sound path="../technician/sounds/technician_ack14.wav"/>
 			<sound path="../technician/sounds/technician_ack15.wav"/>
-			<sound path="../technician/sounds/technician_ack16.wav"/>		
+			<sound path="../technician/sounds/technician_ack16.wav"/>
 			<sound path="../technician/sounds/technician_ack17.wav"/>
 			<sound path="../technician/sounds/technician_ack18.wav"/>
-			<sound path="../technician/sounds/technician_ack19.wav"/>						
+			<sound path="../technician/sounds/technician_ack19.wav"/>
 		</command-sounds>
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="45"/>
 			<animation path="models/air_pyramid.g3d"/>
 			<sound enabled="false"/>
 		</skill>
- 
+
 		<skill>
 			<type value="move"/>
-			<name value="move_skill"/>		
+			<name value="move_skill"/>
 			<ep-cost value="0"/>
 			<speed value="220"/>
 			<anim-speed value="150"/>
@@ -93,7 +93,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="attack_skill"/>		
+			<name value="attack_skill"/>
 			<ep-cost value="0"/>
 			<speed value="180"/>
 			<anim-speed value="125"/>
@@ -101,7 +101,7 @@
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_attack2.wav"/>
-			</sound> 
+			</sound>
 			<attack-strenght value="200"/>
 			<attack-var value="75"/>
 			<attack-range value="15"/>
@@ -126,10 +126,10 @@
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
-		
+
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="60"/>
 			<anim-speed value="60"/>
@@ -138,25 +138,24 @@
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die2.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/ab_die3.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
 		<skill>
-			<type value="be_built" />	
-			<name value="be_built_skill"/>		
+			<type value="be_built" />
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="0" />
 			<animation path="models/air_pyramid_construction.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
 
 	</skills>
-	
+
 	<commands>
-		
+
 		<command>
 			<type value= "stop"/>
 			<name value="attack_off"/>
@@ -175,6 +174,6 @@
 			<attack-skill value="attack_skill"/>
                         <stop-skill value="stop_skill"/>
 		</command>
-		
+
 	</commands>
 </unit>

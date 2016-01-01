@@ -13,7 +13,7 @@
     	<emission-rate value="20" />
     	<energy-max value="16" />
     	<energy-var value="6" />
-	
+
 	<trajectory type="parabolic">
 		<scale value="1.0"/>
 		<speed value="15.0"/>

@@ -9,11 +9,11 @@
 		</surface>
 		<surface>
 		 	<texture path="textures/surface2a.bmp" prob="0.3"/>
-		      <texture path="textures/surface2b.bmp" prob="0.05"/>	
+		      <texture path="textures/surface2b.bmp" prob="0.05"/>
                   <texture path="textures/surface2c.bmp" prob="0.4"/>
-                  <texture path="textures/surface2d.bmp" prob="0.1"/>	
+                  <texture path="textures/surface2d.bmp" prob="0.1"/>
                   <texture path="textures/surface2e.bmp" prob="0.1"/>
-                  <texture path="textures/surface2f.bmp" prob="0.05"/>	 
+                  <texture path="textures/surface2f.bmp" prob="0.05"/>
                 </surface>
 		<surface>
 			<texture path="textures/surface3a.bmp" prob="0.5"/>
@@ -40,37 +40,37 @@
                         <model path="models/tree7.g3d"/>
 			<model path="models/tree8.g3d"/>
                         <model path="models/tree9.g3d"/>
-			<model path="models/tree10.g3d"/>			
-		</object>					
+			<model path="models/tree10.g3d"/>
+		</object>
 		<object walkable="false">
 			<model path="models/dead_tree.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/stone1.g3d"/>
 			<model path="models/stone2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="true">
 			<model path="models/bush.g3d"/>
                         <model path="models/bush2.g3d"/>
                         <model path="models/bush3.g3d"/>
                         <model path="models/bush4.g3d"/>
                         <model path="models/bush5.g3d"/>
-		</object>					
+		</object>
                 <object walkable="false">
 			<model path="models/riverside_object.g3d"/>
                         <model path="models/riverside_object2.g3d"/>
                         <model path="models/riverside_object3.g3d"/>
                         <model path="models/riverside_object4.g3d"/>
                         <model path="models/riverside_object5.g3d"/>
-		</object>										
+		</object>
 		<object walkable="false">
 			<model path="models/big_tree1.g3d"/>
 			<model path="models/big_tree2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/hanged.g3d"/>
 			<model path="models/impaled.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/obelisk.g3d"/>
 			<model path="models/statue.g3d"/>
@@ -79,24 +79,24 @@
                         <model path="models/battlemage_statue.g3d"/>
 			<model path="models/swordman_statue.g3d"/>
                         <model path="models/broken_statue2.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/big_stone.g3d"/>
 			<model path="models/big_stone2.g3d"/>
 			<model path="models/big_stone3.g3d"/>
-		</object>					
+		</object>
 		<object walkable="false">
 			<model path="models/none.g3d"/>
-		</object>					
+		</object>
 	</objects>
 
 	<ambient-sounds>
 		<day-sound enabled="true" path="sounds/wind.ogg" play-always="true"/>
 		<night-sound enabled="true" path="sounds/wind.ogg" play-always="true"/>
 		<rain-sound enabled="true" path="sounds/rain.ogg" play-always="true"/>
-		<snow-sound enabled="false"/>		
-		<day-start-sound enabled="true" path="../forest/sounds/chicken.wav"/>	
-		<night-start-sound enabled="true" path="../forest/sounds/wolf.wav"/>					
+		<snow-sound enabled="false"/>
+		<day-start-sound enabled="true" path="../forest/sounds/chicken.wav"/>
+		<night-start-sound enabled="true" path="../forest/sounds/wolf.wav"/>
 	</ambient-sounds>
 
 	<parameters>
@@ -114,7 +114,7 @@
 		<sun-light red="1.0" green="1.0" blue="0.9"/>
 		<moon-light red="0.3" green="0.3" blue="0.4"/>
 		<day-night value="0.7"/>
-		<weather sun="0.5" rain="0.1" snow="0.4"/> 
+		<weather sun="0.5" rain="0.1" snow="0.4"/>
 	</parameters>
 </tileset>
 

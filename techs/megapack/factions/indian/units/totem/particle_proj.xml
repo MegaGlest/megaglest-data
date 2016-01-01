@@ -13,7 +13,7 @@
     	<emission-rate value="1" />
     	<energy-max value="40" />
     	<energy-var value="0" />
-	
+
 	<trajectory type="spiral">
 		<speed value="4.0"/>
 		<scale value="1"/>

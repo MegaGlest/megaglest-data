@@ -7,7 +7,7 @@
 		<max-hp value="3000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="leather"/>		
+		<armor-type value="leather"/>
 		<sight value="12" />
 		<time value="50" />
 		<multi-selection value="false" />
@@ -46,10 +46,10 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<skills>
 		<skill>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -57,10 +57,10 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-		
+
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill"/>	
+			<name value="produce_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -69,10 +69,10 @@
 				<particle-file path="ghost_particles.xml"/>
 			</particles>
 			<sound enabled="false" />
-		</skill>	
+		</skill>
 		<skill>
 			<type value="produce"/>
-			<name value="produce_flying_carpet_skill"/>		
+			<name value="produce_flying_carpet_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="200"/>
@@ -81,7 +81,7 @@
 		</skill>
 		<skill>
 			<type value="produce"/>
-			<name value="produce_magician_skill"/>		
+			<name value="produce_magician_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="100"/>
@@ -91,17 +91,17 @@
 
 		<skill>
 			<type value="stop" />
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="50" />
 			<animation path="models/tent2_standing.g3d" />
 			<sound enabled="false" />
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="upgrade" />
-			<name value="upgrade_skill"/>		
+			<name value="upgrade_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="150" />
@@ -120,7 +120,7 @@
 
 		<skill>
 			<type value="upgrade" />
-			<name value="upgrade_skill2"/>		
+			<name value="upgrade_skill2"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="150" />
@@ -139,7 +139,7 @@
 
 		<skill>
 			<type value="die" />
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
@@ -150,7 +150,7 @@
 			</particles>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall1.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
@@ -175,8 +175,8 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_flying_carpet_skill"/>
 			<produced-unit name="flying_carpet"/>
-			
-		</command>		
+
+		</command>
 		<command>
 			<type value="produce"/>
 			<name value="produce_magician"/>
@@ -186,8 +186,8 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_magician_skill"/>
 			<produced-unit name="magician"/>
-			
-		</command>		
+
+		</command>
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_magic_level_1" />
@@ -197,7 +197,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="magic_level_1"/>
 		</command>
-		
+
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_magic_level_2" />
@@ -207,6 +207,6 @@
 			<upgrade-skill value="upgrade_skill2"/>
 			<produced-upgrade name="magic_level_2"/>
 		</command>
-		
+
 	</commands>
 </unit>

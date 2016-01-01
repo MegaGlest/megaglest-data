@@ -6,11 +6,11 @@
 		<height value="2"/>
 		<max-hp value="450" regeneration="5"/>
 		<max-ep value="3000" regeneration="30"/>
-		<armor value="15"/>	
+		<armor value="15"/>
 		<armor-type value="leather"/>
 		<sight value="12"/>
-		<time value="200"/>	
-		<multi-selection value="true"/>	
+		<time value="200"/>
+		<multi-selection value="true"/>
 		<cellmap value="false"/>
 		<levels>
 			<level name="expert" kills="5"/>
@@ -19,7 +19,7 @@
 		</levels>
 		<fields>
 			<field value="land"/>
-		</fields>	
+		</fields>
 		<properties/>
 		<light enabled="false"/>
 		<unit-requirements>
@@ -54,7 +54,7 @@
 	</parameters>
 
 	<skills>
-	
+
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -64,7 +64,7 @@
 			<animation path="models/archmage_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-				
+
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
@@ -77,7 +77,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="ice_nova_skill"/>		
+			<name value="ice_nova_skill"/>
 			<ep-cost value="300"/>
 			<speed value="75"/>
 			<anim-speed value="75"/>
@@ -121,7 +121,7 @@
 
 		<skill>
 			<type value="attack"/>
-			<name value="static_fire_skill"/>		
+			<name value="static_fire_skill"/>
 			<ep-cost value="1000"/>
 			<speed value="40"/>
 			<anim-speed value="40"/>
@@ -139,7 +139,7 @@
 			<attack-strenght value="700"/>
 			<attack-var value="50"/>
 			<attack-range value="8"/>
-			<attack-type value="energy"/>				
+			<attack-type value="energy"/>
 			<attack-fields>
 				<field value="land"/>
 				<field value="air"/>
@@ -163,7 +163,7 @@
 
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>	
+			<name value="die_skill"/>
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="120"/>
@@ -178,9 +178,9 @@
 	</skills>
 
 	<!-- *** commands *** -->
-	
+
 	<commands>
-		
+
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>

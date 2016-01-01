@@ -6,7 +6,7 @@
 	<time value="600"/>
 	<unit-requirements/>
 	<upgrade-requirements>
-		<upgrade name="reinforce_armor"/>	
+		<upgrade name="reinforce_armor"/>
 	</upgrade-requirements>
 	<resource-requirements>
 		<resource name="gold" amount="250"/>

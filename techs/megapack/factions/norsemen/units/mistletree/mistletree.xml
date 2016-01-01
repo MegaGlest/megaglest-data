@@ -7,7 +7,7 @@
 		<max-hp value="5000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
-		<armor-type value="wood"/>		
+		<armor-type value="wood"/>
 		<sight value="19" />
 		<time value="50" />
 		<multi-selection value="false" />
@@ -42,12 +42,12 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-	
+
 	<!-- *** skills *** -->
 	<skills>
 
 		<skill>
-			<name value="be_built_skill"/>		
+			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="300"/>
@@ -55,10 +55,10 @@
 			<sound enabled="false"/>
 			<type value="be_built"/>
 		</skill>
-		
+
 		<skill>
 			<type value="stop"/>
-			<name value="stop_skill"/>		
+			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="30"/>
@@ -68,17 +68,17 @@
 
 		<skill>
 			<type value="produce"/>
-			<name value="produce_skill"/>		
+			<name value="produce_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="30"/>
 			<animation path="models/mistletree.g3d"/>
 			<sound enabled="false"/>
-		</skill>	
-		
+		</skill>
+
 		<skill>
 			<type value="attack"/>
-			<name value="attack_air_skill"/>		
+			<name value="attack_air_skill"/>
 			<ep-cost value="0"/>
 			<speed value="80"/>
 			<anim-speed value="80"/>
@@ -116,24 +116,24 @@
 		<!-- *** Skill 4 *** -->
 		<skill>
 			<type value="upgrade"/>
-			<name value="upgrade_skill"/>		
+			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
 			<speed value="300"/>
 			<anim-speed value="30"/>
 			<animation path="models/mistletree.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-		
+
 		<skill>
 			<type value="die"/>
-			<name value="die_skill"/>		
+			<name value="die_skill"/>
 			<ep-cost value="0" />
 			<speed value="300"/>
 			<anim-speed value="100" />
 			<animation path="models/mistletree_destroyed.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="$COMMONDATAPATH/sounds/tech_building_fall5.wav"/>
-			</sound>			
+			</sound>
 			<fade value="false"/>
 		</skill>
 
@@ -141,7 +141,7 @@
 
 	<!-- *** commands *** -->
 	<commands>
-	
+
 		<command>
 			<type value="attack_stopped"/>
 			<name value="air_on"/>
@@ -171,7 +171,7 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="root"/>
 		</command>
-		
+
     		<command>
     		    <type value="produce"/>
     		    <name value="resurrect_wild_sow" />
