@@ -918,7 +918,7 @@ CommandName_throw=vrhat
 CommandName_hold_position=držet pozici
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=totem thóra
+UnitTypeName_thor_totem=totem thóra
 ; --------------------
 ; Levels for this Unit
 ; --------------------

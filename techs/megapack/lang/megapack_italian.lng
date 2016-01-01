@@ -918,7 +918,7 @@ CommandName_throw=lancia
 CommandName_hold_position=mantieni posizione
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=totem del thor
+UnitTypeName_thor_totem=totem del thor
 ; --------------------
 ; Levels for this Unit
 ; --------------------

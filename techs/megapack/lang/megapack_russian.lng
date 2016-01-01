@@ -918,7 +918,7 @@ CommandName_throw=бросок
 CommandName_hold_position=занять позицию
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=тотем тора
+UnitTypeName_thor_totem=тотем тора
 ; --------------------
 ; Levels for this Unit
 ; --------------------

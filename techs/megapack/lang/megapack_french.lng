@@ -918,7 +918,7 @@ CommandName_throw=Jet
 CommandName_hold_position=tenir la position
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=totem de thor
+UnitTypeName_thor_totem=totem de thor
 ; --------------------
 ; Levels for this Unit
 ; --------------------

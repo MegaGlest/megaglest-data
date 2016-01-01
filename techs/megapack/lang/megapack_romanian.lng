@@ -918,7 +918,7 @@ CommandName_throw=aruncă
 CommandName_hold_position=menține poziția
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=totem thor
+UnitTypeName_thor_totem=totem thor
 ; --------------------
 ; Levels for this Unit
 ; --------------------

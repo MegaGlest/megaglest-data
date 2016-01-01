@@ -918,7 +918,7 @@ CommandName_throw=miotanie ('Throw')
 CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=totem thora ('Thor's totem')\n
+UnitTypeName_thor_totem=totem thora ('Thor's totem')\n
 ; --------------------
 ; Levels for this Unit
 ; --------------------

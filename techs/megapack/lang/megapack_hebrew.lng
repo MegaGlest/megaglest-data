@@ -918,7 +918,7 @@ CommandName_throw=זרוק
 CommandName_hold_position=שמור_על_עמדתך
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=קמיע_תור
+UnitTypeName_thor_totem=קמיע_תור
 ; --------------------
 ; Levels for this Unit
 ; --------------------

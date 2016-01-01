@@ -918,7 +918,7 @@ CommandName_throw=atmak
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
 ; Unit
-# UnitTypeName_thortotem=thortotem
+# UnitTypeName_thor_totem=thortotem
 ; --------------------
 ; Levels for this Unit
 ; --------------------

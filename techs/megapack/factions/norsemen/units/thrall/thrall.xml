@@ -245,7 +245,7 @@
 				<building name="blacksmith"/>
 				<building name="farm"/>
 				<building name="valhalla"/>
-				<building name="thortotem"/>
+				<building name="thor_totem"/>
 				<building name="castle"/>
 				<building name="mistletree"/>
 			</buildings>
@@ -325,7 +325,7 @@
 				<unit name="mead_bar"/>
 				<unit name="blacksmith"/>
 				<unit name="house"/>
-				<unit name="thortotem"/>
+				<unit name="thor_totem"/>
 				<unit name="castle"/>
                                 <unit name="valhalla"/>
 				<unit name="mistletree"/>

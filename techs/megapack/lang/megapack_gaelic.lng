@@ -918,7 +918,7 @@ CommandName_throw=tilg
 CommandName_hold_position=seas
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=tòtaim Toir
+UnitTypeName_thor_totem=tòtaim Toir
 ; --------------------
 ; Levels for this Unit
 ; --------------------

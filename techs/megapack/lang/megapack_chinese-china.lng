@@ -918,7 +918,7 @@ CommandName_throw=投掷
 CommandName_hold_position=坚守阵地
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=雷神图腾
+UnitTypeName_thor_totem=雷神图腾
 ; --------------------
 ; Levels for this Unit
 ; --------------------

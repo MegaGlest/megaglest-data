@@ -918,7 +918,7 @@ CommandName_throw=werpen
 CommandName_hold_position=houd positie
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=thor totem
+UnitTypeName_thor_totem=thor totem
 ; --------------------
 ; Levels for this Unit
 ; --------------------

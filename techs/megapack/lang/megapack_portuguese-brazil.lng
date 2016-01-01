@@ -918,7 +918,7 @@ CommandName_throw=lançar
 CommandName_hold_position=Mantenha a Posição
 ; -------------------------------------
 ; Unit
-UnitTypeName_thortotem=escultura thor
+UnitTypeName_thor_totem=escultura thor
 ; --------------------
 ; Levels for this Unit
 ; --------------------
