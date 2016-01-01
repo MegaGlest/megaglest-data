@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=获得太阳神的力量
 FactionName_indian=印第安
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=牛饲料
+UpgradeTypeName_bull_food=牛饲料
 UpgradeTypeName_iron=钢铁
 UpgradeTypeName_iron_advanced=高级钢铁
 UpgradeTypeName_petroleum=石油
@@ -364,7 +364,7 @@ UnitTypeName_reed=芦苇
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=研究牛饲料
+CommandName_research_bull_food=研究牛饲料
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=圆形帐篷

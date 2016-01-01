@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=získat sílu od Rea
 FactionName_indian=indiáni
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=býčí potrava
+UpgradeTypeName_bull_food=býčí potrava
 UpgradeTypeName_iron=železo
 UpgradeTypeName_iron_advanced=pokročilé železo
 UpgradeTypeName_petroleum=ropa
@@ -364,7 +364,7 @@ UnitTypeName_reed=rákos
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=vývoj býčí potravy
+CommandName_research_bull_food=vývoj býčí potravy
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=kruhový stan

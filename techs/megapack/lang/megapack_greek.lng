@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=πάρτε δύναμη απο τον ra
 FactionName_indian=Ινδός
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=τροφή ταύρου
+UpgradeTypeName_bull_food=τροφή ταύρου
 UpgradeTypeName_iron=σίδερο
 UpgradeTypeName_iron_advanced=προηγμένο σίδερο
 UpgradeTypeName_petroleum=πετρέλαιο
@@ -364,7 +364,7 @@ UnitTypeName_reed=καλάμι
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=έρευνα τροφίμων ταύρου
+CommandName_research_bull_food=έρευνα τροφίμων ταύρου
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=στρογγυλή σκηνή

@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=get power of ra
 FactionName_indian=indian
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=bullfood
+UpgradeTypeName_bull_food=bullfood
 UpgradeTypeName_iron=iron
 UpgradeTypeName_iron_advanced=iron advanced
 UpgradeTypeName_petroleum=petroleum
@@ -364,7 +364,7 @@ UnitTypeName_reed=reed
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=research bullfood
+CommandName_research_bull_food=research bullfood
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=roundtent

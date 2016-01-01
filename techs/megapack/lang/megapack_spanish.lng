@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=conseguir poder de rá
 FactionName_indian=Índios
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=comida taurina
+UpgradeTypeName_bull_food=comida taurina
 UpgradeTypeName_iron=hierro
 UpgradeTypeName_iron_advanced=hierro avanzado
 UpgradeTypeName_petroleum=petróleo
@@ -364,7 +364,7 @@ UnitTypeName_reed=cañaveral
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=investigar comida taurina
+CommandName_research_bull_food=investigar comida taurina
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=tienda redonda

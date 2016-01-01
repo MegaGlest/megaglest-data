@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=krijg macht van ra
 FactionName_indian=indiaan
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=stieren voedsel
+UpgradeTypeName_bull_food=stieren voedsel
 UpgradeTypeName_iron=ijzer
 UpgradeTypeName_iron_advanced=geavanceerd ijzer
 UpgradeTypeName_petroleum=petroleum
@@ -364,7 +364,7 @@ UnitTypeName_reed=riet
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=onderzoek stierenvoedsel
+CommandName_research_bull_food=onderzoek stierenvoedsel
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=ronde tent

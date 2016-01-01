@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=получить власть ра
 FactionName_indian=индейцы
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=корм
+UpgradeTypeName_bull_food=корм
 UpgradeTypeName_iron=железо
 UpgradeTypeName_iron_advanced=железные сплавы
 UpgradeTypeName_petroleum=нефть
@@ -364,7 +364,7 @@ UnitTypeName_reed=тростник
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=заготовить корма
+CommandName_research_bull_food=заготовить корма
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=круглая палатка

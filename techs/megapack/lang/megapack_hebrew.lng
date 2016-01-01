@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=קבל את כוחו של רע
 FactionName_indian=אינדיאנים
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=מזון_שוורים
+UpgradeTypeName_bull_food=מזון_שוורים
 UpgradeTypeName_iron=ברזל
 UpgradeTypeName_iron_advanced=ברזל_מתקדם
 UpgradeTypeName_petroleum=נפט
@@ -364,7 +364,7 @@ UnitTypeName_reed=קנים
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=חקור_מזון_שוורים
+CommandName_research_bull_food=חקור_מזון_שוורים
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=אוהל_מוקף

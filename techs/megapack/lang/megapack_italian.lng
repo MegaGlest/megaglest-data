@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=ottieni il potere di ra
 FactionName_indian=indiano
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=carne di toro
+UpgradeTypeName_bull_food=carne di toro
 UpgradeTypeName_iron=ferro
 UpgradeTypeName_iron_advanced=ferro avanzato
 UpgradeTypeName_petroleum=petrolio
@@ -364,7 +364,7 @@ UnitTypeName_reed=canna
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=ricerca carne di toro
+CommandName_research_bull_food=ricerca carne di toro
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=tenda rotonda

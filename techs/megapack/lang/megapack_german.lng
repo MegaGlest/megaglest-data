@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=Macht des Ra entwickeln
 FactionName_indian=Indianer
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=Bullenfutter
+UpgradeTypeName_bull_food=Bullenfutter
 UpgradeTypeName_iron=Eisen
 UpgradeTypeName_iron_advanced=optimiertes Eisen
 UpgradeTypeName_petroleum=Petroleum
@@ -364,7 +364,7 @@ UnitTypeName_reed=Schilf
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=Bullenfutter erforschen
+CommandName_research_bull_food=Bullenfutter erforschen
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=Rundzelt

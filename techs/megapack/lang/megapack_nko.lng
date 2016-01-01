@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=ߙߊ_ߟߊ߫_ߛߋ_ߛߋ߬ߘߐ߲߬
 FactionName_indian=ߌ߲ߘߎߞߊ
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=ߕߎߙߓߊߟߏ
+UpgradeTypeName_bull_food=ߕߎߙߓߊߟߏ
 UpgradeTypeName_iron=ߣߍ߱
 UpgradeTypeName_iron_advanced=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲
 UpgradeTypeName_petroleum=ߕߟߎ
@@ -364,7 +364,7 @@ UnitTypeName_reed=ߜߊ߬ߟߊ
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=ߕߎߙߊ_ߓߊߟߏ_ߢߌߣߌ߲߫
+CommandName_research_bull_food=ߕߎߙߊ_ߓߊߟߏ_ߢߌߣߌ߲߫
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=ߕߙߏ߬ߞߋ߬ߕߝߊߟߊ_ߞߏ߰ߙߌ߬ߟߊ߬ߡߊ

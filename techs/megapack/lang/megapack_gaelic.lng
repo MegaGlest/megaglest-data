@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=faigh cumhachd Rà
 FactionName_indian=Innseanaich
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=biadh sprèidhe
+UpgradeTypeName_bull_food=biadh sprèidhe
 UpgradeTypeName_iron=iarainn
 UpgradeTypeName_iron_advanced=iarainn adhartach
 UpgradeTypeName_petroleum=ola
@@ -364,7 +364,7 @@ UnitTypeName_reed=cuilc
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=rannsaich biadh sprèidhe
+CommandName_research_bull_food=rannsaich biadh sprèidhe
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=teanta cruinn

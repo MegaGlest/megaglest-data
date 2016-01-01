@@ -106,12 +106,12 @@
 	<commands>
                 <command>
 			<type value="upgrade"/>
-			<name value="research_bullfood"/>
-			<image path="../../upgrades/bullfood/images/bullfood.bmp"/>
+			<name value="research_bull_food"/>
+			<image path="../../upgrades/bull_food/images/bullfood.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<upgrade-skill value="upgrade_skill"/>
-			<produced-upgrade name="bullfood"/>
+			<produced-upgrade name="bull_food"/>
 		</command>
 	</commands>
 </unit>

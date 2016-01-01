@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=obtenir puissance de ra
 FactionName_indian=indien
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=nourriture pour taureau
+UpgradeTypeName_bull_food=nourriture pour taureau
 UpgradeTypeName_iron=fer
 UpgradeTypeName_iron_advanced=fer perfectionné
 UpgradeTypeName_petroleum=huile
@@ -364,7 +364,7 @@ UnitTypeName_reed=roseau
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=rechercher nourriture pour taureau
+CommandName_research_bull_food=rechercher nourriture pour taureau
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=tente ronde

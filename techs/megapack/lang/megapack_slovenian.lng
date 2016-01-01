@@ -227,7 +227,7 @@ CommandName_get_power_of_ra=dobi silo Ra
 FactionName_indian=indijanci
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_bullfood=bullfood
+UpgradeTypeName_bull_food=bullfood
 UpgradeTypeName_iron=železo
 UpgradeTypeName_iron_advanced=napredno železo
 UpgradeTypeName_petroleum=olje
@@ -364,7 +364,7 @@ UnitTypeName_reed=trstje
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_research_bullfood=razišči bikovo hrano
+CommandName_research_bull_food=razišči bikovo hrano
 ; -------------------------------------
 ; Unit
 UnitTypeName_round_tent=okrogli šotor

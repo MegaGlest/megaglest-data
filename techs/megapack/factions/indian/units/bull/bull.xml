@@ -23,7 +23,7 @@
 		<unit-requirements>
 		</unit-requirements>
 		<upgrade-requirements>
-                   <upgrade name="bullfood"/>
+                   <upgrade name="bull_food"/>
 		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="gold" amount="80"/>
