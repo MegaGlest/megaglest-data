@@ -813,7 +813,7 @@ UnitTypeName_farm=fermă
 CommandName_produce_cow=produ vacă
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=valkyrie zburător
+UnitTypeName_flying_valkyrie=valkyrie zburător
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elită
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=valhalla
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=produ valkyrie zburător
+CommandName_produce_flying_valkyrie=produ valkyrie zburător
 CommandName_produce_valkyrie=produ valkyrie
 CommandName_research_holy_valkyrie=studiează valkyrie sfânt
 ; -------------------------------------

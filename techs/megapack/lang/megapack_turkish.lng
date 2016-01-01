@@ -813,7 +813,7 @@ UnitTypeName_farm=çiftlik
 CommandName_produce_cow=sığır üret
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=uçan kadın savaşçı
+UnitTypeName_flying_valkyrie=uçan kadın savaşçı
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=seçkin
@@ -944,7 +944,7 @@ CommandName_repair=Onarma
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=uçan kadın savaşçı üret
+CommandName_produce_flying_valkyrie=uçan kadın savaşçı üret
 CommandName_produce_valkyrie=savaşçı kadın üret
 CommandName_research_holy_valkyrie=kutsal kadın savaşçı araştır
 ; -------------------------------------

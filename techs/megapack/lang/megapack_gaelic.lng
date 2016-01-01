@@ -813,7 +813,7 @@ UnitTypeName_farm=tuathanas
 CommandName_produce_cow=dèan bò
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=bailgiridh sgiathach
+UnitTypeName_flying_valkyrie=bailgiridh sgiathach
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=uasail
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=bhal-thalla
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=dèan bailgiridh sgiathach
+CommandName_produce_flying_valkyrie=dèan bailgiridh sgiathach
 CommandName_produce_valkyrie=dèan bailgiridh
 CommandName_research_holy_valkyrie=rannsaich bailgiridh naomh
 ; -------------------------------------

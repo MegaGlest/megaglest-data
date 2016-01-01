@@ -813,7 +813,7 @@ UnitTypeName_farm=חווה
 CommandName_produce_cow=מייצר_פרה
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=ואלקירי_מכונפת
+UnitTypeName_flying_valkyrie=ואלקירי_מכונפת
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=מובחר
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=ולהלה
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=מייצר_ואלקירי_מכונ
+CommandName_produce_flying_valkyrie=מייצר_ואלקירי_מכונ
 CommandName_produce_valkyrie=מייצר_ואלקירי
 CommandName_research_holy_valkyrie=חקור_ואלקירי_קדושה
 ; -------------------------------------

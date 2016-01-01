@@ -813,7 +813,7 @@ UnitTypeName_farm=Fazenda
 CommandName_produce_cow=produzir vaca
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=Valquíria voadora\n
+UnitTypeName_flying_valkyrie=Valquíria voadora\n
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=Valhala
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=produzir Valquíria voadora
+CommandName_produce_flying_valkyrie=produzir Valquíria voadora
 CommandName_produce_valkyrie=produzir Valquíria
 CommandName_research_holy_valkyrie=procurar Santa Valquíria
 ; -------------------------------------

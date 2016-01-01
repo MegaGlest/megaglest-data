@@ -813,7 +813,7 @@ UnitTypeName_farm=farma ('Farm')
 CommandName_produce_cow=produkcja krowy ('Produce cow')
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=latająca walkiria\n('Flying valkyrie')
+UnitTypeName_flying_valkyrie=latająca walkiria\n('Flying valkyrie')
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitarny-
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=walhalla ('Valhalla')
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=produkcja latającej walkirii\n('Produce flying valkyrie')
+CommandName_produce_flying_valkyrie=produkcja latającej walkirii\n('Produce flying valkyrie')
 CommandName_produce_valkyrie=produkcja walkirii\n('Produce valkyrie')
 CommandName_research_holy_valkyrie=odkrycie Świętej walkirii\n('Research holy valkyrie')
 ; -------------------------------------

@@ -813,7 +813,7 @@ UnitTypeName_farm=granja
 CommandName_produce_cow=producir vaca
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=valquiria voladora
+UnitTypeName_flying_valkyrie=valquiria voladora
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=élite
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=valhala
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=producir valquiria voladora
+CommandName_produce_flying_valkyrie=producir valquiria voladora
 CommandName_produce_valkyrie=producir valquiria
 CommandName_research_holy_valkyrie=investigar valquiria sagrada
 ; -------------------------------------

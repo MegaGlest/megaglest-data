@@ -813,7 +813,7 @@ UnitTypeName_farm=ߛߣߍ߬ߘߎ߮
 CommandName_produce_cow=ߡߌ߬ߛߌ_ߟߊߥߟߏ߫
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=ߝߊ߭ߞߙߌ߫_ߜߊ߲ߣߌ߲ߠߊ
+UnitTypeName_flying_valkyrie=ߝߊ߭ߞߙߌ߫_ߜߊ߲ߣߌ߲ߠߊ
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=ߡߐ߰ߘߐ߬ߜߍ
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=ߝ߭ߊߟߑߤߟߊ߫
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߜߊ߲ߠߌ߲ߠߊ_ߟߊߥߟߏ߫
+CommandName_produce_flying_valkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߜߊ߲ߠߌ߲ߠߊ_ߟߊߥߟߏ߫
 CommandName_produce_valkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߟߊߥߟߏ߫
 CommandName_research_holy_valkyrie=ߝ߭ߊߟߑߞߙߌ߫_ߞߍ߲ߘߍ_ߢߌߣߌ߲߫
 ; -------------------------------------

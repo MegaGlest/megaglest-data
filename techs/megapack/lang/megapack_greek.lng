@@ -813,7 +813,7 @@ UnitTypeName_farm=αγρόκτημα
 CommandName_produce_cow=παραγωγή αγελάδας
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=ιπταμενη βαλκυρια
+UnitTypeName_flying_valkyrie=ιπταμενη βαλκυρια
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=ελίτ
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=Βαλχάλλα
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=παραγωγή ιπταμενης Βαλκυρίας
+CommandName_produce_flying_valkyrie=παραγωγή ιπταμενης Βαλκυρίας
 CommandName_produce_valkyrie=παραγωγή βαλκυρίας
 CommandName_research_holy_valkyrie=έρευνα ιερής Βαλκυρίας
 ; -------------------------------------

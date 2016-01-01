@@ -813,7 +813,7 @@ UnitTypeName_farm=ферма
 CommandName_produce_cow=вырастить корову
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=летающие валькирии
+UnitTypeName_flying_valkyrie=летающие валькирии
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=элита
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=валхалла
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=обучить летающих валькирий
+CommandName_produce_flying_valkyrie=обучить летающих валькирий
 CommandName_produce_valkyrie=нанять валькирию
 CommandName_research_holy_valkyrie=обучить праведных валькирий
 ; -------------------------------------

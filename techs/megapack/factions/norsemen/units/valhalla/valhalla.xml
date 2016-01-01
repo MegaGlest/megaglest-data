@@ -115,12 +115,12 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="produce_flyingvalkyrie" />
-			<image path="../flyingvalkyrie/images/flyingvalkyrie.bmp" />
+			<name value="produce_flying_valkyrie" />
+			<image path="../flying_valkyrie/images/flyingvalkyrie.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="flyingvalkyrie"/>
+			<produced-unit name="flying_valkyrie"/>
 		</command>
 
 		<command>

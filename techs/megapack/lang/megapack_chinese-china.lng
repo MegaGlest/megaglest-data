@@ -813,7 +813,7 @@ UnitTypeName_farm=农场
 CommandName_produce_cow=生产牛
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=飞天女武神
+UnitTypeName_flying_valkyrie=飞天女武神
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=精英
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=英灵殿
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=生产飞天女武神
+CommandName_produce_flying_valkyrie=生产飞天女武神
 CommandName_produce_valkyrie=生产女武神
 CommandName_research_holy_valkyrie=研究神圣女武神
 ; -------------------------------------

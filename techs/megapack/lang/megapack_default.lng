@@ -813,7 +813,7 @@ UnitTypeName_farm=farm
 CommandName_produce_cow=produce cow
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=flyingvalkyrie
+UnitTypeName_flying_valkyrie=flying valkyrie
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=valhalla
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=produce flyingvalkyrie
+CommandName_produce_flying_valkyrie=produce flying valkyrie
 CommandName_produce_valkyrie=produce valkyrie
 CommandName_research_holy_valkyrie=research holy valkyrie
 ; -------------------------------------

@@ -813,7 +813,7 @@ UnitTypeName_farm=boerderĳ
 CommandName_produce_cow=produceer koe
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=vliegende walkure
+UnitTypeName_flying_valkyrie=vliegende walkure
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=walhalla
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=produceer vliegendewalkure\n
+CommandName_produce_flying_valkyrie=produceer vliegendewalkure\n
 CommandName_produce_valkyrie=produceer walkure
 CommandName_research_holy_valkyrie=onderzoek heilige walkure
 ; -------------------------------------

@@ -813,7 +813,7 @@ UnitTypeName_farm=farma
 CommandName_produce_cow=produkovat krávu
 ; -------------------------------------
 ; Unit
-UnitTypeName_flyingvalkyrie=létající valkýra
+UnitTypeName_flying_valkyrie=létající valkýra
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elitní
@@ -944,7 +944,7 @@ UnitTypeName_valhalla=valhalla
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_flyingvalkyrie=produkovat létající valkýru
+CommandName_produce_flying_valkyrie=produkovat létající valkýru
 CommandName_produce_valkyrie=produkovat valkýru
 CommandName_research_holy_valkyrie=vývoj svaté valkýry
 ; -------------------------------------

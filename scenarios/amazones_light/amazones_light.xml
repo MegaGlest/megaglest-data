@@ -28,7 +28,7 @@
   			function sendFlyingUnits()
 				isSent=1
                         	for i=1, 3 do
-				addAttackingEnemy('flyingvalkyrie')
+				addAttackingEnemy('flying_valkyrie')
 				end
 			end
                 </global>
