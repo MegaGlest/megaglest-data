@@ -772,7 +772,7 @@ UnitTypeName_castle=hrad
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_thrull=produkovat thrulla
+CommandName_produce_thrall=produkovat thralla
 ; -------------------------------------
 ; Unit
 UnitTypeName_cow=kráva
@@ -926,7 +926,7 @@ UnitTypeName_thortotem=totem thóra
 CommandName_build_thor=stvořit thóra
 ; -------------------------------------
 ; Unit
-UnitTypeName_thrull=thrull
+UnitTypeName_thrall=thrall
 ; --------------------
 ; Levels for this Unit
 ; --------------------

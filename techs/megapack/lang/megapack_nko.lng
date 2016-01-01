@@ -772,7 +772,7 @@ UnitTypeName_castle=ߖߌ߲߱
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_thrull=ߕߙߎߟ_ߟߊߥߟߏ߫
+CommandName_produce_thrall=ߕߙߎߟ_ߟߊߥߟߏ߫
 ; -------------------------------------
 ; Unit
 UnitTypeName_cow=ߡߌ߬ߛߌ
@@ -926,7 +926,7 @@ UnitTypeName_thortotem=ߕߐߙ_ߕߊ߬ߣߊ
 CommandName_build_thor=ߕߐߙ_ߟߐ߬
 ; -------------------------------------
 ; Unit
-UnitTypeName_thrull=ߕߙߎߟ
+UnitTypeName_thrall=ߕߙߎߟ
 ; --------------------
 ; Levels for this Unit
 ; --------------------

@@ -24,7 +24,7 @@
 		<unit name="battleaxe" amount="0"/>
 		<unit name="battleaxe_berzerk" amount="0"/>
 		<unit name="house" amount="0"/>
-		<unit name="thrull" amount="3"/>
+		<unit name="thrall" amount="3"/>
 		<unit name="thortotem" amount="0"/>
 		<unit name="valkyrie" amount="0"/>
 		<unit name="flyingvalkyrie" amount="0"/>

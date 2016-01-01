@@ -113,12 +113,12 @@
 
 		<command>
 			<type value="produce"/>
-			<name value="produce_thrull" />
-			<image path="../thrull/images/thrull.bmp" />
+			<name value="produce_thrall" />
+			<image path="../thrall/images/thrull.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="thrull"/>
+			<produced-unit name="thrall"/>
 		</command>
 
 	</commands>

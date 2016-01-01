@@ -772,7 +772,7 @@ UnitTypeName_castle=castello
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-CommandName_produce_thrull=produce thrull
+CommandName_produce_thrall=produce thrall
 ; -------------------------------------
 ; Unit
 UnitTypeName_cow=mucca
@@ -926,7 +926,7 @@ UnitTypeName_thortotem=totem del thor
 CommandName_build_thor=costruisci thor
 ; -------------------------------------
 ; Unit
-UnitTypeName_thrull=thrull
+UnitTypeName_thrall=thrall
 ; --------------------
 ; Levels for this Unit
 ; --------------------
