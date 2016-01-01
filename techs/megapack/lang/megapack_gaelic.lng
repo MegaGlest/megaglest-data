@@ -367,7 +367,7 @@ UnitTypeName_reed=cuilc
 CommandName_research_bullfood=rannsaich biadh sprèidhe
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=teanta cruinn
+UnitTypeName_round_tent=teanta cruinn
 ; --------------------
 ; Levels for this Unit
 ; --------------------

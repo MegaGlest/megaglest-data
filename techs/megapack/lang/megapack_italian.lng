@@ -367,7 +367,7 @@ UnitTypeName_reed=canna
 CommandName_research_bullfood=ricerca carne di toro
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=tenda rotonda
+UnitTypeName_round_tent=tenda rotonda
 ; --------------------
 ; Levels for this Unit
 ; --------------------

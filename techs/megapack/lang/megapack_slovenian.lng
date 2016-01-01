@@ -367,7 +367,7 @@ UnitTypeName_reed=trstje
 CommandName_research_bullfood=razišči bikovo hrano
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=okrogli šotor
+UnitTypeName_round_tent=okrogli šotor
 ; --------------------
 ; Levels for this Unit
 ; --------------------

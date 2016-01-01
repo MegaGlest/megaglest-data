@@ -367,7 +367,7 @@ UnitTypeName_reed=καλάμι
 CommandName_research_bullfood=έρευνα τροφίμων ταύρου
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=στρογγυλή σκηνή
+UnitTypeName_round_tent=στρογγυλή σκηνή
 ; --------------------
 ; Levels for this Unit
 ; --------------------

@@ -367,7 +367,7 @@ UnitTypeName_reed=cañaveral
 CommandName_research_bullfood=investigar comida taurina
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=tienda redonda
+UnitTypeName_round_tent=tienda redonda
 ; --------------------
 ; Levels for this Unit
 ; --------------------

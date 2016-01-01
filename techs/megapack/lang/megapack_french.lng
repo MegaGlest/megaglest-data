@@ -367,7 +367,7 @@ UnitTypeName_reed=roseau
 CommandName_research_bullfood=rechercher nourriture pour taureau
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=tente ronde
+UnitTypeName_round_tent=tente ronde
 ; --------------------
 ; Levels for this Unit
 ; --------------------

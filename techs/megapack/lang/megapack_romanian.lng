@@ -367,7 +367,7 @@ UnitTypeName_reed=stuf
 CommandName_research_bullfood=studiează hrană vită
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=cort rotund
+UnitTypeName_round_tent=cort rotund
 ; --------------------
 ; Levels for this Unit
 ; --------------------

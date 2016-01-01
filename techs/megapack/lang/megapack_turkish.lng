@@ -367,7 +367,7 @@ UnitTypeName_reed=kamış
 CommandName_research_bullfood=boğa yemi araştır
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=yuvarlak çadır
+UnitTypeName_round_tent=yuvarlak çadır
 ; --------------------
 ; Levels for this Unit
 ; --------------------

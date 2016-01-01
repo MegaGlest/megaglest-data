@@ -367,7 +367,7 @@ UnitTypeName_reed=riet
 CommandName_research_bullfood=onderzoek stierenvoedsel
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=ronde tent
+UnitTypeName_round_tent=ronde tent
 ; --------------------
 ; Levels for this Unit
 ; --------------------

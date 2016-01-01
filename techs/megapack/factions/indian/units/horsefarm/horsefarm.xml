@@ -26,7 +26,7 @@
 		</properties>
 		<light enabled="false" />
 		<unit-requirements>
-			<unit name="roundtent" />
+			<unit name="round_tent" />
 			<unit name="mainteepee" />
 		</unit-requirements>
 		<upgrade-requirements />

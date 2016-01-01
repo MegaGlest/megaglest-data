@@ -241,7 +241,7 @@
 			<buildings>
                                 <building name="tent"/>
                                 <building name="big_tent"/>
-                                <building name="roundtent"/>
+                                <building name="round_tent"/>
 				<building name="campfire"/>
 				<building name="reed"/>
 				<building name="totem"/>
@@ -300,7 +300,7 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>
-				<unit name="roundtent"/>
+				<unit name="round_tent"/>
 				<unit name="tent"/>
 				<unit name="big_tent"/>
 				<unit name="totem"/>

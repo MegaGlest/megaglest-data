@@ -367,7 +367,7 @@ UnitTypeName_reed=קנים
 CommandName_research_bullfood=חקור_מזון_שוורים
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=אוהל_מוקף
+UnitTypeName_round_tent=אוהל_מוקף
 ; --------------------
 ; Levels for this Unit
 ; --------------------

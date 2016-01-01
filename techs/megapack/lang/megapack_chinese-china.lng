@@ -367,7 +367,7 @@ UnitTypeName_reed=芦苇
 CommandName_research_bullfood=研究牛饲料
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=圆形帐篷
+UnitTypeName_round_tent=圆形帐篷
 ; --------------------
 ; Levels for this Unit
 ; --------------------

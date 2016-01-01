@@ -367,7 +367,7 @@ UnitTypeName_reed=trzcina ('Reed')
 CommandName_research_bullfood=odkrycie karmy dla byków\n('Research bull food')
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=okrągły namiot\n('Round tent')
+UnitTypeName_round_tent=okrągły namiot\n('Round tent')
 ; --------------------
 ; Levels for this Unit
 ; --------------------

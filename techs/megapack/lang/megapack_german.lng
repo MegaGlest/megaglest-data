@@ -367,7 +367,7 @@ UnitTypeName_reed=Schilf
 CommandName_research_bullfood=Bullenfutter erforschen
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=Rundzelt
+UnitTypeName_round_tent=Rundzelt
 ; --------------------
 ; Levels for this Unit
 ; --------------------

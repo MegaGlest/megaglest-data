@@ -367,7 +367,7 @@ UnitTypeName_reed=rákos
 CommandName_research_bullfood=vývoj býčí potravy
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=kruhový stan
+UnitTypeName_round_tent=kruhový stan
 ; --------------------
 ; Levels for this Unit
 ; --------------------

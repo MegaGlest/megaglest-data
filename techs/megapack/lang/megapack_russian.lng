@@ -367,7 +367,7 @@ UnitTypeName_reed=тростник
 CommandName_research_bullfood=заготовить корма
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=круглая палатка
+UnitTypeName_round_tent=круглая палатка
 ; --------------------
 ; Levels for this Unit
 ; --------------------

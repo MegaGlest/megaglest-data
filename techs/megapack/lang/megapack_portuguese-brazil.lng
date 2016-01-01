@@ -367,7 +367,7 @@ UnitTypeName_reed=Cana
 CommandName_research_bullfood=Procurar Carne Bovina
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=Oca
+UnitTypeName_round_tent=Oca
 ; --------------------
 ; Levels for this Unit
 ; --------------------

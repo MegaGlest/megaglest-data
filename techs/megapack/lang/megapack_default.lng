@@ -367,7 +367,7 @@ UnitTypeName_reed=reed
 CommandName_research_bullfood=research bullfood
 ; -------------------------------------
 ; Unit
-UnitTypeName_roundtent=roundtent
+UnitTypeName_round_tent=roundtent
 ; --------------------
 ; Levels for this Unit
 ; --------------------
