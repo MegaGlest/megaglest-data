@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=odkrycie mocy Ra\n('Research power of Ra')
 FactionName_indian=Indianie
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=zaawansowane Żelazo ('Advanced iron')
 UpgradeTypeName_bull_food=karma dla byków ('Bull food')
 UpgradeTypeName_iron=Żelazo ('Iron')
-UpgradeTypeName_advanced_iron=zaawansowane Żelazo ('Advanced iron')
 UpgradeTypeName_petroleum=nafta ('Petroleum')
 UpgradeTypeName_stables=stajnie ('Stables')
 UpgradeTypeName_training_field=plac treningowy ('Training field')
@@ -533,19 +533,6 @@ CommandName_move=przesuń się / idź ('Move')
 CommandName_attack=atak ('Attack')
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=smok ('Dragon')
-; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_breath=oddech ('Breath')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-CommandName_promote_to_evil_dragon=awans do złego smoka\n('Promote to evil dragon')
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=jaszczurza jeźdźczyni\n('Draco rider')
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=przesuń się / idź ('Move')
 CommandName_fire_breath=ognisty oddech ('Fire breath')
 CommandName_flare=flara ('Flare')
 CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=smok ('Dragon')
+; --------------------
+; Levels for this Unit
+LevelName_ancient=starożytny-
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=stop ('Stop')
+CommandName_move=przesuń się / idź ('Move')
+CommandName_breath=oddech ('Breath')
+CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
+CommandName_promote_to_evil_dragon=awans do złego smoka\n('Promote to evil dragon')
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=Źródło energii\n('Energy source')
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=niewolnik ('Slave')
 ; Types of Commands for this Unit
 CommandName_stop=stop ('Stop')
 CommandName_move=przesuń się / idź ('Move')
-CommandName_build_=budowanie ('Build')
+CommandName_build=budowanie ('Build')
 CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
 CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
 CommandName_repair=naprawianie ('Repair')

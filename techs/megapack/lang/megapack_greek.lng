@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=πάρτε δύναμη απο τον ra
 FactionName_indian=Ινδός
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=προηγμένο σίδερο
 UpgradeTypeName_bull_food=τροφή ταύρου
 UpgradeTypeName_iron=σίδερο
-UpgradeTypeName_advanced_iron=προηγμένο σίδερο
 UpgradeTypeName_petroleum=πετρέλαιο
 UpgradeTypeName_stables=στάβλοι
 UpgradeTypeName_training_field=χώρος προπονησης
@@ -533,19 +533,6 @@ CommandName_move=κίνηση
 CommandName_attack=επίθεση
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=δράκος
-; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_breath=αναπνοή
-CommandName_hold_position=θέση αναμονής
-CommandName_promote_to_evil_dragon=προώθηση στον κακό δράκο
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=Ντρέικ αναβάτης
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=κίνηση
 CommandName_fire_breath=αναπνοή φωτιάς
 CommandName_flare=φωτοβολίδα
 CommandName_hold_position=θέση αναμονής
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=δράκος
+; --------------------
+; Levels for this Unit
+LevelName_ancient=αρχαίος
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=σταμάτημα
+CommandName_move=κίνηση
+CommandName_breath=αναπνοή
+CommandName_hold_position=θέση αναμονής
+CommandName_promote_to_evil_dragon=προώθηση στον κακό δράκο
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=πηγή ενέργειας
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=σκλάβος
 ; Types of Commands for this Unit
 CommandName_stop=σταμάτημα
 CommandName_move=κίνηση
-CommandName_build_=χτίσιμο
+CommandName_build=χτίσιμο
 CommandName_mine=ορυχείο
 CommandName_harvest_wood=συγκομιδή ξύλου
 CommandName_repair=επιδιόρθωση

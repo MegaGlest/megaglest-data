@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=Macht des Ra entwickeln
 FactionName_indian=Indianer
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=optimiertes Eisen
 UpgradeTypeName_bull_food=Bullenfutter
 UpgradeTypeName_iron=Eisen
-UpgradeTypeName_advanced_iron=optimiertes Eisen
 UpgradeTypeName_petroleum=Petroleum
 UpgradeTypeName_stables=Stallungen
 UpgradeTypeName_training_field=Trainingsfeld
@@ -533,19 +533,6 @@ CommandName_move=Bewegen
 CommandName_attack=Angreifen
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=Drache
-; --------------------
-; Levels for this Unit
-LevelName_ancient=uralt
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=Stop
-CommandName_move=Bewegen
-CommandName_breath=Atmen
-CommandName_hold_position=halte Position
-CommandName_promote_to_evil_dragon=Zu Teufelsdrachen aufwerten
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=Drachenreiter
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=Bewegen
 CommandName_fire_breath=Feueratem
 CommandName_flare=Fackel
 CommandName_hold_position=halte Position
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=Drache
+; --------------------
+; Levels for this Unit
+LevelName_ancient=uralt
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Stop
+CommandName_move=Bewegen
+CommandName_breath=Atmen
+CommandName_hold_position=halte Position
+CommandName_promote_to_evil_dragon=Zu Teufelsdrachen aufwerten
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=Energiequelle
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=Sklave
 ; Types of Commands for this Unit
 CommandName_stop=Stop
 CommandName_move=Bewegen
-CommandName_build_=Konstruktion
+CommandName_build=Bauen
 CommandName_mine=Mine
 CommandName_harvest_wood=Holz schlagen
 CommandName_repair=Reparieren

@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=קבל את כוחו של רע
 FactionName_indian=אינדיאנים
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=ברזל_מתקדם
 UpgradeTypeName_bull_food=מזון_שוורים
 UpgradeTypeName_iron=ברזל
-UpgradeTypeName_advanced_iron=ברזל_מתקדם
 UpgradeTypeName_petroleum=נפט
 UpgradeTypeName_stables=אורוות
 UpgradeTypeName_training_field=שדה_אימונים
@@ -533,19 +533,6 @@ CommandName_move=נוע
 CommandName_attack=תקוף
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=דרקון
-; --------------------
-; Levels for this Unit
-LevelName_ancient=עתיק
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=עוצר
-CommandName_move=נוע
-CommandName_breath=נשימה
-CommandName_hold_position=שמור_על_עמדתך
-CommandName_promote_to_evil_dragon=קדם_לדרקון_מרושע
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=רוכב_דרקונים
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=נוע
 CommandName_fire_breath=נשימת_אש
 CommandName_flare=להבה
 CommandName_hold_position=שמור_על_עמדתך
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=דרקון
+; --------------------
+; Levels for this Unit
+LevelName_ancient=עתיק
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=עוצר
+CommandName_move=נוע
+CommandName_breath=נשימה
+CommandName_hold_position=שמור_על_עמדתך
+CommandName_promote_to_evil_dragon=קדם_לדרקון_מרושע
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=מקור_אנרגיה
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=עבד
 ; Types of Commands for this Unit
 CommandName_stop=עוצר
 CommandName_move=נוע
-CommandName_build_=בנה_
+CommandName_build=בנה
 CommandName_mine=מכרה
 CommandName_harvest_wood=חטוב_עצים
 CommandName_repair=תקן

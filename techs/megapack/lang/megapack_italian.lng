@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=ottieni il potere di ra
 FactionName_indian=indiano
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=ferro avanzato
 UpgradeTypeName_bull_food=carne di toro
 UpgradeTypeName_iron=ferro
-UpgradeTypeName_advanced_iron=ferro avanzato
 UpgradeTypeName_petroleum=petrolio
 UpgradeTypeName_stables=stalle
 UpgradeTypeName_training_field=campo di allenamento
@@ -533,19 +533,6 @@ CommandName_move=sposta
 CommandName_attack=attacca
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=drago
-; --------------------
-; Levels for this Unit
-LevelName_ancient=antico
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=fermo
-CommandName_move=sposta
-CommandName_breath=soffio
-CommandName_hold_position=mantieni posizione
-CommandName_promote_to_evil_dragon=promuovi a drago malvagio
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=cavaliere del drago
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=sposta
 CommandName_fire_breath=soffio di fuoco
 CommandName_flare=fiammata
 CommandName_hold_position=mantieni posizione
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=drago
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antico
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=fermo
+CommandName_move=sposta
+CommandName_breath=soffio
+CommandName_hold_position=mantieni posizione
+CommandName_promote_to_evil_dragon=promuovi a drago malvagio
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=sorgente di energia
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=schiavo
 ; Types of Commands for this Unit
 CommandName_stop=fermo
 CommandName_move=sposta
-CommandName_build_=costruzione
+CommandName_build=costruisci
 CommandName_mine=miniera
 CommandName_harvest_wood=raccogliere legna
 CommandName_repair=ripara

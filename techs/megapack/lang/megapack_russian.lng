@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=получить власть ра
 FactionName_indian=индейцы
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=железные сплавы
 UpgradeTypeName_bull_food=корм
 UpgradeTypeName_iron=железо
-UpgradeTypeName_advanced_iron=железные сплавы
 UpgradeTypeName_petroleum=нефть
 UpgradeTypeName_stables=конюшни
 UpgradeTypeName_training_field=тренировочная площадка
@@ -533,19 +533,6 @@ CommandName_move=перемещение
 CommandName_attack=атака
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=дракон
-; --------------------
-; Levels for this Unit
-LevelName_ancient=древний
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=стоп
-CommandName_move=перемещение
-CommandName_breath=жизнь
-CommandName_hold_position=занять позицию
-CommandName_promote_to_evil_dragon=преобразить в зловещего дракона
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=оседлавший ящера
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=перемещение
 CommandName_fire_breath=огненное дыхание
 CommandName_flare=свет
 CommandName_hold_position=занять позицию
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=дракон
+; --------------------
+; Levels for this Unit
+LevelName_ancient=древний
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=стоп
+CommandName_move=перемещение
+CommandName_breath=жизнь
+CommandName_hold_position=занять позицию
+CommandName_promote_to_evil_dragon=преобразить в зловещего дракона
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=источник энергии
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=раб
 ; Types of Commands for this Unit
 CommandName_stop=стоп
 CommandName_move=перемещение
-CommandName_build_=построить
+CommandName_build=строительство
 CommandName_mine=рудник
 CommandName_harvest_wood=заготовка древесины
 CommandName_repair=ремонт

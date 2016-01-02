@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=krijg macht van ra
 FactionName_indian=indiaan
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=geavanceerd ijzer
 UpgradeTypeName_bull_food=stieren voedsel
 UpgradeTypeName_iron=ijzer
-UpgradeTypeName_advanced_iron=geavanceerd ijzer
 UpgradeTypeName_petroleum=petroleum
 UpgradeTypeName_stables=stallen
 UpgradeTypeName_training_field=oefen veld
@@ -533,19 +533,6 @@ CommandName_move=verplaatsen
 CommandName_attack=aanvallen
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=draak
-; --------------------
-; Levels for this Unit
-LevelName_ancient=antiek
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=verplaatsen
-CommandName_breath=ademen
-CommandName_hold_position=houd positie
-CommandName_promote_to_evil_dragon=promoveer tot wreede draak
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=eenden rijder
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=verplaatsen
 CommandName_fire_breath=vuur adem
 CommandName_flare=gloed
 CommandName_hold_position=houd positie
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=draak
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antiek
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=verplaatsen
+CommandName_breath=ademen
+CommandName_hold_position=houd positie
+CommandName_promote_to_evil_dragon=promoveer tot wreede draak
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=energiebron
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=slaaf
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=verplaatsen
-CommandName_build_=bouw
+CommandName_build=bouw
 CommandName_mine=mijn
 CommandName_harvest_wood=sprokkel hout
 CommandName_repair=repareren

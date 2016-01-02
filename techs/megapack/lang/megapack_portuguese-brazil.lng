@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=conseguir poder do Rá
 FactionName_indian=Índios
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=ferro avançado
 UpgradeTypeName_bull_food=Carne bovina
 UpgradeTypeName_iron=Ferro
-UpgradeTypeName_advanced_iron=ferro avançado
 UpgradeTypeName_petroleum=petróleo
 UpgradeTypeName_stables=Estábulos
 UpgradeTypeName_training_field=campo de treinamento
@@ -533,19 +533,6 @@ CommandName_move=mover
 CommandName_attack=atacar
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=Dragão
-; --------------------
-; Levels for this Unit
-LevelName_ancient=Ancião
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=parar
-CommandName_move=mover
-CommandName_breath=fôlego
-CommandName_hold_position=Mantenha a Posição
-CommandName_promote_to_evil_dragon=Evoluir à Dragão Negro
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=Cavaleira Drake
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=mover
 CommandName_fire_breath=cospe fogo
 CommandName_flare=chama
 CommandName_hold_position=Mantenha a Posição
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=Dragão
+; --------------------
+; Levels for this Unit
+LevelName_ancient=Ancião
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=parar
+CommandName_move=mover
+CommandName_breath=fôlego
+CommandName_hold_position=Mantenha a Posição
+CommandName_promote_to_evil_dragon=Evoluir à Dragão Negro
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=Fonte de Energia
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=Escravo
 ; Types of Commands for this Unit
 CommandName_stop=parar
 CommandName_move=mover
-CommandName_build_=Construção
+CommandName_build=construir
 CommandName_mine=Mina
 CommandName_harvest_wood=recoletar madeira
 CommandName_repair=reparar

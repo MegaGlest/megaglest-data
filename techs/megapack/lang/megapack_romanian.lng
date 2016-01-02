@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=obține puterea lui ra
 FactionName_indian=indian
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=fier avansat
 UpgradeTypeName_bull_food=hrană vită
 UpgradeTypeName_iron=fier
-UpgradeTypeName_advanced_iron=fier avansat
 UpgradeTypeName_petroleum=petrol
 UpgradeTypeName_stables=grajduri
 UpgradeTypeName_training_field=câmp antrenament
@@ -533,19 +533,6 @@ CommandName_move=mișcă
 CommandName_attack=atacă
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=dragon
-; --------------------
-; Levels for this Unit
-LevelName_ancient=antic
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=mișcă
-CommandName_breath=răsuflare
-CommandName_hold_position=menține poziția
-CommandName_promote_to_evil_dragon=promovează la dragon malefic
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=călăreț gâscan
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=mișcă
 CommandName_fire_breath=suflu foc
 CommandName_flare=rafală foc
 CommandName_hold_position=menține poziția
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=dragon
+; --------------------
+; Levels for this Unit
+LevelName_ancient=antic
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=mișcă
+CommandName_breath=răsuflare
+CommandName_hold_position=menține poziția
+CommandName_promote_to_evil_dragon=promovează la dragon malefic
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=sursă energie
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=sclav
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=mișcă
-CommandName_build_=construire
+CommandName_build=construire
 CommandName_mine=mină
 CommandName_harvest_wood=colectare lemn
 CommandName_repair=reparare

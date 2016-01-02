@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=ߙߊ_ߟߊ߫_ߛߋ_ߛߋ߬ߘߐ߲߬
 FactionName_indian=ߌ߲ߘߎߞߊ
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲
 UpgradeTypeName_bull_food=ߕߎߙߓߊߟߏ
 UpgradeTypeName_iron=ߣߍ߱
-UpgradeTypeName_advanced_iron=ߣߍ߰_ߟߊߢߊ߬ߣߍ߲
 UpgradeTypeName_petroleum=ߕߟߎ
 UpgradeTypeName_stables=ߛߏ߬ߛߟߎ ߟߎ߬
 UpgradeTypeName_training_field=ߝߊ߬ߘߌ߬ߡߊ߬ߞߟߏ߬ ߘߊ߮
@@ -533,19 +533,6 @@ CommandName_move=ߓߐߒߣߘߐߟߌ
 CommandName_attack=ߞߍߒߞߊ߲ߠߌ
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=ߣߊ߲߬ߞߌ߲
-; --------------------
-; Levels for this Unit
-LevelName_ancient=ߞߘߐ߬ߡߊ߲
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=ߌ_ߟߐ߬
-CommandName_move=ߓߐߒߣߘߐߟߌ
-CommandName_breath=ߝߢߐ
-CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
-CommandName_promote_to_evil_dragon=ߊ߬_ߞߏߝߐ߫_ߣߊ߲߬ߞߌ߲߫_ߣߙߐ߬ߖߎ߮_ߘߌ߫
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=ߘߏ߬ߞߎ߫_ߕߣߍ߬ߣߍ߬ߟߌ߬ߟߊ
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=ߓߐߒߣߘߐߟߌ
 CommandName_fire_breath=ߕߊ_ߟߊ߫_ߝߢߐ
 CommandName_flare=ߕߊ߫_ߝߙߍߢߍ
 CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=ߣߊ߲߬ߞߌ߲
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ߞߘߐ߬ߡߊ߲
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=ߌ_ߟߐ߬
+CommandName_move=ߓߐߒߣߘߐߟߌ
+CommandName_breath=ߝߢߐ
+CommandName_hold_position=ߕߐ߫_ߌ_ߣߐ߭_ߘߐ߫
+CommandName_promote_to_evil_dragon=ߊ߬_ߞߏߝߐ߫_ߣߊ߲߬ߞߌ߲߫_ߣߙߐ߬ߖߎ߮_ߘߌ߫
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=ߜߟߐߡߌ߲_ߛߎ߲
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=ߖߐ߲߭
 ; Types of Commands for this Unit
 CommandName_stop=ߌ_ߟߐ߬
 CommandName_move=ߓߐߒߣߘߐߟߌ
-CommandName_build_=ߊ߬_ߟߐ߬_
+CommandName_build=ߓߏ߲ߟߐ
 CommandName_mine=ߘߊ߬ߡߊ߲
 CommandName_harvest_wood=ߟߐ߮_ߕߍ߰
 CommandName_repair=ߊ߬_ߘߐߓߍ߲߬

@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=ra'nın gücünü elde et
 FactionName_indian=kızılderili
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=gelişmiş demir
 UpgradeTypeName_bull_food=Boğa yemi
 UpgradeTypeName_iron=demir
-UpgradeTypeName_advanced_iron=gelişmiş demir
 UpgradeTypeName_petroleum=petrol
 UpgradeTypeName_stables=ahırlar
 UpgradeTypeName_training_field=eğitim alanı
@@ -300,7 +300,7 @@ UnitTypeName_campfire=kamp ateşi
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
-# CommandName_produce_fire_golem=produce firegolem
+# CommandName_produce_fire_golem=produce fire golem
 CommandName_research_iron=demir araştır
 CommandName_research_advanced_iron=gelişmiş demir araştır
 ; -------------------------------------
@@ -317,7 +317,7 @@ CommandName_attack=Saldırı
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
 ; Unit
-# UnitTypeName_fire_golem=firegolem
+# UnitTypeName_fire_golem=fire golem
 ; --------------------
 ; Levels for this Unit
 LevelName_ancient=eski
@@ -533,20 +533,7 @@ CommandName_move=taşı
 CommandName_attack=Saldırı
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=ejderha
-; --------------------
-; Levels for this Unit
-LevelName_ancient=eski
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=Dur
-CommandName_move=taşı
-CommandName_breath=nefes
-CommandName_hold_position=tutma pozisyonu
-CommandName_promote_to_evil_dragon=kötü ejderhayı teşvik etme
-; -------------------------------------
-; Unit
-# UnitTypeName_draco_rider=drake rider
+# UnitTypeName_draco_rider=draco rider
 ; --------------------
 ; Levels for this Unit
 LevelName_expert=uzman
@@ -558,6 +545,19 @@ CommandName_move=taşı
 # CommandName_fire_breath=fire breath
 CommandName_flare=işaret fişeği
 CommandName_hold_position=tutma pozisyonu
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=ejderha
+; --------------------
+; Levels for this Unit
+LevelName_ancient=eski
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=Dur
+CommandName_move=taşı
+CommandName_breath=nefes
+CommandName_hold_position=tutma pozisyonu
+CommandName_promote_to_evil_dragon=kötü ejderhayı teşvik etme
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=enerji kaynağı
@@ -698,7 +698,7 @@ UpgradeTypeName_advanced_iron=gelişmiş demir
 UpgradeTypeName_arrow=ok
 UpgradeTypeName_holy_valkyrie=kutsal kadın savaşçı
 UpgradeTypeName_iron=demir
-# UpgradeTypeName_mead=med
+# UpgradeTypeName_mead=mead
 UpgradeTypeName_root=kök
 ; -------------------------------------
 ; Unit
@@ -735,7 +735,7 @@ CommandName_attack=Saldırı
 CommandName_promote_to_battleaxe_berserk=savaş baltasını teşvik etme
 ; -------------------------------------
 ; Unit
-# UnitTypeName_battleaxe_berserk=battleaxe berzerk
+# UnitTypeName_battleaxe_berserk=battleaxe berserk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -834,14 +834,14 @@ CommandName_produce_cudgel_lady=sopalı kadın üretimi
 CommandName_produce_spearman=mızrakçı üret
 ; -------------------------------------
 ; Unit
-# UnitTypeName_mead_bar=med bar
+# UnitTypeName_mead_bar=mead bar
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=sopalı kadın üretimi
 CommandName_produce_spearman=mızrakçı üret
-# CommandName_research_mead=research med
+# CommandName_research_mead=research mead
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletoe_tree=Ökse ağacı
@@ -918,7 +918,7 @@ CommandName_throw=atmak
 CommandName_hold_position=tutma pozisyonu
 ; -------------------------------------
 ; Unit
-# UnitTypeName_thor_totem=thortotem
+# UnitTypeName_thor_totem=thor totem
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=köle
 ; Types of Commands for this Unit
 CommandName_stop=Dur
 CommandName_move=taşı
-CommandName_build_=yapı
+CommandName_build=yapı
 CommandName_mine=maden
 CommandName_harvest_wood=odun toplama
 CommandName_repair=Onarma

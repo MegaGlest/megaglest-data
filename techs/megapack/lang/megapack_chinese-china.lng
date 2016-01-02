@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=获得太阳神的力量
 FactionName_indian=印第安
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=高级钢铁
 UpgradeTypeName_bull_food=牛饲料
 UpgradeTypeName_iron=钢铁
-UpgradeTypeName_advanced_iron=高级钢铁
 UpgradeTypeName_petroleum=石油
 UpgradeTypeName_stables=马厩
 UpgradeTypeName_training_field=训练场
@@ -533,19 +533,6 @@ CommandName_move=移动
 CommandName_attack=攻击
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=神龙
-; --------------------
-; Levels for this Unit
-LevelName_ancient=远古人
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=停止
-CommandName_move=移动
-CommandName_breath=喷射
-CommandName_hold_position=坚守阵地
-CommandName_promote_to_evil_dragon=进化为邪龙
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=龙骑兵
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=移动
 CommandName_fire_breath=喷火
 CommandName_flare=爆发
 CommandName_hold_position=坚守阵地
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=神龙
+; --------------------
+; Levels for this Unit
+LevelName_ancient=远古人
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=停止
+CommandName_move=移动
+CommandName_breath=喷射
+CommandName_hold_position=坚守阵地
+CommandName_promote_to_evil_dragon=进化为邪龙
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=能量源
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=奴隶
 ; Types of Commands for this Unit
 CommandName_stop=停止
 CommandName_move=移动
-CommandName_build_=建造
+CommandName_build=建造
 CommandName_mine=挖矿
 CommandName_harvest_wood=伐木
 CommandName_repair=修复

@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=obtenir puissance de ra
 FactionName_indian=indien
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=fer perfectionné
 UpgradeTypeName_bull_food=nourriture pour taureau
 UpgradeTypeName_iron=fer
-UpgradeTypeName_advanced_iron=fer perfectionné
 UpgradeTypeName_petroleum=huile
 UpgradeTypeName_stables=écuries
 UpgradeTypeName_training_field=camp d'entrainement
@@ -533,19 +533,6 @@ CommandName_move=déplacement
 CommandName_attack=attaque
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=dragon
-; --------------------
-; Levels for this Unit
-LevelName_ancient=ancien
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=déplacement
-CommandName_breath=souffle
-CommandName_hold_position=tenir la position
-CommandName_promote_to_evil_dragon=promouvoir en dragon maléfique
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=chevaucheur drake
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=déplacement
 CommandName_fire_breath=souffle de feu
 CommandName_flare=éclat de lumière
 CommandName_hold_position=tenir la position
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=dragon
+; --------------------
+; Levels for this Unit
+LevelName_ancient=ancien
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=stop
+CommandName_move=déplacement
+CommandName_breath=souffle
+CommandName_hold_position=tenir la position
+CommandName_promote_to_evil_dragon=promouvoir en dragon maléfique
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=source d'énergie
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=esclave
 ; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=déplacement
-CommandName_build_=construire
+CommandName_build=construire
 CommandName_mine=exploiter gisement
 CommandName_harvest_wood=récolter bois
 CommandName_repair=réparer

@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=získat sílu od Rea
 FactionName_indian=indiáni
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=pokročilé železo
 UpgradeTypeName_bull_food=býčí potrava
 UpgradeTypeName_iron=železo
-UpgradeTypeName_advanced_iron=pokročilé železo
 UpgradeTypeName_petroleum=ropa
 UpgradeTypeName_stables=stáje
 UpgradeTypeName_training_field=výcvikové pole
@@ -533,19 +533,6 @@ CommandName_move=přesunout
 CommandName_attack=útok
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=drak
-; --------------------
-; Levels for this Unit
-LevelName_ancient=starověký
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=zastavit
-CommandName_move=přesunout
-CommandName_breath=výdech
-CommandName_hold_position=držet pozici
-CommandName_promote_to_evil_dragon=povýšit na zlého draka
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=ještěří jezdkyně
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=přesunout
 CommandName_fire_breath=ohnivý výdech
 CommandName_flare=záře
 CommandName_hold_position=držet pozici
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=drak
+; --------------------
+; Levels for this Unit
+LevelName_ancient=starověký
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=zastavit
+CommandName_move=přesunout
+CommandName_breath=výdech
+CommandName_hold_position=držet pozici
+CommandName_promote_to_evil_dragon=povýšit na zlého draka
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=zdroj energie
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=otrok
 ; Types of Commands for this Unit
 CommandName_stop=zastavit
 CommandName_move=přesunout
-CommandName_build_=stavět
+CommandName_build=stavět
 CommandName_mine=dobývat
 CommandName_harvest_wood=těžit dřevo
 CommandName_repair=opravovat

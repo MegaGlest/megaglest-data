@@ -227,9 +227,9 @@ CommandName_get_power_of_ra=dobi silo Ra
 FactionName_indian=indijanci
 ; -------------------------------------
 ; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=napredno železo
 UpgradeTypeName_bull_food=bullfood
 UpgradeTypeName_iron=železo
-UpgradeTypeName_advanced_iron=napredno železo
 UpgradeTypeName_petroleum=olje
 UpgradeTypeName_stables=konjušnica
 UpgradeTypeName_training_field=vadbišče
@@ -533,19 +533,6 @@ CommandName_move=premakni
 CommandName_attack=napadi
 ; -------------------------------------
 ; Unit
-UnitTypeName_dragon=zmaj
-; --------------------
-; Levels for this Unit
-LevelName_ancient=starodaven
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=ustavi
-CommandName_move=premakni
-CommandName_breath=breath
-CommandName_hold_position=drži položaj
-CommandName_promote_to_evil_dragon=povišaj v zlobnega zmaja
-; -------------------------------------
-; Unit
 UnitTypeName_draco_rider=jahačica kuščarjev
 ; --------------------
 ; Levels for this Unit
@@ -558,6 +545,19 @@ CommandName_move=premakni
 # CommandName_fire_breath=fire breath
 CommandName_flare=blesk
 CommandName_hold_position=drži položaj
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=zmaj
+; --------------------
+; Levels for this Unit
+LevelName_ancient=starodaven
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=ustavi
+CommandName_move=premakni
+CommandName_breath=breath
+CommandName_hold_position=drži položaj
+CommandName_promote_to_evil_dragon=povišaj v zlobnega zmaja
 ; -------------------------------------
 ; Unit
 UnitTypeName_energy_source=vir energije
@@ -694,7 +694,7 @@ CommandName_promote_to_behemoth=povišaj v velikana
 FactionName_norsemen=nordijci
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-# UpgradeTypeName_advanced_iron=advanced iron
+UpgradeTypeName_advanced_iron=napredno železo
 UpgradeTypeName_arrow=arrow
 # UpgradeTypeName_holy_valkyrie=holy valkyrie
 UpgradeTypeName_iron=železo
@@ -732,10 +732,10 @@ UnitTypeName_battleaxe=battleaxe
 CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
-# CommandName_promote_to_battleaxe_berserk=promote to battleaxe
+# CommandName_promote_to_battleaxe_berserk=promote to battleaxe berserk
 ; -------------------------------------
 ; Unit
-# UnitTypeName_battleaxe_berserk=battleaxe berzerk
+# UnitTypeName_battleaxe_berserk=battleaxe berserk
 ; --------------------
 ; Levels for this Unit
 ; --------------------
@@ -834,14 +834,14 @@ UnitTypeName_house=house
 CommandName_produce_spearman=naredi suličarja
 ; -------------------------------------
 ; Unit
-# UnitTypeName_mead_bar=med bar
+# UnitTypeName_mead_bar=mead bar
 ; --------------------
 ; Levels for this Unit
 ; --------------------
 ; Types of Commands for this Unit
 # CommandName_produce_cudgel_lady=produce cudgel lady
 CommandName_produce_spearman=naredi suličarja
-# CommandName_research_mead=research med
+# CommandName_research_mead=research mead
 ; -------------------------------------
 ; Unit
 UnitTypeName_mistletoe_tree=mistletree
@@ -865,10 +865,10 @@ CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
 CommandName_hold_position=drži položaj
-# CommandName_promote_to_spearman_berserk=promote to spearman
+# CommandName_promote_to_spearman_berserk=promote to spearman berserk
 ; -------------------------------------
 ; Unit
-# UnitTypeName_spearman_berserk=spearman berzerk
+# UnitTypeName_spearman_berserk=spearman berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -890,10 +890,10 @@ CommandName_stop=ustavi
 CommandName_move=premakni
 CommandName_attack=napadi
 CommandName_hold_position=drži položaj
-# CommandName_promote_to_swordman_berserk=promote to swordman
+# CommandName_promote_to_swordman_berserk=promote to swordman berserk
 ; -------------------------------------
 ; Unit
-# UnitTypeName_swordman_berserk=swordman berzerk
+# UnitTypeName_swordman_berserk=swordman berserk
 ; --------------------
 ; Levels for this Unit
 LevelName_elite=elite
@@ -1402,7 +1402,7 @@ UnitTypeName_slave=suženj
 ; Types of Commands for this Unit
 CommandName_stop=ustavi
 CommandName_move=premakni
-# CommandName_build_=build
+CommandName_build=zgradi
 CommandName_mine=pobiraj
 CommandName_harvest_wood=sekaj drva
 CommandName_repair=popravljaj

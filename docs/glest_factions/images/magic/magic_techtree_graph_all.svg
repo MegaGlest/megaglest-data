@@ -97,17 +97,17 @@
 <path fill="none" stroke="#ebc72d" stroke-dasharray="1,5" d="M456.446,-439.604C444.989,-431.501 429.391,-421.732 414.096,-416.167 310.257,-378.386 273.511,-413.293 168.096,-380.167 158.023,-377.001 147.634,-372.603 137.94,-367.941"/>
 <polygon fill="#ebc72d" stroke="#ebc72d" points="139.402,-364.759 128.892,-363.422 136.274,-371.021 139.402,-364.759"/>
 </g>
-<!-- drake_rider -->
-<g id="node8" class="node"><title>drake_rider</title>
-<g id="a_node8"><a xlink:href="magic_drake_rider_full.html" xlink:title="Drake\nRider">
+<!-- draco_rider -->
+<g id="node12" class="node"><title>draco_rider</title>
+<g id="a_node12"><a xlink:href="magic_draco_rider_full.html" xlink:title="Draco\nRider">
 <ellipse fill="none" stroke="magenta" cx="805.096" cy="-342.167" rx="35.2113" ry="26.7407"/>
-<text text-anchor="middle" x="805.096" y="-345.967" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Drake</text>
+<text text-anchor="middle" x="805.096" y="-345.967" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Draco</text>
 <text text-anchor="middle" x="805.096" y="-330.967" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Rider</text>
 </a>
 </g>
 </g>
-<!-- library&#45;&gt;drake_rider -->
-<g id="edge21" class="edge"><title>library&#45;&gt;drake_rider</title>
+<!-- library&#45;&gt;draco_rider -->
+<g id="edge21" class="edge"><title>library&#45;&gt;draco_rider</title>
 <path fill="none" stroke="#ebc72d" stroke-dasharray="1,5" d="M492.028,-439.485C503.47,-431.442 518.948,-421.781 534.096,-416.167 629.878,-380.667 668.17,-422.586 761.096,-380.167 766.563,-377.671 771.893,-374.302 776.848,-370.608"/>
 <polygon fill="#ebc72d" stroke="#ebc72d" points="779.216,-373.194 784.789,-364.184 774.814,-367.752 779.216,-373.194"/>
 </g>
@@ -201,8 +201,8 @@
 <polygon fill="#ebc72d" stroke="#ebc72d" points="168.068,-274.043 172.792,-264.56 163.185,-269.027 168.068,-274.043"/>
 </g>
 <!-- initiate -->
-<g id="node9" class="node"><title>initiate</title>
-<g id="a_node9"><a xlink:href="magic_initiate_full.html" xlink:title="Initiate">
+<g id="node8" class="node"><title>initiate</title>
+<g id="a_node8"><a xlink:href="magic_initiate_full.html" xlink:title="Initiate">
 <ellipse fill="none" stroke="magenta" cx="1230.1" cy="-648.593" rx="35.9954" ry="18"/>
 <text text-anchor="middle" x="1230.1" y="-644.893" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Initiate</text>
 </a>
@@ -230,8 +230,8 @@
 <polygon fill="#ebc72d" stroke="#ebc72d" stroke-width="2" points="140.966,-364.103 130.454,-362.784 137.848,-370.371 140.966,-364.103"/>
 </g>
 <!-- mage_tower -->
-<g id="node11" class="node"><title>mage_tower</title>
-<g id="a_node11"><a xlink:href="magic_mage_tower_full.html" xlink:title="Mage\nTower">
+<g id="node10" class="node"><title>mage_tower</title>
+<g id="a_node10"><a xlink:href="magic_mage_tower_full.html" xlink:title="Mage\nTower">
 <polygon fill="none" stroke="red" points="1348.5,-571.71 1303.1,-594.808 1257.7,-571.71 1257.74,-534.336 1348.45,-534.336 1348.5,-571.71"/>
 <text text-anchor="middle" x="1303.1" y="-565.18" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Mage</text>
 <text text-anchor="middle" x="1303.1" y="-550.18" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Tower</text>
@@ -245,8 +245,8 @@
 <polygon fill="#ebc72d" stroke="#ebc72d" stroke-width="2" points="1279.79,-594.961 1283.64,-585.089 1274.48,-590.407 1279.79,-594.961"/>
 </g>
 <!-- energy_source -->
-<g id="node12" class="node"><title>energy_source</title>
-<g id="a_node12"><a xlink:href="magic_energy_source_full.html" xlink:title="Energy\nSource">
+<g id="node11" class="node"><title>energy_source</title>
+<g id="a_node11"><a xlink:href="magic_energy_source_full.html" xlink:title="Energy\nSource">
 <polygon fill="none" stroke="red" points="1463.99,-571.71 1415.1,-594.808 1366.2,-571.71 1366.25,-534.336 1463.94,-534.336 1463.99,-571.71"/>
 <text text-anchor="middle" x="1415.1" y="-565.18" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Energy</text>
 <text text-anchor="middle" x="1415.1" y="-550.18" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Source</text>
@@ -292,8 +292,8 @@
 <polygon fill="#ebc72d" stroke="#ebc72d" points="214.947,-462.637 204.423,-463.859 213.412,-469.467 214.947,-462.637"/>
 </g>
 <!-- ghost_armor -->
-<g id="node10" class="node"><title>ghost_armor</title>
-<g id="a_node10"><a xlink:href="magic_ghost_armor_full.html" xlink:title="Ghost\nArmor">
+<g id="node9" class="node"><title>ghost_armor</title>
+<g id="a_node9"><a xlink:href="magic_ghost_armor_full.html" xlink:title="Ghost\nArmor">
 <ellipse fill="none" stroke="magenta" cx="1165.1" cy="-342.167" rx="37.4533" ry="26.7407"/>
 <text text-anchor="middle" x="1165.1" y="-345.967" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Ghost</text>
 <text text-anchor="middle" x="1165.1" y="-330.967" font-family="Times,serif" font-size="14.00" fill="#ebc72d">Armor</text>
@@ -355,15 +355,15 @@
 <path fill="none" stroke="#ebc72d" stroke-dasharray="1,5" d="M1000.1,-341.167C1006.72,-323.907 1008.21,-319.105 1019.1,-304.167 1030.3,-288.79 1044.77,-273.613 1057.87,-261.113"/>
 <polygon fill="#ebc72d" stroke="#ebc72d" points="1060.47,-263.47 1065.38,-254.082 1055.69,-258.358 1060.47,-263.47"/>
 </g>
-<!-- summoner&#45;&gt;drake_rider -->
-<g id="edge30" class="edge"><title>summoner&#45;&gt;drake_rider</title>
-<path fill="none" stroke="#ebc72d" stroke-dasharray="5,2" d="M935.723,-438.295C912.854,-424.072 877.946,-401.668 849.096,-380.167 844.694,-376.886 840.153,-373.308 835.735,-369.71"/>
-<polygon fill="#ebc72d" stroke="#ebc72d" points="837.906,-366.963 827.974,-363.275 833.438,-372.352 837.906,-366.963"/>
-</g>
 <!-- summoner&#45;&gt;ghost_armor -->
 <g id="edge31" class="edge"><title>summoner&#45;&gt;ghost_armor</title>
 <path fill="none" stroke="#ebc72d" d="M981.862,-437.945C992.729,-430.757 1006.27,-422.409 1019.1,-416.167 1061.57,-395.5 1077.9,-403.287 1119.1,-380.167 1124.25,-377.274 1129.41,-373.808 1134.32,-370.173"/>
 <polygon fill="#ebc72d" stroke="#ebc72d" points="1136.56,-372.871 1142.3,-363.968 1132.26,-367.345 1136.56,-372.871"/>
+</g>
+<!-- summoner&#45;&gt;draco_rider -->
+<g id="edge29" class="edge"><title>summoner&#45;&gt;draco_rider</title>
+<path fill="none" stroke="#ebc72d" stroke-dasharray="5,2" d="M935.723,-438.295C912.854,-424.072 877.946,-401.668 849.096,-380.167 844.694,-376.886 840.153,-373.308 835.735,-369.71"/>
+<polygon fill="#ebc72d" stroke="#ebc72d" points="837.906,-366.963 827.974,-363.275 833.438,-372.352 837.906,-366.963"/>
 </g>
 <!-- summoner&#45;&gt;daemon -->
 <g id="edge28" class="edge"><title>summoner&#45;&gt;daemon</title>
@@ -384,7 +384,7 @@
 </g>
 </g>
 <!-- summoner&#45;&gt;dragon -->
-<g id="edge29" class="edge"><title>summoner&#45;&gt;dragon</title>
+<g id="edge30" class="edge"><title>summoner&#45;&gt;dragon</title>
 <path fill="none" stroke="#ebc72d" d="M966.145,-435.949C973.822,-414.237 987.575,-375.799 1000.1,-343.167"/>
 <path fill="none" stroke="#ebc72d" d="M1000.1,-341.167C1033.21,-254.863 919.668,-175.986 860.582,-141.827"/>
 <polygon fill="#ebc72d" stroke="#ebc72d" points="862.023,-138.62 851.598,-136.734 858.571,-144.71 862.023,-138.62"/>
