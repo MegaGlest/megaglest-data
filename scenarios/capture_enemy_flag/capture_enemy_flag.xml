@@ -57,7 +57,7 @@
 			giveResource('food', 1, 100);
 
                         -- create player3 units
-			createUnit('big_tent', 2, startLocation(2))
+			createUnit('main_teepee', 2, startLocation(2))
                         player3_home= lastCreatedUnit()
                         createUnit('stickfighter', 2, startLocation(2))
                         createUnit('fire_archer', 2, startLocation(2))
