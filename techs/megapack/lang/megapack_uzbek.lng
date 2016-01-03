@@ -1,0 +1,1734 @@
+; TechTree
+TechTreeName=megapak
+; -------------------------------------
+; Types of Armor
+ArmorTypeName_organic=organik
+ArmorTypeName_leather=teri
+ArmorTypeName_wood=yog‘och
+ArmorTypeName_metal=metall
+ArmorTypeName_stone=tosh
+; --------------------
+; Types of Attack
+AttackTypeName_slashing=keskir
+AttackTypeName_piercing=o‘tkir
+AttackTypeName_impact=ta’sir
+AttackTypeName_energy=energiya
+AttackTypeName_sword=qilich
+AttackTypeName_arrow=o‘q
+AttackTypeName_magic=sehr
+AttackTypeName_beat=zarba
+; --------------------
+; Types of Resources
+ResourceTypeName_energy=energiya
+ResourceTypeName_food=ovqat
+ResourceTypeName_gold=oltin
+ResourceTypeName_housing=uy-joy
+ResourceTypeName_stone=tosh
+ResourceTypeName_wood=yog‘och
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_egypt=Misr
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=Ra kuchi
+UpgradeTypeName_spear_weapons=nayzali qurollar
+UpgradeTypeName_speedup_priest_production=rohibni o‘qitishni tezlatish
+UpgradeTypeName_summon_ibis=ibisning chqarish
+UpgradeTypeName_summon_scarab=skarabeyni chaqirish
+; -------------------------------------
+; Unit
+UnitTypeName_air_pyramid=havo piramidasi
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_anubis_warrior=anubis jangchi
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_chicken=tovuq
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+; -------------------------------------
+; Unit
+UnitTypeName_desert_camp=cho‘ldagi qarorgoh
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_spearthrower=nayza otuvchini tarbiyalash
+CommandName_produce_spearman=nayzabozni tarbiyalash
+CommandName_upgrade_spear_weapons=nayza qurollarini takomillashtirish
+; -------------------------------------
+; Unit
+UnitTypeName_farm=ferma
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_chicken=tovuq boqish
+; -------------------------------------
+; Unit
+UnitTypeName_ibis=ibis
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_mummy=mumiyo
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_obelisk=obelisk
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_scarab=skarabey olish
+CommandName_produce_snake=ilon olish
+CommandName_produce_ibis=ibis olish
+; -------------------------------------
+; Unit
+UnitTypeName_priest=rohib
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_speedup_priest_production=rohibni tarbiyalashni tezlatish
+CommandName_heal=tabib
+CommandName_produce_mummy=mo‘miyoni qo‘yib yuborish
+CommandName_produce_anubis_warrior=anubis jangchisini tarbiyalash
+CommandName_ice_nova=yangi muz
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_pyramid=piramida
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=qul olish
+; -------------------------------------
+; Unit
+UnitTypeName_scarab=skarabey
+; --------------------
+; Levels for this Unit
+LevelName_expert=ekspert
+LevelName_master=usta
+LevelName_legendary=afsonaviy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_dung_attack=go‘ng hujumi
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_slave=qul
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_build_basic=asosiy qurilish
+CommandName_repair=ta’mirlash
+CommandName_mine=ma’dan
+CommandName_harvest_wood=yog‘och yig‘ish
+; -------------------------------------
+; Unit
+UnitTypeName_snake=ilon
+; --------------------
+; Levels for this Unit
+LevelName_expert=ekspert
+LevelName_master=usta
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_poison_shot=zahar otish
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=nayzaboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_spearthrower=nayza otuvchi
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_sphinx=sfinks
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_temple=ibodatxona
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_priest=rohibni tarbiyalash
+CommandName_research_scarab=skarabeyni tarbiyalash
+CommandName_research_ibis=ibisni chiqarish
+CommandName_get_power_of_ra=Raning quvvatini olish
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_indian=hind
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=qo‘shimcha temir
+UpgradeTypeName_bull_food=mol yemi
+UpgradeTypeName_iron=temir
+UpgradeTypeName_petroleum=neft
+UpgradeTypeName_stables=otxona
+UpgradeTypeName_training_field=mashq qilish maydonchasi
+; -------------------------------------
+; Unit
+UnitTypeName_archer=kamonboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_axe_indian=boltali hind
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_axe_thrower=bolta otuvchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_beehive=arining uyasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_big_tent=katta chodir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=tayoqbozni tarbiyalash
+CommandName_produce_archer=kamonbozni tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_bull=buqa
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_campfire=gulxan
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_fire_golem=olovli golem tuzish
+CommandName_research_iron=temirni tadqiq etish
+CommandName_research_advanced_iron=temirni mustahkamlashni tadqiq qilish
+; -------------------------------------
+; Unit
+UnitTypeName_fire_archer=olovli kamonboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_fire_golem=olovli golem
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_horse_farm=ot fermasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_horseman=suvoriyni tarbiyalash
+CommandName_produce_bull=buqa boqish
+CommandName_research_stables=otxona qurishni o‘rganish
+; -------------------------------------
+; Unit
+UnitTypeName_horseman=suvoriy
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_main_teepee=asosiy tip
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=ishchi ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_reed=qamish
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_research_bull_food=mol yemini tadqiq qilish
+; -------------------------------------
+; Unit
+UnitTypeName_round_tent=aylana chodir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_axe_indian=hind boltabozini tarbiyalash
+CommandName_produce_axe_thrower=bolta otuvchini tarbiyalash
+CommandName_produce_fire_archer=olovli kamonbozni tarbiyalash
+CommandName_produce_spearman=nayzabozni tarbiyalash
+CommandName_create_training_field=mashq maydonini yaratish
+; -------------------------------------
+; Unit
+UnitTypeName_shaman=shaman
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_repair=ta’mirlash
+CommandName_heal=tabib
+CommandName_molotov=molotov
+CommandName_produce_thunderbird=bo‘rinqush olish
+CommandName_build_beehive=arixona qurish
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=nayzaboz
+; --------------------
+; Levels for this Unit
+LevelName_guardian=qo‘riqchi
+LevelName_chief=boshliq
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_stickfighter=tayoqboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_tent=chodir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_stickfighter=tayoqbozni tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_thunderbird=bo‘ronqush
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+LevelName_expert=ekspert
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_throw=otish
+CommandName_breath=hayot
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_totem=totem
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_air_on=havoda
+CommandName_research_petroleum=neftni tadqiq etish
+CommandName_produce_shaman=shamanni tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_worker=ishchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_build_basic=asosiy qurilish
+CommandName_mine=ma’dan
+CommandName_harvest_wood=yog‘och yig‘ish
+CommandName_repair=ta’mirlash
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_magic=sehrgar
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=qadimgi chaqiruvchi
+UpgradeTypeName_dragon_call=ajdarni chaqirish
+UpgradeTypeName_energy_compression=quvvatni saqlash
+UpgradeTypeName_energy_sharpening=energiya to‘plash
+UpgradeTypeName_golem_power=golem quvvati
+UpgradeTypeName_hell_gate=do‘zax darvozasi
+; -------------------------------------
+; Unit
+UnitTypeName_archmage=arximag
+; --------------------
+; Levels for this Unit
+LevelName_expert=ekspert
+LevelName_master=usta
+LevelName_legendary=afsonaviy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_ice_nova=yangi muz
+CommandName_static_fire=belgilangan yong‘in
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_archmage_tower=arximag minorasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_research_dragon_call=ajdarni chaqirishni o‘rganish
+CommandName_golem_power=golem kuchi
+; -------------------------------------
+; Unit
+UnitTypeName_battlemage=harbiy sehrgar
+; --------------------
+; Levels for this Unit
+LevelName_expert=ekspert
+LevelName_master=usta
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_fire_bolt=arbaletdan olovli o‘q uzish
+CommandName_hold_position=joyni ushlab turish
+CommandName_promote_to_archmage=arximag ishlab chiqarish
+; -------------------------------------
+; Unit
+UnitTypeName_behemoth=begemot
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_daemon=iblis
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_draco_rider=egarlanadigan kaltakesak
+; --------------------
+; Levels for this Unit
+LevelName_expert=ekspert
+LevelName_master=usta
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_fire_breath=olovli nafas
+CommandName_flare=yorug‘lik
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_dragon=ajdar
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_breath=hayot
+CommandName_hold_position=joyni ushlab turish
+CommandName_promote_to_evil_dragon=yovuz ajdar ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_energy_source=quvvat manbasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+; -------------------------------------
+; Unit
+UnitTypeName_evil_dragon=yovuz ajdar
+; --------------------
+; Levels for this Unit
+LevelName_expert=ekspert
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_breath=hayot
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_ghost_armor=sovutdagi arvoh
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_golem=golem
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+CommandName_promote_to_power_golem=golem quvvatini ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_initiate=fidoyilik
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_repair=ta’mirlash
+CommandName_build=qurish
+CommandName_ritual=marosim
+CommandName_mine=ma’dan
+CommandName_harvest=hosil
+CommandName_promote_to_battlemage=harbiy sehrgar ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_library=kutubxona
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_research_energy_compression=quvvat siqishni o‘rganish
+CommandName_research_energy_sharpening=quvvat yig‘shni o‘rganish
+CommandName_research_hell_gate=do‘zax darvozasini o‘rganish
+; -------------------------------------
+; Unit
+UnitTypeName_mage_tower=jodu minorasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_initiate=qurbon qiluvchi ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_power_golem=golem quvvati
+; --------------------
+; Levels for this Unit
+LevelName_ancient=qadimiy
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_summoner=summoner
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_flare=yorug‘lik
+CommandName_hold_position=joyni ushlab turish
+CommandName_summon_daemon=iblisni chaqirish
+CommandName_summon_ghost_armor=sovutdagi arvohni chaqirish
+CommandName_summon_dragon=ajdarni chaqirish
+CommandName_summon_draco=kaltakesakni chaqirish
+; -------------------------------------
+; Unit
+UnitTypeName_summoner_guild=summonerlar gildiyasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_summoner=summoner ishlab chiqish
+CommandName_research_ancient_summoning=qadimgi chaqiriqni o‘rganish
+; -------------------------------------
+; Unit
+UnitTypeName_tower_of_souls=jon minorasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_wicker_behemoth=begemot bo‘yrasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_promote_to_behemoth=begemotlarga zaharli uzum berish
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_norsemen=skandinaviyalik
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=qo‘shimcha temir
+UpgradeTypeName_arrow=o‘q
+UpgradeTypeName_holy_valkyrie=muqadda valkeriya
+UpgradeTypeName_iron=temir
+UpgradeTypeName_mead=musallas
+UpgradeTypeName_root=asos
+; -------------------------------------
+; Unit
+UnitTypeName_archer=kamonboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_axe_thrower=bolta otuvchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_battleaxe=jang boltasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_promote_to_battleaxe_berserk=harbiy bolta o‘rnatish
+; -------------------------------------
+; Unit
+UnitTypeName_battleaxe_berserk=berserk harbiy boltasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith=temirchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_upgrade_iron=temirni mustahkamlash
+CommandName_upgrade_arrow=o‘qni takomillashtirish
+CommandName_upgrade_advanced_iron=toblangan temirni takomillashtirish
+CommandName_produce_crossbow=arbalet ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_bone_tent=suyak chodir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=qilichboz ishlab chiqarish
+CommandName_produce_archer=kamonbozni tarbiyalash
+CommandName_produce_battleaxe=jang boltasi ishalb chiqarish
+CommandName_produce_axe_thrower=bolta otuvchini tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_castle=qasr
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_thrall=qul yollash
+; -------------------------------------
+; Unit
+UnitTypeName_cow=sigir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+; -------------------------------------
+; Unit
+UnitTypeName_crossbow=arbalet
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack_arrow=o‘q yog‘dirish
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_cudgel_lady=to‘qmoqli ayol
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_cudgel=to‘qmoq
+; -------------------------------------
+; Unit
+UnitTypeName_farm=ferma
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cow=sigir boqish
+; -------------------------------------
+; Unit
+UnitTypeName_flying_valkyrie=uchuvchi valkeriye
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_house=uy
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=to‘qmoqli ayolni tarbiyalash
+CommandName_produce_spearman=nayzabozni tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_mead_bar=musallasxona
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cudgel_lady=to‘qmoqli ayolni tarbiyalash
+CommandName_produce_spearman=nayzabozni tarbiyalash
+CommandName_research_mead=musallasni tadqiq qilish
+; -------------------------------------
+; Unit
+UnitTypeName_mistletoe_tree=tuman daraxti
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_air_on=havoda
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_research_root=tomir ishlab chiqishni o‘rganish
+CommandName_resurrect_wild_sow=to‘ng‘izni tiriltirish
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=nayzaboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+CommandName_promote_to_spearman_berserk=berserk nayzabozini ishlab chiqarish
+; -------------------------------------
+; Unit
+UnitTypeName_spearman_berserk=berserk nayzabozi
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_swordman=qilichboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+CommandName_promote_to_swordman_berserk=berserk qilishbozini ishlab chiqarish
+; -------------------------------------
+; Unit
+UnitTypeName_swordman_berserk=berserk qilichbozi
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_thor=tor
+; --------------------
+; Levels for this Unit
+LevelName_advanced=takomillashgan
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_throw=otish
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_thor_totem=tor totemi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_build_thor=tor qurish
+; -------------------------------------
+; Unit
+UnitTypeName_thrall=qul
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_build_basic=asosiy qurilish
+CommandName_mine=ma’dan
+CommandName_harvest_wood=yog‘och yig‘ish
+CommandName_repair=ta’mirlash
+; -------------------------------------
+; Unit
+UnitTypeName_valhalla=valhalla
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_flying_valkyrie=uchuvchi valkeriye ishlab chiqarish
+CommandName_produce_valkyrie=valkeriye ishlab chiqish
+CommandName_research_holy_valkyrie=ilohiy valkeriyeni o‘rgatish
+; -------------------------------------
+; Unit
+UnitTypeName_valkyrie=valkeriye
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_airattack=havo hujumi
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_wild_sow=yovoyi to‘ng‘iz
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_persian=fors
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=makkajo‘xori va qamish
+UpgradeTypeName_magic_level_1=1-darajali sehr
+UpgradeTypeName_magic_level_2=2-darajali sehr
+UpgradeTypeName_nails=tirnoqlar
+UpgradeTypeName_shield=qalqon
+UpgradeTypeName_weapons=qurollar
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith=temirchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_upgrade_weapons=qurollarni takomillashtirish
+CommandName_upgrade_nails=tirnoqlarni takomillashtirish
+CommandName_upgrade_shield=qalqonni takomillashtirish
+; -------------------------------------
+; Unit
+UnitTypeName_elephant=fil
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_attack_arrow=o‘q yog‘dirish
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_elephant_cage=fil qafasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_elephant=fil ishlab chiqarish
+; -------------------------------------
+; Unit
+UnitTypeName_fakir=darvesh
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_farm=ferma
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_sheep=qo‘y ishlab chiqarish
+CommandName_research_corn_and_wicker=makkajo‘xori va qamish yetishtirishni o‘rganish
+; -------------------------------------
+; Unit
+UnitTypeName_flying_carpet=uchar gilam
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_magic_attack=sehr-jodu hujumi
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_genie=jin
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_house=uy
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_fakir=darvesh ishlab chiqarish
+CommandName_produce_stickfighter=tayoqbozni tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_magician=sehrgar
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_repair=ta’mirlash
+CommandName_build_snake_basket=ilon savatini qurish
+CommandName_heal=tabib
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_minaret=minora
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_palace=saroy
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=ishchi ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_princess=shahzoda
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_sheep=qo‘y
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+; -------------------------------------
+; Unit
+UnitTypeName_snake_basket=ilon savati
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_stickfighter=tayoqboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_swordman=qilichboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_temple=ibodatxona
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_princess=shahzoda ishlab chiqarish
+CommandName_produce_swordman=qilichboz ishlab chiqarish
+; -------------------------------------
+; Unit
+UnitTypeName_tent=chodir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_genie=jin ishlab chiqarish
+CommandName_produce_flying_carpet=uchar gilam ishlab chiqarish
+CommandName_produce_magician=sehrgar ishlab chiqarish
+CommandName_upgrade_magic_level_1=1-darajali sehrni takomillashtirish
+CommandName_upgrade_magic_level_2=2-darajali sehrni takomillashtirish
+; -------------------------------------
+; Unit
+UnitTypeName_worker=ishchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_attack=hujum
+CommandName_move=ko‘chish
+CommandName_build_basic=asosiy qurilish
+CommandName_mine=ma’dan
+CommandName_harvest_wood=yog‘och yig‘ish
+CommandName_repair=ta’mirlash
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_romans=rimliklar
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=takomillashgan arxitektura
+UpgradeTypeName_bless_of_minerva=menerva duosi
+UpgradeTypeName_enlarge_shields=qalqonlarni kengaytirish
+UpgradeTypeName_formations=qurish
+UpgradeTypeName_jupiter=yupiter
+UpgradeTypeName_reinforce_armor=zirhni mustahkamlash
+UpgradeTypeName_sharpen_points=qirralarini charxlash
+UpgradeTypeName_sign_of_mars=mars belgisi
+UpgradeTypeName_strengthen_swords=qilichlarni mustahkamlash
+UpgradeTypeName_training_field=mashq qilish maydonchasi
+; -------------------------------------
+; Unit
+UnitTypeName_archer=kamonboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+CommandName_get_fire_arrows=olovli o‘qlar olish
+; -------------------------------------
+; Unit
+UnitTypeName_axe_man=boltaboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_ballista=ballista
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_battering_ram=taran
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack_land=yerdan hujum qilish
+CommandName_attack_air=havodan hujum qilish
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith_shop=temirchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_strengthen_swords=qilichlarni mustahkamlash
+CommandName_sharpen_points=qirralarini charxlash
+CommandName_reinforce_armor=zirhni mustahkamlash
+CommandName_enlarge_shields=qalqonlarni kengaytirish
+; -------------------------------------
+; Unit
+UnitTypeName_catapult=katapulta
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_fire_ball=olovli shar
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_cavalry=otliq qo‘shin
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+CommandName_promote_to_tribune=tribuna ishlab chiqarish
+; -------------------------------------
+; Unit
+UnitTypeName_cow=sigir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+; -------------------------------------
+; Unit
+UnitTypeName_eagle_pillar=burgut haykali
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_fire_archer=olovli kamonboz
+; --------------------
+; Levels for this Unit
+LevelName_accurate=aniqlik
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_forum=forum
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_slave=qul olish
+CommandName_produce_cow=sigir boqish
+; -------------------------------------
+; Unit
+UnitTypeName_general=general
+; --------------------
+; Levels for this Unit
+LevelName_esteemed=hurmatli
+LevelName_grand=buyuk
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_gladiator=gladiator
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack_land=yerdan hujum qilish
+CommandName_attack_air=havodan hujum qilish
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_gladiator_school=gladiator maktabi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_train_gladiator=gladiatorni shug‘ullantirish
+CommandName_produce_axe_man=boltabozni tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_guard=soqchi
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_guard_tower=qo‘riqlash minorasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_military_camp=harbiy lager
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_cavalry=otliq qo‘shinni tarbiyalash
+CommandName_produce_turtle_formation=toshbaqa qurishni shakllantirish
+CommandName_produce_general=generalni tarbiyalash
+CommandName_produce_mechanic=mexanik tarbiyalash
+CommandName_upgrade_advanced_architecture=mukammal arxitekturani takomillashtirish
+CommandName_upgrade_formations=qurishni takomillashtirish
+; -------------------------------------
+; Unit
+UnitTypeName_slave=qul
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_build=qurish
+CommandName_mine=ma’dan
+CommandName_harvest_wood=yog‘och yig‘ish
+CommandName_repair=ta’mirlash
+; -------------------------------------
+; Unit
+UnitTypeName_spearman=nayzaboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_swordsman=qilichboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_temple=ibodatxona
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_research_sign_of_mars=mars belgisini tadqiq qilish
+CommandName_research_jupiter=yupiterni tadqiq qilish
+CommandName_upgrade_bless_of_minerva=minerva duosini takomillashtirish
+; -------------------------------------
+; Unit
+UnitTypeName_training_camp=shug‘ullanish lageri
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_spearman=nayzabozni tarbiyalash
+CommandName_produce_archer=kamonbozni tarbiyalash
+CommandName_produce_guard=soqchini tarbiyalash
+CommandName_produce_swordsman=qilichboz ishlab chiqarish
+CommandName_create_training_field=mashq maydonini yaratish
+; -------------------------------------
+; Unit
+UnitTypeName_tribune=tribuna
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_turtle_formation=toshbaqa qurish
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_wartime_mechanic=harbiy mexanik
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+CommandName_repair=ta’mirlash
+CommandName_heal=tabib
+CommandName_build_catapult=katapulta qurish
+CommandName_build_battering_ram=taran qurish
+CommandName_build_ballista=ballista qurish
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_tech=tex
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=takomillashgan arxitektura
+UpgradeTypeName_blade_weapons=sovuq qurollar
+UpgradeTypeName_piercing_weapons=o‘tkir qurollar
+UpgradeTypeName_robotics=robotshunoslik
+UpgradeTypeName_shield_level_1=1-darajali qalqon
+UpgradeTypeName_shield_level_2=2-darajali qalqon
+UpgradeTypeName_stables=otxona
+UpgradeTypeName_training_field=mashq qilish maydonchasi
+; -------------------------------------
+; Unit
+UnitTypeName_aerodrome=aeroport
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_ornithopter=ornitopter yasash
+CommandName_produce_airship=havo kemasini yasash
+; -------------------------------------
+; Unit
+UnitTypeName_air_ballista=havo hujumiga qarshi ballista
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_airship=havo kemasi
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_missile=raketa
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_archer=kamonboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_barracks=kazarma
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_swordman=qilichboz ishlab chiqarish
+CommandName_produce_archer=kamonbozni tarbiyalash
+CommandName_produce_guard=soqchini tarbiyalash
+CommandName_produce_horseman=suvoriyni tarbiyalash
+CommandName_create_training_field=mashq maydonini yaratish
+; -------------------------------------
+; Unit
+UnitTypeName_battle_machine=harbiy mashina
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_attack_arrow=o‘q yog‘dirish
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_blacksmith=temirchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_upgrade_blade_weapons=sovuq qurollarni takomillashtirish
+CommandName_upgrade_piercing_weapons=o‘tkir qurollarni takomillashtirish
+CommandName_upgrade_shield=qalqonni takomillashtirish
+CommandName_upgrade_shield=qalqonni takomillashtirish
+; -------------------------------------
+; Unit
+UnitTypeName_castle=qasr
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_worker=ishchi ishlab chiqish
+; -------------------------------------
+; Unit
+UnitTypeName_catapult=katapulta
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_fire_ball=olovli shar
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_cow=sigir
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+; -------------------------------------
+; Unit
+UnitTypeName_defense_tower=himoya minorasi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_attack_off=hujumni to‘xtatish
+CommandName_attack_on=hujim qilish
+; -------------------------------------
+; Unit
+UnitTypeName_farm=ferma
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_pig=cho‘chqa boqish
+CommandName_produce_cow=sigir boqish
+CommandName_research_stables=otxona qurishni o‘rganish
+; -------------------------------------
+; Unit
+UnitTypeName_guard=soqchi
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_horseman=suvoriy
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_ornithopter=ornitopter
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_molotov=molotov
+CommandName_fire_arrow=olovli o‘q
+CommandName_hold_position=joyni ushlab turish
+; -------------------------------------
+; Unit
+UnitTypeName_pig=cho‘chqa
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+; -------------------------------------
+; Unit
+UnitTypeName_swordman=qilichboz
+; --------------------
+; Levels for this Unit
+LevelName_elite=sara
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_attack=hujum
+CommandName_hold_position=joyni ushlab turish
+CommandName_promote_to_guard=soqchini tarbiyalash
+; -------------------------------------
+; Unit
+UnitTypeName_technician=texnik
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_build_ultimate=so‘nggi qurilish
+CommandName_repair=ta’mirlash
+CommandName_heal=tabib
+CommandName_mine_gold=oltin yombisi
+CommandName_molotov=molotov
+CommandName_build_catapult=katapulta qurish
+CommandName_build_battle_machine=harbiy mashina qurish
+CommandName_build_air_ballista=havo hujumiga qarshi ballista qurish
+; -------------------------------------
+; Unit
+UnitTypeName_technodrome=texnodrom
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_produce_technician=texnikni tarbiyalash
+CommandName_research_advanced_architecture=mukammal arxitekturani tadqiq qilish
+CommandName_research_robotics=robotexnikani tadqiq qilish
+; -------------------------------------
+; Unit
+UnitTypeName_worker=ishchi
+; --------------------
+; Levels for this Unit
+; --------------------
+; Types of Commands for this Unit
+CommandName_stop=to‘xta
+CommandName_move=ko‘chish
+CommandName_build_basic=asosiy qurilish
+CommandName_build_advanced=qo‘shimcha qurilish
+CommandName_mine=ma’dan
+CommandName_harvest_wood=yog‘och yig‘ish
+CommandName_repair=ta’mirlash
+; -------------------------------------
