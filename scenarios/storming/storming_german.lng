@@ -3,7 +3,7 @@ SCENARIO_NAME=Storming
 Storming=Storming
 
 ;message strings
-Brief1=Helfe Deiner Summoner alle feindlichen Dörfer zu attackieren, sie muss überlegen.
+Brief1=Helfe Deiner Summoner alle feindlichen Dörfer zu attackieren, sie muss überleben.
 
 ;objective strings
 ObjectiveWest=Deine Aufgabe: Zerstöre alle westlichen Magic-Dörfer, die Summoner muss überleben.
