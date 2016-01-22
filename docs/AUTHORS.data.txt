@@ -79,11 +79,13 @@ Maps:
  beat_the_enemy              by Philipp Tscharntke
  cauldron                    by Wciow
  center_castle               by Titus Tscharntke(titi)
+ cliff_valley                by Titus Tscharntke(titi)
  clinch                      by atze
  conflict                    by ttsmj
  conflict6xtreed             by Eliminator (based on 'conflict')
  confrontation               by atze (based on 'conflict')
  coop4_ally_resist           by Trappin
+ desanction                  by atze
  domination_isles            by mapmaker(from the glest forum)
  eight_gradient              by Trappin
  end_times                   original by omega modified by Trappin
@@ -103,6 +105,7 @@ Maps:
  lau_lagoon                  by Trappin
  loggerheads                 by atze
  megakill3vs1                by Enno Tscharntke
+ meteor                      by Titus Tscharntke(titi)
  no_masters                  by atze
  one_king_fairplay           by Titus Tscharntke(titi)
  one_king_rules_them_all     by Uncle
@@ -113,9 +116,11 @@ Maps:
  paraiso_br                  by carla
  pentagon                    by cavavin
  pot_hole                    original by glest team, improved by Trappin
+ prevention                  by atze
  ragor                       by Titus Tscharntke(titi)
  redoubt                     by Trappin
  renkontre                   by atze
+ randomhill                  by Titus Tscharntke(titi)
  river_raid2                 by James McCulloch(silnarm)
  showdown_3way               by atze
  simple_river_8_player       by atze
