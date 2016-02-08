@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes" ?>
+<scenario>
+<difficulty value="3"/>
+<players>
+	<player control="human" faction="indian" team="1"/>
+	<player control="closed"  faction="indian" team="1"/>
+	<player control="cpu" faction="indian" team="2"/>
+	<player control="closed" faction="indian" team="2"/>
+</players>
+<map value="conflict"/>
+<tileset value="birch_forest"/>
+<tech-tree value="megapack"/>
+	<default-resources value="true"/>
+	<default-units value="true"/>
+	<default-victory-conditions value="true"/>
+
+	<scripts>
+		<startup>
+			startPerformanceTimer()
+			showMessage('why', 'm1')
+			--togglePauseGame(1)
+			--showMessage('presspause', 'm2')
+		</startup>
+		<unitDied>
+			--setCameraPosition(camerapos)
+			--if lastDeadUnit()==mycastle then
+			--	endPerformanceTimer()
+				--clearDisplayText()
+			--	res=getPerformanceTimerResults()
+			--	DisplayFormattedText("Your result: avg updateFps=%s , avg RenderFps=%s ",res[1],res[2])
+				--showMessage('Brief1', 'Benchmark')
+			--	setPlayerAsWinner(1)
+			--	endGame()
+			--end		
+		</unitDied>		
+	</scripts>
+	<scripts/>
+</scenario>
