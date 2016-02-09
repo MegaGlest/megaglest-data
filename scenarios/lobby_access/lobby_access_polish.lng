@@ -1,0 +1,6 @@
+SCENARIO_NAME=Dostęp do poczekalni
+
+m1=Czy jesteś gotowy(a)?
+why=Wygraj ten scenariusz aby dowieść że jesteś gotowy(a) do bitew typu multiplayer.
+
+DESCRIPTION=Wygraj ten scenariusz aby dowieść że jesteś\ngotowy(a) do bitew typu multiplayer.

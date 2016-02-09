@@ -31,8 +31,7 @@
 				--showMessage('Brief1', 'Benchmark')
 			--	setPlayerAsWinner(1)
 			--	endGame()
-			--end		
-		</unitDied>		
+			--end
+		</unitDied>
 	</scripts>
-	<scripts/>
 </scenario>

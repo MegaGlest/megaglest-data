@@ -1,5 +1,6 @@
+SCENARIO_NAME=Lobby Access
 
 m1=Are you ready?
-why=Win this Scenario to proof that you are ready for internet multiplayer games.
+why=Win this Scenario to prove that you are ready for internet multiplayer games.
 
-
+DESCRIPTION=Win this Scenario to prove that you are ready for\ninternet multiplayer games.

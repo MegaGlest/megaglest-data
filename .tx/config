@@ -42,6 +42,12 @@ source_file = tutorials/3_advanced_tutorial/3_advanced_tutorial_english.lng
 source_lang = en
 minimum_perc = 73
 
+[megaglest.lobby-access]
+file_filter = scenarios/lobby_access/lobby_access_<lang>.lng
+source_file = scenarios/lobby_access/lobby_access_english.lng
+source_lang = en
+minimum_perc = 70
+
 [megaglest.scenarios-amazones]
 file_filter = scenarios/amazones/amazones_<lang>.lng
 source_file = scenarios/amazones/amazones_english.lng

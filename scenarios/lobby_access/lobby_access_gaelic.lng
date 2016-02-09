@@ -1,0 +1,6 @@
+# SCENARIO_NAME=Lobby Access
+
+m1=A bheil thu deiseil?
+why=Buannaich an geama seo airson dearbhadh gu bheil thu deiseil gus pàirt a ghabhail ann an geamannan ioma-chluicheadair air an eadar-lìon.
+
+DESCRIPTION=Buannaich an geama seo airson dearbhadh gu\nbheil thu deiseil gus pàirt a ghabhail ann an\ngeamannan ioma-chluicheadair air an eadar-lìon.
