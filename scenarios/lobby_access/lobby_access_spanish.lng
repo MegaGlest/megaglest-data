@@ -1,4 +1,4 @@
-# SCENARIO_NAME=Lobby Access
+SCENARIO_NAME=Acceso a la sala multijugador
 
 m1=¿Preparado?
 why=Completa el escenario para demostrar que estás listo para jugar a partidas multijugador a través de Internet.
