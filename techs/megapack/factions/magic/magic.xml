@@ -17,4 +17,32 @@
 	</starting-units>
 	<music value="true" path="music/music_magic.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="initiate" minimum="25"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="battlemage" minimum="5"/>
+			<unit name="initiate" minimum="25"/>
+			<unit name="summoner" minimum="1"/>
+			<unit name="ghost_armor" minimum="1"/>
+			<unit name="battlemage" minimum="15"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="energy_source" minimum="20"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="mage_tower" minimum="2"/>
+			<unit name="summoner_guild" minimum="1"/>
+			<unit name="library" minimum="1"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="energy_sharpening"/>
+			<upgrade name="ancient_summoning"/>
+			<upgrade name="energy_compression"/>
+		</upgrades>
+		<static-values>
+			<static type-name="MinWorkerAttackersHarvesting" value="30"/>
+		</static-values>
+	</ai-behavior>
 </faction>

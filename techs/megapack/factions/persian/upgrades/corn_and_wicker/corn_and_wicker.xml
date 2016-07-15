@@ -6,6 +6,8 @@
 	<time value="500"/>
 		<unit-requirements>
 			<unit name="princess"/>
+			<unit name="house"/>
+			<!-- slow enought to give a time to AI for production of some animals first -->
 		</unit-requirements>
 	<upgrade-requirements>
 	</upgrade-requirements>

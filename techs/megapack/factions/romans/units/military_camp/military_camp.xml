@@ -2,7 +2,7 @@
 <unit>
 	<!-- *** parameters *** -->
 	<parameters>
-		<size value="4" />
+		<size value="6" />
 		<height value="2" />
 		<max-hp value="8000" regeneration="0"/>
 		<max-ep value="0" />
@@ -12,11 +12,12 @@
 		<time value="150" />
 		<multi-selection value="false" />
 		<cellmap value="true">
-			<row value="1110"/>
-			<row value="1110"/>
-			<row value="1111"/>
-			<row value="0011"/>
-
+			<row value="000000"/>
+			<row value="011100"/>
+			<row value="011100"/>
+			<row value="011110"/>
+			<row value="000110"/>
+			<row value="000000"/>
 		</cellmap>
 		<levels/>
 		<fields>

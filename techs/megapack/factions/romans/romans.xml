@@ -17,5 +17,32 @@
 	</starting-units>
 	<music value="true" path="music/romans.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="slave" minimum="8"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="archer" minimum="3"/>
+			<unit name="cow" minimum="2"/>
+			<unit name="spearman" minimum="5"/>
+			<unit name="cow" minimum="4"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="temple" minimum="1"/>
+			<unit name="cow" minimum="15"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="training_camp" minimum="1"/>
+			<unit name="blacksmith_shop" minimum="1"/>
+			<unit name="training_camp" minimum="2"/>
+			<unit name="temple" minimum="1"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="reinforce_armor"/>
+			<upgrade name="sharpen_points"/>
+			<upgrade name="training_field"/>
+		</upgrades>
+		<static-values/>
+	</ai-behavior>
 </faction>
 

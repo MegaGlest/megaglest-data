@@ -18,4 +18,34 @@
 	</starting-units>
 	<music value="true" path="music/aminos-together_together.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="worker" minimum="8"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="princess" minimum="2"/>
+			<unit name="fakir" minimum="2"/>
+			<unit name="sheep" minimum="2"/>
+			<unit name="stickfighter" minimum="1"/>
+			<unit name="genie" minimum="3"/>
+			<unit name="sheep" minimum="7"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="farm" minimum="1"/>
+			<unit name="sheep" minimum="30"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="house" minimum="1"/>
+			<unit name="temple" minimum="1"/>
+			<unit name="farm" minimum="1"/>
+			<unit name="tent" minimum="1"/>
+			<unit name="blacksmith" minimum="1"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="magic_level_1"/>
+		</upgrades>
+		<static-values>
+			<static type-name="MinWorkerAttackersHarvesting" value="45"/>
+		</static-values>
+	</ai-behavior>
 </faction>

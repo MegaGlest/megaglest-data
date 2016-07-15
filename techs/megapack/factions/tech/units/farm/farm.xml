@@ -11,6 +11,7 @@
 		<sight value="5" />
 		<time value="50" />
 		<multi-selection value="false" />
+		<max-unit-count value="2"/>
 		<cellmap value="true">
 			<row value="1101" />
 			<row value="1100" />
@@ -82,6 +83,16 @@
 			<animation path="models/farm.g3d" />
 			<sound enabled="false" />
 		</skill>
+		<skill>
+			<type value="produce" />
+			<name value="produce_fast_skill"/>
+			<ep-cost value="0" />
+			<speed value="400" />
+			<!-- faster production, because pig is giving less food -->
+			<anim-speed value="50" />
+			<animation path="models/farm.g3d" />
+			<sound enabled="false" />
+		</skill>
 
 		<skill>
 			<type value="die" />
@@ -121,7 +132,7 @@
 			<image path="../pig/images/pig.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
+			<produce-skill value="produce_fast_skill"/>
 			<produced-unit name="pig"/>
 		</command>
 
