@@ -3,7 +3,7 @@ SCENARIO_NAME=Amazones
 Amazones=Amazones
 
 ;message strings
-Brief1=Your allies' castle must survive!
+Brief1=Your ally's castle must survive!
 
 ;objective strings
 Firstwave=Objective: Ladies in green.
