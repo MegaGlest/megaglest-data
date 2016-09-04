@@ -2,31 +2,27 @@
 <!-- Copyright 2015 MegaGlest Team <contact_at_megaglest.org> -->
 <!-- all urls http type; minimal version of validator: 0.6.1 -->
 <component type="desktop">
- <id>megaglest_editor.desktop</id>
- <metadata_license>CC-BY-SA-4.0</metadata_license>
- <project_license>GPL-3.0+</project_license>
- <name>MegaGlest Map Editor</name>
- <summary>Game tool from MegaGlest game</summary>
- <description>
-  <p>
-     MegaGlest Map Editor allows to create new and edit existing maps for MegaGlest / Glest game and for games based on MegaGlest too.
-  </p>
-  <p>
-    MegaGlest is a customizable 3D real-time strategy game (RTS).
-  </p>
- </description>
- <screenshots>
-  <screenshot type="default">
-   <image>http://megaglest.org/uploads/images/appdata/mapeditor1.png</image>
-  </screenshot>
- </screenshots>
- <url type="homepage">http://megaglest.org</url>
- <url type="bugtracker">http://bugs.megaglest.org</url>
- <url type="faq">http://faq.megaglest.org</url>
- <url type="help">http://readme.megaglest.org</url>
- <url type="donation">http://megaglest.org/donations</url>
- <url type="translate">http://translate.megaglest.org</url>
- <developer_name>The MegaGlest Team</developer_name>
- <update_contact>contact_at_megaglest.org</update_contact>
- <translation/>
+  <id>megaglest_editor.desktop</id>
+  <metadata_license>CC-BY-SA-4.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>MegaGlest Map Editor</name>
+  <summary>Game tool from MegaGlest game</summary>
+  <description>
+    <p>MegaGlest Map Editor allows to create new and edit existing maps for MegaGlest / Glest game and for games based on MegaGlest too.</p>
+    <p>MegaGlest is a customizable 3D real-time strategy game (RTS).</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://megaglest.org/uploads/images/appdata/mapeditor1.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">http://megaglest.org</url>
+  <url type="bugtracker">http://bugs.megaglest.org</url>
+  <url type="faq">http://faq.megaglest.org</url>
+  <url type="help">http://readme.megaglest.org</url>
+  <url type="donation">http://megaglest.org/donations</url>
+  <url type="translate">http://translate.megaglest.org</url>
+  <developer_name>The MegaGlest Team</developer_name>
+  <update_contact>contact_at_megaglest.org</update_contact>
+  <translation/>
 </component>
