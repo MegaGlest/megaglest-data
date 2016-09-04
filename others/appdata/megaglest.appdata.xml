@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2015 MegaGlest Team <contact_at_megaglest.org> -->
+<!-- all urls http type; minimal version of validator: 0.6.1 -->
 <component type="desktop">
  <id>megaglest.desktop</id>
  <metadata_license>CC-BY-SA-4.0</metadata_license>
@@ -19,23 +20,56 @@
  </description>
  <screenshots>
   <screenshot type="default">
-   <image>https://megaglest.org/uploads/images/appdata/game1.png</image>
+   <image>http://megaglest.org/uploads/images/appdata/game1.png</image>
   </screenshot>
   <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game2.png</image>
+   <image>http://megaglest.org/uploads/images/appdata/game2.png</image>
   </screenshot>
   <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game3.png</image>
+   <image>http://megaglest.org/uploads/images/appdata/game3.png</image>
   </screenshot>
   <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game4.png</image>
+   <image>http://megaglest.org/uploads/images/appdata/game4.png</image>
   </screenshot>
   <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game5.png</image>
+   <image>http://megaglest.org/uploads/images/appdata/game5.png</image>
   </screenshot>
  </screenshots>
- <url type="homepage">https://megaglest.org</url>
- <url type="donation">https://megaglest.org/donations</url>
+ <url type="homepage">http://megaglest.org</url>
+ <url type="bugtracker">http://bugs.megaglest.org</url>
+ <url type="faq">http://faq.megaglest.org</url>
+ <url type="help">http://readme.megaglest.org</url>
+ <url type="donation">http://megaglest.org/donations</url>
+ <url type="translate">http://translate.megaglest.org</url>
  <developer_name>The MegaGlest Team</developer_name>
  <update_contact>contact_at_megaglest.org</update_contact>
+ <languages>
+  <!-- alphabetical order (of full names) -->
+  <lang percentage="59">sq</lang>
+  <lang percentage="67">ar</lang>
+  <lang percentage="99">zh_CN</lang>
+  <lang percentage="86">zh_TW</lang>
+  <lang percentage="100">cs</lang>
+  <lang percentage="94">da</lang>
+  <lang percentage="96">nl</lang>
+  <lang percentage="99">fr</lang>
+  <lang percentage="100">gd</lang>
+  <lang percentage="99">de</lang>
+  <lang percentage="99">el</lang>
+  <lang percentage="96">he</lang>
+  <lang percentage="99">it</lang>
+  <lang percentage="54">ja</lang>
+  <lang percentage="96">nqo</lang>
+  <lang percentage="100">pl</lang>
+  <lang percentage="62">pt</lang>
+  <lang percentage="97">pt_BR</lang>
+  <lang percentage="96">ro</lang>
+  <lang percentage="100">ru</lang>
+  <lang percentage="77">sl</lang>
+  <lang percentage="100">es</lang>
+  <lang percentage="83">tr</lang>
+  <lang percentage="89">uz</lang>
+  <lang percentage="60">vi</lang>
+ </languages>
+ <translation/>
 </component>

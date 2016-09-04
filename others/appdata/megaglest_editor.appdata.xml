@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2015 MegaGlest Team <contact_at_megaglest.org> -->
+<!-- all urls http type; minimal version of validator: 0.6.1 -->
 <component type="desktop">
  <id>megaglest_editor.desktop</id>
  <metadata_license>CC-BY-SA-4.0</metadata_license>
@@ -16,11 +17,16 @@
  </description>
  <screenshots>
   <screenshot type="default">
-   <image>https://megaglest.org/uploads/images/appdata/mapeditor1.png</image>
+   <image>http://megaglest.org/uploads/images/appdata/mapeditor1.png</image>
   </screenshot>
  </screenshots>
- <url type="homepage">https://megaglest.org</url>
- <url type="donation">https://megaglest.org/donations</url>
+ <url type="homepage">http://megaglest.org</url>
+ <url type="bugtracker">http://bugs.megaglest.org</url>
+ <url type="faq">http://faq.megaglest.org</url>
+ <url type="help">http://readme.megaglest.org</url>
+ <url type="donation">http://megaglest.org/donations</url>
+ <url type="translate">http://translate.megaglest.org</url>
  <developer_name>The MegaGlest Team</developer_name>
  <update_contact>contact_at_megaglest.org</update_contact>
+ <translation/>
 </component>
