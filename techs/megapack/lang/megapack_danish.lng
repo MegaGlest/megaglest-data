@@ -36,188 +36,84 @@ UpgradeTypeName_speedup_priest_production=Forbedr præste træning
 UpgradeTypeName_summon_ibis=Hidhald Ibis!
 UpgradeTypeName_summon_scarab=Hidkald scarab
 ; -------------------------------------
-; Unit
 UnitTypeName_air_pyramid=luft pyramide
 ; --------------------
-; Levels for this Unit
 LevelName_elite=elite
 ; --------------------
-; Types of Commands for this Unit
 CommandName_attack_off=Angreb slået fra
 CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 UnitTypeName_anubis_warrior=Anubis kriger
 ; --------------------
-; Levels for this Unit
 LevelName_ancient=oldtid
 ; --------------------
-; Types of Commands for this Unit
 CommandName_stop=stop
 CommandName_move=flyt
 CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_chicken=kylling
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 ; -------------------------------------
-; Unit
 UnitTypeName_desert_camp=Ørken lejr
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_spearthrower=Træn spydkaster
 CommandName_produce_spearman=Træn spydmænd
 CommandName_upgrade_spear_weapons=Opgrader spydvåben
 ; -------------------------------------
-; Unit
 UnitTypeName_farm=Farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_chicken=Producer kyllinger
 ; -------------------------------------
-; Unit
 UnitTypeName_ibis=Ibis
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_mummy=Mumie
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_obelisk=Obelisk
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_scarab=Træn scarab
 CommandName_produce_snake=Træn slange
 CommandName_produce_ibis=Træn Ibis
 ; -------------------------------------
-; Unit
 UnitTypeName_priest=Præst
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_speedup_priest_production=Forbedr præste træning
 CommandName_heal=Heal
 CommandName_produce_mummy=Træn mumie
 CommandName_produce_anubis_warrior=Træn anubis kriger
 CommandName_ice_nova=Is explosion
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_pyramid=pyramide
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_slave=Træn slave
 ; -------------------------------------
-; Unit
 UnitTypeName_scarab=Scarab
 ; --------------------
-; Levels for this Unit
 LevelName_expert=ekspert
 LevelName_master=Herer
 LevelName_legendary=legendarisk
 ; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 # CommandName_dung_attack=dung attack
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_slave=slave
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_build_basic=Basis konstruktion
 CommandName_repair=Reperer
 CommandName_mine=Mine
 CommandName_harvest_wood=Høst træ
 ; -------------------------------------
-; Unit
 UnitTypeName_snake=slange
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspert
-LevelName_master=Herer
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_poison_shot=giftskud
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_spearman=spydman
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_spearthrower=spydkaster
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_sphinx=Sphinx
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 UnitTypeName_temple=tempel
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_priest=Træn præst
 CommandName_research_scarab=Scarab forskning
 CommandName_research_ibis=Ibis forskning
@@ -234,233 +130,81 @@ UpgradeTypeName_petroleum=Petroleum
 UpgradeTypeName_stables=stalde
 UpgradeTypeName_training_field=Trænings mark
 ; -------------------------------------
-; Unit
 UnitTypeName_archer=bueskytte
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_indian=Økse indianer
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_thrower=øksekaster
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_beehive=Bikube
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 UnitTypeName_big_tent=Stort telt
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_stickfighter=Træn kæpkriger
 CommandName_produce_archer=Træn buesskytte
 ; -------------------------------------
-; Unit
 UnitTypeName_bull=tyr
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_campfire=Bålild
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_fire_golem=Producer flamme golem
 CommandName_research_iron=Jern forskning
 CommandName_research_advanced_iron=avanceret jern forskning
 ; -------------------------------------
-; Unit
 UnitTypeName_fire_archer=ild bueskytte
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_fire_golem=Flame golem
-; --------------------
-; Levels for this Unit
-LevelName_ancient=oldtid
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_horse_farm=Heste farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_horseman=Træn heste kriger
 CommandName_produce_bull=Træn tyr
 CommandName_research_stables=Stald Forskning
 ; -------------------------------------
-; Unit
 UnitTypeName_horseman=Heste kriger
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_main_teepee=Hoved tipii
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_worker=Træn arbejder
 ; -------------------------------------
-; Unit
 UnitTypeName_reed=Siv
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_bull_food=Tyrefoder forskning
 ; -------------------------------------
-; Unit
 UnitTypeName_round_tent=Rundtelt
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_axe_indian=Træn økse indianer
 CommandName_produce_axe_thrower=Træn øksekaster
 CommandName_produce_fire_archer=Træn Ild bueskytter
-CommandName_produce_spearman=Træn spydmænd
 CommandName_create_training_field=Skab trænings mark
 ; -------------------------------------
-; Unit
 UnitTypeName_shaman=shaman
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_repair=Reperer
-CommandName_heal=Heal
 CommandName_molotov=molotov
 CommandName_produce_thunderbird=Træn Tordenfugl
 CommandName_build_beehive=Konstruer bikube
 ; -------------------------------------
-; Unit
-UnitTypeName_spearman=spydman
+; Unit > spearman
 ; --------------------
-; Levels for this Unit
 LevelName_guardian=beskytter
 LevelName_chief=Høvding
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_stickfighter=Kæp kriger
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_tent=Telt
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_stickfighter=Træn kæpkriger
 ; -------------------------------------
-; Unit
 UnitTypeName_thunderbird=tordenfugl
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=oldtid
-LevelName_expert=ekspert
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_throw=kast
 # CommandName_breath=breath
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_totem=Totem
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
 # CommandName_air_on=air on
 CommandName_research_petroleum=petroleums forskning
 CommandName_produce_shaman=Træn shaman
 ; -------------------------------------
-; Unit
 UnitTypeName_worker=arbejder
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_build_basic=Basis konstruktion
-CommandName_mine=Mine
-CommandName_harvest_wood=Høst træ
-CommandName_repair=Reperer
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_magic=Magi
@@ -473,502 +217,173 @@ UpgradeTypeName_energy_sharpening=Energi skærpelse
 UpgradeTypeName_golem_power=Golem kræfter
 UpgradeTypeName_hell_gate=helvedsport
 ; -------------------------------------
-; Unit
 UnitTypeName_archmage=Ærke magiker
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspert
-LevelName_master=Herer
-LevelName_legendary=legendarisk
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_ice_nova=Is explosion
 CommandName_static_fire=statisk ild
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_archmage_tower=Ærke magiker tårn
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_dragon_call=Dragekalds forskning
 CommandName_golem_power=Golem kræfter
 ; -------------------------------------
-; Unit
 UnitTypeName_battlemage=Kamp magiker
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspert
-LevelName_master=Herer
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_fire_bolt=Ild kugle
-CommandName_hold_position=Hold position
 CommandName_promote_to_archmage=Forfrem til ærke magiker
 ; -------------------------------------
-; Unit
 UnitTypeName_behemoth=Kæmpe
-; --------------------
-; Levels for this Unit
-LevelName_ancient=oldtid
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_daemon=Dæmon
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 # UnitTypeName_draco_rider=draco rider
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspert
-LevelName_master=Herer
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 # CommandName_fire_breath=fire breath
 # CommandName_flare=flare
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_dragon=drage
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=oldtid
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-# CommandName_breath=breath
-CommandName_hold_position=Hold position
 CommandName_promote_to_evil_dragon=Forfrem til ond drage
 ; -------------------------------------
-; Unit
 UnitTypeName_energy_source=Energikilde
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 ; -------------------------------------
-; Unit
 UnitTypeName_evil_dragon=Ond drage
-; --------------------
-; Levels for this Unit
-LevelName_expert=ekspert
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-# CommandName_breath=breath
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_ghost_armor=Spøgelses rustning
-; --------------------
-; Levels for this Unit
-LevelName_ancient=oldtid
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_golem=Golem
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=oldtid
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 CommandName_promote_to_power_golem=Forfrem til kræft golem
 ; -------------------------------------
-; Unit
 UnitTypeName_initiate=Indviet
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_repair=Reperer
 CommandName_build=Konstruer
 CommandName_ritual=Ritual
-CommandName_mine=Mine
 CommandName_harvest=Høst
 CommandName_promote_to_battlemage=Forfrem til kampmagiker
 ; -------------------------------------
-; Unit
 UnitTypeName_library=Bibliotek
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_energy_compression=Energi komprimerings forskning
 CommandName_research_energy_sharpening=Energi form forskning
 CommandName_research_hell_gate=Helvedesport forskning
 ; -------------------------------------
-; Unit
 UnitTypeName_mage_tower=Magiker tårn
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_initiate=Træn inviet
 ; -------------------------------------
-; Unit
 UnitTypeName_power_golem=Kræft golem
-; --------------------
-; Levels for this Unit
-LevelName_ancient=oldtid
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_summoner=Hidkalder
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-# CommandName_flare=flare
-CommandName_hold_position=Hold position
 CommandName_summon_daemon=Hidkald dæmon
 CommandName_summon_ghost_armor=Hidkald spøgelses kriger
 CommandName_summon_dragon=Hidkald drage
 # CommandName_summon_draco=summon draco
 ; -------------------------------------
-; Unit
 # UnitTypeName_summoner_guild=summoner guild
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_summoner=Træn hidkalder
 CommandName_research_ancient_summoning=Old-hidkaldelses forskning
 ; -------------------------------------
-; Unit
 UnitTypeName_tower_of_souls=Sjæle tårnet
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 # UnitTypeName_wicker_behemoth=wicker behemoth
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 # CommandName_promote_to_behemoth=promote to behemoth
 ; -----------------------------------------------------------------------------
 ; Faction
 # FactionName_norsemen=norsemen
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_iron=Avanceret Jern
 UpgradeTypeName_arrow=Pil
 UpgradeTypeName_holy_valkyrie=Hellig valkyrie
-UpgradeTypeName_iron=jern
 UpgradeTypeName_mead=Mjød
 UpgradeTypeName_root=Rødder
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=bueskytte
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
-UnitTypeName_axe_thrower=øksekaster
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-; -------------------------------------
-; Unit
 UnitTypeName_battleaxe=Kampøkse
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 CommandName_promote_to_battleaxe_berserk=Forfrem til kampøkse bersærker
 ; -------------------------------------
-; Unit
 UnitTypeName_battleaxe_berserk=Kampøkse bersærker
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -------------------------------------
-; Unit
 UnitTypeName_blacksmith=Smed
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_iron=Opgraderings ikon
 CommandName_upgrade_arrow=Opgrader pile
 CommandName_upgrade_advanced_iron=Opgrader avanceret jern
 CommandName_produce_crossbow=Producer armbryst
 ; -------------------------------------
-; Unit
 UnitTypeName_bone_tent=Knogle telt
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_swordman=Træn sværdmand
-CommandName_produce_archer=Træn buesskytte
 CommandName_produce_battleaxe=Træn kampøkse
-CommandName_produce_axe_thrower=Træn øksekaster
 ; -------------------------------------
-; Unit
 UnitTypeName_castle=Slot
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_thrall=Træn træll
 ; -------------------------------------
-; Unit
 UnitTypeName_cow=ko
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 ; -------------------------------------
-; Unit
 UnitTypeName_crossbow=Armbrøst
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_attack_arrow=Angrebs pil
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 # UnitTypeName_cudgel_lady=cudgel lady
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 # CommandName_cudgel=cudgel
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=Farm
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cow=Producer ko
 ; -------------------------------------
-; Unit
 UnitTypeName_flying_valkyrie=Flyvende valkyrie
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_house=Hus
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 # CommandName_produce_cudgel_lady=produce cudgel lady
-CommandName_produce_spearman=Træn spydmænd
 ; -------------------------------------
-; Unit
 UnitTypeName_mead_bar=Mjød bar
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-# CommandName_produce_cudgel_lady=produce cudgel lady
-CommandName_produce_spearman=Træn spydmænd
 CommandName_research_mead=Mjød forskning
 ; -------------------------------------
-; Unit
 UnitTypeName_mistletoe_tree=Mistle te's træ
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-# CommandName_air_on=air on
-CommandName_attack_off=Angreb slået fra
 CommandName_research_root=Rod forskning
 CommandName_resurrect_wild_sow=Genopliv vild sow
 ; -------------------------------------
-; Unit
-UnitTypeName_spearman=spydman
+; Unit > spearman
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 CommandName_promote_to_spearman_berserk=Forfrem til spyd bersærker
 ; -------------------------------------
-; Unit
 UnitTypeName_spearman_berserk=Spyd bersærker
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_swordman=Sværdmand
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 CommandName_promote_to_swordman_berserk=Forfrem til sværd bersærker
 ; -------------------------------------
-; Unit
 UnitTypeName_swordman_berserk=Bersærker
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_thor=Thor
 ; --------------------
-; Levels for this Unit
 LevelName_advanced=Avanceret
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_throw=kast
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_thor_totem=Thor totem
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_build_thor=Træn thor
 ; -------------------------------------
-; Unit
 UnitTypeName_thrall=Træll
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_build_basic=Basis konstruktion
-CommandName_mine=Mine
-CommandName_harvest_wood=Høst træ
-CommandName_repair=Reperer
 ; -------------------------------------
-; Unit
 UnitTypeName_valhalla=Vahalla
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_flying_valkyrie=Træn flyvende valkyrie
 CommandName_produce_valkyrie=Træn valkyrie
 CommandName_research_holy_valkyrie=Hellig valyrie forskning
 ; -------------------------------------
-; Unit
 UnitTypeName_valkyrie=valkyrie
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 CommandName_airattack=luft angreb
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_wild_sow=vild sow?
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_persian=Perser
@@ -981,211 +396,60 @@ UpgradeTypeName_nails=Søm
 UpgradeTypeName_shield=Skjold
 UpgradeTypeName_weapons=Våben
 ; -------------------------------------
-; Unit
-UnitTypeName_blacksmith=Smed
+; Unit > blacksmith
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_weapons=Upgrader våben
 CommandName_upgrade_nails=Upgrader søm
 CommandName_upgrade_shield=Upgrader skjolde
 ; -------------------------------------
-; Unit
 UnitTypeName_elephant=Elefant
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_attack_arrow=Angrebs pil
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_elephant_cage=Elefant bur
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_elephant=Træn elefant
 ; -------------------------------------
-; Unit
 UnitTypeName_fakir=fakir
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=Farm
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_sheep=Producer får
 # CommandName_research_corn_and_wicker=research corn and wicker
 ; -------------------------------------
-; Unit
 UnitTypeName_flying_carpet=Flyvende tæppe
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_magic_attack=magisks angreb
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_genie=Ånd
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
-UnitTypeName_house=Hus
+; Unit > house
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_fakir=Træn fakir
-CommandName_produce_stickfighter=Træn kæpkriger
 ; -------------------------------------
-; Unit
 UnitTypeName_magician=magiker
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_repair=Reperer
 CommandName_build_snake_basket=Byg slangekurv
-CommandName_heal=Heal
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_minaret=Minaret
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 UnitTypeName_palace=Palads
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_worker=Træn arbejder
 ; -------------------------------------
-; Unit
 UnitTypeName_princess=prinsesse
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_sheep=Får
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 ; -------------------------------------
-; Unit
 UnitTypeName_snake_basket=Slange kurv
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
-UnitTypeName_stickfighter=Kæp kriger
+; Unit > temple
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
-UnitTypeName_swordman=Sværdmand
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
-UnitTypeName_temple=tempel
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_princess=Trøn prinsesse
-CommandName_produce_swordman=Træn sværdmand
 ; -------------------------------------
-; Unit
-UnitTypeName_tent=Telt
+; Unit > tent
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_genie=Træn ånd
 CommandName_produce_flying_carpet=Producer flyvende tæppe
 CommandName_produce_magician=Træn magiker
 CommandName_upgrade_magic_level_1=Opgrader magi niveau 1
 CommandName_upgrade_magic_level_2=Opgrader magi niveau 2
-; -------------------------------------
-; Unit
-UnitTypeName_worker=arbejder
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_attack=angrib
-CommandName_move=flyt
-CommandName_build_basic=Basis konstruktion
-CommandName_mine=Mine
-CommandName_harvest_wood=Høst træ
-CommandName_repair=Reperer
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_romans=Romere
@@ -1200,193 +464,61 @@ UpgradeTypeName_reinforce_armor=Forstærk rustning
 UpgradeTypeName_sharpen_points=Skærp spidser
 # UpgradeTypeName_sign_of_mars=sign of mars
 UpgradeTypeName_strengthen_swords=Forstærk sværd
-UpgradeTypeName_training_field=Trænings mark
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=bueskytte
+; Unit > archer
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 CommandName_get_fire_arrows=Få ildpile
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_man=Øksemand
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_ballista=Ballista
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 UnitTypeName_battering_ram=Rambuk
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_attack_land=Angrib land
 CommandName_attack_air=Angrib luft
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_blacksmith_shop=Smede værksted
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_strengthen_swords=Forstærk sværd
 CommandName_sharpen_points=Skærp spidser
 CommandName_reinforce_armor=Forstærk rustning
 CommandName_enlarge_shields=Forstør skjolde
 ; -------------------------------------
-; Unit
 UnitTypeName_catapult=katapult
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_fire_ball=Ild kugle
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_cavalry=Kavaleri
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 # CommandName_promote_to_tribune=promote to tribune
 ; -------------------------------------
-; Unit
-UnitTypeName_cow=ko
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-; -------------------------------------
-; Unit
 # UnitTypeName_eagle_pillar=eagle pillar
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
-UnitTypeName_fire_archer=ild bueskytte
+; Unit > fire archer
 ; --------------------
-; Levels for this Unit
 # LevelName_accurate=accurate
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 # UnitTypeName_forum=forum
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_slave=Træn slave
-CommandName_produce_cow=Producer ko
 ; -------------------------------------
-; Unit
 UnitTypeName_general=General
 ; --------------------
-; Levels for this Unit
 LevelName_esteemed=Ærede
 LevelName_grand=Grand
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_gladiator=Gladiator
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack_land=Angrib land
-CommandName_attack_air=Angrib luft
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_gladiator_school=Gladiator akademi
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_train_gladiator=Træn gladiator
 CommandName_produce_axe_man=Træn øksemand
 ; -------------------------------------
-; Unit
 UnitTypeName_guard=Vagt
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_guard_tower=Vagt tårn
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 UnitTypeName_military_camp=Militær Lejr
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cavalry=Træn kavaleri
 CommandName_produce_turtle_formation=Træn skildpadde tropper
 CommandName_produce_general=Træn general
@@ -1394,101 +526,25 @@ CommandName_produce_mechanic=Træn mekaniker
 CommandName_upgrade_advanced_architecture=Opgrader avanceret arkitektur
 CommandName_upgrade_formations=Opgrader formation
 ; -------------------------------------
-; Unit
-UnitTypeName_slave=slave
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_build=Konstruer
-CommandName_mine=Mine
-CommandName_harvest_wood=Høst træ
-CommandName_repair=Reperer
-; -------------------------------------
-; Unit
-UnitTypeName_spearman=spydman
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
 UnitTypeName_swordsman=Sværdsmand
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
-UnitTypeName_temple=tempel
+; Unit > temple
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 # CommandName_research_sign_of_mars=research sign of mars
 # CommandName_research_jupiter=research jupiter
 # CommandName_upgrade_bless_of_minerva=upgrade bless of minerva
 ; -------------------------------------
-; Unit
 UnitTypeName_training_camp=Trænings lejr
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_spearman=Træn spydmænd
-CommandName_produce_archer=Træn buesskytte
 CommandName_produce_guard=Træn vagt
 CommandName_produce_swordsman=Træn sværsmand
-CommandName_create_training_field=Skab trænings mark
 ; -------------------------------------
-; Unit
 # UnitTypeName_tribune=tribune
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 # UnitTypeName_turtle_formation=turtle formation
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_wartime_mechanic=Krigstids mekaniker
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-CommandName_repair=Reperer
-CommandName_heal=Heal
 CommandName_build_catapult=Konstruer catapult
 # CommandName_build_battering_ram=build battering ram
 # CommandName_build_ballista=build ballista
@@ -1497,238 +553,62 @@ CommandName_build_catapult=Konstruer catapult
 # FactionName_tech=tech
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_architecture=Avanceret arkitektur
 # UpgradeTypeName_blade_weapons=blade weapons
 # UpgradeTypeName_piercing_weapons=piercing weapons
 UpgradeTypeName_robotics=Robot teknik
 UpgradeTypeName_shield_level_1=Skjold niveau 1
 UpgradeTypeName_shield_level_2=Skjold niveau 2
-UpgradeTypeName_stables=stalde
-UpgradeTypeName_training_field=Trænings mark
 ; -------------------------------------
-; Unit
 # UnitTypeName_aerodrome=aerodrome
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_ornithopter=Konstruer ornithopter
 CommandName_produce_airship=Konstruer luftskib
 ; -------------------------------------
-; Unit
 UnitTypeName_air_ballista=Luft balista
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
 UnitTypeName_airship=Luftskib
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_missile=Missil
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=bueskytte
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
 UnitTypeName_barracks=Barrak
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_swordman=Træn sværdmand
-CommandName_produce_archer=Træn buesskytte
-CommandName_produce_guard=Træn vagt
-CommandName_produce_horseman=Træn heste kriger
-CommandName_create_training_field=Skab trænings mark
 ; -------------------------------------
-; Unit
 UnitTypeName_battle_machine=Kamp maskine
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_attack_arrow=Angrebs pil
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
-UnitTypeName_blacksmith=Smed
+; Unit > blacksmith
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_blade_weapons=Opgrader skarpe våben
 CommandName_upgrade_piercing_weapons=Opgrader gemmeborende våben
-CommandName_upgrade_shield=Upgrader skjolde
-CommandName_upgrade_shield=Upgrader skjolde
 ; -------------------------------------
-; Unit
-UnitTypeName_castle=Slot
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_worker=Træn arbejder
-; -------------------------------------
-; Unit
-UnitTypeName_catapult=katapult
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_fire_ball=Ild kugle
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
-UnitTypeName_cow=ko
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-; -------------------------------------
-; Unit
 UnitTypeName_defense_tower=Defensivt tårn
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=Angreb slået fra
-CommandName_attack_on=Angreb slået til
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=Farm
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_pig=Producer gris
-CommandName_produce_cow=Producer ko
-CommandName_research_stables=Stald Forskning
 ; -------------------------------------
-; Unit
-UnitTypeName_guard=Vagt
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
-UnitTypeName_horseman=Heste kriger
-; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
-; -------------------------------------
-; Unit
 UnitTypeName_ornithopter=Ornithopter
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_molotov=molotov
 CommandName_fire_arrow=Ildpile
-CommandName_hold_position=Hold position
 ; -------------------------------------
-; Unit
 UnitTypeName_pig=gris
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 ; -------------------------------------
-; Unit
-UnitTypeName_swordman=Sværdmand
+; Unit > swordman
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elite
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_attack=angrib
-CommandName_hold_position=Hold position
 CommandName_promote_to_guard=Forfrem til vagt
 ; -------------------------------------
-; Unit
 UnitTypeName_technician=Tekniker
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
 CommandName_build_ultimate=Ultimativ konstruction
-CommandName_repair=Reperer
-CommandName_heal=Heal
 CommandName_mine_gold=Udgrav guld
-CommandName_molotov=molotov
-CommandName_build_catapult=Konstruer catapult
 CommandName_build_battle_machine=Byg krigsmaskine
 CommandName_build_air_ballista=Konstruer luft ballista
 ; -------------------------------------
-; Unit
 # UnitTypeName_technodrome=technodrome
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 # CommandName_produce_technician=produce technician
 # CommandName_research_advanced_architecture=research advanced architecture
 CommandName_research_robotics=Robot tekniks forskning
 ; -------------------------------------
-; Unit
-UnitTypeName_worker=arbejder
+; Unit > worker
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop
-CommandName_move=flyt
-CommandName_build_basic=Basis konstruktion
 CommandName_build_advanced=Avancerede konstruktioner
-CommandName_mine=Mine
-CommandName_harvest_wood=Høst træ
-CommandName_repair=Reperer
 ; -------------------------------------
