@@ -38,32 +38,32 @@
   <developer_name>The MegaGlest Team</developer_name>
   <update_contact>contact_at_megaglest.org</update_contact>
   <languages>
-    <!-- alphabetical order (of full names) -->
-    <lang percentage="59">sq</lang>
-    <lang percentage="67">ar</lang>
+    <lang percentage="55">sq</lang>
+    <lang percentage="68">ar</lang>
     <lang percentage="99">zh_CN</lang>
-    <lang percentage="86">zh_TW</lang>
+    <lang percentage="64">zh_TW</lang>
     <lang percentage="100">cs</lang>
-    <lang percentage="94">da</lang>
-    <lang percentage="96">nl</lang>
-    <lang percentage="99">fr</lang>
+    <lang percentage="95">da</lang>
+    <lang percentage="97">nl</lang>
+    <lang percentage="100">en</lang>
+    <lang percentage="100">fr</lang>
     <lang percentage="100">gd</lang>
-    <lang percentage="99">de</lang>
+    <lang percentage="100">de</lang>
     <lang percentage="99">el</lang>
-    <lang percentage="96">he</lang>
-    <lang percentage="99">it</lang>
-    <lang percentage="54">ja</lang>
-    <lang percentage="96">nqo</lang>
+    <lang percentage="97">he</lang>
+    <lang percentage="100">it</lang>
+    <lang percentage="52">ja</lang>
+    <lang percentage="97">nqo</lang>
     <lang percentage="100">pl</lang>
-    <lang percentage="62">pt</lang>
+    <lang percentage="63">pt</lang>
     <lang percentage="97">pt_BR</lang>
-    <lang percentage="96">ro</lang>
+    <lang percentage="97">ro</lang>
     <lang percentage="100">ru</lang>
     <lang percentage="77">sl</lang>
     <lang percentage="100">es</lang>
-    <lang percentage="83">tr</lang>
-    <lang percentage="89">uz</lang>
-    <lang percentage="60">vi</lang>
+    <lang percentage="78">tr</lang>
+    <lang percentage="87">uz</lang>
+    <lang percentage="59">vi</lang>
   </languages>
   <translation/>
 </component>
