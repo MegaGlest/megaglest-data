@@ -5,6 +5,7 @@
 		<resource name="gold" amount="500"/>
 		<resource name="wood" amount="400"/>
 		<resource name="stone" amount="400"/>
+		<resource name="energy" amount="1"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="mage_tower" amount="1"/>
@@ -22,6 +23,7 @@
 			<unit name="initiate" minimum="25"/>
 		</worker-units>
 		<warrior-units>
+			<unit name="initiate" minimum="10"/>
 			<unit name="battlemage" minimum="5"/>
 			<unit name="initiate" minimum="25"/>
 			<unit name="summoner" minimum="1"/>
@@ -42,7 +44,7 @@
 			<upgrade name="energy_compression"/>
 		</upgrades>
 		<static-values>
-			<static type-name="MinWorkerAttackersHarvesting" value="30"/>
+			<static type-name="MinWorkerAttackersHarvesting" value="40"/>
 		</static-values>
 	</ai-behavior>
 </faction>

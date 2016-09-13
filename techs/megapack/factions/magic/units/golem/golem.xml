@@ -5,7 +5,7 @@
 		<size value="2"/>
 		<height value="2"/>
 		<max-hp value="2000" regeneration="3"/>
-		<max-ep value="1000" regeneration="10"/>
+		<max-ep value="1000" regeneration="10" start-percentage="50"/>
 		<armor value="45"/>
 		<armor-type value="stone"/>
 		<sight value="10"/>
