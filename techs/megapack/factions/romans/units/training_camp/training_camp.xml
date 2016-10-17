@@ -9,7 +9,8 @@
 		<armor-type value="wood"/>
 		<sight value="8" />
 		<time value="100" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="11011"/>
 			<row value="11011"/>
@@ -48,7 +49,6 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
 	<skills>
 		<skill>
 			<type value="stop"/>
@@ -59,7 +59,6 @@
 			<animation path="models/training_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -69,7 +68,6 @@
 			<animation path="models/training_camp_build.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -79,7 +77,6 @@
 			<animation path="models/training_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -89,7 +86,6 @@
 			<animation path="models/training_camp.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -102,11 +98,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_spearman" />
@@ -116,7 +109,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="spearman"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_archer" />
@@ -126,7 +118,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="archer"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_guard" />
@@ -136,7 +127,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="guard"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_swordsman" />
@@ -146,7 +136,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="swordsman"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="create_training_field"/>

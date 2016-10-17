@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="5"/>
 		<height value="3"/>
@@ -10,7 +9,8 @@
 		<armor-type value="stone"/>
 		<sight value="10" />
 		<time value="100" />
-		<multi-selection value="false"/>
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="00000"/>
 			<row value="01010"/>
@@ -49,8 +49,6 @@
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
 		<skill>
 			<name value="be_built_skill"/>
@@ -61,7 +59,6 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -71,7 +68,6 @@
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>
@@ -81,7 +77,6 @@
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -91,7 +86,6 @@
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -104,11 +98,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_summoner"/>
@@ -118,7 +109,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="summoner"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_ancient_summoning" />
@@ -128,6 +118,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="ancient_summoning"/>
 		</command>
-
 	</commands>
 </unit>

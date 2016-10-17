@@ -9,7 +9,8 @@
 		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="120" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="1011"/>
 			<row value="1011"/>
@@ -44,9 +45,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
 	<skills>
-
 		<skill>
 			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
@@ -56,7 +55,6 @@
 			<sound enabled="false"/>
 			<type value="be_built"/>
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -66,7 +64,6 @@
 			<animation path="models/aerodrome.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_ornithopter_skill"/>
@@ -83,7 +80,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_airship_skill"/>
@@ -100,7 +96,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/technician_build6.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -117,9 +112,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
 		<command>
 			<type value="produce"/>
@@ -129,10 +122,8 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_ornithopter_skill"/>
 			<produced-unit name="ornithopter"/>
-
 		</command>
-
-               <command>
+		<command>
 			<type value="produce"/>
 			<name value="produce_airship"/>
 			<image path="../airship/images/airship.bmp"/>
@@ -140,7 +131,6 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_airship_skill"/>
 			<produced-unit name="airship"/>
-
 		</command>
 	</commands>
 </unit>

@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="5"/>
 		<height value="6"/>
@@ -10,7 +9,8 @@
 		<armor-type value="stone"/>
 		<sight value="15"/>
 		<time value="250"/>
-		<multi-selection value="false"/>
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="01010"/>
 			<row value="11011"/>
@@ -49,10 +49,7 @@
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -62,7 +59,6 @@
 			<animation path="models/mage_tower.g3d"/>
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built"/>
 			<name value="be_built_skill"/>
@@ -72,7 +68,6 @@
 			<animation path="models/mage_tower_construction.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -82,7 +77,6 @@
 			<animation path="models/mage_tower.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -100,12 +94,8 @@
 			</shake>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_initiate"/>
@@ -115,6 +105,5 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="initiate"/>
 		</command>
-
 	</commands>
 </unit>

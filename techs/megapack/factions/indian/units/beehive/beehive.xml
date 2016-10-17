@@ -1,9 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-
 <unit>
-
-	<!-- *** parameters *** -->
-
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
@@ -45,11 +41,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
-
 	<skills>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -59,8 +51,7 @@
 			<animation path="models/beehive.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
-                <skill>
+		<skill>
 			<type value="be_built"/>
 			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
@@ -69,7 +60,6 @@
 			<animation path="models/beehive_construction.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
@@ -103,7 +93,6 @@
 			</projectile>
 			<splash value="false"/>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -120,13 +109,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
-
 	<commands>
-
 		<command>
 			<type value="stop"/>
 			<name value="attack_off"/>
@@ -135,7 +119,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-
 		<command>
 			<type value="attack_stopped"/>
 			<name value="attack_on"/>
@@ -143,8 +126,7 @@
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>
-                        <stop-skill value="stop_skill"/>
+			<stop-skill value="stop_skill"/>
 		</command>
-
 	</commands>
 </unit>

@@ -9,7 +9,8 @@
 		<armor-type value="wood"/>
 		<sight value="6" />
 		<time value="100" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="1011"/>
 			<row value="0000"/>
@@ -45,7 +46,6 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
 	<skills>
 		<skill>
 			<type value="stop"/>
@@ -56,7 +56,6 @@
 			<animation path="models/palace.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -66,7 +65,6 @@
 			<animation path="../palace/construction_models/barracks_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -76,7 +74,6 @@
 			<animation path="models/palace.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -86,7 +83,6 @@
 			<animation path="models/palace.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -103,11 +99,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_princess" />
@@ -117,7 +110,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="princess"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_swordman" />
@@ -127,6 +119,5 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="swordman"/>
 		</command>
-
 	</commands>
 </unit>

@@ -1,9 +1,5 @@
 <?xml version="1.0" standalone="no"?>
-
 <unit>
-
-	<!-- *** parameters *** -->
-
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
@@ -68,9 +64,7 @@
 			<sound path="../technician/sounds/technician_ack19.wav"/>
 		</command-sounds>
 	</parameters>
-
 	<skills>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -80,7 +74,6 @@
 			<animation path="models/air_pyramid.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
@@ -90,7 +83,6 @@
 			<animation path="models/air_pyramid.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
@@ -126,7 +118,6 @@
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -141,7 +132,6 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -151,11 +141,8 @@
 			<animation path="models/air_pyramid_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value= "stop"/>
 			<name value="attack_off"/>
@@ -164,7 +151,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-
 		<command>
 			<type value= "attack_stopped"/>
 			<name value="attack_on"/>
@@ -172,8 +158,7 @@
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<attack-skill value="attack_skill"/>
-                        <stop-skill value="stop_skill"/>
+			<stop-skill value="stop_skill"/>
 		</command>
-
 	</commands>
 </unit>

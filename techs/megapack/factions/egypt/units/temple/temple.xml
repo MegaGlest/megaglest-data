@@ -9,7 +9,8 @@
 		<armor-type value="stone"/>
 		<sight value="6" />
 		<time value="100" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="000000"/>
 			<row value="011010"/>
@@ -49,7 +50,6 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
 	<skills>
 		<skill>
 			<type value="stop"/>
@@ -60,7 +60,6 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -70,7 +69,6 @@
 			<animation path="../pyramid/construction_models/barracks_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -80,7 +78,6 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -90,7 +87,6 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -103,11 +99,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_priest" />
@@ -117,7 +110,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="priest"/>
 		</command>
-
 		<!--command>
 			<type value="produce"/>
 			<name value="produce_ibis" />
@@ -127,33 +119,30 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="priest"/>
 		</command-->
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_scarab"/>
 			<image path="../../upgrades/summon_scarab/images/stables.bmp" />
-		<unit-requirements>
-			<unit name="obelisk" />
-		</unit-requirements>
+			<unit-requirements>
+				<unit name="obelisk" />
+			</unit-requirements>
 			<upgrade-requirements />
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="summon_scarab"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_ibis"/>
 			<image path="../../upgrades/summon_ibis/images/stables.bmp" />
-		<unit-requirements>
-			<unit name="obelisk" />
-		</unit-requirements>
-		<upgrade-requirements>
-			<upgrade name="summon_scarab"/>
-		</upgrade-requirements>
-		<upgrade-skill value="upgrade_skill"/>
+			<unit-requirements>
+				<unit name="obelisk" />
+			</unit-requirements>
+			<upgrade-requirements>
+				<upgrade name="summon_scarab"/>
+			</upgrade-requirements>
+			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="summon_ibis"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="get_power_of_ra"/>

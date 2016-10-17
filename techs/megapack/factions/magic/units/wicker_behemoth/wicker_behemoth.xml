@@ -1,5 +1,4 @@
 <?xml version="1.0" standalone="no" ?>
-
 <unit>
 	<parameters>
 		<size value="2" />
@@ -10,7 +9,8 @@
 		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="100" />
-		<multi-selection value="true" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="false"/>
 		<levels/>
 		<fields>
@@ -41,7 +41,6 @@
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
 		</command-sounds>
 	</parameters>
-
 	<skills>
 		<skill>
 			<type value="be_built" />
@@ -53,7 +52,6 @@
 			<animation path="models/wicker_behemoth_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -63,7 +61,6 @@
 			<animation path="models/wicker_behemoth.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -80,8 +77,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
-                <skill>
+		<skill>
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
@@ -95,13 +91,8 @@
 				<sound-file path="/sounds/wicker_fire.wav"/>
 			</sound>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
-
 	<commands>
-
 		<command>
 			<type value="morph"/>
 			<name value="promote_to_behemoth"/>
@@ -112,6 +103,5 @@
 			<morph-unit name= "behemoth"/>
 			<discount value="0"/>
 		</command>
-
 	</commands>
 </unit>

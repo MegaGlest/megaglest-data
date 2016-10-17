@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="2" />
 		<height value="5" />
@@ -10,7 +9,8 @@
 		<armor-type value="wood"/>
 		<sight value="19" />
 		<time value="50" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="false" />
 		<levels/>
 		<fields>
@@ -42,10 +42,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
@@ -55,7 +52,6 @@
 			<sound enabled="false"/>
 			<type value="be_built"/>
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -65,7 +61,6 @@
 			<animation path="models/mistletree.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -75,7 +70,6 @@
 			<animation path="models/mistletree.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="attack_air_skill"/>
@@ -88,7 +82,7 @@
 				<sound-file path="/sounds/tower_attack2.wav"/>
 				<sound-file path="/sounds/tower_attack3.wav"/>
 				<sound-file path="/sounds/tower_attack4.wav"/>
-                        	<sound-file path="/sounds/tower_attack5.wav"/>
+				<sound-file path="/sounds/tower_attack5.wav"/>
 				<sound-file path="/sounds/tower_attack6.wav"/>
 			</sound>
 			<attack-strenght value="150"/>
@@ -102,18 +96,17 @@
 			<projectile value="true">
 				<particle value="true" path="particle_proj.xml"/>
 				<sound enabled="false" start-time="0">
-				<sound-file path="/sounds/tower_hit1.wav"/>
-				<sound-file path="/sounds/tower_hit2.wav"/>
-				<sound-file path="/sounds/tower_hit3.wav"/>
-                                </sound>
+					<sound-file path="/sounds/tower_hit1.wav"/>
+					<sound-file path="/sounds/tower_hit2.wav"/>
+					<sound-file path="/sounds/tower_hit3.wav"/>
+				</sound>
 			</projectile>
 			<splash value="true">
 				<radius value="3"/>
 				<damage-all value="true"/>
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
-                </skill>
-		<!-- *** Skill 4 *** -->
+		</skill>
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -123,7 +116,6 @@
 			<animation path="models/mistletree.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -136,12 +128,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="attack_stopped"/>
 			<name value="air_on"/>
@@ -151,7 +139,6 @@
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_air_skill"/>
 		</command>
-
 		<command>
 			<type value= "stop"/>
 			<name value="attack_off"/>
@@ -161,7 +148,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_root"/>
@@ -171,15 +157,14 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="root"/>
 		</command>
-
-    		<command>
-    		    <type value="produce"/>
-    		    <name value="resurrect_wild_sow" />
-    		    <image path="../wild_sow/images/wild_sow.bmp"/>
-    		    <unit-requirements/>
-    		    <upgrade-requirements/>
-    		    <produce-skill value="produce_skill"/>
-     		   <produced-unit name="wild_sow"/>
-     		</command>
+		<command>
+			<type value="produce"/>
+			<name value="resurrect_wild_sow" />
+			<image path="../wild_sow/images/wild_sow.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="wild_sow"/>
+		</command>
 	</commands>
 </unit>

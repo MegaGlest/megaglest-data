@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="6" />
 		<height value="2" />
@@ -10,7 +9,8 @@
 		<armor-type value="wood"/>
 		<sight value="12" />
 		<time value="100" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="000000"/>
 			<row value="010110"/>
@@ -49,10 +49,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-		<!-- *** skill 0 *** -->
 		<skill>
 			<name value="be_built_skill"/>
 			<ep-cost value="0" />
@@ -62,8 +59,6 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-
-		<!-- *** skill 1 *** -->
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -76,8 +71,6 @@
 			</particles>
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 2 *** -->
 		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>
@@ -97,7 +90,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -112,8 +104,6 @@
 			</particles>
 			<sound enabled="false"/>
 		</skill>
-
-		<!-- *** skill 3 *** -->
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -130,11 +120,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_iron" />
@@ -144,7 +131,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="iron"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_arrow" />
@@ -154,7 +140,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="arrow"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_advanced_iron" />
@@ -164,16 +149,14 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="advanced_iron"/>
 		</command>
-
-    		<command>
-    		    <type value="produce"/>
-    		    <name value="produce_crossbow" />
-    		    <image path="../crossbow/images/crossbow.bmp"/>
-    		    <unit-requirements/>
-    		    <upgrade-requirements/>
-    		    <produce-skill value="produce_skill"/>
-     		   <produced-unit name="crossbow"/>
-     		</command>
-
+		<command>
+			<type value="produce"/>
+			<name value="produce_crossbow" />
+			<image path="../crossbow/images/crossbow.bmp"/>
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="crossbow"/>
+		</command>
 	</commands>
 </unit>

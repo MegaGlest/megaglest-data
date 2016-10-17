@@ -9,7 +9,8 @@
 		<armor-type value="wood"/>
 		<sight value="8" />
 		<time value="100" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="1101"/>
 			<row value="1001"/>
@@ -43,7 +44,6 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
 	<skills>
 		<skill>
 			<type value="stop"/>
@@ -54,7 +54,6 @@
 			<animation path="models/school.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -64,7 +63,6 @@
 			<animation path="models/school_build.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -74,7 +72,6 @@
 			<animation path="models/school.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -84,7 +81,6 @@
 			<animation path="models/school_pruduse.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill2"/>
@@ -94,7 +90,6 @@
 			<animation path="models/school_pruduse2.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -107,11 +102,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="train_gladiator" />
@@ -121,7 +113,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="gladiator"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_axe_man" />
@@ -131,6 +122,5 @@
 			<produce-skill value="produce_skill2"/>
 			<produced-unit name="axe_man"/>
 		</command>
-
 	</commands>
 </unit>

@@ -49,10 +49,8 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-
 	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -63,7 +61,6 @@
 			<animation path="models/farm_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -73,7 +70,6 @@
 			<animation path="models/farm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -93,7 +89,6 @@
 			<animation path="models/farm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -110,8 +105,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
-                <skill>
+		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
@@ -120,12 +114,9 @@
 			<animation path="models/farm.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 	</skills>
-
 	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_pig" />
@@ -135,7 +126,6 @@
 			<produce-skill value="produce_fast_skill"/>
 			<produced-unit name="pig"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_cow" />
@@ -145,8 +135,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="cow"/>
 		</command>
-
-                <command>
+		<command>
 			<type value="upgrade"/>
 			<name value="research_stables"/>
 			<image path="../../upgrades/stables/images/stables.bmp"/>
@@ -155,6 +144,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="stables"/>
 		</command>
-
 	</commands>
 </unit>

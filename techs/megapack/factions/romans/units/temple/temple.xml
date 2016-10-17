@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="6" />
 		<height value="2" />
@@ -50,10 +49,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -63,7 +59,6 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -73,7 +68,6 @@
 			<animation path="models/temple_build.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -83,7 +77,6 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>
@@ -96,7 +89,6 @@
 			</particles>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -109,9 +101,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
 		<command>
 			<type value="upgrade"/>
@@ -122,7 +112,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="sign_of_mars"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_jupiter" />
@@ -132,7 +121,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="jupiter"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_bless_of_minerva" />
@@ -142,5 +130,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="bless_of_minerva"/>
 		</command>
-</commands>
+	</commands>
 </unit>
