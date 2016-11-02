@@ -11,7 +11,12 @@
 		<time value="50" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
-		<cellmap value="false"/>
+		<cellmap value="true">
+			<row value="0110"/>
+			<row value="1111"/>
+			<row value="1111"/>
+			<row value="0110"/>
+		</cellmap>
 		<levels/>
 		<fields>
 			<field value="land" />

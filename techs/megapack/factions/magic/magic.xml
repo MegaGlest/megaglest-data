@@ -24,7 +24,7 @@
 		</worker-units>
 		<warrior-units>
 			<unit name="initiate" minimum="10"/>
-			<unit name="battlemage" minimum="5"/>
+			<unit name="battlemage" minimum="3"/>
 			<unit name="initiate" minimum="25"/>
 			<unit name="summoner" minimum="1"/>
 			<unit name="ghost_armor" minimum="1"/>
@@ -37,6 +37,7 @@
 			<unit name="mage_tower" minimum="2"/>
 			<unit name="summoner_guild" minimum="1"/>
 			<unit name="library" minimum="1"/>
+			<unit name="energy_source" minimum="5"/>
 		</building-units>
 		<upgrades>
 			<upgrade name="energy_sharpening"/>
@@ -44,6 +45,9 @@
 			<upgrade name="energy_compression"/>
 		</upgrades>
 		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="9"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="20"/>
+			<static type-name="MinStaticResourceCount" value="30"/>
 			<static type-name="MinWorkerAttackersHarvesting" value="40"/>
 		</static-values>
 	</ai-behavior>

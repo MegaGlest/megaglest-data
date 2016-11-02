@@ -12,11 +12,11 @@
 		<multi-selection value="false" />
 		<!--no uniform-selection, workers aren't considered as fighters-->
 		<cellmap value="true">
-			<row value="11011"/>
+			<row value="01010"/>
 			<row value="11011"/>
 			<row value="00000"/>
 			<row value="11011"/>
-			<row value="11011"/>
+			<row value="01010"/>
 		</cellmap>
 		<levels/>
 		<fields>

@@ -11,11 +11,11 @@
 		<time value="50" />
 		<multi-selection value="false" />
 		<cellmap value="true">
-			<row value="11011" />
+			<row value="01010" />
 			<row value="10001" />
 			<row value="10001" />
 			<row value="10001" />
-			<row value="11011" />
+			<row value="01010" />
 		</cellmap>
 		<levels/>
 		<fields>

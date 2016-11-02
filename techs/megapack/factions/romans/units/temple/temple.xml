@@ -13,10 +13,10 @@
 		<max-unit-count value="3"/>
 		<cellmap value="true">
 			<row value="000000"/>
+			<row value="001100"/>
 			<row value="011110"/>
 			<row value="011110"/>
-			<row value="011110"/>
-			<row value="011110"/>
+			<row value="001100"/>
 			<row value="000000"/>
 		 </cellmap>
 		<levels/>

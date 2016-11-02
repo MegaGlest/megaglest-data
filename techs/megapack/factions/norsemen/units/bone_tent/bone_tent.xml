@@ -12,7 +12,7 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="1111" />
+			<row value="0110" />
 			<row value="1001" />
 			<row value="1001" />
 			<row value="1001" />

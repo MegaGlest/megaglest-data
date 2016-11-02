@@ -25,9 +25,9 @@
 		</unit-requirements>
 		<upgrade-requirements />
 		<resource-requirements>
-			<resource name="gold" amount="100"/>
-			<resource name="stone" amount="100"/>
-			<resource name="energy" amount="-14"/>
+			<resource name="gold" amount="115"/>
+			<resource name="stone" amount="115"/>
+			<resource name="energy" amount="-16"/>
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/energy_source.bmp"/>

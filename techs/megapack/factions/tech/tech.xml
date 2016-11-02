@@ -37,6 +37,7 @@
 			<unit name="barracks" minimum="1"/>
 			<unit name="farm" minimum="1"/>
 			<unit name="blacksmith" minimum="1"/>
+			<unit name="barracks" minimum="2"/>
 			<unit name="technodrome" minimum="1"/>
 		</building-units>
 		<upgrades>

@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="4" />
+		<size value="5" />
 		<height value="2" />
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
@@ -12,10 +12,11 @@
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="1011"/>
-			<row value="0000"/>
-			<row value="1011"/>
-			<row value="1011"/>
+			<row value="00000"/>
+			<row value="01010"/>
+			<row value="00000"/>
+			<row value="01010"/>
+			<row value="00000"/>
 		</cellmap>
 		<levels/>
 		<fields>
