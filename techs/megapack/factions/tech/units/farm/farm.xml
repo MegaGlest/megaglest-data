@@ -10,7 +10,8 @@
 		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="50" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<max-unit-count value="2"/>
 		<cellmap value="true">
 			<row value="1101" />

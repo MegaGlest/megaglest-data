@@ -9,8 +9,8 @@
 		<armor-type value="stone"/>
 		<sight value="15" />
 		<time value="300" />
-		<multi-selection value="false" />
-		<!--no uniform-selection, workers aren't considered as fighters-->
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="01010"/>
 			<row value="11011"/>
