@@ -42,7 +42,6 @@
 		</building-units>
 		<upgrades>
 			<upgrade name="piercing_weapons"/>
-			<upgrade name="training_field"/>
 			<upgrade name="blade_weapons"/>
 			<upgrade name="robotics"/>
 		</upgrades>

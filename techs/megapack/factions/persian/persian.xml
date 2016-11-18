@@ -42,10 +42,11 @@
 			<unit name="blacksmith" minimum="1"/>
 		</building-units>
 		<upgrades>
+			<upgrade name="corn_and_wicker"/>
 			<upgrade name="magic_level_1"/>
 		</upgrades>
 		<static-values>
-			<static type-name="MinWorkerAttackersHarvesting" value="45"/>
+			<static type-name="MinWorkerAttackersHarvesting" value="40"/>
 		</static-values>
 	</ai-behavior>
 </faction>

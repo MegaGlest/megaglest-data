@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="2" />
+		<size value="4" />
 		<height value="2" />
 		<max-hp value="1400" regeneration="0"/>
 		<max-ep value="0" />
@@ -10,7 +10,12 @@
 		<sight value="5" />
 		<time value="50" />
 		<multi-selection value="false" />
-		<cellmap value="false"/>
+		<cellmap value="true">
+			<row value="0000"/>
+			<row value="0110"/>
+			<row value="0110"/>
+			<row value="0000"/>
+		</cellmap>
 		<levels/>
 		<fields>
 			<field value="land" />

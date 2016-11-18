@@ -25,6 +25,7 @@
 		<unit-requirements>
 			<unit name="library"/>
 			<unit name="archmage_tower"/>
+			<unit name="energy_source"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
@@ -52,9 +53,7 @@
 			<sound path="$COMMONDATAPATH/sounds/archmage_ack7.wav"/>
 		</command-sounds>
 	</parameters>
-
 	<skills>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -64,7 +63,6 @@
 			<animation path="models/archmage_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
@@ -74,7 +72,6 @@
 			<animation path="models/archmage_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="ice_nova_skill"/>
@@ -118,7 +115,6 @@
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="static_fire_skill"/>
@@ -160,7 +156,6 @@
 				<particle value="true" path="fire_splash.xml"/>
 			</splash>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -174,13 +169,8 @@
 			</sound>
 			<fade value="true"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
-
 	<commands>
-
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -189,7 +179,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-
 		<command>
 			<type value="move"/>
 			<name value="move"/>
@@ -198,7 +187,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 		</command>
-
 		<command>
 			<type value="attack"/>
 			<name value="ice_nova"/>
@@ -208,7 +196,6 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="ice_nova_skill"/>
 		</command>
-
 		<command>
 			<type value="attack"/>
 			<name value="static_fire"/>
@@ -219,7 +206,6 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="static_fire_skill"/>
 		</command>
-
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
@@ -229,6 +215,5 @@
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="ice_nova_skill"/>
 		</command>
-
 	</commands>
 </unit>

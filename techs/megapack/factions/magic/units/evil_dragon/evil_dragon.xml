@@ -21,11 +21,9 @@
 		<properties/>
                 <light enabled="false" red="1.0" green="0.0" blue="0.0" alpha="1"/>
 		<unit-requirements>
-			<!--<unit name="archmage_tower"/>-->
+			<unit name="energy_source"/>
 		</unit-requirements>
-		<upgrade-requirements>
-
-		</upgrade-requirements>
+		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="gold" amount="100"/>
 			<resource name="stone" amount="200"/>
@@ -44,13 +42,8 @@
 			<sound path="sounds/evil_dragon_ack1.wav"/>
 			<sound path="sounds/evil_dragon_ack2.wav"/>
 		</command-sounds>
-
 	</parameters>
-
-	<!-- *** skills *** -->
-
 	<skills>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -63,7 +56,6 @@
 			</particles>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
@@ -78,7 +70,6 @@
 			<sound-file path="sounds/evil_dragon_fly.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
@@ -119,7 +110,6 @@
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -133,11 +123,8 @@
 			</sound>
 			<fade value="true"/>
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -146,7 +133,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-
 		<command>
 			<type value="move"/>
 			<name value="move"/>
@@ -155,7 +141,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 		</command>
-
                 <command>
 			<type value="attack"/>
 			<name value="breath"/>
@@ -165,7 +150,6 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-
 		<command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
@@ -175,6 +159,5 @@
 			<stop-skill value="stop_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-
 	</commands>
 </unit>

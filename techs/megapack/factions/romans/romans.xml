@@ -40,7 +40,7 @@
 		<upgrades>
 			<upgrade name="reinforce_armor"/>
 			<upgrade name="sharpen_points"/>
-			<upgrade name="training_field"/>
+			<upgrade name="bless_of_minerva"/>
 		</upgrades>
 		<static-values/>
 	</ai-behavior>

@@ -45,6 +45,7 @@
 			<upgrade name="spear_weapons"/>
 			<upgrade name="summon_scarab"/>
 			<upgrade name="summon_ibis"/>
+			<upgrade name="power_of_ra"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>

@@ -1,4 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
+
 <unit>
 	<parameters>
 		<size value="2" />
@@ -22,11 +23,9 @@
 		<light enabled="false" />
 		<unit-requirements>
 			<unit name="mage_tower"/>
-		<unit name="summoner"/>
+			<unit name="summoner_guild"/>
 		</unit-requirements>
-		<upgrade-requirements>
-			<upgrade name="hell_gate"/>
-		</upgrade-requirements>
+		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="wood" amount="200"/>
 		</resource-requirements>

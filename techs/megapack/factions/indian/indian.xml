@@ -38,7 +38,6 @@
 		</building-units>
 		<upgrades>
 			<upgrade name="iron"/>
-			<upgrade name="training_field"/>
 			<upgrade name="advanced_iron"/>
 		</upgrades>
 		<static-values/>

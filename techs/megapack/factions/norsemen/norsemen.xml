@@ -44,7 +44,7 @@
 		<upgrades>
 			<upgrade name="arrow"/>
 			<upgrade name="iron"/>
-			<upgrade name="mead"/>
+			<upgrade name="advanced_iron"/>
 		</upgrades>
 		<static-values/>
 	</ai-behavior>

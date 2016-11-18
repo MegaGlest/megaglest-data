@@ -22,7 +22,7 @@
 		<light enabled="false"/>
 		<unit-requirements>
 			<unit name="summoner"/>
-		<unit name="library"/>
+			<unit name="library"/>
 		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
@@ -60,11 +60,8 @@
 			<sound path="$COMMONDATAPATH/sounds/golem_ack10.wav"/>
 			<sound path="$COMMONDATAPATH/sounds/golem_ack11.wav"/>
 		</command-sounds>
-
 	</parameters>
-
 	<skills>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -74,7 +71,6 @@
 			<animation path="models/golem_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
@@ -86,9 +82,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/golem_walk1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/golem_walk2.wav"/>
 			</sound>
-
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
@@ -119,7 +113,7 @@
 				<particle value="true" path="particle_splash.xml"/>
 			</splash>
 		</skill>
-              		<skill>
+		<skill>
 			<type value="morph"/>
 			<name value="morph_skill"/>
 			<ep-cost value="0"/>
@@ -128,7 +122,6 @@
 			<animation path="models/golem_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -143,7 +136,6 @@
 			</sound>
                         <fade value="false"/>
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -154,13 +146,8 @@
 			<animation path="models/golem_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
-
 	<commands>
-
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -169,7 +156,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-
 		<command>
 			<type value="move"/>
 			<name value="move"/>
@@ -178,7 +164,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 		</command>
-
 		<command>
 			<type value="attack"/>
 			<name value="attack"/>
@@ -188,7 +173,6 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-
                 <command>
 			<type value="attack_stopped"/>
 			<name value="hold_position"/>
