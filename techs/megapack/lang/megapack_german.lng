@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=Uralte Beschwörung
 UpgradeTypeName_dragon_call=Drachenruf
 UpgradeTypeName_energy_compression=Energiebündelung
 UpgradeTypeName_energy_sharpening=Energieschärfung
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=Golemmächte
 UpgradeTypeName_hell_gate=Höllentor
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=Gilde der Beschwörer
 ; --------------------
 CommandName_produce_summoner=produziere Beschwörerin
 CommandName_research_ancient_summoning=Uralte Beschwörung erforschen
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=Turm der Seelen
 ; -------------------------------------

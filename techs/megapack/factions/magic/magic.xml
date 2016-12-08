@@ -42,7 +42,7 @@
 			<upgrade name="ancient_summoning"/>
 			<upgrade name="energy_sharpening"/>
 			<upgrade name="hell_gate"/>
-			<upgrade name="energy_compression"/>
+			<upgrade name="faster_movement"/>
 		</upgrades>
 		<static-values>
 			<static type-name="MinMinWarriorsExpandCpuUltra" value="9"/>

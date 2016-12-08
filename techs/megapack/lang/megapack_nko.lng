@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=ߞߊ߬ߞߘߐ߬_ߡߊ߰ߙߌ߬ߕߙߊ
 UpgradeTypeName_dragon_call=ߣߊ߲߬ߞߌ߲_ߞߟߌ߫
 UpgradeTypeName_energy_compression=ߜߟߐߡߌ߲_ߟߊߛߘߌ߬ߟߌ
 UpgradeTypeName_energy_sharpening=ߜߟߐߡߌ߲_ߖߛߐߟߌ
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=ߟߊߞߛߌ_ߛߋߕߌ߮
 UpgradeTypeName_hell_gate=ߡߍ߲ߜߏߦߊ߫_ߘߏ߲߬ߘߊ
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=ߕߋߙߌߦߊ_ߘߊߟߌߟߊ
 ; --------------------
 CommandName_produce_summoner=ߘߊߟߌߟߌߟߊ_ߟߊߥߟߏ߫
 CommandName_research_ancient_summoning=ߘߊߟߌߟߌߟߊ_ߟߊߥߟߏ߫
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=ߣߌ_ߟߎ߬_ߟߊ߫_ߓߏ߲ߖߊ߲
 ; -------------------------------------

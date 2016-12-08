@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=древний призыв
 UpgradeTypeName_dragon_call=вызвать дракона
 UpgradeTypeName_energy_compression=накопление энергии
 UpgradeTypeName_energy_sharpening=концентрация энергии
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=мощь голема
 UpgradeTypeName_hell_gate=врата ада
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=гильдия суммонеров
 ; --------------------
 CommandName_produce_summoner=обучить суммонера
 CommandName_research_ancient_summoning=изучить древний призыв
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=башня душ
 ; -------------------------------------

@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=κλήτευση αρχαίων
 UpgradeTypeName_dragon_call=πρόσκληση δράκου
 UpgradeTypeName_energy_compression=συμπίεση ενέργειας
 UpgradeTypeName_energy_sharpening=ενεργειακή όξυνση
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=Golem δύναμη
 UpgradeTypeName_hell_gate=πύλη κόλασης
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=κλήτευση τάγματος
 ; --------------------
 CommandName_produce_summoner=παραγωγή κλήτευσης
 CommandName_research_ancient_summoning=έρευνα κλήτευσης
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=πύργος ψυχών
 ; -------------------------------------

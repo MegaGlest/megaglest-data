@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=starodavno pozivanje
 UpgradeTypeName_dragon_call=klic zmajev
 UpgradeTypeName_energy_compression=zgoščevanje energije
 UpgradeTypeName_energy_sharpening=izostrovanje energije
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=sila golema
 UpgradeTypeName_hell_gate=vrata pekla
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=ceh pozivalcev
 ; --------------------
 CommandName_produce_summoner=naredi pozivalko
 CommandName_research_ancient_summoning=razišči starodavno pozivanje
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=stolp duš
 ; -------------------------------------

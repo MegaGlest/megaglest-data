@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=זימון_עתיק
 UpgradeTypeName_dragon_call=קרא_לדרקון
 UpgradeTypeName_energy_compression=דוחס_אנרגיה
 UpgradeTypeName_energy_sharpening=אנרגיה_מושחזת
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=גולם_מחוזק
 UpgradeTypeName_hell_gate=שער_גהנום
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=מדריך_המזמנות
 ; --------------------
 CommandName_produce_summoner=מייצר_מזמנת
 CommandName_research_ancient_summoning=חקור_זימון_עתיק
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=צריח_הנשמות
 ; -------------------------------------

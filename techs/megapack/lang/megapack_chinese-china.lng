@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=古老召唤
 UpgradeTypeName_dragon_call=召唤神龙
 UpgradeTypeName_energy_compression=能源压缩
 UpgradeTypeName_energy_sharpening=能源激化
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=石魔能量
 UpgradeTypeName_hell_gate=地狱之门
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=召唤师协会
 ; --------------------
 CommandName_produce_summoner=生产召唤师
 CommandName_research_ancient_summoning=研究古老召唤
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=聚魂塔
 ; -------------------------------------

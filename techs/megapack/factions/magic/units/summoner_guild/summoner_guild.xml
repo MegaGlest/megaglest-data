@@ -118,5 +118,18 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="ancient_summoning"/>
 		</command>
+		<command>
+			<type value="upgrade"/>
+			<name value="speed_up_movement" />
+			<image path="../../upgrades/faster_movement/images/faster_movement.bmp" />
+			<unit-requirements>
+				<unit name="summoner"/>
+			</unit-requirements>
+			<upgrade-requirements>
+				<upgrade name="hell_gate"/>
+			</upgrade-requirements>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="faster_movement"/>
+		</command>
 	</commands>
 </unit>

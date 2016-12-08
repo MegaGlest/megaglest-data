@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="2"/>
+		<size value="4"/>
 		<height value="8" />
 		<burn-height value="11" />
 		<target-height value="13" />
@@ -12,7 +12,12 @@
 		<sight value="15" />
 		<time value="250" />
 		<multi-selection value="false" />
-		<cellmap value="false"/>
+		<cellmap value="true">
+			<row value="0000"/>
+			<row value="0110"/>
+			<row value="0110"/>
+			<row value="0000"/>
+		</cellmap>
 		<levels/>
 		<fields>
 			<field value="land" />

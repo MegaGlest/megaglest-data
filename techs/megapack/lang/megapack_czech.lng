@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=starověká přivolávačka
 UpgradeTypeName_dragon_call=volání draka
 UpgradeTypeName_energy_compression=zhuštění energie
 UpgradeTypeName_energy_sharpening=vyostření energie
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=síla golema
 UpgradeTypeName_hell_gate=pekelná brána
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=cech přivolávaček
 ; --------------------
 CommandName_produce_summoner=produkovat přivolávačku
 CommandName_research_ancient_summoning=vývoj starověké přivolávačky
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=věž duší
 ; -------------------------------------

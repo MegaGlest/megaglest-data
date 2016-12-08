@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=invocación antigua
 UpgradeTypeName_dragon_call=llamada del dragón
 UpgradeTypeName_energy_compression=energía compresora
 UpgradeTypeName_energy_sharpening=energía agudizada
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=gólem poderoso
 UpgradeTypeName_hell_gate=puerta infernal
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=hermandad de invocadores
 ; --------------------
 CommandName_produce_summoner=producir invocadora
 CommandName_research_ancient_summoning=investigar invocación antigua
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=torre de almas
 ; -------------------------------------

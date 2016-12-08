@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=qadimgi chaqiruvchi
 UpgradeTypeName_dragon_call=ajdarni chaqirish
 UpgradeTypeName_energy_compression=quvvatni saqlash
 UpgradeTypeName_energy_sharpening=energiya to‘plash
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=golem quvvati
 UpgradeTypeName_hell_gate=do‘zax darvozasi
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=summonerlar gildiyasi
 ; --------------------
 CommandName_produce_summoner=summoner ishlab chiqish
 CommandName_research_ancient_summoning=qadimgi chaqiriqni o‘rganish
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=jon minorasi
 ; -------------------------------------

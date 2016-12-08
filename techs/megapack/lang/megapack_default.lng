@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=ancient summoning
 UpgradeTypeName_dragon_call=dragon call
 UpgradeTypeName_energy_compression=energy compression
 UpgradeTypeName_energy_sharpening=energy sharpening
+UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=golem power
 UpgradeTypeName_hell_gate=hell gate
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=summoner guild
 ; --------------------
 CommandName_produce_summoner=produce summoner
 CommandName_research_ancient_summoning=research ancient summoning
+CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=tower of souls
 ; -------------------------------------

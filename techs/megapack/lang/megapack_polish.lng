@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=starożytne przywoływanie ('Ancient summoning
 UpgradeTypeName_dragon_call=przywoływanie smoka ('Dragon call')
 UpgradeTypeName_energy_compression=skondensowana energia ('Condensed energy')
 UpgradeTypeName_energy_sharpening=gwałtowna magia ('Sharp magic')
+UpgradeTypeName_faster_movement=szybsze przemieszczanie ('Faster movement')
 UpgradeTypeName_golem_power=potężny golem ('Power golem')
 UpgradeTypeName_hell_gate=wrota piekła ('Hell gate')
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=gildia przywoływaczek\n('Summoners' guild')
 ; --------------------
 CommandName_produce_summoner=produkcja przywoływaczki\n('Produce summoner')
 CommandName_research_ancient_summoning=odkrycie staroż. przywoływania\n('Research ancient summoning')
+CommandName_speed_up_movement=przyspieszenie ruchu\n('Speed up movement')
 ; -------------------------------------
 UnitTypeName_tower_of_souls=wieża dusz\n('Tower of souls')
 ; -------------------------------------

@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=invocare antică
 UpgradeTypeName_dragon_call=apel dragon
 UpgradeTypeName_energy_compression=compresie energie
 UpgradeTypeName_energy_sharpening=ascuțire energie
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=putere golem
 UpgradeTypeName_hell_gate=poartă infern
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=breaslă invocator
 ; --------------------
 CommandName_produce_summoner=produ invocator
 CommandName_research_ancient_summoning=studiează invocare antică
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=turnul sufletelor
 ; -------------------------------------

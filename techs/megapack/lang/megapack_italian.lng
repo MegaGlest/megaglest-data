@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=antico evocatore
 UpgradeTypeName_dragon_call=chiamata del drago
 UpgradeTypeName_energy_compression=compressione dell'energia
 UpgradeTypeName_energy_sharpening=affinare l'energia
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=potere del golem
 UpgradeTypeName_hell_gate=cancello dell'inferno
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=evocatore della gilda
 ; --------------------
 CommandName_produce_summoner=produci evocatore
 CommandName_research_ancient_summoning=ricerca antica ecocazione
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=torre delle anime
 ; -------------------------------------

@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=Old hidkadelse
 UpgradeTypeName_dragon_call=Drage kald
 UpgradeTypeName_energy_compression=Energi komprimering
 UpgradeTypeName_energy_sharpening=Energi skærpelse
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=Golem kræfter
 UpgradeTypeName_hell_gate=helvedsport
 ; -------------------------------------
@@ -284,6 +285,7 @@ CommandName_summon_dragon=Hidkald drage
 ; --------------------
 CommandName_produce_summoner=Træn hidkalder
 CommandName_research_ancient_summoning=Old-hidkaldelses forskning
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=Sjæle tårnet
 ; -------------------------------------

@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=taghairm àrsaidh
 UpgradeTypeName_dragon_call=gairm dràgoin
 UpgradeTypeName_energy_compression=teannachadh lùiths
 UpgradeTypeName_energy_sharpening=geurachadh lùiths
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=cumhachd gòileim
 UpgradeTypeName_hell_gate=doras ifrinne
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=comann nan taghairmearan
 ; --------------------
 CommandName_produce_summoner=dèan taghairmear
 CommandName_research_ancient_summoning=rannsaich taghairm àrsaidh
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=tùr nan anman
 ; -------------------------------------

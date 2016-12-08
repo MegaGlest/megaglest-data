@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=oudheidkundig ontbieden
 UpgradeTypeName_dragon_call=drakenroep
 UpgradeTypeName_energy_compression=energie compensatie
 UpgradeTypeName_energy_sharpening=energie bundelen
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=golem kracht
 UpgradeTypeName_hell_gate=hellepoort
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=ontbieder gilde
 ; --------------------
 CommandName_produce_summoner=produceer ontbieder
 CommandName_research_ancient_summoning=onderzoek oudheidkundig ontbieden
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=toren van zielen
 ; -------------------------------------

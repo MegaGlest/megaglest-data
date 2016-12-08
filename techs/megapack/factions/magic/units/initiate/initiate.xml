@@ -47,9 +47,7 @@
 			<sound path="sounds/initiate_ack9.wav"/>
 		</command-sounds>
 	</parameters>
-
 	<skills>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -59,7 +57,6 @@
 			<animation path="models/initiate_standing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_loaded_skill"/>
@@ -69,7 +66,6 @@
 			<animation path="models/initiate_standing_loaded.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_loaded_wood_skill"/>
@@ -79,7 +75,6 @@
 			<animation path="models/initiate_standing_loaded_wood.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>
@@ -89,7 +84,24 @@
 			<animation path="models/initiate_walking.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
+		<skill>
+			<type value="move"/>
+			<name value="move_wood_skill"/>
+			<ep-cost value="0"/>
+			<speed value="165"/>
+			<anim-speed value="130"/>
+			<animation path="models/initiate_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+		<skill>
+			<type value="move"/>
+			<name value="move_gold_skill"/>
+			<ep-cost value="0"/>
+			<speed value="165"/>
+			<anim-speed value="130"/>
+			<animation path="models/initiate_walking.g3d"/>
+			<sound enabled="false"/>
+		</skill>
 		<skill>
 			<type value="move"/>
 			<name value="move_loaded_skill"/>
@@ -99,7 +111,6 @@
 			<animation path="models/initiate_walking_loaded.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="move"/>
 			<name value="move_loaded_wood_skill"/>
@@ -109,7 +120,6 @@
 			<animation path="models/initiate_walking_loaded_wood.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="build"/>
 			<name value="build_skill"/>
@@ -123,7 +133,6 @@
 				<sound-file path="sounds/initiate_build3.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="repair"/>
 			<name value="repair_skill"/>
@@ -137,7 +146,6 @@
 				<sound-file path="sounds/initiate_build3.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="harvest"/>
 			<name value="harvest_skill"/>
@@ -152,7 +160,6 @@
 				<sound-file path="sounds/initiate_harvest4.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="morph"/>
 			<name value="morph_skill"/>
@@ -162,7 +169,6 @@
 			<animation path="models/initiate_morphing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="attack"/>
 			<name value="attack_skill"/>
@@ -199,7 +205,6 @@
 			</projectile>
 			<splash value="false"/>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -214,11 +219,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value="stop"/>
 			<name value="stop"/>
@@ -227,7 +229,6 @@
 			<upgrade-requirements/>
 			<stop-skill value="stop_skill"/>
 		</command>
-
 		<command>
 			<type value= "move"/>
 			<name value="move"/>
@@ -236,7 +237,6 @@
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 		</command>
-
 		<command>
 			<type value="attack"/>
 			<name value="attack"/>
@@ -246,7 +246,6 @@
 			<move-skill value="move_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-
 		<command>
 			<type value="repair"/>
 			<name value="repair"/>
@@ -267,7 +266,6 @@
 				<unit name="power_golem"/>
 			</repaired-units>
 		</command>
-
 		<command>
 			<type value="build"/>
 			<name value="build"/>
@@ -287,14 +285,11 @@
 				<sound-file path="sounds/initiate_work_start1.wav"/>
 				<sound-file path="sounds/initiate_work_start2.wav"/>
 			</start-sound>
-
 			<built-sound enabled="true">
 				<sound-file path="sounds/initiate_work_end1.wav"/>
 				<sound-file path="sounds/initiate_work_end2.wav"/>
 			</built-sound>
-
 		</command>
-
 		<command>
 			<type value="build"/>
 			<name value="ritual"/>
@@ -312,21 +307,18 @@
 				<sound-file path="sounds/initiate_work_start1.wav"/>
 				<sound-file path="sounds/initiate_work_start2.wav"/>
 			</start-sound>
-
 			<built-sound enabled="true">
 				<sound-file path="sounds/initiate_work_end1.wav"/>
 				<sound-file path="sounds/initiate_work_end2.wav"/>
 			</built-sound>
-
 		</command>
-
 		<command>
 			<type value="harvest"/>
 			<name value="mine"/>
 			<image path="images/initiate_harvest.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
+			<move-skill value="move_gold_skill"/>
 			<harvest-skill value="harvest_skill"/>
 			<stop-loaded-skill value="stop_loaded_skill"/>
 			<move-loaded-skill value="move_loaded_skill"/>
@@ -337,14 +329,13 @@
 			<max-load value="20"/>
 			<hits-per-unit value="1"/>
 		</command>
-
 		<command>
 			<type value="harvest"/>
 			<name value="harvest"/>
 			<image path="images/initiate_harvest_wood.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
+			<move-skill value="move_wood_skill"/>
 			<harvest-skill value="harvest_skill"/>
 			<stop-loaded-skill value="stop_loaded_wood_skill"/>
 			<move-loaded-skill value="move_loaded_wood_skill"/>
@@ -354,7 +345,6 @@
 			<max-load value="20"/>
 			<hits-per-unit value="1"/>
 		</command>
-
 		<command>
 			<type value="morph"/>
 			<name value="promote_to_battlemage"/>

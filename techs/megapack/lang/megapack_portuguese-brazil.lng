@@ -214,6 +214,7 @@ UpgradeTypeName_ancient_summoning=Magia Antiga
 UpgradeTypeName_dragon_call=chamada do dragão
 UpgradeTypeName_energy_compression=energía nível 3
 UpgradeTypeName_energy_sharpening=energía nível 2
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=gólem nivel 2
 UpgradeTypeName_hell_gate=portal infernal
 ; -------------------------------------
@@ -284,6 +285,7 @@ UnitTypeName_summoner_guild=Irmandade das Bruxas
 ; --------------------
 CommandName_produce_summoner=Produzir bruxa
 CommandName_research_ancient_summoning=procurar Magia Antiga
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
 UnitTypeName_tower_of_souls=Torre das almas
 ; -------------------------------------
