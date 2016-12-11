@@ -24,12 +24,12 @@
 		</worker-units>
 		<warrior-units>
 			<unit name="spearthrower" minimum="2"/>
-			<unit name="chicken" minimum="5"/>
+			<unit name="chicken" minimum="6"/>
 			<unit name="spearman" minimum="1"/>
 			<unit name="priest" minimum="1"/>
 			<unit name="mummy" minimum="1"/>
 			<unit name="snake" minimum="3"/>
-			<unit name="chicken" minimum="15"/>
+			<unit name="chicken" minimum="16"/>
 		</warrior-units>
 		<resource-producer-units>
 			<unit name="farm" minimum="1"/>

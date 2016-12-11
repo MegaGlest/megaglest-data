@@ -24,7 +24,7 @@
 		<warrior-units>
 			<unit name="archer" minimum="3"/>
 			<unit name="cow" minimum="2"/>
-			<unit name="spearman" minimum="5"/>
+			<unit name="spearman" minimum="3"/>
 			<unit name="cow" minimum="4"/>
 		</warrior-units>
 		<resource-producer-units>

@@ -17,14 +17,8 @@
 	<music value="true" path="music/music_indian.ogg"/>
 	<flat-particle-positions value="true"/>
 	<ai-behavior>
-		<worker-units>
-			<unit name="worker" minimum="8"/>
-		</worker-units>
-		<warrior-units>
-			<unit name="archer" minimum="2"/>
-			<unit name="stickfighter" minimum="4"/>
-			<unit name="spearman" minimum="2"/>
-		</warrior-units>
+		<worker-units/>
+		<warrior-units/>
 		<resource-producer-units>
 			<unit name="tent" minimum="1"/>
 			<unit name="big_tent" minimum="15"/>
@@ -38,7 +32,6 @@
 		</building-units>
 		<upgrades>
 			<upgrade name="iron"/>
-			<upgrade name="advanced_iron"/>
 		</upgrades>
 		<static-values/>
 	</ai-behavior>

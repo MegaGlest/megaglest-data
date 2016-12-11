@@ -1,8 +1,9 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
 	<parameters>
-		<size value="4" />
+		<size value="3" />
 		<height value="2" />
+		<ai-build-size value="5"/>
 		<max-hp value="4000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
@@ -11,12 +12,7 @@
 		<time value="50" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
-		<cellmap value="true">
-			<row value="0110" />
-			<row value="1110" />
-			<row value="1110" />
-			<row value="0110" />
-		</cellmap>
+		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land" />

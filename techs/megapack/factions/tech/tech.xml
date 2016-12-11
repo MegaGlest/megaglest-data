@@ -22,11 +22,7 @@
 			<unit name="worker" minimum="8"/>
 		</worker-units>
 		<warrior-units>
-			<unit name="archer" minimum="3"/>
-			<unit name="cow" minimum="2"/>
-			<unit name="swordman" minimum="3"/>
-			<unit name="guard" minimum="1"/>
-			<unit name="technician" minimum="1"/>
+			<unit name="archer" minimum="2"/>
 			<unit name="cow" minimum="5"/>
 		</warrior-units>
 		<resource-producer-units>

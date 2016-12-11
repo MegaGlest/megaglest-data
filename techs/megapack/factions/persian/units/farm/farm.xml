@@ -11,7 +11,7 @@
 		<time value="50" />
 		<multi-selection value="true"/>
 		<uniform-selection value="true"/>
-		<max-unit-count value="3"/>
+		<max-unit-count value="5"/>
 		<cellmap value="true">
 			<row value="1101" />
 			<row value="0000" />

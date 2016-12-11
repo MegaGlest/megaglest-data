@@ -3,6 +3,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="1"/>
+		<ai-build-size value="6"/>
 		<max-hp value="7000" regeneration="0"/>
 		<max-ep value="0" regeneration="0"/>
 		<armor value="20"/>

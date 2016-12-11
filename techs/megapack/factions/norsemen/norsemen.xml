@@ -18,34 +18,4 @@
 	</starting-units>
 	<music value="true" path="music/manolo_camp-medieval.ogg"/>
 	<flat-particle-positions value="true"/>
-	<ai-behavior>
-		<worker-units>
-			<unit name="thrall" minimum="8"/>
-		</worker-units>
-		<warrior-units>
-			<unit name="archer" minimum="4"/>
-			<unit name="cow" minimum="2"/>
-			<unit name="cudgel_lady" minimum="1"/>
-			<unit name="axe_thrower" minimum="1"/>
-			<unit name="spearman" minimum="2"/>
-			<unit name="cow" minimum="4"/>
-		</warrior-units>
-		<resource-producer-units>
-			<unit name="farm" minimum="1"/>
-			<unit name="cow" minimum="25"/>
-		</resource-producer-units>
-		<building-units>
-			<unit name="house" minimum="1"/>
-			<unit name="bone_tent" minimum="1"/>
-			<unit name="farm" minimum="1"/>
-			<unit name="mead_bar" minimum="1"/>
-			<unit name="blacksmith" minimum="1"/>
-		</building-units>
-		<upgrades>
-			<upgrade name="arrow"/>
-			<upgrade name="iron"/>
-			<upgrade name="advanced_iron"/>
-		</upgrades>
-		<static-values/>
-	</ai-behavior>
 </faction>
