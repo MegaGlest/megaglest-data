@@ -505,10 +505,12 @@ TechTitle2=Fraksiyalar
 Textures3D=3D teksturalar:
 Tileset=Joylashuv
 TilesetTitle1=Joylashuvlar
+# Time=Time
 TimeDisplay=Haqiqiy va o‘yin vaqtini ko‘rsatish
 TimeoutWaitingForClients=Mijozlarni kutish vaqti o‘tib ketdi.
 TimeoutWaitingForServer=Serverni kutish vaqti o‘tib ketdi.
 TimeoutWaitingForMessage=Xabarni kutish vaqti o‘tib ketdi.
+# TimeSteps=Time steps
 Tip=Maslahat
 ToSwitchOffMusicPress=Musiqani o‘chirish uchun o‘yinchilarning bosishi kutilmoqda
 

@@ -505,10 +505,12 @@ TechTitle2=Races
 Textures3D=Textures 3D:
 Tileset=Type de sol
 TilesetTitle1=Types de sol
+# Time=Time
 TimeDisplay=Afficher le temps réel et le temps de jeu
 TimeoutWaitingForClients=Coupure pendant l'attente des clients.
 TimeoutWaitingForServer=Coupure pendant l'attente du serveur.
 TimeoutWaitingForMessage=Coupure pendant l'attente d'un message.
+# TimeSteps=Time steps
 Tip=Truc
 ToSwitchOffMusicPress=Pour couper la musique en attendant, appuyer sur
 

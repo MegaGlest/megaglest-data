@@ -505,10 +505,12 @@ TechTitle2=種族
 Textures3D=3D 架構
 Tileset=場景
 TilesetTitle1=場景
+# Time=Time
 TimeDisplay=顯示實際時間和遊戲時間
 TimeoutWaitingForClients=等待用戶端逾時
 TimeoutWaitingForServer=等待伺服器逾時
 TimeoutWaitingForMessage=等待訊息逾時
+# TimeSteps=Time steps
 Tip=意見
 ToSwitchOffMusicPress=關閉音響按
 

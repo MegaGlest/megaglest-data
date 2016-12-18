@@ -505,10 +505,12 @@ TechTitle2=Frakcije
 Textures3D=3D teksture:
 Tileset=Okolje
 TilesetTitle1=Okolja
+# Time=Time
 TimeDisplay=Pokaži pravi in igralni čas
 TimeoutWaitingForClients=Pavza, čakam ostale igralce.
 TimeoutWaitingForServer=Pavza, čakam strežnik.
 TimeoutWaitingForMessage=Pavza, čakam sporočila.
+# TimeSteps=Time steps
 Tip=Nasvet
 ToSwitchOffMusicPress=Za zapiranje glasbe med čakanjem igralcev pritisni
 

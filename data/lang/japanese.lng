@@ -505,10 +505,12 @@ TechTitle2=勢力
 Textures3D=3Dテクスチャ:
 Tileset=タイルセット
 TilesetTitle1=タイルセット
+# Time=Time
 TimeDisplay=リアルおよびゲーム内の時間の表示
 TimeoutWaitingForClients=クライエント待機時間切れ.
 TimeoutWaitingForServer=サーバー待機時間切れ.
 TimeoutWaitingForMessage=メッセージ待機時間切れ.
+# TimeSteps=Time steps
 Tip=説明
 ToSwitchOffMusicPress=プレイヤーを待っている間音楽を消す場合は押してください
 

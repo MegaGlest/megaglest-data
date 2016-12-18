@@ -505,10 +505,12 @@ TechTitle2=Factions
 Textures3D=3D Textures:
 Tileset=Tileset
 TilesetTitle1=Tilesets
+Time=Time
 TimeDisplay=Display real and game time:
 TimeoutWaitingForClients=Timeout waiting for clients.
 TimeoutWaitingForServer=Timeout waiting for server.
 TimeoutWaitingForMessage=Timeout waiting for message.
+TimeSteps=Time steps
 Tip=Tip
 ToSwitchOffMusicPress=To switch off music while waiting for players press
 

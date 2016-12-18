@@ -505,10 +505,12 @@ TechTitle2=Fazioni
 Textures3D=Texture 3D:
 Tileset=Tileset
 TilesetTitle1=Tileset
+# Time=Time
 TimeDisplay=Mostra tempi di gioco e reale
 TimeoutWaitingForClients=Pausa, aspetta altri giocatori.
 TimeoutWaitingForServer=Pausa, aspetta il server.
 TimeoutWaitingForMessage=Pausa, aspetta messaggi.
+# TimeSteps=Time steps
 Tip=Suggerimento
 ToSwitchOffMusicPress=Per fermare la musica mentre aspetti i giocatori premi
 

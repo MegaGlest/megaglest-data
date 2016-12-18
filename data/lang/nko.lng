@@ -505,10 +505,12 @@ TechTitle2=ߛߌߦߊ ߟߎ߬
 Textures3D=ߘ߃ ߢߊߞߎ߲ߓߊ ߟߎ߬:
 Tileset=ߘߎ߰ߞߟߏ
 TilesetTitle1=ߘߎ߰ߞߟߏ ߟߎ߬
+# Time=Time
 TimeDisplay=ߕߏߟߏ߲ ߕߎ߬ߡߊ ߣߌ߫ ߕߎ߬ߡߊ ߖߍ߬ߘߍߖߍ߬ߘߍ ߟߊߟߐ߲߫
 TimeoutWaitingForClients=ߊ߬ ߓߘߊ߫ ߕߍ߰ ߞߊ߬ ߕߣߐ߬ߓߐ߬ߟߊ ߡߊߞߐ߬ߣߐ߲ ߕߏ߫ ߌߘߐ߫.
 TimeoutWaitingForServer=ߊ߬ ߓߘߊ߫ ߕߍ߰ ߞߊ߬ ߛߐߘߊ ߡߊߞߐ߬ߣߐ߲ ߕߏ߫ ߌߘߐ߫.
 TimeoutWaitingForMessage=ߊ߬ ߓߘߊ߫ ߕߍ߰ ߞߊ߬ ߞߋߛߓߍ ߡߊߞߐ߬ߣߐ߲ ߕߏ߫ ߌߘߐ߫.
+# TimeSteps=Time steps
 Tip=ߝߌ߲ߞߍ߬
 ToSwitchOffMusicPress=ߣߴߌ ߦߴߊ߬ ߝߍ߬ ߞߊ߬ ߘߏ߲߬ߞߟߌ ߕߍ߰ ߏ ߛߊ߲߭߸ ߦߋ߫ ߣߌ߲߬ ߘߌ߯
 

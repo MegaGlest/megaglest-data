@@ -54,10 +54,9 @@
 			givePositionCommand(lastCreatedUnit(), 'attack', startLocation(2))
 
 			--objectives
-			objective='destroy_west_village'
+			objective='destroy_south_west_village'
 			showMessage('Brief1', 'Storming')
-			setDisplayText('ObjectiveWest')
-
+			setDisplayText('ObjectiveSouthWest')
 		</startup>
 
 		<unitCreated>
@@ -175,7 +174,6 @@
 				setPlayerAsWinner(1)
 				endGame()
 			end
-
 		</unitDied>
 	</scripts>
 </scenario>

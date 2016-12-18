@@ -505,10 +505,12 @@ TechTitle2=Frakce
 Textures3D=3D textury:
 Tileset=Prostředí
 TilesetTitle1=Prostředí
+# Time=Time
 TimeDisplay=Zobrazit reálný a herní čas
 TimeoutWaitingForClients=Čekání na klienty kvůli vypršení času.
 TimeoutWaitingForServer=Čekání na server kvůli vypršení času.
 TimeoutWaitingForMessage=Čekání na zprávu kvůli vypršení času.
+# TimeSteps=Time steps
 Tip=Tip
 ToSwitchOffMusicPress=Pro vypnutí hudby během čekání na hráče stiskněte
 

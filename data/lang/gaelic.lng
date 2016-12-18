@@ -505,10 +505,12 @@ TechTitle2=Buidhn.
 Textures3D=Innich 3D:
 Tileset=Buidheann leacagan
 TilesetTitle1=Buidhnean leacagan
+# Time=Time
 TimeDisplay=Seall fìor-ùine is ùine a' gheama
 TimeoutWaitingForClients=Dh'fhalbh an ùine a' feitheamh air na cliantan.
 TimeoutWaitingForServer=Dh'fhalbh an ùine a' feitheamh air an fhrithealaiche.
 TimeoutWaitingForMessage=Dh'fhalbh an ùine a' feitheamh air teachdaireachd.
+# TimeSteps=Time steps
 Tip=Gliocas
 ToSwitchOffMusicPress=Gus an ceòl a chur dheth fhad 's a bhios tu a' feitheamh ri cluicheadairean, brùth air
 

@@ -505,10 +505,12 @@ TechTitle2=种族
 Textures3D=3D 结构
 Tileset=地图样式
 TilesetTitle1=地图样式
+# Time=Time
 TimeDisplay=显示现实时间和游戏时间
 TimeoutWaitingForClients=等待客户端超时。
 TimeoutWaitingForServer=等待服务器超时。
 TimeoutWaitingForMessage=等待消息超时。
+# TimeSteps=Time steps
 Tip=提示
 ToSwitchOffMusicPress=关闭声音按
 

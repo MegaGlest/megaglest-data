@@ -505,10 +505,12 @@ TechTitle2=فصائل
 Textures3D=ملامس ثلاثية الأبعاد:
 Tileset=نوع الأرضية
 TilesetTitle1=أرضيات
+# Time=Time
 TimeDisplay=عرض الوقت الحقيقي واللعبة
 TimeoutWaitingForClients=انتهت مهلة انتضار الزبائن.
 TimeoutWaitingForServer=انتهت مهلة انتظار الخادم.
 TimeoutWaitingForMessage=انتهت مهلة انتظار الرسالة.
+# TimeSteps=Time steps
 Tip=نصيحة
 ToSwitchOffMusicPress=لإيقاف الموسيقى في حين انتظار اللاعبين اضغط على
 

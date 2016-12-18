@@ -505,10 +505,12 @@ TechTitle2=Grupet
 Textures3D=3D Pëlhurat:
 Tileset=Kutizat
 TilesetTitle1=Kutizat
+# Time=Time
 TimeDisplay=Shfaq kohen e vërtet dhe kohën e lojës
 TimeoutWaitingForClients=Shkëputje duke pritur per lojtare.
 TimeoutWaitingForServer=Shkëputje duke pritur serverin.
 TimeoutWaitingForMessage=Shkëputje duke pritur mesazhin.
+# TimeSteps=Time steps
 Tip=Keshille
 ToSwitchOffMusicPress=Për të e ndaluar muzikën shtypni në tastierë
 

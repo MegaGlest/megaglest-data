@@ -505,10 +505,12 @@ TechTitle2=Φυλές
 Textures3D=3D Υφές:
 Tileset=Tileset
 TilesetTitle1=Tilesets
+# Time=Time
 TimeDisplay=Προβολή αληθινού χρόνου και χρόνου παιχνιδιού
 TimeoutWaitingForClients=Χρονικό όριο αναμονής για πελάτες.
 TimeoutWaitingForServer=Χρονικό όριο αναμονής για διακομιστή.
 TimeoutWaitingForMessage=Χρονικό όριο αναμονής για μήνυμα.
+# TimeSteps=Time steps
 Tip=Συμβουλή
 ToSwitchOffMusicPress=Για να κλείσετε την μουσική όσο περιμένετε για παίκτες πατήστε το κουμπί
 

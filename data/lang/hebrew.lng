@@ -505,10 +505,12 @@ TechTitle2=גזעים
 Textures3D=מרקם תלת מימדי
 Tileset=סביבה
 TilesetTitle1=סביבות
+# Time=Time
 TimeDisplay=השבת זמן אמיתי וזמן משחק
 TimeoutWaitingForClients=זמן המתנה מרבי ללקוח.
 TimeoutWaitingForServer=זמן המתנה מירבי לשרת.
 TimeoutWaitingForMessage=זמן המתנה מירבי להודעה.
+# TimeSteps=Time steps
 Tip=טיפ
 ToSwitchOffMusicPress=להפסקת המוזיקה בזמן המתנה לשחקנים לחץ
 

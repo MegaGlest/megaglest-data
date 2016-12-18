@@ -505,10 +505,12 @@ TechTitle2=Phe
 Textures3D=Họa tiết 3 chiều:
 Tileset=Tileset
 TilesetTitle1=Tilesets
+# Time=Time
 TimeDisplay=Hiển thị thời gian thực
 TimeoutWaitingForClients=Thời gian tối đa cho việc chờ kết nối từ client.
 TimeoutWaitingForServer=Thời gian chờ tối đa từ máy chủ.
 TimeoutWaitingForMessage=Thời gian chờ tối đa thông báo.
+# TimeSteps=Time steps
 Tip=Gợi ý
 ToSwitchOffMusicPress=Chuyển đổi phần tắt nhạc nền trong khi chờ người chơi vào
 

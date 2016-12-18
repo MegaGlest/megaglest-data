@@ -505,10 +505,12 @@ TechTitle2=Stämme
 Textures3D=3D-Texturen:
 Tileset=Umgebung
 TilesetTitle1=Umgebungen
+# Time=Time
 TimeDisplay=Uhrzeiten im Spiel anzeigen
 TimeoutWaitingForClients=Timeout erreicht beim Warten auf Clients
 TimeoutWaitingForServer=Timeout erreicht beim Warten auf den Server
 TimeoutWaitingForMessage=Timeout erreicht beim Warten auf Nachricht
+# TimeSteps=Time steps
 Tip=Tipp
 ToSwitchOffMusicPress=Um während des Wartens auf Spieler die Musik auszuschalten, drücke
 

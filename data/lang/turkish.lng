@@ -505,10 +505,12 @@ TechTitle2=Gruplar
 Textures3D=3B Kaplama:
 Tileset=Döşeme
 TilesetTitle1=Döşemeler
+# Time=Time
 TimeDisplay=Gerçek zamanı ve oyun zamanını görüntüleme
 TimeoutWaitingForClients=İstemciler için beklenirken zaman aşımına uğradı.
 TimeoutWaitingForServer=Sunucu için beklenirken zaman aşımı uğradı.
 TimeoutWaitingForMessage=İleti için beklenirken zaman aşımına uğradı.
+# TimeSteps=Time steps
 # Tip=Tip
 # ToSwitchOffMusicPress=To switch off music while waiting for players press
 

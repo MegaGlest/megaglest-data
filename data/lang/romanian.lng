@@ -505,10 +505,12 @@ TechTitle2=Facțiuni
 Textures3D=Texturi 3D:
 Tileset=Tileset
 TilesetTitle1=Tileset-uri
+# Time=Time
 TimeDisplay=Afișează timpul real și cel de joc
 TimeoutWaitingForClients=A expirat așteptarea clienților.
 TimeoutWaitingForServer=A expirat așteptarea serverului.
 TimeoutWaitingForMessage=A expirat așteptarea mesajului.
+# TimeSteps=Time steps
 Tip=Indiciu
 ToSwitchOffMusicPress=Pentru a opri muzica pe timpul așteptării ca clienții să apese
 

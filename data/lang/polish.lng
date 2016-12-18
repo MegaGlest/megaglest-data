@@ -505,10 +505,12 @@ TechTitle2=Frakcji
 Textures3D=Tekstury 3D:
 Tileset=Zestaw graficzny
 TilesetTitle1=Zestawy graficzne
+Time=Czas
 TimeDisplay=Pokaż lokalną godzinę oraz czas gry (V):
 TimeoutWaitingForClients=Przekroczony limit czasu oczekiwania na klientów.
 TimeoutWaitingForServer=Przekroczony limit czasu oczekiwania na serwer.
 TimeoutWaitingForMessage=Przekroczony limit czasu oczekiwania na wiadomość.
+TimeSteps=Kroki czasowe
 Tip=Porada
 ToSwitchOffMusicPress=Aby wyłączyć muzykę podczas oczekiwania na graczy (tak samo się to robi w trakcie bitwy) naciśnij klawisz
 

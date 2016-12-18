@@ -505,10 +505,12 @@ TechTitle2=Groeperingen
 Textures3D=3D textures:
 Tileset=Tileset
 TilesetTitle1=Tilesets
+# Time=Time
 TimeDisplay=Weergave echte- en speeltijd
 TimeoutWaitingForClients=Verbinding verlopen tijdens wachten op spelers.
 TimeoutWaitingForServer=Verbinding verlopen tijdens wachten op server.
 TimeoutWaitingForMessage=Verbinding verlopen tijdens wachten op bericht.
+# TimeSteps=Time steps
 Tip=Tip
 ToSwitchOffMusicPress=Om muziek uit te schakelen gedurende wachten op spelers, druk op
 

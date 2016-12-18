@@ -505,10 +505,12 @@ TechTitle2=Faktioner
 Textures3D=3D Textures:
 Tileset=Tileset
 TilesetTitle1=Kortdekorationssæt
+# Time=Time
 TimeDisplay=Vis tid og spiltid
 TimeoutWaitingForClients=Tiden udløb mens der blev ventet på klienten.
 TimeoutWaitingForServer=Tiden udløb mens der blev ventet på serveren.
 TimeoutWaitingForMessage=Tiden udløb mens der blev ventet på besked.
+# TimeSteps=Time steps
 Tip=Tip
 ToSwitchOffMusicPress=For at slukke musik mens du venter tryk
 

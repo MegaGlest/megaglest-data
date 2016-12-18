@@ -505,10 +505,12 @@ TechTitle2=Расы
 Textures3D=3D текстуры:
 Tileset=Местность
 TilesetTitle1=Местности
+# Time=Time
 TimeDisplay=Показывать реальное и игровое время
 TimeoutWaitingForClients=Истёк срок ожидания клиентов.
 TimeoutWaitingForServer=Истёк срок ожидания сервера.
 TimeoutWaitingForMessage=Истёк срок ожидания сообщения.
+# TimeSteps=Time steps
 Tip=Подсказка
 ToSwitchOffMusicPress=Чтобы выключить музыку на время ожидания игроков нажмите
 
