@@ -236,7 +236,7 @@ UnitTypeName_behemoth=behemoth
 ; -------------------------------------
 UnitTypeName_daemon=démon
 ; -------------------------------------
-UnitTypeName_draco_rider=chevaucheur drake
+UnitTypeName_dragon_rider=chevaucheur drake
 ; --------------------
 CommandName_fire_breath=souffle de feu
 CommandName_flare=éclat de lumière
@@ -279,7 +279,7 @@ UnitTypeName_summoner=invocateur
 CommandName_summon_daemon=invoquer démon
 CommandName_summon_ghost_armor=invoquer armure fantôme
 CommandName_summon_dragon=invoquer dragon
-CommandName_summon_draco=invoquer drake
+CommandName_summon_wingless_dragon=invoquer drake
 ; -------------------------------------
 UnitTypeName_summoner_guild=guilde des invocateurs
 ; --------------------

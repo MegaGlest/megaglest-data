@@ -236,7 +236,7 @@ UnitTypeName_behemoth=behemoth
 ; -------------------------------------
 UnitTypeName_daemon=daemon
 ; -------------------------------------
-UnitTypeName_draco_rider=draco rider
+UnitTypeName_dragon_rider=dragon rider
 ; --------------------
 CommandName_fire_breath=fire breath
 CommandName_flare=flare
@@ -279,7 +279,7 @@ UnitTypeName_summoner=summoner
 CommandName_summon_daemon=summon daemon
 CommandName_summon_ghost_armor=summon ghost armor
 CommandName_summon_dragon=summon dragon
-CommandName_summon_draco=summon draco
+CommandName_summon_wingless_dragon=summon wingless dragon
 ; -------------------------------------
 UnitTypeName_summoner_guild=summoner guild
 ; --------------------

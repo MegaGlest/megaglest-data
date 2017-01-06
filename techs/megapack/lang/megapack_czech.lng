@@ -236,7 +236,7 @@ UnitTypeName_behemoth=netvor
 ; -------------------------------------
 UnitTypeName_daemon=démon
 ; -------------------------------------
-UnitTypeName_draco_rider=ještěří jezdkyně
+UnitTypeName_dragon_rider=ještěří jezdkyně
 ; --------------------
 CommandName_fire_breath=ohnivý výdech
 CommandName_flare=záře
@@ -279,7 +279,7 @@ UnitTypeName_summoner=přivolávačka
 CommandName_summon_daemon=přivolat démona
 CommandName_summon_ghost_armor=přivolat obrněný přízrak
 CommandName_summon_dragon=přivolat draka
-CommandName_summon_draco=přivolat ještěra
+CommandName_summon_wingless_dragon=přivolat ještěra
 ; -------------------------------------
 UnitTypeName_summoner_guild=cech přivolávaček
 ; --------------------

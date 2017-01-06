@@ -236,7 +236,7 @@ UnitTypeName_behemoth=dev yaratık
 ; -------------------------------------
 UnitTypeName_daemon=şeytan
 ; -------------------------------------
-# UnitTypeName_draco_rider=draco rider
+# UnitTypeName_dragon_rider=dragon rider
 ; --------------------
 # CommandName_fire_breath=fire breath
 CommandName_flare=işaret fişeği
@@ -279,7 +279,7 @@ UnitTypeName_summoner=Ulak
 CommandName_summon_daemon=şeytan çağır
 CommandName_summon_ghost_armor=hayalet zırhı çağır
 CommandName_summon_dragon=ejderha çağır
-CommandName_summon_draco=ördek çağır
+CommandName_summon_wingless_dragon=ördek çağır
 ; -------------------------------------
 UnitTypeName_summoner_guild=birlik çağır
 ; --------------------

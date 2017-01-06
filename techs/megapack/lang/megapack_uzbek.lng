@@ -236,7 +236,7 @@ UnitTypeName_behemoth=begemot
 ; -------------------------------------
 UnitTypeName_daemon=iblis
 ; -------------------------------------
-UnitTypeName_draco_rider=egarlanadigan kaltakesak
+UnitTypeName_dragon_rider=egarlanadigan kaltakesak
 ; --------------------
 CommandName_fire_breath=olovli nafas
 CommandName_flare=yorug‘lik
@@ -279,7 +279,7 @@ UnitTypeName_summoner=summoner
 CommandName_summon_daemon=iblisni chaqirish
 CommandName_summon_ghost_armor=sovutdagi arvohni chaqirish
 CommandName_summon_dragon=ajdarni chaqirish
-CommandName_summon_draco=kaltakesakni chaqirish
+CommandName_summon_wingless_dragon=kaltakesakni chaqirish
 ; -------------------------------------
 UnitTypeName_summoner_guild=summonerlar gildiyasi
 ; --------------------

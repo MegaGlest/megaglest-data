@@ -236,7 +236,7 @@ UnitTypeName_behemoth=behemoth
 ; -------------------------------------
 UnitTypeName_daemon=demon
 ; -------------------------------------
-UnitTypeName_draco_rider=eenden rijder
+# UnitTypeName_dragon_rider=dragon rider
 ; --------------------
 CommandName_fire_breath=vuur adem
 CommandName_flare=gloed
@@ -279,7 +279,7 @@ UnitTypeName_summoner=oproeper
 CommandName_summon_daemon=ontbied demon
 CommandName_summon_ghost_armor=ontbied geest pantser
 CommandName_summon_dragon=ontbied draak
-CommandName_summon_draco=ontbied draak
+# CommandName_summon_wingless_dragon=summon wingless dragon
 ; -------------------------------------
 UnitTypeName_summoner_guild=ontbieder gilde
 ; --------------------

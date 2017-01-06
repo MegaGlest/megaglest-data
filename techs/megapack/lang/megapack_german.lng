@@ -236,7 +236,7 @@ UnitTypeName_behemoth=Behemoth
 ; -------------------------------------
 UnitTypeName_daemon=Dämon
 ; -------------------------------------
-UnitTypeName_draco_rider=Drachenreiter
+UnitTypeName_dragon_rider=Drachenreiter
 ; --------------------
 CommandName_fire_breath=Feueratem
 CommandName_flare=Fackel
@@ -279,7 +279,7 @@ UnitTypeName_summoner=Beschwörerin
 CommandName_summon_daemon=Dämon beschwören
 CommandName_summon_ghost_armor=Geisterrüstung beschwören
 CommandName_summon_dragon=Drachen beschwören
-CommandName_summon_draco=Laufdrachen beschwören
+CommandName_summon_wingless_dragon=Laufdrachen beschwören
 ; -------------------------------------
 UnitTypeName_summoner_guild=Gilde der Beschwörer
 ; --------------------

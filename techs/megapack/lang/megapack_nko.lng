@@ -236,7 +236,7 @@ UnitTypeName_behemoth=ߓߤߋߡߐߕ
 ; -------------------------------------
 UnitTypeName_daemon=ߜߍ߬ߘߍ
 ; -------------------------------------
-UnitTypeName_draco_rider=ߘߏ߬ߞߎ߫_ߕߣߍ߬ߣߍ߬ߟߌ߬ߟߊ
+UnitTypeName_dragon_rider=ߘߏ߬ߞߎ߫_ߕߣߍ߬ߣߍ߬ߟߌ߬ߟߊ
 ; --------------------
 CommandName_fire_breath=ߕߊ_ߟߊ߫_ߝߢߐ
 CommandName_flare=ߕߊ߫_ߝߙߍߢߍ
@@ -279,7 +279,7 @@ UnitTypeName_summoner=ߘߊߟߌߟߌߟߊ
 CommandName_summon_daemon=ߜߍ߬ߘߍ_ߘߊߟߌ߫
 CommandName_summon_ghost_armor=ߛߎ߬ߜߏ߯ߙߏ_ߟߊ߫_ߞߟߍ߬ߟߊ߲_ߘߊߟߌ߫
 CommandName_summon_dragon=ߣߊ߲߬ߞߌ߲_ߘߊߟߌ߫
-CommandName_summon_draco=ߘߏ߬ߞߎ_ߘߊߟߌ߫
+CommandName_summon_wingless_dragon=ߘߏ߬ߞߎ_ߘߊߟߌ߫
 ; -------------------------------------
 UnitTypeName_summoner_guild=ߕߋߙߌߦߊ_ߘߊߟߌߟߊ
 ; --------------------

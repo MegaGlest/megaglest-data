@@ -236,7 +236,7 @@ UnitTypeName_behemoth=potwór ('Behemoth')
 ; -------------------------------------
 UnitTypeName_daemon=demon ('Daemon')
 ; -------------------------------------
-UnitTypeName_draco_rider=jaszczurza jeźdźczyni\n('Draco rider')
+UnitTypeName_dragon_rider=jaszczurza jeźdźczyni\n('Dragon rider')
 ; --------------------
 CommandName_fire_breath=ognisty oddech ('Fire breath')
 CommandName_flare=flara ('Flare')
@@ -279,7 +279,7 @@ UnitTypeName_summoner=przywoływaczka\n('Summoner')
 CommandName_summon_daemon=przyzywanie demona\n('Summon daemon')
 CommandName_summon_ghost_armor=przyzywanie zbrojnego ducha\n('Summon ghost armor')
 CommandName_summon_dragon=przyzywanie smoka\n('Summon dragon')
-CommandName_summon_draco=transf. do jaszcz. jeźdźczyni\n('Transform to draco rider')
+CommandName_summon_wingless_dragon=przyzwanie jaszczura\n('Summon wingless dragon')
 ; -------------------------------------
 UnitTypeName_summoner_guild=gildia przywoływaczek\n('Summoners' guild')
 ; --------------------

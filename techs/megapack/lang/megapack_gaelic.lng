@@ -236,7 +236,7 @@ UnitTypeName_behemoth=mòr-bhèist
 ; -------------------------------------
 UnitTypeName_daemon=ifrinneach
 ; -------------------------------------
-UnitTypeName_draco_rider=marcaiche dràic
+UnitTypeName_dragon_rider=marcaiche dràic
 ; --------------------
 CommandName_fire_breath=anail teine
 CommandName_flare=lasair
@@ -279,7 +279,7 @@ UnitTypeName_summoner=taghairmear
 CommandName_summon_daemon=taghairm ifrinneach
 CommandName_summon_ghost_armor=taghairm taibhs-armachd
 CommandName_summon_dragon=taghairm dràgon
-CommandName_summon_draco=taghairm dràc
+CommandName_summon_wingless_dragon=taghairm dràc
 ; -------------------------------------
 UnitTypeName_summoner_guild=comann nan taghairmearan
 ; --------------------

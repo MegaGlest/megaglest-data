@@ -236,7 +236,7 @@ UnitTypeName_behemoth=μεγαθήριο
 ; -------------------------------------
 UnitTypeName_daemon=δαίμονας
 ; -------------------------------------
-UnitTypeName_draco_rider=Ντρέικ αναβάτης
+UnitTypeName_dragon_rider=Ντρέικ αναβάτης
 ; --------------------
 CommandName_fire_breath=αναπνοή φωτιάς
 CommandName_flare=φωτοβολίδα
@@ -279,7 +279,7 @@ UnitTypeName_summoner=κλήτευση
 CommandName_summon_daemon=κλήτευση δαίμονα
 CommandName_summon_ghost_armor=κλήτευση πανοπλίας
 CommandName_summon_dragon=κλήτευση δράκου
-CommandName_summon_draco=κλήτευση του Ντρέικ
+CommandName_summon_wingless_dragon=κλήτευση του Ντρέικ
 ; -------------------------------------
 UnitTypeName_summoner_guild=κλήτευση τάγματος
 ; --------------------

@@ -236,7 +236,7 @@ UnitTypeName_behemoth=colosso
 ; -------------------------------------
 UnitTypeName_daemon=demone
 ; -------------------------------------
-UnitTypeName_draco_rider=cavaliere del drago
+UnitTypeName_dragon_rider=cavaliere del drago
 ; --------------------
 CommandName_fire_breath=soffio di fuoco
 CommandName_flare=fiammata
@@ -279,7 +279,7 @@ UnitTypeName_summoner=evocatore
 CommandName_summon_daemon=evoca demone
 CommandName_summon_ghost_armor=evoca fantasma corazzato
 CommandName_summon_dragon=evoca drago
-CommandName_summon_draco=evoca drago
+CommandName_summon_wingless_dragon=evoca drago
 ; -------------------------------------
 UnitTypeName_summoner_guild=evocatore della gilda
 ; --------------------

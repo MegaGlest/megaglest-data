@@ -236,7 +236,7 @@ UnitTypeName_behemoth=raksasa binatang
 ; -------------------------------------
 UnitTypeName_daemon=daemon
 ; -------------------------------------
-UnitTypeName_draco_rider=penunggang draco
+UnitTypeName_dragon_rider=penunggang draco
 ; --------------------
 CommandName_fire_breath=semburan api
 # CommandName_flare=flare
@@ -279,7 +279,7 @@ UnitTypeName_summoner=pemanggil
 CommandName_summon_daemon=panggil daemon
 CommandName_summon_ghost_armor=panggil baju zirah berhantu
 CommandName_summon_dragon=panggil naga
-CommandName_summon_draco=panggil draco
+CommandName_summon_wingless_dragon=panggil draco
 ; -------------------------------------
 UnitTypeName_summoner_guild=perkumpulan pemanggil
 ; --------------------

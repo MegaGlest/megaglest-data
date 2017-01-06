@@ -236,7 +236,7 @@ UnitTypeName_behemoth=Beemote
 ; -------------------------------------
 UnitTypeName_daemon=Demônio
 ; -------------------------------------
-UnitTypeName_draco_rider=Cavaleira Drake
+UnitTypeName_dragon_rider=Cavaleira Drake
 ; --------------------
 CommandName_fire_breath=cospe fogo
 CommandName_flare=chama
@@ -279,7 +279,7 @@ UnitTypeName_summoner=Bruxa
 CommandName_summon_daemon=Evocar dêmonio
 CommandName_summon_ghost_armor=Invocar Cavaleiro fantasma
 CommandName_summon_dragon=Evocar dragão
-CommandName_summon_draco=Evocar drake
+CommandName_summon_wingless_dragon=Evocar drake
 ; -------------------------------------
 UnitTypeName_summoner_guild=Irmandade das Bruxas
 ; --------------------

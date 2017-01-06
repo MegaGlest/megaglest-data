@@ -236,7 +236,7 @@ UnitTypeName_behemoth=mastodonte
 ; -------------------------------------
 UnitTypeName_daemon=demonio
 ; -------------------------------------
-UnitTypeName_draco_rider=jinete de draco
+UnitTypeName_dragon_rider=jinete de draco
 ; --------------------
 CommandName_fire_breath=aliento de fuego
 CommandName_flare=brillo solar
@@ -279,7 +279,7 @@ UnitTypeName_summoner=invocadora
 CommandName_summon_daemon=invocar demonio
 CommandName_summon_ghost_armor=invocar armadura fantasma
 CommandName_summon_dragon=invocar dragón
-CommandName_summon_draco=invocar draco
+CommandName_summon_wingless_dragon=invocar draco
 ; -------------------------------------
 UnitTypeName_summoner_guild=hermandad de invocadores
 ; --------------------

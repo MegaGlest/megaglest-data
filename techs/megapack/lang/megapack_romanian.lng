@@ -236,7 +236,7 @@ UnitTypeName_behemoth=creatură gigant
 ; -------------------------------------
 UnitTypeName_daemon=demon
 ; -------------------------------------
-UnitTypeName_draco_rider=călăreț gâscan
+UnitTypeName_dragon_rider=călăreț gâscan
 ; --------------------
 CommandName_fire_breath=suflu foc
 CommandName_flare=rafală foc
@@ -279,7 +279,7 @@ UnitTypeName_summoner=invocator
 CommandName_summon_daemon=invocă dragon
 CommandName_summon_ghost_armor=invocare armură fantomă
 CommandName_summon_dragon=invocare dragon
-CommandName_summon_draco=invocare drake
+CommandName_summon_wingless_dragon=invocare drake
 ; -------------------------------------
 UnitTypeName_summoner_guild=breaslă invocator
 ; --------------------

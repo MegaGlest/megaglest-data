@@ -236,7 +236,7 @@ UnitTypeName_behemoth=Kæmpe
 ; -------------------------------------
 UnitTypeName_daemon=Dæmon
 ; -------------------------------------
-# UnitTypeName_draco_rider=draco rider
+# UnitTypeName_dragon_rider=dragon rider
 ; --------------------
 # CommandName_fire_breath=fire breath
 # CommandName_flare=flare
@@ -279,7 +279,7 @@ UnitTypeName_summoner=Hidkalder
 CommandName_summon_daemon=Hidkald dæmon
 CommandName_summon_ghost_armor=Hidkald spøgelses kriger
 CommandName_summon_dragon=Hidkald drage
-# CommandName_summon_draco=summon draco
+# CommandName_summon_wingless_dragon=summon wingless dragon
 ; -------------------------------------
 # UnitTypeName_summoner_guild=summoner guild
 ; --------------------

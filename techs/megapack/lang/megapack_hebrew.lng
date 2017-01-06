@@ -236,7 +236,7 @@ UnitTypeName_behemoth=בהמות
 ; -------------------------------------
 UnitTypeName_daemon=שד
 ; -------------------------------------
-UnitTypeName_draco_rider=רוכב_דרקונים
+UnitTypeName_dragon_rider=רוכב_דרקונים
 ; --------------------
 CommandName_fire_breath=נשימת_אש
 CommandName_flare=להבה
@@ -279,7 +279,7 @@ UnitTypeName_summoner=מזמנת
 CommandName_summon_daemon=מזמנת_שד
 CommandName_summon_ghost_armor=מזמן_שד_משורין
 CommandName_summon_dragon=מזמנת_דרקון
-CommandName_summon_draco=זמן_ברווז
+CommandName_summon_wingless_dragon=זמן_ברווז
 ; -------------------------------------
 UnitTypeName_summoner_guild=מדריך_המזמנות
 ; --------------------
