@@ -22,6 +22,7 @@
 			<unit name="worker" minimum="8"/>
 		</worker-units>
 		<warrior-units>
+			<unit name="cow" minimum="2"/>
 			<unit name="archer" minimum="2"/>
 			<unit name="cow" minimum="5"/>
 		</warrior-units>

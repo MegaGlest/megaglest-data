@@ -505,12 +505,12 @@ TechTitle2=Facciones
 Textures3D=Texturas 3D:
 Tileset=Clima
 TilesetTitle1=Climas
-# Time=Time
+Time=Tiempo
 TimeDisplay=Mostrar el tiempo real y el de partida:
 TimeoutWaitingForClients=Tiempo de espera para los clientes.
 TimeoutWaitingForServer=Tiempo de espera para el servidor.
 TimeoutWaitingForMessage=Tiempo de espera para mensajes.
-# TimeSteps=Time steps
+TimeSteps=Niveles temporales
 Tip=Consejo
 ToSwitchOffMusicPress=Para desactivar la música mientras esperas a otros jugadores pulsa
 

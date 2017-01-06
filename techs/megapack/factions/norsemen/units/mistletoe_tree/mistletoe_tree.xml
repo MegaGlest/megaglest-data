@@ -3,7 +3,7 @@
 	<parameters>
 		<size value="2" />
 		<height value="5" />
-		<ai-build-size value="4"/>
+		<ai-build-size value="3"/>
 		<max-hp value="5000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
@@ -58,7 +58,7 @@
 			<name value="stop_skill"/>
 			<ep-cost value="0"/>
 			<speed value="100"/>
-			<anim-speed value="30"/>
+			<anim-speed value="20"/>
 			<animation path="models/mistletree.g3d"/>
 			<sound enabled="false"/>
 		</skill>

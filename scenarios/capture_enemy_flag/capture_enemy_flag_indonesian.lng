@@ -1,0 +1,18 @@
+SCENARIO_NAME=Ambil alih benderanya
+;message headers
+CaptureFlag=Ambil alih benderanya
+Warning=Waspada
+Crisis=Kode Merah!
+
+;message strings
+Brief1=Tangkap bendera musuh Anda dengan menyentuhnya lalu kembalikan unit penyentuh ke base utama Anda! Bendera musuh berkedip di dalam peta. Bendera Anda akan bersinar dalam warna tim Anda. Hati-hati untuk kejutan selama perjalanan.
+Player2InFlagZoneWarning=Pemain 2 ada di zona bendera Anda hati-hati!
+Player3InFlagZoneWarning=Pemain 3 ada di zona bendera Anda hati-hati!
+Player2HasFlagWarning=Pemain 2 MENDAPAT BENDERA ANDA, hentikan dia!!
+Player3HasFlagWarning=Pemain 3 MENDAPAT BENDERA ANDA, hentikan dia!!
+
+;objective strings
+Player2HeadHome=Sekarang Anda sebagai pemain 2 telah berhasil membawa pulang bendera dan menang! Pembawa bendera Anda disorot dengan warna tim Anda, jangan biarkan dia mati.
+Player3HeadHome=Sekarang Anda sebagai pemain 3 telah berhasil membawa pulang bendera dan menang! Pembawa bendera Anda disorot dengan warna tim Anda, jangan biarkan dia mati.
+PlayerWins=Selamat, Anda menang!
+PlayerLoses=Sayang sekali, Anda kalah!

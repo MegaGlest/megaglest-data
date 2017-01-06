@@ -1,0 +1,6 @@
+SCENARIO_NAME=Akses Lobi
+
+m1=Apakah Anda siap?
+why=Menangkan Skenario ini untuk membuktikan bahwa Anda telah siap untuk permainan internet bersama.
+
+DESCRIPTION=Menangkan Skenario ini untuk membuktikan bahwa Anda telah siap untuk\npermainan internet bersama.

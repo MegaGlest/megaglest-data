@@ -81,7 +81,7 @@ CommandName_speedup_priest_production=acelerar produção de sacerdotes
 CommandName_heal=curar
 CommandName_produce_mummy=produzir Múmia
 CommandName_produce_anubis_warrior=produzir guerreiros de Anubis
-# CommandName_ice_nova=ice nova
+CommandName_ice_nova=ice nova
 ; -------------------------------------
 UnitTypeName_pyramid=Pirâmide
 ; --------------------

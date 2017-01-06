@@ -3,7 +3,7 @@
 	<parameters>
 		<size value="2"/>
 		<height value="4"/>
-		<ai-build-size value="6"/>
+		<ai-build-size value="4"/>
 		<burn-height value="6" />
 		<target-height value="7" />
 		<max-hp value="7000" regeneration="0"/>

@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazon
+;message headers
+Amazones=Amazon
+
+;message strings
+Brief1=Kastil sekutu Anda harus bertahan!
+
+;objective strings
+Firstwave=Tujuan: Wanita berbaju hijau
+Secondwave=Tujuan: Lebih Banyak Wanita.
+Thirdwave=Tujuan: Mungkin terlalu banyak wanita...
+Fourthwave=Tujuan: Bagus tapi berbahaya ;-)
+Lastwave=Tujuan: Gelombang terakhir!

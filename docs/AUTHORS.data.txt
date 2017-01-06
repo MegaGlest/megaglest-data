@@ -173,6 +173,7 @@ German                by tomreyn & na & siggi & emukis (Marcel Haring) &
                         Zwipfy (Mike) & titi & darktomas (Tomas)
 Greek                 by beonex & Rzarector & wasilis.mandratzis
 Hebrew                by eliyahu52
+Indonesian            by samuelch (Samuel)
 Italian               by peschio (Michele Pescosolido) & Marco91 (Marco
                         Mangiacavalli) & pizza90 (Marco Gori) & Alessio Grassi
 Japanese              by hagekura

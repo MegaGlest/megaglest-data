@@ -1,0 +1,41 @@
+TUTORIAL_NAME=#2 Cara Bermain Dasar
+;message headers
+GlestBasicTutorial=Cara Bermain Dasar MegaGlest
+WellDone=Bagus!
+Resources=Sumberdaya
+Combat=Pertarungan
+Buildings=Bangunan
+
+;message strings
+Welcome=Selamat datang ke Cara Bermain Dasar MegaGlest. Di sini Anda akan belajar dasar dari permainan ini.
+WillBeUsingTech=Anda akan memerintah fraksi Tekno, yang memakai tentara abad pertengahan dan mesin untuk berperang.
+NeedWorkers=Untuk mengumpulkan sumberdaya Anda akan membutuhkan Pekerja. Untuk memproduksi beberapa pekerja pertama pilih Kastil lalu gunakan perintah "Hasilkan Pekerja".
+SelectAndCommand=Unit dipilih dengan mengklik kiri pada mereka, perintah diberikan dengan mengklik kanan pada target atau pada arena permainan.
+HowToMine=Untuk menambang Emas, pertama pilih seorang Pekerja, lalu klik kanan pada batuan Beremas.
+WorkersKeepOnHarvesting=Pekerja akan terus mengumpulkan dan membawa sumberdaya kembali ke bangunan yang dapat menyimpan tipe sumberdaya yang mereka sedang bawa.
+ResourceInformation=Informasi sumberdaya ditampilkan pada bagian atas layar, angka yang di kiri adalah jumlah sumberdaya sekarang, angka yang di kanan adalah kapasitas penyimpanan.
+OtherResources=Sumberdaya lain seperti Kayu atau Batu akan dikumpulkan dengan cara yang sama seperti Emas.
+TechResourceNeeds=Fraksi Techno biasanya membutuhkan banyak Emas dan Kayu, dan sedikit Batu.
+TechConsumesFood=Setiap unit di fraksi Techno mengkonsumsi Makanan. Tanpa Makanan nyawa unit akan berkurang terus menerus dan mati. Makanan dapat diproduksi oleh binatang ternak. Binatang dihasilkan di Peternakan.
+HaveEnoughAnimals=Selalu ingat untuk memiliki cukup binatang untuk memberi makan unit Anda.
+BalanceDisplay=Keseimbangan antara konsumsi Makanan dan produksi ditampilkan di dalam kurung di samping penyimpanan Makanan di bagian atas layar.
+TechWarriorsAtBarracks=Untuk mengalahkan musuh Anda, Anda membutuhkan beberapa prajurit, kebanyakan prajurit Tekno dihasilkan di Barak.
+HowToBuildBarracks=Untuk membangun Barak, pilih seorang Pekerja, klik pada "Bangun Sederhana" > "Barak" dan pilih tempat untuk bangunannya.
+RememberToBuildBarracks=Ingat untuk selalu membangun sebuah Barak pada awal permainan, ini akan memperbolehkan Anda untuk menghasilkan prajurit dengan cepat.
+SwordmanBrief=Prajurit dasar Tekno adalah Prajurit Berpedang, pilih Barak, lalu klik pada "Hasilkan Prajurit Berpedang" untuk menghasilkan satu. Pastikan Anda memiliki sumberdaya yang cukup.
+HaveWarriorsAtBase=Sebaiknya Anda harus selalu memiliki beberapa prajurit di base Anda, mereka akan menyerang musuh apapun di jarak pandang mereka secara otomatis.
+ArcherBrief=Pemanah adalah unit jarak jauh dasar fraksi Tekno. Mereka juga dapat dihasilkan di Barak.
+ProduceWarriors=Hasilkan beberapa prajurit untuk mempertahankan base Anda dari serangan musuh.
+
+;objective strings
+ProduceWorkers=Tujuan: Hasilkan 3 Pekerja.
+HarvestWoodAndStone=Tujuan: Kumpulkan 100 unit kayu dan 150 unit batu.
+ProduceCow=Tujuan: Hasilkan seekor Sapi.
+MineGold=Tujuan: Tambang 100 unit Emas.
+BuildBarracks=Tujuan: Bangun Barak.
+ProduceSwordman=Tujuan: Hasilkan seorang Prajurit Berpedang.
+ProduceArcher=Tujuan: Hasilkan seorang Pemanah.
+ProduceMoreWarriors=Tujuan: Hasilkan lebih banyak prajurit untuk mengatasi serangan yang akan datang.
+
+;end
+WellDoneNextTutorial=Bagus! Sekarang Anda dapat melanjutkan ke cara bermain selanjutnya.
