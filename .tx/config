@@ -48,6 +48,12 @@ source_file = scenarios/lobby_access/lobby_access_english.lng
 source_lang = en
 minimum_perc = 70
 
+[megaglest.scenarios-amazones-pro]
+file_filter = scenarios/amazones_pro/amazones_pro_<lang>.lng
+source_file = scenarios/amazones_pro/amazones_pro_english.lng
+source_lang = en
+minimum_perc = 70
+
 [megaglest.scenarios-amazones]
 file_filter = scenarios/amazones/amazones_<lang>.lng
 source_file = scenarios/amazones/amazones_english.lng

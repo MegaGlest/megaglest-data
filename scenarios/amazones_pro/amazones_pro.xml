@@ -113,10 +113,10 @@
 						addAttackingEnemy('valkyrie', 5, 'far')
 						objective='Fourthwave';
 					elseif(objective=="Secondwave") then
-						addAttackingEnemy('cudgel_lady', 44)
+						addAttackingEnemy('cudgel_lady', 50)
 						objective='Thirdwave';
 					elseif(objective=="Firstwave") then
-						addAttackingEnemy('cudgel_lady', 22)
+						addAttackingEnemy('cudgel_lady', 23)
 						objective='Secondwave';
 					end
 					if counterMode~='End' and counterMode~='FinishHim' then
