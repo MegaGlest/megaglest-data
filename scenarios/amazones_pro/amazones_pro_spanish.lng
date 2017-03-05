@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazonas
+;message headers
+Amazones=Amazonas
+
+;message strings
+Brief1=¡El castillo de tus aliados no debe ser destruido!
+
+;objective strings
+Firstwave=Objetivo: Chicas de verde.
+Secondwave=Objetivo: Más Chicas.
+Thirdwave=Objetivo: Provablemente demasiadas chicas...
+Fourthwave=Objetivo: Bueno pero peligroso ;-)
+Lastwave=Objetivo: La ola final

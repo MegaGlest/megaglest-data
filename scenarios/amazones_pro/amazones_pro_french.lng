@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazones
+;message headers
+Amazones=Amazones
+
+;message strings
+Brief1=Le château de vos alliés doit survivre !
+
+;objective strings
+Firstwave=Objectif : Dames en vert.
+Secondwave=Objectif : Plus de dames.
+Thirdwave=Objectif : Probablement trop de dames...
+Fourthwave=Objectif : Joli mais dangereux ;-)
+Lastwave=Objectif : La vague finale !

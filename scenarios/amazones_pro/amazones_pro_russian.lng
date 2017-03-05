@@ -1,0 +1,13 @@
+SCENARIO_NAME=Амазонки
+;message headers
+Amazones=Амазонки
+
+;message strings
+Brief1=Союзный замок рядом с вашим должен выжить!
+
+;objective strings
+Firstwave=Цель: Дамы в зелёном.
+Secondwave=Цель: Больше дам.
+Thirdwave=Цель: Теперь очень много дам...
+Fourthwave=Цель: Прекрасны, но опасны ;-)
+Lastwave=Цель: Заключительная волна!!!
