@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=当心！玩家 3 正你的旗帜附近。
 Player2HasFlagWarning=玩家 2 夺走了你的旗帜，干掉他！！！
 Player3HasFlagWarning=玩家 3 夺走了你的旗帜，干掉他！！！
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+FlagForPlayer2=绿方夺旗。
+FlagForPlayer3=蓝方夺旗。
+
 ;objective strings
-Player2HeadHome=现在，你必须让玩家 2 存活并取得胜利！你的旗帜被标记为你团队的颜色，不要让他死掉。
-Player3HeadHome=现在，你必须让玩家 3 存活并取得胜利！你的旗帜被标记为你团队的颜色，不要让他死掉。
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=祝贺你赢得胜利！
 PlayerLoses=惨了，我们输了！

@@ -1,0 +1,11 @@
+SCENARIO_NAME=Ionsaí
+;message headers
+Storming=Ionsaí
+
+;message strings
+Brief1=Cabhraigh le do Thoghairtheoir ionsaí a dhéanamh ar bhailte an namhad. Caithfidh sí teacht slán as.
+
+;objective strings
+ObjectiveSouthWest=Cuspóir: an baile Draíochta san iardheisceart a léirscrios. Ní mór don Toghairtheoir teacht slán as.
+ObjectiveNorthEast=Cuspóir: an baile Teic san oirthuaisceart a léirscrios. Ní mór don Toghairtheoir teacht slán as.
+ObjectiveSouthEast=Cuspóir: an baile san oirdheisceart a léirscrios. Ní mór don Toghairtheoir teacht slán as.

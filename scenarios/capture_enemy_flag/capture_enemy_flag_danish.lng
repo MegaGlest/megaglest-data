@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Pas på! Spiller 3 er i din flagzone.
 Player2HasFlagWarning=Spiller 2 HAR DIT FLAG! Fang ham!!
 Player3HasFlagWarning=Spiller 3 HAR DIT FLAG! Fang ham!!
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+# FlagForPlayer2=The flag for capture by green player.
+# FlagForPlayer3=The flag for capture by blue player.
+
 ;objective strings
-Player2HeadHome=Ok, spiller 2, nu skal du bare hjem uden at dø for at vinde! Din flagbærer bliver fremhævet med din holdfarve - pas på han ikke dør.
-Player3HeadHome=Ok, spiller 3, nu skal du bare hjem uden at dø for at vinde! Din flagbærer bliver fremhævet med din holdfarve - pas på han ikke dør.
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=Tillykke, du vandt!
 PlayerLoses=Synd, du tabte!

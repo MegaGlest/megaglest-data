@@ -64,16 +64,17 @@
     <lang percentage="67">ar</lang>
     <lang percentage="99">zh_CN</lang>
     <lang percentage="64">zh_TW</lang>
-    <lang percentage="99">cs</lang>
+    <lang percentage="100">cs</lang>
     <lang percentage="94">da</lang>
-    <lang percentage="96">nl</lang>
+    <lang percentage="99">nl</lang>
     <lang percentage="100">en</lang>
-    <lang percentage="99">fr</lang>
-    <lang percentage="99">gd</lang>
-    <lang percentage="99">de</lang>
-    <lang percentage="99">el</lang>
+    <lang percentage="100">fr</lang>
+    <lang percentage="100">gd</lang>
+    <lang percentage="100">de</lang>
+    <lang percentage="98">el</lang>
     <lang percentage="96">he</lang>
     <lang percentage="98">id</lang>
+    <lang percentage="100">ga</lang>
     <lang percentage="100">it</lang>
     <lang percentage="52">ja</lang>
     <lang percentage="96">nqo</lang>
@@ -81,12 +82,12 @@
     <lang percentage="62">pt</lang>
     <lang percentage="100">pt_BR</lang>
     <lang percentage="96">ro</lang>
-    <lang percentage="99">ru</lang>
+    <lang percentage="100">ru</lang>
     <lang percentage="77">sl</lang>
     <lang percentage="100">es</lang>
-    <lang percentage="78">tr</lang>
+    <lang percentage="77">tr</lang>
     <lang percentage="91">uz</lang>
-    <lang percentage="59">vi</lang>
+    <lang percentage="58">vi</lang>
   </languages>
   <translation/>
 </component>

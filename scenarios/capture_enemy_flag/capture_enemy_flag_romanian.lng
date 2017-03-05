@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Jucătorul 3 este în zona steagului tău, ai grijă!
 Player2HasFlagWarning=Jucătorul 2 ARE STEAGUL TĂU, prinde-l!!
 Player3HasFlagWarning=Jucătorul 3 ARE STEAGUL TĂU, prinde-l!!
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+# FlagForPlayer2=The flag for capture by green player.
+# FlagForPlayer3=The flag for capture by blue player.
+
 ;objective strings
-Player2HeadHome=Acum jucătorul 2 v-a ajunge viu acasă și va câștiga! Purtătorul tău de steag este evidențiat în culoarea echipei tale, nu-l lăsa să moară.
-Player3HeadHome=Acum jucătorul 3 v-a ajunge viu acasă și va câștiga! Purtătorul tău de steag este evidențiat în culoarea echipei tale, nu-l lăsa să moară.
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=Felicitări, ai câștigat!
 PlayerLoses=Păcat, ai pierdut!

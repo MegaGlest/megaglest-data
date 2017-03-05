@@ -1,0 +1,41 @@
+TUTORIAL_NAME=#2 Cúrsa Teagaisc Bunúsach
+;message headers
+GlestBasicTutorial=Cúrsa Teagaisc Bunúsach
+WellDone=Maith thú!
+Resources=Acmhainní
+Combat=Troid
+Buildings=Foirgnimh
+
+;message strings
+Welcome=Fáilte go dtí an Bunchúrsa Teagaisc. Foghlaimeoidh tú buntús an chluiche anseo.
+WillBeUsingTech=Tá tú i gceannas ar an bhfaicsean Teic, dream a úsáideann gaiscígh mheánaoiseacha agus gléasanna meicniúla chun troid a dhéanamh.
+NeedWorkers=Teastaíonn Oibrithe uait chun acmhainní nádúrtha a bhailiú. Roghnaigh an Caisleán, ansin úsáid an t-ordú "Táirg Oibrí" chun ceann a chruthú.
+SelectAndCommand=Cléchliceáil aonad lena roghnú, agus tabhair ordú dó trí dheaschliceáil ar an sprioc nó ar an talamh.
+HowToMine=Chun ór a bhailiú, roghnaigh oibrí, ansin deaschliceáil ar charn óir.
+WorkersKeepOnHarvesting=Leanfaidh oibrithe ag bailiú acmhainní agus iad a iompar go dtí foirgneamh a stórálann an sórt acmhainne atá á iompar acu.
+ResourceInformation=Taispeántar eolas faoi acmhainní ag barr an scáileáin; is é an uimhir ar chlé an méid reatha, agus an uimhir ar dheis an toilleadh stórais.
+OtherResources=Bailítear acmhainní eile, mar shampla Adhmad nó Cloch, go díreach mar a dhéantar le hÓr.
+TechResourceNeeds=Teastaíonn go leor óir agus adhmaid ón fhaicsean Teic de ghnáth, agus beagán Cloiche freisin.
+TechConsumesFood=Itheann gach aonad san fhaicsean Teic bia. Gan bia, déanfar dochar don aonad agus gheobhaidh sé bás. Is féidir bia a tháirgeadh ó ainmhithe clóis. Táirgtear ainmhithe ar an bhFeirm.
+HaveEnoughAnimals=Déan cinnte go mbíonn go leor ainmhithe agat chun do chuid aonad a bheathú.
+BalanceDisplay=Taispeántar an chothromaíocht idir caitheamh agus táirgeadh bia idir lúibíní in aice leis an Stóras bia ag barr an scáileáin.
+TechWarriorsAtBarracks=Teastaíonn roinnt gaiscíoch uait chun an lámh in uachtar a fháil ar do namhaid. Táirgtear an chuid is mó de na gaiscígh san fhaicsean Teic sa mBeairic.
+HowToBuildBarracks=Chun Beairic a thógáil, roghnaigh Gaiscíoch amháin, cliceáil "Tógáil Simplí" > "Beairic" ansin roghnaigh áit oiriúnach don fhoirgneamh.
+RememberToBuildBarracks=Ba chóir duit Beairic a thógáil go luath sa chluiche, sa chaoi go mbeidh tú in ann gaiscígh a tháirgeadh go tapaidh.
+SwordmanBrief=Is é an Claimhteoir bunghaiscíoch an fhaicsin Teic. Roghnaigh an Bheairic agus cliceáil "Táirg Claimhteoir" chun ceann a chruthú. Déan cinnte go bhfuil a dhóthain acmhainní agat.
+HaveWarriorsAtBase=Ba chóir duit buíon gaiscíoch a choinneáil i ngar do do bhunáit. Déanfaidh siad ionsaí ar aon naimhde laistigh dá raon.
+ArcherBrief=Is é an Boghdóir bunaonad fadraoin an fhaicsin Teic. Táirgtear Boghdóirí sa Bheairic freisin.
+ProduceWarriors=Táirg cúpla gaiscíoch eile le seasamh in aghaidh ionsaithe ón namhaid.
+
+;objective strings
+ProduceWorkers=Cuspóir: 3 Oibrí a tháirgeadh.
+HarvestWoodAndStone=Cuspóir: 100 aonad adhmaid agus 150 aonad cloiche a bhailiú.
+ProduceCow=Cuspóir: Bó a tháirgeadh.
+MineGold=Cuspóir: 100 aonad óir a bhailiú.
+BuildBarracks=Cuspóir: Beairic a thógáil.
+ProduceSwordman=Cuspóir: Claimhteoir a tháirgeadh.
+ProduceArcher=Cuspóir: Boghdóir a tháirgeadh.
+ProduceMoreWarriors=Cuspóir: Tuilleadh gaiscíoch a tháirgeadh chun seasamh in aghaidh an ionsaí atá ag teacht.
+
+;end
+WellDoneNextTutorial=Maith thú! Anois tá cead agat dul ar aghaidh go dtí an chéad chúrsa teagaisc eile.

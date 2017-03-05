@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Người chơi 3 đang ở trong vùng cấm cờ của
 Player2HasFlagWarning=Người chơi 2 đã có lá cờ của bạn, phồng tôm nó lẹ lên!!
 Player3HasFlagWarning=Người chơi 3 đã lấy lá cờ của bạn, đấm phát cho nó chết luôn!!
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+# FlagForPlayer2=The flag for capture by green player.
+# FlagForPlayer3=The flag for capture by blue player.
+
 ;objective strings
-Player2HeadHome=Người chơi 2 hiện đã trở về thành của bạn và đã chiến thằng! Màu của lá cờ đang được chuyển thành màu của phe bạn, đừng để người chơi này đi bán muối nhé.
-Player3HeadHome=Hiện người chơi 3 đã về thành và chiến thắng! Lá cờ của bạn đã được chuyển màu cho lá cờ địch, đừng để người chơi này đi bán đậu phộng nhé!
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=Trời đất mẹ ơi, thắng rồi bà con ơiiiii!
 PlayerLoses=Thôi đừng buồn, dù bạn rất xấu nhưng lần sau đừng ăn nhiều dưa hấu, nếu bị sida thì đừng quá xông pha đi hiến máu nhóe nghe chưa nè, quân tử báo thù mười năm chưa muộn!

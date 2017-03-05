@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=ߕߏߟߏ߲ߠߊ ߃ ߦߋ߫ ߣߊ߭ ߞߊ߲߬ ߌ ߟߊ߫ ߖߏ
 Player2HasFlagWarning=ߌ ߟߊ߫ ߖߏ߲߬ߖߏ߲ ߦߋ߫ ߕߏߟߏ߲ߠߊ ߂ ߓߟߏ߫߸ ߊ߬ ߡߌ߬ߣߊ߬߹
 Player3HasFlagWarning=ߌ ߟߊ߫ ߖߏ߲߬ߖߏ߲ ߦߋ߫ ߕߏߟߏ߲ߠߊ ߃ ߓߟߏ߫߸ ߊ߬ ߡߌ߬ߣߊ߬߹
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+# FlagForPlayer2=The flag for capture by green player.
+# FlagForPlayer3=The flag for capture by blue player.
+
 ;objective strings
-Player2HeadHome=ߒ߬ߓߊ߬ ߏ߬ ߘߐ߫߸ ߕߏߟߏ߲ߠߊ ߂ ߘߏ߲߬ ߓߏ߲ ߠߊ߫ ߞߣߍߦߊ ߘߐ߫ ߊ߬ ߣߴߌ ߦߋ߫ ߛߎߘߊ߲߫߹ ߌ ߟߊ߫ ߖߏ߲߬ߖߏ߲ ߕߊ߬ߓߊ߮ ߦߴߌ ߟߊ߫ ߖߏ߲߬ߖߏ߲ ߝߟߋߝߟߋ߫ ߞߊ߲߬ ߌ ߟߊ߫ ߞߙߎ ߞߐ߬ߟߐ ߘߌ߫߸ ߊ߬ ߞߣߊ߫ ߛߊ߬ ߌ ߢߣߊ߫ ߘߋ߬.
-Player3HeadHome=ߒ߬ߓߊ߬ ߏ߬ ߘߐ߫߸ ߕߏߟߏ߲ߠߊ ߃ ߘߏ߲߬ ߓߏ߲ ߠߊ߫ ߞߣߍߦߊ ߘߐ߫ ߊ߬ ߣߴߌ ߦߋ߫ ߛߎߘߊ߲߫߹ ߌ ߟߊ߫ ߖߏ߲߬ߖߏ߲ ߕߊ߬ߓߊ߮ ߦߴߌ ߟߊ߫ ߖߏ߲߬ߖߏ߲ ߝߟߋߝߟߋ߫ ߞߊ߲߬ ߌ ߟߊ߫ ߞߙߎ ߞߐ߬ߟߐ ߘߌ߫߸ ߊ߬ ߞߣߊ߫ ߛߊ߬ ߌ ߢߣߊ߫ ߘߋ߬.
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=ߊ߬ߛߐߍ߸ ߌ ߓߘߊ߫ ߛߎߘߊ߲߫߹
 PlayerLoses=ߐ߰߸ ߌ ߓߘߊ߫ ߗߌߙߏ߲߫߹

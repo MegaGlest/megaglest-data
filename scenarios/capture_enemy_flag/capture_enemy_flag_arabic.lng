@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=انتبه اللاعب 3 في منطقة علمك
 Player2HasFlagWarning=اللاعب 2 لديه العلم الخاص بك، تحصل عليه!!
 Player3HasFlagWarning=اللاعب 3 لديه العلم الخاص بك، تحصل عليه!!
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+# FlagForPlayer2=The flag for capture by green player.
+# FlagForPlayer3=The flag for capture by blue player.
+
 ;objective strings
-Player2HeadHome=الآن اللاعب 2 أنت جعلت بيته يحيى ويفوز! يتم تمييز حامل العلم الخاص بك في لون فريقك، لا تدعه يموت.
-Player3HeadHome=الآن اللاعب 3 أنت جعلت بيته يحيى ويفوز! يتم تمييز حامل العلم الخاص بك في لون فريقك، لا تدعه يموت.
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=تهانينا، لقد فزت!
 PlayerLoses=سيئ جدا، لقد خسرت!

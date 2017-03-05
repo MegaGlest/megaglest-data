@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=שחקן 3 באזור הדגל שלך, היזהר!
 Player2HasFlagWarning=שחקן 2 תפס את הדגל שלך, תפוס אותו!!
 Player3HasFlagWarning=שחקן 3 תפס את הדגל שלך, תפוס אותו!!
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+# FlagForPlayer2=The flag for capture by green player.
+# FlagForPlayer3=The flag for capture by blue player.
+
 ;objective strings
-Player2HeadHome=עכשיו שחקן 2 החזר את הדגל הביתה בחיים וניצחת! נושא הדגל מובלט בצבע של הצוות שלך, אל תתן לו למות!
-Player3HeadHome=עכשיו שחקן 3 החזר את הדגל הביתה בחיים וניצחת! נושא הדגל מובלט בצבע של הצוות שלך, אל תתן לו למות!
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=ברכות, ניצחת!
 PlayerLoses=חבל, הפסדת!

@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Pozor, hráč 3 je ve vaší zóně s vlajkou!
 Player2HasFlagWarning=Hráč 2 MÁ VAŠI VLAJKU, dostaňte jej!
 Player3HasFlagWarning=Hráč 3 MÁ VAŠI VLAJKU, dostaňte jej!
 
+;flags description (future use)
+CatchThisFlag=Zmocněte se této vlajky!
+FlagForPlayer2=Vlajka pro ukořistění zeleným hráčem.
+FlagForPlayer3=Vlajka pro ukořistění modrým hráčem.
+
 ;objective strings
-Player2HeadHome=Nyní se snažte vrátit živý zpět do své základny a můžete vyhrát! Váš vlajkonoš je zvýrazněný ve vaší týmové barvě, nenechte ho zemřít.
-Player3HeadHome=Nyní se snažte vrátit živý zpět do své základny a můžete vyhrát! Váš vlajkonoš je zvýrazněný ve vaší týmové barvě, nenechte ho zemřít.
+PlayerHeadHome=Sebrali jste vlajku. Nyní ji doneste domů a vyhrajete! Váš vlajkonoš je zvýrazněný ve vaší týmové barvě, nenechte ho zemřít.
 PlayerWins=Gratulujeme, vyhráli jste!
 PlayerLoses=Smůla, prohráli jste!

@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Speler 3 is in je vlag zone, kijk uit!
 Player2HasFlagWarning=Speler 2 HEEFT JOUW VLAG, vang hem!!
 Player3HasFlagWarning=Speler 3 HEEFT JOUW VLAG, vang hem!!
 
+;flags description (future use)
+CatchThisFlag=Pak deze vlag!
+FlagForPlayer2=De vlag die gepakt moet worden door de groene speler.
+FlagForPlayer3=De vlag die gepakt moet worden door de blauwe speler.
+
 ;objective strings
-Player2HeadHome=Speler 2, je kunt nu levend thuis komen en winnen! Je vlaggendrager licht op in de team kleur, laat hem/haar niet sterven.
-Player3HeadHome=Speler 3, je kunt nu levend thuis komen en winnen! Je vlaggendrager licht op in de team kleur, laat hem/haar niet sterven.
+PlayerHeadHome=Je hebt de vlag. Breng hem thuis en je wint! Je vlaggendrager licht op in de teamkleur, laat hem/haar niet sterven.
 PlayerWins=Gefeliciteerd, je hebt gewonnen!
 PlayerLoses=Jammer, je hebt verloren!

@@ -116,7 +116,7 @@
 						addAttackingEnemy('cudgel_lady', 30)
 						objective='Thirdwave';
 					elseif(objective=="Firstwave") then
-						addAttackingEnemy('cudgel_lady', 17)
+						addAttackingEnemy('cudgel_lady', 15)
 						objective='Secondwave';
 					end
 					if counterMode~='End' and counterMode~='FinishHim' then

@@ -1,0 +1,42 @@
+TUTORIAL_NAME=Ardchúrsa Teagaisc
+;message headers
+GlestAdvancedTutorial=Ardchúrsa Teagaisc MegaGlest
+Promoting=Aonaid a ardú
+WellDone=Maith thú!
+Summoning=Toghairm
+Energy=Fuinneamh
+Ritual=Deasghnáth
+Armies=Air
+
+;message strings
+Welcome=Fáilte go dtí an tArdchúrsa Teagaisc. Foghlaimeoidh tú roinnt de na gnéithe níos casta sa gcluiche.
+MagicBrief=Tá tú i gceannas ar an bhfaicsean Draíochta, dream a úsáideann draoithe agus créatúir thoghairthe chun troid a dhéanamh.
+InitiateBrief=Is é an Rúnpháirtí an bunaonad Draíochta. Is féidir le rúnpháirtí acmhainní a bhailiú agus struchtúir a thógáil.
+InitiatePromotion=Is féidir Rúnpháirtí a ardú go dtí Draoi Catha. Len é seo a dhéanamh, roghnaigh an Rúnpháirtí agus úsáid an t-ordú "Ardaigh go dtí Draoi Catha".
+BattlemageBrief=Is é an Draoi Catha an bunghaiscíoch Draíochta. Tá ionsaithe cumhachtacha fadraoin aige, chomh maith le luas agus frithsheasmhacht mhaith.
+EnergyBrief=Teastaíonn Fuinneamh uait chun aonaid Draíochta a tháirgeadh de ghnáth. Ní úsáidtear Fuinneamh go leanúnach mar a úsáidtear bia - níl sé de dhíth ach nuair a tháirgtear aonad nua. Tagann sé ó Fhoinsí Fuinnimh.
+EnergyBrief2=Déan cinnte go mbíonn go leor Fuinnimh agat chun aonaid nua a tháirgeadh.
+SummonedUnitsBrief=Is féidir leis an bhfaicsean Draíochta aonaid nua a tháirgeadh trí thoghairm freisin. Teastóidh Toghairtheoir uair len é seo a dhéanamh. Táirgtear i gCuallacht na dToghairtheoirí iad.
+SummonerBrief=Tá toghairtheoir in ann cineálacha éagsúla créatúr a chruthú. Is é an Daemón an cheann is bunúsaí.
+DaemonBrief=Tá an Daemón an-lag ar fad, ach an-saor freisin. Tá sé úsáideach mar throdaí neasraoin agus i gcomhair scabhtála.
+OtherSummonedCreatures=Tá toghairtheoir in ann créatúir níos airde a chruthú freisin, mar shampla Armúir Thaibhse agus Dragain, ach caithfidh tú taighde a dhéanamh ar na uasghráduithe feiliúnacha ar dtús.
+GhostArmorRequirements=Mar shampla, caithfidh tú taighde a dhéanamh ar Thoghairm Sheanársa chun Armúr Taibhse a tháirgeadh. Is féidir an taighde seo a dhéanamh i gCuallacht na dToghairtheoirí.
+GhostArmorBrief=Is aonad neasraoin meánleibhéil é an tArmúr Taibhse. Cabhraíonn sé leat gaiscígh an namhad a choinneáil amach ó do chuid Draoithe Catha.
+RitualBrief=Tá an dara hordú ag rúnpháirtithe, darb ainm Deasghnáth, a úsáidtear chun ardstruchtúir agus créatúir chumhachtacha, mar shampla an Golem, a chruthú. Caithfidh tú Leabharlann a thógáil ar dtús.
+GolemBrief=Aonad cumhachtach cosanta é an Golem. Tá ionsaí láidir aige, agus frithsheasmhacht mhaith, ach ní féidir leis bogadh mura bhfuil a dhóthain pointí fuinnimh aige.
+ArmyManagement=Nuair a bhíonn líon níos mó aonad agat, bíonn sé níos deacra iad go léir a rialú.
+DoubleClickBrief=Is féidir leat aonad amháin a dhéchliceáil chun na haonaid i ngar dó den chineál céanna a roghnú.
+GroupSelectBrief=Is féidir leat aonaid a ghrúpáil le chéile trí na cinn atá uait a roghnú, ansin Ctrl + uimhir éigin a bhrú. Ansin, ní gá duit ach an uimhir sin a bhrú arís chun an grúpa ar fad a roghnú.
+FinalMission=Mar chluiche na fola, caithfidh tú arm a thógáil agus do namhaid a chloí.
+
+;objective strings
+PromoteInitiate=Cuspóir: Rúnpháirtí a ardú go dtí Draoi Catha.
+ProduceSummoner=Cuspóir: Cuallacht na dToghairtheoirí a thógáil, ansin toghairtheoir a tháirgeadh.
+ProduceDaemon=Cuspóir: Daemón a thoghairm.
+ProduceGhostArmor=Cuspóir: Taighde a dhéanamh ar Thoghairm Sheanársa, ansin Armúr Taibhse a thoghairm.
+BuildEnergySource=Cuspóir: Foinse Fuinnimh a thógáil.
+ProduceGolem=Cuspóir: Leabharlann a thógáil, ansin rúnpháirtí a úsáid chun deasghnáth a dhéanamh agus Golem a thógáil.
+DefeatEnemy=Cuspóir: Arm a thógáil agus do namhaid a aimsiú a ruaigeadh.
+
+;end
+WellDoneNextScenarios=Maith thú! Anois is féidir leat dul ar aghaidh agus triail a bhaint as na cnámhscéalta bunleibhéil gan imní a bheith ort. Bain taitneamh as!
