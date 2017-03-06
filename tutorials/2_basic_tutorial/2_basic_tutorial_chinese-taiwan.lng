@@ -1,4 +1,4 @@
-# TUTORIAL_NAME=#2 Basic Tutorial
+TUTORIAL_NAME=游戲基礎教學
 ;message headers
 GlestBasicTutorial=游戲基礎教學
 WellDone=幹得好！
@@ -38,4 +38,4 @@ ProduceArcher=目標:生產一名弓箭手。
 ProduceMoreWarriors=目標：生產更多戰士，\n為即將而來的戰鬥做好准備。
 
 ;end
-# WellDoneNextTutorial=Good job! You can now proceed to the next tutorial.
+WellDoneNextTutorial=很好，你可以進入下一個教學了。
