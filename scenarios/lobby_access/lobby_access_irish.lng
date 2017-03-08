@@ -1,0 +1,6 @@
+SCENARIO_NAME=Cead isteach san Fhorsheomra
+
+m1=An bhfuil tú réidh?
+why=Faigh bua sa gcnámhscéal seo mar dheimhniú go bhfuil tú réidh do chluichí ilimreoirí ar líne.
+
+DESCRIPTION=Faigh bua sa gcnámhscéal seo mar dheimhniú go bhfuil tú\nréidh do chluichí ilimreoirí ar líne.

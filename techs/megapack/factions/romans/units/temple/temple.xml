@@ -1,9 +1,9 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="4" />
 		<height value="2" />
+		<ai-build-size value="6"/>
 		<max-hp value="9000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
@@ -11,12 +11,12 @@
 		<sight value="15" />
 		<time value="300" />
 		<multi-selection value="false" />
+		<max-unit-count value="4"/>
 		<cellmap value="true">
+			<row value="0110"/>
 			<row value="1111"/>
 			<row value="1111"/>
-			<row value="1111"/>
-			<row value="1111"/>
-
+			<row value="0110"/>
 		 </cellmap>
 		<levels/>
 		<fields>
@@ -48,10 +48,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -61,7 +58,6 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -71,7 +67,6 @@
 			<animation path="models/temple_build.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -81,7 +76,6 @@
 			<animation path="models/temple.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>
@@ -94,7 +88,6 @@
 			</particles>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -107,9 +100,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
 		<command>
 			<type value="upgrade"/>
@@ -120,7 +111,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="sign_of_mars"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_jupiter" />
@@ -130,7 +120,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="jupiter"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_bless_of_minerva" />
@@ -140,5 +129,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="bless_of_minerva"/>
 		</command>
-</commands>
+	</commands>
 </unit>

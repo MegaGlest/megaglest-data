@@ -2,10 +2,10 @@
 
 <faction>
 	<starting-resources>
-		<resource name="gold" amount="500"/>
+		<resource name="gold" amount="475"/>
 		<resource name="wood" amount="500"/>
 		<resource name="stone" amount="500"/>
-		<resource name="food" amount="500"/>
+		<resource name="food" amount="50"/>
 	</starting-resources>
 	<starting-units>
 		<unit name="pyramid" amount="1"/>
@@ -13,9 +13,43 @@
 		<unit name="slave" amount="3"/>
 		<unit name="spearman" amount="1"/>
 		<unit name="spearthrower" amount="1"/>
-		<unit name="chicken" amount="2"/>
+		<unit name="chicken" amount="3"/>
 		<unit name="priest" amount="1"/>
 	</starting-units>
 	<music value="true" path="music/asak-jadeflange.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="slave" minimum="8"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="spearthrower" minimum="2"/>
+			<unit name="chicken" minimum="6"/>
+			<unit name="spearman" minimum="1"/>
+			<unit name="priest" minimum="1"/>
+			<unit name="mummy" minimum="1"/>
+			<unit name="snake" minimum="3"/>
+			<unit name="chicken" minimum="16"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="farm" minimum="1"/>
+			<unit name="chicken" minimum="50"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="desert_camp" minimum="1"/>
+			<unit name="farm" minimum="1"/>
+			<unit name="temple" minimum="1"/>
+			<unit name="obelisk" minimum="1"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="spear_weapons"/>
+			<upgrade name="summon_scarab"/>
+			<upgrade name="summon_ibis"/>
+			<upgrade name="power_of_ra"/>
+		</upgrades>
+		<static-values>
+			<static type-name="MinMinWarriorsExpandCpuUltra" value="5"/>
+			<static type-name="MinMinWarriorsExpandCpuMega" value="12"/>
+		</static-values>
+	</ai-behavior>
 </faction>

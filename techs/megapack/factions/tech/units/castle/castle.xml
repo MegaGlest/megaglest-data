@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="5" />
 		<height value="2" />
@@ -10,7 +9,8 @@
 		<armor-type value="stone"/>
 		<sight value="15" />
 		<time value="300" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="11011"/>
 			<row value="00011"/>
@@ -50,10 +50,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -63,7 +60,6 @@
 			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -73,7 +69,6 @@
 			<animation path="construction_models/castle_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -83,7 +78,6 @@
 			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -106,10 +100,7 @@
 			<fade value="false"/>
 		</skill>
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_worker" />
@@ -119,6 +110,5 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="worker"/>
 		</command>
-
 	</commands>
 </unit>

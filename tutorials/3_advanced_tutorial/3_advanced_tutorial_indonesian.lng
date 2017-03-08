@@ -1,0 +1,42 @@
+TUTORIAL_NAME=Cara Bermain Kompleks
+;message headers
+GlestAdvancedTutorial=Cara Bermain Kompleks MegaGlest
+Promoting=Mengubah Unit
+WellDone=Bagus!
+Summoning=Memanggil
+Energy=Energi
+Ritual=Ritual
+Armies=Pasukan
+
+;message strings
+Welcome=Selamat datang ke Cara Bermain Kompleks MegaGlest, di sini Anda akan belajar hal yang lebih kompleks dari permainan ini.
+MagicBrief=Anda akan memerintah fraksi Sihir, yang memakai penyihir dan memanggil makhluk untuk berperang.
+InitiateBrief=Penyihir adalah unit Sihir dasar, mereka dapat mengumpulkan sumberdaya dan membangun bangunan.
+InitiatePromotion=Penyihir dapat diubah menjadi Penyihir Tempur, untuk melakukannya, pilih seorang Penyihir, dan gunakan perintah "Ubah ke Penyihir Tempur".
+BattlemageBrief=Penyihir Tempur adalah prajurit terutama Sihir, mereka memiliki serangan jarak jauh yang kuat dan juga kecepatan yang baik dan kekebalan yang baik.
+EnergyBrief=Unit Sihir biasanya membutuhkan Energi untuk dihasilkan, Energi tidak dikonsumsi seperti Makanan, melainkan hanya dibutuhkan saat unit dibuat. Energi dihasilkan oleh Sumber Energi.
+EnergyBrief2=Pastikan bahwa Anda memiliki cukup Energi untuk menghasilkan unit baru.
+SummonedUnitsBrief=Cara lain fraksi Sihir menghasilkan unit adalah dengan memanggil mereka. Anda akan membutuhkan Pemanggil untuk ini, mereka akan dihasilkan di Perkumpulan Pemanggil.
+SummonerBrief=Pemanggil dapat membuat beberapa tipe makhluk, yang paling dasar adalah Daemon.
+DaemonBrief=Daemon sangat lemah tapi juga sangat murah, mereka berguna sebagai prajurit jarak dekat dasar dan juga bagus untuk mengintai.
+OtherSummonedCreatures=Pemanggil dapat membuat makhluk lebih kompleks, seperti Baju Zirah Berhantu dan Naga, tetapi mereka membutuhkan Anda meriset peningkatan yang tepat.
+GhostArmorRequirements=Baju Zirah Berhantu membutuhkan peningkatan Panggilan Kuno, yang dapat diriset di Perkumpulan Pemanggil.
+GhostArmorBrief=Baju Zirah Berhantu adalah unit jarak dekat tingkat sedang, mereka berguna untuk menahan prajurit musuh agar tidak mendekat ke Penyihir Tempur Anda.
+RitualBrief=Penyihir memiliki perintah bangun kedua, bernama Ritual, berguna untuk membangun bangunan kompleks dan juga makhluk kuat seperti Golem. Anda akan membutuhkan perpustakaan untuk mengakses mereka.
+GolemBrief=Golem adalah unit pertahanan yang sangat kuat, mereka memiliki serangan kuat dan kekebalan yang sangat baik, tapi mereka hanya dapat berpindah bila masih memiliki cukup poin energi.
+ArmyManagement=Saat Anda menghasilkan unit lebih banyak, mereka akan menjadi sulit untuk dikelola.
+DoubleClickBrief=Dengan mengklik dua kali pada unit, Anda dapat memilih semua unit dengan tipe yang sama di sekelilingnya.
+GroupSelectBrief=Anda dapat mendefinisikan kumpulan unit dengan memilih mereka dan menekan Control dan tombol angka, lalu Anda dapat memanggil ulang grup dengan menekan nomor angka itu lagi.
+FinalMission=Sebagai ujian terakhir, sekarang Anda harus membuat sebuah pasukan dan menghancurkan musuh Anda.
+
+;objective strings
+PromoteInitiate=Tujuan: Ubah seorang Penyihir menjadi Penyihir Tempur.
+ProduceSummoner=Tujuan: Bangun sebuah Perkumpulan Pemanggil, lalu hasilkan seorang Pemanggil.
+ProduceDaemon=Tujuan: Panggil seekor Daemon.
+ProduceGhostArmor=Tujuan: Riset Panggilan Kuno, lalu panggil sebuah Baju Zirah Berhantu.
+BuildEnergySource=Tujuan: Bangun sebuah Sumber Energi
+ProduceGolem=Tujuan: Bangun Perpustakaan, lalu gunakan seorang Penyihir untuk melakukan sebuah ritual untuk membangun sebuah Golem.
+DefeatEnemy=Tujuan: Buat sebuah pasukan, temukan dan hancurkan musuh Anda.
+
+;end
+WellDoneNextScenarios=Bagus! Sekarang Anda tidak butuh khawatir untuk mencoba skenario dengan tingkat kesusahan rendah. Silahkan mencoba.

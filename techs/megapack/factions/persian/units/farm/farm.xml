@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="4" />
 		<height value="2" />
@@ -10,7 +9,9 @@
 		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="50" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
+		<max-unit-count value="5"/>
 		<cellmap value="true">
 			<row value="1101" />
 			<row value="0000" />
@@ -48,10 +49,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -62,7 +60,6 @@
 			<animation path="models/farm_constructing.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -72,7 +69,6 @@
 			<animation path="models/farm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -82,7 +78,6 @@
 			<animation path="models/farm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -99,8 +94,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
-                <skill>
+		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
@@ -109,12 +103,8 @@
 			<animation path="models/farm.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_sheep" />
@@ -124,8 +114,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="sheep"/>
 		</command>
-
-                <command>
+		<command>
 			<type value="upgrade"/>
 			<name value="research_corn_and_wicker"/>
 			<image path="../../upgrades/corn_and_wicker/images/cornandwicker.bmp"/>
@@ -134,6 +123,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="corn_and_wicker"/>
 		</command>
-
 	</commands>
 </unit>

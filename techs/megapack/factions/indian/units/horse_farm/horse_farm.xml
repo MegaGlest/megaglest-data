@@ -1,22 +1,18 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
-		<size value="4" />
+		<size value="3" />
 		<height value="2" />
+		<ai-build-size value="5"/>
 		<max-hp value="4000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="50" />
-		<multi-selection value="false" />
-		<cellmap value="true">
-			<row value="1110" />
-			<row value="1110" />
-			<row value="1110" />
-			<row value="1110" />
-		</cellmap>
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
+		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land" />
@@ -48,10 +44,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -61,7 +54,6 @@
 			<animation path="models/horsefarm_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -71,7 +63,6 @@
 			<animation path="models/horsefarm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -81,7 +72,6 @@
 			<animation path="models/horsefarm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -97,8 +87,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
-                <skill>
+		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
@@ -107,10 +96,7 @@
 			<animation path="models/horsefarm.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
 		<command>
 			<type value="produce"/>
@@ -121,7 +107,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="horseman"/>
 		</command>
-
 		<!--command>
 			<type value="produce"/>
 			<name value="produce_pig" />
@@ -131,7 +116,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="pig"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_cow" />
@@ -141,7 +125,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="cow"/>
 		</command-->
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_bull" />
@@ -151,8 +134,7 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="bull"/>
 		</command>
-
-                <command>
+		<command>
 			<type value="upgrade"/>
 			<name value="research_stables"/>
 			<image path="../../upgrades/stables/images/stables.bmp"/>
@@ -161,6 +143,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="stables"/>
 		</command>
-
 	</commands>
 </unit>

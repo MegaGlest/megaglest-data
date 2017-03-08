@@ -3,15 +3,16 @@
 	<parameters>
 		<size value="4" />
 		<height value="2" />
+		<ai-build-size value="6"/>
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="metal"/>
 		<sight value="6" />
 		<time value="100" />
-		<multi-selection value="false" />
-		<cellmap value="false">
-		</cellmap>
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
+		<cellmap value="false"/>
 		<levels/>
 		<fields>
 			<field value="land" />
@@ -41,7 +42,6 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
 	<skills>
 		<skill>
 			<type value="stop"/>
@@ -52,7 +52,6 @@
 			<animation path="models/ehouse.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -62,7 +61,6 @@
 			<animation path="models/ehouse_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -72,7 +70,6 @@
 			<animation path="models/ehouse.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -82,7 +79,6 @@
 			<animation path="models/ehouse.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -95,11 +91,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_elephant" />
@@ -109,6 +102,5 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="elephant"/>
 		</command>
-
 	</commands>
 </unit>

@@ -1,0 +1,6 @@
+SCENARIO_NAME=Přístup do čekárny
+
+m1=Jste připraveni?
+why=Vyhrajte tento scénář a dokažte, že jste připraveni pro internetovou hru více hráčů.
+
+DESCRIPTION=Vyhrajte tento scénář a dokažte, že jste připraveni\npro internetovou hru více hráčů.

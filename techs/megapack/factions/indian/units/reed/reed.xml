@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="5" />
 		<height value="2" />
@@ -12,11 +11,11 @@
 		<time value="50" />
 		<multi-selection value="false" />
 		<cellmap value="true">
-			<row value="11011" />
+			<row value="01010" />
 			<row value="10001" />
 			<row value="10001" />
 			<row value="10001" />
-			<row value="11011" />
+			<row value="01010" />
 		</cellmap>
 		<levels/>
 		<fields>
@@ -37,7 +36,6 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/reed.bmp"/>
-
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
@@ -47,10 +45,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-		<!-- *** skill 0 *** -->
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -61,8 +56,6 @@
 			<animation path="models/reed_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 1 *** -->
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -72,8 +65,6 @@
 			<animation path="models/reed.g3d" />
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 2 *** -->
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -90,7 +81,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-                <skill>
+		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
@@ -99,12 +90,9 @@
 			<animation path="models/reed.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-                <command>
+		<command>
 			<type value="upgrade"/>
 			<name value="research_bull_food"/>
 			<image path="../../upgrades/bull_food/images/bullfood.bmp"/>

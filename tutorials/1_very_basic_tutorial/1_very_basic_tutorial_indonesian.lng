@@ -1,0 +1,77 @@
+TUTORIAL_NAME=#1 Cara Bermain Dasar
+;message headers
+GlestBasicTutorial=Cara Bermain Dasar MegaGlest
+WellDone=Bagus!
+Resources=Sumberdaya
+Combat=Pertarungan
+Buildings=Bangunan
+Tricks=Trik
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Selamat datang ke cara bermain dasar MegaGlest.
+
+FirstThing=Tampilan: Untuk mengatur area yang terlihat, gerakkan mouse pointer Anda ke ujung layar Anda, atau gunakan tombol kursor. Cara lain untuk melakukan ini adalah dengan klik kiri pada peta (bagian kiri atas layar Anda).
+
+WillBeUsingIndian=Di perkenalan ini, Anda akan memerintah indian. Fraksi indian bertarung dengan pemanah dan senjata sederhana.
+
+NeedWorkers=Pertama kita butuh seorang pekerja. Untuk mendapatnya, klik kiri pada Kemahutama dan mulai melatih pekerja Anda. Untuk melakukannya, gunakan perintah 'Hasilkan Pekerja' dengan mengklik pada ikon pekerja.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Sekarang klik kiri pekerja Anda. Detil di atas unit terpilih yaitu nama unit dan sebuah gambar, sekarang terlihat di kanan atas layar Anda. Di bawah ini ada nyawa, zirah, dan, di dalam kurung, tipe zirah dan jarak pandang terdaftar.
+Select2=Jika ini adalah unit untuk bertarung, angka dari jumlah unit musuh yang telah dibunuhnya terdaftar di samping. Jika unit ini mengkonsumsi sumberdaya, hal ini terlihat di tempat ini. Di bawah ini, tertulis apa yang unit ini sedang lakukan.
+
+ExampleWorker=Sebagai contoh, pekerja Anda punya 600 nyawa, 0 zirah kulit dan jarak pandang 9. Keadaannya sekarang adalah "berhenti", jadi dia tidak melakukan apapun.
+
+Command=Kemampuan unit ini terdaftar di bawah. Kita sekarang akan mempelajari semua perintah yang pekerja dapat lakukan.
+
+FirstCommand=Ikon perintah pertama adalah 'berhenti'. Jika Anda mengeklik ikon ini, semua pekerja akan langsung berhenti dari apa yang dia sedang lakukan saat itu. Semua unit (yang bukan bangunan) disediakan perintah ini.
+
+SecondCommand=Ikon perintah kedua adalah 'pindah'. Jika Anda mengkliknya, Anda butuh mengklik lagi di tanah atau unit lain di samping destinasi untuk menentukan destinasinya. Cara singkat perintah ini adalah hanya dengan mengklik kanan pada posisi target.
+SecondCommand2=Saat Anda meletakkan mouse pointer Anda di atas ikon perintah 'pindah', kecepatan perpindahan pekerja akan ditampilkan. Perintah ini, juga tersedia pada semua unit (kecuali bangunan).
+
+TestSecondCommand=Cobalah perintah "pindah" sekarang. Pindahkan pekerja Anda ke pekerja lain yang sedang menunggu di luar kemah. Pekerja lain ini ditampilkan di peta (kiri atas) sebagai sebuah titik merah. Segitiga putih di peta menandakan tampilan Anda sekarang/posisi kamera. Titik merah besar itu adalah Kemahutama Anda.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Bagus. Sekarang buat kedua pekerja kembali ke Kemahutama. Untuk memilih banyak unit, tekan shift dan gambar sebuah kotak seleksi di sekeliling unit Anda ATAU ...
+MoveBack2=... tahan tombol shift, lalu gunakan mouse Anda untuk mengeklik semua unit yang ingin Anda pilih ATAU ...
+MoveBack3=... klik dua kali sebuah unit untuk memilih semua unit terdekat dengan tipe yang sama (dalam hal ini pekerja).
+HarvestGoldandStone=Saat unit Anda sudah sampai di rumah Anda, kita akan menggunakan ikon perintah keempat yang berarti untuk mengumpulkan emas dan batu.
+HarvestGoldandStone2=Letakkan mouse pointer di atas ikon perintah untuk melihat seberapa cepat pekerja Anda dapat mengumpulkan, berapa banyak tiap pekerja dapat kumpulkan, seberapa cepat mereka dapat berjalan saat membawa sumberdaya dan sumberdaya apa saja yang mereka dapat kumpukan.
+UseHarvestGoldandStone=Untuk menggunakan perintah ini, pertama klik pada ikon perintah, lalu pada sumberdaya yang Anda ingin kumpulkan. Tumpukan abu-abu dengan bintik kuning adalah emas, yang tidak ada bintik kuning adalah batu.
+HarvestGoldandStone3=Sekarang gali emas dan batu sampai Anda memiliki total 600 emas dan 550 batu. Anda juga dapat menghasilkan pekerja baru untuk melakukannya (tapi mereka akan mengurangi emas, juga). Cek bagian atas layar untuk mempelajari berapa sumberdaya yang Anda punya dan sekarang disimpan.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Sekarang yang Anda butuhkan adalah sedikit kayu. Untuk mendapatnya, gunakan ikon perintah kelima. Ini juga sebuah perintah mengumpulkan jadi Anda dapat memakainya dengan cara yang sama dengan emas dan batu.
+ResourceInformation=Ngomong-ngomong, fraksi indian kebanyakan membutuhkan emas dan kayu.
+GetWood=Sebagai bantuan lain. Anda dapat mempercepat perintah mengumpulkan apapun dengan memilih pekerja, lalu klik kanan ke sebuah lokasi dimana sumberdaya ini tersedia (jadi untuk kayu dalam hal ini). Jika hal ini berhasil dilakukan, sebuah panah kuning akan muncul. Sekarang kumpulkan kayu sampai Anda memiliki 550 kayu di penyimpanan.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Saat Anda memilih sebuah bangunan, sebuah panah biru terlihat. Panah ini dipanggil "titik perkumpulan". Semua unit yang Anda hasilkan di bangunan ini akan berpindah ke tempat ini langsung saat mereka muncul.
+UseMeetingPoint=Anda juga dapat memindahkan titik perkumpulan, juga. Klik pada ikon bendera, lalu pada posisi titik perkumpulan baru berada. Ini, juga, Anda dapat mempercepat ini dengan hanya mengklik kanan di lokasi baru (sama seperti yang Anda dapat lakukan untuk berjalan).
+MeetingPoint2=Jika Anda meletakkan titik perkumpulan pada sumberdaya, pekerja baru yang diproduksi akan langsung mulai mengumpulkan di sana. Pastikan Anda mengenai bagian tepat, atau pekerja Anda akan hanya berdiri di sekeliling dan masuk ke dalam jalur.
+Thirdcommand=Sekarang untuk ikon perintah pekerja ketiga - ini adalah perintah 'bangun'.
+Thirdcommand2=Dengan mengekliknya Anda akan memasuki menu bangun. Jika Anda meletakkan mouse pointer Anda di atas satu ikon banguanan Anda akan dapat melihat, hal di bawah, terdaftar di bawah "kebutuhan", semua sumberdaya dan pencapaian yang Anda butuhkan untuk itu.
+Thirdcommand3=Jika Anda meletakkan mouse pointer Anda di atas tenda, Anda akan melihat bahwa tenda memakai 30 emas, 50 kayu, -10 rumah dan sebuah kemah utama. "-10 rumah" berarti bahwa membangun tenda, akan memberi Anda tambahan 10 sumberdaya rumah (tetapi beberapa unit membutuhkan lebih dari satu rumah).
+Thirdcommand4=Mari bangun sebuah tenda. Klik pada menu bangun, lalu klik pada tenda, dan letakkan tenda di tempat kosong.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=Sekarang Anda dapat melatih petarung berstik di tenda baru Anda.
+
+;objective strings
+ProduceWorker=Tujuan: Latih satu pekerja.
+ProduceStickfighter2=Tujuan: Latih satu petarung berstik.
+MoveWorker=Tujuan: Pindahkan pekerja baru Anda ke pekerja lain yang sedang menunggu di luar kemah.
+HarvestGoldandStoneobjective=Tujuan: Kumpulkan emas dan batu sampai Anda memiliki total 600 emas dan 550 batu.
+GetWoodob=Tujuan: Kumpulkan kayu sampai Anda memiliki 550.
+UseThirdCommand=Tujuan: Bangun sebuah tenda. Bantuan: Jika tenda berubah menjadi merah, itu berarti tempat itu sedang (atau biasanya) sudah terpakai (seperti oleh unit lain atau sebuah pohon).
+
+;end
+
+WellDoneNextTutorial=Bagus! Sekarang Anda dapat melanjutkan ke cara bermain selanjutnya.

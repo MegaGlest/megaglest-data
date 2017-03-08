@@ -1,16 +1,17 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="3"/>
 		<height value="3"/>
+		<ai-build-size value="7"/>
 		<max-hp value="7000" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
 		<armor-type value="stone"/>
 		<sight value="10" />
 		<time value="100" />
-		<multi-selection value="false"/>
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="101"/>
 			<row value="000"/>
@@ -47,8 +48,6 @@
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
 		<skill>
 			<name value="be_built_skill"/>
@@ -59,7 +58,6 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -69,7 +67,6 @@
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>
@@ -79,7 +76,6 @@
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -89,7 +85,6 @@
 			<animation path="models/summoner_guild.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -102,11 +97,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_summoner"/>
@@ -116,7 +108,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="summoner"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_ancient_summoning" />
@@ -126,6 +117,18 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="ancient_summoning"/>
 		</command>
-
+		<command>
+			<type value="upgrade"/>
+			<name value="speed_up_movement" />
+			<image path="../../upgrades/faster_movement/images/faster_movement.bmp" />
+			<unit-requirements>
+				<unit name="summoner"/>
+			</unit-requirements>
+			<upgrade-requirements>
+				<upgrade name="hell_gate"/>
+			</upgrade-requirements>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="faster_movement"/>
+		</command>
 	</commands>
 </unit>

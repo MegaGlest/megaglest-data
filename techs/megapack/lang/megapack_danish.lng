@@ -1,0 +1,616 @@
+; TechTree
+TechTreeName=Megapack
+; -------------------------------------
+; Types of Armor
+ArmorTypeName_organic=organisk
+ArmorTypeName_leather=læder
+ArmorTypeName_wood=træ
+ArmorTypeName_metal=metal
+ArmorTypeName_stone=sten
+; --------------------
+; Types of Attack
+AttackTypeName_slashing=Svingende
+AttackTypeName_piercing=gennemboring
+AttackTypeName_impact=Kollision
+AttackTypeName_energy=energi
+AttackTypeName_sword=sværd
+AttackTypeName_arrow=pil
+AttackTypeName_magic=magi
+AttackTypeName_beat=Slå
+; --------------------
+; Types of Resources
+ResourceTypeName_energy=energi
+ResourceTypeName_food=mad
+ResourceTypeName_gold=guld
+ResourceTypeName_housing=Boliger
+ResourceTypeName_stone=sten
+ResourceTypeName_wood=træ
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_egypt=Eqypten
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=Ra's kræfter!
+UpgradeTypeName_spear_weapons=Spyd våben
+UpgradeTypeName_speedup_priest_production=Forbedr præste træning
+UpgradeTypeName_summon_ibis=Hidhald Ibis!
+UpgradeTypeName_summon_scarab=Hidkald scarab
+; -------------------------------------
+UnitTypeName_air_pyramid=luft pyramide
+; --------------------
+LevelName_elite=elite
+; --------------------
+CommandName_attack_off=Angreb slået fra
+CommandName_attack_on=Angreb slået til
+; -------------------------------------
+UnitTypeName_anubis_warrior=Anubis kriger
+; --------------------
+LevelName_ancient=oldtid
+; --------------------
+CommandName_stop=stop
+CommandName_move=flyt
+CommandName_attack=angrib
+; -------------------------------------
+UnitTypeName_chicken=kylling
+; -------------------------------------
+UnitTypeName_desert_camp=Ørken lejr
+; --------------------
+CommandName_produce_spearthrower=Træn spydkaster
+CommandName_produce_spearman=Træn spydmænd
+CommandName_upgrade_spear_weapons=Opgrader spydvåben
+; -------------------------------------
+UnitTypeName_farm=Farm
+; --------------------
+CommandName_produce_chicken=Producer kyllinger
+; -------------------------------------
+UnitTypeName_ibis=Ibis
+; --------------------
+CommandName_hold_position=Hold position
+; -------------------------------------
+UnitTypeName_mummy=Mumie
+; -------------------------------------
+UnitTypeName_obelisk=Obelisk
+; --------------------
+CommandName_produce_scarab=Træn scarab
+CommandName_produce_snake=Træn slange
+CommandName_produce_ibis=Træn Ibis
+; -------------------------------------
+UnitTypeName_priest=Præst
+; --------------------
+CommandName_speedup_priest_production=Forbedr præste træning
+CommandName_heal=Heal
+CommandName_produce_mummy=Træn mumie
+CommandName_produce_anubis_warrior=Træn anubis kriger
+CommandName_ice_nova=Is explosion
+; -------------------------------------
+UnitTypeName_pyramid=pyramide
+; --------------------
+CommandName_produce_slave=Træn slave
+; -------------------------------------
+UnitTypeName_scarab=Scarab
+; --------------------
+LevelName_expert=ekspert
+LevelName_master=Herer
+LevelName_legendary=legendarisk
+; --------------------
+# CommandName_dung_attack=dung attack
+; -------------------------------------
+UnitTypeName_slave=slave
+; --------------------
+CommandName_build_basic=Basis konstruktion
+CommandName_repair=Reperer
+CommandName_mine=Mine
+CommandName_harvest_wood=Høst træ
+; -------------------------------------
+UnitTypeName_snake=slange
+; --------------------
+CommandName_poison_shot=giftskud
+; -------------------------------------
+UnitTypeName_spearman=spydman
+; -------------------------------------
+UnitTypeName_spearthrower=spydkaster
+; -------------------------------------
+UnitTypeName_sphinx=Sphinx
+; -------------------------------------
+UnitTypeName_temple=tempel
+; --------------------
+CommandName_produce_priest=Træn præst
+CommandName_research_scarab=Scarab forskning
+CommandName_research_ibis=Ibis forskning
+CommandName_get_power_of_ra=Få ra's kræfter
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_indian=Indianer
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=Avanceret Jern
+UpgradeTypeName_bull_food=Tyre foder
+UpgradeTypeName_iron=jern
+UpgradeTypeName_petroleum=Petroleum
+UpgradeTypeName_stables=stalde
+UpgradeTypeName_training_field=Trænings mark
+; -------------------------------------
+UnitTypeName_archer=bueskytte
+; -------------------------------------
+UnitTypeName_axe_indian=Økse indianer
+; -------------------------------------
+UnitTypeName_axe_thrower=øksekaster
+; -------------------------------------
+UnitTypeName_beehive=Bikube
+; -------------------------------------
+UnitTypeName_big_tent=Stort telt
+; --------------------
+CommandName_produce_stickfighter=Træn kæpkriger
+CommandName_produce_archer=Træn buesskytte
+; -------------------------------------
+UnitTypeName_bull=tyr
+; -------------------------------------
+UnitTypeName_campfire=Bålild
+; --------------------
+CommandName_produce_fire_golem=Producer flamme golem
+CommandName_research_iron=Jern forskning
+CommandName_research_advanced_iron=avanceret jern forskning
+; -------------------------------------
+UnitTypeName_fire_archer=ild bueskytte
+; -------------------------------------
+UnitTypeName_fire_golem=Flame golem
+; -------------------------------------
+UnitTypeName_horse_farm=Heste farm
+; --------------------
+CommandName_produce_horseman=Træn heste kriger
+CommandName_produce_bull=Træn tyr
+CommandName_research_stables=Stald Forskning
+; -------------------------------------
+UnitTypeName_horseman=Heste kriger
+; -------------------------------------
+UnitTypeName_main_teepee=Hoved tipii
+; --------------------
+CommandName_produce_worker=Træn arbejder
+; -------------------------------------
+UnitTypeName_reed=Siv
+; --------------------
+CommandName_research_bull_food=Tyrefoder forskning
+; -------------------------------------
+UnitTypeName_round_tent=Rundtelt
+; --------------------
+CommandName_produce_axe_indian=Træn økse indianer
+CommandName_produce_axe_thrower=Træn øksekaster
+CommandName_produce_fire_archer=Træn Ild bueskytter
+CommandName_create_training_field=Skab trænings mark
+; -------------------------------------
+UnitTypeName_shaman=shaman
+; --------------------
+CommandName_molotov=molotov
+CommandName_produce_thunderbird=Træn Tordenfugl
+CommandName_build_beehive=Konstruer bikube
+; -------------------------------------
+; Unit > spearman
+; --------------------
+LevelName_guardian=beskytter
+LevelName_chief=Høvding
+; -------------------------------------
+UnitTypeName_stickfighter=Kæp kriger
+; -------------------------------------
+UnitTypeName_tent=Telt
+; -------------------------------------
+UnitTypeName_thunderbird=tordenfugl
+; --------------------
+CommandName_throw=kast
+# CommandName_breath=breath
+; -------------------------------------
+UnitTypeName_totem=Totem
+; --------------------
+# CommandName_air_on=air on
+CommandName_research_petroleum=petroleums forskning
+CommandName_produce_shaman=Træn shaman
+; -------------------------------------
+UnitTypeName_worker=arbejder
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_magic=Magi
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=Old hidkadelse
+UpgradeTypeName_dragon_call=Drage kald
+UpgradeTypeName_energy_compression=Energi komprimering
+UpgradeTypeName_energy_sharpening=Energi skærpelse
+# UpgradeTypeName_faster_movement=faster movement
+UpgradeTypeName_golem_power=Golem kræfter
+UpgradeTypeName_hell_gate=helvedsport
+; -------------------------------------
+UnitTypeName_archmage=Ærke magiker
+; --------------------
+CommandName_static_fire=statisk ild
+; -------------------------------------
+UnitTypeName_archmage_tower=Ærke magiker tårn
+; --------------------
+CommandName_research_dragon_call=Dragekalds forskning
+CommandName_golem_power=Golem kræfter
+; -------------------------------------
+UnitTypeName_battlemage=Kamp magiker
+; --------------------
+CommandName_fire_bolt=Ild kugle
+CommandName_promote_to_archmage=Forfrem til ærke magiker
+; -------------------------------------
+UnitTypeName_behemoth=Kæmpe
+; -------------------------------------
+UnitTypeName_daemon=Dæmon
+; -------------------------------------
+# UnitTypeName_dragon_rider=dragon rider
+; --------------------
+# CommandName_fire_breath=fire breath
+# CommandName_flare=flare
+; -------------------------------------
+UnitTypeName_dragon=drage
+; --------------------
+CommandName_promote_to_evil_dragon=Forfrem til ond drage
+; -------------------------------------
+UnitTypeName_energy_source=Energikilde
+; -------------------------------------
+UnitTypeName_evil_dragon=Ond drage
+; -------------------------------------
+UnitTypeName_ghost_armor=Spøgelses rustning
+; -------------------------------------
+UnitTypeName_golem=Golem
+; --------------------
+CommandName_promote_to_power_golem=Forfrem til kræft golem
+; -------------------------------------
+UnitTypeName_initiate=Indviet
+; --------------------
+CommandName_build=Konstruer
+CommandName_ritual=Ritual
+CommandName_harvest=Høst
+CommandName_promote_to_battlemage=Forfrem til kampmagiker
+; -------------------------------------
+UnitTypeName_library=Bibliotek
+; --------------------
+CommandName_research_energy_compression=Energi komprimerings forskning
+CommandName_research_energy_sharpening=Energi form forskning
+CommandName_research_hell_gate=Helvedesport forskning
+; -------------------------------------
+UnitTypeName_mage_tower=Magiker tårn
+; --------------------
+CommandName_produce_initiate=Træn inviet
+; -------------------------------------
+UnitTypeName_power_golem=Kræft golem
+; -------------------------------------
+UnitTypeName_summoner=Hidkalder
+; --------------------
+CommandName_summon_daemon=Hidkald dæmon
+CommandName_summon_ghost_armor=Hidkald spøgelses kriger
+CommandName_summon_dragon=Hidkald drage
+# CommandName_summon_wingless_dragon=summon wingless dragon
+; -------------------------------------
+# UnitTypeName_summoner_guild=summoner guild
+; --------------------
+CommandName_produce_summoner=Træn hidkalder
+CommandName_research_ancient_summoning=Old-hidkaldelses forskning
+# CommandName_speed_up_movement=speed up movement
+; -------------------------------------
+UnitTypeName_tower_of_souls=Sjæle tårnet
+; -------------------------------------
+# UnitTypeName_wicker_behemoth=wicker behemoth
+; --------------------
+# CommandName_promote_to_behemoth=promote to behemoth
+; -----------------------------------------------------------------------------
+; Faction
+# FactionName_norsemen=norsemen
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_arrow=Pil
+UpgradeTypeName_holy_valkyrie=Hellig valkyrie
+UpgradeTypeName_mead=Mjød
+UpgradeTypeName_root=Rødder
+; -------------------------------------
+UnitTypeName_battleaxe=Kampøkse
+; --------------------
+CommandName_promote_to_battleaxe_berserk=Forfrem til kampøkse bersærker
+; -------------------------------------
+UnitTypeName_battleaxe_berserk=Kampøkse bersærker
+; -------------------------------------
+UnitTypeName_blacksmith=Smed
+; --------------------
+CommandName_upgrade_iron=Opgraderings ikon
+CommandName_upgrade_arrow=Opgrader pile
+CommandName_upgrade_advanced_iron=Opgrader avanceret jern
+CommandName_produce_crossbow=Producer armbryst
+; -------------------------------------
+UnitTypeName_bone_tent=Knogle telt
+; --------------------
+CommandName_produce_swordman=Træn sværdmand
+CommandName_produce_battleaxe=Træn kampøkse
+; -------------------------------------
+UnitTypeName_castle=Slot
+; --------------------
+CommandName_produce_thrall=Træn træll
+; -------------------------------------
+UnitTypeName_cow=ko
+; -------------------------------------
+UnitTypeName_crossbow=Armbrøst
+; --------------------
+CommandName_attack_arrow=Angrebs pil
+; -------------------------------------
+# UnitTypeName_cudgel_lady=cudgel lady
+; --------------------
+# CommandName_cudgel=cudgel
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_cow=Producer ko
+; -------------------------------------
+UnitTypeName_flying_valkyrie=Flyvende valkyrie
+; -------------------------------------
+UnitTypeName_house=Hus
+; --------------------
+# CommandName_produce_cudgel_lady=produce cudgel lady
+; -------------------------------------
+UnitTypeName_mead_bar=Mjød bar
+; --------------------
+CommandName_research_mead=Mjød forskning
+; -------------------------------------
+UnitTypeName_mistletoe_tree=Mistle te's træ
+; --------------------
+CommandName_research_root=Rod forskning
+CommandName_resurrect_wild_sow=Genopliv vild sow
+; -------------------------------------
+; Unit > spearman
+; --------------------
+CommandName_promote_to_spearman_berserk=Forfrem til spyd bersærker
+; -------------------------------------
+UnitTypeName_spearman_berserk=Spyd bersærker
+; -------------------------------------
+UnitTypeName_swordman=Sværdmand
+; --------------------
+CommandName_promote_to_swordman_berserk=Forfrem til sværd bersærker
+; -------------------------------------
+UnitTypeName_swordman_berserk=Bersærker
+; -------------------------------------
+UnitTypeName_thor=Thor
+; --------------------
+LevelName_advanced=Avanceret
+; -------------------------------------
+UnitTypeName_thor_totem=Thor totem
+; --------------------
+CommandName_build_thor=Træn thor
+; -------------------------------------
+UnitTypeName_thrall=Træll
+; -------------------------------------
+UnitTypeName_valhalla=Vahalla
+; --------------------
+CommandName_produce_flying_valkyrie=Træn flyvende valkyrie
+CommandName_produce_valkyrie=Træn valkyrie
+CommandName_research_holy_valkyrie=Hellig valyrie forskning
+; -------------------------------------
+UnitTypeName_valkyrie=valkyrie
+; --------------------
+CommandName_airattack=luft angreb
+; -------------------------------------
+UnitTypeName_wild_sow=vild sow?
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_persian=Perser
+; -------------------------------------
+; Types of Upgrades for this Faction
+# UpgradeTypeName_corn_and_wicker=corn and wicker
+UpgradeTypeName_magic_level_1=Magi niveau 1
+UpgradeTypeName_magic_level_2=Magi Niveau 2
+UpgradeTypeName_nails=Søm
+UpgradeTypeName_shield=Skjold
+UpgradeTypeName_weapons=Våben
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_weapons=Upgrader våben
+CommandName_upgrade_nails=Upgrader søm
+CommandName_upgrade_shield=Upgrader skjolde
+; -------------------------------------
+UnitTypeName_elephant=Elefant
+; -------------------------------------
+UnitTypeName_elephant_cage=Elefant bur
+; --------------------
+CommandName_produce_elephant=Træn elefant
+; -------------------------------------
+UnitTypeName_fakir=fakir
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_sheep=Producer får
+# CommandName_research_corn_and_wicker=research corn and wicker
+; -------------------------------------
+UnitTypeName_flying_carpet=Flyvende tæppe
+; --------------------
+CommandName_magic_attack=magisks angreb
+; -------------------------------------
+UnitTypeName_genie=Ånd
+; -------------------------------------
+; Unit > house
+; --------------------
+CommandName_produce_fakir=Træn fakir
+; -------------------------------------
+UnitTypeName_magician=magiker
+; --------------------
+CommandName_build_snake_basket=Byg slangekurv
+; -------------------------------------
+UnitTypeName_minaret=Minaret
+; -------------------------------------
+UnitTypeName_palace=Palads
+; -------------------------------------
+UnitTypeName_princess=prinsesse
+; -------------------------------------
+UnitTypeName_sheep=Får
+; -------------------------------------
+UnitTypeName_snake_basket=Slange kurv
+; -------------------------------------
+; Unit > temple
+; --------------------
+CommandName_produce_princess=Trøn prinsesse
+; -------------------------------------
+; Unit > tent
+; --------------------
+CommandName_produce_genie=Træn ånd
+CommandName_produce_flying_carpet=Producer flyvende tæppe
+CommandName_produce_magician=Træn magiker
+CommandName_upgrade_magic_level_1=Opgrader magi niveau 1
+CommandName_upgrade_magic_level_2=Opgrader magi niveau 2
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_romans=Romere
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=Avanceret arkitektur
+UpgradeTypeName_bless_of_minerva=Minaret velsignelse
+UpgradeTypeName_enlarge_shields=Forstør skjolde
+UpgradeTypeName_formations=Formationer
+UpgradeTypeName_jupiter=jupiter
+UpgradeTypeName_reinforce_armor=Forstærk rustning
+UpgradeTypeName_sharpen_points=Skærp spidser
+# UpgradeTypeName_sign_of_mars=sign of mars
+UpgradeTypeName_strengthen_swords=Forstærk sværd
+; -------------------------------------
+; Unit > archer
+; --------------------
+CommandName_get_fire_arrows=Få ildpile
+; -------------------------------------
+UnitTypeName_axe_man=Øksemand
+; -------------------------------------
+UnitTypeName_ballista=Ballista
+; -------------------------------------
+UnitTypeName_battering_ram=Rambuk
+; --------------------
+CommandName_attack_land=Angrib land
+CommandName_attack_air=Angrib luft
+; -------------------------------------
+UnitTypeName_blacksmith_shop=Smede værksted
+; --------------------
+CommandName_strengthen_swords=Forstærk sværd
+CommandName_sharpen_points=Skærp spidser
+CommandName_reinforce_armor=Forstærk rustning
+CommandName_enlarge_shields=Forstør skjolde
+; -------------------------------------
+UnitTypeName_catapult=katapult
+; --------------------
+CommandName_fire_ball=Ild kugle
+; -------------------------------------
+UnitTypeName_cavalry=Kavaleri
+; --------------------
+# CommandName_promote_to_tribune=promote to tribune
+; -------------------------------------
+# UnitTypeName_eagle_pillar=eagle pillar
+; -------------------------------------
+; Unit > fire archer
+; --------------------
+# LevelName_accurate=accurate
+; -------------------------------------
+# UnitTypeName_forum=forum
+; -------------------------------------
+UnitTypeName_general=General
+; --------------------
+LevelName_esteemed=Ærede
+LevelName_grand=Grand
+; -------------------------------------
+UnitTypeName_gladiator=Gladiator
+; -------------------------------------
+UnitTypeName_gladiator_school=Gladiator akademi
+; --------------------
+CommandName_train_gladiator=Træn gladiator
+CommandName_produce_axe_man=Træn øksemand
+; -------------------------------------
+UnitTypeName_guard=Vagt
+; -------------------------------------
+UnitTypeName_guard_tower=Vagt tårn
+; -------------------------------------
+UnitTypeName_military_camp=Militær Lejr
+; --------------------
+CommandName_produce_cavalry=Træn kavaleri
+CommandName_produce_turtle_formation=Træn skildpadde tropper
+CommandName_produce_general=Træn general
+CommandName_produce_mechanic=Træn mekaniker
+CommandName_upgrade_advanced_architecture=Opgrader avanceret arkitektur
+CommandName_upgrade_formations=Opgrader formation
+; -------------------------------------
+UnitTypeName_swordsman=Sværdsmand
+; -------------------------------------
+; Unit > temple
+; --------------------
+# CommandName_research_sign_of_mars=research sign of mars
+# CommandName_research_jupiter=research jupiter
+# CommandName_upgrade_bless_of_minerva=upgrade bless of minerva
+; -------------------------------------
+UnitTypeName_training_camp=Trænings lejr
+; --------------------
+CommandName_produce_guard=Træn vagt
+CommandName_produce_swordsman=Træn sværsmand
+; -------------------------------------
+# UnitTypeName_tribune=tribune
+; -------------------------------------
+# UnitTypeName_turtle_formation=turtle formation
+; -------------------------------------
+UnitTypeName_wartime_mechanic=Krigstids mekaniker
+; --------------------
+CommandName_build_catapult=Konstruer catapult
+# CommandName_build_battering_ram=build battering ram
+# CommandName_build_ballista=build ballista
+; -----------------------------------------------------------------------------
+; Faction
+# FactionName_tech=tech
+; -------------------------------------
+; Types of Upgrades for this Faction
+# UpgradeTypeName_blade_weapons=blade weapons
+# UpgradeTypeName_piercing_weapons=piercing weapons
+UpgradeTypeName_robotics=Robot teknik
+UpgradeTypeName_shield_level_1=Skjold niveau 1
+UpgradeTypeName_shield_level_2=Skjold niveau 2
+; -------------------------------------
+# UnitTypeName_aerodrome=aerodrome
+; --------------------
+CommandName_produce_ornithopter=Konstruer ornithopter
+CommandName_produce_airship=Konstruer luftskib
+; -------------------------------------
+UnitTypeName_air_ballista=Luft balista
+; -------------------------------------
+UnitTypeName_airship=Luftskib
+; --------------------
+CommandName_missile=Missil
+; -------------------------------------
+UnitTypeName_barracks=Barrak
+; -------------------------------------
+UnitTypeName_battle_machine=Kamp maskine
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_blade_weapons=Opgrader skarpe våben
+CommandName_upgrade_piercing_weapons=Opgrader gemmeborende våben
+; -------------------------------------
+UnitTypeName_defense_tower=Defensivt tårn
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_pig=Producer gris
+; -------------------------------------
+UnitTypeName_ornithopter=Ornithopter
+; --------------------
+CommandName_fire_arrow=Ildpile
+; -------------------------------------
+UnitTypeName_pig=gris
+; -------------------------------------
+; Unit > swordman
+; --------------------
+CommandName_promote_to_guard=Forfrem til vagt
+; -------------------------------------
+UnitTypeName_technician=Tekniker
+; --------------------
+CommandName_build_ultimate=Ultimativ konstruction
+CommandName_mine_gold=Udgrav guld
+CommandName_build_battle_machine=Byg krigsmaskine
+CommandName_build_air_ballista=Konstruer luft ballista
+; -------------------------------------
+# UnitTypeName_technodrome=technodrome
+; --------------------
+# CommandName_produce_technician=produce technician
+# CommandName_research_advanced_architecture=research advanced architecture
+CommandName_research_robotics=Robot tekniks forskning
+; -------------------------------------
+; Unit > worker
+; --------------------
+CommandName_build_advanced=Avancerede konstruktioner
+; -------------------------------------

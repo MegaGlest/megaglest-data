@@ -27,7 +27,10 @@
 			<resource name="gold" amount="50"/>
 			<resource name="food" amount="-5"/>
 		</resource-requirements>
-		<resources-stored/>
+		<resources-stored>
+			<resource name="food" amount="2"/>
+			<!-- more time for reaction in case of hunger -->
+		</resources-stored>
 		<image path="images/pig.bmp"/>
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="false"/>

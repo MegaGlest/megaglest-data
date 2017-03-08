@@ -6,13 +6,17 @@ Crisis=Krytyczny alarm!
 
 ;message strings
 Brief1=Zdobądź flagę przeciwnika dotykając jej, a potem wróć jednostką która jej dotknęła do swojej bazy. Flaga przeciwnika mruga na minimapie. Twoja flaga mruga kolorem twojej drużyny. Strzeż się niespodzianek po drodze.
-Player2InFlagZoneWarning=Gracz 2 jest niedaleko twojej flagi, uważaj!
-Player3InFlagZoneWarning=Gracz 3 jest niedaleko twojej flagi, uważaj!
-Player2HasFlagWarning=Gracz 2 ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do swojej bazy!!!
-Player3HasFlagWarning=Gracz 3 ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do swojej bazy!!!
+Player2InFlagZoneWarning=Gracz zielony jest niedaleko twojej flagi, uważaj!
+Player3InFlagZoneWarning=Gracz niebieski jest niedaleko twojej flagi, uważaj!
+Player2HasFlagWarning=Gracz zielony ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do swojej bazy!!!
+Player3HasFlagWarning=Gracz niebieski ZDOBYŁ TWOJĄ FLAGĘ, złap go zanim dotrze do swojej bazy!!!
+
+;flags description (future use)
+CatchThisFlag=Zdobądź tą flagę!
+FlagForPlayer2=Flaga do przechwycenia przez zielonego gracza.
+FlagForPlayer3=Flaga do przechwycenia przez niebieskiego gracza.
 
 ;objective strings
-Player2HeadHome=Jedna z twoich jednostek zdobyła flagę i jest teraz podświetlona kolorem twojej drużyny. Chroń ją i doprowadź z powrotem do swojej bazy.
-Player3HeadHome=Jedna z twoich jednostek zdobyła flagę i jest teraz podświetlona kolorem twojej drużyny. Chroń ją i doprowadź z powrotem do swojej bazy.
+PlayerHeadHome=Zdobyłeś flagę. Teraz przynieś ją do swojej bazy i wygraj! Jednostka z flagą jest podświetlona kolorem twojej drużyny. Nie pozwól jej zginąć.
 PlayerWins=Gratulacje, wygrałeś!
 PlayerLoses=Niestety, przegrałeś!

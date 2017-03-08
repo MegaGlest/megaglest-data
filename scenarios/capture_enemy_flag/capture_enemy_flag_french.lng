@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Le joueur 3 s'approche de votre drapeau, attention !
 Player2HasFlagWarning=Le joueur 2 A VOTRE DRAPEAU, attrapez-le !
 Player3HasFlagWarning=Le joueur 3 A VOTRE DRAPEAU, attrapez-le !
 
+;flags description (future use)
+CatchThisFlag=Attrapez ce drapeau!
+FlagForPlayer2=Le drapeau pour la capture par le joueur vert.
+FlagForPlayer3=Le drapeau pour la capture par le joueur bleu.
+
 ;objective strings
-Player2HeadHome=Maintenant, joueur 2, rentrez à la maison sain et sauf et gagnez ! Votre porteur de drapeau flashe avec la couleur de votre équipe, ne le laissez pas mourir.
-Player3HeadHome=Maintenant, joueur 3, rentrez à la maison sain et sauf et gagnez ! Votre porteur de drapeau flashe avec la couleur de votre équipe, ne le laissez pas mourir.
+PlayerHeadHome=Vous avez pris le drapeau. Maintenant amenez-le à la maison et gagnez! Votre porte-drapeau est mis en évidence dans la couleur de votre équipe, ne le laissez pas mourir.
 PlayerWins=Bravo, vous avez gagné !
 PlayerLoses=Mince, c'est perdu !

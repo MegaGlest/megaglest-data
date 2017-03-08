@@ -36,188 +36,84 @@ UpgradeTypeName_speedup_priest_production=szybka produkcja u kapłanów ('Fast p
 UpgradeTypeName_summon_ibis=ptak ibis ('Ibis')
 UpgradeTypeName_summon_scarab=skarabeusz ('Scarab')
 ; -------------------------------------
-; Unit
 UnitTypeName_air_pyramid=p.powietrzna piramida\n('A.air pyramid')
 ; --------------------
-; Levels for this Unit
 LevelName_elite=elitarny-
 ; --------------------
-; Types of Commands for this Unit
 CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
 CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_anubis_warrior=wojownik anubisa\n('Anubis' warrior')
 ; --------------------
-; Levels for this Unit
 LevelName_ancient=starożytny-
 ; --------------------
-; Types of Commands for this Unit
 CommandName_stop=stop ('Stop')
 CommandName_move=przesuń się / idź ('Move')
 CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_chicken=kurczak ('Chicken')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 ; -------------------------------------
-; Unit
 UnitTypeName_desert_camp=pustynny obóz\n('Desert camp')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_spearthrower=produkcja miotacza włóczni\n('Produce spear thrower')
 CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
 CommandName_upgrade_spear_weapons=ulepszenie włóczni\n('Upgrade spear weapons')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_farm=farma ('Farm')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_chicken=produkcja kurczaka\n('Produce chicken')
 ; -------------------------------------
-; Unit
 UnitTypeName_ibis=ptak ibis ('Ibis')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_mummy=mumia ('Mummy')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_obelisk=obelisk ('Obelisk')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_scarab=produkcja skarabeusza\n('Produce scarab')
 CommandName_produce_snake=produkcja węża ('Produce snake')
 CommandName_produce_ibis=produkcja ptaka ibis\n('Produce ibis')
 ; -------------------------------------
-; Unit
 UnitTypeName_priest=kapłan ('Priest')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_speedup_priest_production=przyśp. produkcji u kapłanów\n('Speed up priest's production')\n
 CommandName_heal=leczenie ('To heal')
 CommandName_produce_mummy=produkcja mumii\n('Produce mummy')
 CommandName_produce_anubis_warrior=produkcja wojownika anubisa\n('Produce anubis' warrior')
 CommandName_ice_nova=lodowy wybuch ('Ice nova')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_pyramid=piramida ('Pyramid')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_slave=produkcja niewolnika\n('Produce slave')
 ; -------------------------------------
-; Unit
 UnitTypeName_scarab=skarabeusz ('Scarab')
 ; --------------------
-; Levels for this Unit
 LevelName_expert=ekspercki-
 LevelName_master=mistrzowski-
 LevelName_legendary=legendarny-
 ; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_dung_attack=obrzucenie gnojem ('Dung attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_slave=niewolnik ('Slave')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_build_basic=budowanie, b. podstawowe\n('Build, basic b.')
 CommandName_repair=naprawianie ('Repair')
 CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
 CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
 ; -------------------------------------
-; Unit
 UnitTypeName_snake=wąż ('Snake')
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspercki-
-LevelName_master=mistrzowski-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_poison_shot=strzał trucizną ('Poison shot')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_spearman=włócznik ('Spearman')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_spearthrower=miotacz włóczni\n('Spear thrower')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_sphinx=sfinks ('Sphinx')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_temple=Świątynia ('Temple')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_priest=produkcja kapłana\n('Produce priest')
 CommandName_research_scarab=odkrycie skarabeusza\n('Research scarab')
 CommandName_research_ibis=odkrycie ptaka ibis\n('Research ibis')
@@ -234,233 +130,81 @@ UpgradeTypeName_petroleum=nafta ('Petroleum')
 UpgradeTypeName_stables=stajnie ('Stables')
 UpgradeTypeName_training_field=plac treningowy ('Training field')
 ; -------------------------------------
-; Unit
 UnitTypeName_archer=Łucznik ('Archer')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_indian=indianin z toporem\n('Axe indian')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_thrower=miotacz toporów\n('Axe thrower')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_beehive=pszczeli ul ('Beehive')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_big_tent=wielki namiot ('Big tent')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_stickfighter=produkcja kijkarza\n('Produce stick fighter')
 CommandName_produce_archer=produkcja Łucznika\n('Produce archer')
 ; -------------------------------------
-; Unit
 UnitTypeName_bull=byk ('Bull')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_campfire=ognisko ('Campfire')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_fire_golem=produkcja ognistego golema\n('Produce fire golem')
 CommandName_research_iron=odkrycie Żelaza ('Research iron')
 CommandName_research_advanced_iron=odkrycie zaawansow. Żelaza\n('Research advanced iron')
 ; -------------------------------------
-; Unit
 UnitTypeName_fire_archer=ognisty Łucznik\n('Fire archer')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_fire_golem=ognisty golem ('Fire golem')\n
-; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_horse_farm=stadnina koni ('Horse farm')\n
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_horseman=produkcja jeźdzca\n('Produce horseman')
 CommandName_produce_bull=produkcja byka ('Produce bull')
 CommandName_research_stables=odkrycie stajni\n('Research stables')
 ; -------------------------------------
-; Unit
 UnitTypeName_horseman=jeździec ('Horseman')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_main_teepee=główne tipi ('Main teepee')\n
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_worker=produkcja robotnika\n('Produce worker')
 ; -------------------------------------
-; Unit
 UnitTypeName_reed=trzcina ('Reed')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_bull_food=odkrycie karmy dla byków\n('Research bull food')
 ; -------------------------------------
-; Unit
 UnitTypeName_round_tent=okrągły namiot\n('Round tent')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_axe_indian=produkcja indianina z toporem\n('Produce axe indian')
 CommandName_produce_axe_thrower=produkcja miotacza toporów\n('Produce axe thrower')
 CommandName_produce_fire_archer=produkcja ognistego Łucznika\n('Produce fire archer')
-CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
 CommandName_create_training_field=tworzenie placu treningowego\n('Create training field')
 ; -------------------------------------
-; Unit
 UnitTypeName_shaman=szaman ('Shaman')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_repair=naprawianie ('Repair')
-CommandName_heal=leczenie ('To heal')
 CommandName_molotov=butelka z benzyną ('Molotov')
 CommandName_produce_thunderbird=produkcja grzmiącego ptaka\n('Produce thunderbird')
 CommandName_build_beehive=budowa ula ('Build beehive')
 ; -------------------------------------
-; Unit
-UnitTypeName_spearman=włócznik ('Spearman')
+; Unit > spearman
 ; --------------------
-; Levels for this Unit
 LevelName_guardian=opiekuńczy-
 LevelName_chief=przywódczy-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_stickfighter=kijkarz ('Stick fighter')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_tent=namiot ('Tent')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_stickfighter=produkcja kijkarza\n('Produce stick fighter')
 ; -------------------------------------
-; Unit
 UnitTypeName_thunderbird=grzmiący ptak\n('Thunderbird')
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-LevelName_expert=ekspercki-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_throw=miotanie ('Throw')
 CommandName_breath=oddech ('Breath')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_totem=totem ('Totem')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
 CommandName_air_on=p.powietrzny atak - aktywny\n('A.air attack - active')
 CommandName_research_petroleum=odkrycie nafty\n('Research petroleum')
 CommandName_produce_shaman=produkcja szamana\n('Produce shaman')
 ; -------------------------------------
-; Unit
 UnitTypeName_worker=robotnik ('Worker')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_build_basic=budowanie, b. podstawowe\n('Build, basic b.')
-CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
-CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
-CommandName_repair=naprawianie ('Repair')
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_magic=Magicy
@@ -470,505 +214,178 @@ UpgradeTypeName_ancient_summoning=starożytne przywoływanie ('Ancient summoning
 UpgradeTypeName_dragon_call=przywoływanie smoka ('Dragon call')
 UpgradeTypeName_energy_compression=skondensowana energia ('Condensed energy')
 UpgradeTypeName_energy_sharpening=gwałtowna magia ('Sharp magic')
+UpgradeTypeName_faster_movement=szybsze przemieszczanie ('Faster movement')
 UpgradeTypeName_golem_power=potężny golem ('Power golem')
 UpgradeTypeName_hell_gate=wrota piekła ('Hell gate')
 ; -------------------------------------
-; Unit
 UnitTypeName_archmage=arcymag ('Archmage')
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspercki-
-LevelName_master=mistrzowski-
-LevelName_legendary=legendarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_ice_nova=lodowy wybuch ('Ice nova')
 CommandName_static_fire=statyczny ogień ('Static fire')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_archmage_tower=wieża arcymagów\n('Archmages' tower')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_dragon_call=odkrycie przywoływania smoka\n('Research dragon call')
 CommandName_golem_power=odkrycie potężnego golema\n('Research power golem')
 ; -------------------------------------
-; Unit
 UnitTypeName_battlemage=mag bitewny ('Battlemage')\n
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspercki-
-LevelName_master=mistrzowski-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_fire_bolt=ognisty piorun ('Fire bolt')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_archmage=awans do arcymaga\n('Promote to archmage')
 ; -------------------------------------
-; Unit
 UnitTypeName_behemoth=potwór ('Behemoth')
-; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_daemon=demon ('Daemon')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
-UnitTypeName_draco_rider=jaszczurza jeźdźczyni\n('Draco rider')
+UnitTypeName_dragon_rider=jaszczurza jeźdźczyni\n('Dragon rider')
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ekspercki-
-LevelName_master=mistrzowski-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_fire_breath=ognisty oddech ('Fire breath')
 CommandName_flare=flara ('Flare')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_dragon=smok ('Dragon')
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_breath=oddech ('Breath')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_evil_dragon=awans do złego smoka\n('Promote to evil dragon')
 ; -------------------------------------
-; Unit
 UnitTypeName_energy_source=Źródło energii\n('Energy source')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 ; -------------------------------------
-; Unit
 UnitTypeName_evil_dragon=zły smok ('Evil dragon')
-; --------------------
-; Levels for this Unit
-LevelName_expert=ekspercki-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_breath=oddech ('Breath')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_ghost_armor=zbrojny duch\n('Ghost armor')
-; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_golem=golem ('Golem')
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_power_golem=awans do potężnego golema\n('Promote to power golem')
 ; -------------------------------------
-; Unit
 UnitTypeName_initiate=adept ('Initiate')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_repair=naprawianie ('Repair')
 CommandName_build=budowanie ('Build')
 CommandName_ritual=rytuały ('Ritual')
-CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
 CommandName_harvest=pozyskiwanie drewna\n('Wood harvesting')
 CommandName_promote_to_battlemage=awans do maga bitewnego\n('Promote to battlemage')
 ; -------------------------------------
-; Unit
 UnitTypeName_library=biblioteka ('Library')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_energy_compression=kondensacja energii\n('Energy condensation')
 CommandName_research_energy_sharpening=wyostrzenie magii\n('Magic sharpening')
 CommandName_research_hell_gate=odkrycie wrót piekła\n('Research hell gate')
 ; -------------------------------------
-; Unit
 UnitTypeName_mage_tower=wieża magów\n('Mages' tower')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_initiate=produkcja adepta\n('Produce initiate')
 ; -------------------------------------
-; Unit
 UnitTypeName_power_golem=potężny golem\n('Power golem')
-; --------------------
-; Levels for this Unit
-LevelName_ancient=starożytny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_summoner=przywoływaczka\n('Summoner')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_flare=flara ('Flare')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_summon_daemon=przyzywanie demona\n('Summon daemon')
 CommandName_summon_ghost_armor=przyzywanie zbrojnego ducha\n('Summon ghost armor')
 CommandName_summon_dragon=przyzywanie smoka\n('Summon dragon')
-CommandName_summon_draco=transf. do jaszcz. jeźdźczyni\n('Transform to draco rider')
+CommandName_summon_wingless_dragon=przyzwanie jaszczura\n('Summon wingless dragon')
 ; -------------------------------------
-; Unit
 UnitTypeName_summoner_guild=gildia przywoływaczek\n('Summoners' guild')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_summoner=produkcja przywoływaczki\n('Produce summoner')
 CommandName_research_ancient_summoning=odkrycie staroż. przywoływania\n('Research ancient summoning')
+CommandName_speed_up_movement=przyspieszenie ruchu\n('Speed up movement')
 ; -------------------------------------
-; Unit
 UnitTypeName_tower_of_souls=wieża dusz\n('Tower of souls')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_wicker_behemoth=wiklinowy potwór\n('Wicker behemoth')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_promote_to_behemoth=transformacja do potwora\n('Transform to behemoth')
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_norsemen=Normanowie
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_iron=zaawansowane Żelazo ('Advanced iron')
 UpgradeTypeName_arrow=strzały ('Arrows')
 UpgradeTypeName_holy_valkyrie=Święta walkiria ('Holy valkyrie')
-UpgradeTypeName_iron=Żelazo ('Iron')
 UpgradeTypeName_mead=miód pitny ('Mead')
 UpgradeTypeName_root=korzeń ('Root')
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=Łucznik ('Archer')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
-UnitTypeName_axe_thrower=miotacz toporów\n('Axe thrower')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-; -------------------------------------
-; Unit
 UnitTypeName_battleaxe=topornik ('Battleaxe')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 CommandName_promote_to_battleaxe_berserk=awans do oszalałego topornika\n('Promote to battleaxe berserk')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_battleaxe_berserk=oszalały topornik\n('Battleaxe berserk')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -------------------------------------
-; Unit
 UnitTypeName_blacksmith=kowal ('Blacksmith')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_iron=ulepszenie Żelaza ('Upgrade iron')
 CommandName_upgrade_arrow=ulepszenie strzał\n('Upgrade arrows')
 CommandName_upgrade_advanced_iron=ulepszenie do zaaw. Żelaza\n('Upgrade to advanced iron')
 CommandName_produce_crossbow=produkcja kuszy\n('Produce crossbow')
 ; -------------------------------------
-; Unit
 UnitTypeName_bone_tent=kościany namiot\n('Bone tent')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_swordman=produkcja miecznika\n('Produce swordsman')
-CommandName_produce_archer=produkcja Łucznika\n('Produce archer')
 CommandName_produce_battleaxe=produkcja topornika\n('Produce battleaxe')
-CommandName_produce_axe_thrower=produkcja miotacza toporów\n('Produce axe thrower')
 ; -------------------------------------
-; Unit
 UnitTypeName_castle=zamek ('Castle')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_thrall=produkcja służącego\n('Produce thrall')
 ; -------------------------------------
-; Unit
 UnitTypeName_cow=krowa ('Cow')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 ; -------------------------------------
-; Unit
 UnitTypeName_crossbow=kusza ('Crossbow')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_attack_arrow=atak strzałą ('Attack arrow')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_cudgel_lady=dama z maczugą\n('Cudgel lady')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_cudgel=maczuga ('Cudgel')
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=farma ('Farm')
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cow=produkcja krowy ('Produce cow')
 ; -------------------------------------
-; Unit
 UnitTypeName_flying_valkyrie=latająca walkiria\n('Flying valkyrie')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_house=dom ('House')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=produkcja damy z maczugą\n('Produce cudgel lady')
-CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
 ; -------------------------------------
-; Unit
 UnitTypeName_mead_bar=bar z miodem pitnym\n('Mead bar')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_cudgel_lady=produkcja damy z maczugą\n('Produce cudgel lady')
-CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
 CommandName_research_mead=odkrycie miodu pitnego\n('Research mead')
 ; -------------------------------------
-; Unit
 UnitTypeName_mistletoe_tree=jemiołowe drzewo\n('Mistletoe tree')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_air_on=p.powietrzny atak - aktywny\n('A.air attack - active')
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
 CommandName_research_root=odkrycie korzenia\n('Research root')
 CommandName_resurrect_wild_sow=wskrzeszenie dzikiej lochy\n('Resurrect wild sow')
 ; -------------------------------------
-; Unit
-UnitTypeName_spearman=włócznik ('Spearman')
+; Unit > spearman
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_spearman_berserk=awans do oszalałego włócznika\n('Promote to spearman berserk')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_spearman_berserk=oszalały włócznik\n('Spearman berserk')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_swordman=miecznik ('Swordsman')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_swordman_berserk=awans do oszalałego miecznika\n('Promote to swordsman berserk')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_swordman_berserk=oszalały miecznik\n('Swordsman berserk')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_thor=thor ('Thor')
 ; --------------------
-; Levels for this Unit
 LevelName_advanced=zaawansowany-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_throw=miotanie ('Throw')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_thor_totem=totem thora ('Thor's totem')\n
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_build_thor=transformacja do thora\n('Transform to thor')
 ; -------------------------------------
-; Unit
 UnitTypeName_thrall=służący ('Thrall')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_build_basic=budowanie, b. podstawowe\n('Build, basic b.')
-CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
-CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
-CommandName_repair=naprawianie ('Repair')
 ; -------------------------------------
-; Unit
 UnitTypeName_valhalla=walhalla ('Valhalla')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_flying_valkyrie=produkcja latającej walkirii\n('Produce flying valkyrie')
 CommandName_produce_valkyrie=produkcja walkirii\n('Produce valkyrie')
 CommandName_research_holy_valkyrie=odkrycie Świętej walkirii\n('Research holy valkyrie')
 ; -------------------------------------
-; Unit
 UnitTypeName_valkyrie=walkiria ('Valkyrie')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 CommandName_airattack=atak celu powietrznego\n('To attack air')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_wild_sow=dzika locha ('Wild sow')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_persian=Persowie
@@ -981,211 +398,60 @@ UpgradeTypeName_nails=gwoździe ('Nails')
 UpgradeTypeName_shield=tarcze ('Shields')
 UpgradeTypeName_weapons=broń ('Weapons')
 ; -------------------------------------
-; Unit
-UnitTypeName_blacksmith=kowal ('Blacksmith')
+; Unit > blacksmith
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_weapons=ulepszenie broni\n('Upgrade weapons')
 CommandName_upgrade_nails=ulepszenie gwoździ\n('Upgrade nails')
 CommandName_upgrade_shield=ulepszenie tarcz\n('Upgrade shields')
 ; -------------------------------------
-; Unit
 UnitTypeName_elephant=słoń ('Elephant')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_attack_arrow=atak strzałą ('Attack arrow')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_elephant_cage=słoniowa klatka\n('Elephant's cage')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_elephant=produkcja słonia\n('Produce elephant')
 ; -------------------------------------
-; Unit
 UnitTypeName_fakir=fakir ('Fakir')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=farma ('Farm')
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_sheep=produkcja owcy ('Produce sheep')
 CommandName_research_corn_and_wicker=odkrycie kukurydzy i wiklin\n('Research corn and wicker')
 ; -------------------------------------
-; Unit
 UnitTypeName_flying_carpet=latający dywan\n('Flying carpet')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_magic_attack=atak magiczny ('Magic attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_genie=dżin ('Genie')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
-UnitTypeName_house=dom ('House')
+; Unit > house
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_fakir=produkcja fakira ('Produce fakir')
-CommandName_produce_stickfighter=produkcja kijkarza\n('Produce stick fighter')
 ; -------------------------------------
-; Unit
 UnitTypeName_magician=czarodziej ('Magician')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_repair=naprawianie ('Repair')
 CommandName_build_snake_basket=budowa koszyka z wężem\n('Build snake basket')
-CommandName_heal=leczenie ('To heal')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_minaret=minaret ('Minaret')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_palace=pałac ('Palace')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_worker=produkcja robotnika\n('Produce worker')
 ; -------------------------------------
-; Unit
 UnitTypeName_princess=księżniczka ('Princess')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_sheep=owca ('Sheep')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 ; -------------------------------------
-; Unit
 UnitTypeName_snake_basket=koszyk z wężem\n('Snake basket')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
-UnitTypeName_stickfighter=kijkarz ('Stick fighter')
+; Unit > temple
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
-UnitTypeName_swordman=miecznik ('Swordsman')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
-UnitTypeName_temple=Świątynia ('Temple')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_princess=produkcja księżniczki\n('Produce princess')
-CommandName_produce_swordman=produkcja miecznika\n('Produce swordsman')
 ; -------------------------------------
-; Unit
-UnitTypeName_tent=namiot ('Tent')
+; Unit > tent
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_genie=produkcja dżina ('Produce genie')
 CommandName_produce_flying_carpet=produkcja latającego dywanu\n('Produce flying carpet')
 CommandName_produce_magician=produkcja czarodzieja\n('Produce magician')
 CommandName_upgrade_magic_level_1=ulepszenie magii do 1 poziomu\n('Upgrade magic to level 1')
 CommandName_upgrade_magic_level_2=ulepszenie magii do 2 poziomu\n('Upgrade magic to level 2')
-; -------------------------------------
-; Unit
-UnitTypeName_worker=robotnik ('Worker')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_attack=atak ('Attack')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_build_basic=budowanie, b. podstawowe\n('Build, basic b.')
-CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
-CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
-CommandName_repair=naprawianie ('Repair')
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_romans=Rzymianie
@@ -1200,193 +466,61 @@ UpgradeTypeName_reinforce_armor=wytrzymały pancerz ('Strength armor')
 UpgradeTypeName_sharpen_points=ostre groty ('Sharp points')
 UpgradeTypeName_sign_of_mars=przychylność marsa ('The favor of mars')
 UpgradeTypeName_strengthen_swords=wytrzymałe miecze ('Strength swords')
-UpgradeTypeName_training_field=plac treningowy ('Training field')
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=Łucznik ('Archer')
+; Unit > archer
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_get_fire_arrows=awans do ognistego łucznika\n('Promote to fire archer')
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_man=topornik ('Axe man')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_ballista=balista ('Ballista')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_battering_ram=taran ('Battering ram')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_attack_land=atak celu naziemnego\n('To attack land')
 CommandName_attack_air=atak celu powietrznego\n('To attack air')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_blacksmith_shop=kowal ('Blacksmith')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_strengthen_swords=wzmocnienie mieczy\n('Strengthen swords')
 CommandName_sharpen_points=ostrzenie grotów\n('Sharpen points')
 CommandName_reinforce_armor=wzmocnienie pancerza\n('Strengthen armor')
 CommandName_enlarge_shields=powiększenie tarcz\n('Enlarge shields')
 ; -------------------------------------
-; Unit
 UnitTypeName_catapult=katapulta ('Catapult')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_fire_ball=ognista kula ('Fire ball')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_cavalry=kawalerzysta ('Cavalry')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_tribune=awans do trybuna\n('Promote to tribune')
 ; -------------------------------------
-; Unit
-UnitTypeName_cow=krowa ('Cow')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-; -------------------------------------
-; Unit
 UnitTypeName_eagle_pillar=orli słup ('Eagle pillar')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
-UnitTypeName_fire_archer=ognisty Łucznik\n('Fire archer')
+; Unit > fire archer
 ; --------------------
-; Levels for this Unit
 LevelName_accurate=dokładny-
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_forum=forum ('Forum')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_slave=produkcja niewolnika\n('Produce slave')
-CommandName_produce_cow=produkcja krowy ('Produce cow')
 ; -------------------------------------
-; Unit
 UnitTypeName_general=generał ('General')
 ; --------------------
-; Levels for this Unit
 LevelName_esteemed=szanowany-
 LevelName_grand=wspaniały-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_gladiator=gladiator ('Gladiator')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack_land=atak celu naziemnego\n('To attack land')
-CommandName_attack_air=atak celu powietrznego\n('To attack air')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_gladiator_school=szkoła gladiatorów\n('Gladiators' school')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_train_gladiator=wytrenowanie gladiatora\n('Train gladiator')
 CommandName_produce_axe_man=produkcja topornika\n('Produce axe man')
 ; -------------------------------------
-; Unit
 UnitTypeName_guard=strażnik ('Guard')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_guard_tower=wieża strażnicza\n('Guard tower')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_military_camp=obóz wojskowy\n('Military camp')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cavalry=produkcja kawalerzysty\n('Produce cavalry')
 CommandName_produce_turtle_formation=produkcja żółwiej formacji\n('Produce turtle formation')
 CommandName_produce_general=produkcja generała\n('Produce general')
@@ -1394,101 +528,25 @@ CommandName_produce_mechanic=produkcja mechanika wojennego\n('Produce wartime me
 CommandName_upgrade_advanced_architecture=ulepszenie architektury\n('Upgrade architecture')
 CommandName_upgrade_formations=odkrycie formacji\n('Research formations')
 ; -------------------------------------
-; Unit
-UnitTypeName_slave=niewolnik ('Slave')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_build=budowanie ('Build')
-CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
-CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
-CommandName_repair=naprawianie ('Repair')
-; -------------------------------------
-; Unit
-UnitTypeName_spearman=włócznik ('Spearman')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
 UnitTypeName_swordsman=miecznik ('Swordsman')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
-UnitTypeName_temple=Świątynia ('Temple')
+; Unit > temple
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_sign_of_mars=błogosławieństwo marsa\n('Blessing of mars')
 CommandName_research_jupiter=błogosławieństwo jowisza\n('Blessing of jupiter')
 CommandName_upgrade_bless_of_minerva=błogosławieństwo minewry\n('Blessing of minerva')
 ; -------------------------------------
-; Unit
 UnitTypeName_training_camp=obóz treningowy\n('Training camp')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_spearman=produkcja włócznika\n('Produce spearman')
-CommandName_produce_archer=produkcja Łucznika\n('Produce archer')
 CommandName_produce_guard=produkcja strażnika\n('Produce guard')
 CommandName_produce_swordsman=produkcja miecznika\n('Produce swordsman')
-CommandName_create_training_field=tworzenie placu treningowego\n('Create training field')
 ; -------------------------------------
-; Unit
 UnitTypeName_tribune=Trybun ('Tribune')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_turtle_formation=Żółwia formacja\n('Turtle formation')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_wartime_mechanic=mechanik wojenny\n('Wartime mechanic')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-CommandName_repair=naprawianie ('Repair')
-CommandName_heal=leczenie ('To heal')
 CommandName_build_catapult=transformacja do katapulty\n('Transform to catapult')
 CommandName_build_battering_ram=transformacja do tarana\n('Transform to battering ram')
 CommandName_build_ballista=transformacja do balisty\n('Transform to ballista')
@@ -1497,238 +555,62 @@ CommandName_build_ballista=transformacja do balisty\n('Transform to ballista')
 FactionName_tech=Technicy
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_architecture=zaawansowana architektura ('Advanced architecture')
 UpgradeTypeName_blade_weapons=broń biała ('Blade weapons')
 UpgradeTypeName_piercing_weapons=broń przeszywająca ('Piercing weapons')
 UpgradeTypeName_robotics=robotyzacja ('Robotics')
 UpgradeTypeName_shield_level_1=1 poziom tarcz ('Shields Level 1')
 UpgradeTypeName_shield_level_2=2 poziom tarcz ('Shields Level 2')
-UpgradeTypeName_stables=stajnie ('Stables')
-UpgradeTypeName_training_field=plac treningowy ('Training field')
 ; -------------------------------------
-; Unit
 UnitTypeName_aerodrome=lądowisko ('Aerodrome')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_ornithopter=produkcja ornitoptera\n('Produce ornithopter')
 CommandName_produce_airship=produkcja sterowca\n('Produce airship')
 ; -------------------------------------
-; Unit
 UnitTypeName_air_ballista=p.powietrzna balista\n('A.air ballista')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
 UnitTypeName_airship=sterowiec ('Airship')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_missile=pocisk ('Missile')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=Łucznik ('Archer')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
 UnitTypeName_barracks=koszary ('Barracks')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_swordman=produkcja miecznika\n('Produce swordsman')
-CommandName_produce_archer=produkcja Łucznika\n('Produce archer')
-CommandName_produce_guard=produkcja strażnika\n('Produce guard')
-CommandName_produce_horseman=produkcja jeźdzca\n('Produce horseman')
-CommandName_create_training_field=tworzenie placu treningowego\n('Create training field')
 ; -------------------------------------
-; Unit
 UnitTypeName_battle_machine=maszyna bojowa\n('Battle machine')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_attack_arrow=atak strzałą ('Attack arrow')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
-UnitTypeName_blacksmith=kowal ('Blacksmith')
+; Unit > blacksmith
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_blade_weapons=ulepszenie broni białej\n('Upgrade blade weapons')
 CommandName_upgrade_piercing_weapons=ulepszenie broni przeszywającej\n('Upgrade piercing weapons')
-CommandName_upgrade_shield=ulepszenie tarcz\n('Upgrade shields')
-CommandName_upgrade_shield=ulepszenie tarcz\n('Upgrade shields')
 ; -------------------------------------
-; Unit
-UnitTypeName_castle=zamek ('Castle')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_worker=produkcja robotnika\n('Produce worker')
-; -------------------------------------
-; Unit
-UnitTypeName_catapult=katapulta ('Catapult')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_fire_ball=ognista kula ('Fire ball')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
-UnitTypeName_cow=krowa ('Cow')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-; -------------------------------------
-; Unit
 UnitTypeName_defense_tower=wieża obronna\n('Defense tower')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=atak - nieaktywny\n('Attack - inactive')
-CommandName_attack_on=atak - aktywny ('Attack - active')
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=farma ('Farm')
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_pig=produkcja Świni ('Produce pig')
-CommandName_produce_cow=produkcja krowy ('Produce cow')
-CommandName_research_stables=odkrycie stajni\n('Research stables')
 ; -------------------------------------
-; Unit
-UnitTypeName_guard=strażnik ('Guard')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
-UnitTypeName_horseman=jeździec ('Horseman')
-; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
-; -------------------------------------
-; Unit
 UnitTypeName_ornithopter=ornitopter ('Ornithopter')
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_molotov=butelka z benzyną ('Molotov')
 CommandName_fire_arrow=ognista strzała ('Fire arrow')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 ; -------------------------------------
-; Unit
 UnitTypeName_pig=Świnia ('Pig')
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 ; -------------------------------------
-; Unit
-UnitTypeName_swordman=miecznik ('Swordsman')
+; Unit > swordman
 ; --------------------
-; Levels for this Unit
-LevelName_elite=elitarny-
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_attack=atak ('Attack')
-CommandName_hold_position=utrzymaj pozycję ('Hold position')\n
 CommandName_promote_to_guard=awans do strażnika\n('Promote to guard')
 ; -------------------------------------
-; Unit
 UnitTypeName_technician=technik ('Technician')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
 CommandName_build_ultimate=budowanie, b. b. zaawansowane\n('Build, ultimate b.')
-CommandName_repair=naprawianie ('Repair')
-CommandName_heal=leczenie ('To heal')
 CommandName_mine_gold=wydobywanie złota\n('Gold mining')
-CommandName_molotov=butelka z benzyną ('Molotov')
-CommandName_build_catapult=transformacja do katapulty\n('Transform to catapult')
 CommandName_build_battle_machine=transf. do maszyny bojowej\n('Transform to battle machine')
 CommandName_build_air_ballista=transf. do p.pow. balisty\n('Transform to a.air ballista')
 ; -------------------------------------
-; Unit
 UnitTypeName_technodrome=Warsztat techników\n('Technicians' workshop')
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_technician=produkcja technika\n('Produce technician')
 CommandName_research_advanced_architecture=odkrycie zaaw. architektury\n('Research advanced architecture')
 CommandName_research_robotics=odkrycie robotyzacji\n('Research robotics')
 ; -------------------------------------
-; Unit
-UnitTypeName_worker=robotnik ('Worker')
+; Unit > worker
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=stop ('Stop')
-CommandName_move=przesuń się / idź ('Move')
-CommandName_build_basic=budowanie, b. podstawowe\n('Build, basic b.')
 CommandName_build_advanced=budowanie, b. zaawansowane\n('Build, advanced b.')
-CommandName_mine=wydobyw. złota lub kamienia\n('Gold or stone mining')
-CommandName_harvest_wood=pozyskiwanie drewna\n('Wood harvesting')
-CommandName_repair=naprawianie ('Repair')
 ; -------------------------------------

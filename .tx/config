@@ -1,6 +1,6 @@
 [main]
 host = https://www.transifex.com
-lang_map = sq:albanian, ar:arabic, eu:basque, be:belarusian, bn:bengali, bg:bulgarian, ca:catalan, zh_CN:chinese-china, zh_TW:chinese-taiwan, cs:czech, da:danish, nl:dutch, eo:esperanto, et:estonian, fi:finnish, fr:french, gd:gaelic, gl:galician, de:german, el:greek, he:hebrew, hi:hindi, hi_IN:hindi-india, hu:hungarian, id:indonesian, it:italian, ja:japanese, jv:javanese, ko:korean, lv:latvian, lt:lithuanian, jbo:lojban, ms:malay, mr:marathi, nqo:nko, no:norwegian, pa:punjabi, fa:persian, pl:polish, pt:portuguese, pt_BR:portuguese-brazil, ro:romanian, ru:russian, sk:slovak, sl:slovenian, es:spanish, es_MX:spanish-mexico, sw:swahili, sv:swedish, tl:tagalog, ta:tamil, te:telugu, th:thai, tr:turkish, uk:ukrainian, ur:urdu, uz:uzbek, vi:vietnamese, cy:welsh
+lang_map = sq:albanian, ar:arabic, eu:basque, be:belarusian, bn:bengali, bg:bulgarian, ca:catalan, zh_CN:chinese-china, zh_TW:chinese-taiwan, hr:croatian, cs:czech, da:danish, nl:dutch, eo:esperanto, et:estonian, fi:finnish, fr:french, gd:gaelic, gl:galician, de:german, el:greek, he:hebrew, hi:hindi, hi_IN:hindi-india, hu:hungarian, id:indonesian, ga:irish, it:italian, ja:japanese, jv:javanese, ko:korean, lv:latvian, lt:lithuanian, jbo:lojban, ms:malay, mr:marathi, nqo:nko, no:norwegian, pa:punjabi, fa:persian, pl:polish, pt:portuguese, pt_BR:portuguese-brazil, ro:romanian, ru:russian, sk:slovak, sl:slovenian, es:spanish, es_MX:spanish-mexico, sw:swahili, sv:swedish, tl:tagalog, ta:tamil, te:telugu, th:thai, tr:turkish, uk:ukrainian, ur:urdu, uz:uzbek, vi:vietnamese, cy:welsh
 ; alphabetical list ^ of supported languages, in more complicated names you should use "-"
 type = INI
 minimum_perc = 70
@@ -41,6 +41,18 @@ file_filter = tutorials/3_advanced_tutorial/3_advanced_tutorial_<lang>.lng
 source_file = tutorials/3_advanced_tutorial/3_advanced_tutorial_english.lng
 source_lang = en
 minimum_perc = 73
+
+[megaglest.lobby-access]
+file_filter = scenarios/lobby_access/lobby_access_<lang>.lng
+source_file = scenarios/lobby_access/lobby_access_english.lng
+source_lang = en
+minimum_perc = 70
+
+[megaglest.scenarios-amazones-pro]
+file_filter = scenarios/amazones_pro/amazones_pro_<lang>.lng
+source_file = scenarios/amazones_pro/amazones_pro_english.lng
+source_lang = en
+minimum_perc = 70
 
 [megaglest.scenarios-amazones]
 file_filter = scenarios/amazones/amazones_<lang>.lng

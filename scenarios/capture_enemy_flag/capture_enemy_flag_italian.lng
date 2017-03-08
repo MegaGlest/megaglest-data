@@ -5,14 +5,18 @@ Warning=Attenzione
 Crisis=Allarme rosso!
 
 ;message strings
-Brief1=Cattura la bandiera toccandola con un'unità, poi portala subito alla tua base! La bandiera degli avversari lampeggia sulla mini-mappa. La tua bandiera lampeggia col colore della tua squadra. Occhio agli imprevisti.
-Player2InFlagZoneWarning=Il Giocatore 2 è vicino alla tua bandiera, stai accorto!
-Player3InFlagZoneWarning=Il Giocatore 3 è vicino alla tua bandiera, stai accorto!
-Player2HasFlagWarning=Il Giocatore 2 HA LA TUA BANDIERA! Acchiappalo!
-Player3HasFlagWarning=Il Giocatore 3 HA LA TUA BANDIERA! Acchiappalo!
+Brief1=Cattura la bandiera del tuo nemico toccandolo e poi riporta in vita l'unità con la bandiera in casa base! La bandiera nemica lampeggia nella mini mappa. La vostra bandiera lampeggierà del colore della vostra squadra. Attenzione alle sorprese lungo la strada.
+Player2InFlagZoneWarning=Il giocatore verde è nella zona della tua bandiera, attento!
+Player3InFlagZoneWarning=Il giocatore blu è nella zona della tua bandiera, attento!
+Player2HasFlagWarning=Il giocatore verde HA LA TUA BANDIERA, prendilo!
+Player3HasFlagWarning=Il giocatore blu HA LA TUA BANDIERA, prendilo!
+
+;flags description (future use)
+CatchThisFlag=Cattura questa bandiera!
+FlagForPlayer2=La bandiera da catturare dal giocatore verde.
+FlagForPlayer3=La bandiera da catturare dal giocatore blu.
 
 ;objective strings
-Player2HeadHome=Ora Giocatore 2 se ce la fai a tornare a casa hai vinto! Il tuo porta-bandiera è illuminato col colore della tua squadra, non farlo crepare.
-Player3HeadHome=Ora Giocatore 3 se ce la fai a tornare a casa hai vinto! Il tuo porta-bandiera è illuminato col colore della tua squadra, non farlo crepare.
+PlayerHeadHome=Hai preso la bandiera. Adesso portala a casa e vinci! Il portatore della tua bandiera lampeggia del colore della tua squadra, non farlo morire.
 PlayerWins=Congratulazioni, hai vinto!
-PlayerLoses=Che peccato, hai perso!
+PlayerLoses=Peccato, hai perso.

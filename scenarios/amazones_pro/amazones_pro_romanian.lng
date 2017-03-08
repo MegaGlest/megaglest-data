@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazoane
+;message headers
+Amazones=Amazoane
+
+;message strings
+Brief1=Castelul aliaților tăi trebuie să supraviețuiască!
+
+;objective strings
+Firstwave=Obiectiv: Doamnele în verde
+Secondwave=Obiectiv: Mai multe Doamne.
+Thirdwave=Obiectiv: Probabil prea multe doamne...
+Fourthwave=Obiectiv: Drăguț, dar periculos ;-)
+Lastwave=Obiectiv: Ultimul val!!

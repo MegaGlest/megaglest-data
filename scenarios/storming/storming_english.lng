@@ -6,6 +6,6 @@ Storming=Storming
 Brief1=Help your Summoner attack all the enemy villages, she must survive.
 
 ;objective strings
-ObjectiveWest=Objective: Destroy the west Magic village, the Summoner must survive.
-ObjectiveNorthEast=Objective: Destroy the Tech north east village, the Summoner must survive.
+ObjectiveSouthWest=Objective: Destroy the south west Magic village, the Summoner must survive.
+ObjectiveNorthEast=Objective: Destroy the north east Tech village, the Summoner must survive.
 ObjectiveSouthEast=Objective: Destroy the south east village, the Summoner must survive.

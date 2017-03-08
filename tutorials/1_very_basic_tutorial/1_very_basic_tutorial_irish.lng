@@ -1,0 +1,77 @@
+TUTORIAL_NAME=#1 Cúrsa Teagaisc Fíorbhunúsach
+;message headers
+GlestBasicTutorial=Cúrsa Teagaisc Fíorbhunúsach
+WellDone=Maith thú!
+Resources=Acmhainní
+Combat=Troid
+Buildings=Foirgnimh
+Tricks=Cleasa
+
+;message strings
+;------------------------------------------Start------------------------------------------------
+Welcome=Fáilte go dtí an bunchúrsa teagaisc MegaGlest.
+
+FirstThing=Radharc: Chun an limistéar infheicthe a athrú, cuir an luch ar chiumhais an scáileáin, nó bain úsáid as na heochracha cúrsóra. Nó, is féidir leat cléchliceáil an mionmhapa freisin (i gcúinne thiar thuaidh an scáileáin).
+
+WillBeUsingIndian=Sa mbunchúrsa seo, tá tú i gceannas ar na bundúchasaigh. Baineann an faicsean bundúchasach úsáid as boghdóirí agus gléasanna troda simplí.
+
+NeedWorkers=Ar dtús, teastaíonn oibrí uainn. Chun oibrí a fháil, cléchliceáil an Príomhthípí agus tosaigh ag traenáil an oibrí. Cliceáil deilbhín an oibrí agus úsáid an t-ordú 'Táirg Oibrí'.
+
+;------------------------------------------After produce Worker------------------------------------------------
+
+Select=Anois, cléchliceáil an t-oibrí nua. Taispeánfar mionsonraí an aonaid roghnaithe, .i. ainm an aonaid agus pictiúr, i gcúinne thoir thuaidh an scáileáin. Faoi seo, taispeánfar pointí sláinte (PS), armúr, agus idir lúibíní, cineál an armúir agus raon radhairc.
+Select2=Más aonad troda é seo, taispeánfar an líon naimhde atá maraithe aige cheana tar éis sin. Má úsáideann sé acmhainní, taispeánfar é sin sa chéad réimse eile. Faoi seo, feicfidh tú céard atá ar siúl ag an aonad faoi láthair.
+
+ExampleWorker=Mar shampla, tá 600 PB ag d'oibrí, armúr leathair 0 agus raon radhairc 9. Is é "stop" an staid reatha, .i. níl sé ag déanamh faic.
+
+Command=Feicfidh tú buanna an aonaid níos faide thíos. Anois, foghlaimeoidh tú na horduithe is féidir leis an oibrí a chomhlíonadh.
+
+FirstCommand=Is é "stop" an chéad deilbhín ordaithe. Má chliceálann tú an deilbhín seo, stopfaidh an t-oibrí ar an toirt. Tá an t-ordú seo ar fáil do gach saghas aonaid (seachas foirgnimh).
+
+SecondCommand=Is é "bog" an dara deilbhín ordaithe. Má chliceálann tú é, ní mór duit cliceáil freisin ar an talamh nó ar aonad eile chun an ceann scríbe a roghnú. Tá modh níos tapúla ann freisin: ní gá ach deaschliceáil ar an gceann scríbe.
+SecondCommand2=Má chuireann tú do luch os cionn an deilbhín "bog", taispeánfar luas na n-oibrithe. Tá an t-ordú seo ar fáil do gach saghas aonaid (seachas foirgnimh) freisin.
+
+TestSecondCommand=Bain triail as an ordú "bog" anois. Treoraigh an t-oibrí go dtí an t-oibrí eile ag fanacht taobh amuigh de do champa. Taispeántar an t-oibrí eile seo mar phonc dearg ar an mionmhapa. Taispeánann an triantán bán ar an mionmhapa ionad an cheamara. Is éard atá sa phonc mór dearg ná an Príomhthípí.
+
+;------------------------------------------Move Back Worker and give Harvest gold command------------------------------------------------
+
+MoveBack=Go maith. Anois, tabhair ar an mbeirt oibrithe filleadh ar an bPríomhthípí. Chun níos mó ná aonad amháin a roghnú, brúigh Shift, ansin tarraing bosca timpeall na n-aonad, NÓ...
+MoveBack2=... brúigh Shift agus coinnigh síos é, ansin cliceáil ar na haonaid le roghnú, NÓ...
+MoveBack3=... déchliceáil aonad amháin chun na haonaid i ngar dó den chineál céanna (oibrithe sa chás seo) a roghnú.
+HarvestGoldandStone=Tar éis do na haonaid filleadh abhaile, úsáidfimid an ceathrú deilbhín ordaithe chun ór agus clocha a bhailiú.
+HarvestGoldandStone2=Cuir do luch os cionn an deilbhín seo le feiceáil cé chomh gasta is féidir leo acmhainní a bhailiú, an méid is mó a bhaileoidh siad, cé chomh gasta is féidir leo siúl agus acmhainní á n-iompar acu, agus na hacmhainní atá siad ábalta bailiú.
+UseHarvestGoldandStone=Chun an t-ordú seo a úsáid, cliceáil deilbhín an ordaithe, ansin cliceáil an acmhainn ba mhaith leat a bhailiú. Is é ór na cairn liatha a bhfuil órbhuí breactha orthu, agus is clocha iad na cairn eile.
+HarvestGoldandStone3=Anois, tochail ór agus clocha go dtí go mbeidh 600 ór agus 550 cloch agat. Is féidir leat oibrithe nua a tháirgeadh chun cabhrú leis seo (ach cosnaíonn siad ór, freisin). Féach ar bharr an scáileán le fáil amach an méid acmhainní atá agat faoi láthair.
+
+;------------------------------------------Get Wood------------------------------------------
+
+HarvestGoldAndStoneDone=Anois, ní theastaíonn uait ach beagán adhmaid. Úsáid an cúigiú deilbhín ordaithe chun adhmad a bhailiú. Is ordú bailithe é seo freisin, agus dá bharr sin úsáidtear é ar an dóigh chéanna agus ar úsáid tú an t-ordú chun ór agus clocha a bhailiú.
+ResourceInformation=Dála an scéil, is iad ór agus adhmad a theastaíonn ón fhaicsean bundúchasach go bhformhór.
+GetWood=Mar leid eile, is féidir leat aon ordú bailithe a dhéanamh níos giorra trí oibrí a roghnú, ansin deaschliceáil ar áit ina bhfuil an acmhainn ar fáil (sa choill, sa chás seo). Má éiríonn leat, taispeánfar saighead bhuí. Anois, bailigh adhmad go dtí go mbeidh 550 agat.
+
+;------------------------------------------Learn meeting Point and build a tent-------------------------------------------------------
+
+MeetingPoint=Nuair a roghnaíonn tú foirgneamh, taispeántar saighead ghorm. Taispeánann an tsaighead seo "an t-ionad tionóil". Rachaidh na haonaid a tháirgfidh tú san fhoirgneamh seo go dtí an t-ionad seo go díreach tar éis duit iad a tháirgeadh.
+UseMeetingPoint=Is féidir leat an t-ionad tionóil a chur in áit nua, freisin. Cliceáil an deilbhín brataí, ansin cliceáil an t-ionad nua. Is féidir leat an t-ordú seo a dhéanamh níos giorra freisin trí dheaschliceáil a dhéanamh ar an áit nua (mar an gcéanna le siúl thart).
+MeetingPoint2=Má chuireann tú an t-ionad tionóil ar acmhainn, tosóidh oibrithe nua ag bailiú san áit sin tar éis duit iad a tháirgeadh. Déan cinnte go bhfuil an áit cheart roghnaithe agat, nó beidh na oibrithe ag fálróid thart gan obair a dhéanamh.
+Thirdcommand=Anois, an tríú deilbhín ordaithe. Seo é an t-ordú "tóg".
+Thirdcommand2=Má chliceálann tú é, osclófar an roghchlár tógála. Má chuireann tú do luch os cionn ceann de na deilbhíní a bhfuil foirgneamh air, taispeánfar, níos faide thíos, faoi "riachtanais", na hacmhainní agus na héachtaí go léir atá de dhíth ort chun é a thógáil.
+Thirdcommand3=Má chuireann tú do luch os cionn an phubaill, feicfidh tú go gcosnaíonn sé 30 aonad óir, 50 aonad adhmaid, -10 tithíocht agus príomhthípí chun puball a thógáil. Ciallaíonn "-10 tithíocht" go bhfaighidh tú spás do dheich n-aonad sa bhreis (cé go dteastaíonn níos mó ná ceann amháin ó aonaid áirithe).
+Thirdcommand4=Tógaimis puball anois! Cliceáil an roghchlár tógála, ansin an puball, agus cuir ar áit fholamh é.
+
+;--------------------------------------------------stickfighter----------------------------------------------------------------
+
+
+ProduceStickfighter=Anois is féidir leat bataire a thraenáil i do phuball nua.
+
+;objective strings
+ProduceWorker=Cuspóir: Oibrí amháin a thraenáil.
+ProduceStickfighter2=Cuspóir: Bataire amháin a thraenáil.
+MoveWorker=Cuspóir: an t-oibrí nuadhéanta a threorú go dtí an t-oibrí eile atá ag fanacht taobh amuigh de do champa.
+HarvestGoldandStoneobjective=Cuspóir: Ór agus clocha a thochailt go dtí go mbeidh 600 aonad óir agus 550 aonad cloiche agat.
+GetWoodob=Cuspóir: 550 aonad adhmaid a bhailiú.
+UseThirdCommand=Cuspóir: Puball a thógáil. Leid: má thagann dath dearg ar an bpuball, ciallaíonn sin go bhfuil an áit sin gafa cheana (nó go ginearálta, mar shampla ag crann nó ag aonad eile).
+
+;end
+
+WellDoneNextTutorial=Maith thú! Anois tá cead agat dul ar aghaidh go dtí an chéad chúrsa teagaisc eile.

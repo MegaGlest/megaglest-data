@@ -1,9 +1,9 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="2"/>
 		<height value="8" />
+		<ai-build-size value="3"/>
 		<burn-height value="11" />
 		<target-height value="13" />
 		<max-hp value="10000" regeneration="0"/>
@@ -43,10 +43,7 @@
 			<sound path="sounds/magic_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="be_built"/>
 			<name value="be_built_skill"/>
@@ -56,7 +53,6 @@
 			<animation path="../mage_tower/construction_models/archmage_tower_construction.g3d" />
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -66,7 +62,6 @@
 			<animation path="models/archmage_tower.g3d" />
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -76,7 +71,6 @@
 			<animation path="models/archmage_tower.g3d" />
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -92,11 +86,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="research_dragon_call"/>

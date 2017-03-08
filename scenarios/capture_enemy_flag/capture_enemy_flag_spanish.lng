@@ -5,14 +5,18 @@ Warning=Aviso
 Crisis=¡Alerta roja!
 
 ;message strings
-Brief1=Captura la bandera de tu enemigo tocándola y después volviendo a tu base. La bandera de tu enemigo está parpadeando en el mini mapa. Tu bandera está en el color de tu equipo. Cuidado con las sorpresas por el camino.
-Player2InFlagZoneWarning=¡El jugador 2 está en tu zona, cuidado!
-Player3InFlagZoneWarning=¡El jugador 3 está en tu zona, cuidado!
-Player2HasFlagWarning=El jugador 2 tiene tu bandera. ¡A por él!
-Player3HasFlagWarning=El jugador 3 tiene tu bandera. ¡A por él!
+Brief1=Captura la bandera de tu enemigo tocándola y volviendo a tu base. La bandera del enemigo está parpadeando en el minimapa. Tu bandera brillará con color de tu equipo. Ten cuidado con las posibles sorpresas por el camino.
+Player2InFlagZoneWarning=¡Cuidado! El jugador verde está en la zona de tu bandera.
+Player3InFlagZoneWarning=¡Cuidado! El jugador azul está en la zona de tu bandera.
+Player2HasFlagWarning=El jugador verde tiene tu bandera. ¡A por él!
+Player3HasFlagWarning=El jugador azul tiene tu bandera. ¡A por él!
+
+;flags description (future use)
+CatchThisFlag=¡Captura esta bandera!
+FlagForPlayer2=La bandera a capturar por el equipo verde.
+FlagForPlayer3=La bandera a capturar por el equipo azul.
 
 ;objective strings
-Player2HeadHome=Ahora, jugador 2, llévala a casa y gana! el portador de la bandera esta resaltado en tu color en el mini mapa. ¡No dejes que muera!
-Player3HeadHome=Ahora, jugador 3, llévala a casa y gana! el portador de la bandera esta resaltado en tu color en el mini mapa. ¡No dejes que muera!
+PlayerHeadHome=Te has hecho con la bandera. ¡Tráela a casa para ganar! El portador de la bandera destaca brillando con el color de tu equipo, mantenle indemne.
 PlayerWins=¡Felicidades, has ganado!
 PlayerLoses=Vaya, ¡has perdido!

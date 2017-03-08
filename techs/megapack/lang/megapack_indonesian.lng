@@ -1,0 +1,616 @@
+; TechTree
+TechTreeName=megapack
+; -------------------------------------
+; Types of Armor
+ArmorTypeName_organic=organik
+ArmorTypeName_leather=kulit
+ArmorTypeName_wood=kayu
+ArmorTypeName_metal=logam
+ArmorTypeName_stone=batu
+; --------------------
+; Types of Attack
+AttackTypeName_slashing=sabetan
+AttackTypeName_piercing=tusukan
+AttackTypeName_impact=hantaman
+AttackTypeName_energy=energi
+AttackTypeName_sword=pedang
+AttackTypeName_arrow=panah
+AttackTypeName_magic=sihir
+# AttackTypeName_beat=beat
+; --------------------
+; Types of Resources
+ResourceTypeName_energy=energi
+ResourceTypeName_food=makanan
+ResourceTypeName_gold=emas
+ResourceTypeName_housing=rumah
+ResourceTypeName_stone=batu
+ResourceTypeName_wood=kayu
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_egypt=mesir
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_power_of_ra=kekuatan ra
+UpgradeTypeName_spear_weapons=senjata tombak
+UpgradeTypeName_speedup_priest_production=percepat penghasilan pendeta
+UpgradeTypeName_summon_ibis=memanggil ibis
+UpgradeTypeName_summon_scarab=memanggil scarab
+; -------------------------------------
+UnitTypeName_air_pyramid=piramida udara
+; --------------------
+LevelName_elite=elit
+; --------------------
+CommandName_attack_off=Mode serang mati
+CommandName_attack_on=Mode serang nyala
+; -------------------------------------
+UnitTypeName_anubis_warrior=petarung anubis
+; --------------------
+LevelName_ancient=kuno
+; --------------------
+CommandName_stop=berhenti
+CommandName_move=pindah
+CommandName_attack=serang
+; -------------------------------------
+UnitTypeName_chicken=ayam
+; -------------------------------------
+UnitTypeName_desert_camp=kemah gurun
+; --------------------
+CommandName_produce_spearthrower=hasilkan pelempar tombak
+CommandName_produce_spearman=hasilkan penombak
+CommandName_upgrade_spear_weapons=tingkatkan senjata tombak
+; -------------------------------------
+UnitTypeName_farm=peternakan
+; --------------------
+CommandName_produce_chicken=hasilkan ayam
+; -------------------------------------
+UnitTypeName_ibis=ibis
+; --------------------
+CommandName_hold_position=tahan posisi
+; -------------------------------------
+UnitTypeName_mummy=mumi
+; -------------------------------------
+UnitTypeName_obelisk=obelisk
+; --------------------
+CommandName_produce_scarab=hasilkan scarab
+CommandName_produce_snake=hasilkan ular
+CommandName_produce_ibis=hasilkan ibis
+; -------------------------------------
+UnitTypeName_priest=pendeta
+; --------------------
+CommandName_speedup_priest_production=percepat penghasilan pendeta
+CommandName_heal=sembuhkan
+CommandName_produce_mummy=hasilkan mumi
+CommandName_produce_anubis_warrior=hasilkan petarung anubis
+CommandName_ice_nova=nova es
+; -------------------------------------
+UnitTypeName_pyramid=piramida
+; --------------------
+CommandName_produce_slave=hasilkan budak
+; -------------------------------------
+UnitTypeName_scarab=scarab
+; --------------------
+LevelName_expert=ahli
+LevelName_master=master
+LevelName_legendary=legendaris
+; --------------------
+# CommandName_dung_attack=dung attack
+; -------------------------------------
+UnitTypeName_slave=budak
+; --------------------
+CommandName_build_basic=bangun sederhana
+CommandName_repair=benahi
+CommandName_mine=tambang
+CommandName_harvest_wood=kumpulkan kayu
+; -------------------------------------
+UnitTypeName_snake=ular
+; --------------------
+CommandName_poison_shot=tembakan beracun
+; -------------------------------------
+UnitTypeName_spearman=penombak
+; -------------------------------------
+UnitTypeName_spearthrower=pelempar tombak
+; -------------------------------------
+UnitTypeName_sphinx=sphinx
+; -------------------------------------
+UnitTypeName_temple=kuil
+; --------------------
+CommandName_produce_priest=hasilkan pendeta
+CommandName_research_scarab=riset scarab
+CommandName_research_ibis=riset ibis
+CommandName_get_power_of_ra=dapatkan kekuatan ra
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_indian=indian
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_iron=besi terdahulu
+UpgradeTypeName_bull_food=makanan banteng
+UpgradeTypeName_iron=besi
+UpgradeTypeName_petroleum=minyak bumi
+UpgradeTypeName_stables=kandang
+UpgradeTypeName_training_field=tempat latihan
+; -------------------------------------
+UnitTypeName_archer=pemanah
+; -------------------------------------
+UnitTypeName_axe_indian=indian berkapak
+; -------------------------------------
+UnitTypeName_axe_thrower=pelempar kapak
+; -------------------------------------
+UnitTypeName_beehive=sarang lebah
+; -------------------------------------
+UnitTypeName_big_tent=tenda besar
+; --------------------
+CommandName_produce_stickfighter=hasilkan petarung berstik
+CommandName_produce_archer=hasilkan pemanah
+; -------------------------------------
+UnitTypeName_bull=banteng
+; -------------------------------------
+UnitTypeName_campfire=api unggun
+; --------------------
+CommandName_produce_fire_golem=hasilkan golem api
+CommandName_research_iron=riset besi
+CommandName_research_advanced_iron=riset besi terdahulu
+; -------------------------------------
+UnitTypeName_fire_archer=pemanah api
+; -------------------------------------
+UnitTypeName_fire_golem=golem api
+; -------------------------------------
+UnitTypeName_horse_farm=peternakan kuda
+; --------------------
+CommandName_produce_horseman=hasilkan prajurit berkuda
+CommandName_produce_bull=hasilkan banteng
+CommandName_research_stables=riset kandang
+; -------------------------------------
+UnitTypeName_horseman=prajurit berkuda
+; -------------------------------------
+UnitTypeName_main_teepee=kemah utama
+; --------------------
+CommandName_produce_worker=hasilkan pekerja
+; -------------------------------------
+UnitTypeName_reed=rerumputan
+; --------------------
+CommandName_research_bull_food=riset makanan banteng
+; -------------------------------------
+UnitTypeName_round_tent=tenda bundar
+; --------------------
+CommandName_produce_axe_indian=hasilkan indian berkapak
+CommandName_produce_axe_thrower=hasilkan pelempar kapak
+CommandName_produce_fire_archer=hasilkan pemanah api
+CommandName_create_training_field=buat tempat latihan
+; -------------------------------------
+UnitTypeName_shaman=dukun
+; --------------------
+CommandName_molotov=molotov
+CommandName_produce_thunderbird=hasilkan burung petir
+CommandName_build_beehive=bangun sarang lebah
+; -------------------------------------
+; Unit > spearman
+; --------------------
+LevelName_guardian=pelindung
+LevelName_chief=kepala suku
+; -------------------------------------
+UnitTypeName_stickfighter=petarung berstik
+; -------------------------------------
+UnitTypeName_tent=tenda
+; -------------------------------------
+UnitTypeName_thunderbird=burung petir
+; --------------------
+CommandName_throw=lempar
+CommandName_breath=sembur
+; -------------------------------------
+UnitTypeName_totem=totem
+; --------------------
+CommandName_air_on=nyalakan anti udara
+CommandName_research_petroleum=riset minyak bumi
+CommandName_produce_shaman=hasilkan dukun
+; -------------------------------------
+UnitTypeName_worker=pekerja
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_magic=sihir
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_ancient_summoning=panggilan kuno
+UpgradeTypeName_dragon_call=panggilan naga
+UpgradeTypeName_energy_compression=kompresi energi
+UpgradeTypeName_energy_sharpening=pentajaman energi
+UpgradeTypeName_faster_movement=pergerakan lebih cepat
+UpgradeTypeName_golem_power=kekuatan golem
+UpgradeTypeName_hell_gate=gerbang neraka
+; -------------------------------------
+UnitTypeName_archmage=penyihir hebat
+; --------------------
+CommandName_static_fire=api statik
+; -------------------------------------
+UnitTypeName_archmage_tower=menara penyihir hebat
+; --------------------
+CommandName_research_dragon_call=riset panggilan naga
+CommandName_golem_power=kekuatan golem
+; -------------------------------------
+UnitTypeName_battlemage=penyihir tempur
+; --------------------
+CommandName_fire_bolt=kilat api
+CommandName_promote_to_archmage=ubah menjadi penyihir hebat
+; -------------------------------------
+UnitTypeName_behemoth=raksasa binatang
+; -------------------------------------
+UnitTypeName_daemon=daemon
+; -------------------------------------
+UnitTypeName_dragon_rider=penunggang draco
+; --------------------
+CommandName_fire_breath=semburan api
+# CommandName_flare=flare
+; -------------------------------------
+UnitTypeName_dragon=naga
+; --------------------
+CommandName_promote_to_evil_dragon=ubah menjadi naga jahat
+; -------------------------------------
+UnitTypeName_energy_source=sumber energi
+; -------------------------------------
+UnitTypeName_evil_dragon=naga jahat
+; -------------------------------------
+UnitTypeName_ghost_armor=baju zirah berhantu
+; -------------------------------------
+UnitTypeName_golem=golem
+; --------------------
+CommandName_promote_to_power_golem=ubah menjadi golem bertenaga
+; -------------------------------------
+UnitTypeName_initiate=penyihir
+; --------------------
+CommandName_build=bangun
+CommandName_ritual=ritual
+CommandName_harvest=kumpulkan
+CommandName_promote_to_battlemage=ubah menjadi penyihir tempur
+; -------------------------------------
+UnitTypeName_library=perpustakaan
+; --------------------
+CommandName_research_energy_compression=riset kompresi energi
+CommandName_research_energy_sharpening=riset pentajaman energi
+CommandName_research_hell_gate=riset gerbang neraka
+; -------------------------------------
+UnitTypeName_mage_tower=menara penyihir
+; --------------------
+CommandName_produce_initiate=hasilkan penyihir
+; -------------------------------------
+UnitTypeName_power_golem=golem bertenaga
+; -------------------------------------
+UnitTypeName_summoner=pemanggil
+; --------------------
+CommandName_summon_daemon=panggil daemon
+CommandName_summon_ghost_armor=panggil baju zirah berhantu
+CommandName_summon_dragon=panggil naga
+CommandName_summon_wingless_dragon=panggil draco
+; -------------------------------------
+UnitTypeName_summoner_guild=perkumpulan pemanggil
+; --------------------
+CommandName_produce_summoner=hasilkan pemanggil
+CommandName_research_ancient_summoning=riset panggilan kuno
+CommandName_speed_up_movement=percepat pergerakkan
+; -------------------------------------
+UnitTypeName_tower_of_souls=menara para jiwa
+; -------------------------------------
+# UnitTypeName_wicker_behemoth=wicker behemoth
+; --------------------
+CommandName_promote_to_behemoth=ubah menjadi raksasa binatang
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_norsemen=norwegia
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_arrow=panah
+UpgradeTypeName_holy_valkyrie=valkyrie suci
+UpgradeTypeName_mead=madu
+UpgradeTypeName_root=akar
+; -------------------------------------
+UnitTypeName_battleaxe=kapak perang
+; --------------------
+CommandName_promote_to_battleaxe_berserk=ubah menjadi kapak perang pengamuk
+; -------------------------------------
+UnitTypeName_battleaxe_berserk=kapak perang pengamuk
+; -------------------------------------
+UnitTypeName_blacksmith=pandai besi
+; --------------------
+CommandName_upgrade_iron=tingkatkan besi
+CommandName_upgrade_arrow=tingkatkan panah
+CommandName_upgrade_advanced_iron=tingkatkan besi terdahulu
+CommandName_produce_crossbow=hasilkan pemanah busur silang
+; -------------------------------------
+UnitTypeName_bone_tent=tenda tulang
+; --------------------
+CommandName_produce_swordman=hasilkan prajurit berpedang
+CommandName_produce_battleaxe=hasilkan kapak perang
+; -------------------------------------
+UnitTypeName_castle=kastil
+; --------------------
+CommandName_produce_thrall=hasilkan budak
+; -------------------------------------
+UnitTypeName_cow=sapi
+; -------------------------------------
+UnitTypeName_crossbow=pemanah busur silang
+; --------------------
+CommandName_attack_arrow=serang panah
+; -------------------------------------
+UnitTypeName_cudgel_lady=wanita berpentungan
+; --------------------
+CommandName_cudgel=pentungan
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_cow=hasilkan sapi
+; -------------------------------------
+UnitTypeName_flying_valkyrie=valkyrie terbang
+; -------------------------------------
+UnitTypeName_house=rumah
+; --------------------
+CommandName_produce_cudgel_lady=hasilkan wanita berpentungan
+; -------------------------------------
+UnitTypeName_mead_bar=bar mead
+; --------------------
+CommandName_research_mead=riset madu
+; -------------------------------------
+UnitTypeName_mistletoe_tree=pohon mistletoe
+; --------------------
+CommandName_research_root=riset akar
+CommandName_resurrect_wild_sow=hidupkan kembali induk babi liar
+; -------------------------------------
+; Unit > spearman
+; --------------------
+CommandName_promote_to_spearman_berserk=ubah menjadi penombak pengamuk
+; -------------------------------------
+UnitTypeName_spearman_berserk=penombak pengamuk
+; -------------------------------------
+UnitTypeName_swordman=prajurit berpedang
+; --------------------
+CommandName_promote_to_swordman_berserk=ubah menjadi prajurit berpedang pengamuk
+; -------------------------------------
+UnitTypeName_swordman_berserk=prajurit berpedang pengamuk
+; -------------------------------------
+UnitTypeName_thor=thor
+; --------------------
+LevelName_advanced=terdahulu
+; -------------------------------------
+UnitTypeName_thor_totem=totem thor
+; --------------------
+CommandName_build_thor=bangun thor
+; -------------------------------------
+UnitTypeName_thrall=budak
+; -------------------------------------
+UnitTypeName_valhalla=valhalla
+; --------------------
+CommandName_produce_flying_valkyrie=hasilkan valkyrie terbang
+CommandName_produce_valkyrie=hasilkan valkryrie
+CommandName_research_holy_valkyrie=riset valkyrie suci
+; -------------------------------------
+UnitTypeName_valkyrie=valkyrie
+; --------------------
+CommandName_airattack=serangudara
+; -------------------------------------
+UnitTypeName_wild_sow=induk babi liar
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_persian=persia
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_corn_and_wicker=jagung dan anyaman
+UpgradeTypeName_magic_level_1=sihir tingkat 1
+UpgradeTypeName_magic_level_2=sihir tingkat 2
+UpgradeTypeName_nails=paku
+UpgradeTypeName_shield=perisai
+UpgradeTypeName_weapons=senjata
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_weapons=tingkatkan senjata
+CommandName_upgrade_nails=tingkatkan paku
+CommandName_upgrade_shield=tingkatkan perisai
+; -------------------------------------
+UnitTypeName_elephant=gajah
+; -------------------------------------
+UnitTypeName_elephant_cage=kandang gajah
+; --------------------
+CommandName_produce_elephant=hasilkan gajah
+; -------------------------------------
+UnitTypeName_fakir=fakir
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_sheep=hasilkan domba
+CommandName_research_corn_and_wicker=riset jagung dan anyaman
+; -------------------------------------
+UnitTypeName_flying_carpet=karpet terbang
+; --------------------
+CommandName_magic_attack=serang sihir
+; -------------------------------------
+UnitTypeName_genie=jin
+; -------------------------------------
+; Unit > house
+; --------------------
+CommandName_produce_fakir=hasilkan fakir
+; -------------------------------------
+UnitTypeName_magician=tukang sihir
+; --------------------
+CommandName_build_snake_basket=bangun keranjang ular
+; -------------------------------------
+UnitTypeName_minaret=menara masjid
+; -------------------------------------
+UnitTypeName_palace=istana
+; -------------------------------------
+UnitTypeName_princess=putri
+; -------------------------------------
+UnitTypeName_sheep=domba
+; -------------------------------------
+UnitTypeName_snake_basket=keranjang ular
+; -------------------------------------
+; Unit > temple
+; --------------------
+CommandName_produce_princess=hasilkan putri
+; -------------------------------------
+; Unit > tent
+; --------------------
+CommandName_produce_genie=hasilkan jin
+CommandName_produce_flying_carpet=hasilkan karpet terbang
+CommandName_produce_magician=hasilkan tukang sihir
+CommandName_upgrade_magic_level_1=tingkatkan sihir tingkat 1
+CommandName_upgrade_magic_level_2=tingkatkan sihir tingkat 2
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_romans=romawi
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_advanced_architecture=arsitektur terdahulu
+UpgradeTypeName_bless_of_minerva=berkat minerva
+UpgradeTypeName_enlarge_shields=perbesar perisai
+UpgradeTypeName_formations=formasi
+UpgradeTypeName_jupiter=jupiter
+UpgradeTypeName_reinforce_armor=perkuat zirah
+UpgradeTypeName_sharpen_points=pertajam ujung
+UpgradeTypeName_sign_of_mars=tanda mars
+UpgradeTypeName_strengthen_swords=perkuat pedang
+; -------------------------------------
+; Unit > archer
+; --------------------
+CommandName_get_fire_arrows=dapatkan panah api
+; -------------------------------------
+UnitTypeName_axe_man=prajurit berkapak
+; -------------------------------------
+UnitTypeName_ballista=ballista
+; -------------------------------------
+UnitTypeName_battering_ram=pelantak tubruk
+; --------------------
+CommandName_attack_land=serang darat
+CommandName_attack_air=serang udara
+; -------------------------------------
+UnitTypeName_blacksmith_shop=toko pandai besi
+; --------------------
+CommandName_strengthen_swords=perkuat pedang
+CommandName_sharpen_points=pertajam ujung
+CommandName_reinforce_armor=perkuat zirah
+CommandName_enlarge_shields=perbesar perisai
+; -------------------------------------
+UnitTypeName_catapult=katapel
+; --------------------
+CommandName_fire_ball=bola api
+; -------------------------------------
+UnitTypeName_cavalry=prajurit berkuda
+; --------------------
+CommandName_promote_to_tribune=ubah ke tribunus
+; -------------------------------------
+UnitTypeName_eagle_pillar=pilar elang
+; -------------------------------------
+; Unit > fire archer
+; --------------------
+LevelName_accurate=akurat
+; -------------------------------------
+UnitTypeName_forum=forum
+; -------------------------------------
+UnitTypeName_general=jenderal
+; --------------------
+LevelName_esteemed=terpandang
+LevelName_grand=agung
+; -------------------------------------
+UnitTypeName_gladiator=gladiator
+; -------------------------------------
+UnitTypeName_gladiator_school=sekolah gladiator
+; --------------------
+CommandName_train_gladiator=latih gladiator
+CommandName_produce_axe_man=hasilkan prajurit berkapak
+; -------------------------------------
+UnitTypeName_guard=penjaga
+; -------------------------------------
+UnitTypeName_guard_tower=menara jaga
+; -------------------------------------
+UnitTypeName_military_camp=kemah militer
+; --------------------
+CommandName_produce_cavalry=hasilkan prajurit berkuda
+CommandName_produce_turtle_formation=hasilkan formasi kura-kura
+CommandName_produce_general=hasilkan jenderal
+CommandName_produce_mechanic=hasilkan ahli mesin
+CommandName_upgrade_advanced_architecture=tingkatkan arsitektur terdahulu
+CommandName_upgrade_formations=tingkatkan formasi
+; -------------------------------------
+UnitTypeName_swordsman=prajurit berpedang
+; -------------------------------------
+; Unit > temple
+; --------------------
+CommandName_research_sign_of_mars=riset tanda mars
+CommandName_research_jupiter=riset jupiter
+CommandName_upgrade_bless_of_minerva=tingkatkan berkat minerva
+; -------------------------------------
+UnitTypeName_training_camp=kemah latihan
+; --------------------
+CommandName_produce_guard=hasilkan penjaga
+CommandName_produce_swordsman=hasilkan prajurit berpedang
+; -------------------------------------
+UnitTypeName_tribune=tribunus
+; -------------------------------------
+UnitTypeName_turtle_formation=formasi kura-kura
+; -------------------------------------
+UnitTypeName_wartime_mechanic=ahli mesin perang
+; --------------------
+CommandName_build_catapult=buat katapel
+CommandName_build_battering_ram=buat pelantak tubruk
+CommandName_build_ballista=buat ballista
+; -----------------------------------------------------------------------------
+; Faction
+FactionName_tech=tekno
+; -------------------------------------
+; Types of Upgrades for this Faction
+UpgradeTypeName_blade_weapons=senjata tajam
+UpgradeTypeName_piercing_weapons=senjata tusuk
+UpgradeTypeName_robotics=robotika
+UpgradeTypeName_shield_level_1=perisai tingkat 1
+UpgradeTypeName_shield_level_2=perisai tingkat 2
+; -------------------------------------
+UnitTypeName_aerodrome=lapangan terbang
+; --------------------
+CommandName_produce_ornithopter=hasilkan ornithopter
+CommandName_produce_airship=hasilkan zeppelin
+; -------------------------------------
+UnitTypeName_air_ballista=ballista udara
+; -------------------------------------
+UnitTypeName_airship=zeppelin
+; --------------------
+CommandName_missile=misil
+; -------------------------------------
+UnitTypeName_barracks=barak
+; -------------------------------------
+UnitTypeName_battle_machine=mesin perang
+; -------------------------------------
+; Unit > blacksmith
+; --------------------
+CommandName_upgrade_blade_weapons=tingkatkan senjata tajam
+CommandName_upgrade_piercing_weapons=tingkatkan senjata tusuk
+; -------------------------------------
+UnitTypeName_defense_tower=menara pertahanan
+; -------------------------------------
+; Unit > farm
+; --------------------
+CommandName_produce_pig=hasilkan babi
+; -------------------------------------
+UnitTypeName_ornithopter=ornithopter
+; --------------------
+CommandName_fire_arrow=panah api
+; -------------------------------------
+UnitTypeName_pig=babi
+; -------------------------------------
+; Unit > swordman
+; --------------------
+CommandName_promote_to_guard=ubah ke garda
+; -------------------------------------
+UnitTypeName_technician=teknisi
+; --------------------
+CommandName_build_ultimate=bangun kompleks
+CommandName_mine_gold=tambang emas
+CommandName_build_battle_machine=buat mesin perang
+CommandName_build_air_ballista=buat ballista udara
+; -------------------------------------
+UnitTypeName_technodrome=technodrome
+; --------------------
+CommandName_produce_technician=hasilkan teknisi
+CommandName_research_advanced_architecture=riset arsitektur terdahulu
+CommandName_research_robotics=riset robotika
+; -------------------------------------
+; Unit > worker
+; --------------------
+CommandName_build_advanced=bangun kompleks
+; -------------------------------------

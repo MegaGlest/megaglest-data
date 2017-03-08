@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amasonaich
+;message headers
+Amazones=Amasonaich
+
+;message strings
+Brief1=Feumaidh caisteal do chaidreabhaich a mhairsinn!
+
+;objective strings
+Firstwave=Ceann-uidhe: Mnathan-uasal le aodach uaine orra.
+Secondwave=Ceann-uidhe: Barrachd bhan-uasal.
+Thirdwave=Ceann-uidhe: Cus bhan-uasal, is dòcha...
+Fourthwave=Ceann-uidhe: Snog ach cunnartach ;-)
+Lastwave=Ceann-uidhe: An ionnsaigh mu dheireadh!!

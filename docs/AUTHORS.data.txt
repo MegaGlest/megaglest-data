@@ -11,25 +11,25 @@ Partial Copyright 2010-2011 (c) The MegaGlest Team (<http://megaglest.org>)
 The MegaGlest team has made minor modifications to the original data.
 
 Tech: 
-Copyright 2001-2011 (c) The Glest Team (<http://glest.org>) 
+Copyright 2001-2011 (c) The Glest Team (<http://glest.org>)
 Partial Copyright 2010-2011 (c) The MegaGlest Team (<http://megaglest.org>)
 The MegaGlest team has made minor modifications to the original data.
 
 Indians:
-Copyright 2007-2011 (c) Titus Tscharntke and Philipp Tscharntke 
+Copyright 2007-2011 (c) Titus Tscharntke and Philipp Tscharntke
 (<http://www.titusgames.de>)
 Titus Tscharntke is AKA titi.
 This faction uses some models contained in Glest as created by the Glest Team.
 
 Norsemen:
-Copyright 2008-2011 (c) Titus Tscharntke, Raphael Schröder and Philipp 
+Copyright 2008-2011 (c) Titus Tscharntke, Raphael Schröder and Philipp
 Tscharntke (<http://www.titusgames.de>)
 Titus Tscharntke is AKA titi.
 Raphael Schröder is AKA weedkiller.
 This faction uses some models contained in Glest as created by the Glest Team.
 
 Egyptians:
-Copyright 2010-2011 (c) Titus Tscharntke (<http://www.titusgames.de>)      
+Copyright 2010-2011 (c) Titus Tscharntke (<http://www.titusgames.de>)
 Titus Tscharntke is AKA titi.
 
 Persians:
@@ -40,174 +40,194 @@ This faction uses some models contained in Glest as created by the Glest Team.
 
 Romans:
 Copyright 2010-2011 (c) Jacob Vejvoda (<http://www.soft-haus.com/jacob/blog>)
-Jacob Vejvoda is AKA ElimNator. 
-The Romans faction uses music tracks from Mattias Westlund's album 
+Jacob Vejvoda is AKA ElimNator.
+The Romans faction uses music tracks from Mattias Westlund's album
 "Chronicles III" - http://www.jamendo.com/en/artist/Mattias_Westlund
-
 
 Tilesets:
 =========
-Autumn         by Titus Tscharntke(titi)
-Birch Forest   by Titus Tscharntke(titi)
-Desert2        by Idanwin and Titus Tscharntke(titi)
-Desert4        by Titus Tscharntke(titi)
-Evergreen      by Titus Tscharntke(titi)
-Fernland       by Titus Tscharntke(titi)
-Hell           by Titus Tscharntke(titi)
-Jungle         by Titus Tscharntke(titi) & Philipp Tscharntke
-Karningul      by Trappin( with help from Omega) based on original imladris by GameBoy
-Meadow         by Trappin ( with water from madelf )
-Mediterran     by Titus Tscharntke(titi)
-Pine Peat      by Trappin modified by Titus Tscharntke(titi). Uses some ground textures from Rhyzom and some models from wciow.
-Pine Rock      by Titus Tscharntke(titi)
-Scrubland      by MadElf (improved a bit by titi)
-Spring         by Philipp Tscharntke
-Winter         by Titus Tscharntke(titi)
-
+ Autumn             by Titus Tscharntke (titi)
+ Birch Forest       by Titus Tscharntke (titi)
+ Desert2            by Idanwin and Titus Tscharntke (titi)
+ Desert4            by Titus Tscharntke (titi)
+ Evergreen          by Titus Tscharntke (titi)
+ Fernland           by Titus Tscharntke (titi)
+ Hell               by Titus Tscharntke (titi)
+ Jungle             by Titus Tscharntke (titi) & Philipp Tscharntke
+ Karningul          by Trappin (with help from Omega) based on original
+                      imladris by GameBoy
+ Meadow             by Trappin (with water from madelf)
+ Mediterran         by Titus Tscharntke (titi)
+ Pine Peat          by Trappin modified by Titus Tscharntke (titi). Uses some
+                      ground textures from Rhyzom and some models from wciow.
+ Pine Rock          by Titus Tscharntke (titi)
+ Scrubland          by MadElf (improved a bit by titi)
+ Spring             by Philipp Tscharntke
+ Winter             by Titus Tscharntke (titi)
 
 Maps:
 =====
- 2rivers                     by Titus Tscharntke(titi)
- 4hills8kings                by Titus Tscharntke(titi)
- 4kingdoms8kings             by Eliminator ( little changes by titi )
- 6isle                       by Titus Tscharntke(titi)
- 6player                     by atze
- ally_resists                by Trappin tweaked by ultifd
- another_riverside           by atze
- around_the_lake.mgm         by Philipp Tscharntke
- base_it                     by atze
- beat_the_enemy              by Philipp Tscharntke
- cauldron                    by Wciow
- center_castle               by Titus Tscharntke(titi)
- cliff_valley                by Titus Tscharntke(titi)
- clinch                      by atze
- conflict                    by ttsmj
- conflict6xtreed             by Eliminator (based on 'conflict')
- confrontation               by atze (based on 'conflict')
- coop4_ally_resist           by Trappin
- desanction                  by atze
- domination_isles            by mapmaker(from the glest forum)
- eight_gradient              by Trappin
- end_times                   original by omega modified by Trappin
- fight_4_your_golden_right   by atze
- five_on_three               by Tiger
- forest_divide               by felipeludo2011 / mod Trappin
- four_free                   by atze
- fracture                    by wciow
- grandezza                   by atze
- hells_clam                  by Titus Tscharntke(titi)
- highlands                   by Titus Tscharntke(titi)
- hills                       by Titus Tscharntke(titi)
- intermezzo                  by atze
- kaleidoscope                by Titus Tscharntke(titi)
- lakesway                    by atze
- land_of_plenty2             by Eliminator ( little changes by titi )
- lau_lagoon                  by Trappin
- loggerheads                 by atze
- megakill3vs1                by Enno Tscharntke
- meteor                      by Titus Tscharntke(titi)
- no_masters                  by atze
- one_king_fairplay           by Titus Tscharntke(titi)
- one_king_rules_them_all     by Uncle
- one_on_one                  by original glest team
- orlog                       by atze
- over_the_bridge.mgm         by atze
- overgrown_city              by mapmaker and Titus Tscharntke(titi)
- paraiso_br                  by carla
- pentagon                    by cavavin
- pot_hole                    original by glest team, improved by Trappin
- prevention                  by atze
- ragor                       by Titus Tscharntke(titi)
- redoubt                     by Trappin
- renkontre                   by atze
- randomhill                  by Titus Tscharntke(titi)
- river_raid2                 by James McCulloch(silnarm)
- showdown_3way               by atze
- simple_river_8_player       by atze
- stone_and_wood              by Enno Tscharntke
- straight_battle             by Titus Tscharntke(titi)
- swamp_of_hope               by atze
- team_island                 by Titus Tscharntke(titi)
- team_island4                by Titus Tscharntke(titi)
- teamplay                    by Titus Tscharntke(titi)
- three_bridges               by atze
- tour_de_force               by atze
- tropical4v4                 by Titus Tscharntke(titi)
- tropical_arena              by mapmaker(from the glest forum)
- tt_goldrush_v2              by Titus Tscharntke(titi)
- unforgotten                 by atze
- wadi_nefud2                 by Trappin
- waterworld                  by Titus Tscharntke(titi)
-
-
+ 2rivers                        by Titus Tscharntke (titi)
+ 4hills8kings                   by Titus Tscharntke (titi)
+ 4kingdoms8kings                by Eliminator (little changes by titi)
+ 6isle                          by Titus Tscharntke (titi)
+ 6player                        by atze
+ ally_resists                   by Trappin tweaked by ultifd
+ another_riverside              by atze
+ around_the_lake.mgm            by Philipp Tscharntke
+ base_it                        by atze
+ beat_the_enemy                 by Philipp Tscharntke
+ cauldron                       by Wciow
+ center_castle                  by Titus Tscharntke (titi)
+ cliff_valley                   by Titus Tscharntke (titi)
+ clinch                         by atze
+ conflict                       by ttsmj
+ conflict6xtreed                by Eliminator (based on 'conflict')
+ confrontation                  by atze (based on 'conflict')
+ coop4_ally_resist              by Trappin
+ desanction                     by atze
+ domination_isles               by mapmaker (from the glest forum)
+ eight_gradient                 by Trappin
+ end_times                      original by omega modified by Trappin
+ fight_4_your_golden_right      by atze
+ five_on_three                  by Tiger
+ forest_divide                  by felipeludo2011 / mod Trappin
+ four_free                      by atze
+ fracture                       by wciow
+ grandezza                      by atze
+ hells_clam                     by Titus Tscharntke (titi)
+ highlands                      by Titus Tscharntke (titi)
+ hills                          by Titus Tscharntke (titi)
+ intermezzo                     by atze
+ kaleidoscope                   by Titus Tscharntke (titi)
+ lakesway                       by atze
+ land_of_plenty2                by Eliminator (little changes by titi)
+ lau_lagoon                     by Trappin
+ loggerheads                    by atze
+ megakill3vs1                   by Enno Tscharntke
+ meteor                         by Titus Tscharntke (titi)
+ no_masters                     by atze
+ one_king_fairplay              by Titus Tscharntke (titi)
+ one_king_rules_them_all        by Uncle
+ one_on_one                     by original glest team
+ orlog                          by atze
+ over_the_bridge.mgm            by atze
+ overgrown_city                 by mapmaker and Titus Tscharntke (titi)
+ paraiso_br                     by carla
+ pentagon                       by cavavin
+ pot_hole                       original by glest team, improved by Trappin
+ prevention                     by atze
+ ragor                          by Titus Tscharntke (titi)
+ redoubt                        by Trappin
+ renkontre                      by atze
+ randomhill                     by Titus Tscharntke (titi)
+ river_raid2                    by James McCulloch (silnarm)
+ showdown_3way                  by atze
+ simple_river_8_player          by atze
+ stone_and_wood                 by Enno Tscharntke
+ straight_battle                by Titus Tscharntke (titi)
+ swamp_of_hope                  by atze
+ team_island                    by Titus Tscharntke (titi)
+ team_island4                   by Titus Tscharntke (titi)
+ teamplay                       by Titus Tscharntke (titi)
+ three_bridges                  by atze
+ tour_de_force                  by atze
+ tropical4v4                    by Titus Tscharntke (titi)
+ tropical_arena                 by mapmaker (from the glest forum)
+ tt_goldrush_v2                 by Titus Tscharntke (titi)
+ unforgotten                    by atze
+ wadi_nefud2                    by Trappin
+ waterworld                     by Titus Tscharntke (titi)
 
 Scenarios:
 ==========
-m4_amazones          by Titus Tscharntke(titi)
-m4_amazones_light    by Titus Tscharntke(titi)
-m4_beehive_castle    by Titus Tscharntke(titi)
-m4_indian_attack     by Titus Tscharntke(titi)
-m4_kill_the_magic    by Titus Tscharntke(titi)
-m4_magic_can_do_it   by Titus Tscharntke(titi)
-m4_my_island         by Titus Tscharntke(titi)
-m4_norsemen_attack   by Titus Tscharntke(titi)
-m4_persian_conflict  by Philipp Tscharntke
-m4_waterworld        by Titus Tscharntke(titi)
-m4_waterworld_light  by Titus Tscharntke(titi)
+ amazones                   by Titus Tscharntke (titi)
+ amazones_light             by Titus Tscharntke (titi)
+ beehive_castle             by Titus Tscharntke (titi)
+ indian_attack              by Titus Tscharntke (titi)
+ kill_the_magic             by Titus Tscharntke (titi)
+ magic_can_do_it            by Titus Tscharntke (titi)
+ my_island                  by Titus Tscharntke (titi)
+ norsemen_attack            by Titus Tscharntke (titi)
+ persian_conflict           by Philipp Tscharntke
+ waterworld                 by Titus Tscharntke (titi)
+ waterworld_light           by Titus Tscharntke (titi)
 
 Tutorials:
 ==========
-basic_tutorial2      by Philipp Tscharntke
+ basic_tutorial2            by Philipp Tscharntke
 
 Translations:
 =============
-Albanian             by Alket Rexhep Rexhepi
-Catalan              by Miguel Verdú
-Chinese              by James
-Czech                by Uncle
-Danish               by Frederick "Coldfusionstorm" Angelo
-Dutch                by joepie91
-French               by Cygal + Davidou based on the work of many others
-Gaelic               by GunChleoc
-German               by Eduard Dopler based on the work of many others
-Greek                by Billy Toulas
-Italian              by Marco "Pizza90" Gori
-Japanese             by Hagekura
-Polish               by Krzysztof Gurbała
-Portuguese           by VictorJ based on the work of many others
-Russian              by Zhook based on the work of many others
-Spanish              by Davidou based on the work of many others
-Ukrainian            by Dmitry Nikitin
+Translations are often based on the previous work of many other translators.
+Albanian              by alket (Alket Rexhepi)
+Arabic                by kraim
+Chinese-China         by guoyunhebrave (Guo Yunhe) & liulitchi
+Chinese-Taiwan        by DrBenson
+Czech                 by ToMáš Marný & unclex
+Danish                by Coldfusionstorm (Frederick Angelo) & peso & Sejani
+Dutch                 by worldcitizen (Joop Boonen) & joepie91 (Sven Slootweg)
+French                by Aurelakan (A.B.) & cygal (Quentin Pradet) & LoubiTek
+Gaelic                by GunChleoc
+German                by tomreyn & na & siggi & emukis (Marcel Haring) &
+                        Zwipfy (Mike) & titi & darktomas (Tomas)
+Greek                 by beonex & Rzarector & wasilis.mandratzis
+Hebrew                by eliyahu52
+Indonesian            by samuelch (Samuel)
+Irish                 by kscanne (Kevin Scannell)
+Italian               by peschio (Michele Pescosolido) & Marco91 (Marco
+                        Mangiacavalli) & pizza90 (Marco Gori) & Alessio Grassi
+Japanese              by hagekura
+Nko                   by Lasnei (Lasnei KANTE)
+Polish                by filux & TotalNoobPL
+Portuguese            by flaviozavan
+Portuguese-Brazil     by victorj (victoJ) & EnricoNicoletto (Enrico Nicoletto)
+Romanian              by ArianServ (Arian - Cazare Muncitori)
+Russian               by Strannik (Dmitriy Strannik) & KroArtem & soryy708 &
+                        superzhook
+Slovenian             by D.U.P.A. (Ivo)
+Spanish               by Swyter & yogurtur (Abel Santolino)
+Turkish               by faradundamarti & tulliana & yakup
+Uzbek                 by uzadmin (Akmal) & ualmasov (Umidjon Almasov) &
+                        uchqunbek (Uchqun Tursunboyev)
+Vietnamese            by ppanhh (Anh Phan)
 
 Credits go to:
 ==============
-Titus Tscharntke(titi) - Lead developer and creator of the new Mega-Glest project (http://www.titusgames.de)
-Mark Vejvoda(SoftCoder) - Developer of the new Mega-Glest project (http://www.soft-haus.com)
+Titus Tscharntke (titi) - Lead developer and creator of the new MegaGlest
+project (http://www.titusgames.de)
+Mark Vejvoda (SoftCoder) - Developer of the new MegaGlest project
+(http://www.soft-haus.com)
 
 The original glest team who made all this possible!!!
 
 Aminos for the indians and persian background music !!
 Margaras for the egypt background music!!
-manolo camp for the background music(norsemen)!!
+manolo camp for the background music (norsemen)!!
 http://www.burningwell.org who have nice free (public domain) textures!
-Gameboy for the norsemen icons
-Weedkiller who created the spearman model of the indians, and the princess and swordman model of the persian faction
+Gameboy for the norsemen icons.
+Weedkiller who created the spearman model of the indians, and the princess and
+  swordman model of the persian faction.
 My family, some friends and neighbors for the unit voices.
-ZaggyDad for some help with textures/models (norsemen) and for the persian elephant model.
+ZaggyDad for some help with textures/models (norsemen) and for the persian
+  elephant model.
 Baida for the axe_thrower model (norsemen)
 Elimnator (from http://www.soundbible.com) for the autumn day sound
 Elimnator (from http://www.soundbible.com) for the autumn night sound
 Elimnator (from http://www.soundbible.com) for the  desert day sound
-Cacatoes (from http://forum.freegamedev.net/) for a nice rock texture photo used in autumn tileset.
-dobroide (from http://forum.freegamedev.net/) for spring ambiente daytime background sounds
+Cacatoes (from http://forum.freegamedev.net) for a nice rock texture photo
+  used in autumn tileset.
+dobroide (from http://forum.freegamedev.net) for spring ambiente daytime
+  background sounds.
 
 Important:
 ==========
-!! For all stuff which was found on suspicious websites like freesounds ( suspicious regarding licenses ) and so on, 
- a special permission was granted by the orginial authors to publish all stuff used with the cc-by-sa unported license !!!
+!! For all stuff which was found on suspicious websites like freesounds (suspicious
+regarding licenses) and so on, a special permission was granted by the orginial
+authors to publish all stuff used with the cc-by-sa unported license !!!
 
 License:
 ========
-All files are released under the Terms of the Creative Commons
-Attribution-ShareAlike 3.0 Unported license which is included in this distribution in the following file:
+All files are released under the Terms of the Creative Commons Attribution-ShareAlike
+3.0 Unported license which is included in this distribution in the following file:
   cc-by-sa-3.0-unported.txt

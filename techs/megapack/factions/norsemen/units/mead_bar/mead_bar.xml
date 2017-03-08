@@ -1,21 +1,22 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="4" />
 		<height value="2" />
+		<ai-build-size value="6"/>
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="stone"/>
 		<sight value="6" />
 		<time value="100" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
 			<row value="1001"/>
 			<row value="0110"/>
 			<row value="0100"/>
-			<row value="1001"/>
+			<row value="0101"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -45,10 +46,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-		<!-- *** skill 0 *** -->
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -58,8 +56,6 @@
 			<animation path="models/med_bar.g3d" />
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 1 *** -->
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -69,8 +65,6 @@
 			<animation path="models/med_bar_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 2 *** -->
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -80,8 +74,6 @@
 			<animation path="models/med_bar.g3d" />
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 3 *** -->
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -91,8 +83,6 @@
 			<animation path="models/med_bar.g3d" />
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 4 *** -->
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -111,13 +101,8 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-
-		<!-- *** command 1 *** -->
 		<command>
 			<type value="produce"/>
 			<name value="produce_cudgel_lady" />
@@ -127,7 +112,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="cudgel_lady"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_spearman" />
@@ -137,8 +121,6 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="spearman"/>
 		</command>
-
-		<!-- *** command 2 *** -->
 		<command>
 			<type value="upgrade"/>
 			<name value="research_mead"/>
@@ -148,6 +130,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="mead"/>
 		</command>
-
 	</commands>
 </unit>

@@ -1,0 +1,41 @@
+TUTORIAL_NAME=#2 Boshlang‘ich qo‘llanma
+;message headers
+GlestBasicTutorial=MegaGlest asosiy qo‘llanmasi
+WellDone=Yaxshi!
+Resources=Manbalar
+Combat=Jangchi
+Buildings=Binolar
+
+;message strings
+Welcome=MegaGlest asosiy qo‘llanmasiga xush kelibsiz. Bu yerda siz o‘yin asoslari bilan tanishasiz.
+WillBeUsingTech=Siz “Tex” fraksiyasini boshqarasiz. Bu fraksiya jang qilish uchun o‘rta asr jangchilari va mexanik qurilmalariga ega.
+NeedWorkers=Manbalarni yig‘ish uchun sizga “Ishchilar” kerak. Ishchilarni sotib olish uchun “Qasr”ni tanlang va “Ishchi sotib olish”ni bosing.
+SelectAndCommand=Qismlarning ustiga sichqoncha chap tugmasini bosib ularni tanlash mumkin. Ularga o‘ng tugmani mo‘ljal yoki manzil ustiga bosib buyruq berish mumkin.
+HowToMine=Oltin to‘plash uchun ishchini tanlang, so‘ngra o‘ng tugma yordamida “Oltin yig‘ish”ni tanalng.
+# WorkersKeepOnHarvesting=Workers will keep on harvesting and taking resources to a building that can store the type of resource they are carrying.
+ResourceInformation=Manbalar ma’lumoti ekran tepasida ko‘rinadi, chap tomonidagi raqam joriy miqdor. o‘ng tomonidagisi esa zaxiraga to‘plash mumkin bo‘lgan miqdor.
+OtherResources=O‘tin va tosh kabi manbalarni oltin yiqqandek to‘plash mumkin.
+TechResourceNeeds=“Tex” fraksiyasiga, odatda, ko‘proq oltin va yog‘och, ozroq tosh kerak bo‘ladi.
+TechConsumesFood=“Tex” fraksiyasida har bir fuqaro ovqat iste’mol qiladi. Ovqatsiz ular kasal bo‘lishi va halok bo‘lishi mumkin. Oziq-ovqat hayvonlardan olinadi. Hayvonlarni esa fermada ishlab chiqarish mumkin.
+HaveEnoughAnimals=Fuqarolaringizni boqish uchun yetarlicha jonivorlar bo‘lishi lozim.
+# BalanceDisplay=The balance between Food consumption and production is displayed in brackets next to the Food storage at the top of the screen.
+# TechWarriorsAtBarracks=To defeat your enemy you will need some warriors, most Tech warriors are produced at the Barracks.
+# HowToBuildBarracks=To build a Barracks select a Worker, click on "Build Basic" > "Barracks" and then select a spot for the building.
+RememberToBuildBarracks=Doimo birinchi navbatda barak quring, chunki uning yordamida tezda jangchi ishlab chiqarishingiz mumkin.
+SwordmanBrief=“Tex” fraksiyasining asosiy jangchisi qilichboz hisoblanadi. Barakani tanlang, so‘ngra “Qilichboz ishlab chiqarish”ni tanlang. Buning uchun manbalar yetarli bo‘lishi lozim.
+HaveWarriorsAtBase=Qarorgohingizda doimo bir nechta jangchi bo‘lishi kerak. Ular o‘zlarining chegaralariga kirgan har qanday dushmanga avtomatik hujum qiladi.
+ArcherBrief=Kamonbozlar “Tex” fraksiyasidagi asosiy jangchilardir. Ularni ham barakda ishlab chiqarish mumkin.
+ProduceWarriors=Dushman hujumlaridan himoyalanish uchun ko‘proq askar ishlab chiqaring.
+
+;objective strings
+ProduceWorkers=Obyektiv: 3 ta ishchi ishlab chiqaring.
+HarvestWoodAndStone=Obyektiv: 100 o‘tin va 150 tillo yig‘ing.
+ProduceCow=Obyektiv: sigir ishlab chiqaring.
+MineGold=Obyektiv: 100 tillo yig‘ing.
+BuildBarracks=Obyektiv: barak quring.
+ProduceSwordman=Obyektiv: qilichboz ishlab chiqaring.
+ProduceArcher=Obyektiv: kamonboz ishlab chiqaring.
+ProduceMoreWarriors=Obyektiv: kutilayotgan hujumlarga qarshi turish uchun ko‘proq jangchi ishlab chiqaring.
+
+;end
+WellDoneNextTutorial=Yaxshi! Keyingi qo‘llanmaga o‘tsangiz bo‘ladi.

@@ -14,7 +14,7 @@
 	<effects>
 		<unit name="battlemage"/>
 		<unit name="summoner"/>
-		<unit name="draco_rider"/>
+		<unit name="dragon_rider"/>
 		<unit name="archmage"/>
 	</effects>
 	<max-hp value="0"/>

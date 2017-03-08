@@ -1,21 +1,21 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
-		<size value="4" />
+		<size value="3" />
 		<height value="5" />
+		<ai-build-size value="4"/>
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="150" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="0000"/>
-			<row value="0110"/>
-			<row value="0000"/>
-			<row value="0000"/>
+			<row value="010"/>
+			<row value="010"/>
+			<row value="000"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -47,10 +47,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<name value="be_built_skill"/>
 			<ep-cost value="0"/>
@@ -60,7 +57,6 @@
 			<sound enabled="false"/>
 			<type value="be_built"/>
 		</skill>
-
 		<skill>
 			<type value="stop"/>
 			<name value="stop_skill"/>
@@ -70,7 +66,6 @@
 			<animation path="models/obelisk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -80,7 +75,6 @@
 			<animation path="models/obelisk_producing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
@@ -90,7 +84,6 @@
 			<animation path="models/obelisk_producing.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>
@@ -103,43 +96,34 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
 		<command>
 			<type value="produce"/>
 			<name value="produce_scarab" />
 			<image path="../scarab/images/scarab.bmp" />
-		<unit-requirements>
-		</unit-requirements>
+			<unit-requirements/>
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="scarab"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_snake" />
 			<image path="../snake/images/snake.bmp" />
-		<unit-requirements>
-		</unit-requirements>
+			<unit-requirements/>
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="snake"/>
 		</command>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_ibis" />
 			<image path="../ibis/images/ibis.bmp" />
-		<unit-requirements>
-		</unit-requirements>
+			<unit-requirements/>
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="ibis"/>
 		</command>
-
 	</commands>
 </unit>

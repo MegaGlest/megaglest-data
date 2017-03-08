@@ -16,4 +16,23 @@
 	</starting-units>
 	<music value="true" path="music/music_indian.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units/>
+		<warrior-units/>
+		<resource-producer-units>
+			<unit name="tent" minimum="1"/>
+			<unit name="big_tent" minimum="15"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="tent" minimum="1"/>
+			<unit name="big_tent" minimum="1"/>
+			<unit name="reed" minimum="1"/>
+			<unit name="round_tent" minimum="1"/>
+			<unit name="campfire" minimum="1"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="iron"/>
+		</upgrades>
+		<static-values/>
+	</ai-behavior>
 </faction>

@@ -35,7 +35,7 @@ MineGold=Twój Cel: Zbierz 100 sztuk złota ('Gold').
 BuildBarracks=Twój Cel: Zbuduj koszary ('Barracks').
 ProduceSwordman=Twój Cel: Stwórz miecznika ('Swordman').
 ProduceArcher=Twój Cel: Stwórz łucznika ('Archer').
-ProduceMoreWarriors=Twój Cel: Stwórz więcej wojowników by poradzić sobie z nadchodzącym atakiem.\n\nKiedy pokonasz przeciwnika będziesz mógł przejść do następnego samouczka. (nr. 3)
+ProduceMoreWarriors=Twój Cel: Stwórz więcej wojowników by poradzić sobie z nadchodzącym atakiem.
 
 ;end
-WellDoneNextTutorial=Świetna robota! Możesz teraz przejść do następnego samouczka.
+WellDoneNextTutorial=Świetna robota!\nMożesz teraz przejść do następnego samouczka. (nr. 3)

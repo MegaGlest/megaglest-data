@@ -1,8 +1,7 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
-		<size value="5" />
+		<size value="7" />
 		<height value="5" />
 		<max-hp value="9000" regeneration="0"/>
 		<max-ep value="0" />
@@ -10,13 +9,16 @@
 		<armor-type value="stone"/>
 		<sight value="15" />
 		<time value="300" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="11111"/>
-			<row value="10001"/>
-			<row value="10001"/>
-			<row value="10001"/>
-			<row value="11011"/>
+			<row value="0100010"/>
+			<row value="1111111"/>
+			<row value="0111110"/>
+			<row value="0110110"/>
+			<row value="0110110"/>
+			<row value="1110111"/>
+			<row value="0110110"/>
 		</cellmap>
 		<levels/>
 		<fields>
@@ -49,10 +51,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -62,7 +61,6 @@
 			<animation path="models/pyramid.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -72,7 +70,6 @@
 			<animation path="models/pyramid_construction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -82,7 +79,6 @@
 			<animation path="models/pyramid.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -100,12 +96,8 @@
 			</shake>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_slave" />
@@ -115,6 +107,5 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="slave"/>
 		</command>
-
 	</commands>
 </unit>

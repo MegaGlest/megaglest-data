@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Игрок 3 в зоне вашего флага!
 Player2HasFlagWarning=Игрок 2 уносит ВАШ ФЛАГ! Держи его!
 Player3HasFlagWarning=Игрок 3 уносит ВАШ ФЛАГ! Держи его!
 
+;flags description (future use)
+CatchThisFlag=Захватить этот флаг!
+FlagForPlayer2=Флаг для захвата зелёным игроком.
+FlagForPlayer3=Флаг для захвата синим игроком.
+
 ;objective strings
-Player2HeadHome=Если игрок 2 приносит флаг - он выигрывает!
-Player3HeadHome=Если игрок 3 приносит флаг - он выигрывает!
+PlayerHeadHome=Вы взяли флаг. Теперь принесите его домой и выиграйте! Ваш знаменосец выделен в цвете вашей команды, не дайте ему умереть.
 PlayerWins=Победа!
 PlayerLoses=Вы продули! :(

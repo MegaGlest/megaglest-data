@@ -1,0 +1,13 @@
+SCENARIO_NAME=Αμαζόνες
+;message headers
+Amazones=Αμαζόνες
+
+;message strings
+Brief1=Το κάστρο των συμμάχων σου πρέπει να επιβιώσει!
+
+;objective strings
+Firstwave=Σκοπός: Γυναίκες στα πράσινα.
+Secondwave=Σκοπός: Περισσότερες γυναίκες.
+Thirdwave=Σκοπός: Πιθανόν πάρα πολλές γυναίκες...
+Fourthwave=Σκοπός: Όμορφες αλλά επικίνδυνες ;-)
+Lastwave=Σκοπός: Το τελευταίο κύμα!!

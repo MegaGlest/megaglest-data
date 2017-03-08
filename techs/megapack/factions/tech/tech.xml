@@ -17,4 +17,31 @@
 	</starting-units>
 	<music value="true" path="music/music_tech.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units>
+			<unit name="worker" minimum="8"/>
+		</worker-units>
+		<warrior-units>
+			<unit name="cow" minimum="2"/>
+			<unit name="archer" minimum="2"/>
+			<unit name="cow" minimum="5"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="farm" minimum="1"/>
+			<unit name="cow" minimum="25"/>
+		</resource-producer-units>
+		<building-units>
+			<unit name="barracks" minimum="1"/>
+			<unit name="farm" minimum="1"/>
+			<unit name="blacksmith" minimum="1"/>
+			<unit name="barracks" minimum="2"/>
+			<unit name="technodrome" minimum="1"/>
+		</building-units>
+		<upgrades>
+			<upgrade name="piercing_weapons"/>
+			<upgrade name="blade_weapons"/>
+			<upgrade name="robotics"/>
+		</upgrades>
+		<static-values/>
+	</ai-behavior>
 </faction>

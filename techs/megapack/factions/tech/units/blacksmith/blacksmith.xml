@@ -1,9 +1,9 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="4" />
 		<height value="2" />
+		<ai-build-size value="5"/>
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
@@ -46,7 +46,6 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />
 		</command-sounds>
 	</parameters>
-
 	<skills>
 		<skill>
 			<name value="be_built_skill"/>
@@ -57,7 +56,6 @@
 			<sound enabled="false" />
 			<type value="be_built" />
 		</skill>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -70,7 +68,6 @@
 			</particles>
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="upgrade" />
 			<name value="upgrade_skill"/>
@@ -90,7 +87,6 @@
 				<sound-file path="$COMMONDATAPATH/sounds/anvil4.wav"/>
 			</sound>
 		</skill>
-
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -107,9 +103,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
 	</skills>
-
 	<commands>
 		<command>
 			<type value="upgrade"/>
@@ -120,7 +114,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="blade_weapons"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_piercing_weapons" />
@@ -130,7 +123,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="piercing_weapons"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_shield" />
@@ -140,7 +132,6 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="shield_level_1"/>
 		</command>
-
 		<command>
 			<type value="upgrade"/>
 			<name value="upgrade_shield" />
@@ -150,6 +141,5 @@
 			<upgrade-skill value="upgrade_skill"/>
 			<produced-upgrade name="shield_level_2"/>
 		</command>
-
 	</commands>
 </unit>

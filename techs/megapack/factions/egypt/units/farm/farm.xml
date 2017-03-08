@@ -1,6 +1,5 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
 		<size value="4" />
 		<height value="2" />
@@ -10,7 +9,9 @@
 		<armor-type value="wood"/>
 		<sight value="5" />
 		<time value="50" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
+		<max-unit-count value="5"/>
 		<cellmap value="true">
 			<row value="0111" />
 			<row value="0111" />
@@ -48,10 +49,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -62,7 +60,6 @@
 			<animation path="models/chickenfarm_contruction.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -72,7 +69,6 @@
 			<animation path="models/chickenfarm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 		<skill>
 			<type value="produce" />
 			<name value="produce_skill"/>
@@ -82,7 +78,16 @@
 			<animation path="models/chickenfarm.g3d" />
 			<sound enabled="false" />
 		</skill>
-
+		<skill>
+			<type value="produce" />
+			<name value="produce_fast_skill"/>
+			<ep-cost value="0" />
+			<speed value="400" />
+			<!-- faster production, because chicken is giving less food -->
+			<anim-speed value="50" />
+			<animation path="models/chickenfarm.g3d" />
+			<sound enabled="false" />
+		</skill>
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -95,8 +100,7 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-
-                <skill>
+		<skill>
 			<type value="upgrade"/>
 			<name value="upgrade_skill"/>
 			<ep-cost value="0"/>
@@ -105,21 +109,16 @@
 			<animation path="models/chickenfarm.g3d"/>
 			<sound enabled="false"/>
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-
 		<command>
 			<type value="produce"/>
 			<name value="produce_chicken" />
 			<image path="../chicken/images/chicken.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
+			<produce-skill value="produce_fast_skill"/>
 			<produced-unit name="chicken"/>
 		</command>
-
 	</commands>
 </unit>

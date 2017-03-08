@@ -1,0 +1,22 @@
+SCENARIO_NAME=Gabháil na brataí
+;message headers
+CaptureFlag=Gabháil na brataí
+Warning=Rabhadh
+Crisis=Ardrabhadh!
+
+;message strings
+Brief1=Caithfidh tú bratach do namhad a ghabháil, ansin an t-aonad a bhfuil an bhratach aige a thabhairt abhaile slán sábháilte! Beidh bratach an namhad ag splancadh ar an mionmhapa. Beidh do bhratachsa ag splancadh i ndath d'fhoirne. Seachain na contúirtí ar an mbealach.
+Player2InFlagZoneWarning=Tá an t-imreoir uaine i ngar do do bhratach, fainic!
+Player3InFlagZoneWarning=Tá an t-imreoir gorm i ngar do do bhratach, fainic!
+Player2HasFlagWarning=Tá DO BHRATACH ag an imreoir uaine - beir air!!
+Player3HasFlagWarning=Tá DO BHRATACH ag an imreoir gorm - beir air!!
+
+;flags description (future use)
+CatchThisFlag=Faigh an bhratach seo!
+FlagForPlayer2=An bhratach le gabháil ag an imreoir uaine.
+FlagForPlayer3=An bhratach le gabháil ag an imreoir gorm.
+
+;objective strings
+PlayerHeadHome=Fuair tú an bhratach. Anois, tabhair abhaile é chun an cluiche a bhuachan! Tá iompróir na brataí marcáilte le dath d'fhoirne - ná lig dó bás a fháil.
+PlayerWins=Comhghairdeas, tá an bua agat!
+PlayerLoses=Faraor, chaill tú.

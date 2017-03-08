@@ -1,20 +1,22 @@
 <?xml version="1.0" standalone="no" ?>
 <unit>
-	<!-- *** parameters *** -->
 	<parameters>
-		<size value="3" />
+		<size value="4" />
 		<height value="2" />
+		<ai-build-size value="5"/>
 		<max-hp value="3000" regeneration="0"/>
 		<max-ep value="0" />
 		<armor value="0" />
 		<armor-type value="stone"/>
 		<sight value="5" />
 		<time value="50" />
-		<multi-selection value="false" />
+		<multi-selection value="true"/>
+		<uniform-selection value="true"/>
 		<cellmap value="true">
-			<row value="111" />
-			<row value="101" />
-			<row value="100" />
+			<row value="0110" />
+			<row value="1001" />
+			<row value="1001" />
+			<row value="0100" />
 		</cellmap>
 		<levels/>
 		<fields>
@@ -38,7 +40,6 @@
 			<resource name= "wood" amount="200"/>
 		</resources-stored>
 		<image path="images/bigtent.bmp"/>
-
 		<image-cancel path="../archer/images/tech_cancel.bmp"/>
 		<meeting-point value="true" image-path="../main_teepee/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
@@ -48,10 +49,7 @@
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav"/>
 		</command-sounds>
 	</parameters>
-
-	<!-- *** skills *** -->
 	<skills>
-		<!-- *** skill 0 *** -->
 		<skill>
 			<type value="be_built" />
 			<name value="be_built_skill"/>
@@ -61,8 +59,6 @@
 			<animation path="../tent/models/tent_construction.g3d" />
 			<sound enabled="false"/>
 		</skill>
-
-		<!-- *** skill 1 *** -->
 		<skill>
 			<type value="stop" />
 			<name value="stop_skill"/>
@@ -72,8 +68,6 @@
 			<animation path="models/tipi_big.g3d" />
 			<sound enabled="false" />
 		</skill>
-
-		<!-- *** skill 2 *** -->
 		<skill>
 			<type value="die" />
 			<name value="die_skill"/>
@@ -90,7 +84,6 @@
 			</sound>
 			<fade value="false"/>
 		</skill>
-                <!-- *** skill 3 *** -->
 		<skill>
 			<type value="produce"/>
 			<name value="produce_skill"/>
@@ -100,12 +93,8 @@
 			<animation path="models/tipi_big.g3d" />
 			<sound enabled="false" />
 		</skill>
-
 	</skills>
-
-	<!-- *** commands *** -->
 	<commands>
-		<!-- *** command 0 *** -->
 		<command>
 			<type value="produce"/>
 			<name value="produce_stickfighter" />

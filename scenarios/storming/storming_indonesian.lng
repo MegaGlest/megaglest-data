@@ -1,0 +1,11 @@
+SCENARIO_NAME=Menyerang
+;message headers
+Storming=Menyerang
+
+;message strings
+Brief1=Bantu Pemanggil Anda menyerang semua desa musuh, dia harus bertahan.
+
+;objective strings
+ObjectiveSouthWest=Tujuan: Hancurkan desa Sihir di barat daya, Pemanggil harus bertahan.
+ObjectiveNorthEast=Tujuan: Hancurkan desa Tekno di timur laut, Pemanggil harus bertahan.
+ObjectiveSouthEast=Tujuan: Hancurkan desa di tenggara, Pemanggil harus bertahan.

@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=O jogador 3 está na zona da sua bandeira, cuidado!
 Player2HasFlagWarning=O jogador 2 ESTÁ COM A SUA BANDEIRA, atrás dele!!
 Player3HasFlagWarning=O jogador 3 ESTÁ COM A SUA BANDEIRA, atrás dele!!
 
+;flags description (future use)
+# CatchThisFlag=Catch this flag!
+# FlagForPlayer2=The flag for capture by green player.
+# FlagForPlayer3=The flag for capture by blue player.
+
 ;objective strings
-Player2HeadHome=Agora, jogador 2, chegue vivo em casa e ganhe! O seu carregador da bandeira está destacado no mapa na cor do seu time, não o deixe morrer.
-Player3HeadHome=Agora, jogador 3, chegue vivo em casa e ganhe! O seu carregador da bandeira está destacado no mapa na cor do seu time, não o deixe morrer.
+# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
 PlayerWins=Parabéns, você venceu!
 PlayerLoses=Que pena, você perdeu!

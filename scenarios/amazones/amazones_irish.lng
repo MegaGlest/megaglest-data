@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amasóiní
+;message headers
+Amazones=Amasóiní
+
+;message strings
+Brief1=Caithfidh caisleán na gcomhghuaillithe teacht slán as!
+
+;objective strings
+Firstwave=Cuspóir: Na mná a bhfuil éadaí glasa orthu.
+Secondwave=Cuspóir: Tuilleadh ban.
+Thirdwave=Cuspóir: An iomarca ban is dócha...
+Fourthwave=Cuspóir: Cineálta ach contúirteach ;-)
+Lastwave=Cuspóir: An rabharta deireanach!!

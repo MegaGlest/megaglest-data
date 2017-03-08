@@ -18,4 +18,19 @@
 	</starting-units>
 	<music value="true" path="music/aminos-together_together.ogg"/>
 	<flat-particle-positions value="true"/>
+	<ai-behavior>
+		<worker-units/>
+		<warrior-units>
+			<unit name="sheep" minimum="7"/>
+		</warrior-units>
+		<resource-producer-units>
+			<unit name="farm" minimum="1"/>
+			<unit name="sheep" minimum="30"/>
+		</resource-producer-units>
+		<building-units/>
+		<upgrades/>
+		<static-values>
+			<static type-name="MinWorkerAttackersHarvesting" value="40"/>
+		</static-values>
+	</ai-behavior>
 </faction>

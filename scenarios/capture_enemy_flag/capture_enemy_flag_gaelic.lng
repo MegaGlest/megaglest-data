@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Thoir an aire, tha Cluicheadair 3 ann an roinn na brata
 Player2HasFlagWarning=Tha A' BHRATACH AGAD aig Cluicheadair 2, rach air a thòir!
 Player3HasFlagWarning=Tha A' BHRATACH AGAD aig Cluicheadair 3, rach air a thòir!
 
+;flags description (future use)
+CatchThisFlag=Glac a' bhratach seo!
+FlagForPlayer2=A' bhratach air a tha an chluicheadair uaine ag amas.
+FlagForPlayer3=A' bhratach air a tha an chluicheadair gorm ag amas.
+
 ;objective strings
-Player2HeadHome=Nise, a Chluicheadair 2, till dhachaigh gu slàn is buannaichidh tu! Tha cuideam air do neach-giùlain na brataich le dath an sgioba agad, na leig leis bàs fhaighinn.
-Player3HeadHome=Nise, a Chluicheadair 3, till dhachaigh gu slàn is buannaichidh tu! Tha cuideam air do neach-giùlain na brataich le dath an sgioba agad, na leig leis bàs fhaighinn.
+PlayerHeadHome=Ghlac thu a' bhratach. Till dhachaigh leatha ach am buannaich thu! Chuir sinn dath do sgioba air a' ghiùlanair-bhrataich agad, dèan cinnteach nach fhaigh e bàs.
 PlayerWins=Meal do naidheachd, fhuair thu buaidh!
 PlayerLoses=Oich, chaill thu!

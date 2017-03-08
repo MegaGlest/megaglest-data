@@ -36,188 +36,84 @@ UpgradeTypeName_speedup_priest_production=επιτάχυνση της παραγ
 UpgradeTypeName_summon_ibis=κλήτευση του ibis
 UpgradeTypeName_summon_scarab=κλήτευση του scarab
 ; -------------------------------------
-; Unit
 UnitTypeName_air_pyramid=πυραμίδα του αέρα
 ; --------------------
-; Levels for this Unit
 LevelName_elite=ελίτ
 ; --------------------
-; Types of Commands for this Unit
 CommandName_attack_off=τερματισμος επίθεσης
 CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_anubis_warrior=anubis πολεμιστής
 ; --------------------
-; Levels for this Unit
 LevelName_ancient=αρχαίος
 ; --------------------
-; Types of Commands for this Unit
 CommandName_stop=σταμάτημα
 CommandName_move=κίνηση
 CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_chicken=κοτόπουλο
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 ; -------------------------------------
-; Unit
 UnitTypeName_desert_camp=στρατόπεδο της ερήμου
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_spearthrower=παραγωγή δόρατος ρίπτη
 CommandName_produce_spearman=παραγωγή ακοντιστων
 CommandName_upgrade_spear_weapons=αναβάθμιση δόρατος οπλισμού
 ; -------------------------------------
-; Unit
 UnitTypeName_farm=αγρόκτημα
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_chicken=παραγωγή κοτόπουλων
 ; -------------------------------------
-; Unit
 UnitTypeName_ibis=ibis
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_mummy=μούμια
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_obelisk=οβελίσκος
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_scarab=παραγωγή σκαραβαίου
 CommandName_produce_snake=παραγωγή φιδιού
 CommandName_produce_ibis=παραγωγή ibis
 ; -------------------------------------
-; Unit
 UnitTypeName_priest=ιερέας
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_speedup_priest_production=επιτάχυνση της παραγωγής ιερέων
 CommandName_heal=θεραπεια
 CommandName_produce_mummy=παραγωγή μούμιας
 CommandName_produce_anubis_warrior=παραγωγή Anubis πολεμιστών
 CommandName_ice_nova=ice nova
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_pyramid=πυραμίδα
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_slave=παραγωγή σκλάβων
 ; -------------------------------------
-; Unit
 UnitTypeName_scarab=σκαραβαίος
 ; --------------------
-; Levels for this Unit
 LevelName_expert=ειδικός
 LevelName_master=δάσκαλος
 LevelName_legendary=θρυλικός
 ; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_dung_attack=επίθεση με περιττώματα
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_slave=σκλάβος
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_build_basic=δημιουργια στοιχειώδεις
 CommandName_repair=επιδιόρθωση
 CommandName_mine=ορυχείο
 CommandName_harvest_wood=συγκομιδή ξύλου
 ; -------------------------------------
-; Unit
 UnitTypeName_snake=φιδι
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ειδικός
-LevelName_master=δάσκαλος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_poison_shot=βολή δηλητηρίου
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_spearman=ακοντιστής
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_spearthrower=δόρατος ρίπτη
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_sphinx=σφίγγα
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_temple=ναός
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_priest=παραγωγή ιερέων
 CommandName_research_scarab=έρευνα σκαραβαίου
 CommandName_research_ibis=έρευνα του ibis
@@ -234,233 +130,81 @@ UpgradeTypeName_petroleum=πετρέλαιο
 UpgradeTypeName_stables=στάβλοι
 UpgradeTypeName_training_field=χώρος προπονησης
 ; -------------------------------------
-; Unit
 UnitTypeName_archer=τοξότης
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_indian=τσεκούρι ινδικό
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_thrower=τσεκούρι ρίπτη
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_beehive=κυψέλη
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_big_tent=μεγάλη σκηνή
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_stickfighter=παραγωγή ραβδί μαχητή
 CommandName_produce_archer=παραγωγή τοξότη
 ; -------------------------------------
-; Unit
 UnitTypeName_bull=ταύρος
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_campfire=φωτιά
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_fire_golem=παραγωγή φωτιάς
 CommandName_research_iron=έρευνα σιδήρου
 CommandName_research_advanced_iron=έρευνα προηγμένου σιδήρου
 ; -------------------------------------
-; Unit
 UnitTypeName_fire_archer=φωτιά τοξότη
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_fire_golem=φωτιά
-; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_horse_farm=φάρμα αλόγων
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_horseman=παραγωγή ιππέων
 CommandName_produce_bull=παραγωγή ταύρων
 CommandName_research_stables=έρευνα στάβλων
 ; -------------------------------------
-; Unit
 UnitTypeName_horseman=ιππέας
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_main_teepee=κύρια τριγωνική σκηνή
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_worker=παραγωγή εργατων
 ; -------------------------------------
-; Unit
 UnitTypeName_reed=καλάμι
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_bull_food=έρευνα τροφίμων ταύρου
 ; -------------------------------------
-; Unit
 UnitTypeName_round_tent=στρογγυλή σκηνή
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_axe_indian=παραγωγή τσεκούρι Ινδικό
 CommandName_produce_axe_thrower=παραγωγή τσεκούρι ρίπτη
 CommandName_produce_fire_archer=παραγωγή τοξότη φωτιάς
-CommandName_produce_spearman=παραγωγή ακοντιστων
 CommandName_create_training_field=δημιουργία χώρου προπονησης
 ; -------------------------------------
-; Unit
 UnitTypeName_shaman=σαμάνος
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_repair=επιδιόρθωση
-CommandName_heal=θεραπεια
 CommandName_molotov=μολότοφ
 CommandName_produce_thunderbird=παραγωγή Thunderbird
 CommandName_build_beehive=δημιουργια κυψέλης
 ; -------------------------------------
-; Unit
-UnitTypeName_spearman=ακοντιστής
+; Unit > spearman
 ; --------------------
-; Levels for this Unit
 LevelName_guardian=θεματοφύλακας
 LevelName_chief=αρχηγός
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_stickfighter=ραβδί μαχητή
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_tent=σκηνή
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_stickfighter=παραγωγή ραβδί μαχητή
 ; -------------------------------------
-; Unit
 UnitTypeName_thunderbird=thunderbird
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-LevelName_expert=ειδικός
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_throw=βολή
 CommandName_breath=αναπνοή
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_totem=τοτέμ
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
 CommandName_air_on=αέρας σε
 CommandName_research_petroleum=πετρελαϊκη ερευνα
 CommandName_produce_shaman=παραγωγή σαμάνου
 ; -------------------------------------
-; Unit
 UnitTypeName_worker=εργάτης
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_build_basic=δημιουργια στοιχειώδεις
-CommandName_mine=ορυχείο
-CommandName_harvest_wood=συγκομιδή ξύλου
-CommandName_repair=επιδιόρθωση
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_magic=μαγεία
@@ -470,505 +214,178 @@ UpgradeTypeName_ancient_summoning=κλήτευση αρχαίων
 UpgradeTypeName_dragon_call=πρόσκληση δράκου
 UpgradeTypeName_energy_compression=συμπίεση ενέργειας
 UpgradeTypeName_energy_sharpening=ενεργειακή όξυνση
+# UpgradeTypeName_faster_movement=faster movement
 UpgradeTypeName_golem_power=Golem δύναμη
 UpgradeTypeName_hell_gate=πύλη κόλασης
 ; -------------------------------------
-; Unit
 UnitTypeName_archmage=αρχιμάγος
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ειδικός
-LevelName_master=δάσκαλος
-LevelName_legendary=θρυλικός
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_ice_nova=ice nova
 CommandName_static_fire=στατική φωτιά
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_archmage_tower=πύργος αρχιμάγου
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_dragon_call=έρευνα πρόσκλησης δράκου
 CommandName_golem_power=Golem δύναμη
 ; -------------------------------------
-; Unit
 UnitTypeName_battlemage=μάχη μάγων
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ειδικός
-LevelName_master=δάσκαλος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_fire_bolt=μπουλόνι φωτιάς
-CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_archmage=προώθηση στον Αρχιμάγο
 ; -------------------------------------
-; Unit
 UnitTypeName_behemoth=μεγαθήριο
-; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_daemon=δαίμονας
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
-UnitTypeName_draco_rider=Ντρέικ αναβάτης
+UnitTypeName_dragon_rider=Ντρέικ αναβάτης
 ; --------------------
-; Levels for this Unit
-LevelName_expert=ειδικός
-LevelName_master=δάσκαλος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_fire_breath=αναπνοή φωτιάς
 CommandName_flare=φωτοβολίδα
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_dragon=δράκος
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_breath=αναπνοή
-CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_evil_dragon=προώθηση στον κακό δράκο
 ; -------------------------------------
-; Unit
 UnitTypeName_energy_source=πηγή ενέργειας
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 ; -------------------------------------
-; Unit
 UnitTypeName_evil_dragon=κακός δράκος
-; --------------------
-; Levels for this Unit
-LevelName_expert=ειδικός
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_breath=αναπνοή
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_ghost_armor=πανοπλία φαντασμάτων
-; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_golem=golem
 ; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_power_golem=προώθηση στην Golem δύναμη
 ; -------------------------------------
-; Unit
 UnitTypeName_initiate=έναρξη
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_repair=επιδιόρθωση
 CommandName_build=χτίσιμο
 CommandName_ritual=τελετουργικό
-CommandName_mine=ορυχείο
 CommandName_harvest=συγκομιδή
 CommandName_promote_to_battlemage=προώθηση στην μάχη μάγων
 ; -------------------------------------
-; Unit
 UnitTypeName_library=βιβλιοθήκη
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_energy_compression=ενέργεια συμπίεσης της έρευνας
 CommandName_research_energy_sharpening=έρευνα για την ενέργεια ακονίσματος
 CommandName_research_hell_gate=έρευνα πύλης κόλασης
 ; -------------------------------------
-; Unit
 UnitTypeName_mage_tower=πύργος μάγου
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_initiate=έναρξη παραγωγής
 ; -------------------------------------
-; Unit
 UnitTypeName_power_golem=Golem δύναμη
-; --------------------
-; Levels for this Unit
-LevelName_ancient=αρχαίος
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_summoner=κλήτευση
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_flare=φωτοβολίδα
-CommandName_hold_position=θέση αναμονής
 CommandName_summon_daemon=κλήτευση δαίμονα
 CommandName_summon_ghost_armor=κλήτευση πανοπλίας
 CommandName_summon_dragon=κλήτευση δράκου
-CommandName_summon_draco=κλήτευση του Ντρέικ
+CommandName_summon_wingless_dragon=κλήτευση του Ντρέικ
 ; -------------------------------------
-; Unit
 UnitTypeName_summoner_guild=κλήτευση τάγματος
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_summoner=παραγωγή κλήτευσης
 CommandName_research_ancient_summoning=έρευνα κλήτευσης
+# CommandName_speed_up_movement=speed up movement
 ; -------------------------------------
-; Unit
 UnitTypeName_tower_of_souls=πύργος ψυχών
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_wicker_behemoth=λυγαριά μεγαθήριου
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_promote_to_behemoth=προώθηση στο μεγαθήριο
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_norsemen=Σκανδιναβοί άνδρες
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_iron=προηγμένο σίδερο
 UpgradeTypeName_arrow=βέλος
 UpgradeTypeName_holy_valkyrie=ιερή Βαλκυρία
-UpgradeTypeName_iron=σίδερο
 UpgradeTypeName_mead=γιατρος
 UpgradeTypeName_root=ρίζα
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=τοξότης
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
-UnitTypeName_axe_thrower=τσεκούρι ρίπτη
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-; -------------------------------------
-; Unit
 UnitTypeName_battleaxe=τσεκούρι μάχης
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 CommandName_promote_to_battleaxe_berserk=προώθηση τσεκούριου μάχης
 ; -------------------------------------
-; Unit
 UnitTypeName_battleaxe_berserk=τσεκούρι μάχης Berzerk
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -------------------------------------
-; Unit
 UnitTypeName_blacksmith=σιδηρουργός
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_iron=αναβάθμιση σιδήρου
 CommandName_upgrade_arrow=αναβάθμιση βέλους
 CommandName_upgrade_advanced_iron=αναβάθμιση προηγμένου σιδήρου
 CommandName_produce_crossbow=παραγωγή βαλλίστρας
 ; -------------------------------------
-; Unit
 UnitTypeName_bone_tent=σκηνή οστών
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_swordman=παραγωγή ξιφομάχου
-CommandName_produce_archer=παραγωγή τοξότη
 CommandName_produce_battleaxe=παραγωγή τσεκούριου μάχης
-CommandName_produce_axe_thrower=παραγωγή τσεκούρι ρίπτη
 ; -------------------------------------
-; Unit
 UnitTypeName_castle=κάστρο
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_thrall=παραγωγή thrall
 ; -------------------------------------
-; Unit
 UnitTypeName_cow=αγελάδα
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 ; -------------------------------------
-; Unit
 UnitTypeName_crossbow=βαλλίστρα
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_attack_arrow=επίθεση βέλος
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_cudgel_lady=ρόπαλο κυρίας
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_cudgel=ρόπαλο
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=αγρόκτημα
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cow=παραγωγή αγελάδας
 ; -------------------------------------
-; Unit
 UnitTypeName_flying_valkyrie=ιπταμενη βαλκυρια
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_house=σπίτι
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cudgel_lady=παραγωγή ρόπαλου
-CommandName_produce_spearman=παραγωγή ακοντιστων
 ; -------------------------------------
-; Unit
 UnitTypeName_mead_bar=γιατρος
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_cudgel_lady=παραγωγή ρόπαλου
-CommandName_produce_spearman=παραγωγή ακοντιστων
 CommandName_research_mead=έρευνα γιατρου
 ; -------------------------------------
-; Unit
 UnitTypeName_mistletoe_tree=δέντρο mistle
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_air_on=αέρας σε
-CommandName_attack_off=τερματισμος επίθεσης
 CommandName_research_root=έρευνα ρίζας
 CommandName_resurrect_wild_sow=αναστήση άγριας γουρούνας
 ; -------------------------------------
-; Unit
-UnitTypeName_spearman=ακοντιστής
+; Unit > spearman
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_spearman_berserk=προώθηση στον ακοντιστή
 ; -------------------------------------
-; Unit
 UnitTypeName_spearman_berserk=ακοντιστής berzerk
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_swordman=ξιφομάχος
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_swordman_berserk=προώθηση στον ξιφομάχο
 ; -------------------------------------
-; Unit
 UnitTypeName_swordman_berserk=ξιφομάχος berzerk
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_thor=thor
 ; --------------------
-; Levels for this Unit
 LevelName_advanced=προηγμένο
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_throw=βολή
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_thor_totem=Thor τοτέμ
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_build_thor=δημιουργια του thor
 ; -------------------------------------
-; Unit
 UnitTypeName_thrall=thrall
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_build_basic=δημιουργια στοιχειώδεις
-CommandName_mine=ορυχείο
-CommandName_harvest_wood=συγκομιδή ξύλου
-CommandName_repair=επιδιόρθωση
 ; -------------------------------------
-; Unit
 UnitTypeName_valhalla=Βαλχάλλα
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_flying_valkyrie=παραγωγή ιπταμενης Βαλκυρίας
 CommandName_produce_valkyrie=παραγωγή βαλκυρίας
 CommandName_research_holy_valkyrie=έρευνα ιερής Βαλκυρίας
 ; -------------------------------------
-; Unit
 UnitTypeName_valkyrie=Βαλκυρία
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 CommandName_airattack=εναέρια επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_wild_sow=άγρια γουρούνα
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_persian=περσικά
@@ -981,211 +398,60 @@ UpgradeTypeName_nails=καρφιά
 UpgradeTypeName_shield=ασπίδα
 UpgradeTypeName_weapons=οπλα
 ; -------------------------------------
-; Unit
-UnitTypeName_blacksmith=σιδηρουργός
+; Unit > blacksmith
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_weapons=αναβάθμιση οπλισμου
 CommandName_upgrade_nails=αναβάθμιση καρφιών
 CommandName_upgrade_shield=αναβάθμιση ασπίδας
 ; -------------------------------------
-; Unit
 UnitTypeName_elephant=ελέφαντας
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_attack_arrow=επίθεση βέλος
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_elephant_cage=κλουβί ελέφαντα
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_elephant=παραγωγή ελέφαντα
 ; -------------------------------------
-; Unit
 UnitTypeName_fakir=φακίρης
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=αγρόκτημα
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_sheep=παραγωγή προβάτων
 CommandName_research_corn_and_wicker=έρευνα καλαμποκιού και λυγαριάς
 ; -------------------------------------
-; Unit
 UnitTypeName_flying_carpet=ιπτάμενο χαλί
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_magic_attack=μαγική επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_genie=μεγαλοφυία
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
-UnitTypeName_house=σπίτι
+; Unit > house
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_fakir=παραγωγή φακίρη
-CommandName_produce_stickfighter=παραγωγή ραβδί μαχητή
 ; -------------------------------------
-; Unit
 UnitTypeName_magician=μάγος
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_repair=επιδιόρθωση
 CommandName_build_snake_basket=κατασκευή καλαθιού φιδιού
-CommandName_heal=θεραπεια
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_minaret=μιναρές
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_palace=παλάτι
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_worker=παραγωγή εργατων
 ; -------------------------------------
-; Unit
 UnitTypeName_princess=πριγκίπισσα
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_sheep=προβατα
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 ; -------------------------------------
-; Unit
 UnitTypeName_snake_basket=καλάθι φιδιού
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
-UnitTypeName_stickfighter=ραβδί μαχητή
+; Unit > temple
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
-UnitTypeName_swordman=ξιφομάχος
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
-UnitTypeName_temple=ναός
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_princess=παραγωγή πριγκίπισσας
-CommandName_produce_swordman=παραγωγή ξιφομάχου
 ; -------------------------------------
-; Unit
-UnitTypeName_tent=σκηνή
+; Unit > tent
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_genie=παραγωγή μεγαλοφυίας
 CommandName_produce_flying_carpet=παραγωγή ιπτάμενου χαλίου
 CommandName_produce_magician=παραγωγή μάγου
 CommandName_upgrade_magic_level_1=αναβάθμιση μαγεία επίπεδο 1
 CommandName_upgrade_magic_level_2=αναβάθμιση μαγεία επίπεδο 2
-; -------------------------------------
-; Unit
-UnitTypeName_worker=εργάτης
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_attack=επίθεση
-CommandName_move=κίνηση
-CommandName_build_basic=δημιουργια στοιχειώδεις
-CommandName_mine=ορυχείο
-CommandName_harvest_wood=συγκομιδή ξύλου
-CommandName_repair=επιδιόρθωση
 ; -----------------------------------------------------------------------------
 ; Faction
 FactionName_romans=ρωμαίοι
@@ -1200,193 +466,61 @@ UpgradeTypeName_reinforce_armor=ενίσχυση πανοπλίας
 UpgradeTypeName_sharpen_points=ακονιση σημείων
 UpgradeTypeName_sign_of_mars=σημα του Άρη
 UpgradeTypeName_strengthen_swords=ενίσχυση ξίφων
-UpgradeTypeName_training_field=χώρος προπονησης
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=τοξότης
+; Unit > archer
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 CommandName_get_fire_arrows=χρηση βέλη φωτιάς
 ; -------------------------------------
-; Unit
 UnitTypeName_axe_man=με τσεκούρι
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_ballista=βαλλίστρα
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_battering_ram=πολιορκητικός κριός
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_attack_land=επίθεση γης
 CommandName_attack_air=εναέρια επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_blacksmith_shop=κατάστημα σιδηρουργού
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_strengthen_swords=ενίσχυση των ξίφων
 CommandName_sharpen_points=ακονίση σημείων
 CommandName_reinforce_armor=ενίσχυση πανοπλίας
 CommandName_enlarge_shields=μεγέθυνση ασπίδων
 ; -------------------------------------
-; Unit
 UnitTypeName_catapult=καταπέλτης
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_fire_ball=μπάλα φωτιάς
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_cavalry=ιππικό
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_tribune=προώθηση στο βήμα
 ; -------------------------------------
-; Unit
-UnitTypeName_cow=αγελάδα
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-; -------------------------------------
-; Unit
 UnitTypeName_eagle_pillar=αετός πυλώνα
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
-UnitTypeName_fire_archer=φωτιά τοξότη
+; Unit > fire archer
 ; --------------------
-; Levels for this Unit
 LevelName_accurate=ακριβής
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_forum=φόρουμ
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_slave=παραγωγή σκλάβων
-CommandName_produce_cow=παραγωγή αγελάδας
 ; -------------------------------------
-; Unit
 UnitTypeName_general=γενικα
 ; --------------------
-; Levels for this Unit
 LevelName_esteemed=αγαπητό
 LevelName_grand=μεγαλοπρεπής
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_gladiator=μονομάχος
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack_land=επίθεση γης
-CommandName_attack_air=εναέρια επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_gladiator_school=σχολή μονομάχων
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_train_gladiator=τρένο μονομάχων
 CommandName_produce_axe_man=παραγωγή με τσεκούρι
 ; -------------------------------------
-; Unit
 UnitTypeName_guard=φύλακας
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_guard_tower=φρουρά πύργου
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_military_camp=στρατόπεδο
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_cavalry=παραγωγή ιππικού
 CommandName_produce_turtle_formation=παραγωγή σχηματισμού χελώνας
 CommandName_produce_general=παραγωγη γενικου
@@ -1394,101 +528,25 @@ CommandName_produce_mechanic=παραγωγή μηχανικού
 CommandName_upgrade_advanced_architecture=αναβάθμιση προηγμένης αρχιτεκτονικής
 CommandName_upgrade_formations=αναβάθμιση σχηματισμών
 ; -------------------------------------
-; Unit
-UnitTypeName_slave=σκλάβος
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_build=χτίσιμο
-CommandName_mine=ορυχείο
-CommandName_harvest_wood=συγκομιδή ξύλου
-CommandName_repair=επιδιόρθωση
-; -------------------------------------
-; Unit
-UnitTypeName_spearman=ακοντιστής
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
 UnitTypeName_swordsman=ξιφομάχος
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
-UnitTypeName_temple=ναός
+; Unit > temple
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_research_sign_of_mars=έρευνα σηματος του Άρη
 CommandName_research_jupiter=έρευνα του Δία
 CommandName_upgrade_bless_of_minerva=αναβάθμιση ευλογίας της Μινέρβα
 ; -------------------------------------
-; Unit
 UnitTypeName_training_camp=στρατόπεδο εκπαίδευσης
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_spearman=παραγωγή ακοντιστων
-CommandName_produce_archer=παραγωγή τοξότη
 CommandName_produce_guard=παραγωγή φρουράς
 CommandName_produce_swordsman=παραγωγή ξιφομάχου
-CommandName_create_training_field=δημιουργία χώρου προπονησης
 ; -------------------------------------
-; Unit
 UnitTypeName_tribune=βήμα
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_turtle_formation=σχηματισμός χελώνας
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_wartime_mechanic=εν καιρώ πολέμου μηχανικός
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-CommandName_repair=επιδιόρθωση
-CommandName_heal=θεραπεια
 CommandName_build_catapult=κατασκευή καταπέλτη
 CommandName_build_battering_ram=κατασκευή πολιορκητικου κριου
 CommandName_build_ballista=κατασκευή βαλλίστρας
@@ -1497,238 +555,62 @@ CommandName_build_ballista=κατασκευή βαλλίστρας
 FactionName_tech=τεχνολογία
 ; -------------------------------------
 ; Types of Upgrades for this Faction
-UpgradeTypeName_advanced_architecture=προηγμένη αρχιτεκτονική
 UpgradeTypeName_blade_weapons=λεπίδα όπλων
 UpgradeTypeName_piercing_weapons=διάτρηση όπλων
 UpgradeTypeName_robotics=ρομποτική
 UpgradeTypeName_shield_level_1=επίπεδο ασπίδας 1
 UpgradeTypeName_shield_level_2=επίπεδο ασπίδας 2
-UpgradeTypeName_stables=στάβλοι
-UpgradeTypeName_training_field=χώρος προπονησης
 ; -------------------------------------
-; Unit
 UnitTypeName_aerodrome=αεροδρόμιο
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_ornithopter=παραγωγή ορνιθόπτερου
 CommandName_produce_airship=παραγωγή αερόπλοιου
 ; -------------------------------------
-; Unit
 UnitTypeName_air_ballista=βαλλίστρα αέρα
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
 UnitTypeName_airship=αερόπλοιο
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_missile=βλήμα
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
-UnitTypeName_archer=τοξότης
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
 UnitTypeName_barracks=στρατώνες
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_swordman=παραγωγή ξιφομάχου
-CommandName_produce_archer=παραγωγή τοξότη
-CommandName_produce_guard=παραγωγή φρουράς
-CommandName_produce_horseman=παραγωγή ιππέων
-CommandName_create_training_field=δημιουργία χώρου προπονησης
 ; -------------------------------------
-; Unit
 UnitTypeName_battle_machine=μηχανή μάχης
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_attack_arrow=επίθεση βέλος
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
-UnitTypeName_blacksmith=σιδηρουργός
+; Unit > blacksmith
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_upgrade_blade_weapons=αναβάθμιση των όπλων λεπίδας
 CommandName_upgrade_piercing_weapons=αναβάθμιση διάτρησης όπλων
-CommandName_upgrade_shield=αναβάθμιση ασπίδας
-CommandName_upgrade_shield=αναβάθμιση ασπίδας
 ; -------------------------------------
-; Unit
-UnitTypeName_castle=κάστρο
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_produce_worker=παραγωγή εργατων
-; -------------------------------------
-; Unit
-UnitTypeName_catapult=καταπέλτης
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_fire_ball=μπάλα φωτιάς
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
-UnitTypeName_cow=αγελάδα
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-; -------------------------------------
-; Unit
 UnitTypeName_defense_tower=πύργος άμυνας
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_attack_off=τερματισμος επίθεσης
-CommandName_attack_on=εναρξη επίθεσης
 ; -------------------------------------
-; Unit
-UnitTypeName_farm=αγρόκτημα
+; Unit > farm
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_pig=παραγωγή χοίρων
-CommandName_produce_cow=παραγωγή αγελάδας
-CommandName_research_stables=έρευνα στάβλων
 ; -------------------------------------
-; Unit
-UnitTypeName_guard=φύλακας
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
-UnitTypeName_horseman=ιππέας
-; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
-; -------------------------------------
-; Unit
 UnitTypeName_ornithopter=ορνιθόπτερο
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_molotov=μολότοφ
 CommandName_fire_arrow=βέλος φωτιά
-CommandName_hold_position=θέση αναμονής
 ; -------------------------------------
-; Unit
 UnitTypeName_pig=χοίρος
-; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 ; -------------------------------------
-; Unit
-UnitTypeName_swordman=ξιφομάχος
+; Unit > swordman
 ; --------------------
-; Levels for this Unit
-LevelName_elite=ελίτ
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_attack=επίθεση
-CommandName_hold_position=θέση αναμονής
 CommandName_promote_to_guard=προώθηση στην φρουρά
 ; -------------------------------------
-; Unit
 UnitTypeName_technician=τεχνικός
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
 CommandName_build_ultimate=τελική κατασκευή
-CommandName_repair=επιδιόρθωση
-CommandName_heal=θεραπεια
 CommandName_mine_gold=ορυχείο χρυσού
-CommandName_molotov=μολότοφ
-CommandName_build_catapult=κατασκευή καταπέλτη
 CommandName_build_battle_machine=χτισιμο μηχανής μάχης
 CommandName_build_air_ballista=κατασκευή βαλλίστρα αέρα
 ; -------------------------------------
-; Unit
 UnitTypeName_technodrome=τεχνοδρομιο
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
 CommandName_produce_technician=παραγωγή τεχνικού
 CommandName_research_advanced_architecture=έρευνα προηγμένης αρχιτεκτονικής
 CommandName_research_robotics=έρευνα ρομποτικής
 ; -------------------------------------
-; Unit
-UnitTypeName_worker=εργάτης
+; Unit > worker
 ; --------------------
-; Levels for this Unit
-; --------------------
-; Types of Commands for this Unit
-CommandName_stop=σταμάτημα
-CommandName_move=κίνηση
-CommandName_build_basic=δημιουργια στοιχειώδεις
 CommandName_build_advanced=κατασκευή προηγμενου
-CommandName_mine=ορυχείο
-CommandName_harvest_wood=συγκομιδή ξύλου
-CommandName_repair=επιδιόρθωση
 ; -------------------------------------

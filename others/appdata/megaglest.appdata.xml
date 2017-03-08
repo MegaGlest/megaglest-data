@@ -1,41 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2015 MegaGlest Team <contact_at_megaglest.org> -->
+<!-- all urls http type; minimal version of validator: 0.6.1 -->
 <component type="desktop">
- <id>megaglest.desktop</id>
- <metadata_license>CC-BY-SA-4.0</metadata_license>
- <project_license>GPL-3.0+ and CC-BY-SA-3.0</project_license>
- <name>MegaGlest</name>
- <summary>Real time strategy game (RTS)</summary>
- <description>
-  <p>
-    MegaGlest is a 3D real-time strategy game (RTS) with medieval and magic character which offers tutorials, scenarios but also customizable single-player and multi-player skirmishes.
-  </p>
-  <p>
-    Multi-player mode supports cross-platform matches up to 8 players over the Internet or LAN against human opponents, or in cooperation against CPU (A.I.) players of various difficulty levels.
-  </p>
-  <p>
-    From within the game you can download a lot of additional game data (e.g. other maps) at no cost.
-  </p>
- </description>
- <screenshots>
-  <screenshot type="default">
-   <image>https://megaglest.org/uploads/images/appdata/game1.png</image>
-  </screenshot>
-  <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game2.png</image>
-  </screenshot>
-  <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game3.png</image>
-  </screenshot>
-  <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game4.png</image>
-  </screenshot>
-  <screenshot>
-   <image>https://megaglest.org/uploads/images/appdata/game5.png</image>
-  </screenshot>
- </screenshots>
- <url type="homepage">https://megaglest.org</url>
- <url type="donation">https://megaglest.org/donations</url>
- <developer_name>The MegaGlest Team</developer_name>
- <update_contact>contact_at_megaglest.org</update_contact>
+  <id>megaglest.desktop</id>
+  <metadata_license>CC-BY-SA-4.0</metadata_license>
+  <project_license>GPL-3.0+ and CC-BY-SA-3.0</project_license>
+  <name>MegaGlest</name>
+  <summary>Real time strategy game (RTS)</summary>
+  <description>
+    <p>MegaGlest is a 3D real-time strategy game (RTS) with medieval and magic character which offers tutorials, scenarios but also customizable single-player and multi-player skirmishes.</p>
+    <p>Multi-player mode supports cross-platform matches up to 8 players over the Internet or LAN against human opponents, or in cooperation against CPU (A.I.) players of various difficulty levels.</p>
+    <p>From within the game you can download a lot of additional game data (e.g. other maps) at no cost.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image>http://megaglest.org/uploads/images/appdata/game1.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://megaglest.org/uploads/images/appdata/game2.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://megaglest.org/uploads/images/appdata/game3.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://megaglest.org/uploads/images/appdata/game4.png</image>
+    </screenshot>
+    <screenshot>
+      <image>http://megaglest.org/uploads/images/appdata/game5.png</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">http://megaglest.org</url>
+  <url type="bugtracker">http://bugs.megaglest.org</url>
+  <url type="faq">http://faq.megaglest.org</url>
+  <url type="help">http://readme.megaglest.org</url>
+  <url type="donation">http://megaglest.org/donations</url>
+  <url type="translate">http://translate.megaglest.org</url>
+  <developer_name>The MegaGlest Team</developer_name>
+  <update_contact>contact_at_megaglest.org</update_contact>
+  <content_rating type="oars-1.0">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">moderate</content_attribute>
+    <content_attribute id="violence-realistic">mild</content_attribute>
+    <content_attribute id="violence-bloodshed">mild</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">mild</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">intense</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+  <languages>
+    <lang percentage="54">sq</lang>
+    <lang percentage="67">ar</lang>
+    <lang percentage="99">zh_CN</lang>
+    <lang percentage="65">zh_TW</lang>
+    <lang percentage="100">cs</lang>
+    <lang percentage="93">da</lang>
+    <lang percentage="100">nl</lang>
+    <lang percentage="100">en</lang>
+    <lang percentage="100">fr</lang>
+    <lang percentage="100">gd</lang>
+    <lang percentage="100">de</lang>
+    <lang percentage="98">el</lang>
+    <lang percentage="96">he</lang>
+    <lang percentage="98">id</lang>
+    <lang percentage="100">ga</lang>
+    <lang percentage="100">it</lang>
+    <lang percentage="52">ja</lang>
+    <lang percentage="96">nqo</lang>
+    <lang percentage="100">pl</lang>
+    <lang percentage="62">pt</lang>
+    <lang percentage="100">pt_BR</lang>
+    <lang percentage="96">ro</lang>
+    <lang percentage="100">ru</lang>
+    <lang percentage="76">sl</lang>
+    <lang percentage="100">es</lang>
+    <lang percentage="78">tr</lang>
+    <lang percentage="91">uz</lang>
+    <lang percentage="59">vi</lang>
+  </languages>
+  <translation/>
 </component>

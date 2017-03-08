@@ -1,6 +1,6 @@
 <?xml version="1.0" standalone="yes" ?>
 <scenario>
-	<difficulty value="4"/>
+	<difficulty value="3"/>
 	<players>
 		<player control="human" faction="tech" team="1"/>
 		<player control="cpu-ultra" faction="norsemen" team="2"/>

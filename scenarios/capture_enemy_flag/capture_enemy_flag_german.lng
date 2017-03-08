@@ -11,8 +11,12 @@ Player3InFlagZoneWarning=Spieler 3 ist in Deiner Flaggen-Zone, pass auf!
 Player2HasFlagWarning=Spieler 2 HAT DEINE FLAGGE, hol ihn Dir!!
 Player3HasFlagWarning=Spieler 3 HAT DEINE FLAGGE, hol ihn Dir!!
 
+;flags description (future use)
+CatchThisFlag=Versuche diese Flagge zu erobern.
+FlagForPlayer2=Die Flagge die der grüne Spieler erobern muss.
+FlagForPlayer3=Die Flagge die der blaue Spieler erobern muss.
+
 ;objective strings
-Player2HeadHome=Jetzt, Spieler 2, versuche lebend nach Hause zu kommen und Du gewinnst! Dein Flaggenträger ist in Deiner Teamfarbe markiert, lass ihn nicht sterben.
-Player3HeadHome=Jetzt, Spieler 3, versuche lebend nach Hause zu kommen und Du gewinnst! Dein Flaggenträger ist in Deiner Teamfarbe markiert, lass ihn nicht sterben.
+PlayerHeadHome=Du hast die Flagge! Jetzt bring sie noch nach Hause und du hast gewonnen. Dein Flaggenträger ist in deiner Teamfarbe markiert.
 PlayerWins=Gratulation, Du hast gewonnen!
 PlayerLoses=Schade, Du hast verloren!
