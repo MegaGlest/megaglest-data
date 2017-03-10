@@ -142,7 +142,7 @@
 			<sound enabled="true" start-time="0.0">
 				<sound-file path="/sounds/throw2.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
+			<attack-strength value="150"/>
 			<attack-var value="70"/>
 			<attack-range value="10"/>
 			<attack-type value="energy"/>

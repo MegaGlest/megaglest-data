@@ -75,7 +75,7 @@
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="1"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strength value="35" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>
@@ -102,7 +102,7 @@
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="1"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strength value="35" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0" />
@@ -145,7 +145,7 @@
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="1"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strength value="35" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>
@@ -155,7 +155,7 @@
 					<affected-particle-file path="glow_particles.xml"/>
 				</particles>
                         </attack-boost>
-			<attack-strenght value="170"/>
+			<attack-strength value="170"/>
 			<attack-var value="75"/>
 			<attack-range value="1"/>
 			<attack-type value="slashing"/>
@@ -197,7 +197,7 @@
 				<max-hp value="0"/>
 				<max-ep value="0"/>
 				<sight value="1"/>
-				<attack-strenght value="35" value-percent-multiplier="true"/>
+				<attack-strength value="35" value-percent-multiplier="true"/>
 				<attack-range value="0"/>
 				<armor value="0"/>
 				<move-speed value="0"/>

@@ -101,7 +101,7 @@
 				<sound-file path="sounds/battlemage_attack7.wav"/>
 				<sound-file path="sounds/battlemage_attack8.wav"/>
 			</sound>
-			<attack-strenght value="140"/>
+			<attack-strength value="140"/>
 			<attack-var value="40"/>
 			<attack-range value="7"/>
 			<attack-type value="energy"/>

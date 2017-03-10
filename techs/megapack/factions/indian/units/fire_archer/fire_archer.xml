@@ -96,7 +96,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="110"/>
+			<attack-strength value="110"/>
 			<attack-var value="50"/>
 			<attack-range value="10"/>
 			<attack-type value="piercing"/>

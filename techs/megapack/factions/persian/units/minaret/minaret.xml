@@ -73,7 +73,7 @@
 				<sound-file path="sounds/minarett4.wav"/>
 				<sound-file path="sounds/minarett5.wav"/>
 			</sound>
-			<attack-strenght value="160"/>
+			<attack-strength value="160"/>
 			<attack-var value="50"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>

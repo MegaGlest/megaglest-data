@@ -110,7 +110,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack11.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/stickfighter_attack12.wav"/>
 			</sound>
-			<attack-strenght value="38"/>
+			<attack-strength value="38"/>
 			<attack-var value="30"/>
 			<attack-range value="1"/>
 			<attack-type value="slashing"/>

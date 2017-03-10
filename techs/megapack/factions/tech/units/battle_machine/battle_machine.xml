@@ -98,7 +98,7 @@
 				<sound-file path="sounds/machine_attack1b.wav"/>
 				<sound-file path="sounds/machine_attack1c.wav"/>
 			</sound>
-			<attack-strenght value="400"/>
+			<attack-strength value="400"/>
 			<attack-var value="150"/>
 			<attack-range value="1"/>
 			<attack-type value="slashing"/>
@@ -122,7 +122,7 @@
 				<sound-file path="sounds/machine_attack2b.wav"/>
 				<sound-file path="sounds/machine_attack2c.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strength value="170"/>
 			<attack-var value="75"/>
 			<attack-range value="9"/>
 			<attack-type value="piercing"/>

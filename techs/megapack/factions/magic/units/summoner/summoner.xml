@@ -114,7 +114,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack7.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack8.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strength value="170"/>
 			<attack-var value="50"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>

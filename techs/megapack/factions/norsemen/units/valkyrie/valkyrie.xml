@@ -98,7 +98,7 @@
 				<sound-file path="sounds/valkyrie_attack5.wav"/>
 				<sound-file path="sounds/valkyrie_attack6.wav"/>
 			</sound>
-			<attack-strenght value="300"/>
+			<attack-strength value="300"/>
 			<attack-var value="100"/>
 			<attack-range value="1"/>
 			<attack-type value="sword"/>
@@ -127,7 +127,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack7.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/summoner_attack8.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strength value="170"/>
 			<attack-var value="50"/>
 			<attack-range value="7"/>
 			<attack-type value="magic"/>

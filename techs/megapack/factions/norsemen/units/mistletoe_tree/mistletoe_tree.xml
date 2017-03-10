@@ -86,7 +86,7 @@
 				<sound-file path="/sounds/tower_attack5.wav"/>
 				<sound-file path="/sounds/tower_attack6.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
+			<attack-strength value="150"/>
 			<attack-var value="50"/>
 			<attack-range value="15"/>
 			<attack-type value="magic"/>
