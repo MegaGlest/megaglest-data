@@ -32,7 +32,7 @@
 			<unit name="cow" minimum="15"/>
 		</resource-producer-units>
 		<building-units>
-			<unit name="training_camp" minimum="1"/>
+			<unit name="military_camp" minimum="1"/>
 			<unit name="blacksmith_shop" minimum="1"/>
 			<unit name="training_camp" minimum="2"/>
 			<unit name="temple" minimum="1"/>
