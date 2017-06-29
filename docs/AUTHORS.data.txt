@@ -178,6 +178,7 @@ Irish                 by kscanne (Kevin Scannell)
 Italian               by peschio (Michele Pescosolido) & Marco91 (Marco
                         Mangiacavalli) & pizza90 (Marco Gori) & Alessio Grassi
 Japanese              by hagekura
+Lithuanian            by Dilidonas (Donatas Dilidonas)
 Nko                   by Lasnei (Lasnei KANTE)
 Polish                by filux & TotalNoobPL
 Portuguese            by flaviozavan

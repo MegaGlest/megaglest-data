@@ -4,52 +4,60 @@
 # Gimp
 *.xcf
 # Vim
-*.un~
 Session.vim
-.netrwhist
 # KDevelop
 *.kdev4
 # Meld
 *.orig
+# Emacs
+\#*\#
+.\#
 
-## OSX
-.DS_Store
-.DS_Store?
-.AppleDouble
-.LSOverride
+## macOS
+*.DS_Store
 Icon
-# Thumbnails
-._*
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
 
 ## Windows
 *.old
 # Windows image file caches
-Thumbs.db
-thumbs.db
-ehthumbs.db
+[tT]humbs.db
+ehthumbs*.db
 # Folder config file
 Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+# Dump file
+*.stackdump
 # Visual studio
 *.suo
 *.ncb
 
+## Temp files
+*.tmp
+*.swp
+*.bak
+*.backup
+*.save
+*.autosav
+*.autosave
+
 ## Packages
 # it's better to unpack these files and commit the raw source git has its own built in compression methods
 *.7z
+*.deb
+*.rpm
 *.dmg
 *.gz
+*.tgz
 *.iso
 *.jar
 *.rar
 *.tar
-*.tar.xz
 *.zip
 *.bz2
+*.tbz2
+*.tar.xz
+*.txz
 
 ## Logs and databases
 *.log
@@ -66,11 +74,16 @@ $RECYCLE.BIN/
 !.tx/
 *.blend
 *.blend1
-/build/
+/[bB]uild*/
+/[rR]elease*/
+/[dD]ebug*/
+/dbg*/
+
 
 # Windows_build
 *.dll
 *.exe
+*.msi
 *.pdb
 *.exp
 *.lib

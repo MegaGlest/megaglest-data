@@ -1,0 +1,13 @@
+SCENARIO_NAME=Amazonės Pro
+;message headers
+Amazones=Amazonės
+
+;message strings
+Brief1=Jūsų sąjungininkų pilis privalo nesugriūti!
+
+;objective strings
+Firstwave=Tikslas: Moterims pirmenybė.
+Secondwave=Tikslas: Daugiau moterų.
+Thirdwave=Tikslas: Tikriausiai per daug moterų...
+Fourthwave=Tikslas: Gražus, bet pavojingas ;-)
+Lastwave=Tikslas: Paskutinė ataka!!
