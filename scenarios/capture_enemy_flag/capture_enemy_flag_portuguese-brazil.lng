@@ -13,8 +13,8 @@ Player3HasFlagWarning=O jogador 3 PEGOU SUA BANDEIRA, pegue-o!!
 
 ;flags description (future use)
 CatchThisFlag=Pegue a bandeira!
-# FlagForPlayer2=The flag for capture by green player.
-# FlagForPlayer3=The flag for capture by blue player.
+FlagForPlayer2=Bandeira capturada pelo jogador verde.
+FlagForPlayer3=Bandeira capturada pelo jogador azul.
 
 ;objective strings
 PlayerHeadHome=Você pegou a bandeira. Agora traga ela pra base e vença! O portador da bandeira é representado pela cor de sua equipe, não o deixe morrer.

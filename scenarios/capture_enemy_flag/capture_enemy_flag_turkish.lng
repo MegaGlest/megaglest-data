@@ -12,11 +12,11 @@ Player2HasFlagWarning=2 numaralı oyuncu BAYRAĞINIZI ELE GEÇİRDİ, onu yakala
 Player3HasFlagWarning=3 numaralı oyuncu BAYRAĞINIZI ELE GEÇİRDİ, onu yakala!!
 
 ;flags description (future use)
-# CatchThisFlag=Catch this flag!
-# FlagForPlayer2=The flag for capture by green player.
-# FlagForPlayer3=The flag for capture by blue player.
+CatchThisFlag=Bu bayrağı yakala!
+FlagForPlayer2=Bu bayrak yeşil oyuncunun yakalaması için.
+FlagForPlayer3=Bu bayrak mavi oyuncunun yakalaması için.
 
 ;objective strings
-# PlayerHeadHome=You took the flag. Now bring it home and win! Your flag bearer is highlighted in your team color, don't let him die.
+PlayerHeadHome=Bayrağı sen aldın.Şimdi eve getir ve kazan! Bayrak taşıyıcın takımının rengiyle işaretli, ölmesine izin verme
 PlayerWins=Tebrikler, kazandın!
 PlayerLoses=Çok kötü,kaybettin!
