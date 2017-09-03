@@ -106,7 +106,7 @@
 			<sound enabled="true" start-time="0.3">
 				<sound-file path="$COMMONDATAPATH/sounds/golem_attack1.wav"/>
 			</sound>
-			<attack-strenght value="350"/>
+			<attack-strength value="350"/>
 			<attack-var value="50"/>
 			<attack-range value="3"/>
 			<attack-type value="magic"/>
@@ -140,7 +140,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/air_attack4.wav"/>
 			</sound>
-			<attack-strenght value="170"/>
+			<attack-strength value="170"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>

@@ -112,7 +112,7 @@
 			<sound enabled="true" start-time="0.64">
 				<sound-file path="/sounds/attack3.wav"/>
 			</sound>
-			<attack-strenght value="70"/>
+			<attack-strength value="70"/>
 			<attack-var value="30"/>
 			<attack-range value="4"/>
 			<attack-type value="piercing"/>

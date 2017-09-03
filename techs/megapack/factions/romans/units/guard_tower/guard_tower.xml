@@ -72,7 +72,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack1.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/defense_tower_attack2.wav"/>
 			</sound>
-			<attack-strenght value="135"/>
+			<attack-strength value="135"/>
 			<attack-var value="25"/>
 			<attack-range value="12"/>
 			<attack-type value="piercing"/>

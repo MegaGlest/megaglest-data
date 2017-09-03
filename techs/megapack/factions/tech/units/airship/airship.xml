@@ -112,7 +112,7 @@
 			<sound enabled="true" start-time="0.1">
 				<sound-file path="sounds/airship_attack1.wav"/>
 			</sound>
-			<attack-strenght value="300"/>
+			<attack-strength value="300"/>
 			<attack-var value="150"/>
 			<attack-range value="8"/>
 			<attack-type value="energy"/>

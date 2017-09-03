@@ -122,7 +122,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/horseman_attack14.wav"/>
 			</sound>
-			<attack-strenght value="160"/>
+			<attack-strength value="160"/>
 			<attack-var value="45"/>
 			<attack-range value="2"/>
 			<attack-type value="piercing"/>

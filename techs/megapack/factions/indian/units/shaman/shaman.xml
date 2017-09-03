@@ -119,7 +119,7 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/shaman_attack.wav"/>
 			</sound>
-			<attack-strenght value="200"/>
+			<attack-strength value="200"/>
 			<attack-var value="175"/>
 			<attack-range value="6"/>
 			<attack-type value="energy"/>

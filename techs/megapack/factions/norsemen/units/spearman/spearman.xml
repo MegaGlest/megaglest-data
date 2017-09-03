@@ -106,7 +106,7 @@
 				<sound-file path="sounds/swordman_attack11.wav"/>
 				<sound-file path="sounds/swordman_attack12.wav"/>
 			</sound>
-			<attack-strenght value="50"/>
+			<attack-strength value="50"/>
 			<attack-var value="20"/>
 			<attack-range value="1"/>
 			<attack-type value="piercing"/>

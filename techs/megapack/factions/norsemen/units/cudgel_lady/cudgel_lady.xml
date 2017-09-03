@@ -104,7 +104,7 @@
 				<sound-file path="sounds/cudgel_attack4.wav"/>
 				<sound-file path="sounds/cudgel_attack5.wav"/>
 			</sound>
-			<attack-strenght value="80"/>
+			<attack-strength value="80"/>
 			<attack-var value="40"/>
 			<attack-range value="1"/>
 			<attack-type value="beat"/>

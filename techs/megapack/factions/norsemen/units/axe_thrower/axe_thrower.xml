@@ -93,7 +93,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack5.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/axe_thrower_attack6.wav"/>
 			</sound>
-			<attack-strenght value="130"/>
+			<attack-strength value="130"/>
 			<attack-var value="40"/>
 			<attack-range value="7"/>
 			<attack-type value="magic"/>

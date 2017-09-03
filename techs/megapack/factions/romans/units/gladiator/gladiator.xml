@@ -95,7 +95,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack13.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/guard_attack14.wav"/>
 			</sound>
-			<attack-strenght value="100"/>
+			<attack-strength value="100"/>
 			<attack-var value="10"/>
 			<attack-range value="2"/>
 			<attack-type value="piercing"/>
@@ -120,7 +120,7 @@
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack3.wav"/>
 				<sound-file path="$COMMONDATAPATH/sounds/archer_attack4.wav"/>
 			</sound>
-			<attack-strenght value="180"/>
+			<attack-strength value="180"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="piercing"/>

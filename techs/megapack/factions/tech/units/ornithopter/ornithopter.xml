@@ -104,7 +104,7 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="../technician/sounds/technician_attack.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
+			<attack-strength value="150"/>
 			<attack-var value="100"/>
 			<attack-range value="6"/>
 			<attack-type value="energy"/>
@@ -136,7 +136,7 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="/sounds/orni_attack.wav"/>
 			</sound>
-			<attack-strenght value="150"/>
+			<attack-strength value="150"/>
 			<attack-var value="50"/>
 			<attack-range value="9"/>
 			<attack-type value="piercing"/>
