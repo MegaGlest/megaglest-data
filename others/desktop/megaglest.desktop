@@ -1,9 +1,11 @@
 [Desktop Entry]
 Categories=Game;StrategyGame;
 Comment=A real time strategy game.
+Comment[de]=Echtzeit-Strategiespiel
 Name=MegaGlest
 Icon=megaglest
 Exec=megaglest
 Terminal=false
 Type=Application
 Keywords=realtime;strategy;game;
+Keywords[de]=Echtzeit;Strategie;Spiel;
