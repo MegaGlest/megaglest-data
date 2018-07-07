@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="no"?>
+<achievements>
+<counterBasedAchievement name="ach_win_one_game" pictureName="ach_win_one_game.jpg" counterName="games_played" minCount="1" description="you_played_your_first_game"/>
+</achievements>
