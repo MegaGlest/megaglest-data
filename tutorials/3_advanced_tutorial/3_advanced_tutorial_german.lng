@@ -1,4 +1,4 @@
-TUTORIAL_NAME=Fortgeschrittenen Tutorial
+TUTORIAL_NAME=Fortgeschrittene Einführung
 ;message headers
 GlestAdvancedTutorial=Fortgeschrittene MegaGlest-Einführung
 Promoting=Beförderung von Einheiten
@@ -10,33 +10,33 @@ Armies=Armeen
 
 ;message strings
 Welcome=Willkommen in der fortgeschrittenen Einführung zu MegaGlest. Hier wirst du einige der erweiterten Funktionen des Spiels lernen.
-MagicBrief=Du kommandierst die Magier-Fraktion, die Zauberer und beschworene Kreaturen zum Kämpfen nutzt.
-InitiateBrief=Initiates sind die einfachsten Magier, sie können Ressourcen sammeln und Gebäude bauen.
-InitiatePromotion=Initiates können zu Kampfmagiern (Battlemage) befördert werden. Wähle dazu einen Initiate und klicke auf "Promote to Battlemage".
-BattlemageBrief=Battlemage sind die Hauptkämpfer unter den Magiern. Sie können aus der Ferne angreifen, sind schnell und widerstandsfähig.
+MagicBrief=Du kommandierst die Magier-Fraktion (Magic), die Zauberer und beschworene Kreaturen zum Kämpfen nutzt.
+InitiateBrief=Zauberlehrlinge (Initiates) sind die einfachsten Magier, sie können Ressourcen sammeln und Gebäude bauen.
+InitiatePromotion=Zauberlehrlinge können zu Kampfmagiern (Battlemage) befördert werden. Wähle dazu einen Zauberlehrling und klicke auf „Zum Kampfmagier befördern“ (Promote to Battlemage).
+BattlemageBrief=Kampfmagier sind die Hauptkämpfer unter den Magiern. Sie können aus der Ferne angreifen, sind schnell und widerstandsfähig.
 EnergyBrief=Für Magiereinheiten wird normalerweise Energie benötigt. Diese Energie wird lediglich für die Ausbildung gebraucht und wird nicht verbraucht wie Nahrung. Sie wird durch Energiequellen erzeugt.
-EnergyBrief2=Stelle sicher, dass stets genug Energie zur Ausbildung neuer Einheiten vorhanden ist.
-SummonedUnitsBrief=Eine weitere Möglichkeit, wie die Magier-Fraktion Einheiten erhält, ist das Beschwören. Hierzu wird ein Beschwörer (Summoner) benötigt. Diese werden in der Beschwörerzunft (Summoners Guild) ausgebildet.
-SummonerBrief=Summoner können verschiedene Arten von Kreaturen schaffen. Die einfachste Kreatur ist der Dämon.
+EnergyBrief2=Stell sicher, dass stets genug Energie zur Ausbildung neuer Einheiten vorhanden ist.
+SummonedUnitsBrief=Eine weitere Möglichkeit, wie die Magier-Fraktion Einheiten erhält, ist das Beschwören. Hierzu wird eine Beschwörerin (Summoner) benötigt. Diese werden in der Beschwörergilde (Summoners Guild) ausgebildet.
+SummonerBrief=Beschwörerinnen können verschiedene Arten von Kreaturen erschaffen. Die einfachste Kreatur ist der Dämon (Demon).
 DaemonBrief=Dämonen sind sehr schwach, aber auch sehr günstig. Sie sind nützlich als einfache Nahkämpfer und gut zum Erkunden des Geländes.
-OtherSummonedCreatures=Summoner können auch weiter entwickelte Kreaturen wie Geisterritter (Ghost Armors) und Drachen (Dragons) erschaffen. Hierzu ist es allerdings nötig, dass die entsprechenden Verbesserungen erforscht werden.
-GhostArmorRequirements=Ghost Armor benötigen die antike Beschwörung (Ancient Summoning), welche in der Summonerzunft erforscht werden kann.
-GhostArmorBrief=Ghost Armor stellen die mittlere Nahkampfeinheit dar. Sie sind nützlich, um feindliche Kämpfer von deinen Battlemages fernzuhalten.
-RitualBrief=Initiates kennen noch ein zweites Konstruktionskommando, das Ritual, welches genutzt werden kann, um forgeschrittenere Gebäude und mächtige Kreaturen wie den Golem zu bauen. Um Zugriff auf diese Kommandos zu erhalten, benötigst du eine Bibliothek (Library).
+OtherSummonedCreatures=Beschwörerinnen können auch weiter entwickelte Kreaturen wie Geisterrüstungen (Ghost Armors) und Drachen (Dragons) erschaffen. Hierzu ist es allerdings nötig, dass die entsprechenden Verbesserungen erforscht werden.
+GhostArmorRequirements=Geisterrüstungen benötigen die antike Beschwörung (Ancient Summoning), welche in der Beschwörergilde erforscht werden kann.
+GhostArmorBrief=Geisterrüstungen stellen die mittlere Nahkampfeinheit dar. Sie sind nützlich, um feindliche Kämpfer von deinen Kampfmagiern fernzuhalten.
+RitualBrief=Zauberlehrlinge kennen noch einen zweiten Baubefehl: Das Ritual, welches genutzt werden kann, um forgeschrittenere Gebäude und mächtige Kreaturen wie den Golem zu bauen. Um Zugriff auf diese Befehle zu erhalten, benötigst du eine Bibliothek (Library).
 GolemBrief=Golems sind leistungsstarke Abwehreinheiten. Sie sind effektiv im Angriff und sehr widerstandsfähig, aber sie können sich nur solange bewegen, wie sie genug Energiepunkte übrig haben.
-ArmyManagement=Wenn du eine grössere Anzahl an Einheiten ausbildest und erschaffst, kann es schwierig werden, sie alle zu verwalten.
-DoubleClickBrief=Durch einen Doppelklick auf eine Einheit kannst du alle Einheiten der gleichen Art auswählen die sich in der Gegend befinden.
-GroupSelectBrief=Du kannst Gruppen von Einheiten festlegen indem du eine Gruppe auswählst und dann Strg in Kombination mit einer Nummerntaste drückst. Danach kannst du die Gruppen abrufen, indem du die entsprechende Nummerntaste erneut drückst.
-FinalMission=Als letzten Test musst du nun eine Armee zusammenstellen und deinen Feind besiegen.
+ArmyManagement=Wenn du eine größere Anzahl an Einheiten ausbildest und erschaffst, kann es schwierig werden, sie alle zu verwalten.
+DoubleClickBrief=Durch einen Doppelklick auf eine Einheit kannst du alle Einheiten der gleichen Art auswählen, die sich in der Umgebung befinden.
+GroupSelectBrief=Du kannst Gruppen von Einheiten festlegen, indem du eine Gruppe auswählst und dann Strg in Kombination mit einer Zifferntaste drückst. Danach kannst du die Gruppen abrufen, indem du die entsprechende Zifferntaste erneut drückst.
+FinalMission=Als letzte Prüfung musst du nun eine Armee zusammenstellen und deinen Feind besiegen.
 
 ;objective strings
-PromoteInitiate=Deine Aufgabe: Befördere einen Initiaten zum Battlemage.
-ProduceSummoner=Deine Aufgabe: Baue eine Summoners Guild und bilde einen Summoner aus.
+PromoteInitiate=Deine Aufgabe: Befördere einen Zauberlehrling zum Kampfmagier.
+ProduceSummoner=Deine Aufgabe: Baue eine Beschwörergilde und bilde eine Beschwörerin aus.
 ProduceDaemon=Deine Aufgabe: Beschwöre einen Dämon.
-ProduceGhostArmor=Deine Aufgabe: Erforsche die antike Beschwörung (Ancient Summoning) und beschwöre einen Ghost Armor.
+ProduceGhostArmor=Deine Aufgabe: Erforsche die antike Beschwörung (Ancient Summoning) und beschwöre eine Geisterrüstung.
 BuildEnergySource=Deine Aufgabe: Baue eine Energiequelle.
-ProduceGolem=Deine Aufgabe: Baue eine Bibliothek und dann lasse einen Initiate ein Ritual durchführen, um einen Golem zu bauen.
+ProduceGolem=Deine Aufgabe: Baue eine Bibliothek, dann lass einen Zauberlehrling ein Ritual durchführen, um einen Golem zu bauen.
 DefeatEnemy=Deine Aufgabe: Stelle eine Armee zusammen, dann lokalisiere deinen Gegner und besiege ihn.
 
 ;end
-WellDoneNextScenarios=Gut gemacht! Jetzt kannst Du, ohne dir Sorgen zu machen zu den Szenarien mit geringem Schwierigkeitsgrad gehen. Viel Spaß.
+WellDoneNextScenarios=Gut gemacht! Jetzt kannst du, ohne dir Sorgen zu machen, mit den einfachen Szenarien fortfahren. Viel Spaß.

@@ -1,22 +1,22 @@
-SCENARIO_NAME=Erobere die Fahne
+SCENARIO_NAME=Erobere die Flagge
 ;message headers
 CaptureFlag=Erobere die Flagge
-Warning=Warnung
-Crisis=Roter Alarm!
+Warning=Achtung
+Crisis=Alarmstufe rot!
 
 ;message strings
-Brief1=Erobere die feindliche Flagge, indem Du sie berührst und dann mit dieser Einheit in die Heimat-Basis zurückkehrst! Die feindliche Flagge blinkt auf der kleinen Karte/Mini-Map. Deine Flagge blinkt in Deiner Team-Farbe. Pass auf Überraschungen auf, während Du unterwegs bist.
-Player2InFlagZoneWarning=Spieler 2 ist in Deiner Flaggen-Zone, pass auf!
-Player3InFlagZoneWarning=Spieler 3 ist in Deiner Flaggen-Zone, pass auf!
-Player2HasFlagWarning=Spieler 2 HAT DEINE FLAGGE, hol ihn Dir!!
-Player3HasFlagWarning=Spieler 3 HAT DEINE FLAGGE, hol ihn Dir!!
+Brief1=Erobere die feindliche Flagge, indem du sie berührst und dann mit dieser Einheit in die Heimatbasis zurückkehrst! Die feindliche Flagge blinkt auf der Minikarte. Deine Flagge blinkt in deiner Teamfarbe. Pass auf Überraschungen auf, während du unterwegs bist.
+Player2InFlagZoneWarning=Spieler 2 ist in deiner Flaggenzone, pass auf!
+Player3InFlagZoneWarning=Spieler 3 ist in deiner Flaggenzone, pass auf!
+Player2HasFlagWarning=Spieler 2 HAT DEINE FLAGGE, hol ihn dir!
+Player3HasFlagWarning=Spieler 3 HAT DEINE FLAGGE, hol ihn dir!
 
 ;flags description (future use)
-CatchThisFlag=Versuche diese Flagge zu erobern.
-FlagForPlayer2=Die Flagge die der grüne Spieler erobern muss.
-FlagForPlayer3=Die Flagge die der blaue Spieler erobern muss.
+CatchThisFlag=Versuch, diese Flagge zu erobern.
+FlagForPlayer2=Die Flagge, die der grüne Spieler erobern muss.
+FlagForPlayer3=Die Flagge, die der blaue Spieler erobern muss.
 
 ;objective strings
 PlayerHeadHome=Du hast die Flagge! Jetzt bring sie noch nach Hause und du hast gewonnen. Dein Flaggenträger ist in deiner Teamfarbe markiert.
-PlayerWins=Gratulation, Du hast gewonnen!
-PlayerLoses=Schade, Du hast verloren!
+PlayerWins=Gratulation, du hast gewonnen!
+PlayerLoses=Schade, du hast verloren!

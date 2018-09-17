@@ -3,11 +3,11 @@ SCENARIO_NAME=Amazonen (leicht)
 Amazones=Amazonen
 
 ;message strings
-Brief1=Deine Aufgabe: Das Schloß deines Freundes muss überleben!
+Brief1=Deine Aufgabe: Das Schloss deines Freundes muss überleben!
 
 ;objective strings
-Firstwave=Welle 1: Ladies in grün
-Secondwave=Welle2: Noch mehr Ladies ;-)
-Thirdwave=Welle 3: Vielleicht doch zu viele Ladies ?
-Fourthwave=Welle 4: Hübsch aber gefährlich.
-Lastwave=Welle5: Die letzte Angriffswelle
+Firstwave=1. Welle: Damen in grün
+Secondwave=2. Welle: Noch mehr Damen ;-)
+Thirdwave=3. Welle: Vielleicht doch zu viele Damen?
+Fourthwave=4. Welle: Hübsch aber gefährlich.
+Lastwave=5. Welle: Die letzte Angriffswelle
