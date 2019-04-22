@@ -232,38 +232,20 @@
 
 		<command>
 			<type value= "build"/>
-			<name value="build_basic"/>
-			<image path="images/worker_build_basic.bmp"/>
+			<name value="build"/>
+			<image path="images/worker_build.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-                                <building name="farm"/>
+				<building name="farm"/>
 				<building name="barracks"/>
 				<building name="blacksmith"/>
-				<building name="castle"/>
-			</buildings>
-			<start-sound enabled="false"/>
-			<built-sound enabled="true">
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end2.wav"/>
-				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end3.wav"/>
-			</built-sound>
-		</command>
-
-		<command>
-			<type value= "build"/>
-			<name value="build_advanced"/>
-			<image path="images/worker_build_advanced.bmp"/>
-			<unit-requirements/>
-			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<build-skill value="build_skill"/>
-			<buildings>
 				<building name="technodrome"/>
 				<building name="defense_tower"/>
-                	</buildings>
+				<building name="castle"/>
+			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="true">
 				<sound-file path="$COMMONDATAPATH/sounds/worker_work_end1.wav"/>

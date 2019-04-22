@@ -288,8 +288,8 @@
 
 		<command>
 			<type value="build"/>
-			<name value="build_ultimate"/>
-			<image path="../worker/images/worker_build_advanced.bmp"/>
+			<name value="build"/>
+			<image path="../worker/images/worker_build.bmp"/>
 			<unit-requirements/>
 			<upgrade-requirements/>
 			<move-skill value="move_skill"/>
