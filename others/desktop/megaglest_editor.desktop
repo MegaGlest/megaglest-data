@@ -1,6 +1,7 @@
 [Desktop Entry]
 Categories=Game;StrategyGame;
 Comment=Map Editor
+Comment[de]=Karteneditor
 Name=MegaGlest Map Editor
 Icon=megaglest
 Exec=megaglest_editor
