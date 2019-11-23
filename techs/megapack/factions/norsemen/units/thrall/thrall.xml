@@ -239,11 +239,11 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-                                <building name="house"/>
+				<building name="farm"/>
+				<building name="house"/>
 				<building name="mead_bar"/>
 				<building name="bone_tent"/>
 				<building name="blacksmith"/>
-				<building name="farm"/>
 				<building name="valhalla"/>
 				<building name="thor_totem"/>
 				<building name="castle"/>
