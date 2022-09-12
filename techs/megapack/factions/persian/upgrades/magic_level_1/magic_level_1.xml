@@ -2,7 +2,7 @@
 
 <upgrade>
 	<image path="images/magic1.bmp"/>
-	<image-cancel path="../corn_and_wicker/images/tech_upgrade_cancel.bmp"/>
+	<image-cancel path="../../../cancel.bmp"/>
 	<time value="150"/>
 	<unit-requirements/>
 	<upgrade-requirements/>

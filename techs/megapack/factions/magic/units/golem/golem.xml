@@ -33,7 +33,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/golem.bmp"/>
-		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/golem_select1.wav"/>
