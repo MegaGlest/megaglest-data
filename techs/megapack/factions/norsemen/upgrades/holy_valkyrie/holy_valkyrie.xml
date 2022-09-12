@@ -2,7 +2,7 @@
 
 <upgrade>
 	<image path="images/holy_valkyrie.bmp"/>
-	<image-cancel path="../advanced_iron/images/tech_upgrade_cancel.bmp"/>
+	<image-cancel path="../../../cancel.bmp"/>
 	<time value="100"/>
 		<unit-requirements>
 		</unit-requirements>
