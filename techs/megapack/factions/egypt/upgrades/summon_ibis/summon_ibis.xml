@@ -2,7 +2,7 @@
 
 <upgrade>
 	<image path="images/stables.bmp"/>
-	<image-cancel path="../spear_weapons/images/upgrade_cancel.bmp"/>
+	<image-cancel path="../../../cancel.bmp"/>
 	<time value="200"/>
 	<unit-requirements/>
 	<upgrade-requirements />

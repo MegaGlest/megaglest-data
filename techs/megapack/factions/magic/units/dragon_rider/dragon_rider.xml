@@ -34,7 +34,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/drake_rider.bmp"/>
-		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/dr_select1.wav"/>
