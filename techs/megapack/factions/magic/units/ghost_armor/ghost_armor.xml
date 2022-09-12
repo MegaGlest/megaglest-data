@@ -30,7 +30,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/ghost_armor.bmp"/>
-		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/ghost_armor_select1.wav"/>
