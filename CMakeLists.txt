@@ -1,6 +1,6 @@
 ##################################################################################
 # Game data
-CMAKE_MINIMUM_REQUIRED( VERSION 2.8.2 )
+CMAKE_MINIMUM_REQUIRED( VERSION 3.10 )
 PROJECT( MegaGlest )
 
 OPTION(WANT_INSTALL_DATA "Install MegaGlest's data" ON)
