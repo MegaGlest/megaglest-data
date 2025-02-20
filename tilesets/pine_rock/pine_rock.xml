@@ -87,7 +87,9 @@
 	</ambient-sounds>
 
 	<parameters>
-		<water effects="true" waves="true" waveAmplitude="0.14" waveSpeed="0.013" waveFrequency="0.4">
+		<water effects="true">
+            <wave amplitude="0.5" speed="2.4" frequency="1" angle="25"/>
+            <wave amplitude="0.4" speed="2.6" frequency="1.6" angle="15"/>
 			<texture path="textures/water_001.tga"/>
 			<texture path="textures/water_002.tga"/>
 			<texture path="textures/water_003.tga"/>
