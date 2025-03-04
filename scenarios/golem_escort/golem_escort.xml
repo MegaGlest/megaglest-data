@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes" ?>
+<scenario>
+<difficulty value="5"/>
+<players>
+	<player control="human" faction="magic" team="1"/>
+	<player control="cpu-ultra" faction="tech" team="2"/>
+	<player control="cpu-mega" faction="tech" team="2"/>
+	<player control="cpu-mega" faction="magic" team="1"/>
+</players>
+<map value="mountains"/>
+<tileset value="pine_rock"/>
+<tech-tree value="magitech"/>
+	<default-resources value="true"/>
+	<default-units value="false"/>
+	<default-victory-conditions value="false"/>
+	<fog-of-war value="true"/>
+	<scripts external="true" />
+</scenario>

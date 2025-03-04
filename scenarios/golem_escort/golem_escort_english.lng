@@ -1,0 +1,9 @@
+SCENARIO_NAME=Golem Escort
+;message headers
+Golem Escort=Golem Escort
+StoneGodArrived=Escort Completed Successfully
+
+;objective strings
+Objective=Escort the stone god safely to your base and he will reward you by teleporting in reinforcements.
+Reinforced=Well done! The stone god has summoned forth an army to assist you. Now you must destroy your enemies' castles.
+GolemDestroyed=The stone god has been slain! Although you have failed miserably, you may yet redeem yourself by making another attempt in your next life.
