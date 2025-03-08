@@ -34,7 +34,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/valkyrie.bmp"/>
-		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="sounds/valkyrie_select1.wav"/>
@@ -211,7 +211,8 @@
 			<move-skill value="charge_skill"/>
 			<attack-skill value="attack_skill"/>
 		</command>
-		<command>
+
+		<command>
 			<type value="attack"/>
 			<name value="airattack"/>
 			<image path="images/air_attack.bmp"/>
