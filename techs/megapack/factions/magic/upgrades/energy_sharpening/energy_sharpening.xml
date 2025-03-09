@@ -2,7 +2,7 @@
 
 <upgrade>
 	<image path="images/energy_sharpening.bmp"/>
-	<image-cancel path="../ancient_summoning/images/magic_upgrade_cancel.bmp"/>
+	<image-cancel path="../../../cancel.bmp"/>
 	<time value="400"/>
 	<unit-requirements/>
 	<upgrade-requirements/>

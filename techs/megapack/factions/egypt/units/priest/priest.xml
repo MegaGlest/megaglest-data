@@ -30,7 +30,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/priest.bmp"/>
-		<image-cancel path="../spearman/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/swordman_select1.wav"/>

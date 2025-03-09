@@ -39,7 +39,7 @@
 			<resource name="wood" amount="200" />
 		</resources-stored>
 		<image path="images/technodrome.bmp"/>
-		<image-cancel path="../archer/images/tech_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="true" image-path="../barracks/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
 			<sound path="$COMMONDATAPATH/sounds/tech_click.wav" />

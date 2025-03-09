@@ -32,7 +32,7 @@
 		</resource-requirements>
 		<resources-stored/>
 		<image path="images/wicker_behemoth.bmp"/>
-		<image-cancel path="../archmage/images/magic_cancel.bmp"/>
+		<image-cancel path="../../cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="true">
 			<sound path="../archmage_tower/sounds/magic_click.wav"/>
