@@ -1,0 +1,9 @@
+SCENARIO_NAME=Escolta do Golem
+;message headers
+Golem Escort=Escolta do Golem
+StoneGodArrived=Escolta concluída com sucesso
+
+;objective strings
+Objective=Escolte o deus de pedra em segurança até a sua base e ele o recompensará teleportando reforços.
+Reinforced=Muito bem! O deus de pedra invocou um exército para ajudar você. Agora destrua os castelos dos seus inimigos.
+GolemDestroyed=O deus de pedra foi abatido! Você fracassou de forma humilhante, mas ainda pode se redimir tentando de novo na sua próxima vida.
